@@ -1,0 +1,17 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded square frame -->
+  <rect x="1.5" y="1.5" width="45" height="45" rx="12" stroke="#F97316" stroke-width="3" fill="none"/>
+  <!-- Fork -->
+  <g fill="#F97316">
+    <rect x="11" y="10" width="2.8" height="11" rx="1.4"/>
+    <rect x="16" y="10" width="2.8" height="11" rx="1.4"/>
+    <rect x="21" y="10" width="2.8" height="11" rx="1.4"/>
+    <rect x="10" y="19" width="14.5" height="4" rx="2"/>
+    <rect x="15.5" y="22" width="3.5" height="16" rx="1.75"/>
+  </g>
+  <!-- Knife -->
+  <g fill="#F97316">
+    <path d="M30 10h3.5c2.5 0 5 3 5 7.5s-2 6-4.5 7l-1 .4V38h-3.5V10z"/>
+    <path d="M33.5 13v8" stroke="#FFFBF5" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
