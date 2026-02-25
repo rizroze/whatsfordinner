@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { ToastProvider } from "@/components/ui/Toast";
 import { I18nProvider } from "@/lib/i18n/context";
 import "./globals.css";
@@ -40,6 +41,7 @@ export default function RootLayout({
         <I18nProvider>
           <ToastProvider>{children}</ToastProvider>
         </I18nProvider>
+        <Analytics />
       </body>
     </html>
   );
