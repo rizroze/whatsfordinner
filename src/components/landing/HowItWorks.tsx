@@ -81,13 +81,13 @@ export function HowItWorks() {
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
           {steps.map((step) => (
             <div key={step.number} className="flex flex-col items-center text-center">
-              {/* Number circle */}
-              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 text-orange-600 text-sm font-bold mb-5">
-                {step.number}
+              {/* Number + Icon */}
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-orange-100 text-orange-600 text-sm font-bold shrink-0">
+                  {step.number}
+                </div>
+                <div className="shrink-0">{step.icon}</div>
               </div>
-
-              {/* Icon */}
-              <div className="mb-4">{step.icon}</div>
 
               {/* Title */}
               <h3 className="text-lg font-semibold text-stone-900 mb-2">
