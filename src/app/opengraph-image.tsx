@@ -35,14 +35,16 @@ export default async function OGImage() {
           }}
         />
 
-        {/* Top left: fork+knife icon + name */}
+        {/* Top center: fork+knife icon + name */}
         <div
           style={{
             position: "absolute",
             top: 44,
-            left: 100,
+            left: 0,
+            right: 0,
             display: "flex",
             alignItems: "center",
+            justifyContent: "center",
             gap: 14,
           }}
         >
@@ -140,7 +142,7 @@ export default async function OGImage() {
               letterSpacing: "0px",
             }}
           >
-            Personalized meal plans + grocery lists, delivered to your inbox weekly. $4.99/mo.
+            Personalized meal plans + grocery lists, delivered to your inbox weekly.
           </div>
         </div>
 
