@@ -423,19 +423,16 @@ function OnboardingContent() {
                 </Link>
               </Button>
             </div>
-            <div className="pt-3 border-t border-orange-200 mt-3">
-              <p className="text-sm text-stone-500">
-                Already generated a plan?{" "}
-                <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
-                  Sign in
-                </Link>
-                {" "}or{" "}
-                <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
-                  create an account
-                </Link>
-                {" "}to view it.
-              </p>
-            </div>
+            <p className="text-xs text-stone-400 pt-2">
+              Already have an account?{" "}
+              <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
+                Sign in
+              </Link>
+              {" "}&middot;{" "}
+              <Link href="/preview" className="text-orange-500 hover:text-orange-600 font-medium">
+                View your free plan
+              </Link>
+            </p>
           </div>
         ) : (
           <>
