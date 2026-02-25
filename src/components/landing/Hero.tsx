@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
       <div className="relative max-w-3xl mx-auto px-6 py-24 sm:py-40 text-center">
-        <h1 className="text-[1.6rem] sm:text-5xl md:text-6xl font-bold text-stone-900 tracking-tight leading-[1.1] whitespace-nowrap text-center">
+        <h1 className="text-[1.6rem] sm:text-5xl md:text-6xl font-bold text-stone-900 tracking-tight leading-[1.1] whitespace-nowrap text-center -translate-x-1">
           You&apos;ll never have to ask again.
         </h1>
 
