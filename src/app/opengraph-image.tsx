@@ -76,40 +76,6 @@ export default async function OGImage() {
             padding: "0 100px",
           }}
         >
-          {/* Decorative quote mark — top left */}
-          <div
-            style={{
-              position: "absolute",
-              top: 150,
-              left: 110,
-              fontSize: 140,
-              fontWeight: 900,
-              color: "#FDBA74",
-              opacity: 0.25,
-              lineHeight: 1,
-              display: "flex",
-            }}
-          >
-            &ldquo;
-          </div>
-
-          {/* Decorative quote mark — bottom right */}
-          <div
-            style={{
-              position: "absolute",
-              bottom: 130,
-              right: 110,
-              fontSize: 140,
-              fontWeight: 900,
-              color: "#FDBA74",
-              opacity: 0.25,
-              lineHeight: 1,
-              display: "flex",
-            }}
-          >
-            &rdquo;
-          </div>
-
           {/* Headline */}
           <div
             style={{
