@@ -11,9 +11,12 @@ export default function Home() {
     <main>
       {/* Site header */}
       <nav className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-        <span className="text-xl font-semibold text-stone-800 tracking-tight">
-          What&apos;s For Dinner?
-        </span>
+        <Link
+          href="/"
+          className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors shrink-0"
+        >
+          <span className="text-xl leading-none" style={{ filter: "brightness(0) invert(1)", letterSpacing: "0.1em" }}>🍴</span>
+        </Link>
         <div className="flex items-center gap-4">
           <Link
             href="/login"
