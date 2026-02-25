@@ -35,16 +35,14 @@ export default async function OGImage() {
           }}
         />
 
-        {/* Top center: fork+knife icon + name */}
+        {/* Top left: fork+knife icon + name */}
         <div
           style={{
             position: "absolute",
             top: 44,
-            left: 0,
-            right: 0,
+            left: 100,
             display: "flex",
             alignItems: "center",
-            justifyContent: "center",
             gap: 14,
           }}
         >
