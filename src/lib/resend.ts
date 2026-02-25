@@ -16,6 +16,13 @@ function buildMealPlanEmail(weekOf: string, plan: MealPlanData): string {
   const totalCookTime = plan.days.reduce((sum, d) => sum + d.meals.reduce((s, m) => s + (m.cookTime || 0) + (m.prepTime || 0), 0), 0);
   const groceryCount = plan.groceryList.reduce((sum, cat) => sum + cat.items.length, 0);
 
+  // Yearly projections (52 weeks)
+  const mealsPerYear = totalMeals * 52;
+  // ~25 min/day saved from not thinking about meals → ~150 hrs/yr
+  const hoursSavedYearly = 150;
+  // Yearly subscription savings vs meal kits ($200/mo avg meal kit vs $4.99/mo)
+  const yearlySavings = Math.round((200 - 5) * 12);
+
   const daysSummary = plan.days
     .map((day) => {
       const meals = day.meals
@@ -37,33 +44,28 @@ function buildMealPlanEmail(weekOf: string, plan: MealPlanData): string {
       <div style="max-width:600px;margin:0 auto;padding:32px 24px;">
 
         <!-- Header -->
-        <div style="text-align:center;margin-bottom:24px;">
-          <h1 style="margin:0;font-size:24px;color:#1C1917;">Your Meal Plan is Ready</h1>
-          <p style="margin:8px 0 0;color:#57534E;font-size:15px;">Week of ${weekLabel}</p>
+        <div style="text-align:center;margin-bottom:8px;">
+          <p style="margin:0;color:#57534E;font-size:14px;">Week of ${weekLabel}</p>
         </div>
 
-        <!-- Stats bar -->
-        <div style="background:#FFF7ED;border-radius:12px;padding:16px 20px;margin-bottom:24px;">
-          <table width="100%" cellpadding="0" cellspacing="0" style="font-size:13px;">
-            <tr>
-              <td style="text-align:center;padding:4px 0;">
-                <div style="font-size:20px;font-weight:700;color:#1C1917;">${totalMeals}</div>
-                <div style="color:#A8A29E;font-size:11px;">meals</div>
-              </td>
-              <td style="text-align:center;padding:4px 0;">
-                <div style="font-size:20px;font-weight:700;color:#1C1917;">${groceryCount}</div>
-                <div style="color:#A8A29E;font-size:11px;">grocery items</div>
-              </td>
-              <td style="text-align:center;padding:4px 0;">
-                <div style="font-size:20px;font-weight:700;color:#1C1917;">${totalCalories.toLocaleString()}</div>
-                <div style="color:#A8A29E;font-size:11px;">total cal</div>
-              </td>
-              <td style="text-align:center;padding:4px 0;">
-                <div style="font-size:20px;font-weight:700;color:#F97316;">${totalCookTime} min</div>
-                <div style="color:#A8A29E;font-size:11px;">cook time</div>
-              </td>
-            </tr>
-          </table>
+        <!-- Hero stats block -->
+        <div style="background:linear-gradient(135deg,#FFF7ED 0%,#FFEDD5 100%);border-radius:16px;padding:28px 24px;margin-bottom:24px;">
+          <!-- Small stats line -->
+          <p style="margin:0 0 4px;font-size:12px;color:#78716C;">
+            planned ${totalMeals} meals &middot; ${groceryCount} grocery items &middot; ${totalCalories.toLocaleString()} cal
+          </p>
+          <p style="margin:0 0 16px;font-size:12px;color:#EA580C;">
+            ${totalCookTime} min total cook time &middot; Est. ${plan.estimatedWeeklyCost}
+          </p>
+          <!-- Big headline -->
+          <h1 style="margin:0;font-size:28px;font-weight:800;color:#1C1917;line-height:1.2;">
+            just saved <span style="color:#F97316;">${hoursSavedYearly}+ hours/yr</span><br>
+            not thinking about what to eat
+          </h1>
+          <!-- Yearly hook -->
+          <p style="margin:12px 0 0;font-size:13px;color:#78716C;">
+            That's <strong style="color:#1C1917;">$${yearlySavings}/yr saved</strong> vs. meal kits &middot; yours for just $2.50/mo on the yearly plan
+          </p>
         </div>
 
         <!-- Meals -->
