@@ -8,7 +8,43 @@ import { PastPlans } from "@/components/dashboard/PastPlans";
 import { SubscriptionStatus } from "@/components/dashboard/SubscriptionStatus";
 import { FreePlanBanner } from "@/components/dashboard/FreePlanBanner";
 import { LogoutButton } from "@/components/dashboard/LogoutButton";
-import type { MealPlanRecord } from "@/types/meal-plan";
+import type { MealPlanRecord, MealPlanData } from "@/types/meal-plan";
+
+function DashboardHero({ planData, isSubscribed }: { planData: MealPlanData; isSubscribed: boolean }) {
+  const totalMeals = planData.days.reduce((sum, d) => sum + d.meals.length, 0);
+  const totalGroceryItems = planData.groceryList.reduce((sum, c) => sum + c.items.length, 0);
+  const totalCalories = planData.days.reduce((sum, d) => sum + d.totalCalories, 0);
+  const totalCookTime = planData.days.reduce(
+    (sum, d) => sum + d.meals.reduce((ms, m) => ms + m.prepTime + m.cookTime, 0),
+    0,
+  );
+  const hoursSavedYearly = Math.round((25 * 365) / 60 / 10) * 10;
+
+  return (
+    <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-12">
+        <p className="text-xs sm:text-sm text-stone-500 mb-1">
+          {totalMeals} meals &middot; {totalGroceryItems} grocery items &middot; {totalCalories.toLocaleString()} cal &middot; Est. {planData.estimatedWeeklyCost}
+        </p>
+        <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
+          just saved <span className="text-orange-500">{hoursSavedYearly}+ hours/yr</span>
+          <br className="hidden sm:block" />
+          <span className="sm:hidden"> </span>not thinking about what to eat
+        </h2>
+        {!isSubscribed && (
+          <div className="mt-4 flex items-center gap-3">
+            <a
+              href="/signup?plan=monthly"
+              className="inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm transition-all duration-200"
+            >
+              Get this every week — $4.99/mo
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default async function DashboardPage() {
   const supabase = await createClient();
@@ -75,13 +111,18 @@ export default async function DashboardPage() {
         </div>
       </header>
 
+      {/* Hero stat — iconic heading */}
+      {currentPlan?.plan_data && (
+        <DashboardHero planData={currentPlan.plan_data} isSubscribed={isSubscribed} />
+      )}
+
       {/* Content */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
         {/* Free plan from localStorage — client component */}
         <FreePlanBanner hasDbPlan={!!currentPlan} hasProfile={hasProfile} />
 
-        {/* Upgrade banner for free users who've used their free plan */}
-        {!isSubscribed && freeUsed && (
+        {/* Upgrade banner for free users without the hero */}
+        {!isSubscribed && freeUsed && !currentPlan?.plan_data && (
           <div className="mb-8 bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <h3 className="font-semibold text-stone-800">
@@ -106,9 +147,6 @@ export default async function DashboardPage() {
             {hasProfile && (
               <>
                 <section>
-                  <h2 className="text-lg font-semibold text-stone-800 mb-4">
-                    This Week&apos;s Plan
-                  </h2>
                   <CurrentPlan plan={currentPlan} isSubscribed={isSubscribed} />
                 </section>
 
@@ -160,17 +198,42 @@ export default async function DashboardPage() {
                 </h3>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-stone-500 mb-3">
-                  {hasProfile
-                    ? "Update your dietary preferences, household size, or delivery schedule."
-                    : "Complete your preferences to get personalized weekly meal plans."}
-                </p>
-                <Link
-                  href={hasProfile ? "/onboarding?edit=1" : "/onboarding"}
-                  className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200"
-                >
-                  {hasProfile ? "Edit preferences →" : "Set up preferences →"}
-                </Link>
+                {hasProfile && !isSubscribed && freeUsed ? (
+                  <>
+                    <div className="flex items-center gap-2 mb-2">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-stone-400 shrink-0">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                        <path d="M7 11V7a5 5 0 0110 0v4" />
+                      </svg>
+                      <p className="text-sm font-medium text-stone-700">
+                        Preferences locked
+                      </p>
+                    </div>
+                    <p className="text-sm text-stone-500 mb-3">
+                      You&apos;ve used your free 1-day plan. Subscribe to edit preferences and get fresh plans every week.
+                    </p>
+                    <a
+                      href="/signup?plan=monthly"
+                      className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200"
+                    >
+                      Subscribe — $4.99/mo →
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    <p className="text-sm text-stone-500 mb-3">
+                      {hasProfile
+                        ? "Update your dietary preferences, household size, or delivery schedule."
+                        : "Complete your preferences to get personalized weekly meal plans."}
+                    </p>
+                    <Link
+                      href={hasProfile ? "/onboarding?edit=1" : "/onboarding"}
+                      className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200"
+                    >
+                      {hasProfile ? "Edit preferences →" : "Set up preferences →"}
+                    </Link>
+                  </>
+                )}
               </CardContent>
             </Card>
           </aside>

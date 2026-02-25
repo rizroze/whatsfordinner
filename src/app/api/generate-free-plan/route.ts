@@ -76,6 +76,13 @@ export const maxDuration = 120;
 
 export async function POST(req: NextRequest) {
   try {
+    // Dev mode: return mock plan without burning tokens (skip all guards)
+    if (process.env.USE_MOCK_PLAN === "1") {
+      const weekOf = getWeekOf();
+      const { MOCK_PLAN } = await import("@/lib/mock-plan");
+      return NextResponse.json({ plan: { ...MOCK_PLAN, weekOf }, weekOf });
+    }
+
     // --- Bot detection: User-Agent ---
     const ua = req.headers.get("user-agent") || "";
     if (!ua || /curl|wget|python|httpie|postman|insomnia|bot|spider|crawl/i.test(ua)) {
@@ -157,6 +164,7 @@ export async function POST(req: NextRequest) {
     };
 
     const weekOf = getWeekOf();
+
     // Free plan = 1 day only (cheaper, faster, and teases the full 7-day subscription)
     const plan = await generateMealPlan(profile, weekOf, { days: 1 });
 

@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { Button } from "@/components/ui/Button";
 import { useT } from "@/lib/i18n/context";
+
 
 export function Hero() {
   const { t } = useT();

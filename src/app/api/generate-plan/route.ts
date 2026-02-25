@@ -126,7 +126,12 @@ export async function POST() {
     // Subscribers get 7 days, free users get 1 day
     const days = isSubscribed ? 7 : 1;
     let planData;
-    try {
+
+    // Dev mode: use mock plan without burning tokens
+    if (process.env.USE_MOCK_PLAN === "1") {
+      const { MOCK_PLAN } = await import("@/lib/mock-plan");
+      planData = { ...MOCK_PLAN, weekOf };
+    } else try {
       planData = await generateMealPlan(profile as UserProfile, weekOf, { days });
     } catch (firstError) {
       console.error("First generation attempt failed:", firstError);

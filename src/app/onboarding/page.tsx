@@ -115,7 +115,7 @@ function OnboardingContent() {
         }
       }
     });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const COOKING_KEYS = [
@@ -269,13 +269,16 @@ function OnboardingContent() {
       <div className="max-w-2xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
         {/* Header */}
         <div className="text-center mb-4 sm:mb-6 relative">
-          <Link
-            href="/"
-            className="absolute left-0 top-0 w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors"
+          <Button
+            asChild
+            size="icon"
+            className="absolute left-0 top-0 w-10 h-10 rounded-xl"
             title="Back to home"
           >
-            <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
-          </Link>
+            <Link href="/">
+              <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
+            </Link>
+          </Button>
           <div className="absolute right-0 top-0">
             <LanguagePicker />
           </div>
@@ -383,18 +386,16 @@ function OnboardingContent() {
               {t("onboarding.blocked.subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row gap-2 justify-center pt-1">
-              <Link
-                href="/signup?plan=monthly"
-                className="inline-flex items-center justify-center px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white text-sm font-medium rounded-full transition-colors"
-              >
-                {t("onboarding.blocked.monthly")}
-              </Link>
-              <Link
-                href="/signup?plan=yearly"
-                className="inline-flex items-center justify-center px-6 py-2.5 bg-white border border-stone-200 hover:border-orange-300 text-stone-700 text-sm font-medium rounded-full transition-colors"
-              >
-                {t("onboarding.blocked.yearly")}
-              </Link>
+              <Button asChild>
+                <Link href="/signup?plan=monthly">
+                  {t("onboarding.blocked.monthly")}
+                </Link>
+              </Button>
+              <Button asChild variant="secondary">
+                <Link href="/signup?plan=yearly">
+                  {t("onboarding.blocked.yearly")}
+                </Link>
+              </Button>
             </div>
           </div>
         ) : (
@@ -430,11 +431,11 @@ function OnboardingContent() {
                 {isLastStep
                   ? loading
                     ? <span className="inline-flex items-center gap-0">
-                        {cookingMessage}
-                        <span className="animated-dots ml-0.5">
-                          <span>.</span><span>.</span><span>.</span>
-                        </span>
+                      {cookingMessage}
+                      <span className="animated-dots ml-0.5">
+                        <span>.</span><span>.</span><span>.</span>
                       </span>
+                    </span>
                     : isEdit ? t("common.save") : t("onboarding.generate")
                   : t("common.next")}
               </Button>

@@ -1,12 +1,8 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { formatWeekOf } from "@/lib/utils";
-import { Card, CardContent } from "@/components/ui/Card";
-import { DayCard } from "@/components/plan/DayCard";
-import { GroceryList } from "@/components/plan/GroceryList";
-import { MobileTabs } from "@/components/plan/MobileTabs";
 import type { MealPlanData, MealPlanRecord } from "@/types/meal-plan";
+import { PlanView } from "./PlanView";
 
 interface PlanPageProps {
   params: Promise<{ weekId: string }>;
@@ -39,12 +35,12 @@ export default async function PlanPage({ params }: PlanPageProps) {
       <div className="min-h-screen bg-[#FFFBF5]">
         <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm">
           <div className="max-w-6xl mx-auto px-6 py-4">
-            <Link
+            <a
               href="/dashboard"
               className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
             >
               &larr; Back to Dashboard
-            </Link>
+            </a>
           </div>
         </header>
         <main className="max-w-6xl mx-auto px-6 py-16 text-center">
@@ -65,12 +61,12 @@ export default async function PlanPage({ params }: PlanPageProps) {
       <div className="min-h-screen bg-[#FFFBF5]">
         <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm">
           <div className="max-w-6xl mx-auto px-6 py-4">
-            <Link
+            <a
               href="/dashboard"
               className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
             >
               &larr; Back to Dashboard
-            </Link>
+            </a>
           </div>
         </header>
         <main className="max-w-6xl mx-auto px-6 py-16 text-center">
@@ -90,67 +86,7 @@ export default async function PlanPage({ params }: PlanPageProps) {
   }
 
   const planData = plan.plan_data as MealPlanData;
+  const formattedWeek = formatWeekOf(weekId);
 
-  return (
-    <div className="min-h-screen bg-[#FFFBF5]">
-      {/* Header */}
-      <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-20">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div>
-            <Link
-              href="/dashboard"
-              className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
-            >
-              &larr; Back to Dashboard
-            </Link>
-            <h1 className="text-xl font-semibold text-stone-800 tracking-tight mt-1">
-              Week of {formatWeekOf(weekId)}
-            </h1>
-          </div>
-          {planData.estimatedWeeklyCost && (
-            <span className="text-sm text-stone-500 hidden sm:block">
-              Est. {planData.estimatedWeeklyCost}
-            </span>
-          )}
-        </div>
-      </header>
-
-      {/* Desktop layout */}
-      <main className="max-w-6xl mx-auto px-6 py-8">
-        {/* Notes */}
-        {planData.notes && (
-          <Card className="mb-8 bg-orange-50/50 border-orange-100">
-            <CardContent className="py-4">
-              <p className="text-sm text-stone-600">{planData.notes}</p>
-            </CardContent>
-          </Card>
-        )}
-
-        {/* Mobile: tab view */}
-        <div className="lg:hidden">
-          <MobileTabs
-            days={planData.days}
-            groceryCategories={planData.groceryList}
-          />
-        </div>
-
-        {/* Desktop: two-column */}
-        <div className="hidden lg:grid lg:grid-cols-5 lg:gap-8">
-          {/* Day plans — wider column */}
-          <div className="lg:col-span-3 space-y-4">
-            {planData.days.map((day, i) => (
-              <DayCard key={day.day} day={day} defaultOpen={i === 0} />
-            ))}
-          </div>
-
-          {/* Grocery list — sticky sidebar */}
-          <div className="lg:col-span-2">
-            <div className="sticky top-24">
-              <GroceryList categories={planData.groceryList} />
-            </div>
-          </div>
-        </div>
-      </main>
-    </div>
-  );
+  return <PlanView planData={planData} weekOf={weekId} formattedWeek={formattedWeek} />;
 }

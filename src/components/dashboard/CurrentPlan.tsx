@@ -2,15 +2,34 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Card, CardContent, CardFooter } from "@/components/ui/Card";
+import { Card, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Spinner } from "@/components/ui/Spinner";
+import { cn } from "@/lib/utils";
 import type { MealPlanRecord } from "@/types/meal-plan";
 
 interface CurrentPlanProps {
   plan: MealPlanRecord | null;
   isSubscribed?: boolean;
+}
+
+const typeLabels: Record<string, string> = {
+  breakfast: "Breakfast",
+  lunch: "Lunch",
+  dinner: "Dinner",
+  snack: "Snack",
+};
+
+const typeDots: Record<string, string> = {
+  breakfast: "bg-orange-400",
+  lunch: "bg-blue-400",
+  dinner: "bg-purple-400",
+  snack: "bg-lime-400",
+};
+
+function getTodayName(): string {
+  return new Date().toLocaleDateString("en-US", { weekday: "long" });
 }
 
 export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
@@ -74,7 +93,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
     );
   }
 
-  // Plan is currently generating
+  // Generating
   if (currentPlan.status === "generating" || loading) {
     return (
       <Card>
@@ -91,7 +110,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
     );
   }
 
-  // Plan failed
+  // Failed
   if (currentPlan.status === "failed") {
     return (
       <Card className="border-red-100">
@@ -116,7 +135,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
             Generation failed
           </h3>
           <p className="text-sm text-stone-500 mb-6">
-            Something went wrong while creating your plan. Please try again.
+            Something went wrong. Please try again.
           </p>
           {error && (
             <p className="text-sm text-red-500 mb-4">{error}</p>
@@ -129,82 +148,118 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
     );
   }
 
-  // Plan is ready or sent
+  // Ready or sent
   const planData = currentPlan.plan_data;
-  const dayCount = planData?.days?.length ?? 0;
-  const mealCount =
-    planData?.days?.reduce((sum, day) => sum + day.meals.length, 0) ?? 0;
+  const todayName = getTodayName();
+  const todayPlan = planData?.days?.find((d) => d.day === todayName);
   const regenLimit = isSubscribed ? 2 : 0;
   const regenLeft = regenLimit - currentPlan.regeneration_count;
 
   return (
     <Card>
       <CardContent>
-        <div className="flex items-start justify-between mb-5">
-          <div>
-            <div className="flex items-center gap-2 mb-1">
-              <h3 className="font-semibold text-stone-800">Current Plan</h3>
-              <Badge variant={currentPlan.status === "sent" ? "success" : "default"}>
-                {currentPlan.status === "sent" ? "Sent" : "Ready"}
-              </Badge>
-            </div>
+        {/* Top bar */}
+        <div className="flex items-center justify-between mb-5">
+          <div className="flex items-center gap-2">
+            <Badge variant={currentPlan.status === "sent" ? "success" : "default"}>
+              {currentPlan.status === "sent" ? "Sent" : "Ready"}
+            </Badge>
             {planData?.estimatedWeeklyCost && (
-              <p className="text-sm text-stone-500">
-                Est. cost: {planData.estimatedWeeklyCost}
-              </p>
+              <span className="text-xs text-stone-400">
+                Est. {planData.estimatedWeeklyCost}
+              </span>
             )}
           </div>
+          <Link
+            href={`/plan/${currentPlan.week_of}`}
+            className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors"
+          >
+            View full plan &rarr;
+          </Link>
         </div>
 
-        {/* Day summary */}
-        <div className="grid grid-cols-7 gap-2 mb-4">
-          {planData?.days?.map((day) => (
-            <div
-              key={day.day}
-              className="text-center p-2 rounded-xl bg-orange-50/60"
-            >
-              <p className="text-xs font-medium text-stone-500 mb-0.5">
-                {day.day.slice(0, 3)}
-              </p>
-              <p className="text-sm font-semibold text-stone-700">
-                {day.meals.length}
-              </p>
-              <p className="text-[10px] text-stone-400">meals</p>
+        {/* Today's meals — the hero of this card */}
+        {todayPlan ? (
+          <div>
+            <p className="text-xs font-semibold text-orange-600 uppercase tracking-wide mb-3">
+              Today &mdash; {todayName}
+            </p>
+            <div className="space-y-2.5">
+              {todayPlan.meals.map((meal) => (
+                <div key={`${meal.type}-${meal.name}`} className="flex items-center gap-3">
+                  <span className={cn("w-2 h-2 rounded-full shrink-0", typeDots[meal.type] ?? "bg-stone-300")} />
+                  <div className="min-w-0 flex-1">
+                    <p className="text-sm font-medium text-stone-800 truncate">
+                      {meal.name}
+                    </p>
+                  </div>
+                  <span className="text-xs text-stone-400 shrink-0">
+                    {typeLabels[meal.type] ?? meal.type}
+                  </span>
+                </div>
+              ))}
             </div>
-          ))}
+            <div className="mt-3 pt-3 border-t border-stone-100 flex items-center gap-3 text-xs text-stone-400">
+              <span>{todayPlan.totalCalories} cal</span>
+              <span>&middot;</span>
+              <span>{todayPlan.meals.reduce((s, m) => s + m.prepTime + m.cookTime, 0)} min cook time</span>
+            </div>
+          </div>
+        ) : (
+          <p className="text-sm text-stone-500 py-4">
+            No meals planned for today.{" "}
+            <Link href={`/plan/${currentPlan.week_of}`} className="text-orange-500 hover:text-orange-600 font-medium">
+              See full week
+            </Link>
+          </p>
+        )}
+
+        {/* Week dots — subtle indicator of which days have plans */}
+        <div className="flex items-center gap-1 mt-4 pt-4 border-t border-stone-100">
+          {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => {
+            const hasDay = planData?.days?.some((day) => day.day.startsWith(d));
+            const isToday = todayName.startsWith(d);
+            return (
+              <div
+                key={d}
+                className={cn(
+                  "flex-1 text-center py-1.5 rounded-lg text-[10px] font-medium",
+                  isToday
+                    ? "bg-orange-500 text-white"
+                    : hasDay
+                      ? "bg-stone-100 text-stone-500"
+                      : "text-stone-300",
+                )}
+              >
+                {d}
+              </div>
+            );
+          })}
         </div>
 
-        <p className="text-sm text-stone-500">
-          {dayCount} days &middot; {mealCount} meals planned
-        </p>
-      </CardContent>
-
-      <CardFooter className="gap-3 flex-wrap border-none pt-0">
-        <Link href={`/plan/${currentPlan.week_of}`}>
-          <Button variant="primary" size="sm">
-            View Full Plan
+        {/* Actions */}
+        <div className="flex items-center gap-3 mt-4">
+          <Button
+            variant="secondary"
+            size="sm"
+            loading={loading}
+            disabled={regenLeft <= 0}
+            onClick={handleGenerate}
+          >
+            Regenerate
           </Button>
-        </Link>
-        <Button
-          variant="secondary"
-          size="sm"
-          loading={loading}
-          disabled={regenLeft <= 0}
-          onClick={handleGenerate}
-        >
-          Regenerate
-        </Button>
-        <span className="text-xs text-stone-400 ml-auto">
-          {!isSubscribed
-            ? "Subscribe to regenerate"
-            : regenLeft > 0
-              ? `${currentPlan.regeneration_count}/2 regenerations used`
-              : "2/2 regenerations used"}
-        </span>
+          <span className="text-xs text-stone-400">
+            {!isSubscribed
+              ? "Subscribe to regenerate"
+              : regenLeft > 0
+                ? `${currentPlan.regeneration_count}/2 used`
+                : "2/2 used"}
+          </span>
+        </div>
         {error && (
-          <p className="text-sm text-red-500 w-full">{error}</p>
+          <p className="text-sm text-red-500 mt-2">{error}</p>
         )}
-      </CardFooter>
+      </CardContent>
     </Card>
   );
 }
