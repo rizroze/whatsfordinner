@@ -2,10 +2,11 @@ import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getCustomer } from "@lemonsqueezy/lemonsqueezy.js";
-import "@/lib/lemonsqueezy"; // ensure setup runs
+import { ensureLemonSqueezySetup } from "@/lib/lemonsqueezy";
 
 export async function POST() {
   try {
+    ensureLemonSqueezySetup();
     const supabase = await createClient();
     const {
       data: { user },

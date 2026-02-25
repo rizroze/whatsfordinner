@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createCheckout } from "@lemonsqueezy/lemonsqueezy.js";
-import { STORE_ID, VARIANTS, type PlanInterval } from "@/lib/lemonsqueezy";
+import { ensureLemonSqueezySetup, STORE_ID, VARIANTS, type PlanInterval } from "@/lib/lemonsqueezy";
 import { getAppUrl } from "@/lib/utils";
 
 export async function POST(req: NextRequest) {
   try {
+    ensureLemonSqueezySetup();
+
     const supabase = await createClient();
     const {
       data: { user },

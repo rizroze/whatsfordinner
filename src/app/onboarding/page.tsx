@@ -426,8 +426,7 @@ function OnboardingContent() {
                     const data = await res.json();
                     if (data.url) { window.location.href = data.url; return; }
                   } catch {}
-                  // Fallback to signup if checkout not configured
-                  router.push("/signup?plan=monthly");
+                  setSubscribing(false);
                 }}
               >
                 {t("onboarding.blocked.monthly")}
@@ -446,8 +445,7 @@ function OnboardingContent() {
                     const data = await res.json();
                     if (data.url) { window.location.href = data.url; return; }
                   } catch {}
-                  // Fallback to signup if checkout not configured
-                  router.push("/signup?plan=yearly");
+                  setSubscribing(false);
                 }}
               >
                 {t("onboarding.blocked.yearly")}
