@@ -10,9 +10,7 @@ export function Hero() {
 
       <div className="relative max-w-3xl mx-auto px-6 py-32 sm:py-40 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-stone-900 tracking-tight leading-[1.1]">
-          You&apos;ll never have to
-          <br />
-          ask again.
+          You&apos;ll never have to ask again.
         </h1>
 
         <p className="mt-6 text-lg sm:text-xl text-stone-600 max-w-lg mx-auto leading-relaxed">
