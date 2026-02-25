@@ -13,10 +13,11 @@ export function Hero() {
           You&apos;ll never have to ask again.
         </h1>
 
-        <p className="mt-4 sm:mt-6 text-base sm:text-xl text-stone-600 max-w-lg mx-auto leading-relaxed">
+        <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-md mx-auto leading-relaxed">
           Personalized weekly meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan
-          <br />
-          <span className="text-orange-500 font-medium">— no credit card required.</span>
+        </p>
+        <p className="mt-1.5 text-sm sm:text-lg font-medium text-orange-500">
+          — no credit card required.
         </p>
 
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
