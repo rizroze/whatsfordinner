@@ -123,14 +123,16 @@ export async function POST() {
     }
 
     // Generate the meal plan with one retry on failure
+    // Subscribers get 7 days, free users get 1 day
+    const days = isSubscribed ? 7 : 1;
     let planData;
     try {
-      planData = await generateMealPlan(profile as UserProfile, weekOf);
+      planData = await generateMealPlan(profile as UserProfile, weekOf, { days });
     } catch (firstError) {
       console.error("First generation attempt failed:", firstError);
 
       try {
-        planData = await generateMealPlan(profile as UserProfile, weekOf);
+        planData = await generateMealPlan(profile as UserProfile, weekOf, { days });
       } catch (retryError) {
         console.error("Retry generation failed:", retryError);
 
