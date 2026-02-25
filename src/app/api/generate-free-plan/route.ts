@@ -65,9 +65,9 @@ async function checkAndRecordFingerprint(
     await db.from("free_generations").insert({ fingerprint, ip_address: ip });
     return { allowed: true };
   } catch (err) {
-    console.warn("Supabase free_generations check failed:", err);
-    // If DB is down, still allow (in-memory will catch repeats)
-    return { allowed: true };
+    console.error("Supabase free_generations check failed:", err);
+    // Fail closed — if DB is down, block the request
+    return { allowed: false, reason: "service" };
   }
 }
 

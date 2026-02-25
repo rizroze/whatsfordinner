@@ -2,9 +2,11 @@ import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import crypto from "crypto";
 
-const WEBHOOK_SECRET = process.env.LEMONSQUEEZY_WEBHOOK_SECRET!;
+const WEBHOOK_SECRET = process.env.LEMONSQUEEZY_WEBHOOK_SECRET?.trim();
+const STORE_ID = parseInt(process.env.LEMONSQUEEZY_STORE_ID?.trim() ?? "0");
 
 function verifySignature(body: string, signature: string): boolean {
+  if (!WEBHOOK_SECRET) return false;
   const hmac = crypto.createHmac("sha256", WEBHOOK_SECRET);
   const digest = hmac.update(body).digest("hex");
   try {
@@ -42,6 +44,14 @@ interface WebhookEvent {
 }
 
 export async function POST(req: NextRequest) {
+  if (!WEBHOOK_SECRET) {
+    console.error("LEMONSQUEEZY_WEBHOOK_SECRET is not configured");
+    return NextResponse.json(
+      { error: "Webhook not configured" },
+      { status: 500 },
+    );
+  }
+
   const body = await req.text();
   const signature = req.headers.get("x-signature");
 
@@ -60,6 +70,16 @@ export async function POST(req: NextRequest) {
   }
 
   const event: WebhookEvent = JSON.parse(body);
+
+  // Verify store ID matches our store
+  if (STORE_ID && event.data.attributes.store_id !== STORE_ID) {
+    console.error("Store ID mismatch:", event.data.attributes.store_id);
+    return NextResponse.json(
+      { error: "Invalid store" },
+      { status: 403 },
+    );
+  }
+
   const eventName = event.meta.event_name;
   const userId = event.meta.custom_data?.supabase_user_id;
   const admin = createAdminClient();

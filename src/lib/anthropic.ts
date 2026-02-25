@@ -6,6 +6,15 @@ const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY!,
 });
 
+// Sanitize user text to prevent prompt injection
+function sanitizeUserText(text: string, maxLen = 500): string {
+  return text
+    .slice(0, maxLen)
+    .replace(/[<>{}]/g, "") // strip characters that could confuse JSON/HTML
+    .replace(/\n/g, " ") // flatten to single line
+    .trim();
+}
+
 function buildPrompt(profile: UserProfile, days: number): string {
   const dayLabel = days === 7 ? "7-day" : `${days}-day`;
   const dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].slice(0, days);
@@ -39,16 +48,16 @@ function buildPrompt(profile: UserProfile, days: number): string {
 
   if (profile.personal_note) {
     const [pillPart, ...rest] = profile.personal_note.split("|");
-    const pills = pillPart.split(",").map((p) => p.trim()).filter(Boolean);
-    const freetext = rest.join("|").trim();
+    const pills = pillPart.split(",").map((p) => sanitizeUserText(p, 50)).filter(Boolean);
+    const freetext = sanitizeUserText(rest.join("|").trim(), 300);
     if (pills.length > 0) lines.push(`Taste: ${pills.join(", ")}`);
     if (freetext) lines.push(`Notes: "${freetext}"`);
   }
   if (profile.dietary_restrictions.length > 0) {
-    lines.push(`Restrictions: ${profile.dietary_restrictions.join(", ")}`);
+    lines.push(`Restrictions: ${profile.dietary_restrictions.map((r) => sanitizeUserText(r, 50)).join(", ")}`);
   }
   if (profile.allergies.length > 0) {
-    lines.push(`Allergies (MUST AVOID): ${profile.allergies.join(", ")}`);
+    lines.push(`Allergies (MUST AVOID): ${profile.allergies.map((a) => sanitizeUserText(a, 50)).join(", ")}`);
   }
   if (profile.cuisine_preferences.length > 0) {
     // Cap to 3 cuisines for 1-day plans to keep response compact

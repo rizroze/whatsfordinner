@@ -3,15 +3,25 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { sendMealPlanEmail } from "@/lib/resend";
 import type { MealPlanData } from "@/types/meal-plan";
+import crypto from "crypto";
 
-const CRON_SECRET = process.env.CRON_SECRET;
+const CRON_SECRET = process.env.CRON_SECRET?.trim();
+
+function verifyCronSecret(authHeader: string | null): boolean {
+  if (!CRON_SECRET || !authHeader) return false;
+  const expected = `Bearer ${CRON_SECRET}`;
+  if (authHeader.length !== expected.length) return false;
+  try {
+    return crypto.timingSafeEqual(Buffer.from(authHeader), Buffer.from(expected));
+  } catch {
+    return false;
+  }
+}
 
 export async function POST(req: NextRequest) {
   try {
     // Verify caller: either CRON_SECRET or authenticated user
-    const authHeader = req.headers.get("authorization");
-    const isCron =
-      CRON_SECRET && authHeader === `Bearer ${CRON_SECRET}`;
+    const isCron = verifyCronSecret(req.headers.get("authorization"));
 
     let userId: string | null = null;
 

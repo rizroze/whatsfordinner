@@ -78,7 +78,11 @@ function LoginForm() {
         return;
       }
 
-      router.push(redirect || "/dashboard");
+      // Validate redirect is a safe relative path
+      const safeTarget = redirect && redirect.startsWith("/") && !redirect.startsWith("//")
+        ? redirect
+        : "/dashboard";
+      router.push(safeTarget);
     } catch {
       setError("Something went wrong. Please try again.");
       setLoading(false);

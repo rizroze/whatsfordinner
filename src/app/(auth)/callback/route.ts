@@ -2,6 +2,13 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { getAppUrl } from "@/lib/utils";
 
+function safeRedirect(path: string | null, fallback: string): string {
+  if (!path || !path.startsWith("/") || path.startsWith("//")) {
+    return fallback;
+  }
+  return path;
+}
+
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const code = searchParams.get("code");
@@ -30,7 +37,7 @@ export async function GET(req: NextRequest) {
     }
 
     if (redirect) {
-      return NextResponse.redirect(`${appUrl}${redirect}`);
+      return NextResponse.redirect(`${appUrl}${safeRedirect(redirect, "/dashboard")}`);
     }
 
     return NextResponse.redirect(`${appUrl}/dashboard`);

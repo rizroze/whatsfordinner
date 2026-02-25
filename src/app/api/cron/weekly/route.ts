@@ -5,13 +5,23 @@ import { sendMealPlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import type { UserProfile, MealPlanData } from "@/types/meal-plan";
 
-const CRON_SECRET = process.env.CRON_SECRET;
+import crypto from "crypto";
+
+const CRON_SECRET = process.env.CRON_SECRET?.trim();
+
+function verifyCronSecret(authHeader: string | null): boolean {
+  if (!CRON_SECRET || !authHeader) return false;
+  const expected = `Bearer ${CRON_SECRET}`;
+  if (authHeader.length !== expected.length) return false;
+  try {
+    return crypto.timingSafeEqual(Buffer.from(authHeader), Buffer.from(expected));
+  } catch {
+    return false;
+  }
+}
 
 export async function GET(req: NextRequest) {
-  // Verify cron secret
-  const authHeader = req.headers.get("authorization");
-
-  if (!CRON_SECRET || authHeader !== `Bearer ${CRON_SECRET}`) {
+  if (!verifyCronSecret(req.headers.get("authorization"))) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

@@ -1,6 +1,29 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { z } from "zod";
+
+const profileSchema = z.object({
+  household_size: z.number().int().min(1).max(20).optional(),
+  has_kids: z.boolean().optional(),
+  kids_ages: z.array(z.string().max(20)).max(10).optional(),
+  weekly_budget: z.enum(["budget", "moderate", "premium"]).optional(),
+  dietary_restrictions: z.array(z.string().max(50)).max(20).optional(),
+  allergies: z.array(z.string().max(50)).max(20).optional(),
+  cuisine_preferences: z.array(z.string().max(50)).max(20).optional(),
+  cooking_skill: z.enum(["beginner", "intermediate", "advanced"]).optional(),
+  max_cook_time: z.number().int().min(5).max(240).optional(),
+  meals_per_day: z.number().int().min(1).max(6).optional(),
+  include_snacks: z.boolean().optional(),
+  servings_per_meal: z.number().int().min(1).max(20).optional(),
+  delivery_email: z.string().email().max(254).optional().nullable(),
+  delivery_day: z.string().max(20).optional(),
+  timezone: z.string().max(100).optional(),
+  onboarding_completed: z.boolean().optional(),
+  personal_note: z.string().max(500).optional(),
+  nutrition_goal: z.string().max(50).optional(),
+  age_range: z.string().max(50).optional(),
+}).strict();
 
 export async function GET() {
   try {
@@ -22,7 +45,6 @@ export async function GET() {
       .single();
 
     if (error && error.code !== "PGRST116") {
-      // PGRST116 = no rows found — that's fine, return null
       console.error("Profile fetch error:", error);
       return NextResponse.json(
         { error: "Failed to fetch profile" },
@@ -51,27 +73,22 @@ export async function PUT(req: NextRequest) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const body = await req.json();
+    const rawBody = await req.json();
+    const parsed = profileSchema.safeParse(rawBody);
+
+    if (!parsed.success) {
+      return NextResponse.json(
+        { error: "Invalid profile data", details: parsed.error.flatten().fieldErrors },
+        { status: 400 }
+      );
+    }
+
     const admin = createAdminClient();
-
-    // Only include columns that exist in the profiles table
-    const ALLOWED_FIELDS = [
-      "household_size", "has_kids", "kids_ages", "weekly_budget",
-      "dietary_restrictions", "allergies", "cuisine_preferences",
-      "cooking_skill", "max_cook_time", "meals_per_day",
-      "servings_per_meal", "delivery_email", "delivery_day",
-      "timezone", "onboarding_completed",
-    ];
-
     const profileData: Record<string, unknown> = {
       user_id: user.id,
       updated_at: new Date().toISOString(),
+      ...parsed.data,
     };
-    for (const key of ALLOWED_FIELDS) {
-      if (key in body) {
-        profileData[key] = body[key];
-      }
-    }
 
     const { data: profile, error } = await admin
       .from("profiles")
