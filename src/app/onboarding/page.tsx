@@ -119,56 +119,47 @@ export default function OnboardingPage() {
     setError(null);
 
     try {
-      // --- Authenticated user: save profile and go to dashboard ---
-      if (isAuthenticated) {
-        const profileData = {
-          ...data,
-          servings_per_meal: data.household_size,
-          onboarding_completed: true,
-        };
-
-        const res = await fetch("/api/profile", {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(profileData),
-        });
-
-        if (!res.ok) {
-          const errData = await res.json();
-          throw new Error(errData.error || "Failed to save profile");
-        }
-
-        // Also save to localStorage for backup
-        localStorage.setItem("wfd_preferences", JSON.stringify(data));
-
-        router.push("/dashboard");
+      // If there's already a cached plan, go straight to preview
+      const cached = localStorage.getItem("wfd_free_plan");
+      if (cached) {
+        router.push("/preview");
         return;
       }
 
-      // --- Anonymous user: one free plan per device ---
-      if (localStorage.getItem("wfd_free_used") === "1") {
-        const cached = localStorage.getItem("wfd_free_plan");
-        if (cached) {
-          router.push("/preview");
-          return;
+      // Save profile silently if signed in (don't block on failure)
+      if (isAuthenticated) {
+        try {
+          await fetch("/api/profile", {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              ...data,
+              servings_per_meal: data.household_size,
+              onboarding_completed: true,
+            }),
+          });
+        } catch {
+          // Profile save failed — continue with plan generation anyway
         }
+      }
+
+      // Anonymous: check device-level block
+      if (!isAuthenticated && localStorage.getItem("wfd_free_used") === "1") {
         setBlocked(true);
         throw new Error("block");
       }
 
-      // Generate browser fingerprint (survives incognito)
+      // Generate the free 1-day plan
       const fingerprint = await generateFingerprint();
 
-      // Auto-set servings from household size
       const submitData = {
         ...data,
         servings_per_meal: data.household_size,
         _fingerprint: fingerprint,
-        _t: startedAtRef.current, // Timing signal for bot detection
-        _email: "",               // Honeypot — always empty for real users
+        _t: startedAtRef.current,
+        _email: "",
       };
 
-      // Save preferences
       localStorage.setItem("wfd_preferences", JSON.stringify(data));
 
       const controller = new AbortController();
@@ -185,7 +176,6 @@ export default function OnboardingPage() {
 
       if (!res.ok) {
         const errData = await res.json();
-        // If server says blocked, show subscribe CTA
         if (res.status === 403 || res.status === 429) {
           localStorage.setItem("wfd_free_used", "1");
           setBlocked(true);
@@ -205,7 +195,7 @@ export default function OnboardingPage() {
       router.push("/preview");
     } catch (err) {
       if (err instanceof Error && err.message === "block") {
-        // blocked state is already set, just stop loading
+        // blocked state is already set
       } else {
         setError(err instanceof Error ? err.message : "Something went wrong");
       }
@@ -320,7 +310,7 @@ export default function OnboardingPage() {
         </div>
 
         {/* Blocked — show subscribe CTA instead of form (anonymous users only) */}
-        {blocked && !isAuthenticated ? (
+        {blocked ? (
           <div className="bg-orange-50 border border-orange-200 rounded-2xl p-6 text-center space-y-3">
             <div className="text-3xl">
               <svg className="w-10 h-10 mx-auto text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -380,17 +370,13 @@ export default function OnboardingPage() {
               >
                 {isLastStep
                   ? loading
-                    ? isAuthenticated
-                      ? "Saving..."
-                      : <span className="inline-flex items-center gap-0">
-                          {cookingMessage}
-                          <span className="animated-dots ml-0.5">
-                            <span>.</span><span>.</span><span>.</span>
-                          </span>
+                    ? <span className="inline-flex items-center gap-0">
+                        {cookingMessage}
+                        <span className="animated-dots ml-0.5">
+                          <span>.</span><span>.</span><span>.</span>
                         </span>
-                    : isAuthenticated
-                      ? "Save & Continue"
-                      : t("onboarding.generate")
+                      </span>
+                    : t("onboarding.generate")
                   : t("common.next")}
               </Button>
             </div>

@@ -6,6 +6,7 @@ import { CurrentPlan } from "@/components/dashboard/CurrentPlan";
 import { PastPlans } from "@/components/dashboard/PastPlans";
 import { SubscriptionStatus } from "@/components/dashboard/SubscriptionStatus";
 import { FreePlanBanner } from "@/components/dashboard/FreePlanBanner";
+import { LogoutButton } from "@/components/dashboard/LogoutButton";
 import type { MealPlanRecord } from "@/types/meal-plan";
 
 export default async function DashboardPage() {
@@ -61,12 +62,15 @@ export default async function DashboardPage() {
               <p className="text-xs sm:text-sm text-stone-500">{user.email}</p>
             </div>
           </div>
-          <a
-            href="/"
-            className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
-          >
-            Home
-          </a>
+          <div className="flex items-center gap-4">
+            <a
+              href="/"
+              className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
+            >
+              Home
+            </a>
+            <LogoutButton />
+          </div>
         </div>
       </header>
 

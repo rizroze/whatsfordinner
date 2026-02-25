@@ -188,49 +188,6 @@ export default function PreviewPage() {
         </div>
       </div>
 
-      {/* Save plan CTA — anonymous users */}
-      {isSignedIn === false && (
-        <div className="border-b border-orange-100 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4">
-            <div className="flex items-center gap-2.5 min-w-0">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0">
-                <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/>
-                <polyline points="17 21 17 13 7 13 7 21"/>
-                <polyline points="7 3 7 8 15 8"/>
-              </svg>
-              <p className="text-sm text-stone-600">
-                <span className="font-medium text-stone-800">Create an account</span>{" "}
-                <span className="hidden sm:inline">to save your plan and access it anytime.</span>
-                <span className="sm:hidden">to keep your plan.</span>
-              </p>
-            </div>
-            <Link
-              href="/signup"
-              className="shrink-0 inline-flex items-center px-4 py-1.5 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors duration-200"
-            >
-              Sign up free
-            </Link>
-          </div>
-        </div>
-      )}
-
-      {/* Signed in — link to dashboard */}
-      {isSignedIn === true && (
-        <div className="border-b border-stone-100 bg-white/60">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
-            <p className="text-sm text-stone-500">
-              This plan is saved in your account.
-            </p>
-            <Link
-              href="/dashboard"
-              className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200"
-            >
-              Go to Dashboard &rarr;
-            </Link>
-          </div>
-        </div>
-      )}
-
       {/* Plan content */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
         {/* View toggle — hidden on mobile since table doesn't fit */}
@@ -403,6 +360,29 @@ export default function PreviewPage() {
           </p>
         </div>
       </section>
+
+      {/* Bottom — subtle account nudge or dashboard link */}
+      <div className="bg-[#FFFBF5] border-t border-stone-100 py-6">
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          {isSignedIn === false && (
+            <p className="text-xs text-stone-400">
+              Want to keep this plan?{" "}
+              <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium transition-colors">
+                Create a free account
+              </Link>{" "}
+              to save it.
+            </p>
+          )}
+          {isSignedIn === true && (
+            <p className="text-xs text-stone-400">
+              This plan is saved to your account.{" "}
+              <Link href="/dashboard" className="text-orange-500 hover:text-orange-600 font-medium transition-colors">
+                Go to Dashboard &rarr;
+              </Link>
+            </p>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
