@@ -104,7 +104,7 @@ export function Pricing() {
             <Link
               href="/onboarding"
               className={cn(
-                "mt-auto pt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
+                "mt-auto pt-10 sm:pt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
                 !yearly
                   ? "bg-orange-500 hover:bg-orange-600 text-white shadow-sm hover:shadow-md"
                   : "bg-stone-100 hover:bg-stone-200 text-stone-700"
@@ -161,7 +161,7 @@ export function Pricing() {
             <Link
               href="/onboarding"
               className={cn(
-                "mt-auto pt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
+                "mt-auto pt-10 sm:pt-8 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-full transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
                 yearly
                   ? "bg-orange-500 hover:bg-orange-600 text-white shadow-sm hover:shadow-md"
                   : "bg-stone-100 hover:bg-stone-200 text-stone-700"
