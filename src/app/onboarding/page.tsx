@@ -427,12 +427,12 @@ function OnboardingContent() {
                 <p className="text-xs text-stone-500">
                   Your 1-day plan is waiting for you on your dashboard.
                 </p>
-                <Button size="sm" asChild>
-                  <Link href="/dashboard">
-                    View your meal plan
-                  </Link>
-                </Button>
-                <div className="flex flex-col sm:flex-row gap-2 justify-center pt-1">
+                <div className="flex flex-row gap-2 justify-center">
+                  <Button size="sm" asChild>
+                    <Link href="/dashboard">
+                      View your meal plan
+                    </Link>
+                  </Button>
                   <Button
                     variant="secondary"
                     size="sm"
