@@ -15,7 +15,7 @@ export default function Home() {
           href="/"
           className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors shrink-0"
         >
-          <span className="text-xl leading-none" style={{ filter: "brightness(0) invert(1)", letterSpacing: "0.1em" }}>🍴</span>
+          <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
         </Link>
         <div className="flex items-center gap-4">
           <Link

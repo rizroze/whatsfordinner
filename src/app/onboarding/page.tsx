@@ -215,7 +215,7 @@ export default function OnboardingPage() {
             className="absolute left-0 top-0 w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors"
             title="Back to home"
           >
-            <span className="text-xl leading-none" style={{ filter: "brightness(0) invert(1)", letterSpacing: "0.1em" }}>🍴</span>
+            <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
           </Link>
           <div className="absolute right-0 top-0">
             <LanguagePicker />
