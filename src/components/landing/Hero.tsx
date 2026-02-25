@@ -9,15 +9,17 @@ export function Hero() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
       <div className="relative max-w-3xl mx-auto px-6 py-24 sm:py-40 text-center">
-        <h1 className="text-[1.6rem] sm:text-5xl md:text-6xl font-bold text-stone-900 tracking-tight leading-[1.1] whitespace-nowrap text-center -translate-x-1 sm:-translate-x-[35px]">
-          You&apos;ll never have to ask again.
+        <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1]">
+          what&apos;s for dinner?
         </h1>
+        <p className="mt-3 sm:mt-4 text-xl sm:text-2xl font-semibold text-orange-500">
+          Solved. Every week.
+        </p>
 
         <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-md mx-auto leading-relaxed">
-          Personalized weekly meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan
-        </p>
-        <p className="mt-1.5 text-sm sm:text-lg font-medium text-orange-500">
-          — no credit card required.
+          Personalized meal plans and grocery lists, delivered to your inbox. Try a free 1-day plan
+          <br />
+          <span className="text-orange-500 font-medium">— no credit card required.</span>
         </p>
 
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
