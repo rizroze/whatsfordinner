@@ -47,6 +47,7 @@
       "perMonth": "/شهر",
       "perYear": "/سنة",
       "perMonthCalc": "$2.50/شهر",
+      "billedMonthly": "شهريًا. يمكنك التحويل إلى السنوي في أي وقت.",
       "billedYearly": "يتم الدفع سنويًا بمبلغ $29.99",
       "tryFreeFirst": "جرّب مجانًا أولاً",
       "features": {

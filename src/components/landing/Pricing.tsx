@@ -59,8 +59,9 @@ export function Pricing() {
               <span className="text-4xl font-extrabold text-stone-900 tracking-tight">$4.99</span>
               <span className="text-stone-400 text-sm">{t("landing.pricing.perMonth")}</span>
             </div>
-            {/* Invisible spacer to match yearly's "Billed yearly" line */}
-            <p className="mt-1 text-xs text-transparent select-none" aria-hidden="true">&nbsp;</p>
+            <p className="mt-1 text-xs text-stone-400">
+              {t("landing.pricing.billedMonthly")}
+            </p>
 
             <ul className="mt-5 space-y-2.5 flex-1">
               {features.map((feature) => (

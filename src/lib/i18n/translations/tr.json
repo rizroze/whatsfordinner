@@ -47,6 +47,7 @@
       "perMonth": "/ay",
       "perYear": "/yıl",
       "perMonthCalc": "$2.50/ay",
+      "billedMonthly": "Aylık faturalandırılır. İstediğiniz zaman yıllığa geçin.",
       "billedYearly": "Yıllık $29.99 olarak faturalandırılır",
       "tryFreeFirst": "Önce Ücretsiz Dene",
       "features": {

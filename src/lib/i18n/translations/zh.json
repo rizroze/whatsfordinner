@@ -47,6 +47,7 @@
       "perMonth": "/月",
       "perYear": "/年",
       "perMonthCalc": "$2.50/月",
+      "billedMonthly": "每月计费，随时可切换为年付。",
       "billedYearly": "按年计费 $29.99",
       "tryFreeFirst": "先免费试用",
       "features": {

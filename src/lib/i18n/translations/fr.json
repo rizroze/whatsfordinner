@@ -47,6 +47,7 @@
       "perMonth": "/mois",
       "perYear": "/an",
       "perMonthCalc": "$2,50/mois",
+      "billedMonthly": "Par mois, facturé mensuellement. Passez à l'annuel à tout moment.",
       "billedYearly": "Facturé annuellement à $29.99",
       "tryFreeFirst": "Essayer d'abord gratuitement",
       "features": {

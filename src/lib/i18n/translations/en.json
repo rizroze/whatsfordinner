@@ -47,6 +47,7 @@
       "perMonth": "/month",
       "perYear": "/year",
       "perMonthCalc": "$2.50/mo",
+      "billedMonthly": "Per month, billed monthly. Switch to yearly anytime.",
       "billedYearly": "Billed yearly at $29.99",
       "tryFreeFirst": "Try Free First",
       "features": {

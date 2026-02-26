@@ -47,6 +47,7 @@
       "perMonth": "/mês",
       "perYear": "/ano",
       "perMonthCalc": "$2.50/mês",
+      "billedMonthly": "Por mês, cobrado mensalmente. Mude para anual a qualquer momento.",
       "billedYearly": "Cobrado anualmente por $29.99",
       "tryFreeFirst": "Teste Primeiro Grátis",
       "features": {

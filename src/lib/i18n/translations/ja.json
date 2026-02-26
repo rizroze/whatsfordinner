@@ -47,6 +47,7 @@
       "perMonth": "/月",
       "perYear": "/年",
       "perMonthCalc": "$2.50/月",
+      "billedMonthly": "月額、毎月請求。いつでも年間プランに変更可能。",
       "billedYearly": "年額 $29.99 で請求",
       "tryFreeFirst": "まず無料で試す",
       "features": {

@@ -47,6 +47,7 @@
       "perMonth": "/월",
       "perYear": "/연간",
       "perMonthCalc": "월 $2.50",
+      "billedMonthly": "월별 결제. 언제든 연간 요금제로 전환 가능.",
       "billedYearly": "연간 $29.99 일괄 청구",
       "tryFreeFirst": "먼저 무료 체험",
       "features": {

@@ -47,6 +47,7 @@
       "perMonth": "/माह",
       "perYear": "/साल",
       "perMonthCalc": "$2.50/माह",
+      "billedMonthly": "मासिक बिल। कभी भी वार्षिक में बदलें।",
       "billedYearly": "वार्षिक $29.99 बिल किया जाता है",
       "tryFreeFirst": "पहले मुफ़्त आजमाएँ",
       "features": {
