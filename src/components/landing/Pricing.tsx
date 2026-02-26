@@ -12,7 +12,6 @@ export function Pricing() {
   const { t } = useT();
 
   const features = [
-    t("landing.pricing.features.firstWeekFree"),
     t("landing.pricing.features.sevenDayPlans"),
     t("landing.pricing.features.groceryLists"),
     t("landing.pricing.features.regenerations"),
@@ -30,137 +29,94 @@ export function Pricing() {
           {t("landing.pricing.subtitle")}
         </p>
 
-        {/* Toggle */}
-        <div className="flex items-center justify-center mt-10 gap-3">
-          <span
-            className={cn(
-              "text-sm font-medium transition-colors",
-              !yearly ? "text-stone-900" : "text-stone-400"
-            )}
-          >
-            {t("landing.pricing.monthly")}
-          </span>
-          <button
-            type="button"
-            role="switch"
-            aria-checked={yearly}
-            onClick={() => setYearly(!yearly)}
-            className={cn(
-              "relative inline-flex h-7 w-12 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2",
-              yearly ? "bg-orange-500" : "bg-stone-300"
-            )}
-          >
-            <span
+        {/* Single pricing card */}
+        <div className="mt-12 max-w-lg mx-auto bg-white rounded-2xl border border-stone-200 shadow-sm overflow-hidden">
+          {/* Plan toggle */}
+          <div className="grid grid-cols-2 gap-0 border-b border-stone-100">
+            <button
+              type="button"
+              onClick={() => setYearly(false)}
               className={cn(
-                "pointer-events-none inline-block h-[22px] w-[22px] rounded-full bg-white shadow-sm ring-0 transition-transform duration-200 ease-in-out",
-                yearly ? "translate-x-5" : "translate-x-0"
+                "py-4 px-6 text-center transition-colors relative",
+                !yearly
+                  ? "bg-white text-stone-900"
+                  : "bg-stone-50 text-stone-400 hover:text-stone-500"
               )}
-            />
-          </button>
-          <span
-            className={cn(
-              "text-sm font-medium transition-colors",
-              yearly ? "text-stone-900" : "text-stone-400"
-            )}
-          >
-            {t("landing.pricing.yearly")}
-          </span>
-        </div>
-
-        {/* Cards */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
-          {/* Monthly Card */}
-          <div
-            className={cn(
-              "bg-white rounded-2xl border p-8 transition-all duration-200 flex flex-col",
-              !yearly
-                ? "border-orange-300 shadow-md ring-1 ring-orange-100"
-                : "border-stone-200 shadow-sm"
-            )}
-          >
-            <h3 className="text-lg font-semibold text-stone-900">{t("landing.pricing.monthly")}</h3>
-            <div className="mt-4 flex items-baseline gap-1.5">
-              <span className="text-5xl font-extrabold text-stone-900 tracking-tight">$4.99</span>
-              <span className="text-stone-400 text-sm font-medium">{t("landing.pricing.perMonth")}</span>
-            </div>
-
-            <ul className="mt-8 space-y-3">
-              {features.map((feature) => (
-                <li key={feature} className="flex items-start gap-3 text-sm text-stone-600">
-                  <svg
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="text-orange-500 shrink-0 mt-0.5"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  {feature}
-                </li>
-              ))}
-            </ul>
-
-            <Button asChild variant={!yearly ? "primary" : "ghost"} className="mt-8 w-full">
-              <Link href="/onboarding">
-                {t("landing.pricing.tryFreeFirst")}
-              </Link>
-            </Button>
+            >
+              <span className="text-sm font-semibold">{t("landing.pricing.monthly")}</span>
+              {!yearly && (
+                <span className="absolute bottom-0 left-4 right-4 h-0.5 bg-orange-500 rounded-full" />
+              )}
+            </button>
+            <button
+              type="button"
+              onClick={() => setYearly(true)}
+              className={cn(
+                "py-4 px-6 text-center transition-colors relative",
+                yearly
+                  ? "bg-white text-stone-900"
+                  : "bg-stone-50 text-stone-400 hover:text-stone-500"
+              )}
+            >
+              <span className="text-sm font-semibold">{t("landing.pricing.yearly")}</span>
+              <span className="ml-2 text-[11px] font-semibold text-orange-500">
+                {t("landing.pricing.save50")}
+              </span>
+              {yearly && (
+                <span className="absolute bottom-0 left-4 right-4 h-0.5 bg-orange-500 rounded-full" />
+              )}
+            </button>
           </div>
 
-          {/* Yearly Card */}
-          <div
-            className={cn(
-              "bg-white rounded-2xl border p-8 transition-all duration-200 relative flex flex-col",
-              yearly
-                ? "border-orange-300 shadow-md ring-1 ring-orange-100"
-                : "border-stone-200 shadow-sm"
-            )}
-          >
-            {/* Save badge */}
-            <span className="absolute -top-3 right-6 bg-orange-500 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
-              {t("landing.pricing.save50")}
-            </span>
-
-            <h3 className="text-lg font-semibold text-stone-900">{t("landing.pricing.yearly")}</h3>
-            <div className="mt-4 flex items-baseline gap-1.5">
-              <span className="text-5xl font-extrabold text-stone-900 tracking-tight">$2.50</span>
-              <span className="text-stone-400 text-sm font-medium">{t("landing.pricing.perMonth")}</span>
+          {/* Price + CTA */}
+          <div className="p-8">
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="flex items-baseline gap-1.5">
+                  <span className="text-5xl font-extrabold text-stone-900 tracking-tight">
+                    {yearly ? "$2.50" : "$4.99"}
+                  </span>
+                  <span className="text-stone-400 text-sm font-medium">{t("landing.pricing.perMonth")}</span>
+                </div>
+                {yearly && (
+                  <p className="mt-1 text-sm text-stone-400">
+                    {t("landing.pricing.billedYearly")}
+                  </p>
+                )}
+              </div>
+              <Button asChild variant="primary" className="shrink-0">
+                <Link href="/onboarding">
+                  {t("landing.pricing.tryFreeFirst")}
+                </Link>
+              </Button>
             </div>
-            <p className="mt-1.5 text-sm text-stone-400">
-              {t("landing.pricing.billedYearly")}
-            </p>
 
-            <ul className="mt-6 space-y-3">
-              {features.map((feature) => (
-                <li key={feature} className="flex items-start gap-3 text-sm text-stone-600">
-                  <svg
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="text-orange-500 shrink-0 mt-0.5"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  {feature}
-                </li>
-              ))}
-            </ul>
-
-            <Button asChild variant={yearly ? "primary" : "ghost"} className="mt-8 w-full">
-              <Link href="/onboarding">
-                {t("landing.pricing.tryFreeFirst")}
-              </Link>
-            </Button>
+            {/* Features */}
+            <div className="mt-6 pt-6 border-t border-stone-100">
+              <p className="text-xs font-medium text-stone-400 uppercase tracking-wide mb-4">
+                {t("landing.pricing.features.firstWeekFree")}
+              </p>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {features.map((feature) => (
+                  <li key={feature} className="flex items-start gap-2.5 text-sm text-stone-600">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="text-orange-500 shrink-0 mt-0.5"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
