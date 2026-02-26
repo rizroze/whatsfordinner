@@ -19,8 +19,8 @@
       "subtitle": "다시는 고민할 필요가 없어요.",
       "description": "맞춤형 식단과 장보기 목록이 이메일로 배달됩니다. 무료 1일 식단을 체험해보세요",
       "noCreditCard": "— 신용카드 필요 없음.",
-      "cta": "무료 식단 받기",
-      "subtext": "계정 없이 시작하세요."
+      "cta": "오늘 저녁 뭐 먹지?",
+      "subtext": "2분 소요. 가입 불필요. 카드 불필요."
     },
     "social": {
       "mealsPlanned": "끼니 계획됨",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "먼저 무료 체험",
       "features": {
         "firstWeekFree": "무료 3일 식단 체험, 신용카드 필요 없음",
-        "sevenDayPlans": "매주 가족 맞춤형 7일 식단 계획",
+        "sevenDayPlans": "매주 나와 가족을 위한 맞춤형 7일 식단 계획",
         "groceryLists": "바로 장보기에 쓸 수 있는 목록",
         "regenerations": "마음에 안 드는 메뉴? 주당 최대 2회 재생성",
         "emailDelivery": "매주 일요일 이메일로 식단 전달",
         "dietarySupport": "알레르기, 식이 제한, 까다로운 입맛 — 모두 지원",
         "cancelAnytime": "약정 없음 — 언제든 해지 가능",
-        "bestValue": "최고 가성비 — 월간 대비 연 $30 절약"
+        "bestValue": "최고 가성비 — 월간 대비 연 $30 절약",
+        "inviteFriends": "친구 3명을 무료로 초대하세요"
       }
     },
     "faq": {

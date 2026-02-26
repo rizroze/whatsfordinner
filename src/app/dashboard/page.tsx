@@ -9,6 +9,8 @@ import { SubscriptionStatus } from "@/components/dashboard/SubscriptionStatus";
 import { FreePlanBanner } from "@/components/dashboard/FreePlanBanner";
 import { LogoutButton } from "@/components/dashboard/LogoutButton";
 import { SubscribeButton } from "@/components/dashboard/SubscribeButton";
+import { PromoCodeInput } from "@/components/dashboard/PromoCodeInput";
+import { ReferralCodes } from "@/components/dashboard/ReferralCodes";
 import type { MealPlanRecord, MealPlanData } from "@/types/meal-plan";
 
 function DashboardHero({ planData, isSubscribed }: { planData: MealPlanData; isSubscribed: boolean }) {
@@ -225,6 +227,14 @@ export default async function DashboardPage() {
                 )}
               </CardContent>
             </Card>
+
+            {/* Referral codes for yearly subscribers */}
+            {isSubscribed && userRecord?.plan_interval === "yearly" && (
+              <ReferralCodes />
+            )}
+
+            {/* Promo code input for non-subscribers */}
+            {!isSubscribed && <PromoCodeInput />}
           </aside>
         </div>
       </main>

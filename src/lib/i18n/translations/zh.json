@@ -19,8 +19,8 @@
       "subtitle": "从此再也不用想这个问题。",
       "description": "个性化餐饮计划和购物清单，直接送到你的邮箱。免费试用 1 天计划",
       "noCreditCard": "——无需信用卡。",
-      "cta": "获取免费餐饮计划",
-      "subtext": "无需账户。"
+      "cta": "看看今晚吃什么",
+      "subtext": "2分钟完成。无需注册。无需信用卡。"
     },
     "social": {
       "mealsPlanned": "餐饮计划已制定",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "先免费试用",
       "features": {
         "firstWeekFree": "免费试用 3 天计划，无需信用卡",
-        "sevenDayPlans": "每周为你的家庭量身定制 7 天餐饮计划",
+        "sevenDayPlans": "每周为你和家人量身定制 7 天餐饮计划",
         "groceryLists": "可以直接用来购物的清单",
         "regenerations": "不喜欢某道菜？每周可重新生成 2 次",
         "emailDelivery": "每周日通过邮件发送计划",
         "dietarySupport": "适应过敏症、饮食限制、挑食者——全部搞定",
         "cancelAnytime": "无承诺——随时取消",
-        "bestValue": "最超值——比月付每年省$30"
+        "bestValue": "最超值——比月付每年省$30",
+        "inviteFriends": "邀请3位朋友免费体验"
       }
     },
     "faq": {

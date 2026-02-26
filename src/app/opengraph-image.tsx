@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "What's For Dinner — Personalized Meal Plans Delivered Weekly";
+export const alt = "What's For Dinner — You'll never have to think about it again.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -96,7 +96,7 @@ export default async function OGImage() {
           <div
             style={{
               fontFamily: "Inter",
-              fontSize: 42,
+              fontSize: 36,
               fontWeight: 800,
               color: "#F97316",
               marginTop: 16,
@@ -104,7 +104,7 @@ export default async function OGImage() {
               display: "flex",
             }}
           >
-            Solved. Every week.
+            You&apos;ll never have to think about it again.
           </div>
 
           {/* Subtitle */}
@@ -119,6 +119,22 @@ export default async function OGImage() {
             }}
           >
             Personalized meal plans + grocery lists, delivered to your inbox weekly.
+          </div>
+
+          {/* CTA pill */}
+          <div
+            style={{
+              marginTop: 28,
+              background: "#F97316",
+              color: "white",
+              fontSize: 20,
+              fontWeight: 700,
+              padding: "12px 36px",
+              borderRadius: 50,
+              display: "flex",
+            }}
+          >
+            Plan My Meals — Free
           </div>
         </div>
 

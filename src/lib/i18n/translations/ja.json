@@ -19,8 +19,8 @@
       "subtitle": "もう二度と悩む必要はありません。",
       "description": "パーソナライズされたメニュープランと買い物リストがメールで届きます。無料の1日プランをお試しください",
       "noCreditCard": "— クレジットカード不要。",
-      "cta": "無料のメニュープランを入手",
-      "subtext": "アカウント登録なし。"
+      "cta": "今夜の献立を見る",
+      "subtext": "2分で完了。登録不要。カード不要。"
     },
     "social": {
       "mealsPlanned": "食事のプランが立てられた",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "まず無料で試す",
       "features": {
         "firstWeekFree": "無料の3日間プランをお試し、クレジットカード不要",
-        "sevenDayPlans": "毎週、あなたの家族専用の7日間メニュープラン",
+        "sevenDayPlans": "毎週、あなたとご家族専用の7日間メニュープラン",
         "groceryLists": "そのままお店で使える買い物リスト",
         "regenerations": "気に入らないメニューは週2回まで再生成可能",
         "emailDelivery": "毎週日曜日にメールでプランをお届け",
         "dietarySupport": "アレルギー、食事制限、好き嫌い — すべてに対応",
         "cancelAnytime": "いつでも解約OK — 縛りなし",
-        "bestValue": "最もお得 — 月額より年間$30節約"
+        "bestValue": "最もお得 — 月額より年間$30節約",
+        "inviteFriends": "友達3人を無料で招待"
       }
     },
     "faq": {

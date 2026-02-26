@@ -19,8 +19,8 @@
       "subtitle": "Nunca tendrás que pensarlo de nuevo.",
       "description": "Planes de comida personalizados y listas de compras, entregados en tu bandeja de entrada. Prueba un plan gratuito de 1 día",
       "noCreditCard": "— sin tarjeta de crédito.",
-      "cta": "Obtén Tu Plan de Comida Gratis",
-      "subtext": "Sin necesidad de cuenta."
+      "cta": "Descubre Qué Cenar",
+      "subtext": "2 minutos. Sin registro. Sin tarjeta."
     },
     "social": {
       "mealsPlanned": "comidas planificadas",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "Prueba Gratis Primero",
       "features": {
         "firstWeekFree": "Prueba un plan gratuito de 3 días, sin tarjeta de crédito",
-        "sevenDayPlans": "Planes de comidas de 7 días cada semana, hechos a medida para tu familia",
+        "sevenDayPlans": "Planes de comidas de 7 días cada semana, hechos a medida para ti y tu familia",
         "groceryLists": "Listas de compras con las que realmente puedes ir al supermercado",
         "regenerations": "¿No te gustó una comida? Regenera hasta 2 veces/semana",
         "emailDelivery": "Planes entregados en tu bandeja de entrada cada domingo",
         "dietarySupport": "Funciona con alergias, dietas, comensales exigentes — todo",
         "cancelAnytime": "Sin compromiso — cancela cuando quieras",
-        "bestValue": "Mejor valor — ahorra $30/año vs mensual"
+        "bestValue": "Mejor valor — ahorra $30/año vs mensual",
+        "inviteFriends": "Invita a 3 amigos a probarlo gratis"
       }
     },
     "faq": {

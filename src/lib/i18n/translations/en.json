@@ -19,8 +19,8 @@
       "subtitle": "You'll never have to think about it again.",
       "description": "Personalized meal plans and grocery lists, delivered to your inbox. Try a free 3-day plan",
       "noCreditCard": "— no credit card required.",
-      "cta": "Get Your Free Meal Plan",
-      "subtext": "No account needed."
+      "cta": "Plan My Meals — Free",
+      "subtext": "Takes 2 min. No signup. No credit card."
     },
     "social": {
       "mealsPlanned": "meals planned",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "Try Free First",
       "features": {
         "firstWeekFree": "Try a free 3-day plan, no credit card needed",
-        "sevenDayPlans": "Fresh 7-day meal plans every week, made just for your family",
+        "sevenDayPlans": "Fresh 7-day meal plans every week, made just for you and your family",
         "groceryLists": "Grocery lists you can actually shop from",
         "regenerations": "Don't love a meal? Regenerate up to 2x/week",
         "emailDelivery": "Plans delivered straight to your inbox every Sunday",
         "dietarySupport": "Works around allergies, diets, picky eaters — all of it",
         "cancelAnytime": "No commitment — cancel anytime",
-        "bestValue": "Best value — save $30/year vs monthly"
+        "bestValue": "Best value — save $30/year vs monthly",
+        "inviteFriends": "Invite 3 friends to try it free"
       }
     },
     "faq": {

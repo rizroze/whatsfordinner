@@ -92,12 +92,22 @@ export async function POST(req: NextRequest) {
           break;
         }
 
+        // Detect monthly vs yearly from variant
+        const variantMonthly = process.env.LEMONSQUEEZY_VARIANT_MONTHLY;
+        const variantYearly = process.env.LEMONSQUEEZY_VARIANT_YEARLY;
+        const itemId = event.data.attributes.first_subscription_item?.id;
+        let planInterval: "monthly" | "yearly" | null = null;
+        if (itemId && variantMonthly && String(itemId) === variantMonthly) planInterval = "monthly";
+        if (itemId && variantYearly && String(itemId) === variantYearly) planInterval = "yearly";
+
         const { error } = await admin
           .from("users")
           .update({
             lemon_customer_id: String(event.data.attributes.customer_id),
             lemon_subscription_id: event.data.id,
             subscription_status: "active",
+            subscription_source: "lemonsqueezy",
+            plan_interval: planInterval,
           })
           .eq("id", userId);
 

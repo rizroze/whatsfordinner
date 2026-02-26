@@ -17,16 +17,16 @@ export const metadata: Metadata = {
   description:
     "Personalized weekly meal plans and grocery lists, powered by AI. Subscribe once, eat well forever. $4.99/month.",
   openGraph: {
-    title: "What's For Dinner — Weekly Meal Plans Delivered to Your Inbox",
+    title: "What's For Dinner — You'll Never Have to Think About It Again",
     description:
-      "Personalized weekly meal plans and grocery lists, powered by AI. Subscribe once, eat well forever.",
+      "Personalized weekly meal plans and grocery lists, powered by AI. Try a free 3-day plan — no credit card required.",
     siteName: "What's For Dinner",
   },
   twitter: {
     card: "summary_large_image",
-    title: "What's For Dinner — Weekly Meal Plans Delivered to Your Inbox",
+    title: "What's For Dinner — You'll Never Have to Think About It Again",
     description:
-      "Personalized weekly meal plans and grocery lists, powered by AI. Subscribe once, eat well forever.",
+      "Personalized weekly meal plans and grocery lists, powered by AI. Try a free 3-day plan — no credit card required.",
   },
 };
 

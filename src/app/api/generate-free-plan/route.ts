@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { generateMealPlan } from "@/lib/anthropic";
-import { sendMealPlanEmail } from "@/lib/resend";
+import { sendFreePlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { UserProfile } from "@/types/meal-plan";
@@ -182,7 +182,7 @@ export async function POST(req: NextRequest) {
     // Send free plan via email if they provided one (non-blocking)
     const deliveryEmail = body.delivery_email?.trim();
     if (deliveryEmail && deliveryEmail.includes("@")) {
-      sendMealPlanEmail(deliveryEmail, weekOf, plan).catch((err) =>
+      sendFreePlanEmail(deliveryEmail, weekOf, plan).catch((err) =>
         console.error("Free plan email failed:", err)
       );
     }

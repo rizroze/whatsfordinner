@@ -41,6 +41,7 @@ export function Pricing() {
     t("landing.pricing.features.emailDelivery"),
     t("landing.pricing.features.dietarySupport"),
     t("landing.pricing.features.bestValue"),
+    t("landing.pricing.features.inviteFriends"),
   ];
 
   return (

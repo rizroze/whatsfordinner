@@ -3,6 +3,7 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { generateMealPlan } from "@/lib/anthropic";
 import { sendMealPlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
+import { expireGiftedSubscriptions } from "@/lib/promo";
 import type { UserProfile, MealPlanData } from "@/types/meal-plan";
 
 import crypto from "crypto";
@@ -27,6 +28,12 @@ export async function GET(req: NextRequest) {
 
   const admin = createAdminClient();
   const weekOf = getWeekOf();
+
+  // Expire gifted subscriptions before generating plans
+  const expired = await expireGiftedSubscriptions();
+  if (expired > 0) {
+    console.log(`Expired ${expired} gifted subscriptions`);
+  }
 
   let total = 0;
   let success = 0;

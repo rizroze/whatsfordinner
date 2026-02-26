@@ -19,8 +19,8 @@
       "subtitle": "Vous n'aurez plus jamais à y penser.",
       "description": "Des plans de repas personnalisés et des listes de courses, livrés dans votre boîte de réception. Essayez un plan gratuit d'1 jour",
       "noCreditCard": "— aucune carte de crédit requise.",
-      "cta": "Obtenez votre plan de repas gratuit",
-      "subtext": "Aucun compte nécessaire."
+      "cta": "Découvrez Votre Menu",
+      "subtext": "2 minutes. Sans inscription. Sans carte."
     },
     "social": {
       "mealsPlanned": "repas planifiés",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "Essayer d'abord gratuitement",
       "features": {
         "firstWeekFree": "Essayez un plan gratuit de 3 jours, sans carte de crédit",
-        "sevenDayPlans": "Plans de repas de 7 jours chaque semaine, faits sur mesure pour votre famille",
+        "sevenDayPlans": "Plans de repas de 7 jours chaque semaine, faits sur mesure pour vous et votre famille",
         "groceryLists": "Listes de courses prêtes pour le supermarché",
         "regenerations": "Un repas ne vous plaît pas ? Régénérez jusqu'à 2 fois/semaine",
         "emailDelivery": "Plans livrés dans votre boîte de réception chaque dimanche",
         "dietarySupport": "Compatible avec allergies, régimes, mangeurs difficiles — tout",
         "cancelAnytime": "Sans engagement — annulez quand vous voulez",
-        "bestValue": "Meilleur rapport qualité-prix — économisez $30/an"
+        "bestValue": "Meilleur rapport qualité-prix — économisez $30/an",
+        "inviteFriends": "Invitez 3 amis à essayer gratuitement"
       }
     },
     "faq": {

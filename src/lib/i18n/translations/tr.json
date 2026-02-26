@@ -19,8 +19,8 @@
       "subtitle": "Bir daha asla düşünmek zorunda kalmayacaksınız.",
       "description": "Kişiselleştirilmiş öğün planları ve alışveriş listeleri, e-postanıza teslim edilir. Ücretsiz 1 günlük planı deneyin",
       "noCreditCard": "— kredi kartı gerekli değil.",
-      "cta": "Ücretsiz Öğün Planınızı Alın",
-      "subtext": "Hesap gerekmez."
+      "cta": "Akşam Yemeğini Keşfet",
+      "subtext": "2 dakika. Kayıt yok. Kart yok."
     },
     "social": {
       "mealsPlanned": "planlanan öğün",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "Önce Ücretsiz Dene",
       "features": {
         "firstWeekFree": "Ücretsiz 3 günlük plan deneyin, kredi kartı gerekmez",
-        "sevenDayPlans": "Her hafta ailenize özel 7 günlük öğün planları",
+        "sevenDayPlans": "Her hafta size ve ailenize özel 7 günlük öğün planları",
         "groceryLists": "Gerçekten alışveriş yapabileceğiniz listeler",
         "regenerations": "Bir öğünü beğenmediniz mi? Haftada 2 kez yeniden oluşturun",
         "emailDelivery": "Planlar her pazar e-postanıza teslim edilir",
         "dietarySupport": "Alerjiler, diyetler, zor yiyiciler — hepsiyle çalışır",
         "cancelAnytime": "Taahhüt yok — istediğiniz zaman iptal edin",
-        "bestValue": "En iyi değer — aylığa göre yılda $30 tasarruf"
+        "bestValue": "En iyi değer — aylığa göre yılda $30 tasarruf",
+        "inviteFriends": "3 arkadaşını ücretsiz denemeye davet et"
       }
     },
     "faq": {

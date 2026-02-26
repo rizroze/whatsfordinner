@@ -19,8 +19,8 @@
       "subtitle": "Você nunca mais vai precisar pensar nisso.",
       "description": "Planos de refeições personalizados e listas de compras, entregues na sua caixa de entrada. Experimente um plano gratuito de 1 dia",
       "noCreditCard": "— sem cartão de crédito.",
-      "cta": "Obtenha seu Plano de Refeições Gratuito",
-      "subtext": "Nenhuma conta necessária."
+      "cta": "Veja Seu Cardápio",
+      "subtext": "2 minutos. Sem cadastro. Sem cartão."
     },
     "social": {
       "mealsPlanned": "refeições planejadas",
@@ -52,13 +52,14 @@
       "tryFreeFirst": "Teste Primeiro Grátis",
       "features": {
         "firstWeekFree": "Experimente um plano gratuito de 3 dias, sem cartão de crédito",
-        "sevenDayPlans": "Planos de refeições de 7 dias toda semana, feitos sob medida para sua família",
+        "sevenDayPlans": "Planos de refeições de 7 dias toda semana, feitos sob medida para você e sua família",
         "groceryLists": "Listas de compras que você realmente pode usar no supermercado",
         "regenerations": "Não gostou de uma refeição? Regenere até 2x/semana",
         "emailDelivery": "Planos entregues na sua caixa de entrada todo domingo",
         "dietarySupport": "Funciona com alergias, dietas, comensais exigentes — tudo",
         "cancelAnytime": "Sem compromisso — cancele quando quiser",
-        "bestValue": "Melhor valor — economize $30/ano vs mensal"
+        "bestValue": "Melhor valor — economize $30/ano vs mensal",
+        "inviteFriends": "Convide 3 amigos para experimentar grátis"
       }
     },
     "faq": {
