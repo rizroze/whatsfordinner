@@ -28,11 +28,14 @@ export default function Home() {
     <main>
       {/* Site header */}
       <nav className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-        <Button asChild variant="primary" size="icon" className="rounded-xl shrink-0">
-          <Link href="/">
-            <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
-          </Link>
-        </Button>
+        <div className="flex items-center gap-3">
+          <Button asChild variant="primary" size="icon" className="rounded-xl shrink-0">
+            <Link href="/">
+              <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
+            </Link>
+          </Button>
+          <LanguagePicker />
+        </div>
         <div className="flex items-center gap-4">
           {isSignedIn ? (
             <Link
@@ -49,7 +52,6 @@ export default function Home() {
               {t("common.signIn")}
             </Link>
           )}
-          <LanguagePicker />
           {!isSignedIn && (
             <Button asChild size="sm">
               <Link href="/onboarding">
