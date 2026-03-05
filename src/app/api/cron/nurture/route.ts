@@ -87,7 +87,7 @@ export async function GET(req: NextRequest) {
 
         sent++;
       } catch (err) {
-        console.error(`Nurture email failed for ${email}:`, err);
+        console.error(`Nurture email failed for ${email.replace(/(.{2}).*@/, "$1***@")}:`, err);
         errors++;
       }
     }

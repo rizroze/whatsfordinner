@@ -9,6 +9,10 @@ function getResend() {
 
 // --- Shared helpers ---
 
+function escapeHtml(str: string): string {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
 const mealTypeBadge: Record<string, { bg: string; color: string }> = {
   breakfast: { bg: "#FFF7ED", color: "#EA580C" },
   lunch: { bg: "#EFF6FF", color: "#2563EB" },
@@ -36,8 +40,8 @@ function buildMealRow(m: { type: string; name: string; calories?: number; prepTi
   return `
     <div style="background:#FFFBF5;border:1px solid #F5F5F0;border-radius:12px;padding:12px 14px;margin-bottom:8px;">
       <div style="display:flex;align-items:center;">
-        <span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;padding:2px 8px;border-radius:9999px;">${m.type}</span>
-        <span style="margin-left:10px;font-size:14px;font-weight:600;color:#1C1917;">${m.name}</span>
+        <span style="display:inline-block;background:${badge.bg};color:${badge.color};font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;padding:2px 8px;border-radius:9999px;">${escapeHtml(m.type)}</span>
+        <span style="margin-left:10px;font-size:14px;font-weight:600;color:#1C1917;">${escapeHtml(m.name)}</span>
       </div>
       ${meta ? `<p style="margin:4px 0 0 0;font-size:12px;color:#A8A29E;padding-left:2px;">${meta}</p>` : ""}
     </div>`;

@@ -32,7 +32,7 @@ export async function GET(req: NextRequest) {
       return NextResponse.redirect(`${appUrl}/login?error=auth_failed`);
     }
 
-    if (plan) {
+    if (plan && (plan === "monthly" || plan === "yearly")) {
       return NextResponse.redirect(`${appUrl}/checkout?plan=${plan}`);
     }
 
