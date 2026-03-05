@@ -32,12 +32,12 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
       {/* Header */}
-      <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-20 print:hidden">
+      <header className="border-b border-stone-100 bg-white/60 backdrop-blur-sm sticky top-0 z-20 print:static print:bg-transparent print:backdrop-blur-none print:border-b-0">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Link
               href="/dashboard"
-              className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors shrink-0"
+              className="w-10 h-10 bg-orange-500 hover:bg-orange-600 rounded-xl flex items-center justify-center transition-colors shrink-0 print:hidden"
             >
               <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
             </Link>
@@ -45,7 +45,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
               <h1 className="text-lg sm:text-xl font-semibold text-stone-800 tracking-tight">
                 Week of {formattedWeek}
               </h1>
-              <p className="text-xs text-stone-400">
+              <p className="text-xs text-stone-400 print:hidden">
                 <Link href="/dashboard" className="hover:text-orange-500 transition-colors">
                   Dashboard
                 </Link>
