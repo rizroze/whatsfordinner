@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "Yummly Alternative 2026 — AI Meal Planning After Yummly's Shutdown",
@@ -18,11 +19,28 @@ export const metadata: Metadata = {
     description:
       "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo.",
   },
+  alternates: {
+    canonical: "https://whatsfordinner.fit/blog/yummly-alternative",
+  },
 };
 
 export default function YummlyAlternativePage() {
   return (
-    <article>
+    <>
+      <ArticleJsonLd
+        title="The Best Yummly Alternative in 2026"
+        description="Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo."
+        url="https://whatsfordinner.fit/blog/yummly-alternative"
+        datePublished="2026-02-25"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://whatsfordinner.fit" },
+          { name: "Blog", url: "https://whatsfordinner.fit/blog" },
+          { name: "The Best Yummly Alternative in 2026", url: "https://whatsfordinner.fit/blog/yummly-alternative" },
+        ]}
+      />
+      <article>
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Alternatives
       </span>
@@ -325,6 +343,7 @@ export default function YummlyAlternativePage() {
           </p>
         </div>
       </div>
-    </article>
+      </article>
+    </>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "Cheap HelloFresh Alternative — Same Convenience, 90% Less Cost",
@@ -18,11 +19,28 @@ export const metadata: Metadata = {
     description:
       "Looking for a HelloFresh alternative cheap enough for any budget? Personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup.",
   },
+  alternates: {
+    canonical: "https://whatsfordinner.fit/blog/hellofresh-alternative-cheap",
+  },
 };
 
 export default function HelloFreshAlternativeCheap() {
   return (
-    <article>
+    <>
+      <ArticleJsonLd
+        title="The Best Cheap Alternative to HelloFresh in 2026"
+        description="Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup."
+        url="https://whatsfordinner.fit/blog/hellofresh-alternative-cheap"
+        datePublished="2026-02-25"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://whatsfordinner.fit" },
+          { name: "Blog", url: "https://whatsfordinner.fit/blog" },
+          { name: "The Best Cheap Alternative to HelloFresh in 2026", url: "https://whatsfordinner.fit/blog/hellofresh-alternative-cheap" },
+        ]}
+      />
+      <article>
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Alternatives
       </span>
@@ -299,6 +317,7 @@ export default function HelloFreshAlternativeCheap() {
           Try it free for 7 days
         </Link>
       </div>
-    </article>
+      </article>
+    </>
   );
 }

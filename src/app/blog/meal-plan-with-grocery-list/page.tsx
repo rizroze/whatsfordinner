@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 const title =
   "Meal Plan with Grocery List — Complete Weekly Plans Delivered to Your Inbox";
@@ -21,11 +22,28 @@ export const metadata: Metadata = {
     title,
     description,
   },
+  alternates: {
+    canonical: "https://whatsfordinner.fit/blog/meal-plan-with-grocery-list",
+  },
 };
 
 export default function MealPlanWithGroceryList() {
   return (
-    <article>
+    <>
+      <ArticleJsonLd
+        title="Meal Plan with Grocery List: The Complete Solution"
+        description="Get a personalized meal plan with grocery list every week. AI-generated, consolidated by category, adjusted to your household size. No app needed — just email."
+        url="https://whatsfordinner.fit/blog/meal-plan-with-grocery-list"
+        datePublished="2026-02-25"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://whatsfordinner.fit" },
+          { name: "Blog", url: "https://whatsfordinner.fit/blog" },
+          { name: "Meal Plan with Grocery List: The Complete Solution", url: "https://whatsfordinner.fit/blog/meal-plan-with-grocery-list" },
+        ]}
+      />
+      <article>
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
@@ -339,6 +357,7 @@ export default function MealPlanWithGroceryList() {
           Start Your Free Week
         </Link>
       </div>
-    </article>
+      </article>
+    </>
   );
 }

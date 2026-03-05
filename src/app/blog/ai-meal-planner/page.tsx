@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title: "AI Meal Planner — How AI Creates Your Perfect Weekly Meal Plan",
@@ -26,7 +27,21 @@ export const metadata: Metadata = {
 
 export default function AiMealPlannerArticle() {
   return (
-    <article>
+    <>
+      <ArticleJsonLd
+        title="AI Meal Planner: How It Works and Why It's Better"
+        description="Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill. $4.99/mo."
+        url="https://whatsfordinner.fit/blog/ai-meal-planner"
+        datePublished="2026-02-25"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://whatsfordinner.fit" },
+          { name: "Blog", url: "https://whatsfordinner.fit/blog" },
+          { name: "AI Meal Planner: How It Works and Why It's Better", url: "https://whatsfordinner.fit/blog/ai-meal-planner" },
+        ]}
+      />
+      <article>
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Guides
       </span>
@@ -343,6 +358,7 @@ export default function AiMealPlannerArticle() {
           Start Your Free Plan &rarr;
         </Link>
       </div>
-    </article>
+      </article>
+    </>
   );
 }

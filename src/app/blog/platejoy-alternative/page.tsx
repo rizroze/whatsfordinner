@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title:
@@ -26,7 +27,21 @@ export const metadata: Metadata = {
 
 export default function PlateJoyAlternativePage() {
   return (
-    <article>
+    <>
+      <ArticleJsonLd
+        title="The Best PlateJoy Alternative in 2026"
+        description="Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — cheaper, smarter, and built for the post-PlateJoy era."
+        url="https://whatsfordinner.fit/blog/platejoy-alternative"
+        datePublished="2026-02-25"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://whatsfordinner.fit" },
+          { name: "Blog", url: "https://whatsfordinner.fit/blog" },
+          { name: "The Best PlateJoy Alternative in 2026", url: "https://whatsfordinner.fit/blog/platejoy-alternative" },
+        ]}
+      />
+      <article>
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Alternatives
       </span>
@@ -413,6 +428,7 @@ export default function PlateJoyAlternativePage() {
           </Link>
         </div>
       </div>
-    </article>
+      </article>
+    </>
   );
 }

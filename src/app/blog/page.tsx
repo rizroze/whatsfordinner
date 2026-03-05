@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog | What's For Dinner",
+  title: "Blog — Meal Planning Tips, Guides & Comparisons",
   description:
-    "Meal planning tips, AI-powered cooking guides, and alternatives to popular meal planning services.",
+    "Meal planning tips, AI-powered cooking guides, and alternatives to popular meal planning services. Learn how to eat better every week.",
+  alternates: {
+    canonical: "https://whatsfordinner.fit/blog",
+  },
   openGraph: {
-    title: "Blog | What's For Dinner",
+    title: "Blog — Meal Planning Tips, Guides & Comparisons",
     description:
       "Meal planning tips, AI-powered cooking guides, and alternatives to popular meal planning services.",
     siteName: "What's For Dinner",

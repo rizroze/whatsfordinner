@@ -141,13 +141,23 @@ export async function GET(req: NextRequest) {
           })
           .eq("id", planRecord.id);
 
+        // Count previous plans to determine week number
+        const { count: previousPlanCount } = await admin
+          .from("meal_plans")
+          .select("id", { count: "exact", head: true })
+          .eq("user_id", profile.user_id)
+          .in("status", ["sent", "ready"]);
+
+        const weekNumber = (previousPlanCount || 0);
+
         // Send the email
         const deliveryEmail = profile.delivery_email || user.email;
 
         await sendMealPlanEmail(
           deliveryEmail,
           weekOf,
-          planData as MealPlanData
+          planData as MealPlanData,
+          weekNumber
         );
 
         // Mark as sent

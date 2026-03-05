@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
   title:
@@ -21,11 +22,28 @@ export const metadata: Metadata = {
     description:
       "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists.",
   },
+  alternates: {
+    canonical: "https://whatsfordinner.fit/blog/meal-planning-for-two",
+  },
 };
 
 export default function MealPlanningForTwo() {
   return (
-    <article>
+    <>
+      <ArticleJsonLd
+        title="Meal Planning for Two: No More Waste, No More Guessing"
+        description="Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates — just $4.99/mo."
+        url="https://whatsfordinner.fit/blog/meal-planning-for-two"
+        datePublished="2026-02-25"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://whatsfordinner.fit" },
+          { name: "Blog", url: "https://whatsfordinner.fit/blog" },
+          { name: "Meal Planning for Two: No More Waste, No More Guessing", url: "https://whatsfordinner.fit/blog/meal-planning-for-two" },
+        ]}
+      />
+      <article>
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         For Couples
       </span>
@@ -242,6 +260,7 @@ export default function MealPlanningForTwo() {
           Get your first plan free &rarr;
         </Link>
       </div>
-    </article>
+      </article>
+    </>
   );
 }
