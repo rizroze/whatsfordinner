@@ -29,13 +29,13 @@ function DashboardHero({ planData, isSubscribed, planCount }: { planData: MealPl
         <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
           {planCount <= 1 ? (
             <>
-              just saved <span className="text-orange-500">2.5h</span>
+              just saved <span className="text-orange-500">2.5h this week</span>
               <br className="hidden sm:block" />
               <span className="sm:hidden"> </span>not thinking about what to eat
             </>
           ) : (
             <>
-              you&apos;ve saved <span className="text-orange-500">{hoursSavedTotal}h</span>
+              you&apos;ve saved <span className="text-orange-500">{hoursSavedTotal}h over {planCount} weeks</span>
               <br className="hidden sm:block" />
               <span className="sm:hidden"> </span>not thinking about what to eat
             </>
