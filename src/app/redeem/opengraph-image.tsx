@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "You've been gifted 1 month of free meal plans!";
+export const alt = "You've been gifted free personalized meal plans!";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -115,7 +115,7 @@ export default async function OGImage() {
               display: "flex",
             }}
           >
-            1 month of free meal plans
+            free personalized meal plans
           </div>
 
           {/* Subtitle */}
