@@ -111,7 +111,7 @@ function SignUpForm() {
         ? `${appUrl}/callback?redirect=/onboarding`
         : `${appUrl}/callback?plan=${plan}`;
 
-      const { error: signUpError } = await supabase.auth.signUp({
+      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
         options: {
@@ -125,8 +125,19 @@ function SignUpForm() {
         return;
       }
 
-      // Email/password signup requires email confirmation
-      // Show "check your email" instead of redirecting
+      // If session exists, email confirmation is disabled — redirect immediately
+      if (signUpData.session) {
+        if (hasPromo) {
+          router.push("/onboarding");
+        } else if (redirectParam) {
+          router.push(redirectParam);
+        } else {
+          await redirectToCheckout();
+        }
+        return;
+      }
+
+      // No session = email confirmation required — show "check your email"
       setCheckEmail(true);
       setLoading(false);
     } catch {
