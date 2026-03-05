@@ -178,6 +178,9 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
           <p style="margin:8px 0 0;font-size:11px;color:#D6D3D1;">
             What's For Dinner &middot; whatsfordinner.fit
           </p>
+          <p style="margin:6px 0 0;font-size:11px;color:#D6D3D1;">
+            <a href="${appUrl}/dashboard" style="color:#D6D3D1;text-decoration:underline;">Unsubscribe</a> from weekly emails
+          </p>
         </div>
       </div>
     </body>
@@ -270,6 +273,9 @@ function buildFreeEmail(weekOf: string, plan: MealPlanData): string {
           <p style="margin:0;font-size:11px;color:#D6D3D1;">
             What's For Dinner &middot; whatsfordinner.fit
           </p>
+          <p style="margin:6px 0 0;font-size:11px;color:#D6D3D1;">
+            This is a one-time email for your free plan. No spam, ever.
+          </p>
         </div>
       </div>
     </body>
@@ -300,11 +306,15 @@ export async function sendMealPlanEmail(
 ): Promise<void> {
   const html = buildSubscriberEmail(weekOf, plan, weekNumber);
 
+  const appUrl = getAppUrl();
   await getResend().emails.send({
     from: "What's For Dinner <plans@whatsfordinner.fit>",
     to,
     subject: getSubjectLine(weekOf, weekNumber),
     html,
+    headers: {
+      "List-Unsubscribe": `<${appUrl}/dashboard>`,
+    },
   });
 }
 
