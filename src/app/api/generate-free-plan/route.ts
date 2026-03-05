@@ -179,6 +179,12 @@ export async function POST(req: NextRequest) {
     await recordFingerprint(fingerprint, ip);
     usedFingerprints.add(fingerprint);
 
+    // Record for stats (non-blocking, fire-and-forget)
+    const admin = createAdminClient();
+    void admin
+      .from("meal_plans")
+      .insert({ week_of: weekOf, status: "ready", regeneration_count: 0 });
+
     // Send free plan via email if they provided one (non-blocking)
     const deliveryEmail = body.delivery_email?.trim();
     if (deliveryEmail && deliveryEmail.includes("@")) {
