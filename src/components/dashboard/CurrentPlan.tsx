@@ -176,7 +176,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
             href={`/plan/${currentPlan.week_of}`}
             className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors"
           >
-            View full plan &rarr;
+            Recipes, grocery list &rarr;
           </Link>
         </div>
 
