@@ -4,6 +4,31 @@ import { sendFreePlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { UserProfile } from "@/types/meal-plan";
+import { z } from "zod";
+
+const freePlanSchema = z.object({
+  household_size: z.number().int().min(1).max(20).optional(),
+  has_kids: z.boolean().optional(),
+  kids_ages: z.array(z.string().max(20)).max(10).optional(),
+  weekly_budget: z.enum(["budget", "moderate", "premium"]).optional(),
+  dietary_restrictions: z.array(z.string().max(50)).max(20).optional(),
+  allergies: z.array(z.string().max(50)).max(20).optional(),
+  cuisine_preferences: z.array(z.string().max(50)).max(20).optional(),
+  cooking_skill: z.enum(["beginner", "intermediate", "advanced"]).optional(),
+  max_cook_time: z.number().int().min(5).max(240).optional(),
+  meals_per_day: z.number().int().min(1).max(6).optional(),
+  include_snacks: z.boolean().optional(),
+  servings_per_meal: z.number().int().min(1).max(20).optional(),
+  delivery_email: z.string().email().max(254).optional().nullable(),
+  timezone: z.string().max(100).optional(),
+  personal_note: z.string().max(500).optional(),
+  nutrition_goal: z.enum(["lose", "maintain", "bulk", ""]).optional(),
+  age_range: z.enum(["18-25", "26-35", "36-45", "46-55", "56+", ""]).optional(),
+  // Anti-abuse fields (not validated by Zod, handled separately)
+  _fingerprint: z.string().min(32).max(128),
+  _t: z.number().optional(),
+  _email: z.string().optional(), // honeypot
+}).passthrough();
 
 const BLOCK_MSG = "You've already received your free plan. Subscribe for just $4.99/mo to get a fresh plan every week!";
 
@@ -102,9 +127,14 @@ export async function POST(req: NextRequest) {
       req.headers.get("x-real-ip") ||
       "unknown";
 
-    const body = await req.json();
+    const rawBody = await req.json();
+    const parsed = freePlanSchema.safeParse(rawBody);
+    if (!parsed.success) {
+      return NextResponse.json({ error: "Invalid request." }, { status: 400 });
+    }
+    const body = parsed.data;
     const fingerprint = body._fingerprint;
-    const startedAt = body._t; // Timestamp when onboarding started
+    const startedAt = body._t;
     const honeypot = body._email; // Invisible field — bots fill it, humans don't
 
     // --- Bot detection: Honeypot ---
@@ -116,11 +146,6 @@ export async function POST(req: NextRequest) {
     // --- Bot detection: Timing ---
     // Real user takes at least 15 seconds to complete 5-step onboarding
     if (startedAt && Date.now() - startedAt < 15_000) {
-      return NextResponse.json({ error: "Invalid request." }, { status: 400 });
-    }
-
-    // --- Guard: Fingerprint required + valid ---
-    if (!fingerprint || typeof fingerprint !== "string" || fingerprint.length < 32) {
       return NextResponse.json({ error: "Invalid request." }, { status: 400 });
     }
 

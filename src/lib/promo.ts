@@ -132,12 +132,16 @@ export async function redeemPromoCode(
   }
 
   // 4. Atomically increment usage (fails if already maxed out)
+  // Try RPC first (single SQL: UPDATE SET current_uses = current_uses + 1 WHERE current_uses < max_uses)
   const { data: updated, error: updateErr } = await db.rpc("increment_promo_uses", {
     promo_id: promo.id,
   });
 
-  // If the RPC doesn't exist yet, fall back to manual update
   if (updateErr) {
+    // RPC not available — fallback with conditional guard.
+    // Read current state, then update only if still under limit.
+    // The .eq("current_uses", ...) acts as an optimistic lock —
+    // if another request incremented between read and write, this update matches 0 rows.
     const { data: codeRow } = await db
       .from("promo_codes")
       .select("current_uses, max_uses")
@@ -148,10 +152,16 @@ export async function redeemPromoCode(
       return { success: false, error: "This code has been fully redeemed" };
     }
 
-    await db
+    const { data: rows } = await db
       .from("promo_codes")
       .update({ current_uses: codeRow.current_uses + 1 })
-      .eq("id", promo.id);
+      .eq("id", promo.id)
+      .eq("current_uses", codeRow.current_uses) // optimistic lock — fails if changed
+      .select("id");
+
+    if (!rows || rows.length === 0) {
+      return { success: false, error: "This code has been fully redeemed" };
+    }
   }
 
   // 5. Calculate expiry
