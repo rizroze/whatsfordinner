@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "Mahlzeiten geplant",
-      "hoursSaved": "Stunden Essensplanung gespart",
-      "lessSpent": "pro Jahr gespart vs Kochboxen",
-      "keptSubscribing": "bleiben Abonnent"
+      "hoursSaved": "Stunden Planung gespart",
+      "plansGenerated": "Pläne erstellt"
     },
     "howItWorks": {
       "title": "So funktioniert es",

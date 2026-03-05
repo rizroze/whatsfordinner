@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "وجبة مخطط لها",
-      "hoursSaved": "ساعات تخطيط وجبات تم توفيرها",
-      "lessSpent": "توفير سنوي مقارنة بصناديق الوجبات",
-      "keptSubscribing": "استمرت في الاشتراك"
+      "hoursSaved": "ساعات تخطيط تم توفيرها",
+      "plansGenerated": "خطط تم إنشاؤها"
     },
     "howItWorks": {
       "title": "كيفية الاستخدام",

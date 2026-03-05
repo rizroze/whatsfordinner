@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "餐饮计划已制定",
-      "hoursSaved": "节省的餐饮规划时间",
-      "lessSpent": "每年比外卖套餐节省",
-      "keptSubscribing": "继续订阅"
+      "hoursSaved": "节省的计划时间",
+      "plansGenerated": "计划已生成"
     },
     "howItWorks": {
       "title": "工作原理",

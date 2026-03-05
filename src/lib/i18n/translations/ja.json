@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "食事のプランが立てられた",
-      "hoursSaved": "献立づくりの時間を節約",
-      "lessSpent": "ミールキットより年間節約",
-      "keptSubscribing": "購読を継続している"
+      "hoursSaved": "計画時間を節約",
+      "plansGenerated": "プラン作成済み"
     },
     "howItWorks": {
       "title": "使い方",

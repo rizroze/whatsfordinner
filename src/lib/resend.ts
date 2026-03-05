@@ -1,6 +1,7 @@
 import { Resend } from "resend";
 import type { MealPlanData } from "@/types/meal-plan";
 import { formatWeekOf, getAppUrl } from "@/lib/utils";
+import { generateUnsubscribeUrl } from "@/lib/unsubscribe";
 
 function getResend() {
   return new Resend(process.env.RESEND_API_KEY!);
@@ -102,7 +103,7 @@ function getHeroContent(weekNumber: number): { headline: string; subtext: string
 
 // --- Subscriber email ---
 
-function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: number): string {
+function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: number, unsubscribeUrl: string): string {
   const appUrl = getAppUrl();
   const weekLabel = formatWeekOf(weekOf);
   const { totalMeals, totalCalories, totalCookTime, groceryCount } = computeStats(plan);
@@ -179,7 +180,7 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
             What's For Dinner &middot; whatsfordinner.fit
           </p>
           <p style="margin:6px 0 0;font-size:11px;color:#D6D3D1;">
-            <a href="${appUrl}/dashboard" style="color:#D6D3D1;text-decoration:underline;">Unsubscribe</a> from weekly emails
+            <a href="${unsubscribeUrl}" style="color:#D6D3D1;text-decoration:underline;">Unsubscribe</a> from weekly emails
           </p>
         </div>
       </div>
@@ -302,18 +303,22 @@ export async function sendMealPlanEmail(
   to: string,
   weekOf: string,
   plan: MealPlanData,
-  weekNumber: number = 1
+  weekNumber: number = 1,
+  userId?: string
 ): Promise<void> {
-  const html = buildSubscriberEmail(weekOf, plan, weekNumber);
+  const unsubscribeUrl = userId
+    ? generateUnsubscribeUrl(userId, to)
+    : `${getAppUrl()}/dashboard`;
+  const html = buildSubscriberEmail(weekOf, plan, weekNumber, unsubscribeUrl);
 
-  const appUrl = getAppUrl();
   await getResend().emails.send({
     from: "What's For Dinner <plans@whatsfordinner.fit>",
     to,
     subject: getSubjectLine(weekOf, weekNumber),
     html,
     headers: {
-      "List-Unsubscribe": `<${appUrl}/dashboard>`,
+      "List-Unsubscribe": `<${unsubscribeUrl}>`,
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
     },
   });
 }

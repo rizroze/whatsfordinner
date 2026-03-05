@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "repas planifiés",
-      "hoursSaved": "heures de planification de repas économisées",
-      "lessSpent": "économisés par an vs kits repas",
-      "keptSubscribing": "continuent de s'abonner"
+      "hoursSaved": "heures de planification économisées",
+      "plansGenerated": "plans générés"
     },
     "howItWorks": {
       "title": "Comment ça marche",

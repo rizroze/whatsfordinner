@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "भोजन की योजना बनाई गई",
-      "hoursSaved": "भोजन योजना बनाने में बचाए गए घंटे",
-      "lessSpent": "मील किट की तुलना में सालाना बचत",
-      "keptSubscribing": "सदस्यता जारी रखी"
+      "hoursSaved": "योजना बनाने में बचाए गए घंटे",
+      "plansGenerated": "योजनाएँ बनाई गईं"
     },
     "howItWorks": {
       "title": "यह कैसे काम करता है",

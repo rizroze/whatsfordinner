@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "끼니 계획됨",
-      "hoursSaved": "식단 계획 시간 절약",
-      "lessSpent": "밀키트 대비 연간 절약",
-      "keptSubscribing": "구독 유지"
+      "hoursSaved": "계획 시간 절약",
+      "plansGenerated": "플랜 생성됨"
     },
     "howItWorks": {
       "title": "이용 방법",

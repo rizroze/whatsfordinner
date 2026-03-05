@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "meals planned",
-      "hoursSaved": "hours of meal planning saved",
-      "lessSpent": "save per year vs meal kits",
-      "keptSubscribing": "kept subscribing"
+      "hoursSaved": "hours of planning saved",
+      "lessSpent": "save per year vs meal kits"
     },
     "howItWorks": {
       "title": "How It Works",

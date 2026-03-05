@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "comidas planificadas",
-      "hoursSaved": "horas de planificación de comidas ahorradas",
-      "lessSpent": "ahorrados al año vs kits de comida",
-      "keptSubscribing": "mantienen su suscripción"
+      "hoursSaved": "horas de planificación ahorradas",
+      "plansGenerated": "planes generados"
     },
     "howItWorks": {
       "title": "Cómo Funciona",

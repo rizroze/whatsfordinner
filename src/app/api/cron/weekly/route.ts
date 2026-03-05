@@ -83,9 +83,12 @@ export async function GET(req: NextRequest) {
     // Build lookup maps
     const userMap = new Map(users.map((u) => [u.id, u]));
 
-    total = profiles.length;
+    // Filter out users who opted out of emails
+    const activeProfiles = profiles.filter((p) => !p.email_opted_out);
 
-    for (const profile of profiles) {
+    total = activeProfiles.length;
+
+    for (const profile of activeProfiles) {
       const user = userMap.get(profile.user_id);
       if (!user) continue;
 
@@ -157,7 +160,8 @@ export async function GET(req: NextRequest) {
           deliveryEmail,
           weekOf,
           planData as MealPlanData,
-          weekNumber
+          weekNumber,
+          profile.user_id
         );
 
         // Mark as sent

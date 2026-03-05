@@ -3,6 +3,10 @@
     {
       "path": "/api/cron/weekly",
       "schedule": "0 8 * * 0"
+    },
+    {
+      "path": "/api/cron/nurture",
+      "schedule": "0 14 * * *"
     }
   ]
 }

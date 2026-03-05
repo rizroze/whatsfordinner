@@ -179,14 +179,22 @@ export async function POST(req: NextRequest) {
     await recordFingerprint(fingerprint, ip);
     usedFingerprints.add(fingerprint);
 
-    // Record for stats (non-blocking, fire-and-forget)
+    // Record for stats + nurture tracking (non-blocking, fire-and-forget)
     const admin = createAdminClient();
+    const deliveryEmail = body.delivery_email?.trim();
+    const planDataForInsert = deliveryEmail && deliveryEmail.includes("@")
+      ? { nurture_email: deliveryEmail, nurture_sent: [] as string[] }
+      : null;
     void admin
       .from("meal_plans")
-      .insert({ week_of: weekOf, status: "ready", regeneration_count: 0 });
+      .insert({
+        week_of: weekOf,
+        status: "ready",
+        regeneration_count: 0,
+        plan_data: planDataForInsert,
+      });
 
     // Send free plan via email if they provided one (non-blocking)
-    const deliveryEmail = body.delivery_email?.trim();
     if (deliveryEmail && deliveryEmail.includes("@")) {
       sendFreePlanEmail(deliveryEmail, weekOf, plan).catch((err) =>
         console.error("Free plan email failed:", err)

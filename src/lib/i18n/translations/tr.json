@@ -24,9 +24,8 @@
     },
     "social": {
       "mealsPlanned": "planlanan öğün",
-      "hoursSaved": "tasarruf edilen öğün planlama saati",
-      "lessSpent": "yemek kutularına göre yıllık tasarruf",
-      "keptSubscribing": "abonemiz kalan"
+      "hoursSaved": "tasarruf edilen planlama saati",
+      "plansGenerated": "oluşturulan plan"
     },
     "howItWorks": {
       "title": "Nasıl Çalışır",
