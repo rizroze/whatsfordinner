@@ -226,22 +226,8 @@ function OnboardingContent() {
 
       // Authenticated users: use the proper generate-plan endpoint
       if (isAuthenticated) {
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 120_000);
-
-        const res = await fetch("/api/generate-plan", {
-          method: "POST",
-          signal: controller.signal,
-        });
-
-        clearTimeout(timeout);
-
-        if (!res.ok) {
-          const errData = await res.json();
-          throw new Error(errData.error || "Failed to generate plan");
-        }
-
-        // Auto-redeem promo code if one was stored (from /redeem flow)
+        // Auto-redeem promo code FIRST if one was stored (from /redeem flow)
+        // This activates the subscription before generate-plan checks for it
         const promoCode = localStorage.getItem("wfd_promo_code");
         if (promoCode) {
           try {
@@ -255,6 +241,21 @@ function OnboardingContent() {
           } finally {
             localStorage.removeItem("wfd_promo_code");
           }
+        }
+
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 120_000);
+
+        const res = await fetch("/api/generate-plan", {
+          method: "POST",
+          signal: controller.signal,
+        });
+
+        clearTimeout(timeout);
+
+        if (!res.ok) {
+          const errData = await res.json();
+          throw new Error(errData.error || "Failed to generate plan");
         }
 
         router.push("/dashboard");
