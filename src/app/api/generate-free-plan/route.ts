@@ -48,7 +48,7 @@ function checkIpLimit(ip: string): boolean {
   const now = Date.now();
   const entry = ipLimits.get(ip);
   if (!entry || now > entry.resetAt) {
-    ipLimits.set(ip, { count: 1, resetAt: now + 86_400_000 });
+    ipLimits.set(ip, { count: 1, resetAt: now + 21 * 86_400_000 });
     return true;
   }
   if (entry.count >= 1) return false;
@@ -75,13 +75,13 @@ async function checkFingerprint(
       return { allowed: false, reason: "device" };
     }
 
-    // IP used in last 24h?
-    const oneDayAgo = new Date(Date.now() - 86_400_000).toISOString();
+    // IP used in last 21 days?
+    const threeWeeksAgo = new Date(Date.now() - 21 * 86_400_000).toISOString();
     const { data: ipRecent } = await db
       .from("free_generations")
       .select("id")
       .eq("ip_address", ip)
-      .gte("created_at", oneDayAgo)
+      .gte("created_at", threeWeeksAgo)
       .limit(1);
 
     if (ipRecent && ipRecent.length > 0) {
