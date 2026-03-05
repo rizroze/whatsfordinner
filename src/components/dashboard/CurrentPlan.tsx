@@ -36,6 +36,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [currentPlan, setCurrentPlan] = useState(plan);
+  const [selectedDay, setSelectedDay] = useState<string | null>(null);
 
   async function handleGenerate() {
     setLoading(true);
@@ -151,7 +152,8 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
   // Ready or sent
   const planData = currentPlan.plan_data;
   const todayName = getTodayName();
-  const todayPlan = planData?.days?.find((d) => d.day === todayName);
+  const activeDayName = selectedDay ?? todayName;
+  const activePlan = planData?.days?.find((d) => d.day === activeDayName);
   const regenLimit = isSubscribed ? 2 : 0;
   const regenLeft = regenLimit - currentPlan.regeneration_count;
 
@@ -178,14 +180,14 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
           </Link>
         </div>
 
-        {/* Today's meals — the hero of this card */}
-        {todayPlan ? (
+        {/* Day meals — the hero of this card */}
+        {activePlan ? (
           <div>
             <p className="text-xs font-semibold text-orange-600 uppercase tracking-wide mb-3">
-              Today &mdash; {todayName}
+              {activeDayName === todayName ? "Today" : activeDayName} &mdash; {activeDayName}
             </p>
             <div className="space-y-2.5">
-              {todayPlan.meals.map((meal) => (
+              {activePlan.meals.map((meal) => (
                 <div key={`${meal.type}-${meal.name}`} className="flex items-center gap-3">
                   <span className={cn("w-2 h-2 rounded-full shrink-0", typeDots[meal.type] ?? "bg-stone-300")} />
                   <div className="min-w-0 flex-1">
@@ -200,39 +202,48 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
               ))}
             </div>
             <div className="mt-3 pt-3 border-t border-stone-100 flex items-center gap-3 text-xs text-stone-400">
-              <span>{todayPlan.totalCalories} cal</span>
+              <span>{activePlan.totalCalories} cal</span>
               <span>&middot;</span>
-              <span>{todayPlan.meals.reduce((s, m) => s + m.prepTime + m.cookTime, 0)} min cook time</span>
+              <span>{activePlan.meals.reduce((s, m) => s + m.prepTime + m.cookTime, 0)} min cook time</span>
             </div>
           </div>
         ) : (
           <p className="text-sm text-stone-500 py-4">
-            No meals planned for today.{" "}
+            No meals planned for {activeDayName === todayName ? "today" : activeDayName}.{" "}
             <Link href={`/plan/${currentPlan.week_of}`} className="text-orange-500 hover:text-orange-600 font-medium">
               See full week
             </Link>
           </p>
         )}
 
-        {/* Week dots — subtle indicator of which days have plans */}
+        {/* Week dots — clickable day selector */}
         <div className="flex items-center gap-1 mt-4 pt-4 border-t border-stone-100">
           {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => {
-            const hasDay = planData?.days?.some((day) => day.day.startsWith(d));
+            const fullDay = planData?.days?.find((day) => day.day.startsWith(d));
+            const hasDay = !!fullDay;
             const isToday = todayName.startsWith(d);
+            const isSelected = activeDayName.startsWith(d);
             return (
-              <div
+              <button
                 key={d}
+                type="button"
+                onClick={() => {
+                  if (fullDay) setSelectedDay(fullDay.day);
+                }}
+                disabled={!hasDay}
                 className={cn(
-                  "flex-1 text-center py-1.5 rounded-lg text-[10px] font-medium",
-                  isToday
+                  "flex-1 text-center py-1.5 rounded-lg text-[10px] font-medium transition-colors duration-200",
+                  isSelected
                     ? "bg-orange-500 text-white"
-                    : hasDay
-                      ? "bg-stone-100 text-stone-500"
-                      : "text-stone-300",
+                    : isToday
+                      ? "bg-orange-100 text-orange-600"
+                      : hasDay
+                        ? "bg-stone-100 text-stone-500 hover:bg-stone-200 cursor-pointer"
+                        : "text-stone-300 cursor-default",
                 )}
               >
                 {d}
-              </div>
+              </button>
             );
           })}
         </div>

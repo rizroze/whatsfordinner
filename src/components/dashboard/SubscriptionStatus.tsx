@@ -22,10 +22,12 @@ const statusConfig: Record<
 
 export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps) {
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const config = statusConfig[status];
 
   async function handleManageBilling() {
     setLoading(true);
+    setError(null);
     try {
       const res = await fetch("/api/lemonsqueezy/portal", { method: "POST" });
       const data = await res.json();
@@ -33,8 +35,9 @@ export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps
         window.location.href = data.url;
         return;
       }
+      setError(data.error || "Could not open billing portal");
     } catch {
-      // fall through
+      setError("Could not connect to billing. Please try again.");
     }
     setLoading(false);
   }
@@ -85,15 +88,20 @@ export function SubscriptionStatus({ status, freeUsed }: SubscriptionStatusProps
         </p>
 
         {status === "active" && (
-          <Button
-            variant="secondary"
-            size="sm"
-            loading={loading}
-            onClick={handleManageBilling}
-            className="w-full"
-          >
-            Manage Billing
-          </Button>
+          <>
+            <Button
+              variant="secondary"
+              size="sm"
+              loading={loading}
+              onClick={handleManageBilling}
+              className="w-full"
+            >
+              Manage Billing
+            </Button>
+            {error && (
+              <p className="text-xs text-red-500 text-center">{error}</p>
+            )}
+          </>
         )}
 
         {(status === "inactive" || status === "cancelled") && (

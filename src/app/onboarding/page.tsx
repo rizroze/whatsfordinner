@@ -68,6 +68,7 @@ function OnboardingContent() {
   const [blocked, setBlocked] = useState(false);
   const [subscribing, setSubscribing] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [profileLoading, setProfileLoading] = useState(isEdit);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startedAtRef = useRef(Date.now());
 
@@ -129,6 +130,8 @@ function OnboardingContent() {
           }
         } catch {
           // Failed to load profile — continue with defaults
+        } finally {
+          setProfileLoading(false);
         }
       }
     });
@@ -236,6 +239,22 @@ function OnboardingContent() {
         if (!res.ok) {
           const errData = await res.json();
           throw new Error(errData.error || "Failed to generate plan");
+        }
+
+        // Auto-redeem promo code if one was stored (from /redeem flow)
+        const promoCode = localStorage.getItem("wfd_promo_code");
+        if (promoCode) {
+          try {
+            await fetch("/api/promo/redeem", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ code: promoCode }),
+            });
+          } catch {
+            // Non-critical — they can redeem manually on dashboard
+          } finally {
+            localStorage.removeItem("wfd_promo_code");
+          }
         }
 
         router.push("/dashboard");
@@ -394,20 +413,29 @@ function OnboardingContent() {
 
         {/* Step content */}
         <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-8 mb-4 sm:mb-6">
-          {currentStep === 0 && (
-            <StepHousehold data={data} onChange={handleChange} />
-          )}
-          {currentStep === 1 && (
-            <StepBudget data={data} onChange={handleChange} />
-          )}
-          {currentStep === 2 && (
-            <StepDietary data={data} onChange={handleChange} />
-          )}
-          {currentStep === 3 && (
-            <StepPreferences data={data} onChange={handleChange} />
-          )}
-          {currentStep === 4 && (
-            <StepDelivery data={data} onChange={handleChange} />
+          {profileLoading ? (
+            <div className="py-12 text-center">
+              <div className="w-6 h-6 border-2 border-orange-400 border-t-transparent rounded-full animate-spin mx-auto mb-3" />
+              <p className="text-sm text-stone-400">Loading your preferences...</p>
+            </div>
+          ) : (
+            <>
+              {currentStep === 0 && (
+                <StepHousehold data={data} onChange={handleChange} />
+              )}
+              {currentStep === 1 && (
+                <StepBudget data={data} onChange={handleChange} />
+              )}
+              {currentStep === 2 && (
+                <StepDietary data={data} onChange={handleChange} />
+              )}
+              {currentStep === 3 && (
+                <StepPreferences data={data} onChange={handleChange} />
+              )}
+              {currentStep === 4 && (
+                <StepDelivery data={data} onChange={handleChange} />
+              )}
+            </>
           )}
         </div>
 
