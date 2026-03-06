@@ -20,7 +20,8 @@
       "description": "个性化餐饮计划和购物清单，每周直接送到你的邮箱。免费试用 3 天计划",
       "noCreditCard": "——无需信用卡。",
       "cta": "获取我的免费餐计划",
-      "subtext": "2分钟完成。计划即刻生成。"
+      "subtext": "2分钟完成。计划即刻生成。",
+      "ctaLoggedIn": "前往控制台"
     },
     "social": {
       "mealsPlanned": "餐饮计划已制定",

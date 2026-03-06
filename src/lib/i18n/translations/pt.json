@@ -20,7 +20,8 @@
       "description": "Planos de refeições personalizados e listas de compras, entregues na sua caixa de entrada, toda semana. Experimente um plano gratuito de 3 dias",
       "noCreditCard": "— sem cartão de crédito.",
       "cta": "Receber Meu Plano Grátis",
-      "subtext": "2 minutos. Seu plano fica pronto na hora."
+      "subtext": "2 minutos. Seu plano fica pronto na hora.",
+      "ctaLoggedIn": "Ir ao Painel"
     },
     "social": {
       "mealsPlanned": "refeições planejadas",

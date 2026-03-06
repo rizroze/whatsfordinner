@@ -41,7 +41,7 @@ const MEAL_COLORS: Record<string, string> = {
   dinner: "bg-violet-50 text-violet-700",
 };
 
-export function PlanPreview() {
+export function PlanPreview({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t } = useT();
 
   return (
@@ -111,10 +111,10 @@ export function PlanPreview() {
               </div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <Link
-                  href="/onboarding"
+                  href={isSignedIn ? "/dashboard" : "/onboarding"}
                   className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md hover:shadow-lg transition-all duration-200"
                 >
-                  {t("landing.preview.unlock")}
+                  {isSignedIn ? t("landing.hero.ctaLoggedIn") : t("landing.preview.unlock")}
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12" />
                     <polyline points="12 5 19 12 12 19" />

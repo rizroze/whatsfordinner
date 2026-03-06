@@ -20,7 +20,8 @@
       "description": "Planes de comida personalizados y listas de compras, entregados en tu bandeja de entrada, cada semana. Prueba un plan gratuito de 3 días",
       "noCreditCard": "— sin tarjeta de crédito.",
       "cta": "Obtén Mi Plan Gratis",
-      "subtext": "2 minutos. Tu plan listo al instante."
+      "subtext": "2 minutos. Tu plan listo al instante.",
+      "ctaLoggedIn": "Ir al Panel"
     },
     "social": {
       "mealsPlanned": "comidas planificadas",

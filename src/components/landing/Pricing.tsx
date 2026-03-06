@@ -23,7 +23,7 @@ function Check() {
   );
 }
 
-export function Pricing() {
+export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t } = useT();
 
   const monthlyFeatures = [
@@ -81,8 +81,8 @@ export function Pricing() {
             </ul>
 
             <Button asChild variant="ghost" className="mt-6 w-full">
-              <Link href="/onboarding">
-                {t("landing.pricing.tryFreeFirst")}
+              <Link href={isSignedIn ? "/dashboard" : "/onboarding"}>
+                {isSignedIn ? t("landing.hero.ctaLoggedIn") : t("landing.pricing.tryFreeFirst")}
               </Link>
             </Button>
           </div>
@@ -115,8 +115,8 @@ export function Pricing() {
             </ul>
 
             <Button asChild variant="primary" className="mt-6 w-full">
-              <Link href="/onboarding">
-                {t("landing.pricing.tryFreeFirst")}
+              <Link href={isSignedIn ? "/dashboard" : "/onboarding"}>
+                {isSignedIn ? t("landing.hero.ctaLoggedIn") : t("landing.pricing.tryFreeFirst")}
               </Link>
             </Button>
           </div>

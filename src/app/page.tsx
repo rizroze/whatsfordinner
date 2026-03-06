@@ -63,11 +63,11 @@ export default function Home() {
         </div>
       </nav>
 
-      <Hero />
+      <Hero isSignedIn={isSignedIn === true} />
       <SocialProof />
       <HowItWorks />
-      <PlanPreview />
-      <Pricing />
+      <PlanPreview isSignedIn={isSignedIn === true} />
+      <Pricing isSignedIn={isSignedIn === true} />
       <FAQ />
       <Footer />
     </main>

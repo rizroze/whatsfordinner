@@ -20,7 +20,8 @@
       "description": "Des plans de repas personnalisés et des listes de courses, livrés dans votre boîte de réception, chaque semaine. Essayez un plan gratuit de 3 jours",
       "noCreditCard": "— aucune carte de crédit requise.",
       "cta": "Recevoir Mon Plan Gratuit",
-      "subtext": "2 minutes. Votre plan est prêt instantanément."
+      "subtext": "2 minutes. Votre plan est prêt instantanément.",
+      "ctaLoggedIn": "Aller au Tableau de bord"
     },
     "social": {
       "mealsPlanned": "repas planifiés",

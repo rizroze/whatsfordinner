@@ -20,7 +20,8 @@
       "description": "Kişiselleştirilmiş öğün planları ve alışveriş listeleri, her hafta e-postanıza teslim edilir. Ücretsiz 3 günlük planı deneyin",
       "noCreditCard": "— kredi kartı gerekli değil.",
       "cta": "Ücretsiz Planımı Al",
-      "subtext": "2 dakika. Planınız anında hazır."
+      "subtext": "2 dakika. Planınız anında hazır.",
+      "ctaLoggedIn": "Panoya Git"
     },
     "social": {
       "mealsPlanned": "planlanan öğün",

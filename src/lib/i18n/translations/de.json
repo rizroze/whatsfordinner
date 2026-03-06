@@ -20,7 +20,8 @@
       "description": "Personalisierte Essenspläne und Einkaufslisten, direkt in Deinen Posteingang, jede Woche. Probiere einen kostenlosen 3-Tages-Plan",
       "noCreditCard": "— keine Kreditkarte nötig.",
       "cta": "Meinen Gratis-Plan holen",
-      "subtext": "2 Minuten. Dein Plan ist sofort fertig."
+      "subtext": "2 Minuten. Dein Plan ist sofort fertig.",
+      "ctaLoggedIn": "Zum Dashboard"
     },
     "social": {
       "mealsPlanned": "Mahlzeiten geplant",
