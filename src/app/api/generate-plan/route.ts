@@ -57,6 +57,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    // Fetch meal feedback for smarter generation
+    const { data: feedback } = await admin
+      .from("meal_feedback")
+      .select("meal_name, rating")
+      .eq("user_id", user.id);
+
     const weekOf = getWeekOf();
 
     // Check for existing plan this week
@@ -136,12 +142,12 @@ export async function POST(req: NextRequest) {
       const { MOCK_PLAN } = await import("@/lib/mock-plan");
       planData = { ...MOCK_PLAN, weekOf };
     } else try {
-      planData = await generateMealPlan(profile as UserProfile, weekOf, { days });
+      planData = await generateMealPlan(profile as UserProfile, weekOf, { days, feedback: feedback ?? [] });
     } catch (firstError) {
       console.error("First generation attempt failed:", firstError);
 
       try {
-        planData = await generateMealPlan(profile as UserProfile, weekOf, { days });
+        planData = await generateMealPlan(profile as UserProfile, weekOf, { days, feedback: feedback ?? [] });
       } catch (retryError) {
         console.error("Retry generation failed:", retryError);
 

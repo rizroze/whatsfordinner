@@ -10,9 +10,11 @@ import type { DayPlan } from "@/types/meal-plan";
 interface DayCardProps {
   day: DayPlan;
   defaultOpen?: boolean;
+  feedbackMap?: Record<string, "liked" | "disliked">;
+  onFeedback?: (mealName: string, rating: "liked" | "disliked") => void;
 }
 
-export function DayCard({ day, defaultOpen = false }: DayCardProps) {
+export function DayCard({ day, defaultOpen = false, feedbackMap, onFeedback }: DayCardProps) {
   const { t } = useT();
   const [open, setOpen] = useState(defaultOpen);
 
@@ -52,7 +54,12 @@ export function DayCard({ day, defaultOpen = false }: DayCardProps) {
         <CardContent className="pb-6 pt-0 space-y-3">
 
           {day.meals.map((meal, i) => (
-            <MealCard key={`${meal.name}-${i}`} meal={meal} />
+            <MealCard
+              key={`${meal.name}-${i}`}
+              meal={meal}
+              feedback={feedbackMap?.[meal.name] ?? null}
+              onFeedback={onFeedback}
+            />
           ))}
         </CardContent>
       )}

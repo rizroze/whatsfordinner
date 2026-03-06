@@ -15,7 +15,12 @@ function sanitizeUserText(text: string, maxLen = 500): string {
     .trim();
 }
 
-function buildPrompt(profile: UserProfile, days: number): string {
+interface MealFeedback {
+  meal_name: string;
+  rating: "liked" | "disliked";
+}
+
+function buildPrompt(profile: UserProfile, days: number, feedback?: MealFeedback[]): string {
   const dayLabel = days === 7 ? "7-day" : `${days}-day`;
   const dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].slice(0, days);
 
@@ -59,6 +64,14 @@ function buildPrompt(profile: UserProfile, days: number): string {
   if (profile.allergies.length > 0) {
     lines.push(`Allergies (MUST AVOID): ${profile.allergies.map((a) => sanitizeUserText(a, 50)).join(", ")}`);
   }
+  // Include meal feedback if available
+  if (feedback && feedback.length > 0) {
+    const liked = feedback.filter((f) => f.rating === "liked").map((f) => sanitizeUserText(f.meal_name, 100));
+    const disliked = feedback.filter((f) => f.rating === "disliked").map((f) => sanitizeUserText(f.meal_name, 100));
+    if (liked.length > 0) lines.push(`Liked meals (include similar): ${liked.slice(0, 10).join(", ")}`);
+    if (disliked.length > 0) lines.push(`Disliked meals (AVOID similar): ${disliked.slice(0, 10).join(", ")}`);
+  }
+
   if (profile.cuisine_preferences.length > 0) {
     // Cap cuisines for shorter plans to keep response compact
     const maxCuisines = days <= 1 ? 3 : days <= 3 ? 5 : Infinity;
@@ -92,11 +105,11 @@ function buildPrompt(profile: UserProfile, days: number): string {
 export async function generateMealPlan(
   profile: UserProfile,
   weekOf: string,
-  options?: { days?: number }
+  options?: { days?: number; feedback?: MealFeedback[] }
 ): Promise<MealPlanData> {
   const days = options?.days ?? 7;
   const systemPrompt = `You are a meal planner. Respond with valid JSON only — no markdown, no explanation. Just the JSON object.`;
-  const userPrompt = buildPrompt(profile, days);
+  const userPrompt = buildPrompt(profile, days, options?.feedback);
 
   // Haiku 4.5 — cheapest model, handles structured JSON well
   const message = await anthropic.messages.create({

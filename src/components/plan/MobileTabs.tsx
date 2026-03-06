@@ -11,11 +11,13 @@ interface MobileTabsProps {
   days: DayPlan[];
   groceryCategories: GroceryCategory[];
   estimatedCost?: string;
+  feedbackMap?: Record<string, "liked" | "disliked">;
+  onFeedback?: (mealName: string, rating: "liked" | "disliked") => void;
 }
 
 type Tab = "meals" | "grocery";
 
-export function MobileTabs({ days, groceryCategories, estimatedCost }: MobileTabsProps) {
+export function MobileTabs({ days, groceryCategories, estimatedCost, feedbackMap, onFeedback }: MobileTabsProps) {
   const { t } = useT();
   const [active, setActive] = useState<Tab>("meals");
 
@@ -55,7 +57,13 @@ export function MobileTabs({ days, groceryCategories, estimatedCost }: MobileTab
       {active === "meals" ? (
         <div className="space-y-4">
           {days.map((day, i) => (
-            <DayCard key={day.day} day={day} defaultOpen={i === 0} />
+            <DayCard
+              key={day.day}
+              day={day}
+              defaultOpen={i === 0}
+              feedbackMap={feedbackMap}
+              onFeedback={onFeedback}
+            />
           ))}
         </div>
       ) : (

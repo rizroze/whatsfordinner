@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
@@ -14,13 +14,43 @@ interface PlanViewProps {
   planData: MealPlanData;
   weekOf: string;
   formattedWeek: string;
+  initialFeedback?: { meal_name: string; rating: "liked" | "disliked" }[];
 }
 
 type ViewMode = "cards" | "table";
 
-export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
+export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: PlanViewProps) {
   const { t } = useT();
   const [viewMode, setViewMode] = useState<ViewMode>("cards");
+
+  // Build feedback map from initial data
+  const [feedbackMap, setFeedbackMap] = useState<Record<string, "liked" | "disliked">>(() => {
+    const map: Record<string, "liked" | "disliked"> = {};
+    for (const f of initialFeedback ?? []) {
+      map[f.meal_name] = f.rating;
+    }
+    return map;
+  });
+
+  const handleFeedback = useCallback((mealName: string, rating: "liked" | "disliked") => {
+    // Optimistic update
+    setFeedbackMap((prev) => {
+      const next = { ...prev };
+      if (prev[mealName] === rating) {
+        delete next[mealName]; // un-toggle
+      } else {
+        next[mealName] = rating;
+      }
+      return next;
+    });
+
+    // Fire API call (no need to await)
+    fetch("/api/meal-feedback", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ meal_name: mealName, rating }),
+    }).catch(() => {});
+  }, []);
 
   const totalMeals = planData.days.reduce((sum, d) => sum + d.meals.length, 0);
   const totalGroceryItems = planData.groceryList.reduce((sum, c) => sum + c.items.length, 0);
@@ -29,7 +59,6 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
     (sum, d) => sum + d.meals.reduce((ms, m) => ms + m.prepTime + m.cookTime, 0),
     0,
   );
-  // 2.5h/week × 52 weeks = 130h/yr
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
@@ -145,6 +174,8 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
             days={planData.days}
             groceryCategories={planData.groceryList}
             estimatedCost={planData.estimatedWeeklyCost}
+            feedbackMap={feedbackMap}
+            onFeedback={handleFeedback}
           />
         </div>
 
@@ -163,7 +194,13 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
             <div className="lg:grid lg:grid-cols-5 lg:gap-8">
               <div className="lg:col-span-3 space-y-4">
                 {planData.days.map((day, i) => (
-                  <DayCard key={day.day} day={day} defaultOpen={i === 0} />
+                  <DayCard
+                    key={day.day}
+                    day={day}
+                    defaultOpen={i === 0}
+                    feedbackMap={feedbackMap}
+                    onFeedback={handleFeedback}
+                  />
                 ))}
               </div>
 

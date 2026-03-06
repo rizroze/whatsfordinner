@@ -31,6 +31,8 @@ const DIETARY_OPTIONS = [
   "Pescatarian",
   "Halal",
   "Kosher",
+  "No Meat on Fridays",
+  "Intermittent Fasting",
 ];
 
 export function StepDietary({ data, onChange }: StepProps) {

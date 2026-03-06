@@ -7,6 +7,8 @@ import type { Meal } from "@/types/meal-plan";
 
 interface MealCardProps {
   meal: Meal;
+  feedback?: "liked" | "disliked" | null;
+  onFeedback?: (mealName: string, rating: "liked" | "disliked") => void;
 }
 
 const mealTypeStyles: Record<Meal["type"], string> = {
@@ -16,9 +18,11 @@ const mealTypeStyles: Record<Meal["type"], string> = {
   snack: "bg-lime-50 text-lime-600",
 };
 
-export function MealCard({ meal }: MealCardProps) {
+export function MealCard({ meal, feedback, onFeedback }: MealCardProps) {
   const { t } = useT();
   const [expanded, setExpanded] = useState(false);
+
+  const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(meal.name + " recipe")}`;
 
   return (
     <div className="rounded-xl border border-stone-100 bg-[#FFFBF5] overflow-hidden">
@@ -129,6 +133,60 @@ export function MealCard({ meal }: MealCardProps) {
                 </li>
               ))}
             </ol>
+          </div>
+
+          {/* Action bar: YouTube + Feedback */}
+          <div className="flex items-center justify-between pt-2 border-t border-stone-50">
+            {/* YouTube search link */}
+            <a
+              href={youtubeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs text-stone-400 hover:text-red-500 transition-colors"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+              {t("plan.watchOnYouTube")}
+            </a>
+
+            {/* Thumbs feedback */}
+            {onFeedback && (
+              <div className="flex items-center gap-1">
+                <button
+                  type="button"
+                  onClick={() => onFeedback(meal.name, "liked")}
+                  className={cn(
+                    "p-1.5 rounded-lg transition-all duration-200",
+                    feedback === "liked"
+                      ? "bg-green-50 text-green-600"
+                      : "text-stone-300 hover:text-green-500 hover:bg-green-50/50",
+                  )}
+                  title={t("plan.thumbsUp")}
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M7 10v12" />
+                    <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+                  </svg>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onFeedback(meal.name, "disliked")}
+                  className={cn(
+                    "p-1.5 rounded-lg transition-all duration-200",
+                    feedback === "disliked"
+                      ? "bg-red-50 text-red-500"
+                      : "text-stone-300 hover:text-red-400 hover:bg-red-50/50",
+                  )}
+                  title={t("plan.thumbsDown")}
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M17 14V2" />
+                    <path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22h0a3.13 3.13 0 0 1-3-3.88Z" />
+                  </svg>
+                </button>
+              </div>
+            )}
           </div>
         </div>
       )}

@@ -21,12 +21,18 @@ export default async function PlanPage({ params }: PlanPageProps) {
     redirect("/login");
   }
 
-  const { data: planRow } = await supabase
-    .from("meal_plans")
-    .select("*")
-    .eq("user_id", user.id)
-    .eq("week_of", weekId)
-    .single();
+  const [{ data: planRow }, { data: feedback }] = await Promise.all([
+    supabase
+      .from("meal_plans")
+      .select("*")
+      .eq("user_id", user.id)
+      .eq("week_of", weekId)
+      .single(),
+    supabase
+      .from("meal_feedback")
+      .select("meal_name, rating")
+      .eq("user_id", user.id),
+  ]);
 
   const plan = planRow as unknown as MealPlanRecord | null;
 
@@ -41,5 +47,12 @@ export default async function PlanPage({ params }: PlanPageProps) {
   const planData = plan.plan_data as MealPlanData;
   const formattedWeek = formatWeekOf(weekId);
 
-  return <PlanView planData={planData} weekOf={weekId} formattedWeek={formattedWeek} />;
+  return (
+    <PlanView
+      planData={planData}
+      weekOf={weekId}
+      formattedWeek={formattedWeek}
+      initialFeedback={feedback as { meal_name: string; rating: "liked" | "disliked" }[] ?? []}
+    />
+  );
 }
