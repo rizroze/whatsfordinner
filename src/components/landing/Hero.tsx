@@ -87,6 +87,12 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           {t("landing.hero.subtitle")}
         </p>
 
+        <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-md mx-auto leading-relaxed">
+          {t("landing.hero.description")}
+          <br />
+          <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
+        </p>
+
         {/* Mobile meal suggestion */}
         <Link
           href={isSignedIn ? "/dashboard" : "/onboarding"}
@@ -105,12 +111,6 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
             <polyline points="9 18 15 12 9 6" />
           </svg>
         </Link>
-
-        <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-md mx-auto leading-relaxed">
-          {t("landing.hero.description")}
-          <br />
-          <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
-        </p>
 
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
           <Link
