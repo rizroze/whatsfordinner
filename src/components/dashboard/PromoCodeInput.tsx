@@ -3,8 +3,10 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import { useT } from "@/lib/i18n/context";
 
 export function PromoCodeInput() {
+  const { t } = useT();
   const [code, setCode] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<{ text: string; ok: boolean } | null>(null);
@@ -44,7 +46,7 @@ export function PromoCodeInput() {
         onClick={() => setExpanded(true)}
         className="text-sm text-stone-400 hover:text-orange-500 transition-colors duration-200"
       >
-        Have a promo code?
+        {t("dashboard.havePromo")}
       </button>
     );
   }
@@ -52,7 +54,7 @@ export function PromoCodeInput() {
   return (
     <Card>
       <CardHeader>
-        <h3 className="text-sm font-semibold text-stone-700">Promo Code</h3>
+        <h3 className="text-sm font-semibold text-stone-700">{t("dashboard.promoCode")}</h3>
       </CardHeader>
       <CardContent className="space-y-3 pb-5">
         <div className="flex gap-2">
@@ -71,7 +73,7 @@ export function PromoCodeInput() {
             onClick={handleRedeem}
             disabled={!code.trim()}
           >
-            Apply
+            {t("dashboard.apply")}
           </Button>
         </div>
         {message && (

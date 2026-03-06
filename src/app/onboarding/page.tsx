@@ -421,7 +421,7 @@ function OnboardingContent() {
           {profileLoading ? (
             <div className="py-12 text-center">
               <div className="w-6 h-6 border-2 border-orange-400 border-t-transparent rounded-full animate-spin mx-auto mb-3" />
-              <p className="text-sm text-stone-400">Loading your preferences...</p>
+              <p className="text-sm text-stone-400">{t("onboarding.loadingPrefs")}</p>
             </div>
           ) : (
             <>
@@ -454,16 +454,16 @@ function OnboardingContent() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <h3 className="text-sm font-bold text-stone-800">
-                    You already created your free meal plan
+                    {t("onboarding.blocked.alreadyCreatedTitle")}
                   </h3>
                 </div>
                 <p className="text-xs text-stone-500">
-                  Your 3-day plan is waiting for you on your dashboard.
+                  {t("onboarding.blocked.alreadyCreatedSubtitle")}
                 </p>
                 <div className="flex flex-row gap-2 justify-center">
                   <Button size="sm" asChild>
                     <Link href="/dashboard">
-                      View your meal plan
+                      {t("onboarding.blocked.viewPlan")}
                     </Link>
                   </Button>
                   <Button
@@ -543,15 +543,14 @@ function OnboardingContent() {
                   </Button>
                 </div>
                 <p className="text-xs text-stone-400">
-                  Already generated a plan?{" "}
+                  {t("onboarding.blocked.alreadyGenerated")}{" "}
                   <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
-                    Sign in
+                    {t("common.signIn")}
                   </Link>
-                  {" "}or{" "}
+                  {" "}{t("common.or")}{" "}
                   <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
-                    create an account
+                    {t("common.signUp").toLowerCase()}
                   </Link>
-                  {" "}to view it.
                 </p>
               </>
             )}

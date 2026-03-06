@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useT } from "@/lib/i18n/context";
 
 interface SubscribeButtonProps {
   label?: string;
@@ -10,11 +11,13 @@ interface SubscribeButtonProps {
 }
 
 export function SubscribeButton({
-  label = "Get this every week — $4.99/mo",
+  label,
   plan = "monthly",
   variant = "primary",
   className = "",
 }: SubscribeButtonProps) {
+  const { t } = useT();
+  const resolvedLabel = label ?? t("dashboard.heroEveryWeek");
   const [loading, setLoading] = useState(false);
 
   async function handleClick() {
@@ -50,7 +53,7 @@ export function SubscribeButton({
           <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
         </svg>
       ) : (
-        label
+        resolvedLabel
       )}
     </button>
   );

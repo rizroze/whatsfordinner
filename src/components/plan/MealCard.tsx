@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import type { Meal } from "@/types/meal-plan";
 
 interface MealCardProps {
@@ -16,6 +17,7 @@ const mealTypeStyles: Record<Meal["type"], string> = {
 };
 
 export function MealCard({ meal }: MealCardProps) {
+  const { t } = useT();
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -34,7 +36,7 @@ export function MealCard({ meal }: MealCardProps) {
               mealTypeStyles[meal.type],
             )}
           >
-            {meal.type}
+            {t(`mealTypes.${meal.type}`)}
           </span>
           <span className="text-sm font-medium text-stone-700 leading-snug flex-1">
             {meal.name}
@@ -58,17 +60,17 @@ export function MealCard({ meal }: MealCardProps) {
         {/* Bottom row: meta info */}
         <div className="flex items-center gap-3 mt-1.5 ml-[calc(0.625rem+4px+0.625rem)]">
           <span className="text-xs text-stone-400">
-            {meal.prepTime + meal.cookTime} min
+            {meal.prepTime + meal.cookTime} {t("plan.min")}
           </span>
           <span className="text-xs text-stone-400">&middot;</span>
           <span className="text-xs text-stone-400">
-            {meal.calories} cal
+            {meal.calories} {t("plan.cal")}
           </span>
           {meal.servings && (
             <>
               <span className="text-xs text-stone-400">&middot;</span>
               <span className="text-xs text-stone-400">
-                {meal.servings} servings
+                {meal.servings} {t("plan.servings")}
               </span>
             </>
           )}
@@ -95,7 +97,7 @@ export function MealCard({ meal }: MealCardProps) {
           {/* Ingredients */}
           <div>
             <h4 className="text-xs font-semibold text-stone-600 uppercase tracking-wide mb-2">
-              Ingredients
+              {t("plan.ingredients")}
             </h4>
             <ul className="space-y-1">
               {meal.ingredients.map((ing, i) => (
@@ -115,7 +117,7 @@ export function MealCard({ meal }: MealCardProps) {
           {/* Instructions */}
           <div>
             <h4 className="text-xs font-semibold text-stone-600 uppercase tracking-wide mb-2">
-              Instructions
+              {t("plan.instructions")}
             </h4>
             <ol className="space-y-2">
               {meal.instructions.map((step, i) => (

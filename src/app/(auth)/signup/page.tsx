@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { getAppUrl } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/Card";
 import { Input } from "@/components/ui/Input";
 import { Button } from "@/components/ui/Button";
@@ -18,6 +19,7 @@ export default function SignUpPage() {
 }
 
 function SignUpForm() {
+  const { t } = useT();
   const router = useRouter();
   const searchParams = useSearchParams();
   const plan = searchParams.get("plan") || "monthly";
@@ -97,7 +99,7 @@ function SignUpForm() {
     setError("");
 
     if (password.length < 8) {
-      setError("Password must be at least 8 characters.");
+      setError(t("auth.passwordTooShort"));
       return;
     }
 
@@ -154,7 +156,7 @@ function SignUpForm() {
             What&apos;s For Dinner?
           </Link>
           <p className="mt-2 text-stone-500 text-sm">
-            Create an account to get weekly plans
+            {t("auth.createAccount")}
           </p>
         </div>
 
@@ -167,12 +169,12 @@ function SignUpForm() {
                   <path d="M22 7l-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7" />
                 </svg>
               </div>
-              <h1 className="text-xl font-semibold text-stone-900">Check your email</h1>
+              <h1 className="text-xl font-semibold text-stone-900">{t("auth.checkEmail")}</h1>
               <p className="text-sm text-stone-500 text-center max-w-xs">
-                We sent a confirmation link to <strong className="text-stone-700">{email}</strong>. Click it to activate your account{hasPromo ? " and claim your gift" : ""}.
+                {t(hasPromo ? "auth.confirmSentPromo" : "auth.confirmSent", { email })}
               </p>
               <p className="text-xs text-stone-400 text-center">
-                Don&apos;t see it? Check your spam folder.
+                {t("auth.checkSpam")}
               </p>
             </CardContent>
           </Card>
@@ -180,7 +182,7 @@ function SignUpForm() {
           <Card className="shadow-md">
             <CardHeader>
               <h1 className="text-xl font-semibold text-stone-900">
-                Create Account
+                {t("common.signUp")}
               </h1>
             </CardHeader>
 
@@ -206,22 +208,22 @@ function SignUpForm() {
                   <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
                   <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
                 </svg>
-                Continue with Google
+                {t("auth.continueWithGoogle")}
               </Button>
 
               {/* Divider */}
               <div className="flex items-center gap-3">
                 <div className="flex-1 h-px bg-stone-200" />
-                <span className="text-xs text-stone-400">or</span>
+                <span className="text-xs text-stone-400">{t("common.or")}</span>
                 <div className="flex-1 h-px bg-stone-200" />
               </div>
 
               {/* Email form */}
               <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <Input
-                  label="Email"
+                  label={t("auth.emailLabel")}
                   type="email"
-                  placeholder="you@example.com"
+                  placeholder={t("auth.emailPlaceholder")}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -229,9 +231,9 @@ function SignUpForm() {
                 />
 
                 <Input
-                  label="Password"
+                  label={t("auth.passwordLabel")}
                   type="password"
-                  placeholder="At least 8 characters"
+                  placeholder={t("auth.passwordPlaceholderNew")}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
@@ -245,19 +247,19 @@ function SignUpForm() {
                   loading={loading}
                   className="w-full"
                 >
-                  Create Account
+                  {t("common.signUp")}
                 </Button>
               </form>
             </CardContent>
 
             <CardFooter>
               <p className="text-sm text-stone-500 text-center w-full">
-                Already have an account?{" "}
+                {t("auth.hasAccount")}{" "}
                 <Link
                   href="/login"
                   className="text-orange-600 hover:text-orange-700 font-medium transition-colors"
                 >
-                  Sign in
+                  {t("auth.signInLink")}
                 </Link>
               </p>
             </CardFooter>

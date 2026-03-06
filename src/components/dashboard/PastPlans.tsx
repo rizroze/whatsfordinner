@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { formatWeekOf } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import type { MealPlanRecord } from "@/types/meal-plan";
 
 interface PastPlansProps {
@@ -10,21 +13,29 @@ interface PastPlansProps {
 
 const statusBadge: Record<
   MealPlanRecord["status"],
-  { label: string; variant: "default" | "success" | "muted" }
+  { variant: "default" | "success" | "muted" }
 > = {
-  generating: { label: "Generating", variant: "default" },
-  ready: { label: "Ready", variant: "default" },
-  sent: { label: "Sent", variant: "success" },
-  failed: { label: "Failed", variant: "muted" },
+  generating: { variant: "default" },
+  ready: { variant: "default" },
+  sent: { variant: "success" },
+  failed: { variant: "muted" },
 };
 
 export function PastPlans({ plans }: PastPlansProps) {
+  const { t } = useT();
+
+  const statusLabels: Record<string, string> = {
+    generating: t("dashboard.statusGenerating"),
+    ready: t("dashboard.statusReady"),
+    sent: t("dashboard.statusSent"),
+    failed: t("dashboard.statusFailed"),
+  };
   if (plans.length === 0) {
     return (
       <Card className="border-dashed border-2 border-stone-200 bg-[#FFFBF5]">
         <CardContent className="py-10 text-center">
           <p className="text-sm text-stone-400">
-            Your past plans will appear here
+            {t("dashboard.pastPlansEmpty")}
           </p>
         </CardContent>
       </Card>
@@ -66,18 +77,18 @@ export function PastPlans({ plans }: PastPlansProps) {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-stone-700 group-hover:text-orange-600 transition-colors duration-200">
-                      Week of {formatWeekOf(plan.week_of)}
+                      {t("dashboard.weekOf", { date: formatWeekOf(plan.week_of) })}
                     </p>
                     {mealCount > 0 && (
                       <p className="text-xs text-stone-400">
-                        {mealCount} meals
+                        {t("dashboard.mealsCount", { count: String(mealCount) })}
                       </p>
                     )}
                   </div>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <Badge variant={config.variant}>{config.label}</Badge>
+                  <Badge variant={config.variant}>{statusLabels[plan.status]}</Badge>
                   <svg
                     width="16"
                     height="16"

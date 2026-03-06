@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
+import { useT } from "@/lib/i18n/context";
 
 interface PromoCode {
   code: string;
@@ -10,6 +11,7 @@ interface PromoCode {
 }
 
 export function ReferralCodes() {
+  const { t } = useT();
   const [codes, setCodes] = useState<PromoCode[]>([]);
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState<string | null>(null);
@@ -38,11 +40,11 @@ export function ReferralCodes() {
   return (
     <Card>
       <CardHeader>
-        <h3 className="text-sm font-semibold text-stone-700">Invite Friends</h3>
+        <h3 className="text-sm font-semibold text-stone-700">{t("dashboard.inviteFriends")}</h3>
       </CardHeader>
       <CardContent className="space-y-3 pb-5">
         <p className="text-xs text-stone-500">
-          Share these codes with friends. {codes.length}/3 codes generated.
+          {t("dashboard.inviteDesc", { count: String(codes.length) })}
         </p>
         <div className="space-y-2">
           {codes.map((c) => {
@@ -55,15 +57,15 @@ export function ReferralCodes() {
                 <code className={`text-xs font-mono ${used ? "text-stone-400 line-through" : "text-stone-700"}`}>
                   {c.code}
                 </code>
-                <span className="text-xs text-stone-400">1 month free</span>
+                <span className="text-xs text-stone-400">{t("dashboard.monthFree")}</span>
                 {used ? (
-                  <span className="text-xs text-stone-400">Used</span>
+                  <span className="text-xs text-stone-400">{t("dashboard.used")}</span>
                 ) : (
                   <button
                     onClick={() => copyLink(c.code)}
                     className="text-xs font-medium text-orange-500 hover:text-orange-600 transition-colors duration-200 shrink-0"
                   >
-                    {copied === c.code ? "Copied!" : "Copy link"}
+                    {copied === c.code ? t("dashboard.copied") : t("dashboard.copyLink")}
                   </button>
                 )}
               </div>

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { useT } from "@/lib/i18n/context";
 
 interface SubscriptionStatusProps {
   status: "active" | "inactive" | "past_due" | "cancelled";
@@ -14,18 +15,26 @@ interface SubscriptionStatusProps {
 
 const statusConfig: Record<
   SubscriptionStatusProps["status"],
-  { label: string; variant: "success" | "default" | "muted"; color: string }
+  { variant: "success" | "default" | "muted"; color: string }
 > = {
-  active: { label: "Active", variant: "success", color: "bg-lime-400" },
-  inactive: { label: "Free", variant: "muted", color: "bg-stone-400" },
-  past_due: { label: "Past Due", variant: "default", color: "bg-orange-400" },
-  cancelled: { label: "Cancelled", variant: "muted", color: "bg-red-400" },
+  active: { variant: "success", color: "bg-lime-400" },
+  inactive: { variant: "muted", color: "bg-stone-400" },
+  past_due: { variant: "default", color: "bg-orange-400" },
+  cancelled: { variant: "muted", color: "bg-red-400" },
 };
 
 export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planInterval }: SubscriptionStatusProps) {
+  const { t } = useT();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const config = statusConfig[status];
+
+  const statusLabels: Record<string, string> = {
+    active: t("dashboard.statusActive"),
+    inactive: t("dashboard.statusFree"),
+    past_due: t("dashboard.statusPastDue"),
+    cancelled: t("dashboard.statusCancelled"),
+  };
 
   async function handleManageBilling() {
     setLoading(true);
@@ -66,27 +75,27 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
   return (
     <Card>
       <CardHeader>
-        <h3 className="text-sm font-semibold text-stone-700">Subscription</h3>
+        <h3 className="text-sm font-semibold text-stone-700">{t("dashboard.subscription")}</h3>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="flex items-center gap-3">
           <span
             className={`w-2.5 h-2.5 rounded-full ${config.color} shrink-0`}
           />
-          <Badge variant={config.variant}>{config.label}</Badge>
+          <Badge variant={config.variant}>{statusLabels[status]}</Badge>
         </div>
 
         <p className="text-sm text-stone-500">
           {status === "active" &&
-            "Your weekly meal plans are being generated automatically."}
+            t("dashboard.statusActiveDesc")}
           {status === "inactive" && !freeUsed &&
-            "You're on the free plan. Generate a free 3-day plan to try it out!"}
+            t("dashboard.statusInactiveDesc")}
           {status === "inactive" && freeUsed &&
-            "Your free plan has been used. Subscribe to keep getting weekly plans."}
+            t("dashboard.statusInactiveUsedDesc")}
           {status === "past_due" &&
-            "Your payment is past due. Please update your billing info."}
+            t("dashboard.statusPastDueDesc")}
           {status === "cancelled" &&
-            "Your subscription has been cancelled. Resubscribe to continue."}
+            t("dashboard.statusCancelledDesc")}
         </p>
 
         {status === "active" && hasBilling && (
@@ -98,7 +107,7 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
               onClick={handleManageBilling}
               className="w-full"
             >
-              Manage Billing
+              {t("dashboard.manageBilling")}
             </Button>
             {error && (
               <p className="text-xs text-red-500 text-center">{error}</p>
@@ -107,7 +116,7 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
         )}
         {status === "active" && !hasBilling && (
           <p className="text-xs text-stone-400 text-center">
-            {planInterval === "yearly" ? "Yearly gift subscription" : "Gift subscription"} — no billing needed
+            {t(planInterval === "yearly" ? "dashboard.giftYearly" : "dashboard.gift")}
           </p>
         )}
 
@@ -119,7 +128,7 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
             onClick={handleSubscribe}
             className="w-full"
           >
-            {status === "cancelled" ? "Resubscribe — $4.99/mo" : "Subscribe — $4.99/mo"}
+            {status === "cancelled" ? t("dashboard.resubscribe") : t("dashboard.subscribeCta")}
           </Button>
         )}
 
@@ -131,7 +140,7 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
             onClick={handleManageBilling}
             className="w-full"
           >
-            Update Payment
+            {t("dashboard.updatePayment")}
           </Button>
         )}
       </CardContent>

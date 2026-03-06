@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import { DayCard } from "./DayCard";
 import { GroceryList } from "./GroceryList";
 import type { DayPlan, GroceryCategory } from "@/types/meal-plan";
@@ -15,6 +16,7 @@ interface MobileTabsProps {
 type Tab = "meals" | "grocery";
 
 export function MobileTabs({ days, groceryCategories, estimatedCost }: MobileTabsProps) {
+  const { t } = useT();
   const [active, setActive] = useState<Tab>("meals");
 
   return (
@@ -32,7 +34,7 @@ export function MobileTabs({ days, groceryCategories, estimatedCost }: MobileTab
                 : "text-stone-500 hover:text-stone-700",
             )}
           >
-            Meals
+            {t("plan.mealPlan")}
           </button>
           <button
             type="button"
@@ -44,7 +46,7 @@ export function MobileTabs({ days, groceryCategories, estimatedCost }: MobileTab
                 : "text-stone-500 hover:text-stone-700",
             )}
           >
-            Grocery List
+            {t("plan.groceryList")}
           </button>
         </div>
       </div>

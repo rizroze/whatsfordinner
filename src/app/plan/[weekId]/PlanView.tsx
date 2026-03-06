@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import { DayCard } from "@/components/plan/DayCard";
 import { GroceryList } from "@/components/plan/GroceryList";
 import { MobileTabs } from "@/components/plan/MobileTabs";
@@ -18,6 +19,7 @@ interface PlanViewProps {
 type ViewMode = "cards" | "table";
 
 export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
+  const { t } = useT();
   const [viewMode, setViewMode] = useState<ViewMode>("cards");
 
   const totalMeals = planData.days.reduce((sum, d) => sum + d.meals.length, 0);
@@ -43,13 +45,13 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
             </Link>
             <div>
               <h1 className="text-lg sm:text-xl font-semibold text-stone-800 tracking-tight">
-                Week of {formattedWeek}
+                {t("plan.weekOf", { date: formattedWeek })}
               </h1>
               <p className="text-xs text-stone-400 print:hidden">
                 <Link href="/dashboard" className="hover:text-orange-500 transition-colors">
-                  Dashboard
+                  {t("dashboard.title")}
                 </Link>
-                {" "}&rarr; Meal Plan
+                {" "}&rarr; {t("plan.mealPlan")}
               </p>
             </div>
           </div>
@@ -60,15 +62,15 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
       <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 print:hidden">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-14">
           <p className="text-xs sm:text-sm text-stone-500 mb-1">
-            planned {totalMeals} meals &middot; {totalGroceryItems} grocery items &middot; {totalCalories.toLocaleString()} cal
+            {t("plan.planned", { meals: String(totalMeals) })} &middot; {t("dashboard.heroGroceryItems", { items: String(totalGroceryItems) })} &middot; {totalCalories.toLocaleString()} {t("plan.cal")}
           </p>
           <p className="text-xs sm:text-sm text-orange-600/80 mb-4">
-            {totalCookTime} min total cook time &middot; Est. {planData.estimatedWeeklyCost}
+            {t("plan.totalCookTime", { time: String(totalCookTime) })} &middot; {t("plan.estCost", { cost: planData.estimatedWeeklyCost })}
           </p>
           <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
-            just saved <span className="text-orange-500">130+ hours/yr</span>
+            {t("plan.heroSavedYearlyPrefix")} <span className="text-orange-500">{t("plan.heroSavedYearlyHighlight")}</span>
             <br />
-            not thinking about what to eat
+            {t("dashboard.heroNotThinking")}
           </h2>
         </div>
       </div>
@@ -104,7 +106,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
                 <rect x="3" y="14" width="7" height="7" rx="1" />
                 <rect x="14" y="14" width="7" height="7" rx="1" />
               </svg>
-              Cards
+              {t("plan.cards")}
             </button>
             <button
               type="button"
@@ -132,7 +134,7 @@ export function PlanView({ planData, weekOf, formattedWeek }: PlanViewProps) {
                 <line x1="3" y1="18" x2="21" y2="18" />
                 <line x1="9" y1="3" x2="9" y2="21" />
               </svg>
-              Table
+              {t("plan.table")}
             </button>
           </div>
         </div>

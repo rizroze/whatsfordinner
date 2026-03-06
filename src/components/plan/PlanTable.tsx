@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import type { DayPlan, Meal } from "@/types/meal-plan";
 
 interface PlanTableProps {
@@ -17,6 +18,7 @@ const typeColors: Record<Meal["type"], string> = {
 };
 
 export function PlanTable({ days }: PlanTableProps) {
+  const { t } = useT();
   // Collect all meal types present across all days
   const mealTypes = typeOrder.filter((type) =>
     days.some((d) => d.meals.some((m) => m.type === type)),
@@ -28,18 +30,18 @@ export function PlanTable({ days }: PlanTableProps) {
         <thead>
           <tr className="border-b border-stone-100 bg-stone-50/50">
             <th className="text-left px-4 py-3 text-xs font-semibold text-stone-500 uppercase tracking-wide w-[100px]">
-              Day
+              {t("plan.day")}
             </th>
             {mealTypes.map((type) => (
               <th
                 key={type}
                 className="text-left px-4 py-3 text-xs font-semibold text-stone-500 uppercase tracking-wide"
               >
-                {type}
+                {t(`mealTypes.${type}`)}
               </th>
             ))}
             <th className="text-right px-4 py-3 text-xs font-semibold text-stone-500 uppercase tracking-wide w-[80px]">
-              Cal
+              {t("plan.cal")}
             </th>
           </tr>
         </thead>
@@ -71,10 +73,10 @@ export function PlanTable({ days }: PlanTableProps) {
                               typeColors[type],
                             )}
                           >
-                            {meal.prepTime + meal.cookTime} min
+                            {meal.prepTime + meal.cookTime} {t("plan.min")}
                           </span>
                           <span className="text-xs text-stone-400">
-                            {meal.calories} cal
+                            {meal.calories} {t("plan.cal")}
                           </span>
                         </div>
                       </div>

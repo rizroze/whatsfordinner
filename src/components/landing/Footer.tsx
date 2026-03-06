@@ -18,7 +18,7 @@ export function Footer() {
             href="/blog"
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >
-            Blog
+            {t("landing.footer.blog")}
           </Link>
           <Link
             href="/privacy"

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import type { GroceryCategory } from "@/types/meal-plan";
 
 interface GroceryListProps {
@@ -13,6 +14,7 @@ interface GroceryListProps {
 }
 
 export function GroceryList({ categories, estimatedCost, columns = false }: GroceryListProps) {
+  const { t } = useT();
   const [checked, setChecked] = useState<Record<string, boolean>>({});
 
   function toggleItem(categoryIdx: number, itemIdx: number) {
@@ -33,7 +35,7 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
           <div>
             <div className="flex items-center gap-2">
               <h3 className="text-base font-semibold text-stone-800">
-                Grocery List
+                {t("plan.groceryList")}
               </h3>
               {estimatedCost && (
                 <span className="text-xs font-medium text-lime-700 bg-lime-50 border border-lime-200 rounded-full px-2.5 py-0.5">
@@ -42,7 +44,7 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
               )}
             </div>
             <p className="text-xs text-stone-400 mt-0.5">
-              {checkedCount}/{totalItems} items checked
+              {t("plan.itemsChecked", { checked: String(checkedCount), total: String(totalItems) })}
             </p>
           </div>
           <div className="flex flex-col items-end gap-0.5">
@@ -66,9 +68,9 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
                 <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2" />
                 <rect x="6" y="14" width="12" height="8" />
               </svg>
-              Print
+              {t("plan.print")}
             </Button>
-            <span className="text-[10px] text-stone-400 print:hidden">Stick it on your fridge!</span>
+            <span className="text-[10px] text-stone-400 print:hidden">{t("plan.fridgeNote")}</span>
           </div>
         </div>
       </CardHeader>
@@ -82,7 +84,7 @@ export function GroceryList({ categories, estimatedCost, columns = false }: Groc
                   {cat.category}
                 </h4>
                 <span className="text-[10px] text-stone-400">
-                  {cat.items.length} items
+                  {cat.items.length} {t("plan.items")}
                 </span>
               </div>
 

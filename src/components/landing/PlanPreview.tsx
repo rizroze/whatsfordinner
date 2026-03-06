@@ -76,7 +76,7 @@ export function PlanPreview() {
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-sm font-semibold text-stone-900">{day.day}</h3>
                   <span className="text-xs text-orange-500 font-medium">
-                    Recipes, grocery list &rarr;
+                    {t("landing.preview.recipesLink")} &rarr;
                   </span>
                 </div>
                 <div className="space-y-2">
@@ -88,7 +88,7 @@ export function PlanPreview() {
                       <span
                         className={`px-2 py-0.5 rounded-full text-[11px] font-medium shrink-0 ${MEAL_COLORS[meal.type]}`}
                       >
-                        {meal.type}
+                        {t(`mealTypes.${meal.type.toLowerCase()}`)}
                       </span>
                       <span className="text-stone-800 font-medium flex-1 min-w-0 truncate">
                         {meal.name}

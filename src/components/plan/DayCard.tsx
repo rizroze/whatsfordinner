@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { MealCard } from "./MealCard";
+import { useT } from "@/lib/i18n/context";
 import type { DayPlan } from "@/types/meal-plan";
 
 interface DayCardProps {
@@ -12,6 +13,7 @@ interface DayCardProps {
 }
 
 export function DayCard({ day, defaultOpen = false }: DayCardProps) {
+  const { t } = useT();
   const [open, setOpen] = useState(defaultOpen);
 
   return (
@@ -26,7 +28,7 @@ export function DayCard({ day, defaultOpen = false }: DayCardProps) {
             <h3 className="text-base font-semibold text-stone-800 group-hover:text-orange-600 transition-colors duration-200">
               {day.day}
             </h3>
-            <Badge variant="muted">{day.totalCalories} cal</Badge>
+            <Badge variant="muted">{day.totalCalories} {t("plan.cal")}</Badge>
           </div>
 
           <svg

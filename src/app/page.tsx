@@ -43,7 +43,7 @@ export default function Home() {
               href="/dashboard"
               className="text-sm text-stone-500 hover:text-orange-600 transition-colors font-medium"
             >
-              Dashboard
+              {t("dashboard.title")}
             </Link>
           ) : (
             <Link

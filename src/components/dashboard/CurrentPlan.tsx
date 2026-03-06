@@ -7,19 +7,13 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Spinner } from "@/components/ui/Spinner";
 import { cn } from "@/lib/utils";
+import { useT } from "@/lib/i18n/context";
 import type { MealPlanRecord } from "@/types/meal-plan";
 
 interface CurrentPlanProps {
   plan: MealPlanRecord | null;
   isSubscribed?: boolean;
 }
-
-const typeLabels: Record<string, string> = {
-  breakfast: "Breakfast",
-  lunch: "Lunch",
-  dinner: "Dinner",
-  snack: "Snack",
-};
 
 const typeDots: Record<string, string> = {
   breakfast: "bg-orange-400",
@@ -33,6 +27,7 @@ function getTodayName(): string {
 }
 
 export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
+  const { t } = useT();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [currentPlan, setCurrentPlan] = useState(plan);
@@ -77,17 +72,16 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
             </svg>
           </div>
           <h3 className="text-lg font-semibold text-stone-700 mb-2">
-            No plan yet
+            {t("dashboard.noPlan")}
           </h3>
           <p className="text-sm text-stone-500 mb-6 max-w-xs mx-auto">
-            Generate your first personalized meal plan based on your
-            preferences.
+            {t("dashboard.noPlanDesc")}
           </p>
           {error && (
             <p className="text-sm text-red-500 mb-4">{error}</p>
           )}
           <Button size="lg" loading={loading} onClick={handleGenerate}>
-            Generate My First Plan
+            {t("dashboard.generateFirst")}
           </Button>
         </CardContent>
       </Card>
@@ -101,10 +95,10 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
         <CardContent className="py-12 text-center">
           <Spinner size="lg" className="mx-auto mb-4 text-orange-400" />
           <h3 className="text-lg font-semibold text-stone-700 mb-1">
-            Generating your plan...
+            {t("dashboard.generating")}
           </h3>
           <p className="text-sm text-stone-500">
-            This usually takes about 30 seconds. Hang tight.
+            {t("dashboard.generatingDesc")}
           </p>
         </CardContent>
       </Card>
@@ -133,16 +127,16 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
             </svg>
           </div>
           <h3 className="text-lg font-semibold text-stone-700 mb-2">
-            Generation failed
+            {t("dashboard.failed")}
           </h3>
           <p className="text-sm text-stone-500 mb-6">
-            Something went wrong. Please try again.
+            {t("dashboard.failedDesc")}
           </p>
           {error && (
             <p className="text-sm text-red-500 mb-4">{error}</p>
           )}
           <Button loading={loading} onClick={handleGenerate}>
-            Try Again
+            {t("dashboard.tryAgain")}
           </Button>
         </CardContent>
       </Card>
@@ -164,11 +158,11 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
         <div className="flex items-center justify-between mb-5">
           <div className="flex items-center gap-2">
             <Badge variant={currentPlan.status === "sent" ? "success" : "default"}>
-              {currentPlan.status === "sent" ? "Sent" : "Ready"}
+              {currentPlan.status === "sent" ? t("dashboard.sent") : t("dashboard.ready")}
             </Badge>
             {planData?.estimatedWeeklyCost && (
               <span className="text-xs text-stone-400">
-                Est. {planData.estimatedWeeklyCost}
+                {t("plan.estCost", { cost: planData.estimatedWeeklyCost })}
               </span>
             )}
           </div>
@@ -176,7 +170,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
             href={`/plan/${currentPlan.week_of}`}
             className="text-sm font-medium text-orange-500 hover:text-orange-600 transition-colors"
           >
-            Recipes, grocery list &rarr;
+            {t("dashboard.recipesLink")} &rarr;
           </Link>
         </div>
 
@@ -184,7 +178,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
         {activePlan ? (
           <div>
             <p className="text-xs font-semibold text-orange-600 uppercase tracking-wide mb-3">
-              {activeDayName === todayName ? "Today" : activeDayName} &mdash; {activeDayName}
+              {activeDayName === todayName ? t("dashboard.today") : activeDayName} &mdash; {activeDayName}
             </p>
             <div className="space-y-2.5">
               {activePlan.meals.map((meal) => (
@@ -196,36 +190,44 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
                     </p>
                   </div>
                   <span className="text-xs text-stone-400 shrink-0">
-                    {typeLabels[meal.type] ?? meal.type}
+                    {t(`mealTypes.${meal.type}`) ?? meal.type}
                   </span>
                 </div>
               ))}
             </div>
             <div className="mt-3 pt-3 border-t border-stone-100 flex items-center gap-3 text-xs text-stone-400">
-              <span>{activePlan.totalCalories} cal</span>
+              <span>{activePlan.totalCalories} {t("plan.cal")}</span>
               <span>&middot;</span>
-              <span>{activePlan.meals.reduce((s, m) => s + m.prepTime + m.cookTime, 0)} min cook time</span>
+              <span>{activePlan.meals.reduce((s, m) => s + m.prepTime + m.cookTime, 0)} {t("dashboard.minCookTime")}</span>
             </div>
           </div>
         ) : (
           <p className="text-sm text-stone-500 py-4">
-            No meals planned for {activeDayName === todayName ? "today" : activeDayName}.{" "}
+            {t("dashboard.noMealsToday", { day: activeDayName === todayName ? t("dashboard.today") : activeDayName })}{" "}
             <Link href={`/plan/${currentPlan.week_of}`} className="text-orange-500 hover:text-orange-600 font-medium">
-              See full week
+              {t("dashboard.seeFullWeek")}
             </Link>
           </p>
         )}
 
         {/* Week dots — clickable day selector */}
         <div className="flex items-center gap-1 mt-4 pt-4 border-t border-stone-100">
-          {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => {
-            const fullDay = planData?.days?.find((day) => day.day.startsWith(d));
+          {[
+            { abbr: "Mon", key: "mon" },
+            { abbr: "Tue", key: "tue" },
+            { abbr: "Wed", key: "wed" },
+            { abbr: "Thu", key: "thu" },
+            { abbr: "Fri", key: "fri" },
+            { abbr: "Sat", key: "sat" },
+            { abbr: "Sun", key: "sun" },
+          ].map((item) => {
+            const fullDay = planData?.days?.find((day) => day.day.startsWith(item.abbr));
             const hasDay = !!fullDay;
-            const isToday = todayName.startsWith(d);
-            const isSelected = activeDayName.startsWith(d);
+            const isToday = todayName.startsWith(item.abbr);
+            const isSelected = activeDayName.startsWith(item.abbr);
             return (
               <button
-                key={d}
+                key={item.abbr}
                 type="button"
                 onClick={() => {
                   if (fullDay) setSelectedDay(fullDay.day);
@@ -242,7 +244,7 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
                         : "text-stone-300 cursor-default",
                 )}
               >
-                {d}
+                {t(`onboarding.delivery.${item.key}`)}
               </button>
             );
           })}
@@ -256,19 +258,19 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
             loading={loading}
             disabled={regenLeft <= 0}
             onClick={() => {
-              if (window.confirm(`This will replace your current plan. You have ${regenLeft}/2 regenerations left. Continue?`)) {
+              if (window.confirm(t("dashboard.regenConfirm", { count: String(regenLeft) }))) {
                 handleGenerate();
               }
             }}
           >
-            Regenerate
+            {t("dashboard.regenerate")}
           </Button>
           <span className="text-xs text-stone-400">
             {!isSubscribed
-              ? "Subscribe to regenerate"
+              ? t("dashboard.subscribeToRegen")
               : regenLeft > 0
-                ? `${currentPlan.regeneration_count}/2 used`
-                : "2/2 used"}
+                ? t("dashboard.regenUsed", { count: String(currentPlan.regeneration_count) })
+                : t("dashboard.regenMax")}
           </span>
         </div>
         {error && (
