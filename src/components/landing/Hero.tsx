@@ -93,25 +93,6 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
         </p>
 
-        {/* Mobile meal suggestion */}
-        <Link
-          href={isSignedIn ? "/dashboard" : "/onboarding"}
-          className="flex lg:hidden mx-auto mt-5 w-fit items-center gap-2 px-3.5 py-2 bg-white rounded-xl border border-stone-100 shadow-sm hover:shadow-md transition-all duration-300 group"
-        >
-          <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold shrink-0 ${MEAL_COLORS[mealType]}`}>
-            {label}
-          </span>
-          <span className="text-xs font-medium text-stone-700 max-w-[180px] truncate">
-            {mealName}
-          </span>
-          <span className="text-[10px] text-stone-400 shrink-0">
-            {cookTime} {t("plan.min")}
-          </span>
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-stone-300 group-hover:text-orange-400 transition-colors shrink-0">
-            <polyline points="9 18 15 12 9 6" />
-          </svg>
-        </Link>
-
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
           <Link
             href={isSignedIn ? "/dashboard" : "/onboarding"}
@@ -130,6 +111,25 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
             </p>
           )}
         </div>
+
+        {/* Mobile meal suggestion — very bottom of hero */}
+        <Link
+          href={isSignedIn ? "/dashboard" : "/onboarding"}
+          className="flex lg:hidden mx-auto mt-6 w-fit items-center gap-2 px-3.5 py-2 bg-white rounded-xl border border-stone-100 shadow-sm hover:shadow-md transition-all duration-300 group"
+        >
+          <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold shrink-0 ${MEAL_COLORS[mealType]}`}>
+            {label}
+          </span>
+          <span className="text-xs font-medium text-stone-700 max-w-[180px] truncate">
+            {mealName}
+          </span>
+          <span className="text-[10px] text-stone-400 shrink-0">
+            {cookTime} {t("plan.min")}
+          </span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-stone-300 group-hover:text-orange-400 transition-colors shrink-0">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </Link>
       </div>
     </section>
   );
