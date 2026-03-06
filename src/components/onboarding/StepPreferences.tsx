@@ -6,18 +6,18 @@ import { Select } from "@/components/ui/Select";
 import type { StepProps } from "./StepHousehold";
 
 const CUISINE_OPTIONS = [
-  "American",
-  "Italian",
-  "Mexican",
-  "Asian",
-  "Mediterranean",
-  "Indian",
-  "Thai",
-  "Japanese",
-  "French",
-  "Middle Eastern",
-  "Korean",
-  "Southern/Soul Food",
+  { value: "American", key: "cuisineAmerican" },
+  { value: "Italian", key: "cuisineItalian" },
+  { value: "Mexican", key: "cuisineMexican" },
+  { value: "Asian", key: "cuisineAsian" },
+  { value: "Mediterranean", key: "cuisineMediterranean" },
+  { value: "Indian", key: "cuisineIndian" },
+  { value: "Thai", key: "cuisineThai" },
+  { value: "Japanese", key: "cuisineJapanese" },
+  { value: "French", key: "cuisineFrench" },
+  { value: "Middle Eastern", key: "cuisineMiddleEastern" },
+  { value: "Korean", key: "cuisineKorean" },
+  { value: "Southern/Soul Food", key: "cuisineSouthern" },
 ];
 
 export function StepPreferences({ data, onChange }: StepProps) {
@@ -37,14 +37,14 @@ export function StepPreferences({ data, onChange }: StepProps) {
     { value: 90, label: t("onboarding.preferences.min90") },
   ];
 
-  function toggleCuisine(cuisine: string) {
+  function toggleCuisine(value: string) {
     const current = data.cuisine_preferences;
-    if (current.includes(cuisine)) {
+    if (current.includes(value)) {
       onChange({
-        cuisine_preferences: current.filter((c) => c !== cuisine),
+        cuisine_preferences: current.filter((c) => c !== value),
       });
     } else {
-      onChange({ cuisine_preferences: [...current, cuisine] });
+      onChange({ cuisine_preferences: [...current, value] });
     }
   }
 
@@ -66,12 +66,12 @@ export function StepPreferences({ data, onChange }: StepProps) {
         </label>
         <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5 sm:gap-2">
           {CUISINE_OPTIONS.map((cuisine) => {
-            const selected = data.cuisine_preferences.includes(cuisine);
+            const selected = data.cuisine_preferences.includes(cuisine.value);
             return (
               <button
-                key={cuisine}
+                key={cuisine.value}
                 type="button"
-                onClick={() => toggleCuisine(cuisine)}
+                onClick={() => toggleCuisine(cuisine.value)}
                 className={cn(
                   "px-2 py-1.5 sm:px-3 rounded-full border text-[11px] sm:text-xs font-medium transition-all duration-200 text-center",
                   "hover:border-orange-300 hover:bg-orange-50/50",
@@ -95,7 +95,7 @@ export function StepPreferences({ data, onChange }: StepProps) {
                     />
                   </svg>
                 )}
-                {cuisine}
+                {t(`onboarding.preferences.${cuisine.key}`)}
               </button>
             );
           })}

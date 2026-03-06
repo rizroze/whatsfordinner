@@ -3,53 +3,42 @@
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 
-const SAMPLE_DAYS = [
+const SAMPLE_DAYS_DATA = [
   {
-    day: "Monday",
+    dayKey: "sampleMon",
     meals: [
-      { type: "Breakfast", name: "Greek Yogurt Parfait", time: "5 min", cal: "320" },
-      { type: "Lunch", name: "Chicken Caesar Wrap", time: "15 min", cal: "480" },
-      { type: "Dinner", name: "One-Pan Lemon Herb Salmon", time: "25 min", cal: "520" },
+      { typeKey: "breakfast", name: "Greek Yogurt Parfait", time: "5 min", cal: "320" },
+      { typeKey: "lunch", name: "Chicken Caesar Wrap", time: "15 min", cal: "480" },
+      { typeKey: "dinner", name: "One-Pan Lemon Herb Salmon", time: "25 min", cal: "520" },
     ],
   },
   {
-    type: "Tuesday",
-    day: "Tuesday",
+    dayKey: "sampleTue",
     meals: [
-      { type: "Breakfast", name: "Overnight Oats with Berries", time: "5 min", cal: "350" },
-      { type: "Lunch", name: "Mediterranean Grain Bowl", time: "10 min", cal: "450" },
-      { type: "Dinner", name: "Beef & Broccoli Stir-Fry", time: "20 min", cal: "560" },
+      { typeKey: "breakfast", name: "Overnight Oats with Berries", time: "5 min", cal: "350" },
+      { typeKey: "lunch", name: "Mediterranean Grain Bowl", time: "10 min", cal: "450" },
+      { typeKey: "dinner", name: "Beef & Broccoli Stir-Fry", time: "20 min", cal: "560" },
     ],
   },
   {
-    day: "Wednesday",
+    dayKey: "sampleWed",
     meals: [
-      { type: "Breakfast", name: "Avocado Toast with Eggs", time: "10 min", cal: "380" },
-      { type: "Lunch", name: "Tomato Basil Soup + Grilled Cheese", time: "20 min", cal: "510" },
-      { type: "Dinner", name: "Creamy Tuscan Chicken Pasta", time: "30 min", cal: "580" },
+      { typeKey: "breakfast", name: "Avocado Toast with Eggs", time: "10 min", cal: "380" },
+      { typeKey: "lunch", name: "Tomato Basil Soup + Grilled Cheese", time: "20 min", cal: "510" },
+      { typeKey: "dinner", name: "Creamy Tuscan Chicken Pasta", time: "30 min", cal: "580" },
     ],
   },
 ];
 
-const SAMPLE_GROCERY = [
-  "Salmon fillets (2)",
-  "Chicken breast (1 lb)",
-  "Beef sirloin (1 lb)",
-  "Greek yogurt",
-  "Mixed berries",
-  "Broccoli",
-  "Avocados (2)",
-  "Lemons (3)",
-  "Fresh basil",
-  "Rolled oats",
-  "Feta cheese",
-  "Pasta (penne)",
+const GROCERY_KEYS = [
+  "grocery1", "grocery2", "grocery3", "grocery4", "grocery5", "grocery6",
+  "grocery7", "grocery8", "grocery9", "grocery10", "grocery11", "grocery12",
 ];
 
 const MEAL_COLORS: Record<string, string> = {
-  Breakfast: "bg-amber-50 text-amber-700",
-  Lunch: "bg-sky-50 text-sky-700",
-  Dinner: "bg-violet-50 text-violet-700",
+  breakfast: "bg-amber-50 text-amber-700",
+  lunch: "bg-sky-50 text-sky-700",
+  dinner: "bg-violet-50 text-violet-700",
 };
 
 export function PlanPreview() {
@@ -68,13 +57,13 @@ export function PlanPreview() {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Meal plan cards */}
           <div className="lg:col-span-2 space-y-4">
-            {SAMPLE_DAYS.map((day) => (
+            {SAMPLE_DAYS_DATA.map((day) => (
               <div
-                key={day.day}
+                key={day.dayKey}
                 className="bg-white rounded-xl border border-stone-200 shadow-sm p-4 sm:p-5"
               >
                 <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-sm font-semibold text-stone-900">{day.day}</h3>
+                  <h3 className="text-sm font-semibold text-stone-900">{t(`landing.preview.${day.dayKey}`)}</h3>
                   <span className="text-xs text-orange-500 font-medium">
                     {t("landing.preview.recipesLink")} &rarr;
                   </span>
@@ -86,9 +75,9 @@ export function PlanPreview() {
                       className="flex items-center gap-3 text-sm"
                     >
                       <span
-                        className={`px-2 py-0.5 rounded-full text-[11px] font-medium shrink-0 ${MEAL_COLORS[meal.type]}`}
+                        className={`px-2 py-0.5 rounded-full text-[11px] font-medium shrink-0 ${MEAL_COLORS[meal.typeKey] ?? ""}`}
                       >
-                        {t(`mealTypes.${meal.type.toLowerCase()}`)}
+                        {t(`mealTypes.${meal.typeKey}`)}
                       </span>
                       <span className="text-stone-800 font-medium flex-1 min-w-0 truncate">
                         {meal.name}
@@ -97,7 +86,7 @@ export function PlanPreview() {
                         {meal.time}
                       </span>
                       <span className="text-stone-400 text-xs shrink-0 hidden sm:inline">
-                        {meal.cal} cal
+                        {meal.cal} {t("plan.cal")}
                       </span>
                     </div>
                   ))}
@@ -146,13 +135,13 @@ export function PlanPreview() {
               <h3 className="text-sm font-semibold text-stone-900">
                 {t("landing.preview.groceryTitle")}
               </h3>
-              <span className="ml-auto text-xs text-stone-400">{SAMPLE_GROCERY.length} items</span>
+              <span className="ml-auto text-xs text-stone-400">{GROCERY_KEYS.length} {t("plan.items")}</span>
             </div>
             <ul className="space-y-1.5">
-              {SAMPLE_GROCERY.map((item) => (
-                <li key={item} className="flex items-center gap-2 text-sm text-stone-600">
+              {GROCERY_KEYS.map((key) => (
+                <li key={key} className="flex items-center gap-2 text-sm text-stone-600">
                   <div className="w-3.5 h-3.5 rounded border border-stone-300 shrink-0" />
-                  {item}
+                  {t(`landing.preview.${key}`)}
                 </li>
               ))}
             </ul>

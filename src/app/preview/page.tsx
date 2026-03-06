@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
+import { useT } from "@/lib/i18n/context";
 import { DayCard } from "@/components/plan/DayCard";
 import { GroceryList } from "@/components/plan/GroceryList";
 import { MobileTabs } from "@/components/plan/MobileTabs";
@@ -23,6 +24,7 @@ interface StoredPlan {
 type ViewMode = "cards" | "table";
 
 export default function PreviewPage() {
+  const { t } = useT();
   const router = useRouter();
   const [plan, setPlan] = useState<MealPlanData | null>(null);
   const [weekOf, setWeekOf] = useState("");
@@ -105,13 +107,13 @@ export default function PreviewPage() {
       <div className="min-h-screen bg-[#FFFBF5]">
         <div className="max-w-2xl mx-auto px-6 py-24 text-center">
           <h2 className="text-xl font-semibold text-stone-700 mb-2">
-            No plan found
+            {t("preview.noPlan")}
           </h2>
           <p className="text-sm text-stone-500 mb-6">
-            Looks like you haven&apos;t generated a free plan yet.
+            {t("preview.noPlanDesc")}
           </p>
           <Link href="/onboarding">
-            <Button>Get Your Free Plan</Button>
+            <Button>{t("preview.getPlan")}</Button>
           </Link>
         </div>
       </div>
@@ -141,9 +143,9 @@ export default function PreviewPage() {
             </Link>
             <div>
               <h1 className="text-lg sm:text-xl font-semibold text-stone-800 tracking-tight">
-                Week of {formatWeekOf(weekOf)}
+                {t("preview.weekOf", { date: formatWeekOf(weekOf) })}
               </h1>
-              <p className="text-xs text-stone-400">Free 3-day plan</p>
+              <p className="text-xs text-stone-400">{t("preview.freePlanSubtitle")}</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -152,7 +154,7 @@ export default function PreviewPage() {
                 href="/login"
                 className="text-sm font-medium text-stone-500 hover:text-orange-500 transition-colors duration-200"
               >
-                Sign in
+                {t("common.signIn")}
               </Link>
             )}
             {isSignedIn === true && (
@@ -160,7 +162,7 @@ export default function PreviewPage() {
                 href="/dashboard"
                 className="text-sm font-medium text-stone-500 hover:text-orange-500 transition-colors duration-200"
               >
-                Dashboard
+                {t("dashboard.title")}
               </Link>
             )}
           </div>
@@ -172,20 +174,18 @@ export default function PreviewPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-14">
           {/* Small stats — like "found 35 subscriptions · 847 transactions" */}
           <p className="text-xs sm:text-sm text-stone-500 mb-1">
-            planned {totalMeals} meals &middot; {totalGroceryItems} grocery items &middot; {totalCalories.toLocaleString()} cal
+            {t("plan.planned", { meals: String(totalMeals) })} &middot; {t("dashboard.heroGroceryItems", { items: String(totalGroceryItems) })} &middot; {totalCalories.toLocaleString()} {t("plan.cal")}
           </p>
-          {/* Secondary line — like "Cancelled 18 · Keeping 13" */}
           <p className="text-xs sm:text-sm text-orange-600/80 mb-4">
-            {totalCookTime} min total cook time &middot; Est. {plan.estimatedWeeklyCost}
+            {t("plan.totalCookTime", { time: String(totalCookTime) })} &middot; {t("plan.estCost", { cost: plan.estimatedWeeklyCost })}
           </p>
-          {/* Big heading — aspirational hook for free users */}
           <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
-            save <span className="text-orange-500">130+ hours/yr</span>
+            {t("plan.heroSavedYearlyPrefix")} <span className="text-orange-500">{t("plan.heroSavedYearlyHighlight")}</span>
             <br />
-            not thinking about what to eat
+            {t("dashboard.heroNotThinking")}
           </h2>
           <p className="mt-3 text-sm sm:text-base text-stone-500">
-            That&apos;s 2.5 hours back every week — if you stick with it.
+            {t("preview.stickWithIt")}
           </p>
         </div>
       </div>
@@ -222,7 +222,7 @@ export default function PreviewPage() {
                 <rect x="3" y="14" width="7" height="7" rx="1" />
                 <rect x="14" y="14" width="7" height="7" rx="1" />
               </svg>
-              Cards
+              {t("plan.cards")}
             </button>
             <button
               type="button"
@@ -251,7 +251,7 @@ export default function PreviewPage() {
                 <line x1="3" y1="18" x2="21" y2="18" />
                 <line x1="9" y1="3" x2="9" y2="21" />
               </svg>
-              Table
+              {t("plan.table")}
             </button>
           </div>
         </div>
@@ -310,30 +310,30 @@ export default function PreviewPage() {
       <section className="border-t border-orange-100 bg-gradient-to-b from-[#FFFBF5] to-orange-50/60 py-16 sm:py-20">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <p className="text-sm font-medium text-orange-500 tracking-wide uppercase mb-3">
-            Full week, every week
+            {t("preview.ctaTagline")}
           </p>
           <h3 className="text-3xl sm:text-4xl font-bold text-stone-900 tracking-tight leading-tight mb-4">
-            7 days of meals + groceries,<br />
-            delivered to your inbox
+            {t("preview.ctaTitle").split("\n").map((line, i) => (
+              <span key={i}>{line}{i === 0 && <br />}</span>
+            ))}
           </h3>
           <p className="text-stone-500 text-base sm:text-lg mb-3 max-w-md mx-auto">
-            Personalized to your diet, budget, and household.
-            Zero thinking required.
+            {t("preview.ctaDesc")}
           </p>
 
           {/* Trust signals */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-xs text-stone-400 mb-8">
             <span className="flex items-center gap-1">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              Cancel anytime
+              {t("preview.cancelAnytime")}
             </span>
             <span className="flex items-center gap-1">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              New plan every Sunday
+              {t("preview.newPlanSunday")}
             </span>
             <span className="flex items-center gap-1">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              Grocery list included
+              {t("preview.groceryIncluded")}
             </span>
           </div>
 
@@ -345,7 +345,7 @@ export default function PreviewPage() {
               onClick={() => handleSubscribe("monthly")}
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-lg shadow-orange-500/20 hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              {subscribing ? "Redirecting..." : "Subscribe — $4.99/mo"}
+              {subscribing ? t("preview.redirecting") : t("preview.subscribeMonthly")}
             </button>
             <button
               type="button"
@@ -353,17 +353,17 @@ export default function PreviewPage() {
               onClick={() => handleSubscribe("yearly")}
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              {subscribing ? "Redirecting..." : "$29.99/year"}
+              {subscribing ? t("preview.redirecting") : t("preview.yearlyPrice")}
               {!subscribing && (
                 <span className="ml-2 inline-flex items-center px-2 py-0.5 text-xs font-semibold text-orange-600 bg-orange-100 rounded-full">
-                  Save 50%
+                  {t("landing.pricing.save50")}
                 </span>
               )}
             </button>
           </div>
 
           <p className="mt-4 text-xs text-stone-400">
-            Less than a coffee. Way less stress than &ldquo;what&apos;s for dinner?&rdquo;
+            {t("preview.ctaFooter")}
           </p>
         </div>
       </section>
@@ -373,18 +373,18 @@ export default function PreviewPage() {
         <div className="max-w-2xl mx-auto px-6 text-center">
           {isSignedIn === false && (
             <p className="text-xs text-stone-400">
-              Want to keep this plan?{" "}
+              {t("preview.keepPlanPrefix")}{" "}
               <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium transition-colors">
-                Create a free account
+                {t("preview.keepPlanLink")}
               </Link>{" "}
-              to save it.
+              {t("preview.keepPlanSuffix")}
             </p>
           )}
           {isSignedIn === true && (
             <p className="text-xs text-stone-400">
-              This plan is saved to your account.{" "}
+              {t("preview.savedToAccount")}{" "}
               <Link href="/dashboard" className="text-orange-500 hover:text-orange-600 font-medium transition-colors">
-                Go to Dashboard &rarr;
+                {t("preview.goToDashboard")} &rarr;
               </Link>
             </p>
           )}
