@@ -110,6 +110,15 @@
       "terms": "이용약관",
       "contact": "문의",
       "copyright": "© {year} What's For Dinner. 모든 권리 보유."
+    },
+    "suggestion": {
+      "breakfast": "아침 식사 아이디어",
+      "lunch": "점심 아이디어",
+      "dinner": "오늘 저녁 메뉴",
+      "mealBreakfast": "그릭 요거트 파르페",
+      "mealLunch": "치킨 시저 랩",
+      "mealDinner": "레몬 허브 연어",
+      "cta": "전체 플랜 보기"
     }
   },
   "onboarding": {

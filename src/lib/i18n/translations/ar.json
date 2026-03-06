@@ -110,6 +110,15 @@
       "terms": "الشروط",
       "contact": "اتصل",
       "copyright": "© {year} What's For Dinner. جميع الحقوق محفوظة."
+    },
+    "suggestion": {
+      "breakfast": "فكرة فطور",
+      "lunch": "فكرة غداء",
+      "dinner": "عشاء الليلة",
+      "mealBreakfast": "بارفيه الزبادي اليوناني",
+      "mealLunch": "لفائف الدجاج سيزر",
+      "mealDinner": "سلمون بالليمون والأعشاب",
+      "cta": "احصل على خطتك الكاملة"
     }
   },
   "onboarding": {

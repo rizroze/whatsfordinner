@@ -110,6 +110,15 @@
       "terms": "शर्तें",
       "contact": "संपर्क करें",
       "copyright": "© {year} What's For Dinner. सर्वाधिकार सुरक्षित।"
+    },
+    "suggestion": {
+      "breakfast": "नाश्ते का सुझाव",
+      "lunch": "दोपहर के भोजन का सुझाव",
+      "dinner": "आज का डिनर",
+      "mealBreakfast": "ग्रीक योगर्ट परफ़ेट",
+      "mealLunch": "चिकन सीज़र रैप",
+      "mealDinner": "लेमन हर्ब सैल्मन",
+      "cta": "पूरा प्लान पाएं"
     }
   },
   "onboarding": {

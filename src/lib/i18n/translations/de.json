@@ -110,6 +110,15 @@
       "terms": "Bedingungen",
       "contact": "Kontakt",
       "copyright": "© {year} What's For Dinner. Alle Rechte vorbehalten."
+    },
+    "suggestion": {
+      "breakfast": "Frühstücksidee",
+      "lunch": "Mittagsidee",
+      "dinner": "Heutiges Abendessen",
+      "mealBreakfast": "Griechischer Joghurt Parfait",
+      "mealLunch": "Hahnchen-Caesar-Wrap",
+      "mealDinner": "Lachs mit Zitrone und Krautern",
+      "cta": "Hol dir deinen Plan"
     }
   },
   "onboarding": {

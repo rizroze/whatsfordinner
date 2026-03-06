@@ -103,6 +103,15 @@
       "q7": "Is this just for one person?",
       "a7": "Nope. During setup, you tell us your household size and we adjust portions and grocery quantities accordingly. Works for individuals, couples, or families."
     },
+    "suggestion": {
+      "breakfast": "Breakfast idea",
+      "lunch": "Lunch idea",
+      "dinner": "Tonight's dinner",
+      "mealBreakfast": "Greek Yogurt Parfait",
+      "mealLunch": "Chicken Caesar Wrap",
+      "mealDinner": "One-Pan Lemon Herb Salmon",
+      "cta": "Get your full plan"
+    },
     "footer": {
       "brand": "What's For Dinner",
       "blog": "Blog",

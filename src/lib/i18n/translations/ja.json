@@ -110,6 +110,15 @@
       "terms": "利用規約",
       "contact": "お問い合わせ",
       "copyright": "© {year} What's For Dinner. All rights reserved."
+    },
+    "suggestion": {
+      "breakfast": "朝食のアイデア",
+      "lunch": "ランチのアイデア",
+      "dinner": "今夜のディナー",
+      "mealBreakfast": "ギリシャヨーグルトパフェ",
+      "mealLunch": "チキンシーザーラップ",
+      "mealDinner": "レモンハーブサーモン",
+      "cta": "フルプランを見る"
     }
   },
   "onboarding": {

@@ -110,6 +110,15 @@
       "terms": "Términos",
       "contact": "Contacto",
       "copyright": "© {year} What's For Dinner. Todos los derechos reservados."
+    },
+    "suggestion": {
+      "breakfast": "Idea de desayuno",
+      "lunch": "Idea de almuerzo",
+      "dinner": "Cena de esta noche",
+      "mealBreakfast": "Parfait de Yogur Griego",
+      "mealLunch": "Wrap de Pollo Cesar",
+      "mealDinner": "Salmon al Limon en Una Sarten",
+      "cta": "Obtener tu plan completo"
     }
   },
   "onboarding": {

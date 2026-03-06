@@ -110,6 +110,15 @@
       "terms": "Şartlar",
       "contact": "İletişim",
       "copyright": "© {year} What's For Dinner. Tüm hakları saklıdır."
+    },
+    "suggestion": {
+      "breakfast": "Kahvaltı fikri",
+      "lunch": "Öğle yemeği fikri",
+      "dinner": "Bu akşamın yemeği",
+      "mealBreakfast": "Yoğurt Parfesi",
+      "mealLunch": "Sezar Soslu Tavuk Wrap",
+      "mealDinner": "Tek Tavada Limonlu Somon",
+      "cta": "Tam planını al"
     }
   },
   "onboarding": {

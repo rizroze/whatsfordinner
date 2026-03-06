@@ -110,6 +110,15 @@
       "terms": "Conditions",
       "contact": "Contact",
       "copyright": "© {year} What's For Dinner. Tous droits réservés."
+    },
+    "suggestion": {
+      "breakfast": "Idée petit-déjeuner",
+      "lunch": "Idée déjeuner",
+      "dinner": "Dîner de ce soir",
+      "mealBreakfast": "Parfait au Yaourt Grec",
+      "mealLunch": "Wrap Poulet César",
+      "mealDinner": "Saumon aux Herbes et Citron",
+      "cta": "Obtenir votre plan complet"
     }
   },
   "onboarding": {

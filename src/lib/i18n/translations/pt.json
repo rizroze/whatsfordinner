@@ -110,6 +110,15 @@
       "terms": "Termos",
       "contact": "Contato",
       "copyright": "© {year} What's For Dinner. Todos os direitos reservados."
+    },
+    "suggestion": {
+      "breakfast": "Ideia de café da manhã",
+      "lunch": "Ideia de almoço",
+      "dinner": "Jantar de hoje",
+      "mealBreakfast": "Parfait de Iogurte Grego",
+      "mealLunch": "Wrap de Frango Caesar",
+      "mealDinner": "Salmao com Limao e Ervas",
+      "cta": "Obter seu plano completo"
     }
   },
   "onboarding": {

@@ -110,6 +110,15 @@
       "terms": "条款",
       "contact": "联系我们",
       "copyright": "© {year} What's For Dinner。版权所有。"
+    },
+    "suggestion": {
+      "breakfast": "早餐灵感",
+      "lunch": "午餐灵感",
+      "dinner": "今晚的晚餐",
+      "mealBreakfast": "希腊酸奶杯",
+      "mealLunch": "凯撒鸡肉卷",
+      "mealDinner": "柠檬香草三文鱼",
+      "cta": "获取完整计划"
     }
   },
   "onboarding": {
