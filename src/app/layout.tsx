@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | What's For Dinner",
   },
   description:
-    "Get personalized weekly meal plans and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required. From $4.99/month.",
+    "Get personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required. From $4.99/month.",
   keywords: [
     "meal planner",
     "weekly meal plan",
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
     url: "https://whatsfordinner.fit",
     title: "What's For Dinner — Personalized Weekly Meal Plans",
     description:
-      "Personalized weekly meal plans and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required.",
+      "Personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required.",
     siteName: "What's For Dinner",
   },
   twitter: {
     card: "summary_large_image",
     title: "What's For Dinner — Personalized Weekly Meal Plans",
     description:
-      "Personalized weekly meal plans and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required.",
+      "Personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required.",
   },
 };
 
