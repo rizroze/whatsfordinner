@@ -89,8 +89,8 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
 
         <p className="mt-4 sm:mt-6 text-sm sm:text-lg text-stone-600 max-w-lg mx-auto leading-relaxed">
           {t("landing.hero.description")}
-          <br />
-          <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
+          <br className="sm:hidden" />
+          {" "}{t("landing.hero.tryCta")} <span className="text-orange-500 font-medium">{t("landing.hero.noCreditCard")}</span>
         </p>
 
         <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
