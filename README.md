@@ -28,11 +28,25 @@ Get a free 3-day meal plan without creating an account. No credit card, no signu
 
 ---
 
-## Your meal plan
+## Here's what you get
 
 Every plan includes recipes with ingredients, cook times, calorie counts, and a grocery list you can actually shop from.
 
 ![Meal plan preview](docs/screenshots/preview.png)
+
+Browse 80+ meal plan pages covering every diet, cuisine, and goal:
+
+![Meal plans hub](docs/screenshots/meal-plans.png)
+
+![Individual meal plan page](docs/screenshots/meal-plan-page.png)
+
+18 blog articles with guides, comparisons, and competitor alternatives:
+
+![Blog](docs/screenshots/blog.png)
+
+Works on mobile too:
+
+![Mobile landing](docs/screenshots/mobile-landing.png)
 
 ---
 
@@ -62,12 +76,6 @@ Programmatic SEO covering every meal planning search query:
 - **18 blog articles** — competitor alternatives, how-to guides, roundups
 
 All pages include JSON-LD schema, OG images, canonical URLs, and internal cross-links.
-
-![Meal plans hub](docs/screenshots/meal-plans.png)
-
-![Individual meal plan page](docs/screenshots/meal-plan-page.png)
-
-![Blog](docs/screenshots/blog.png)
 
 Browse them at [whatsfordinner.fit/meal-plans](https://whatsfordinner.fit/meal-plans)
 
