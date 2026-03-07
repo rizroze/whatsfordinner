@@ -1,0 +1,52 @@
+import Link from "next/link";
+
+export default function MealPlansLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="min-h-screen bg-[#FFFBF5]">
+      {/* Header */}
+      <nav className="max-w-3xl mx-auto px-6 py-6 flex items-center justify-between">
+        <Link
+          href="/"
+          className="text-sm font-semibold text-stone-800 hover:text-orange-600 transition-colors"
+        >
+          What&apos;s For Dinner
+        </Link>
+        <Link
+          href="/onboarding"
+          className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
+        >
+          Try Free
+        </Link>
+      </nav>
+
+      {/* Content */}
+      <main className="max-w-3xl mx-auto px-6 pb-20">{children}</main>
+
+      {/* Footer */}
+      <footer className="border-t border-stone-100 py-12">
+        <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="text-sm font-semibold text-stone-800 tracking-tight">
+            What&apos;s For Dinner?
+          </div>
+          <nav className="flex items-center gap-6">
+            <Link href="/blog" className="text-sm text-stone-400 hover:text-orange-600 transition-colors">
+              Blog
+            </Link>
+            <Link href="/meal-plans" className="text-sm text-stone-400 hover:text-orange-600 transition-colors">
+              Meal Plans
+            </Link>
+            <Link href="/privacy" className="text-sm text-stone-400 hover:text-orange-600 transition-colors">
+              Privacy
+            </Link>
+            <Link href="/terms" className="text-sm text-stone-400 hover:text-orange-600 transition-colors">
+              Terms
+            </Link>
+          </nav>
+          <p className="text-xs text-stone-400">
+            &copy; {new Date().getFullYear()} What&apos;s For Dinner
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
