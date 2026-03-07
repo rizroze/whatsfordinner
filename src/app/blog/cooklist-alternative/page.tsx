@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required.",
   openGraph: {
     title:
-      "Cooklist Alternative 2026 — AI Meal Plans That Go Beyond Pantry Tracking",
+      "Best Cooklist Alternative (2026)",
     description:
       "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Cooklist Alternative 2026 — AI Meal Plans That Go Beyond Pantry Tracking",
+      "Best Cooklist Alternative (2026)",
     description:
       "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo.",
   },

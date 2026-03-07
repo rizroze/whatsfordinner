@@ -4,7 +4,7 @@ export const durationPages: MealPlanPageData[] = [
   {
     slug: "3-day-meal-plan",
     type: "diet",
-    title: "3-Day Meal Plan — Quick Start to Easier Weeknight Dinners",
+    title: "3-Day Meal Plan",
     metaDescription:
       "Try a free 3-day meal plan with balanced recipes and a grocery list. Low commitment, zero stress. See if meal planning works for you before subscribing.",
     h1: "3-Day Meal Plan to Kickstart Your Week",
@@ -102,7 +102,7 @@ export const durationPages: MealPlanPageData[] = [
   {
     slug: "5-day-meal-plan",
     type: "diet",
-    title: "5-Day Meal Plan — Weeknight Dinners Sorted, Weekends Free",
+    title: "5-Day Meal Plan",
     metaDescription:
       "Get a 5-day meal plan covering Monday to Friday with easy recipes and a focused grocery list. Eat out on weekends guilt-free. Try meal planning today.",
     h1: "5-Day Meal Plan for People Who Live for the Weekend",
@@ -201,7 +201,7 @@ export const durationPages: MealPlanPageData[] = [
   {
     slug: "7-day-meal-plan",
     type: "diet",
-    title: "7-Day Meal Plan — A Full Week of Meals Planned for You",
+    title: "7-Day Meal Plan",
     metaDescription:
       "Get a complete 7-day meal plan with breakfast, lunch, and dinner recipes plus a grocery list. Fresh plans every week, personalized to your diet. Subscribe now.",
     h1: "7-Day Meal Plan: Your Entire Week, Sorted",
@@ -305,7 +305,7 @@ export const durationPages: MealPlanPageData[] = [
   {
     slug: "14-day-meal-plan",
     type: "diet",
-    title: "14-Day Meal Plan — Two Weeks of Meals, One Planning Session",
+    title: "14-Day Meal Plan",
     metaDescription:
       "Plan 14 days of meals at once with a complete two-week meal plan. Less frequent shopping, better variety, and zero daily decision-making. Start planning today.",
     h1: "14-Day Meal Plan: Plan Once, Eat Well for Two Weeks",
@@ -404,7 +404,7 @@ export const durationPages: MealPlanPageData[] = [
   {
     slug: "21-day-meal-plan",
     type: "diet",
-    title: "21-Day Meal Plan — Build the Meal Planning Habit in 3 Weeks",
+    title: "21-Day Meal Plan",
     metaDescription:
       "Start a 21-day meal plan to build lasting healthy eating habits. Three weeks of balanced recipes designed to transform how you cook, eat, and shop. Try it now.",
     h1: "21-Day Meal Plan: Three Weeks to Transform Your Eating Habits",
@@ -508,7 +508,7 @@ export const durationPages: MealPlanPageData[] = [
   {
     slug: "30-day-meal-plan",
     type: "diet",
-    title: "30-Day Meal Plan — A Full Month of Planned Meals & Recipes",
+    title: "30-Day Meal Plan",
     metaDescription:
       "Get a complete 30-day meal plan with four weeks of balanced recipes, grocery lists, and zero guesswork. Transform your eating habits in one month. Start today.",
     h1: "30-Day Meal Plan: One Month to a Completely New Routine",

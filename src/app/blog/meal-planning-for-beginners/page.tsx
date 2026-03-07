@@ -3,11 +3,11 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "Meal Planning for Beginners: The Complete Guide (2026)",
+  title: "Meal Planning for Beginners (2026)",
   description:
     "Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout.",
   openGraph: {
-    title: "Meal Planning for Beginners: The Complete Guide (2026)",
+    title: "Meal Planning for Beginners (2026)",
     description:
       "Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout.",
     siteName: "What's For Dinner",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Meal Planning for Beginners: The Complete Guide (2026)",
+    title: "Meal Planning for Beginners (2026)",
     description:
       "Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout.",
   },
@@ -29,7 +29,7 @@ export default function MealPlanningForBeginnersArticle() {
   return (
     <>
       <ArticleJsonLd
-        title="Meal Planning for Beginners: The Complete Guide (2026)"
+        title="Meal Planning for Beginners (2026)"
         description="Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout."
         url="https://whatsfordinner.fit/blog/meal-planning-for-beginners"
         datePublished="2026-03-07"
@@ -38,7 +38,7 @@ export default function MealPlanningForBeginnersArticle() {
         items={[
           { name: "Home", url: "https://whatsfordinner.fit" },
           { name: "Blog", url: "https://whatsfordinner.fit/blog" },
-          { name: "Meal Planning for Beginners: The Complete Guide (2026)", url: "https://whatsfordinner.fit/blog/meal-planning-for-beginners" },
+          { name: "Meal Planning for Beginners (2026)", url: "https://whatsfordinner.fit/blog/meal-planning-for-beginners" },
         ]}
       />
       <article>

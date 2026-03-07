@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates — just $4.99/mo.",
   openGraph: {
     title:
-      "Meal Planning for Two — Perfectly Portioned Plans for Couples & Roommates",
+      "Meal Planning for Two (2026)",
     description:
       "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates.",
     siteName: "What's For Dinner",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Meal Planning for Two — Perfectly Portioned Plans for Couples & Roommates",
+      "Meal Planning for Two (2026)",
     description:
       "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists.",
   },

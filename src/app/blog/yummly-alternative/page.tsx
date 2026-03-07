@@ -3,11 +3,11 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "Yummly Alternative 2026 — AI Meal Planning After Yummly's Shutdown",
+  title: "Best Yummly Alternative (2026)",
   description:
     "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo.",
   openGraph: {
-    title: "Yummly Alternative 2026 — AI Meal Planning After Yummly's Shutdown",
+    title: "Best Yummly Alternative (2026)",
     description:
       "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo.",
     siteName: "What's For Dinner",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yummly Alternative 2026 — AI Meal Planning After Yummly's Shutdown",
+    title: "Best Yummly Alternative (2026)",
     description:
       "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo.",
   },

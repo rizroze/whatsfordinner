@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 const title =
-  "Meal Plan with Grocery List — Complete Weekly Plans Delivered to Your Inbox";
+  "Meal Plan with Grocery List";
 const description =
   "Get a personalized meal plan with grocery list every week. AI-generated, consolidated by category, adjusted to your household size. No app needed — just email.";
 

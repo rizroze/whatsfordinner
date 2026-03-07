@@ -3,11 +3,11 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "How to Save Money on Groceries with Meal Planning — 5 Rules That Work",
+  title: "Save Money on Groceries",
   description:
     "The average family wastes $1,500/year on food. Learn 5 budget meal planning rules, savings by household size, and how an AI meal planner cuts grocery bills automatically.",
   openGraph: {
-    title: "How to Save Money on Groceries with Meal Planning — 5 Rules That Work",
+    title: "Save Money on Groceries",
     description:
       "The average family wastes $1,500/year on food. Learn 5 budget meal planning rules, savings by household size, and how an AI meal planner cuts grocery bills automatically.",
     siteName: "What's For Dinner",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "How to Save Money on Groceries with Meal Planning — 5 Rules That Work",
+    title: "Save Money on Groceries",
     description:
       "The average family wastes $1,500/year on food. Learn 5 budget meal planning rules, savings by household size, and how an AI meal planner cuts grocery bills automatically.",
   },

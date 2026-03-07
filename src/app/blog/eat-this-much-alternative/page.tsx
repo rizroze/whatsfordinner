@@ -4,12 +4,12 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 
 export const metadata: Metadata = {
   title:
-    "Best Eat This Much Alternative 2026 — AI Meal Plans Without the Repetition",
+    "Eat This Much Alternative (2026)",
   description:
     "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $4.99/mo — better variety, better price.",
   openGraph: {
     title:
-      "Best Eat This Much Alternative 2026 — AI Meal Plans Without the Repetition",
+      "Eat This Much Alternative (2026)",
     description:
       "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $4.99/mo — better variety, better price.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Best Eat This Much Alternative 2026 — AI Meal Plans Without the Repetition",
+      "Eat This Much Alternative (2026)",
     description:
       "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $4.99/mo.",
   },

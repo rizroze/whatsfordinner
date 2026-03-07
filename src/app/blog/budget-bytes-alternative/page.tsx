@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork.",
   openGraph: {
     title:
-      "Budget Bytes Alternative 2026 — AI Meal Plans That Do the Planning for You",
+      "Budget Bytes Alternative (2026)",
     description:
       "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Budget Bytes Alternative 2026 — AI Meal Plans That Do the Planning for You",
+      "Budget Bytes Alternative (2026)",
     description:
       "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo.",
   },

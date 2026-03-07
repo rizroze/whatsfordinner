@@ -4,7 +4,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "vegan-thai",
     type: "combo",
-    title: "Vegan Thai Meal Plans — Plant-Based Thai Recipes Weekly",
+    title: "Weekly Vegan Thai Meal Plans",
     metaDescription:
       "Get weekly vegan Thai meal plans with coconut curries, pad thai, and fresh rolls. No animal products, all the bold Thai flavors you love.",
     h1: "Vegan Thai Meal Plans That Actually Taste Like Thailand",
@@ -98,7 +98,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "vegan-indian",
     type: "combo",
-    title: "Vegan Indian Meal Plans — Weekly Plant-Based Indian Food",
+    title: "Weekly Vegan Indian Meal Plans",
     metaDescription:
       "Weekly vegan Indian meal plans with dal, chana masala, and veggie curries. No dairy, no ghee — just authentic Indian flavors, 100% plant-based.",
     h1: "Vegan Indian Meal Plans — Bold Spices, Zero Dairy",
@@ -192,7 +192,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "vegan-mediterranean",
     type: "combo",
-    title: "Vegan Mediterranean Meal Plans — Weekly Plant-Based Menus",
+    title: "Vegan Mediterranean Meal Plans",
     metaDescription:
       "Weekly vegan Mediterranean meal plans with hummus, falafel, grain bowls, and roasted vegetables. Heart-healthy, plant-based, and delicious.",
     h1: "Vegan Mediterranean Meal Plans — Sun-Soaked, Plant-Powered",
@@ -286,7 +286,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "keto-mediterranean",
     type: "combo",
-    title: "Keto Mediterranean Meal Plans — Low-Carb Med Diet Weekly",
+    title: "Keto Mediterranean Meal Plans",
     metaDescription:
       "Weekly keto Mediterranean meal plans combining healthy fats, fresh vegetables, and low-carb recipes. Olive oil-rich, grain-free, and satisfying.",
     h1: "Keto Mediterranean Meal Plans — Healthy Fats, Zero Grains",
@@ -380,7 +380,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "keto-asian",
     type: "combo",
-    title: "Keto Asian Meal Plans — Low-Carb Asian Recipes Weekly",
+    title: "Weekly Keto Asian Meal Plans",
     metaDescription:
       "Weekly keto Asian meal plans with stir-fries, soups, and grilled meats. No rice or noodles — all the umami, none of the carbs.",
     h1: "Keto Asian Meal Plans — All the Umami, None of the Rice",
@@ -474,7 +474,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "keto-mexican",
     type: "combo",
-    title: "Keto Mexican Meal Plans — Low-Carb Mexican Food Weekly",
+    title: "Weekly Keto Mexican Meal Plans",
     metaDescription:
       "Weekly keto Mexican meal plans without tortillas or beans. Enjoy fajitas, carne asada, and guacamole while staying under 30g carbs daily.",
     h1: "Keto Mexican Meal Plans — Bold Flavors, No Tortillas Needed",
@@ -568,7 +568,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "vegetarian-italian",
     type: "combo",
-    title: "Vegetarian Italian Meal Plans — Meatless Italian Weekly",
+    title: "Vegetarian Italian Meal Plans",
     metaDescription:
       "Weekly vegetarian Italian meal plans with pasta, risotto, and caprese. Classic Italian comfort food without the meat, planned for you.",
     h1: "Vegetarian Italian Meal Plans — La Dolce Vita, Meat-Free",
@@ -662,7 +662,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "vegetarian-indian",
     type: "combo",
-    title: "Vegetarian Indian Meal Plans — Authentic Veggie Indian Food",
+    title: "Vegetarian Indian Meal Plans",
     metaDescription:
       "Weekly vegetarian Indian meal plans with paneer, dal, and veggie curries. Authentic Indian recipes planned for your whole week, no meat needed.",
     h1: "Vegetarian Indian Meal Plans — A Tradition Centuries Deep",
@@ -756,7 +756,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "vegetarian-mediterranean",
     type: "combo",
-    title: "Vegetarian Mediterranean Meal Plans — Meatless Med Diet",
+    title: "Vegetarian Mediterranean Meal Plans",
     metaDescription:
       "Weekly vegetarian Mediterranean meal plans with feta, hummus, grain bowls, and roasted vegetables. Heart-healthy eating without the meat.",
     h1: "Vegetarian Mediterranean Meal Plans — Fresh, Simple, Satisfying",
@@ -850,7 +850,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "gluten-free-asian",
     type: "combo",
-    title: "Gluten-Free Asian Meal Plans — GF Asian Recipes Weekly",
+    title: "Gluten-Free Asian Meal Plans",
     metaDescription:
       "Weekly gluten-free Asian meal plans with rice-based dishes, stir-fries, and soups. Navigate soy sauce traps and hidden gluten with confidence.",
     h1: "Gluten-Free Asian Meal Plans — Navigate Hidden Gluten Like a Pro",
@@ -944,7 +944,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "gluten-free-italian",
     type: "combo",
-    title: "Gluten-Free Italian Meal Plans — GF Pasta & Italian Food",
+    title: "Gluten-Free Italian Meal Plans",
     metaDescription:
       "Weekly gluten-free Italian meal plans with GF pasta, risotto, and polenta. Enjoy Italian comfort food without wheat — every recipe tested.",
     h1: "Gluten-Free Italian Meal Plans — Yes, You Can Still Eat Pasta",
@@ -1038,7 +1038,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "gluten-free-mexican",
     type: "combo",
-    title: "Gluten-Free Mexican Meal Plans — GF Mexican Food Weekly",
+    title: "Gluten-Free Mexican Meal Plans",
     metaDescription:
       "Weekly gluten-free Mexican meal plans with corn tortillas, tacos, and fresh salsas. Authentic Mexican flavors, naturally free from wheat.",
     h1: "Gluten-Free Mexican Meal Plans — Corn Is King",
@@ -1132,7 +1132,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "halal-mediterranean",
     type: "combo",
-    title: "Halal Mediterranean Meal Plans — Halal Med Food Weekly",
+    title: "Halal Mediterranean Meal Plans",
     metaDescription:
       "Weekly halal Mediterranean meal plans with grilled meats, hummus, and fresh salads. Halal-certified recipes inspired by the Mediterranean coast.",
     h1: "Halal Mediterranean Meal Plans — From the Levant to Your Table",
@@ -1226,7 +1226,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "halal-indian",
     type: "combo",
-    title: "Halal Indian Meal Plans — Halal Indian Recipes Weekly",
+    title: "Weekly Halal Indian Meal Plans",
     metaDescription:
       "Weekly halal Indian meal plans with biryani, butter chicken, and kebabs. Authentic Indian flavors with halal-certified meat in every recipe.",
     h1: "Halal Indian Meal Plans — Mughlai Feasts, Everyday Ease",
@@ -1320,7 +1320,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "halal-middle-eastern",
     type: "combo",
-    title: "Halal Middle Eastern Meal Plans — Weekly Halal Arab Food",
+    title: "Halal Middle Eastern Meal Plans",
     metaDescription:
       "Weekly halal Middle Eastern meal plans with shawarma, mansaf, and mezze. Authentic Arab cuisine that is halal by tradition and designed for busy weeks.",
     h1: "Halal Middle Eastern Meal Plans — Tradition Meets Your Weekly Menu",
@@ -1414,7 +1414,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "pescatarian-japanese",
     type: "combo",
-    title: "Pescatarian Japanese Meal Plans — Seafood Japanese Weekly",
+    title: "Pescatarian Japanese Meal Plans",
     metaDescription:
       "Weekly pescatarian Japanese meal plans with sushi, miso soup, and grilled fish. Experience authentic Japanese cuisine centered on seafood and vegetables.",
     h1: "Pescatarian Japanese Meal Plans — An Island Nation's Natural Diet",
@@ -1508,7 +1508,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "pescatarian-mediterranean",
     type: "combo",
-    title: "Pescatarian Mediterranean Meal Plans — Seafood Med Diet",
+    title: "Pescatarian Mediterranean Plans",
     metaDescription:
       "Weekly pescatarian Mediterranean meal plans with grilled fish, seafood pasta, and fresh salads. The heart-healthy Mediterranean diet at its finest.",
     h1: "Pescatarian Mediterranean Meal Plans — The Way the Coast Eats",
@@ -1602,7 +1602,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "dairy-free-thai",
     type: "combo",
-    title: "Dairy-Free Thai Meal Plans — Thai Food Without Dairy",
+    title: "Dairy-Free Thai Meal Plans",
     metaDescription:
       "Weekly dairy-free Thai meal plans with curries, stir-fries, and noodle dishes. Thai cuisine is naturally dairy-free — we keep it that way.",
     h1: "Dairy-Free Thai Meal Plans — Naturally Dairy-Free, Effortlessly Delicious",
@@ -1696,7 +1696,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "dairy-free-mexican",
     type: "combo",
-    title: "Dairy-Free Mexican Meal Plans — Mexican Food Without Cheese",
+    title: "Dairy-Free Mexican Meal Plans",
     metaDescription:
       "Weekly dairy-free Mexican meal plans with tacos, salsas, and grilled meats. Enjoy bold Mexican flavors without cheese, sour cream, or butter.",
     h1: "Dairy-Free Mexican Meal Plans — All the Flavor, Hold the Queso",
@@ -1790,7 +1790,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
   {
     slug: "low-carb-southern",
     type: "combo",
-    title: "Low-Carb Southern Meal Plans — Southern Comfort, Fewer Carbs",
+    title: "Low-Carb Southern Meal Plans",
     metaDescription:
       "Weekly low-carb Southern meal plans with BBQ, collard greens, and comfort food. Real Southern flavor without the biscuits, grits, and sweet tea.",
     h1: "Low-Carb Southern Meal Plans — Comfort Food Without the Carb Crash",

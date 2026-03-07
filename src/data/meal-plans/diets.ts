@@ -4,7 +4,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "vegetarian",
     type: "diet",
-    title: "Vegetarian Meal Plans — Weekly Meatless Meals & Recipes",
+    title: "Weekly Vegetarian Meal Plans",
     metaDescription:
       "Get personalized weekly vegetarian meal plans with grocery lists. High-protein, balanced meatless meals planned for you automatically. Try it free today.",
     h1: "Vegetarian Meal Plans That Actually Keep You Full",
@@ -98,7 +98,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "vegan",
     type: "diet",
-    title: "Vegan Meal Plans — Plant-Based Weekly Meals & Groceries",
+    title: "Weekly Vegan Meal Plans",
     metaDescription:
       "Personalized weekly vegan meal plans with complete grocery lists. Nutrient-dense, flavorful plant-based meals delivered to your inbox. Start your free plan.",
     h1: "Vegan Meal Plans That Don't Sacrifice Flavor or Nutrition",
@@ -192,7 +192,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "gluten-free",
     type: "diet",
-    title: "Gluten-Free Meal Plans — Safe Weekly Meals & Grocery Lists",
+    title: "Weekly Gluten-Free Meal Plans",
     metaDescription:
       "Personalized gluten-free meal plans built for celiac and sensitivity needs. No cross-contamination guesswork — just safe, delicious weekly meals. Try free.",
     h1: "Gluten-Free Meal Plans Without the Guesswork",
@@ -286,7 +286,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "dairy-free",
     type: "diet",
-    title: "Dairy-Free Meal Plans — Creamy Meals Without the Dairy",
+    title: "Weekly Dairy-Free Meal Plans",
     metaDescription:
       "Weekly dairy-free meal plans with rich, satisfying meals and organized grocery lists. No lactose, no compromise on flavor. Get your free plan today.",
     h1: "Dairy-Free Meal Plans That Never Feel Like They're Missing Something",
@@ -380,7 +380,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "keto",
     type: "diet",
-    title: "Keto Meal Plans — Weekly Low-Carb Meals & Grocery Lists",
+    title: "Weekly Keto Meal Plans",
     metaDescription:
       "Personalized weekly keto meal plans that keep you under 30g net carbs. Macro-calculated meals with full grocery lists. Start your free keto plan now.",
     h1: "Keto Meal Plans That Make Low-Carb Living Simple",
@@ -474,7 +474,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "low-carb",
     type: "diet",
-    title: "Low-Carb Meal Plans — Balanced Weekly Meals Under 100g Carbs",
+    title: "Weekly Low-Carb Meal Plans",
     metaDescription:
       "Weekly low-carb meal plans with flexible carb targets and full grocery lists. Not keto-strict, just smart carb choices. Get your personalized plan free.",
     h1: "Low-Carb Meal Plans for People Who Don't Want to Go Full Keto",
@@ -568,7 +568,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "pescatarian",
     type: "diet",
-    title: "Pescatarian Meal Plans — Fish & Veggie Meals Weekly",
+    title: "Weekly Pescatarian Meal Plans",
     metaDescription:
       "Personalized pescatarian meal plans with seafood and plant-based meals every week. Omega-3-rich, sustainable, and delicious. Try your free plan today.",
     h1: "Pescatarian Meal Plans Packed with Omega-3s and Flavor",
@@ -662,7 +662,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "halal",
     type: "diet",
-    title: "Halal Meal Plans — Weekly Halal-Compliant Meals & Recipes",
+    title: "Weekly Halal Meal Plans",
     metaDescription:
       "Personalized weekly halal meal plans with permissible ingredients only. No guesswork about compliance — just delicious, halal-certified meals. Start free.",
     h1: "Halal Meal Plans That Take the Stress Out of Permissible Eating",
@@ -756,7 +756,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "kosher",
     type: "diet",
-    title: "Kosher Meal Plans — Weekly Kosher Meals & Grocery Lists",
+    title: "Weekly Kosher Meal Plans",
     metaDescription:
       "Personalized weekly kosher meal plans that respect kashrut laws. Meat and dairy separation built in, with organized grocery lists. Try your free plan.",
     h1: "Kosher Meal Plans That Respect Kashrut and Your Time",
@@ -850,7 +850,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "no-meat-fridays",
     type: "diet",
-    title: "No-Meat Friday Meal Plans — Meatless Friday Dinner Ideas",
+    title: "Weekly No-Meat Friday Meal Plans",
     metaDescription:
       "Weekly meal plans with meatless Friday dinners for Lent and year-round observance. Fish, seafood, and vegetarian Friday meals your family will love.",
     h1: "Meatless Friday Meal Plans Your Whole Family Will Actually Enjoy",

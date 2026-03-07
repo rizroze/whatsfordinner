@@ -3,11 +3,11 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "AI Meal Planner — How AI Creates Your Perfect Weekly Meal Plan",
+  title: "AI Meal Planner: How It Works",
   description:
     "Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill. $4.99/mo.",
   openGraph: {
-    title: "AI Meal Planner — How AI Creates Your Perfect Weekly Meal Plan",
+    title: "AI Meal Planner: How It Works",
     description:
       "Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill.",
     siteName: "What's For Dinner",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Meal Planner — How AI Creates Your Perfect Weekly Meal Plan",
+    title: "AI Meal Planner: How It Works",
     description:
       "Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill.",
   },

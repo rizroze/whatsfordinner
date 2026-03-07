@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — cheaper, smarter, and built for the post-PlateJoy era.",
   openGraph: {
     title:
-      "PlateJoy Alternative 2026 — AI Meal Plans That Pick Up Where PlateJoy Left Off",
+      "Best PlateJoy Alternative (2026)",
     description:
       "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — cheaper, smarter, and built for the post-PlateJoy era.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "PlateJoy Alternative 2026 — AI Meal Plans That Pick Up Where PlateJoy Left Off",
+      "Best PlateJoy Alternative (2026)",
     description:
       "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo.",
   },

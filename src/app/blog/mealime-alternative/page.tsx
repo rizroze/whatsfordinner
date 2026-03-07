@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $4.99/mo with a free trial, no signup required.",
   openGraph: {
     title:
-      "Best Mealime Alternative 2026 — AI Meal Plans That Never Repeat",
+      "Best Mealime Alternative (2026)",
     description:
       "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $4.99/mo with a free trial, no signup required.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Best Mealime Alternative 2026 — AI Meal Plans That Never Repeat",
+      "Best Mealime Alternative (2026)",
     description:
       "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week. $4.99/mo with a free trial.",
   },

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo — no recipe hunting required.",
   openGraph: {
     title:
-      "The Best Paprika Alternative in 2026 — AI Meal Plans vs. Recipe Binders",
+      "Best Paprika Alternative (2026)",
     description:
       "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo — no recipe hunting required.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "The Best Paprika Alternative in 2026 — AI Meal Plans vs. Recipe Binders",
+      "Best Paprika Alternative (2026)",
     description:
       "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo.",
   },

@@ -4,7 +4,7 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "1200-calorie-meal-plan",
     type: "diet",
-    title: "1200 Calorie Meal Plan — Nutrient-Dense Meals for a Healthy Deficit",
+    title: "1200 Calorie Meal Plan",
     metaDescription:
       "Get a weekly 1200 calorie meal plan with nutrient-dense, satisfying recipes. No starvation, no bland food — just smart portions planned automatically.",
     h1: "A 1200 Calorie Meal Plan That Actually Keeps You Full",
@@ -108,7 +108,7 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "1500-calorie-meal-plan",
     type: "diet",
-    title: "1500 Calorie Meal Plan — Balanced Meals for Steady Weight Loss",
+    title: "1500 Calorie Meal Plan",
     metaDescription:
       "Get a weekly 1500 calorie meal plan with balanced macros and satisfying recipes. A sustainable deficit that doesn't feel restrictive. Try it free.",
     h1: "A 1500 Calorie Meal Plan That Makes Weight Loss Sustainable",
@@ -207,7 +207,7 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "1800-calorie-meal-plan",
     type: "diet",
-    title: "1800 Calorie Meal Plan — Fuel Activity While Losing Weight Gradually",
+    title: "1800 Calorie Meal Plan",
     metaDescription:
       "Get a weekly 1800 calorie meal plan with enough fuel for active lifestyles. Gradual weight loss with satisfying meals planned automatically. Try free.",
     h1: "An 1800 Calorie Meal Plan for People Who Actually Move",
@@ -306,7 +306,7 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "2000-calorie-meal-plan",
     type: "diet",
-    title: "2000 Calorie Meal Plan — Balanced Nutrition for Everyday Health",
+    title: "2000 Calorie Meal Plan",
     metaDescription:
       "Get a weekly 2000 calorie meal plan with balanced, USDA-aligned nutrition. Three satisfying meals plus snacks, planned automatically. Try it free today.",
     h1: "A 2000 Calorie Meal Plan for Balanced, Everyday Eating",
@@ -405,7 +405,7 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "2500-calorie-meal-plan",
     type: "diet",
-    title: "2500 Calorie Meal Plan — Performance Fuel for Active Lifestyles",
+    title: "2500 Calorie Meal Plan",
     metaDescription:
       "Get a weekly 2500 calorie meal plan built for active men, athletes, and lean bulking. High protein, balanced macros, planned automatically. Try free.",
     h1: "A 2500 Calorie Meal Plan Built for Performance",
@@ -509,7 +509,7 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "3000-calorie-meal-plan",
     type: "diet",
-    title: "3000 Calorie Meal Plan — Clean Bulk & High-Activity Fuel",
+    title: "3000 Calorie Meal Plan",
     metaDescription:
       "Get a weekly 3000 calorie meal plan for muscle gain and high-activity lifestyles. Clean, whole-food meals planned automatically. Try it free today.",
     h1: "A 3000 Calorie Meal Plan That's All Fuel, No Junk",

@@ -3,11 +3,11 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "How to Meal Prep for the Week in Under 2 Hours",
+  title: "How to Meal Prep (2026 Guide)",
   description:
     "Learn a simple 2-hour Sunday meal prep routine that saves time, cuts grocery costs, and eliminates weeknight stress. Step-by-step guide with storage tips and a sample prep session.",
   openGraph: {
-    title: "How to Meal Prep for the Week in Under 2 Hours",
+    title: "How to Meal Prep (2026 Guide)",
     description:
       "Learn a simple 2-hour Sunday meal prep routine that saves time, cuts grocery costs, and eliminates weeknight stress. Step-by-step guide with storage tips.",
     siteName: "What's For Dinner",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "How to Meal Prep for the Week in Under 2 Hours",
+    title: "How to Meal Prep (2026 Guide)",
     description:
       "Learn a simple 2-hour Sunday meal prep routine that saves time, cuts grocery costs, and eliminates weeknight stress. Step-by-step guide with storage tips.",
   },
@@ -29,7 +29,7 @@ export default function HowToMealPrepArticle() {
   return (
     <>
       <ArticleJsonLd
-        title="How to Meal Prep for the Week in Under 2 Hours"
+        title="How to Meal Prep (2026 Guide)"
         description="Learn a simple 2-hour Sunday meal prep routine that saves time, cuts grocery costs, and eliminates weeknight stress. Step-by-step guide with storage tips and a sample prep session."
         url="https://whatsfordinner.fit/blog/how-to-meal-prep"
         datePublished="2026-03-07"
@@ -38,7 +38,7 @@ export default function HowToMealPrepArticle() {
         items={[
           { name: "Home", url: "https://whatsfordinner.fit" },
           { name: "Blog", url: "https://whatsfordinner.fit/blog" },
-          { name: "How to Meal Prep for the Week in Under 2 Hours", url: "https://whatsfordinner.fit/blog/how-to-meal-prep" },
+          { name: "How to Meal Prep (2026 Guide)", url: "https://whatsfordinner.fit/blog/how-to-meal-prep" },
         ]}
       />
       <article>

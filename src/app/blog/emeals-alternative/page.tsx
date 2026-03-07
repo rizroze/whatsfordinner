@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
   openGraph: {
     title:
-      "The Best eMeals Alternative in 2026 — AI Meal Plans That Actually Learn What You Like",
+      "Best eMeals Alternative (2026)",
     description:
       "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "The Best eMeals Alternative in 2026 — AI Meal Plans That Actually Learn What You Like",
+      "Best eMeals Alternative (2026)",
     description:
       "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo.",
   },

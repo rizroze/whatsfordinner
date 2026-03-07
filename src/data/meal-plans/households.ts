@@ -4,7 +4,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-one",
     type: "diet",
-    title: "Meal Plan for One Person — Weekly Solo Recipes & Grocery Lists",
+    title: "Meal Plan for One Person",
     metaDescription:
       "Get a personalized weekly meal plan sized for one. No food waste, perfect portions, and easy recipes for solo cooking. Try your free meal plan today.",
     h1: "Meal Plan for One Person That Eliminates Food Waste",
@@ -98,7 +98,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-two",
     type: "diet",
-    title: "Meal Plan for Two — Weekly Couples Recipes & Grocery Lists",
+    title: "Meal Plan for Two",
     metaDescription:
       "Get a weekly meal plan perfectly portioned for two people. Balanced recipes, shared grocery lists, and no leftovers piling up. Try it free today.",
     h1: "Meal Plan for Two That Makes Weeknight Cooking Easy",
@@ -192,7 +192,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-family-of-4",
     type: "diet",
-    title: "Meal Plan for a Family of 4 — Weekly Family Recipes & Grocery Lists",
+    title: "Meal Plan for a Family of 4",
     metaDescription:
       "Get a weekly family meal plan for 4 with kid-friendly recipes, balanced nutrition, and one grocery list. End the 'what's for dinner' stress. Try it free.",
     h1: "Meal Plan for a Family of 4 That Everyone Will Actually Eat",
@@ -291,7 +291,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-family-of-6",
     type: "diet",
-    title: "Meal Plan for a Family of 6 — Large Family Recipes & Grocery Lists",
+    title: "Meal Plan for a Family of 6",
     metaDescription:
       "Feed a family of 6 with a weekly meal plan. Large-batch recipes, budget-friendly groceries, and meals everyone enjoys. Try your free plan today.",
     h1: "Meal Plan for a Family of 6 That Keeps Everyone Fed and Happy",
@@ -385,7 +385,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-college-students",
     type: "diet",
-    title: "Meal Plan for College Students — Cheap, Easy Weekly Recipes",
+    title: "Meal Plan for College Students",
     metaDescription:
       "Get a weekly meal plan built for college life. Budget-friendly, dorm-friendly recipes with minimal equipment and short prep times. Try it free today.",
     h1: "Meal Plan for College Students on a Real Student Budget",
@@ -484,7 +484,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "quick-30-minute-meal-plan",
     type: "diet",
-    title: "Quick 30-Minute Meal Plan — Fast Weekly Recipes & Grocery Lists",
+    title: "Quick 30-Minute Meal Plan",
     metaDescription:
       "Get a weekly meal plan where every recipe takes 30 minutes or less. Fast, balanced dinners with grocery lists included. Try your free plan today.",
     h1: "Quick 30-Minute Meal Plan for Busy Weeknights",

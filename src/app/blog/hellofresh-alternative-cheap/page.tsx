@@ -3,11 +3,11 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "Cheap HelloFresh Alternative — Same Convenience, 90% Less Cost",
+  title: "Cheap HelloFresh Alternative (2026)",
   description:
     "Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup.",
   openGraph: {
-    title: "Cheap HelloFresh Alternative — Same Convenience, 90% Less Cost",
+    title: "Cheap HelloFresh Alternative (2026)",
     description:
       "Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup.",
     siteName: "What's For Dinner",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cheap HelloFresh Alternative — Same Convenience, 90% Less Cost",
+    title: "Cheap HelloFresh Alternative (2026)",
     description:
       "Looking for a HelloFresh alternative cheap enough for any budget? Personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup.",
   },

@@ -3,11 +3,11 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "10 Best Meal Planning Apps in 2026 (Compared)",
+  title: "Best Meal Planning Apps 2026",
   description:
     "We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers. See which ones are worth your money and which ones fell behind.",
   openGraph: {
-    title: "10 Best Meal Planning Apps in 2026 (Compared)",
+    title: "Best Meal Planning Apps 2026",
     description:
       "We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers. See which ones are worth your money and which ones fell behind.",
     siteName: "What's For Dinner",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-meal-planning-apps" },
   twitter: {
     card: "summary_large_image",
-    title: "10 Best Meal Planning Apps in 2026 (Compared)",
+    title: "Best Meal Planning Apps 2026",
     description:
       "We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers.",
   },
@@ -27,7 +27,7 @@ export default function BestMealPlanningAppsPage() {
   return (
     <>
       <ArticleJsonLd
-        title="10 Best Meal Planning Apps in 2026 (Compared)"
+        title="Best Meal Planning Apps 2026"
         description="We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers. See which ones are worth your money and which ones fell behind."
         url="https://whatsfordinner.fit/blog/best-meal-planning-apps"
         datePublished="2026-03-07"

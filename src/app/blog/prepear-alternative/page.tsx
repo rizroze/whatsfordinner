@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo with a free trial, no signup required.",
   openGraph: {
     title:
-      "Prepear Alternative 2026 — AI Meal Plans That Go Beyond Blogger Recipes",
+      "Best Prepear Alternative (2026)",
     description:
       "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo with a free trial, no signup required.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Prepear Alternative 2026 — AI Meal Plans That Go Beyond Blogger Recipes",
+      "Best Prepear Alternative (2026)",
     description:
       "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo.",
   },

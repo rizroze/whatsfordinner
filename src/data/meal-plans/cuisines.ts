@@ -4,7 +4,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "american",
     type: "cuisine",
-    title: "American Meal Plans — Weekly Recipes & Grocery Lists",
+    title: "Weekly American Meal Plans",
     metaDescription:
       "Get weekly American meal plans with classic comfort food recipes and organized grocery lists. Save time and eat well with dishes your whole family will love.",
     h1: "Classic American Meal Plans for Busy Families",
@@ -98,7 +98,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "italian",
     type: "cuisine",
-    title: "Italian Meal Plans — Weekly Pasta, Pizza & More",
+    title: "Weekly Italian Meal Plans",
     metaDescription:
       "Plan a week of authentic Italian meals with handpicked recipes and auto-generated grocery lists. From fresh pasta to risotto, dinner is handled every night.",
     h1: "Italian Meal Plans That Bring the Trattoria Home",
@@ -192,7 +192,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "mexican",
     type: "cuisine",
-    title: "Mexican Meal Plans — Weekly Recipes & Grocery Lists",
+    title: "Weekly Mexican Meal Plans",
     metaDescription:
       "Discover weekly Mexican meal plans with authentic recipes from tacos to tamales. Get organized grocery lists and bring bold, vibrant flavors to every meal.",
     h1: "Bold Mexican Meal Plans for Every Night of the Week",
@@ -286,7 +286,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "asian",
     type: "cuisine",
-    title: "Asian Meal Plans — Weekly Stir-Fry, Noodle & Rice Bowls",
+    title: "Weekly Asian Meal Plans",
     metaDescription:
       "Plan your week with flavorful Asian-inspired meals. Get stir-fries, noodle soups, and rice bowls with auto-generated grocery lists. Quick, healthy, and delicious.",
     h1: "Asian-Inspired Meal Plans Packed with Flavor",
@@ -380,7 +380,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "mediterranean",
     type: "cuisine",
-    title: "Mediterranean Meal Plans — Healthy Weekly Recipes",
+    title: "Weekly Mediterranean Meal Plans",
     metaDescription:
       "Eat the Mediterranean way with weekly meal plans full of fresh vegetables, olive oil, and lean proteins. Auto-generated grocery lists make healthy eating effortless.",
     h1: "Mediterranean Meal Plans for a Healthier Week",
@@ -476,7 +476,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "indian",
     type: "cuisine",
-    title: "Indian Meal Plans — Weekly Curry, Dal & Rice Recipes",
+    title: "Weekly Indian Meal Plans",
     metaDescription:
       "Plan a week of authentic Indian meals with rich curries, fragrant dals, and fluffy naan. Auto-generated grocery lists with every spice you need. Try it free.",
     h1: "Indian Meal Plans Bursting with Spice and Flavor",
@@ -570,7 +570,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "thai",
     type: "cuisine",
-    title: "Thai Meal Plans — Weekly Curry, Stir-Fry & Noodles",
+    title: "Weekly Thai Meal Plans",
     metaDescription:
       "Get weekly Thai meal plans with authentic curries, pad thai, and stir-fries. Organized grocery lists included. Bring Bangkok street food flavors to your kitchen.",
     h1: "Thai Meal Plans That Hit Every Flavor Note",
@@ -664,7 +664,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "japanese",
     type: "cuisine",
-    title: "Japanese Meal Plans — Weekly Ramen, Sushi & Bento Ideas",
+    title: "Weekly Japanese Meal Plans",
     metaDescription:
       "Plan a week of Japanese meals from ramen to teriyaki with auto-generated grocery lists. Simple, elegant recipes that bring Japanese home cooking to your table.",
     h1: "Japanese Meal Plans for Clean, Elegant Eating",
@@ -758,7 +758,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "french",
     type: "cuisine",
-    title: "French Meal Plans — Weekly Bistro-Style Recipes",
+    title: "Weekly French Meal Plans",
     metaDescription:
       "Bring French bistro cooking home with weekly meal plans. Classic techniques made approachable, from coq au vin to croque monsieur. Grocery lists included.",
     h1: "French Meal Plans for Everyday Bistro Cooking",
@@ -853,7 +853,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "middle-eastern",
     type: "cuisine",
-    title: "Middle Eastern Meal Plans — Weekly Recipes & Grocery Lists",
+    title: "Weekly Middle Eastern Meal Plans",
     metaDescription:
       "Plan a week of Middle Eastern meals with shawarma, falafel, and grain bowls. Auto-generated grocery lists make cooking with za'atar and sumac effortless.",
     h1: "Middle Eastern Meal Plans Full of Warmth and Spice",
@@ -948,7 +948,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "korean",
     type: "cuisine",
-    title: "Korean Meal Plans — Weekly Bibimbap, BBQ & More",
+    title: "Weekly Korean Meal Plans",
     metaDescription:
       "Plan a week of Korean meals with bibimbap, bulgogi, and kimchi jjigae. Auto-generated grocery lists make Korean home cooking approachable and delicious.",
     h1: "Korean Meal Plans for Bold, Craveable Home Cooking",
@@ -1042,7 +1042,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "southern",
     type: "cuisine",
-    title: "Southern Meal Plans — Weekly Comfort Food Recipes",
+    title: "Weekly Southern Meal Plans",
     metaDescription:
       "Get weekly Southern meal plans with fried chicken, biscuits, and classic comfort food. Organized grocery lists make home-cooked Southern dinners easy any night.",
     h1: "Southern Meal Plans for Real Home-Cooked Comfort",

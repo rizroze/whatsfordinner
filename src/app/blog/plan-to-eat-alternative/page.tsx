@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $4.99/mo.",
   openGraph: {
     title:
-      "Plan to Eat Alternative 2026 — AI Meal Plans Without the Recipe Hunting",
+      "Plan to Eat Alternative (2026)",
     description:
       "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $4.99/mo.",
     siteName: "What's For Dinner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Plan to Eat Alternative 2026 — AI Meal Plans Without the Recipe Hunting",
+      "Plan to Eat Alternative (2026)",
     description:
       "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing. $4.99/mo.",
   },
