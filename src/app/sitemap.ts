@@ -8,7 +8,28 @@ import { getSlugForLocale } from "@/data/meal-plans/translations";
 
 const BASE = "https://whatsfordinner.fit";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+// Next.js generates a sitemap index at /sitemap.xml pointing to /sitemap/0.xml, /sitemap/1.xml, etc.
+// 0 = static + blog, 1 = English meal plans, 2-11 = one per locale
+export async function generateSitemaps() {
+  return [
+    { id: 0 },  // static + blog
+    { id: 1 },  // English meal plans
+    ...NON_DEFAULT_LOCALES.map((_, i) => ({ id: i + 2 })),
+  ];
+}
+
+export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
+  if (id === 0) return staticAndBlogSitemap();
+  if (id === 1) return englishMealPlanSitemap();
+
+  const localeIndex = id - 2;
+  const locale = NON_DEFAULT_LOCALES[localeIndex];
+  if (locale) return localeMealPlanSitemap(locale);
+
+  return [];
+}
+
+function staticAndBlogSitemap(): MetadataRoute.Sitemap {
   const blogPosts = [
     { slug: "platejoy-alternative", date: "2026-02-15" },
     { slug: "yummly-alternative", date: "2026-02-15" },
@@ -29,57 +50,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: "how-to-meal-prep", date: "2026-03-07" },
     { slug: "save-money-groceries-meal-planning", date: "2026-03-07" },
   ];
-
-  const mealPlanPages = getAllMealPlanPages();
-
-  // Build hreflang alternates for each meal plan page
-  const mealPlanEntries: MetadataRoute.Sitemap = mealPlanPages.flatMap(
-    (page) => {
-      const languages: Record<string, string> = {
-        en: `${BASE}/meal-plans/${page.slug}`,
-        "x-default": `${BASE}/meal-plans/${page.slug}`,
-      };
-      for (const locale of NON_DEFAULT_LOCALES) {
-        const config = getLocaleConfig(locale);
-        const localizedSlug = getSlugForLocale(page.slug, locale);
-        languages[config.hreflang] =
-          `${BASE}/${locale}/meal-plans/${localizedSlug}`;
-      }
-
-      // English (canonical) entry
-      const englishEntry = {
-        url: `${BASE}/meal-plans/${page.slug}`,
-        lastModified: new Date(page.dateModified),
-        changeFrequency: "monthly" as const,
-        priority: page.type === "combo" ? 0.7 : 0.8,
-        alternates: { languages },
-      };
-
-      // Localized entries
-      const localizedEntries = NON_DEFAULT_LOCALES.map((locale) => {
-        const localizedSlug = getSlugForLocale(page.slug, locale);
-        return {
-          url: `${BASE}/${locale}/meal-plans/${localizedSlug}`,
-          lastModified: new Date(page.dateModified),
-          changeFrequency: "monthly" as const,
-          priority: page.type === "combo" ? 0.6 : 0.7,
-          alternates: { languages },
-        };
-      });
-
-      return [englishEntry, ...localizedEntries];
-    }
-  );
-
-  // Hub pages for each locale
-  const hubEntries: MetadataRoute.Sitemap = NON_DEFAULT_LOCALES.map(
-    (locale) => ({
-      url: `${BASE}/${locale}/meal-plans`,
-      lastModified: new Date("2026-03-08"),
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    })
-  );
 
   return [
     {
@@ -136,7 +106,54 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    ...hubEntries,
-    ...mealPlanEntries,
   ];
+}
+
+function buildHreflangMap(pageSlug: string): Record<string, string> {
+  const languages: Record<string, string> = {
+    en: `${BASE}/meal-plans/${pageSlug}`,
+    "x-default": `${BASE}/meal-plans/${pageSlug}`,
+  };
+  for (const locale of NON_DEFAULT_LOCALES) {
+    const config = getLocaleConfig(locale);
+    const localizedSlug = getSlugForLocale(pageSlug, locale);
+    languages[config.hreflang] = `${BASE}/${locale}/meal-plans/${localizedSlug}`;
+  }
+  return languages;
+}
+
+function englishMealPlanSitemap(): MetadataRoute.Sitemap {
+  const mealPlanPages = getAllMealPlanPages();
+
+  return mealPlanPages.map((page) => ({
+    url: `${BASE}/meal-plans/${page.slug}`,
+    lastModified: new Date(page.dateModified),
+    changeFrequency: "monthly" as const,
+    priority: page.type === "combo" ? 0.7 : 0.8,
+    alternates: { languages: buildHreflangMap(page.slug) },
+  }));
+}
+
+function localeMealPlanSitemap(locale: string): MetadataRoute.Sitemap {
+  const mealPlanPages = getAllMealPlanPages();
+
+  const hubEntry = {
+    url: `${BASE}/${locale}/meal-plans`,
+    lastModified: new Date("2026-03-08"),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  };
+
+  const pageEntries = mealPlanPages.map((page) => {
+    const localizedSlug = getSlugForLocale(page.slug, locale);
+    return {
+      url: `${BASE}/${locale}/meal-plans/${localizedSlug}`,
+      lastModified: new Date(page.dateModified),
+      changeFrequency: "monthly" as const,
+      priority: page.type === "combo" ? 0.6 : 0.7,
+      alternates: { languages: buildHreflangMap(page.slug) },
+    };
+  });
+
+  return [hubEntry, ...pageEntries];
 }
