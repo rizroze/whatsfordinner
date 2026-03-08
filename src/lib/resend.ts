@@ -144,6 +144,13 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
             ${hero.savedLine}
           </p>
           ${statsPills}
+
+          <!-- CTA — above meals so it's never clipped -->
+          <div style="margin-top:20px;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+              <td style="padding-right:6px;"><a href="${appUrl}/plan/${weekOf}" style="display:block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 0;border-radius:9999px;font-weight:700;font-size:14px;text-align:center;">View Recipes & Grocery List</a></td>
+            </tr></table>
+          </div>
         </div>
 
         <!-- Meals intro -->
@@ -154,23 +161,6 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
         <!-- Meals -->
         <div style="background:#FFFFFF;border-radius:16px;padding:20px;border:1px solid #E7E5E4;">
           ${daysSummary}
-        </div>
-
-        <!-- Grocery summary -->
-        <div style="margin-top:20px;background:#FFF7ED;border-radius:12px;padding:16px;text-align:center;">
-          <p style="margin:0 0 2px;font-size:15px;font-weight:700;color:#1C1917;">Grocery List</p>
-          <p style="margin:0 0 12px;font-size:13px;color:#57534E;">${groceryCount} items &middot; Est. ${plan.estimatedWeeklyCost}</p>
-          <a href="${appUrl}/plan/${weekOf}" style="display:inline-block;background:#1C1917;color:#FFFFFF;text-decoration:none;padding:8px 24px;border-radius:9999px;font-weight:600;font-size:13px;">
-            View & Print List
-          </a>
-        </div>
-
-        <!-- CTA -->
-        <div style="text-align:center;margin-top:28px;">
-          <a href="${appUrl}/plan/${weekOf}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:14px 36px;border-radius:9999px;font-weight:700;font-size:16px;">
-            View Full Plan & Recipes
-          </a>
-          <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;">Includes step-by-step recipes & printable grocery list</p>
         </div>
 
         <!-- Footer -->
