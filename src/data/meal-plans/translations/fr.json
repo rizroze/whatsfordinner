@@ -5035,79 +5035,79 @@
     "title": "Plan Repas 1800 Calories",
     "metaDescription": "Plan repas a 1800 calories pour les personnes actives. Assez d'energie pour bouger et maigrir progressivement. Essai gratuit.",
     "h1": "Plan Repas 1800 Calories Pour Ceux Qui Bougent",
-    "intro": "If you're active and trying to lose weight, extreme calorie cuts backfire. An 1,800-calorie plan gives you enough fuel to power through workouts, stay sharp at work, and still create a moderate deficit that chips away at fat over time. These are real-sized meals with enough carbs for energy, enough protein for recovery, and enough flavor that you forget you're on a plan.",
+    "intro": "Si vous bougez au quotidien et cherchez a perdre du poids, les restrictions caloriques extremes sont contre-productives. Un menu a 1 800 calories vous donne assez d'energie pour tenir vos seances de sport, rester concentre au travail, et maintenir un deficit modere qui grignote la masse grasse semaine apres semaine. Ce sont de vrais repas, avec suffisamment de glucides pour l'energie, de proteines pour la recuperation, et de saveur pour oublier que vous suivez un programme.",
     "valueProps": [
       {
-        "heading": "Enough fuel for your life",
-        "description": "1,800 calories supports active women, moderately active men, and anyone who refuses to feel sluggish. You get proper pre- and post-workout nutrition without sacrificing your deficit."
+        "heading": "Assez de carburant pour votre quotidien",
+        "description": "1 800 calories conviennent aux femmes actives, aux hommes moderement actifs, et a toute personne qui refuse de se sentir a plat. Vous beneficiez d'une nutrition pre- et post-entrainement adequate sans sacrifier votre deficit."
       },
       {
-        "heading": "Gradual, lasting results",
-        "description": "A moderate 300-500 calorie deficit means you lose fat steadily without tanking your metabolism, losing muscle, or dealing with the brain fog that comes with aggressive dieting."
+        "heading": "Des resultats progressifs et durables",
+        "description": "Un deficit modere de 300 a 500 calories vous fait perdre de la graisse regulierement sans plomber votre metabolisme, perdre du muscle ou subir le brouillard mental des regimes trop agressifs."
       },
       {
-        "heading": "Meals that look like meals",
-        "description": "Full plates with generous portions of grains, proteins, vegetables, and healthy fats. No tiny sad salads — these are dinners you'd actually serve to company."
+        "heading": "Des repas qui ressemblent a de vrais repas",
+        "description": "Des assiettes genereuses avec des cereales, des proteines, des legumes et des bonnes graisses. Pas de petites salades tristes — ce sont des diners que vous serviriez sans hesiter a des invites."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Avocado Toast with Poached Eggs",
-        "description": "Sourdough toast topped with smashed avocado, two poached eggs, everything seasoning, and a side of mixed fruit. 420 calories with 20g protein.",
+        "name": "Tartine a l'avocat et oeufs poches",
+        "description": "Pain au levain garni d'avocat ecrase, de deux oeufs poches, d'un melange d'epices et d'une salade de fruits frais. 420 calories et 20 g de proteines.",
         "tags": [
-          "high-protein",
-          "quick"
+          "riche-en-proteines",
+          "rapide"
         ]
       },
       {
-        "name": "Chicken Shawarma Bowl",
-        "description": "Spiced chicken thigh over basmati rice with hummus, pickled turnips, cucumber-tomato salad, and a drizzle of tahini sauce.",
+        "name": "Bol shawarma au poulet",
+        "description": "Cuisse de poulet epicee sur riz basmati, accompagnee de houmous, de navets marines, d'une salade concombre-tomate et d'un filet de sauce tahini.",
         "tags": [
-          "high-protein",
-          "meal-prep"
+          "riche-en-proteines",
+          "a-preparer"
         ]
       },
       {
-        "name": "Pesto Pasta with Sausage & Broccolini",
-        "description": "Whole wheat penne tossed with basil pesto, sliced chicken sausage, roasted broccolini, and a squeeze of lemon. Hearty but balanced.",
+        "name": "Pates au pesto, saucisse et brocolis",
+        "description": "Penne completes melangees au pesto de basilic, rondelles de saucisse de volaille, brocolis rotis et un filet de citron. Copieux mais equilibre.",
         "tags": [
-          "quick",
-          "high-protein"
+          "rapide",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Beef & Vegetable Stew",
-        "description": "Tender beef chuck simmered with potatoes, carrots, celery, and thyme in a rich broth. Served with a slice of crusty bread.",
+        "name": "Ragout de boeuf aux legumes",
+        "description": "Morceaux de boeuf tendres mijotes avec pommes de terre, carottes, celeri et thym dans un bouillon savoureux. Servi avec une tranche de pain croustillant.",
         "tags": [
-          "high-protein",
-          "comfort-food"
+          "riche-en-proteines",
+          "cuisine-reconfortante"
         ]
       },
       {
-        "name": "Trail Mix & String Cheese",
-        "description": "A quarter cup of homemade trail mix (almonds, cashews, dark chocolate chips, dried cranberries) with a stick of part-skim mozzarella. 250 calories.",
+        "name": "Melange de fruits secs et fromage en batonnets",
+        "description": "Un quart de tasse de melange maison (amandes, noix de cajou, pepites de chocolat noir, canneberges sechees) avec un battonnet de mozzarella allegee. 250 calories.",
         "tags": [
-          "no-cook",
-          "portable"
+          "sans-cuisson",
+          "nomade"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Will I lose weight on 1800 calories a day?",
-        "answer": "It depends on your total daily energy expenditure (TDEE). For most active women (burning 2,100-2,400 calories/day) and moderately active men (burning 2,300-2,600), 1,800 calories creates a meaningful deficit that leads to 0.5-1 pound of fat loss per week. It's slower than aggressive cuts, but you keep more muscle, maintain energy, and are far more likely to stick with it."
+        "question": "Vais-je perdre du poids avec 1 800 calories par jour ?",
+        "answer": "Cela depend de votre depense energetique totale quotidienne (DETQ). Pour la plupart des femmes actives (brulant 2 100 a 2 400 calories par jour) et des hommes moderement actifs (2 300 a 2 600), 1 800 calories creent un deficit significatif qui permet de perdre 0,25 a 0,5 kg de graisse par semaine. C'est plus lent que les restrictions agressives, mais vous conservez plus de muscle, gardez votre energie et avez bien plus de chances de tenir sur la duree."
       },
       {
-        "question": "Is 1800 calories enough for someone who works out daily?",
-        "answer": "For moderate workouts (45-60 minutes of strength training or cardio), 1,800 calories is typically sufficient. If you're doing intense two-a-day sessions or training for endurance events, you may need 2,000-2,500 calories. Pay attention to performance — if your lifts are dropping or runs feel significantly harder, it's a signal to eat more."
+        "question": "Est-ce que 1 800 calories suffisent quand on fait du sport tous les jours ?",
+        "answer": "Pour des entrainements moderes (45 a 60 minutes de musculation ou de cardio), 1 800 calories suffisent generalement. Si vous faites des seances intenses biquotidiennes ou si vous preparez une epreuve d'endurance, il vous faudra peut-etre 2 000 a 2 500 calories. Soyez attentif a vos performances — si vos charges baissent ou vos courses deviennent nettement plus difficiles, c'est le signe qu'il faut manger davantage."
       },
       {
-        "question": "What's the difference between 1500 and 1800 calorie plans?",
-        "answer": "About one extra snack and slightly larger portions at meals. The 1,800-calorie plan includes more complex carbohydrates (rice, pasta, bread) and allows for larger protein portions. It's better for active people because the extra 300 calories of carbs and protein directly support workout performance and recovery."
+        "question": "Quelle est la difference entre un menu a 1 500 et a 1 800 calories ?",
+        "answer": "Environ une collation supplementaire et des portions legerement plus genereuses aux repas. Le menu a 1 800 calories inclut davantage de glucides complexes (riz, pates, pain) et permet des portions de proteines plus copieuses. C'est mieux adapte aux personnes actives, car les 300 calories supplementaires en glucides et proteines soutiennent directement la performance et la recuperation sportive."
       },
       {
-        "question": "Can I build muscle on 1800 calories?",
-        "answer": "If you're new to strength training (first 6-12 months), you can build muscle and lose fat simultaneously at 1,800 calories as long as protein is high enough (130-150g/day). Experienced lifters typically need a calorie surplus to add muscle. Our plans can be adjusted to prioritize protein if muscle preservation is your main concern."
+        "question": "Peut-on prendre du muscle avec 1 800 calories ?",
+        "answer": "Si vous debutez en musculation (6 a 12 premiers mois), vous pouvez construire du muscle et perdre de la graisse simultanement a 1 800 calories, a condition que votre apport en proteines soit suffisant (130 a 150 g par jour). Les pratiquants experimentes ont generalement besoin d'un surplus calorique pour gagner du muscle. Nos menus peuvent etre ajustes pour privilegier les proteines si la preservation musculaire est votre priorite."
       }
     ]
   },
@@ -5115,79 +5115,79 @@
     "title": "Plan Repas 2000 Calories",
     "metaDescription": "Plan repas a 2000 calories pour maintenir votre poids. Repas complets et equilibres chaque jour. Essai gratuit.",
     "h1": "Plan Repas 2000 Calories Pour un Maintien Sain",
-    "intro": "2,000 calories is the standard benchmark for a reason — it works for a huge range of adults looking to maintain their weight and eat well. Whether you're done dieting and want to hold your results, or you just want a structured plan that keeps nutrition on track without overthinking it, this is your baseline. Balanced macros, diverse ingredients, and meals that feel completely normal.",
+    "intro": "2 000 calories, c'est la reference pour une bonne raison — ca fonctionne pour une grande majorite d'adultes qui veulent maintenir leur poids et bien manger. Que vous ayez fini un regime et souhaitiez stabiliser vos resultats, ou que vous vouliez simplement un cadre structure sans prise de tete, c'est votre base. Des macros equilibrees, des ingredients varies et des repas parfaitement normaux.",
     "valueProps": [
       {
-        "heading": "The gold standard baseline",
-        "description": "Aligned with USDA dietary guidelines, a 2,000-calorie plan covers most adults' nutritional needs. It's the foundation that food labels are based on — and the easiest target to plan around."
+        "heading": "La reference par excellence",
+        "description": "Conforme aux recommandations nutritionnelles officielles, un menu a 2 000 calories couvre les besoins de la plupart des adultes. C'est la base utilisee sur les etiquettes alimentaires — et la cible la plus simple a planifier."
       },
       {
-        "heading": "Maintenance made simple",
-        "description": "Already at your goal weight? A 2,000-calorie plan keeps you there without the mental overhead of constant tracking. We handle the math so you can just cook and eat."
+        "heading": "Le maintien en toute simplicite",
+        "description": "Deja a votre poids ideal ? Un menu a 2 000 calories vous y maintient sans la charge mentale d'un comptage permanent. On gere les calculs pour que vous n'ayez qu'a cuisiner et savourer."
       },
       {
-        "heading": "Genuinely balanced meals",
-        "description": "No macronutrient is demonized. You get whole grains, lean and fatty proteins, plenty of produce, dairy if you want it, and enough flexibility for a dessert or glass of wine without guilt."
+        "heading": "Des repas veritablement equilibres",
+        "description": "Aucun macronutriment n'est diabolise. Vous avez des cereales completes, des proteines maigres et grasses, beaucoup de fruits et legumes, des produits laitiers si vous le souhaitez, et assez de marge pour un dessert ou un verre de vin sans culpabilite."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Spinach & Feta Scramble with Toast",
-        "description": "Three scrambled eggs with fresh spinach and crumbled feta cheese, served alongside whole grain toast with butter and a small orange. 480 calories.",
+        "name": "Oeufs brouilles aux epinards et feta sur toast",
+        "description": "Trois oeufs brouilles avec epinards frais et feta emiettee, servis avec du pain complet grille beurre et une petite orange. 480 calories.",
         "tags": [
-          "high-protein",
-          "quick"
+          "riche-en-proteines",
+          "rapide"
         ]
       },
       {
-        "name": "Chicken Caesar Wrap",
-        "description": "Grilled chicken breast, romaine, shaved parmesan, and light Caesar dressing wrapped in a whole wheat tortilla with a side of grapes.",
+        "name": "Wrap cesar au poulet",
+        "description": "Blanc de poulet grille, romaine, copeaux de parmesan et sauce cesar legere roules dans une tortilla de ble complet, avec du raisin en accompagnement.",
         "tags": [
-          "high-protein",
-          "portable"
+          "riche-en-proteines",
+          "nomade"
         ]
       },
       {
-        "name": "Salmon Teriyaki with Jasmine Rice & Bok Choy",
-        "description": "Glazed salmon fillet over jasmine rice with sauteed bok choy and toasted sesame seeds. A restaurant-quality dinner at home.",
+        "name": "Saumon teriyaki, riz jasmin et pak choi",
+        "description": "Pave de saumon glace servi sur riz jasmin avec pak choi saute et graines de sesame torrefie. Un diner digne d'un restaurant, chez vous.",
         "tags": [
-          "high-protein",
+          "riche-en-proteines",
           "omega-3"
         ]
       },
       {
-        "name": "Turkey Bolognese with Spaghetti",
-        "description": "Lean ground turkey simmered in a rich tomato sauce with garlic, basil, and a touch of red wine, served over whole wheat spaghetti with grated parmesan.",
+        "name": "Bolognaise de dinde aux spaghettis",
+        "description": "Dinde hachee maigre mijotee dans une sauce tomate riche a l'ail, au basilic et au vin rouge, servie sur des spaghettis complets avec du parmesan rape.",
         "tags": [
-          "high-protein",
-          "comfort-food"
+          "riche-en-proteines",
+          "cuisine-reconfortante"
         ]
       },
       {
-        "name": "Hummus & Veggie Plate",
-        "description": "A generous scoop of hummus with carrot sticks, cucumber rounds, bell pepper strips, and a handful of whole grain crackers. 240 calories.",
+        "name": "Assiette de houmous et crudites",
+        "description": "Une genereuse portion de houmous accompagnee de batonnets de carottes, rondelles de concombre, lamelles de poivron et crackers aux cereales completes. 240 calories.",
         "tags": [
-          "vegetarian",
-          "no-cook"
+          "vegetarien",
+          "sans-cuisson"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is 2000 calories right for me?",
-        "answer": "2,000 calories is a good maintenance target for most moderately active adult women and sedentary to lightly active men. Your exact needs depend on age, height, weight, and activity level. If you're maintaining your weight without trying at 2,000 calories, it's the right number. If you're slowly gaining, you may need to drop to 1,800. Our plans adapt to your preferences and goals."
+        "question": "Est-ce que 2 000 calories me conviennent ?",
+        "answer": "2 000 calories constituent un bon objectif de maintien pour la plupart des femmes adultes moderement actives et des hommes sedentaires a legerement actifs. Vos besoins exacts dependent de votre age, taille, poids et niveau d'activite. Si vous maintenez votre poids sans effort a 2 000 calories, c'est le bon chiffre. Si vous prenez lentement du poids, il faudra peut-etre descendre a 1 800. Nos menus s'adaptent a vos preferences et objectifs."
       },
       {
-        "question": "Can I lose weight on 2000 calories?",
-        "answer": "Yes — if your TDEE is above 2,000. Active men burning 2,500+ calories daily will lose about a pound a week at 2,000 calories. Taller, more active women may also see weight loss. For most average-height, moderately active women, 2,000 calories is closer to maintenance. It depends entirely on your individual energy expenditure."
+        "question": "Peut-on perdre du poids avec 2 000 calories ?",
+        "answer": "Oui — si votre DETQ depasse 2 000. Les hommes actifs brulant plus de 2 500 calories par jour perdront environ 500 g par semaine a 2 000 calories. Les femmes grandes et tres actives peuvent aussi observer une perte de poids. Pour la plupart des femmes de taille moyenne et moderement actives, 2 000 calories correspondent plutot au maintien. Tout depend de votre depense energetique individuelle."
       },
       {
-        "question": "How are the 2000 calories distributed across meals?",
-        "answer": "Our standard split is roughly 450-500 calories for breakfast, 500-550 for lunch, 600-650 for dinner, and 300-400 across 1-2 snacks. This keeps energy steady throughout the day. You can adjust this distribution in your profile — some people prefer a lighter breakfast and larger dinner, and we'll accommodate that."
+        "question": "Comment les 2 000 calories sont-elles reparties entre les repas ?",
+        "answer": "Notre repartition standard est d'environ 450 a 500 calories au petit-dejeuner, 500 a 550 au dejeuner, 600 a 650 au diner, et 300 a 400 reparties sur 1 a 2 collations. Cela maintient une energie stable toute la journee. Vous pouvez ajuster cette repartition dans votre profil — certains preferent un petit-dejeuner leger et un diner plus copieux, et nous nous y adaptons."
       },
       {
-        "question": "What macros should I aim for at 2000 calories?",
-        "answer": "A solid general target is 50% carbohydrates (250g), 25% protein (125g), and 25% fat (56g). Our plans hit close to these ratios while prioritizing whole food sources. If you have specific goals like higher protein for muscle maintenance, you can set that in your preferences and we'll adjust the recipes accordingly."
+        "question": "Quels macros viser a 2 000 calories ?",
+        "answer": "Un bon objectif general est 50 % de glucides (250 g), 25 % de proteines (125 g) et 25 % de lipides (56 g). Nos menus s'approchent de ces ratios en privilegiant les sources alimentaires completes. Si vous avez des objectifs specifiques comme davantage de proteines pour le maintien musculaire, vous pouvez le preciser dans vos preferences et nous ajusterons les recettes en consequence."
       }
     ]
   },
@@ -5195,83 +5195,83 @@
     "title": "Plan Repas 2500 Calories",
     "metaDescription": "Plan repas a 2500 calories pour la prise de masse ou les personnes tres actives. Repas copieux et nutritifs. Essai gratuit.",
     "h1": "Plan Repas 2500 Calories Pour Prendre de la Masse",
-    "intro": "If you're training hard, building muscle, or just have an active job that burns through fuel, 2,000 calories isn't going to cut it. A 2,500-calorie plan gives you the energy to perform, the protein to recover, and the carbs to keep glycogen topped off — all from real food, not shakes and bars. We plan your week with hearty meals that support your goals without resorting to junk.",
+    "intro": "Si vous vous entrainez intensement, construisez du muscle ou avez un travail physique qui brule beaucoup d'energie, 2 000 calories ne suffiront pas. Un menu a 2 500 calories vous donne l'energie pour performer, les proteines pour recuperer et les glucides pour garder vos reserves de glycogene au maximum — le tout a base de vrais aliments, pas de shakers et de barres. On planifie votre semaine avec des repas copieux et nutritifs qui soutiennent vos objectifs sans recourir a la malbouffe.",
     "valueProps": [
       {
-        "heading": "Protein for progress",
-        "description": "Every day includes 150-180g of protein spread across meals to support muscle protein synthesis. We use a mix of animal and plant sources so you're never choking down another dry chicken breast."
+        "heading": "Des proteines pour progresser",
+        "description": "Chaque journee comprend 150 a 180 g de proteines reparties sur tous les repas pour soutenir la synthese proteique musculaire. On utilise un mix de sources animales et vegetales pour que vous ne soyez jamais condamne a un enieme blanc de poulet sec."
       },
       {
-        "heading": "Carbs for energy, not filler",
-        "description": "Complex carbs from oats, rice, sweet potatoes, and whole grains fuel your workouts and recovery. We time higher-carb meals around your activity windows for maximum benefit."
+        "heading": "Des glucides pour l'energie, pas du remplissage",
+        "description": "Des glucides complexes issus de flocons d'avoine, riz, patates douces et cereales completes alimentent vos entrainements et votre recuperation. On cale les repas plus riches en glucides autour de vos creneaux d'activite pour un benefice maximal."
       },
       {
-        "heading": "Clean calories, not empty ones",
-        "description": "It's easy to hit 2,500 calories with fast food. The hard part is doing it with whole, nutrient-dense ingredients. Our plans make it easy with big, satisfying meals that are still built on real food."
+        "heading": "Des calories saines, pas vides",
+        "description": "Atteindre 2 500 calories avec du fast-food, c'est facile. Le vrai defi, c'est d'y arriver avec des ingredients complets et riches en nutriments. Nos menus rendent la chose simple grace a des repas genereux et satisfaisants, toujours bases sur de vrais aliments."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Loaded Breakfast Burrito",
-        "description": "Scrambled eggs with turkey sausage, black beans, cheddar, avocado, and salsa in a large flour tortilla. 580 calories with 35g protein.",
+        "name": "Burrito petit-dejeuner garni",
+        "description": "Oeufs brouilles avec saucisse de dinde, haricots noirs, cheddar, avocat et salsa dans une grande tortilla de ble. 580 calories et 35 g de proteines.",
         "tags": [
-          "high-protein",
-          "portable"
+          "riche-en-proteines",
+          "nomade"
         ]
       },
       {
-        "name": "Grilled Chicken & Quinoa Power Bowl",
-        "description": "Grilled chicken breast over quinoa with roasted sweet potato, black beans, corn, avocado, and chipotle lime dressing.",
+        "name": "Bol energie poulet grille et quinoa",
+        "description": "Blanc de poulet grille sur quinoa avec patate douce rotie, haricots noirs, mais, avocat et vinaigrette chipotle-citron vert.",
         "tags": [
-          "high-protein",
-          "meal-prep"
+          "riche-en-proteines",
+          "a-preparer"
         ]
       },
       {
-        "name": "Steak Fajitas with Rice & Beans",
-        "description": "Seared flank steak with charred peppers and onions, served with Spanish rice, refried beans, warm tortillas, and fresh pico de gallo.",
+        "name": "Fajitas au boeuf avec riz et haricots",
+        "description": "Bavette de boeuf saisie avec poivrons et oignons grilles, servie avec du riz a l'espagnole, des haricots frits, des tortillas chaudes et du pico de gallo frais.",
         "tags": [
-          "high-protein",
-          "high-calorie"
+          "riche-en-proteines",
+          "calorique"
         ]
       },
       {
-        "name": "Baked Chicken Parmesan with Pasta",
-        "description": "Breaded and baked chicken breast topped with marinara and melted mozzarella, served over a generous portion of spaghetti with a side salad.",
+        "name": "Poulet parmigiana au four avec pates",
+        "description": "Blanc de poulet pane et cuit au four, nappe de sauce marinara et de mozzarella fondue, servi sur une genereuse portion de spaghettis avec une salade verte.",
         "tags": [
-          "high-protein",
-          "comfort-food"
+          "riche-en-proteines",
+          "cuisine-reconfortante"
         ]
       },
       {
-        "name": "Protein Smoothie with Oats",
-        "description": "Banana, peanut butter, protein powder, rolled oats, and whole milk blended thick. 420 calories with 30g protein — the easiest clean calories you'll find.",
+        "name": "Smoothie proteine aux flocons d'avoine",
+        "description": "Banane, beurre de cacahuete, proteines en poudre, flocons d'avoine et lait entier mixes bien epais. 420 calories et 30 g de proteines — les calories saines les plus faciles a avaler.",
         "tags": [
-          "high-protein",
-          "quick"
+          "riche-en-proteines",
+          "rapide"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Who needs a 2500 calorie meal plan?",
-        "answer": "Active men (exercising 4-6 times per week), male athletes in training, tall or large-framed individuals maintaining their weight, and anyone in a lean bulk phase looking to add muscle. Some very active women — endurance athletes, manual laborers — also need this level of intake. If you're consistently hungry on 2,000 calories and not gaining weight, 2,500 is likely closer to your needs."
+        "question": "Qui a besoin d'un menu a 2 500 calories ?",
+        "answer": "Les hommes actifs (sport 4 a 6 fois par semaine), les athletes masculins a l'entrainement, les personnes de grande taille ou de forte corpulence en phase de maintien, et toute personne en prise de masse seche. Certaines femmes tres actives — athletes d'endurance, travailleuses manuelles — ont aussi besoin de ce niveau d'apport. Si vous avez constamment faim a 2 000 calories sans prendre de poids, 2 500 est probablement plus proche de vos besoins reels."
       },
       {
-        "question": "How much protein should I eat at 2500 calories?",
-        "answer": "For muscle building and athletic performance, aim for 150-200g of protein per day, which represents about 25-30% of your total intake. Our plans typically deliver 160-180g spread across all meals and snacks. This level supports muscle protein synthesis, recovery from training, and helps keep you lean even at a higher calorie intake."
+        "question": "Combien de proteines faut-il a 2 500 calories ?",
+        "answer": "Pour la construction musculaire et la performance sportive, visez 150 a 200 g de proteines par jour, soit environ 25 a 30 % de votre apport total. Nos menus fournissent generalement 160 a 180 g repartis sur l'ensemble des repas et collations. Ce niveau soutient la synthese proteique musculaire, la recuperation et aide a rester sec meme avec un apport calorique eleve."
       },
       {
-        "question": "Will I gain fat on 2500 calories?",
-        "answer": "Only if 2,500 exceeds your TDEE. If you're burning 2,500 calories daily, this is maintenance. If you're burning 2,800+, you'll actually lose weight. For a lean bulk (gaining muscle with minimal fat), you want a modest 200-300 calorie surplus. Track your weight weekly — if you're gaining more than 0.5 lbs/week, you're likely in too large a surplus."
+        "question": "Vais-je prendre du gras avec 2 500 calories ?",
+        "answer": "Uniquement si 2 500 depasse votre DETQ. Si vous brulez 2 500 calories par jour, c'est du maintien. Si vous en brulez 2 800 ou plus, vous perdrez meme du poids. Pour une prise de masse seche (gagner du muscle avec un minimum de gras), visez un surplus modere de 200 a 300 calories. Pesez-vous chaque semaine — si vous prenez plus de 250 g par semaine, votre surplus est probablement trop important."
       },
       {
-        "question": "Can I hit 2500 calories without eating junk food?",
-        "answer": "Absolutely, and that's the whole point of our plans. Calorie-dense whole foods like nuts, avocados, olive oil, oats, dried fruit, whole eggs, and fatty fish make it easy to reach 2,500 without touching processed food. A tablespoon of olive oil adds 120 calories. A handful of almonds adds 170. Our plans strategically include these to hit your target from clean sources."
+        "question": "Peut-on atteindre 2 500 calories sans malbouffe ?",
+        "answer": "Absolument, et c'est tout l'interet de nos menus. Des aliments complets a haute densite calorique comme les fruits a coque, l'avocat, l'huile d'olive, les flocons d'avoine, les fruits secs, les oeufs entiers et les poissons gras permettent d'atteindre 2 500 calories sans toucher aux produits transformes. Une cuillere a soupe d'huile d'olive ajoute 120 calories. Une poignee d'amandes en ajoute 170. Nos menus integrent ces ingredients de maniere strategique pour atteindre votre objectif a partir de sources saines."
       },
       {
-        "question": "How do I split 2500 calories across the day?",
-        "answer": "Our standard split is roughly 550-600 calories for breakfast, 600-650 for lunch, 700-750 for dinner, and 400-500 across snacks. If you train in the morning, we can front-load more carbs at breakfast. If you train in the evening, we shift the larger meal to post-workout dinner. You can set your training schedule in your profile."
+        "question": "Comment repartir 2 500 calories sur la journee ?",
+        "answer": "Notre repartition standard est d'environ 550 a 600 calories au petit-dejeuner, 600 a 650 au dejeuner, 700 a 750 au diner, et 400 a 500 en collations. Si vous vous entrainez le matin, on peut concentrer davantage de glucides au petit-dejeuner. Si vous vous entrainez le soir, on decale le repas le plus copieux au diner post-entrainement. Vous pouvez definir votre planning d'entrainement dans votre profil."
       }
     ]
   },
@@ -5279,83 +5279,83 @@
     "title": "Plan Repas 3000 Calories",
     "metaDescription": "Plan repas a 3000 calories pour les athletes et la prise de masse intensive. Repas denses et riches en nutriments. Essai gratuit.",
     "h1": "Plan Repas 3000 Calories Pour les Athletes et la Croissance",
-    "intro": "Eating 3,000 clean calories a day is harder than it sounds. Anyone can demolish a pizza and call it bulking — the challenge is getting there with meals that actually build muscle, support recovery, and keep your energy stable. We plan your week with big, nutrient-dense meals spread across the day so you never have to force-feed yourself in one sitting or rely on mass gainer shakes.",
+    "intro": "Manger 3 000 calories propres par jour est plus difficile qu'on ne le croit. N'importe qui peut engloutir une pizza et appeler ca une prise de masse — le vrai defi, c'est d'y arriver avec des repas qui construisent reellement du muscle, soutiennent la recuperation et stabilisent l'energie. On planifie votre semaine avec de grands repas riches en nutriments, repartis sur la journee, pour que vous n'ayez jamais a vous gaver en une seule fois ni a dependre de gainers en poudre.",
     "valueProps": [
       {
-        "heading": "Mass without the mess",
-        "description": "Our plans prove you don't need dirty bulking to hit high calories. Every meal is built on whole foods — lean meats, complex carbs, healthy fats, and produce — so the weight you gain is the kind you want."
+        "heading": "De la masse sans les degats",
+        "description": "Nos menus prouvent qu'on n'a pas besoin de prise de masse sale pour atteindre des calories elevees. Chaque repas est construit a base d'aliments complets — viandes maigres, glucides complexes, bonnes graisses et legumes — pour que le poids que vous prenez soit celui que vous voulez."
       },
       {
-        "heading": "Spread across the day",
-        "description": "Three large meals plus two substantial snacks make 3,000 calories feel manageable rather than overwhelming. No single meal exceeds 850 calories, so you're never uncomfortably stuffed."
+        "heading": "Reparti sur toute la journee",
+        "description": "Trois grands repas et deux collations consistantes rendent 3 000 calories gerable plutot qu'ecrasant. Aucun repas ne depasse 850 calories, donc vous n'etes jamais inconfortablement plein."
       },
       {
-        "heading": "Recovery-optimized nutrition",
-        "description": "High protein (180-200g/day), adequate carbs for glycogen replenishment, and anti-inflammatory foods like fatty fish, berries, and turmeric to help your body bounce back from hard training."
+        "heading": "Une nutrition optimisee pour la recuperation",
+        "description": "Proteines elevees (180 a 200 g par jour), glucides adequats pour reconstituer le glycogene, et aliments anti-inflammatoires comme le poisson gras, les baies et le curcuma pour aider votre corps a rebondir apres des entrainements intenses."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Banana Pancakes with Eggs & Turkey Bacon",
-        "description": "A stack of fluffy banana protein pancakes with maple syrup, two scrambled eggs, and three strips of turkey bacon. 650 calories with 40g protein.",
+        "name": "Pancakes a la banane avec oeufs et bacon de dinde",
+        "description": "Une pile de pancakes proteines moelleux a la banane avec du sirop d'erable, deux oeufs brouilles et trois tranches de bacon de dinde. 650 calories et 40 g de proteines.",
         "tags": [
-          "high-protein",
-          "high-calorie"
+          "riche-en-proteines",
+          "calorique"
         ]
       },
       {
-        "name": "Double Chicken Burrito Bowl",
-        "description": "Double portion of grilled chicken over cilantro-lime rice with black beans, corn salsa, guacamole, sour cream, and shredded cheese.",
+        "name": "Bol burrito double poulet",
+        "description": "Double portion de poulet grille sur riz a la coriandre et au citron vert, avec haricots noirs, salsa de mais, guacamole, creme fraiche et fromage rape.",
         "tags": [
-          "high-protein",
-          "high-calorie"
+          "riche-en-proteines",
+          "calorique"
         ]
       },
       {
-        "name": "Garlic Butter Ribeye with Mashed Potatoes",
-        "description": "Pan-seared ribeye basted with garlic herb butter, served with creamy mashed potatoes and roasted broccoli with parmesan.",
+        "name": "Entrecote au beurre d'ail avec puree de pommes de terre",
+        "description": "Entrecote poelee et arrosee de beurre aux herbes et a l'ail, servie avec une puree de pommes de terre cremeuse et des brocolis rotis au parmesan.",
         "tags": [
-          "high-protein",
-          "high-calorie"
+          "riche-en-proteines",
+          "calorique"
         ]
       },
       {
-        "name": "Teriyaki Salmon Rice Bowl",
-        "description": "Generous teriyaki-glazed salmon fillet over a large bed of sticky rice with edamame, pickled ginger, avocado, and sriracha mayo.",
+        "name": "Bol de saumon teriyaki sur riz",
+        "description": "Genereux pave de saumon glace au teriyaki sur un grand lit de riz collant, avec edamames, gingembre marine, avocat et mayonnaise sriracha.",
         "tags": [
-          "high-protein",
+          "riche-en-proteines",
           "omega-3"
         ]
       },
       {
-        "name": "PB&J Overnight Oats with Protein",
-        "description": "Rolled oats soaked in whole milk with peanut butter, strawberry jam, protein powder, and chia seeds. 520 calories with 35g protein — prep the night before.",
+        "name": "Overnight oats beurre de cacahuete et confiture",
+        "description": "Flocons d'avoine trempes dans du lait entier avec beurre de cacahuete, confiture de fraises, proteines en poudre et graines de chia. 520 calories et 35 g de proteines — a preparer la veille.",
         "tags": [
-          "meal-prep",
-          "high-calorie"
+          "a-preparer",
+          "calorique"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Who needs to eat 3000 calories a day?",
-        "answer": "Serious athletes training 5-7 days per week, people in physically demanding jobs (construction, military, farming), tall or large-framed men maintaining their weight, and anyone in a dedicated muscle-building phase. If you're under 25 and very active, your metabolism may genuinely require this level of intake. If you're unsure, track your weight for two weeks at your current intake to establish your actual needs."
+        "question": "Qui a besoin de manger 3 000 calories par jour ?",
+        "answer": "Les athletes serieux qui s'entrainent 5 a 7 jours par semaine, les personnes ayant des metiers physiquement exigeants (construction, armee, agriculture), les hommes grands ou de forte corpulence en maintien de poids, et toute personne en phase dediee de prise de masse musculaire. Si vous avez moins de 25 ans et etes tres actif, votre metabolisme peut reellement necessiter ce niveau d'apport. En cas de doute, suivez votre poids pendant deux semaines a votre apport actuel pour etablir vos besoins reels."
       },
       {
-        "question": "How do I eat 3000 calories without feeling sick?",
-        "answer": "Spread it out. Five eating occasions (3 meals + 2 snacks) at 500-800 calories each is far more manageable than three 1,000-calorie meals. Use calorie-dense foods strategically — nuts, nut butters, avocado, olive oil, dried fruit, and whole milk add significant calories without much volume. Our plans use these ingredients naturally so you're not forcing down enormous portions."
+        "question": "Comment manger 3 000 calories sans se sentir mal ?",
+        "answer": "Repartissez. Cinq prises alimentaires (3 repas et 2 collations) de 500 a 800 calories chacune, c'est bien plus gerable que trois repas a 1 000 calories. Utilisez des aliments a haute densite calorique de maniere strategique — fruits a coque, purees d'oleagineux, avocat, huile d'olive, fruits secs et lait entier ajoutent beaucoup de calories sans trop de volume. Nos menus integrent ces ingredients naturellement pour eviter des portions enormes."
       },
       {
-        "question": "What's the difference between clean and dirty bulking?",
-        "answer": "Dirty bulking means eating anything and everything to maximize calories — fast food, sugary snacks, processed food. You gain weight fast, but much of it is fat. Clean bulking uses whole, nutrient-dense foods at a moderate surplus (300-500 calories above maintenance). You gain muscle more slowly but stay leaner, feel better, and don't have to do an aggressive cut afterward. Our 3,000-calorie plans are designed for clean bulking."
+        "question": "Quelle est la difference entre prise de masse propre et sale ?",
+        "answer": "La prise de masse sale consiste a manger tout et n'importe quoi pour maximiser les calories — fast-food, sucreries, produits transformes. On prend du poids vite, mais une bonne part est du gras. La prise de masse propre utilise des aliments complets et riches en nutriments avec un surplus modere (300 a 500 calories au-dessus du maintien). On gagne du muscle plus lentement mais on reste plus sec, on se sent mieux, et on n'a pas besoin d'une seche agressive ensuite. Nos menus a 3 000 calories sont concus pour la prise de masse propre."
       },
       {
-        "question": "How much muscle can I gain on 3000 calories?",
-        "answer": "With proper training and adequate protein, most natural lifters can gain 1-2 pounds of muscle per month during a bulk. At 3,000 calories (assuming a 300-500 calorie surplus), you might gain 2-4 pounds total per month — some muscle, some fat. The cleaner your diet and the more consistent your training, the more of that gain will be lean mass. Beginners may see faster results in their first year."
+        "question": "Combien de muscle peut-on prendre a 3 000 calories ?",
+        "answer": "Avec un entrainement adapte et des proteines suffisantes, la plupart des pratiquants naturels peuvent gagner 0,5 a 1 kg de muscle par mois en prise de masse. A 3 000 calories (en supposant un surplus de 300 a 500 calories), vous pouvez prendre 1 a 2 kg au total par mois — un melange de muscle et de gras. Plus votre alimentation est propre et votre entrainement regulier, plus ce gain sera de la masse maigre. Les debutants peuvent voir des resultats plus rapides la premiere annee."
       },
       {
-        "question": "Should I eat 3000 calories on rest days?",
-        "answer": "You can slightly reduce intake on rest days (by 200-300 calories) since you're burning less, but don't slash dramatically. Muscle repair and growth happen during rest, and your body needs fuel for that process. Our plans can alternate between training and rest day calorie targets if you set your workout schedule in your profile."
+        "question": "Faut-il manger 3 000 calories les jours de repos ?",
+        "answer": "Vous pouvez legerement reduire votre apport les jours de repos (de 200 a 300 calories) puisque vous brulez moins, mais ne coupez pas drastiquement. La reparation et la croissance musculaire ont lieu pendant le repos, et votre corps a besoin de carburant pour ce processus. Nos menus peuvent alterner entre des objectifs caloriques pour les jours d'entrainement et de repos si vous definissez votre planning sportif dans votre profil."
       }
     ]
   },
@@ -5363,79 +5363,79 @@
     "title": "Plan Repas de 3 Jours",
     "metaDescription": "Plan repas de 3 jours pour essayer la planification de repas. Ideal pour les debutants avec liste de courses simple. Essai gratuit.",
     "h1": "Plan Repas de 3 Jours Pour Commencer en Douceur",
-    "intro": "Not sure if meal planning is for you? A 3-day plan is the perfect low-pressure way to find out. Cover your busiest weeknights with balanced, easy-to-cook meals and see how much time and mental energy you save. Our free trial is exactly this — three days of planned meals so you can experience the difference before committing to a full week.",
+    "intro": "Pas sur que la planification de repas soit faite pour vous ? Un menu de 3 jours est le moyen ideal de le decouvrir sans pression. Couvrez vos soirees les plus chargees avec des repas equilibres et faciles a preparer, et constatez combien de temps et d'energie mentale vous economisez. Notre essai gratuit est exactement cela — trois jours de repas planifies pour que vous puissiez mesurer la difference avant de vous engager sur une semaine complete.",
     "valueProps": [
       {
-        "heading": "Zero commitment, real results",
-        "description": "Three days is enough to feel the difference. No grocery waste, no 6 PM panic, no decision fatigue. Just a short test drive to see if planned meals fit your life."
+        "heading": "Zero engagement, vrais resultats",
+        "description": "Trois jours suffisent pour sentir la difference. Plus de gaspillage alimentaire, plus de panique a 18 h, plus de fatigue decisionnelle. Juste un court essai pour voir si les repas planifies s'integrent a votre vie."
       },
       {
-        "heading": "Perfect for weekend prep",
-        "description": "Use a Sunday afternoon to prep three days of meals. You'll breeze through Monday to Wednesday with everything already figured out — recipes, portions, and groceries."
+        "heading": "Ideal pour la preparation du week-end",
+        "description": "Profitez d'un dimanche apres-midi pour preparer trois jours de repas. Vous traverserez lundi, mardi et mercredi sans effort — recettes, portions et courses deja determinees."
       },
       {
-        "heading": "Try it free, right now",
-        "description": "Our free plan generates exactly 3 days of personalized meals based on your dietary preferences. No credit card, no account required. Just tell us what you like and get your plan."
+        "heading": "Essayez gratuitement, tout de suite",
+        "description": "Notre menu gratuit genere exactement 3 jours de repas personnalises selon vos preferences alimentaires. Pas de carte bancaire, pas de compte requis. Dites-nous ce que vous aimez et recevez votre menu."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Overnight Oats with Banana & Peanut Butter",
-        "description": "Rolled oats soaked overnight in milk with sliced banana, a swirl of peanut butter, and a drizzle of honey. Grab from the fridge and go.",
+        "name": "Overnight oats a la banane et au beurre de cacahuete",
+        "description": "Flocons d'avoine trempes toute la nuit dans du lait avec des rondelles de banane, un filet de beurre de cacahuete et un trait de miel. A attraper dans le frigo et c'est parti.",
         "tags": [
-          "meal-prep",
-          "no-cook"
+          "a-preparer",
+          "sans-cuisson"
         ]
       },
       {
-        "name": "Chicken Caesar Wrap",
-        "description": "Grilled chicken strips with romaine, shaved parmesan, and light Caesar dressing rolled in a whole wheat tortilla.",
+        "name": "Wrap cesar au poulet",
+        "description": "Lamelles de poulet grille avec romaine, copeaux de parmesan et sauce cesar legere roules dans une tortilla de ble complet.",
         "tags": [
-          "quick",
-          "high-protein"
+          "rapide",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "One-Pot Creamy Tuscan Chicken",
-        "description": "Chicken thighs simmered with sun-dried tomatoes, spinach, and garlic in a light cream sauce. Serve over pasta or crusty bread.",
+        "name": "Poulet crémeux a la toscane en un seul plat",
+        "description": "Cuisses de poulet mijotees avec tomates sechees, epinards et ail dans une sauce cremeuse legere. A servir sur des pates ou du pain croustillant.",
         "tags": [
-          "one-pot",
-          "comfort-food"
+          "plat-unique",
+          "cuisine-reconfortante"
         ]
       },
       {
-        "name": "Black Bean & Sweet Potato Tacos",
-        "description": "Roasted sweet potato cubes and seasoned black beans in corn tortillas topped with avocado crema and pickled red onion.",
+        "name": "Tacos de haricots noirs et patate douce",
+        "description": "Cubes de patate douce rotis et haricots noirs assaisonnes dans des tortillas de mais, garnis de crema a l'avocat et d'oignon rouge marine.",
         "tags": [
-          "vegetarian",
-          "budget-friendly"
+          "vegetarien",
+          "economique"
         ]
       },
       {
-        "name": "Trail Mix Energy Bites",
-        "description": "No-bake bites made with oats, mini chocolate chips, peanut butter, and a touch of honey. Make a batch and snack all week.",
+        "name": "Boules d'energie aux cereales",
+        "description": "Bouchees sans cuisson a base de flocons d'avoine, pepites de chocolat, beurre de cacahuete et un filet de miel. A preparer en lot pour grignoter toute la semaine.",
         "tags": [
-          "meal-prep",
-          "no-cook"
+          "a-preparer",
+          "sans-cuisson"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is 3 days enough to see the benefits of meal planning?",
-        "answer": "Absolutely. Three days covers the busiest stretch of most people's weeks. You'll notice less stress around dinnertime, fewer impulse takeout orders, and a shorter grocery list. Many of our subscribers started with the free 3-day plan and upgraded once they felt the difference."
+        "question": "Est-ce que 3 jours suffisent pour voir les avantages de la planification de repas ?",
+        "answer": "Absolument. Trois jours couvrent la periode la plus chargee de la semaine pour la plupart des gens. Vous remarquerez moins de stress a l'heure du diner, moins de commandes impulsives et une liste de courses plus courte. Beaucoup de nos abonnes ont commence par le menu gratuit de 3 jours et se sont abonnes apres avoir senti la difference."
       },
       {
-        "question": "What does the free 3-day meal plan include?",
-        "answer": "You get 3 full days of meals — breakfast, lunch, and dinner — personalized to your dietary preferences and household size. Each meal comes with ingredients, instructions, and prep times. It's the same quality as our subscriber plans, just shorter."
+        "question": "Que comprend le menu gratuit de 3 jours ?",
+        "answer": "Vous obtenez 3 journees completes de repas — petit-dejeuner, dejeuner et diner — personnalises selon vos preferences alimentaires et la taille de votre foyer. Chaque repas comprend les ingredients, les instructions et les temps de preparation. C'est la meme qualite que nos menus abonnes, juste plus court."
       },
       {
-        "question": "Can I repeat the 3-day plan every week?",
-        "answer": "The free plan is a one-time trial to help you experience meal planning. If you love it, our weekly subscription generates a fresh 7-day plan every week with new recipes, so you never eat the same meals on repeat."
+        "question": "Peut-on repeter le menu de 3 jours chaque semaine ?",
+        "answer": "Le menu gratuit est un essai unique pour vous faire decouvrir la planification de repas. Si vous l'adorez, notre abonnement hebdomadaire genere un nouveau menu de 7 jours chaque semaine avec de nouvelles recettes, pour ne jamais manger les memes repas en boucle."
       },
       {
-        "question": "How do I turn my 3-day plan into a full week?",
-        "answer": "Subscribe to get a complete 7-day meal plan delivered every week. You'll also get the ability to regenerate plans, set detailed dietary preferences, and receive your plan by email each Monday."
+        "question": "Comment transformer mon menu de 3 jours en semaine complete ?",
+        "answer": "Abonnez-vous pour recevoir un menu complet de 7 jours chaque semaine. Vous aurez aussi la possibilite de regenerer vos menus, de definir des preferences alimentaires detaillees et de recevoir votre planning par e-mail chaque lundi."
       }
     ]
   },
@@ -5443,79 +5443,79 @@
     "title": "Plan Repas de 5 Jours",
     "metaDescription": "Plan repas de 5 jours pour la semaine de travail. Repas du lundi au vendredi avec liste de courses. Essai gratuit.",
     "h1": "Plan Repas de 5 Jours Pour la Semaine de Travail",
-    "intro": "You want structure during the week but freedom on Saturday and Sunday. A 5-day meal plan covers every weeknight dinner and workday lunch without touching your weekends. Eat out, order in, or improvise on your days off — the weekdays are handled. It's the sweet spot between full planning and total flexibility.",
+    "intro": "Vous voulez de la structure en semaine mais de la liberte le week-end. Un menu de 5 jours couvre chaque diner de semaine et chaque dejeuner de travail sans toucher a vos samedis et dimanches. Sortez au restaurant, commandez a livrer ou improvisez pendant vos jours de repos — la semaine est geree. C'est le juste milieu entre planification totale et flexibilite absolue.",
     "valueProps": [
       {
-        "heading": "Weeknights on autopilot",
-        "description": "Monday through Friday is where the stress lives. A 5-day plan eliminates the nightly 'what's for dinner?' spiral while keeping your weekends spontaneous and unplanned."
+        "heading": "Les soirs de semaine en pilote automatique",
+        "description": "Le stress se concentre du lundi au vendredi. Un menu de 5 jours elimine la spirale quotidienne du « qu'est-ce qu'on mange ce soir ? » tout en gardant vos week-ends spontanes et libres."
       },
       {
-        "heading": "Smaller, smarter grocery runs",
-        "description": "A focused 5-day list means less food waste and quicker shopping trips. Buy exactly what you need for the work week — nothing sits in the fridge until it goes bad."
+        "heading": "Des courses plus ciblees et plus malignes",
+        "description": "Une liste concentree sur 5 jours signifie moins de gaspillage et des courses plus rapides. Achetez exactement ce qu'il vous faut pour la semaine — rien ne moisit au fond du frigo."
       },
       {
-        "heading": "Built for the 9-to-5 rhythm",
-        "description": "Meals are designed for real weeknight energy levels. Quick prep on Monday, batch-cook on Wednesday, leftovers repurposed on Thursday. We work with your schedule, not against it."
+        "heading": "Concu pour le rythme bureau",
+        "description": "Les repas sont penses pour le niveau d'energie reel des soirs de semaine. Preparation rapide le lundi, batch cooking le mercredi, restes reinventes le jeudi. On s'adapte a votre emploi du temps, pas l'inverse."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Spinach & Feta Egg Muffins",
-        "description": "Baked egg cups loaded with spinach, crumbled feta, and diced red pepper. Make a batch on Sunday, reheat all week.",
+        "name": "Muffins aux oeufs, epinards et feta",
+        "description": "Petits flans aux oeufs garnis d'epinards, de feta emiettee et de poivron rouge coupe en des. A preparer en lot le dimanche, a rechauffer toute la semaine.",
         "tags": [
-          "meal-prep",
-          "high-protein"
+          "a-preparer",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Mediterranean Grain Bowl",
-        "description": "Farro topped with cucumber, cherry tomatoes, kalamata olives, chickpeas, and a lemon-tahini dressing.",
+        "name": "Bol mediterraneen aux cereales",
+        "description": "Epeautre garni de concombre, tomates cerises, olives Kalamata, pois chiches et vinaigrette citron-tahini.",
         "tags": [
-          "vegetarian",
-          "meal-prep"
+          "vegetarien",
+          "a-preparer"
         ]
       },
       {
-        "name": "Sheet Pan Sausage & Vegetables",
-        "description": "Italian sausage links roasted with broccoli, red onion, and baby potatoes tossed in olive oil and herbs. One pan, done.",
+        "name": "Saucisses et legumes rotis sur plaque",
+        "description": "Saucisses italiennes roties avec brocolis, oignon rouge et pommes de terre grenailles assaisonnes d'huile d'olive et d'herbes. Une seule plaque, et c'est pret.",
         "tags": [
-          "one-pan",
-          "easy"
+          "une-plaque",
+          "facile"
         ]
       },
       {
-        "name": "Teriyaki Salmon with Steamed Rice",
-        "description": "Pan-seared salmon glazed with homemade teriyaki sauce, served over jasmine rice with steamed bok choy on the side.",
+        "name": "Saumon teriyaki et riz vapeur",
+        "description": "Pave de saumon poele et glace au teriyaki maison, servi sur riz jasmin avec du pak choi a la vapeur en accompagnement.",
         "tags": [
-          "quick",
-          "high-protein"
+          "rapide",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Hummus & Veggie Snack Plate",
-        "description": "Creamy hummus served with carrot sticks, cucumber rounds, cherry tomatoes, and whole wheat pita triangles.",
+        "name": "Assiette de houmous et crudites",
+        "description": "Houmous cremeux servi avec batonnets de carottes, rondelles de concombre, tomates cerises et triangles de pain pita complet.",
         "tags": [
-          "no-cook",
-          "vegetarian"
+          "sans-cuisson",
+          "vegetarien"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Why a 5-day plan instead of 7?",
-        "answer": "Many people prefer to keep weekends flexible for dining out, social meals, or cooking something spontaneous. A 5-day plan gives you weekday structure without over-scheduling your entire week. If you want full coverage, check out our 7-day plan instead."
+        "question": "Pourquoi un menu de 5 jours plutot que 7 ?",
+        "answer": "Beaucoup de gens preferent garder leurs week-ends libres pour les sorties au restaurant, les repas entre amis ou cuisiner au feeling. Un menu de 5 jours vous donne la structure en semaine sans surcharger toute votre semaine. Si vous voulez une couverture complete, consultez notre menu de 7 jours."
       },
       {
-        "question": "Which 5 days does the plan cover?",
-        "answer": "We plan Monday through Friday by default, since that's the work-week grind where meal planning saves the most time. All meals are designed for weeknight-friendly prep times of 15 to 35 minutes."
+        "question": "Quels 5 jours le menu couvre-t-il ?",
+        "answer": "On planifie du lundi au vendredi par defaut, puisque c'est la semaine de travail ou la planification de repas fait gagner le plus de temps. Tous les repas sont concus pour des temps de preparation adaptes aux soirs de semaine, de 15 a 35 minutes."
       },
       {
-        "question": "Can I swap a weekday meal for a weekend day?",
-        "answer": "The plans are flexible — you can cook any meal on any day. If you'd rather plan Saturday and skip Wednesday, just shift the meals around. The grocery list covers everything regardless of which days you cook."
+        "question": "Puis-je echanger un repas de semaine pour un jour de week-end ?",
+        "answer": "Les menus sont flexibles — vous pouvez cuisiner n'importe quel repas n'importe quel jour. Si vous preferez planifier le samedi et laisser tomber le mercredi, decalez simplement les repas. La liste de courses couvre tout, quel que soit le jour ou vous cuisinez."
       },
       {
-        "question": "Do I get breakfast, lunch, and dinner for all 5 days?",
-        "answer": "Yes, each day includes all three meals plus optional snacks if you've enabled them in your preferences. That's 15 meals planned, prepped, and grocery-listed so your entire work week is covered."
+        "question": "Ai-je le petit-dejeuner, le dejeuner et le diner pour les 5 jours ?",
+        "answer": "Oui, chaque journee comprend les trois repas plus des collations optionnelles si vous les avez activees dans vos preferences. Cela fait 15 repas planifies, prepares et listes pour que votre semaine de travail soit entierement couverte."
       }
     ]
   },
@@ -5523,83 +5523,83 @@
     "title": "Plan Repas de 7 Jours",
     "metaDescription": "Plan repas complet de 7 jours avec petit-dejeuner, dejeuner et diner. Organisation complete avec liste de courses. Essai gratuit.",
     "h1": "Plan Repas de 7 Jours Pour une Semaine Bien Organisee",
-    "intro": "A full 7-day meal plan is the gold standard of meal planning. Every breakfast, lunch, and dinner for the entire week — planned, portioned, and grocery-listed before Monday morning. No gaps, no guesswork, no wasted food. This is what our subscribers get every single week: a complete plan built around their preferences, delivered automatically.",
+    "intro": "Un menu de 7 jours complets, c'est la reference en matiere de planification de repas. Chaque petit-dejeuner, dejeuner et diner pour la semaine entiere — planifie, portionne et liste avant lundi matin. Aucun vide, aucune improvisation, aucun gaspillage. C'est ce que nos abonnes recoivent chaque semaine : un programme complet adapte a leurs preferences, livre automatiquement.",
     "valueProps": [
       {
-        "heading": "Complete weekly coverage",
-        "description": "Seven days, three meals a day, zero decisions to make. From Monday breakfast to Sunday dinner, every meal is planned so you never default to takeout out of exhaustion."
+        "heading": "Une couverture hebdomadaire complete",
+        "description": "Sept jours, trois repas par jour, zero decision a prendre. Du petit-dejeuner du lundi au diner du dimanche, tout est planifie pour ne jamais retomber dans la commande a emporter par epuisement."
       },
       {
-        "heading": "Maximum savings, minimum waste",
-        "description": "A full-week plan lets us optimize your grocery list across all 21 meals. Ingredients get reused smartly — roast chicken on Tuesday becomes chicken salad on Thursday. Nothing goes to waste."
+        "heading": "Economies maximales, gaspillage minimal",
+        "description": "Un menu sur la semaine complete nous permet d'optimiser votre liste de courses sur 21 repas. Les ingredients sont reutilises intelligemment — le poulet roti du mardi devient la salade de poulet du jeudi. Rien ne se perd."
       },
       {
-        "heading": "Fresh plans, every week",
-        "description": "Subscribers get a brand-new 7-day plan generated every Monday. No repeating the same rotation. Our AI builds variety into every week while respecting your preferences and dietary needs."
+        "heading": "Des menus frais, chaque semaine",
+        "description": "Les abonnes recoivent un tout nouveau menu de 7 jours genere chaque lundi. Pas de rotation repetitive. Notre IA construit de la variete chaque semaine tout en respectant vos preferences et besoins alimentaires."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Avocado Toast with Poached Eggs",
-        "description": "Sourdough toast topped with smashed avocado, two poached eggs, red pepper flakes, and a squeeze of lemon. Simple, filling, ready in minutes.",
+        "name": "Tartine a l'avocat et oeufs poches",
+        "description": "Pain au levain garni d'avocat ecrase, de deux oeufs poches, de piment d'Espelette et d'un filet de citron. Simple, rassasiant, pret en quelques minutes.",
         "tags": [
-          "quick",
-          "high-protein"
+          "rapide",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Thai Peanut Noodle Salad",
-        "description": "Rice noodles tossed with shredded cabbage, carrots, edamame, and cilantro in a creamy peanut-lime dressing. Served cold or at room temperature.",
+        "name": "Salade de nouilles thai a la cacahuete",
+        "description": "Nouilles de riz melangees avec chou rape, carottes, edamames et coriandre dans une sauce cremeuse cacahuete-citron vert. A servir froide ou a temperature ambiante.",
         "tags": [
-          "vegetarian",
-          "meal-prep"
+          "vegetarien",
+          "a-preparer"
         ]
       },
       {
-        "name": "Herb-Crusted Pork Tenderloin",
-        "description": "Pork tenderloin coated in a Dijon-herb crust, roasted until golden, and sliced over mashed sweet potatoes with steamed green beans.",
+        "name": "Filet mignon de porc en croute d'herbes",
+        "description": "Filet mignon de porc enrobe d'une croute moutarde-herbes, roti jusqu'a dore, et tranche sur une puree de patate douce avec des haricots verts a la vapeur.",
         "tags": [
-          "high-protein",
-          "family-friendly"
+          "riche-en-proteines",
+          "familial"
         ]
       },
       {
-        "name": "Shrimp & Asparagus Risotto",
-        "description": "Creamy arborio rice cooked with white wine, tender shrimp, and asparagus tips, finished with parmesan and fresh lemon zest.",
+        "name": "Risotto aux crevettes et asperges",
+        "description": "Riz arborio cremeux cuit au vin blanc, avec des crevettes tendres et des pointes d'asperges, termine au parmesan et zeste de citron frais.",
         "tags": [
-          "comfort-food",
-          "date-night"
+          "cuisine-reconfortante",
+          "repas-en-amoureux"
         ]
       },
       {
-        "name": "Greek Yogurt with Walnuts & Honey",
-        "description": "Thick Greek yogurt drizzled with raw honey and topped with crushed walnuts. High protein, naturally sweet, deeply satisfying.",
+        "name": "Yaourt grec aux noix et au miel",
+        "description": "Yaourt grec epais arrose de miel brut et parseme de noix concassees. Riche en proteines, naturellement sucre, profondement satisfaisant.",
         "tags": [
-          "quick",
-          "no-cook"
+          "rapide",
+          "sans-cuisson"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How is a 7-day meal plan different from the free trial?",
-        "answer": "The free trial gives you a 3-day plan to test the experience. A 7-day plan covers your entire week with more variety and smarter ingredient reuse across all 21 meals. Subscribers also get fresh plans every week, regeneration options, and email delivery."
+        "question": "En quoi un menu de 7 jours differe-t-il de l'essai gratuit ?",
+        "answer": "L'essai gratuit vous donne un menu de 3 jours pour tester l'experience. Un menu de 7 jours couvre votre semaine entiere avec plus de variete et une reutilisation plus intelligente des ingredients sur 21 repas. Les abonnes beneficient aussi de menus frais chaque semaine, d'options de regeneration et de la livraison par e-mail."
       },
       {
-        "question": "Can I customize which meals are included?",
-        "answer": "Yes. You can set your dietary preferences, allergies, cooking skill level, and whether to include snacks. You can also add a personal note like 'no seafood on weekdays' or 'I like batch-cooking on Sundays' and the plan adapts accordingly."
+        "question": "Puis-je personnaliser les repas inclus ?",
+        "answer": "Oui. Vous pouvez definir vos preferences alimentaires, vos allergies, votre niveau de cuisine et l'inclusion ou non de collations. Vous pouvez aussi ajouter une note personnelle comme « pas de fruits de mer en semaine » ou « j'aime cuisiner en batch le dimanche », et le menu s'adapte en consequence."
       },
       {
-        "question": "What if I don't like a meal in my plan?",
-        "answer": "Subscribers can regenerate their plan up to twice per week. Each regeneration creates an entirely new set of meals while respecting your preferences. Over time, the variety keeps things fresh without repeating recipes you didn't enjoy."
+        "question": "Et si un repas de mon menu ne me plait pas ?",
+        "answer": "Les abonnes peuvent regenerer leur menu jusqu'a deux fois par semaine. Chaque regeneration cree un ensemble entierement nouveau de repas tout en respectant vos preferences. Avec le temps, la variete reste au rendez-vous sans repeter les recettes qui ne vous ont pas plu."
       },
       {
-        "question": "Do 7-day plans include a grocery list?",
-        "answer": "Every plan comes with a consolidated grocery list organized by category. Ingredients shared across multiple meals are combined so you buy the right amounts without doubling up. Most subscribers report their grocery trips take under 30 minutes."
+        "question": "Les menus de 7 jours incluent-ils une liste de courses ?",
+        "answer": "Chaque menu est accompagne d'une liste de courses consolidee organisee par categorie. Les ingredients partages entre plusieurs repas sont combines pour que vous achetiez les bonnes quantites sans doublons. La plupart des abonnes rapportent que leurs courses prennent moins de 30 minutes."
       },
       {
-        "question": "Is the 7-day plan the best value?",
-        "answer": "It's what our subscription is built around. For a few dollars a week, you get a complete 7-day meal plan generated fresh every Monday — that's 21 meals planned, grocery-listed, and delivered to your inbox. Most subscribers save 2-3 hours per week on meal decisions and shopping alone."
+        "question": "Le menu de 7 jours est-il le meilleur rapport qualite-prix ?",
+        "answer": "C'est la base de notre abonnement. Pour quelques euros par semaine, vous recevez un menu complet de 7 jours genere chaque lundi — soit 21 repas planifies, listes et livres dans votre boite mail. La plupart des abonnes economisent 2 a 3 heures par semaine rien que sur les decisions de repas et les courses."
       }
     ]
   },
@@ -5607,79 +5607,79 @@
     "title": "Plan Repas de 14 Jours",
     "metaDescription": "Plan repas de 2 semaines avec variete maximale. Zero repetition et liste de courses organisee. Essai gratuit.",
     "h1": "Plan Repas de 14 Jours Pour Deux Semaines Sans Repetition",
-    "intro": "Why plan every week when you can plan every two? A 14-day meal plan gives you a full fortnight of breakfasts, lunches, and dinners in one shot. It's ideal for bulk grocery shopping, reducing your planning sessions by half, and getting enough variety that no meal feels like a repeat. Think of it as the meal planning equivalent of buying in bulk — less effort, better results.",
+    "intro": "Pourquoi planifier chaque semaine quand on peut planifier toutes les deux semaines ? Un menu de 14 jours vous donne une quinzaine complete de petits-dejeuners, dejeuners et diners d'un seul coup. C'est ideal pour les grosses courses, pour diviser par deux vos seances de planification, et pour avoir assez de variete pour qu'aucun repas ne semble etre une repetition. Voyez ca comme l'equivalent du lot en cuisine — moins d'effort, de meilleurs resultats.",
     "valueProps": [
       {
-        "heading": "Half the planning, double the coverage",
-        "description": "One planning session covers two full weeks. That's 42 meals decided, grocery-listed, and ready to go. You'll spend less time thinking about food and more time enjoying it."
+        "heading": "Moitie moins de planification, double couverture",
+        "description": "Une seule seance de planification couvre deux semaines entieres. Ca fait 42 repas decides, listes et prets a etre prepares. Vous passerez moins de temps a reflechir a la nourriture et plus de temps a l'apprecier."
       },
       {
-        "heading": "Built for bulk shopping",
-        "description": "A two-week plan lets you make fewer, larger grocery runs. Buy proteins in bulk, stock up on pantry staples, and save money with warehouse-store quantities that actually get used."
+        "heading": "Concu pour les grosses courses",
+        "description": "Un menu sur deux semaines vous permet de faire moins de courses mais plus grosses. Achetez les proteines en gros, faites le plein de produits de base et economisez avec des quantites qui seront reellement utilisees."
       },
       {
-        "heading": "Better variety over 14 days",
-        "description": "Two weeks gives us room to introduce more cuisines, cooking methods, and ingredients without repeating. Week one might lean Mediterranean while week two explores Asian-inspired dishes."
+        "heading": "Plus de variete sur 14 jours",
+        "description": "Deux semaines nous laissent la place d'introduire davantage de cuisines, de techniques et d'ingredients sans repetition. La premiere semaine peut etre orientee mediterraneenne tandis que la deuxieme explore des plats d'inspiration asiatique."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Blueberry Banana Smoothie Bowl",
-        "description": "Thick blended smoothie base of frozen blueberries, banana, and Greek yogurt, topped with granola, chia seeds, and sliced almonds.",
+        "name": "Bol smoothie myrtilles et banane",
+        "description": "Base epaisse de myrtilles surgelees, banane et yaourt grec mixees, garnie de granola, graines de chia et amandes effilees.",
         "tags": [
-          "quick",
-          "vegetarian"
+          "rapide",
+          "vegetarien"
         ]
       },
       {
-        "name": "Roasted Cauliflower & Chickpea Wrap",
-        "description": "Spiced roasted cauliflower and chickpeas tucked into a warm tortilla with pickled onions, arugula, and garlic yogurt sauce.",
+        "name": "Wrap au chou-fleur roti et pois chiches",
+        "description": "Chou-fleur et pois chiches epices et rotis enveloppes dans une tortilla chaude avec oignons marines, roquette et sauce au yaourt a l'ail.",
         "tags": [
-          "vegetarian",
-          "budget-friendly"
+          "vegetarien",
+          "economique"
         ]
       },
       {
-        "name": "Slow Cooker Beef Stew",
-        "description": "Tender beef chunks simmered for hours with potatoes, carrots, celery, and a rich tomato-red wine broth. Set it and forget it.",
+        "name": "Ragout de boeuf a la mijoteuse",
+        "description": "Morceaux de boeuf tendres mijotes pendant des heures avec pommes de terre, carottes, celeri et un bouillon riche au vin rouge et a la tomate. A lancer et oublier.",
         "tags": [
-          "slow-cooker",
-          "meal-prep"
+          "mijoteuse",
+          "a-preparer"
         ]
       },
       {
-        "name": "Lemon Garlic Chicken Thighs with Orzo",
-        "description": "Crispy-skinned chicken thighs braised with lemon, garlic, and olives over herbed orzo pasta. One skillet, restaurant-quality results.",
+        "name": "Cuisses de poulet citron-ail aux orzo",
+        "description": "Cuisses de poulet a la peau croustillante braisees au citron, a l'ail et aux olives sur des orzo aux herbes. Une seule poele, un resultat de restaurant.",
         "tags": [
-          "one-pan",
-          "comfort-food"
+          "une-poele",
+          "cuisine-reconfortante"
         ]
       },
       {
-        "name": "Dark Chocolate & Almond Clusters",
-        "description": "Melted dark chocolate mixed with roasted almonds and a pinch of sea salt, dropped into clusters and chilled until set.",
+        "name": "Mendiants au chocolat noir et aux amandes",
+        "description": "Chocolat noir fondu melange a des amandes grillees et une pincee de fleur de sel, forme en petites grappes et mis au frais.",
         "tags": [
-          "meal-prep",
-          "treat"
+          "a-preparer",
+          "gourmandise"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How does a 14-day meal plan work with grocery shopping?",
-        "answer": "You can do one large shop at the start and a smaller mid-point run for fresh produce and perishables. The plan is structured so shelf-stable and frozen ingredients are used throughout, while fresh items cluster in the first few days of each week."
+        "question": "Comment un menu de 14 jours fonctionne-t-il avec les courses ?",
+        "answer": "Vous pouvez faire une grosse course au debut et une plus petite a mi-parcours pour les produits frais et les perissables. Le menu est structure de facon a ce que les ingredients longue conservation et surgeles soient utilises tout au long, tandis que les produits frais se concentrent dans les premiers jours de chaque semaine."
       },
       {
-        "question": "Won't food go bad over two weeks?",
-        "answer": "The plan is designed with food freshness in mind. Perishable ingredients like fresh fish and leafy greens appear in the first half of each week. Heartier vegetables, frozen proteins, and pantry staples are scheduled for later days. A quick mid-week produce run keeps everything fresh."
+        "question": "Les aliments ne vont-ils pas se gater sur deux semaines ?",
+        "answer": "Le menu est concu en tenant compte de la fraicheur des aliments. Les ingredients perissables comme le poisson frais et les feuilles vertes apparaissent dans la premiere moitie de chaque semaine. Les legumes plus robustes, les proteines surgelees et les produits de base sont programmes pour les jours suivants. Un petit passage au rayon fruits et legumes en milieu de semaine maintient tout frais."
       },
       {
-        "question": "Can I mix and match days between the two weeks?",
-        "answer": "Absolutely. The meals are independent — you can swap any day from week one with week two. The grocery list covers everything, so rearranging days won't leave you missing ingredients."
+        "question": "Puis-je melanger les jours entre les deux semaines ?",
+        "answer": "Absolument. Les repas sont independants — vous pouvez echanger n'importe quel jour de la premiere semaine avec la deuxieme. La liste de courses couvre tout, donc reorganiser les jours ne vous laissera pas sans ingredients."
       },
       {
-        "question": "Is a 14-day plan more cost-effective than weekly planning?",
-        "answer": "It can be. Buying in bulk reduces per-unit costs, and a two-week view lets us reuse ingredients more efficiently. Many families find they save 15-20% on groceries compared to shopping without a plan, and the savings compound over a longer planning window."
+        "question": "Un menu de 14 jours est-il plus rentable que la planification hebdomadaire ?",
+        "answer": "Ca peut l'etre. Acheter en gros reduit le cout unitaire, et une vision sur deux semaines nous permet de reutiliser les ingredients plus efficacement. Beaucoup de familles constatent qu'elles economisent 15 a 20 % sur les courses par rapport a des achats sans menu, et les economies se cumulent sur une fenetre de planification plus longue."
       }
     ]
   },
@@ -5687,83 +5687,83 @@
     "title": "Plan Repas de 21 Jours",
     "metaDescription": "Plan repas de 21 jours pour creer de nouvelles habitudes alimentaires. Trois semaines de repas planifies. Essai gratuit.",
     "h1": "Plan Repas de 21 Jours Pour Transformer Vos Habitudes",
-    "intro": "It takes about 21 days to build a new habit, and meal planning is no exception. A 21-day plan gives you three full weeks of structured, balanced meals — enough time for home cooking to feel automatic instead of aspirational. By day 21, you'll have a stocked pantry, a faster grocery routine, and the confidence that you can actually do this every week.",
+    "intro": "Il faut environ 21 jours pour ancrer une nouvelle habitude, et la planification de repas ne fait pas exception. Un menu de 21 jours vous donne trois semaines completes de repas structures et equilibres — assez de temps pour que cuisiner a la maison devienne un reflexe plutot qu'une aspiration. Au 21e jour, vous aurez un garde-manger bien garni, une routine de courses rodee et la confiance que vous pouvez vraiment faire ca chaque semaine.",
     "valueProps": [
       {
-        "heading": "The science of habit formation",
-        "description": "Research suggests 21 days is the sweet spot for building new routines. Three weeks of planned meals creates muscle memory — checking the plan, prepping ingredients, and cooking on schedule starts to feel natural, not forced."
+        "heading": "La science de la formation des habitudes",
+        "description": "La recherche suggere que 21 jours est le point ideal pour ancrer de nouvelles routines. Trois semaines de repas planifies creent une memoire musculaire — consulter le menu, preparer les ingredients et cuisiner selon le planning commence a sembler naturel, pas force."
       },
       {
-        "heading": "Progressive complexity",
-        "description": "Week one starts simple with quick, foolproof recipes. Week two introduces slightly more involved dishes. By week three, you're cooking with confidence and variety. It's a gentle on-ramp, not a cold plunge."
+        "heading": "Une complexite progressive",
+        "description": "La premiere semaine commence simplement avec des recettes rapides et infaillibles. La deuxieme introduit des plats un peu plus elabores. A la troisieme semaine, vous cuisinez avec assurance et variete. C'est une montee en douceur, pas un plongeon dans le grand bain."
       },
       {
-        "heading": "Measurable results",
-        "description": "Three weeks is enough to see real changes: lower grocery bills, less food waste, more energy from balanced nutrition, and the satisfaction of knowing exactly what you're eating every day."
+        "heading": "Des resultats mesurables",
+        "description": "Trois semaines suffisent pour observer de vrais changements : des courses moins cheres, moins de gaspillage alimentaire, plus d'energie grace a une alimentation equilibree, et la satisfaction de savoir exactement ce que vous mangez chaque jour."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Peanut Butter & Banana Overnight Oats",
-        "description": "Oats soaked overnight with milk, a spoonful of peanut butter, sliced banana, and a dash of cinnamon. Ready when you wake up.",
+        "name": "Overnight oats au beurre de cacahuete et a la banane",
+        "description": "Flocons d'avoine trempes toute la nuit dans du lait avec une cuillere de beurre de cacahuete, des rondelles de banane et un soupconde cannelle. Pret quand vous vous reveillez.",
         "tags": [
-          "meal-prep",
-          "no-cook"
+          "a-preparer",
+          "sans-cuisson"
         ]
       },
       {
-        "name": "Southwest Black Bean Soup",
-        "description": "Smoky black bean soup with corn, diced tomatoes, cumin, and a squeeze of lime. Top with avocado and tortilla strips.",
+        "name": "Soupe de haricots noirs facon sud-ouest",
+        "description": "Soupe fumee aux haricots noirs avec mais, tomates en des, cumin et un filet de citron vert. A garnir d'avocat et de lamelles de tortilla croustillantes.",
         "tags": [
-          "vegetarian",
-          "budget-friendly"
+          "vegetarien",
+          "economique"
         ]
       },
       {
-        "name": "Honey Mustard Chicken with Roasted Broccoli",
-        "description": "Chicken breasts glazed with honey-Dijon mustard and baked alongside broccoli florets until caramelized and tender.",
+        "name": "Poulet miel-moutarde aux brocolis rotis",
+        "description": "Blancs de poulet glaces au miel et a la moutarde de Dijon, cuits au four avec des bouquets de brocoli jusqu'a caramelisation.",
         "tags": [
-          "one-pan",
-          "family-friendly"
+          "une-plaque",
+          "familial"
         ]
       },
       {
-        "name": "Beef & Broccoli Stir-Fry",
-        "description": "Thinly sliced flank steak stir-fried with broccoli and garlic in a savory soy-ginger sauce, served over steamed jasmine rice.",
+        "name": "Saute de boeuf aux brocolis",
+        "description": "Fines tranches de bavette sautees avec des brocolis et de l'ail dans une sauce soja-gingembre, servies sur du riz jasmin vapeur.",
         "tags": [
-          "quick",
-          "high-protein"
+          "rapide",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Cottage Cheese with Pineapple",
-        "description": "A bowl of creamy cottage cheese topped with fresh pineapple chunks. High protein, naturally sweet, and incredibly simple.",
+        "name": "Fromage blanc a l'ananas",
+        "description": "Un bol de fromage blanc cremeux garni de morceaux d'ananas frais. Riche en proteines, naturellement sucre et incroyablement simple.",
         "tags": [
-          "quick",
-          "no-cook"
+          "rapide",
+          "sans-cuisson"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Why 21 days specifically?",
-        "answer": "The 21-day habit formation concept comes from behavioral psychology — it's roughly how long it takes for a new behavior to start feeling automatic. Three weeks of meal planning is enough to build the routine of checking your plan, shopping with a list, and prepping ahead. After 21 days, most people find they can't go back to winging it."
+        "question": "Pourquoi 21 jours specifiquement ?",
+        "answer": "Le concept de formation d'habitude en 21 jours vient de la psychologie comportementale — c'est a peu pres le temps necessaire pour qu'un nouveau comportement commence a devenir automatique. Trois semaines de planification de repas suffisent pour ancrer la routine de consulter son menu, faire ses courses avec une liste et preparer a l'avance. Apres 21 jours, la plupart des gens ne peuvent plus revenir a l'improvisation."
       },
       {
-        "question": "Is a 21-day plan good for a diet reset?",
-        "answer": "It's excellent for a reset. Three weeks is long enough to break old patterns like relying on takeout or skipping meals, but short enough to feel achievable. The structured plan removes willpower from the equation — you just follow the meals and let the habit build itself."
+        "question": "Un menu de 21 jours convient-il pour une remise a zero alimentaire ?",
+        "answer": "C'est excellent pour un reset. Trois semaines, c'est assez long pour casser les vieilles habitudes comme dependre des plats a emporter ou sauter des repas, mais assez court pour sembler realisable. Le menu structure elimine la volonte de l'equation — vous suivez les repas et laissez l'habitude se construire d'elle-meme."
       },
       {
-        "question": "How do I handle grocery shopping for 21 days?",
-        "answer": "We recommend shopping weekly within the 21-day plan. Each week's grocery list is separate, so you're buying fresh produce every 7 days rather than trying to stock up for the entire stretch. Think of it as three connected weekly plans rather than one massive haul."
+        "question": "Comment gerer les courses pour 21 jours ?",
+        "answer": "Nous recommandons de faire les courses chaque semaine a l'interieur du menu de 21 jours. La liste de courses de chaque semaine est separee, donc vous achetez des produits frais tous les 7 jours plutot que d'essayer de tout stocker pour la totalite. Voyez ca comme trois menus hebdomadaires connectes plutot qu'une mega-course."
       },
       {
-        "question": "What happens after the 21 days are over?",
-        "answer": "By then, meal planning should feel like second nature. Our weekly subscription keeps the momentum going with a fresh 7-day plan every Monday. You've built the habit — we keep fueling it with new recipes and variety so you never plateau."
+        "question": "Que se passe-t-il apres les 21 jours ?",
+        "answer": "D'ici la, la planification de repas devrait etre une seconde nature. Notre abonnement hebdomadaire maintient l'elan avec un nouveau menu de 7 jours chaque lundi. Vous avez construit l'habitude — nous continuons a l'alimenter avec de nouvelles recettes et de la variete pour que vous ne stagniez jamais."
       },
       {
-        "question": "Can I do a 21-day plan with dietary restrictions?",
-        "answer": "Absolutely. Set your preferences — vegetarian, gluten-free, dairy-free, low-carb, or any combination — and every meal across all 21 days will respect those restrictions. You can also note allergies and ingredients you dislike."
+        "question": "Peut-on faire un menu de 21 jours avec des restrictions alimentaires ?",
+        "answer": "Absolument. Definissez vos preferences — vegetarien, sans gluten, sans lactose, pauvre en glucides, ou toute combinaison — et chaque repas des 21 jours respectera ces restrictions. Vous pouvez aussi noter les allergies et les ingredients que vous n'aimez pas."
       }
     ]
   },
@@ -5771,83 +5771,83 @@
     "title": "Plan Repas de 30 Jours",
     "metaDescription": "Plan repas d'un mois complet avec repas varies et liste de courses hebdomadaire. Organisation totale. Essai gratuit.",
     "h1": "Plan Repas de 30 Jours Pour un Mois de Repas Sans Stress",
-    "intro": "A 30-day meal plan is a full reset. Four weeks of planned breakfasts, lunches, and dinners that take the guesswork out of eating well for an entire month. Whether you're starting a new diet, recovering from a season of takeout, or just want to prove to yourself that consistent home cooking is possible — 30 days gives you the time and structure to make it happen and see real, noticeable results.",
+    "intro": "Un menu de 30 jours, c'est une remise a zero complete. Quatre semaines de petits-dejeuners, dejeuners et diners planifies qui suppriment les devinettes pour bien manger pendant un mois entier. Que vous commenciez un nouveau regime, que vous vous releviez d'une saison de plats a emporter, ou que vous vouliez simplement vous prouver que cuisiner regulierement a la maison est possible — 30 jours vous donnent le temps et la structure pour y arriver et observer des resultats concrets.",
     "valueProps": [
       {
-        "heading": "A full month of momentum",
-        "description": "Thirty days is enough to move past the novelty phase and into genuine lifestyle change. By week four, meal planning isn't something you're 'trying' — it's just how you eat."
+        "heading": "Un mois complet d'elan",
+        "description": "Trente jours suffisent pour depasser la phase de nouveaute et entrer dans un veritable changement de mode de vie. A la quatrieme semaine, planifier ses repas n'est plus quelque chose que vous « essayez » — c'est simplement votre facon de manger."
       },
       {
-        "heading": "Noticeable results",
-        "description": "A month of balanced, home-cooked meals shows up everywhere: more energy, lower grocery bills, better sleep, and the quiet confidence that comes from knowing exactly what you're putting into your body."
+        "heading": "Des resultats visibles",
+        "description": "Un mois de repas equilibres faits maison se voit partout : plus d'energie, des courses moins cheres, un meilleur sommeil, et la confiance tranquille de savoir exactement ce que vous mettez dans votre corps."
       },
       {
-        "heading": "Maximum variety across four weeks",
-        "description": "With 90 dinners, lunches, and breakfasts to fill, we pull from every cuisine and cooking method. Italian one night, Thai the next, sheet-pan meals midweek, slow cooker on Sunday. No meal fatigue, guaranteed."
+        "heading": "Une variete maximale sur quatre semaines",
+        "description": "Avec 90 diners, dejeuners et petits-dejeuners a remplir, on puise dans toutes les cuisines et toutes les methodes de cuisson. Italien un soir, thai le lendemain, plaque au four en milieu de semaine, mijoteuse le dimanche. Aucune lassitude, garanti."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Shakshuka with Crusty Bread",
-        "description": "Eggs poached in a spiced tomato-pepper sauce with cumin, paprika, and a touch of harissa. Scoop up with warm crusty bread.",
+        "name": "Shakshuka avec du pain croustillant",
+        "description": "Oeufs poches dans une sauce epicee tomate-poivron au cumin, au paprika et a la harissa. A ecoper avec du pain chaud et croustillant.",
         "tags": [
-          "vegetarian",
-          "one-pan"
+          "vegetarien",
+          "une-poele"
         ]
       },
       {
-        "name": "Asian Chicken Lettuce Cups",
-        "description": "Ground chicken sauteed with water chestnuts, ginger, and hoisin sauce, spooned into crisp butter lettuce cups with a sriracha drizzle.",
+        "name": "Bouchees de poulet a l'asiatique en feuilles de laitue",
+        "description": "Poulet hache saute avec des chataignes d'eau, du gingembre et de la sauce hoisin, depose dans des feuilles de laitue beurre croquantes avec un filet de sriracha.",
         "tags": [
-          "low-carb",
-          "quick"
+          "pauvre-en-glucides",
+          "rapide"
         ]
       },
       {
-        "name": "Baked Cod with Mango Salsa",
-        "description": "Flaky cod fillets baked with lime and chili, topped with a fresh mango-red onion-cilantro salsa. Light, bright, and ready in under 30 minutes.",
+        "name": "Cabillaud au four, salsa a la mangue",
+        "description": "Filets de cabillaud au four au citron vert et au piment, garnis d'une salsa fraiche mangue-oignon rouge-coriandre. Leger, lumineux et pret en moins de 30 minutes.",
         "tags": [
-          "quick",
-          "healthy"
+          "rapide",
+          "sain"
         ]
       },
       {
-        "name": "Eggplant Parmesan",
-        "description": "Breaded eggplant rounds baked until crispy, layered with marinara and melted mozzarella. Comfort food that happens to be vegetarian.",
+        "name": "Aubergines a la parmigiana",
+        "description": "Rondelles d'aubergine panees et cuites au four jusqu'a etre croustillantes, en couches avec sauce marinara et mozzarella fondue. Un plat reconfortant qui se trouve etre vegetarien.",
         "tags": [
-          "vegetarian",
-          "comfort-food"
+          "vegetarien",
+          "cuisine-reconfortante"
         ]
       },
       {
-        "name": "Frozen Yogurt Bark",
-        "description": "Greek yogurt spread thin, studded with berries, pistachios, and a drizzle of dark chocolate, then frozen and snapped into pieces.",
+        "name": "Ecorces de yaourt glace",
+        "description": "Yaourt grec etale finement, parseme de baies, de pistaches et d'un filet de chocolat noir, puis congele et casse en morceaux.",
         "tags": [
-          "meal-prep",
-          "treat"
+          "a-preparer",
+          "gourmandise"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How is a 30-day plan structured?",
-        "answer": "Think of it as four connected weekly plans. Each week has its own grocery list so you're shopping fresh every 7 days. The meals are varied across the full month — we avoid repeating recipes and intentionally rotate cuisines, proteins, and cooking methods so week four feels as fresh as week one."
+        "question": "Comment un menu de 30 jours est-il structure ?",
+        "answer": "Voyez ca comme quatre menus hebdomadaires connectes. Chaque semaine a sa propre liste de courses pour que vous achetiez frais tous les 7 jours. Les repas varient sur tout le mois — on evite les repetitions de recettes et on fait deliberement tourner les cuisines, les proteines et les methodes de cuisson pour que la quatrieme semaine soit aussi fraiche que la premiere."
       },
       {
-        "question": "Can I use a 30-day plan for a specific diet challenge?",
-        "answer": "Yes. Set your dietary preferences to match your challenge — whether that's Whole30-style, plant-based, low-carb, or calorie-controlled — and every meal across all 30 days will align. Having a structured plan removes the temptation to break your challenge because you always know what's next."
+        "question": "Peut-on utiliser un menu de 30 jours pour un defi alimentaire specifique ?",
+        "answer": "Oui. Definissez vos preferences alimentaires pour correspondre a votre defi — qu'il s'agisse d'un style Whole30, vegetal, pauvre en glucides ou controle en calories — et chaque repas des 30 jours s'alignera. Avoir un menu structure supprime la tentation de rompre votre defi parce que vous savez toujours ce qui vient ensuite."
       },
       {
-        "question": "Will I get bored eating planned meals for a full month?",
-        "answer": "The opposite, actually. Without a plan, most people rotate through the same 5-7 meals. Our 30-day plans introduce 60-90 unique recipes spanning multiple cuisines and cooking styles. You'll eat more variety in one planned month than most people eat in three unplanned months."
+        "question": "Est-ce que je vais m'ennuyer a manger des repas planifies pendant un mois entier ?",
+        "answer": "C'est plutot l'inverse. Sans planification, la plupart des gens tournent entre les memes 5 a 7 repas. Nos menus de 30 jours introduisent 60 a 90 recettes uniques couvrant plusieurs cuisines et styles de cuisson. Vous mangerez plus de variete en un mois planifie que la plupart des gens en trois mois non planifies."
       },
       {
-        "question": "How much money can I save with a 30-day meal plan?",
-        "answer": "Most families save 20-30% on food costs when following a meal plan versus shopping without one. Over 30 days, that adds up fast — less impulse buying, less food waste, and fewer takeout orders. Many subscribers report saving $200-400 per month after switching to planned meals."
+        "question": "Combien d'argent peut-on economiser avec un menu de 30 jours ?",
+        "answer": "La plupart des familles economisent 20 a 30 % sur les depenses alimentaires en suivant un menu par rapport a des courses sans liste. Sur 30 jours, ca s'accumule vite — moins d'achats impulsifs, moins de gaspillage et moins de commandes a emporter. Beaucoup d'abonnes rapportent une economie de 200 a 400 euros par mois apres le passage aux repas planifies."
       },
       {
-        "question": "What if my schedule changes mid-month?",
-        "answer": "Plans are flexible. Swap days around, skip a meal and use leftovers, or regenerate a week's plan if your preferences change. The structure is there to support you, not box you in. Life happens — the plan adapts."
+        "question": "Et si mon emploi du temps change en cours de mois ?",
+        "answer": "Les menus sont flexibles. Echangez les jours, sautez un repas et utilisez les restes, ou regenerez le menu d'une semaine si vos preferences changent. La structure est la pour vous soutenir, pas pour vous enfermer. La vie suit son cours — le menu s'adapte."
       }
     ]
   },
@@ -5855,82 +5855,82 @@
     "title": "Plans Repas d'Ete",
     "metaDescription": "Plans repas legers et frais pour l'ete. Salades, grillades et repas sans cuisson pour les jours chauds. Essai gratuit.",
     "h1": "Plans Repas d'Ete Legers et Rafraichissants",
-    "intro": "Nobody wants to spend an hour over a hot stove when it's scorching outside. A great summer meal plan leans into fresh produce, quick grilling, and no-cook options that come together fast. We build you a weekly plan packed with seasonal fruits, crisp salads, and light proteins so you eat well without heating up the house.",
+    "intro": "Personne n'a envie de passer une heure devant les fourneaux quand il fait une chaleur etouffante dehors. Un bon menu d'ete mise sur les produits frais, les grillades rapides et les plats sans cuisson qui se preparent en un clin d'oeil. On vous compose un programme hebdomadaire riche en fruits de saison, salades croquantes et proteines legeres pour bien manger sans surchauffer la cuisine.",
     "valueProps": [
       {
-        "heading": "Minimal cooking, maximum flavor",
-        "description": "Most meals take under 20 minutes or skip the stove entirely. Think chilled soups, grain bowls, and quick grill sessions so your kitchen stays cool."
+        "heading": "Peu de cuisson, beaucoup de saveurs",
+        "description": "La plupart des repas prennent moins de 20 minutes ou se passent totalement de cuisson. Soupes froides, bols de cereales et grillades express pour garder votre cuisine au frais."
       },
       {
-        "heading": "Peak-season produce",
-        "description": "Plans feature summer staples like tomatoes, stone fruits, zucchini, corn, and fresh herbs when they're at their cheapest and most flavorful."
+        "heading": "Des produits de pleine saison",
+        "description": "Les menus mettent en valeur les incontournables de l'ete — tomates, fruits a noyau, courgettes, mais et herbes fraiches — au moment ou ils sont les moins chers et les plus savoureux."
       },
       {
-        "heading": "Hydration built in",
-        "description": "Water-rich ingredients like cucumber, watermelon, and citrus are woven into meals and snacks to help you stay hydrated in the heat."
+        "heading": "L'hydratation integree",
+        "description": "Des ingredients riches en eau comme le concombre, la pasteque et les agrumes sont tisses dans les repas et les collations pour vous aider a rester hydrate pendant les fortes chaleurs."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Watermelon Feta Salad with Mint",
-        "description": "Juicy watermelon cubes tossed with crumbled feta, fresh mint, and a lime vinaigrette over arugula. Refreshing and ready in minutes.",
+        "name": "Salade de pasteque, feta et menthe",
+        "description": "Cubes de pasteque juteuse melanges avec de la feta emiettee, de la menthe fraiche et une vinaigrette au citron vert sur lit de roquette. Rafraichissant et pret en quelques minutes.",
         "tags": [
-          "no-cook",
-          "quick",
-          "seasonal"
+          "sans-cuisson",
+          "rapide",
+          "de-saison"
         ]
       },
       {
-        "name": "Grilled Chicken Souvlaki Bowls",
-        "description": "Herb-marinated chicken skewers over fluffy rice with cucumber-tomato salad, hummus, and a drizzle of tzatziki.",
+        "name": "Bols souvlaki au poulet grille",
+        "description": "Brochettes de poulet marine aux herbes sur riz moelleux avec salade concombre-tomate, houmous et un filet de tzatziki.",
         "tags": [
-          "grilling",
-          "high-protein"
+          "grillades",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Overnight Oats with Peaches & Chia",
-        "description": "Creamy oats soaked overnight with almond milk, topped with sliced ripe peaches and a sprinkle of chia seeds. Grab from the fridge and go.",
+        "name": "Overnight oats aux peches et chia",
+        "description": "Flocons d'avoine cremeux trempes toute la nuit dans du lait d'amande, garnis de peches mures tranchees et de graines de chia. A attraper dans le frigo et partir.",
         "tags": [
-          "no-cook",
-          "meal-prep",
-          "quick"
+          "sans-cuisson",
+          "a-preparer",
+          "rapide"
         ]
       },
       {
-        "name": "Grilled Shrimp Tacos with Mango Salsa",
-        "description": "Smoky grilled shrimp in warm corn tortillas with fresh mango-jalapeño salsa and a squeeze of lime.",
+        "name": "Tacos de crevettes grillees, salsa a la mangue",
+        "description": "Crevettes fumees grillees dans des tortillas de mais chaudes avec une salsa fraiche mangue-jalapeno et un filet de citron vert.",
         "tags": [
-          "grilling",
-          "quick",
-          "seasonal"
+          "grillades",
+          "rapide",
+          "de-saison"
         ]
       },
       {
-        "name": "Frozen Banana Nice Cream",
-        "description": "Blended frozen bananas with a splash of vanilla and topped with berries. Creamy, sweet, and completely fruit-based.",
+        "name": "Glace a la banane",
+        "description": "Bananes congelees mixees avec un trait de vanille et garnies de fruits rouges. Cremeux, sucre et entierement a base de fruits.",
         "tags": [
-          "no-cook",
-          "quick"
+          "sans-cuisson",
+          "rapide"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Are summer meal plans lower in calories?",
-        "answer": "Not necessarily. While summer meals tend to be lighter, we make sure every plan hits proper nutrition targets. If you're active during summer, the plan accounts for that. You can set your calorie preferences in your profile and the plan adjusts portions accordingly."
+        "question": "Les menus d'ete sont-ils moins caloriques ?",
+        "answer": "Pas necessairement. Bien que les repas d'ete aient tendance a etre plus legers, on s'assure que chaque menu atteint les bons objectifs nutritionnels. Si vous etes actif pendant l'ete, le menu en tient compte. Vous pouvez definir vos preferences caloriques dans votre profil et le menu ajuste les portions en consequence."
       },
       {
-        "question": "How do you handle grilling if I don't have an outdoor grill?",
-        "answer": "Every grilled recipe works just as well on a stovetop grill pan or under the broiler. We note alternatives in the recipe instructions so apartment dwellers are covered too."
+        "question": "Comment gerez-vous les grillades si je n'ai pas de barbecue ?",
+        "answer": "Chaque recette de grillade fonctionne aussi bien sur une poele-gril ou sous le gril du four. Nous indiquons les alternatives dans les instructions de la recette pour que les citadins en appartement soient aussi couverts."
       },
       {
-        "question": "Can I meal prep summer meals ahead of time?",
-        "answer": "Absolutely. Most summer recipes are built for meal prep — grain bowls, overnight oats, and marinated proteins all improve with a day in the fridge. We flag which meals prep well and which are best made fresh."
+        "question": "Peut-on preparer les repas d'ete a l'avance ?",
+        "answer": "Absolument. La plupart des recettes d'ete sont concues pour la preparation a l'avance — bols de cereales, overnight oats et proteines marinees s'ameliorent meme apres une nuit au frigo. On indique quels repas se pretent bien a la preparation et lesquels sont meilleurs faits minute."
       },
       {
-        "question": "Do summer plans include kid-friendly options?",
-        "answer": "Yes. Grilled proteins, fresh fruit, and simple salads are naturally kid-friendly. You can note dietary preferences for your household in your profile and we'll adjust accordingly."
+        "question": "Les menus d'ete proposent-ils des options adaptees aux enfants ?",
+        "answer": "Oui. Les proteines grillees, les fruits frais et les salades simples plaisent naturellement aux enfants. Vous pouvez noter les preferences alimentaires de votre foyer dans votre profil et nous ajusterons en consequence."
       }
     ]
   },
@@ -5938,81 +5938,81 @@
     "title": "Plans Repas d'Hiver",
     "metaDescription": "Plans repas reconfortants pour l'hiver. Soupes, ragoouts et plats mijotes pour les soirees froides. Essai gratuit.",
     "h1": "Plans Repas d'Hiver Reconfortants et Chaleureux",
-    "intro": "When the temperature drops, your meals should rise to the occasion. A well-built winter meal plan means coming home to simmering stews, golden roasted vegetables, and one-pot meals that warm you from the inside out. We plan your week around seasonal winter produce like root vegetables, squash, and citrus so every meal feels cozy, nourishing, and worth the effort.",
+    "intro": "Quand les temperatures chutent, vos repas doivent etre a la hauteur. Un bon menu d'hiver, c'est rentrer chez soi pour trouver des ragouts qui mijotent, des legumes dores au four et des plats uniques qui vous rechauffent de l'interieur. On planifie votre semaine autour des produits d'hiver de saison — legumes-racines, courges et agrumes — pour que chaque repas soit reconfortant, nourrissant et qui en vaille la peine.",
     "valueProps": [
       {
-        "heading": "Soups and stews on autopilot",
-        "description": "Slow cooker and one-pot recipes that cook while you go about your day. Come home to a ready meal without the fuss."
+        "heading": "Soupes et ragouts en pilote automatique",
+        "description": "Des recettes a la mijoteuse et en un seul plat qui cuisent pendant que vous vaquez a vos occupations. Rentrez chez vous avec un repas pret sans aucun stress."
       },
       {
-        "heading": "Seasonal winter produce",
-        "description": "Plans built around what's actually in season — butternut squash, sweet potatoes, kale, Brussels sprouts, pears, and citrus at their peak flavor and lowest price."
+        "heading": "Des legumes d'hiver de saison",
+        "description": "Des menus construits autour de ce qui est reellement de saison — courge butternut, patates douces, chou frise, choux de Bruxelles, poires et agrumes au sommet de leur saveur et au prix le plus bas."
       },
       {
-        "heading": "Comfort food, balanced",
-        "description": "Hearty doesn't have to mean heavy. We keep the warmth and satisfaction of comfort food while balancing macros so you feel energized, not sluggish."
+        "heading": "Cuisine reconfortante, mais equilibree",
+        "description": "Copieux ne veut pas dire lourd. On preserve la chaleur et la satisfaction de la cuisine reconfortante tout en equilibrant les macros pour que vous vous sentiez energise, pas raplapla."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Butternut Squash Soup with Crusty Bread",
-        "description": "Velvety roasted butternut squash blended with warming spices and a swirl of cream, served with a thick slice of sourdough.",
+        "name": "Veloute de courge butternut et pain croustillant",
+        "description": "Courge butternut rotie mixee en veloute onctueux avec des epices chaudes et un filet de creme, servi avec une epaisse tranche de pain au levain.",
         "tags": [
-          "one-pot",
-          "seasonal",
-          "comfort"
+          "plat-unique",
+          "de-saison",
+          "reconfortant"
         ]
       },
       {
-        "name": "Beef & Root Vegetable Stew",
-        "description": "Tender beef chuck slow-cooked with carrots, parsnips, and potatoes in a rich herb-infused broth. The kind of meal that makes the whole house smell amazing.",
+        "name": "Ragout de boeuf aux legumes-racines",
+        "description": "Morceaux de boeuf tendres mijotes longuement avec carottes, panais et pommes de terre dans un bouillon riche aux herbes. Le genre de plat qui embaume toute la maison.",
         "tags": [
-          "slow-cooker",
-          "high-protein",
-          "comfort"
+          "mijoteuse",
+          "riche-en-proteines",
+          "reconfortant"
         ]
       },
       {
-        "name": "Baked Oatmeal with Cinnamon Apples",
-        "description": "Warm baked oats studded with cinnamon-spiced apple chunks, walnuts, and a drizzle of maple syrup. Slice and reheat all week.",
+        "name": "Porridge au four aux pommes cannelle",
+        "description": "Flocons d'avoine cuits au four avec des morceaux de pomme a la cannelle, des noix et un filet de sirop d'erable. A couper en tranches et rechauffer toute la semaine.",
         "tags": [
-          "meal-prep",
-          "seasonal"
+          "a-preparer",
+          "de-saison"
         ]
       },
       {
-        "name": "Chicken Pot Pie with Flaky Pastry",
-        "description": "Creamy chicken and vegetable filling under a golden puff pastry lid. Classic comfort food with balanced portions.",
+        "name": "Tourte au poulet et sa pate feuilletee",
+        "description": "Garniture cremeuse de poulet et legumes sous un couvercle de pate feuilletee doree. Le grand classique reconfortant en portions equilibrees.",
         "tags": [
-          "comfort",
-          "family-friendly"
+          "reconfortant",
+          "familial"
         ]
       },
       {
-        "name": "Roasted Pear with Yogurt & Honey",
-        "description": "Halved pears roasted until caramelized, topped with a dollop of Greek yogurt and a drizzle of raw honey.",
+        "name": "Poire rotie au yaourt et au miel",
+        "description": "Demi-poires roties jusqu'a caramelisation, garnies d'une cuillere de yaourt grec et d'un filet de miel brut.",
         "tags": [
-          "seasonal",
-          "quick"
+          "de-saison",
+          "rapide"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Are winter meal plans higher in calories?",
-        "answer": "They can be slightly more substantial to match the body's natural tendency toward heartier food in cold weather, but every plan respects your calorie preferences. If you're targeting weight loss during winter, just set that in your profile and we'll adjust portions while keeping meals warm and satisfying."
+        "question": "Les menus d'hiver sont-ils plus caloriques ?",
+        "answer": "Ils peuvent etre legerement plus consistants pour s'adapter a la tendance naturelle du corps vers une alimentation plus copieuse par temps froid, mais chaque menu respecte vos preferences caloriques. Si vous visez une perte de poids en hiver, definissez-le simplement dans votre profil et nous ajusterons les portions tout en gardant les repas chauds et satisfaisants."
       },
       {
-        "question": "Do you include slow cooker and Instant Pot recipes?",
-        "answer": "Yes. Many winter meals are designed for slow cookers or pressure cookers since they're perfect for stews, soups, and braised meats. We always include stovetop alternatives if you don't have either appliance."
+        "question": "Incluez-vous des recettes pour mijoteuse et cocotte-minute ?",
+        "answer": "Oui. De nombreux plats d'hiver sont concus pour les mijoteuses ou les cocottes-minutes puisqu'elles sont ideales pour les ragouts, les soupes et les viandes braisees. Nous incluons toujours des alternatives sur la cuisiniere si vous n'avez aucun de ces appareils."
       },
       {
-        "question": "What winter vegetables do the plans focus on?",
-        "answer": "We prioritize what's in season and affordable: butternut squash, sweet potatoes, parsnips, turnips, kale, Brussels sprouts, cabbage, beets, and citrus fruits. These are at their peak flavor and lowest price during winter months."
+        "question": "Quels legumes d'hiver les menus privilegient-ils ?",
+        "answer": "Nous privilegions ce qui est de saison et abordable : courge butternut, patates douces, panais, navets, chou frise, choux de Bruxelles, chou, betteraves et agrumes. Ce sont des produits au sommet de leur saveur et au prix le plus bas pendant les mois d'hiver."
       },
       {
-        "question": "Can I freeze winter meal prep?",
-        "answer": "Most soups, stews, and casseroles freeze beautifully for 2-3 months. We flag which recipes are freezer-friendly so you can batch cook on the weekend and have quick weeknight meals ready to reheat."
+        "question": "Peut-on congeler les preparations d'hiver ?",
+        "answer": "La plupart des soupes, ragouts et gratins se congelent parfaitement pendant 2 a 3 mois. Nous indiquons quelles recettes sont adaptees a la congelation pour que vous puissiez cuisiner en lot le week-end et avoir des repas de semaine rapides prets a rechauffer."
       }
     ]
   },
@@ -6020,88 +6020,88 @@
     "title": "Plans Repas Pour le Ramadan",
     "metaDescription": "Plans repas pour le Ramadan avec suhoor et iftar equilibres. Repas nourrissants pour le jeune. Essai gratuit.",
     "h1": "Plans Repas Pour le Ramadan Equilibres et Energisants",
-    "intro": "Eating well during Ramadan means making every meal count. With only two eating windows, your suhoor needs to sustain you through a full day of fasting, and your iftar should replenish without overwhelming your system. We build weekly Ramadan plans with slow-releasing energy at suhoor, gentle iftar starters, and satisfying main meals — all halal, hydration-conscious, and designed to keep your energy steady from dawn to dusk.",
+    "intro": "Bien manger pendant le Ramadan signifie que chaque repas doit compter. Avec seulement deux fenetres alimentaires, votre suhoor doit vous soutenir toute la journee de jeune, et votre iftar doit vous reapprovisionner sans surcharger votre systeme. On compose des menus hebdomadaires pour le Ramadan avec une energie a liberation lente au suhoor, des entrees d'iftar douces et des plats principaux satisfaisants — le tout halal, pense pour l'hydratation et concu pour maintenir votre energie de l'aube au crepuscule.",
     "valueProps": [
       {
-        "heading": "Suhoor that sustains",
-        "description": "Pre-dawn meals built around complex carbs, protein, and healthy fats — oats, eggs, whole grains, and dates — so you stay energized and full through the fasting hours."
+        "heading": "Un suhoor qui tient la distance",
+        "description": "Des repas d'avant l'aube construits autour de glucides complexes, de proteines et de bonnes graisses — flocons d'avoine, oeufs, cereales completes et dattes — pour rester energise et rassasie pendant les heures de jeune."
       },
       {
-        "heading": "Iftar in stages",
-        "description": "Plans follow the traditional practice of breaking fast gently with dates and water, then a light soup or salad, followed by a balanced main course to ease your digestive system back in."
+        "heading": "Un iftar par etapes",
+        "description": "Les menus suivent la pratique traditionnelle de rompre le jeune en douceur avec des dattes et de l'eau, puis une soupe ou salade legere, suivie d'un plat principal equilibre pour remettre en marche votre systeme digestif progressivement."
       },
       {
-        "heading": "Hydration-focused",
-        "description": "Water-rich foods like cucumbers, soups, and fresh fruits are woven throughout iftar and suhoor to help you rehydrate during the eating window and reduce thirst during the day."
+        "heading": "L'hydratation au coeur du menu",
+        "description": "Des aliments riches en eau comme le concombre, les soupes et les fruits frais sont tisses dans l'iftar et le suhoor pour vous aider a vous rehydrater pendant la fenetre alimentaire et reduire la soif pendant la journee."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Overnight Oats with Dates, Banana & Almonds",
-        "description": "Creamy oats soaked in milk with chopped dates, sliced banana, and crushed almonds. High in slow-releasing carbs and healthy fats to carry you through the fast.",
+        "name": "Overnight oats aux dattes, banane et amandes",
+        "description": "Flocons d'avoine cremeux trempes dans du lait avec des dattes hachees, des rondelles de banane et des amandes concassees. Riche en glucides a liberation lente et en bonnes graisses pour tenir pendant le jeune.",
         "tags": [
           "suhoor",
-          "meal-prep",
-          "no-cook"
+          "a-preparer",
+          "sans-cuisson"
         ]
       },
       {
-        "name": "Red Lentil Soup with Lemon",
-        "description": "A silky, warming lentil soup seasoned with cumin and finished with a squeeze of lemon. A traditional and gentle way to begin iftar after dates and water.",
+        "name": "Soupe de lentilles corail au citron",
+        "description": "Un veloute de lentilles soyeux et reconfortant assaisonne au cumin et termine d'un filet de citron. Une facon traditionnelle et douce de commencer l'iftar apres les dattes et l'eau.",
         "tags": [
           "iftar",
-          "one-pot",
-          "hydrating"
+          "plat-unique",
+          "hydratant"
         ]
       },
       {
-        "name": "Chicken Shawarma Rice Bowls",
-        "description": "Spiced chicken thighs over fragrant basmati rice with garlic sauce, pickled turnips, and a fresh cucumber-tomato salad.",
+        "name": "Bol shawarma au poulet et riz",
+        "description": "Cuisses de poulet epicees sur riz basmati parfume avec sauce a l'ail, navets marines et salade fraiche concombre-tomate.",
         "tags": [
           "iftar",
-          "high-protein",
+          "riche-en-proteines",
           "halal"
         ]
       },
       {
-        "name": "Scrambled Eggs with Labneh & Za'atar Flatbread",
-        "description": "Fluffy scrambled eggs served alongside creamy labneh drizzled with olive oil and za'atar, with warm flatbread for scooping.",
+        "name": "Oeufs brouilles au labneh et pain au zaatar",
+        "description": "Oeufs brouilles moelleux servis avec du labneh cremeux arrose d'huile d'olive et de zaatar, accompagnes de pain plat chaud pour tremper.",
         "tags": [
           "suhoor",
-          "high-protein",
-          "quick"
+          "riche-en-proteines",
+          "rapide"
         ]
       },
       {
-        "name": "Fresh Fruit Platter with Rosewater Yogurt",
-        "description": "Sliced watermelon, grapes, and orange segments served with chilled yogurt lightly perfumed with rosewater and a sprinkle of pistachios.",
+        "name": "Plateau de fruits frais au yaourt a l'eau de rose",
+        "description": "Tranches de pasteque, raisins et quartiers d'orange servis avec un yaourt frais legerement parfume a l'eau de rose et parseme de pistaches.",
         "tags": [
           "iftar",
-          "hydrating",
-          "no-cook"
+          "hydratant",
+          "sans-cuisson"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How does the meal plan handle the two-meal structure of Ramadan?",
-        "answer": "Each day includes a suhoor (pre-dawn) meal and a multi-part iftar (post-sunset). Suhoor focuses on sustained energy with complex carbs and protein. Iftar begins with dates and water, moves to a light soup or salad, then a balanced main dish. Portions are calibrated so you get full daily nutrition within these two windows."
+        "question": "Comment le menu gere-t-il la structure en deux repas du Ramadan ?",
+        "answer": "Chaque journee comprend un repas de suhoor (avant l'aube) et un iftar en plusieurs temps (apres le coucher du soleil). Le suhoor est axe sur l'energie durable avec des glucides complexes et des proteines. L'iftar commence avec des dattes et de l'eau, passe a une soupe ou salade legere, puis un plat principal equilibre. Les portions sont calibrees pour que vous obteniez votre nutrition quotidienne complete dans ces deux fenetres."
       },
       {
-        "question": "Are all the meals halal?",
-        "answer": "Yes. Every recipe in the Ramadan plan uses halal ingredients. We avoid pork, alcohol-based sauces, and non-halal gelatin. When sourcing meat, we recommend purchasing from a halal butcher or using certified halal brands."
+        "question": "Tous les repas sont-ils halal ?",
+        "answer": "Oui. Chaque recette du menu de Ramadan utilise des ingredients halal. Nous evitons le porc, les sauces a base d'alcool et la gelatine non halal. Pour l'approvisionnement en viande, nous recommandons d'acheter chez un boucher halal ou d'utiliser des marques certifiees halal."
       },
       {
-        "question": "How do I stay hydrated while fasting?",
-        "answer": "The plan includes water-rich foods like soups, cucumbers, watermelon, and yogurt at both suhoor and iftar. We recommend drinking water steadily between iftar and suhoor rather than all at once. Limiting caffeine and very salty foods also helps reduce daytime thirst."
+        "question": "Comment rester hydrate pendant le jeune ?",
+        "answer": "Le menu inclut des aliments riches en eau comme les soupes, le concombre, la pasteque et le yaourt au suhoor et a l'iftar. Nous recommandons de boire de l'eau regulierement entre l'iftar et le suhoor plutot que tout d'un coup. Limiter la cafeine et les aliments tres sales aide aussi a reduire la soif pendant la journee."
       },
       {
-        "question": "Can I meal prep during Ramadan?",
-        "answer": "Absolutely, and we encourage it. Many iftar mains and soups can be prepped on the weekend and reheated during the week. Suhoor items like overnight oats take 5 minutes the night before. Meal prep means less cooking when you're fasting and more time for worship and rest."
+        "question": "Peut-on preparer les repas a l'avance pendant le Ramadan ?",
+        "answer": "Absolument, et nous l'encourageons. De nombreux plats principaux et soupes d'iftar peuvent etre prepares le week-end et rechauffes en semaine. Les elements du suhoor comme les overnight oats se preparent en 5 minutes la veille. La preparation a l'avance signifie moins de cuisine quand vous jeunez et plus de temps pour la priere et le repos."
       },
       {
-        "question": "What if I'm also trying to maintain or lose weight during Ramadan?",
-        "answer": "You can set a calorie target in your profile and the plan will adjust portions accordingly. Fasting naturally reduces your eating window, but calorie-dense iftar meals can offset that. Our plans balance nutrition so you're properly fueled without overeating at iftar."
+        "question": "Et si je veux aussi maintenir ou perdre du poids pendant le Ramadan ?",
+        "answer": "Vous pouvez definir un objectif calorique dans votre profil et le menu ajustera les portions en consequence. Le jeune reduit naturellement votre fenetre alimentaire, mais des repas d'iftar riches en calories peuvent compenser cet effet. Nos menus equilibrent la nutrition pour que vous soyez correctement alimente sans exces a l'iftar."
       }
     ]
   },
@@ -6109,81 +6109,81 @@
     "title": "Plans Repas Pour le Careme",
     "metaDescription": "Plans repas pour le Careme avec vendredis sans viande. Poisson et recettes vegetariennes savoureuses. Essai gratuit.",
     "h1": "Plans Repas Pour le Careme Simples et Savoureux",
-    "intro": "Observing Lent doesn't mean eating plain pasta for 40 days. A thoughtful Lent meal plan gives you satisfying meatless Fridays with fish, legumes, and vegetable-forward dishes while keeping the rest of the week balanced and nourishing. We plan around the fasting and abstinence traditions so you can focus on the spiritual side of the season without stressing about what to cook.",
+    "intro": "Observer le Careme ne signifie pas manger des pates nature pendant 40 jours. Un menu de Careme bien pense vous propose des vendredis sans viande savoureux avec du poisson, des legumineuses et des plats riches en legumes, tout en gardant le reste de la semaine equilibre et nourrissant. On planifie en tenant compte des traditions de jeune et d'abstinence pour que vous puissiez vous concentrer sur la dimension spirituelle de cette periode sans vous soucier de quoi cuisiner.",
     "valueProps": [
       {
-        "heading": "Meatless Fridays, handled",
-        "description": "Every Friday features flavorful fish or vegetarian dishes that fully satisfy. No sad salads — think baked salmon, shrimp pasta, and hearty bean stews."
+        "heading": "Les vendredis sans viande, c'est gere",
+        "description": "Chaque vendredi propose des plats savoureux a base de poisson ou vegetariens qui rassasient pleinement. Pas de salades tristes — pensez saumon au four, pates aux crevettes et ragouts de haricots copieux."
       },
       {
-        "heading": "Simple and intentional",
-        "description": "Lent is a season of simplicity. Meals use straightforward ingredients and uncomplicated techniques, making cooking feel less like a chore and more like a mindful practice."
+        "heading": "Simple et intentionnel",
+        "description": "Le Careme est une periode de simplicite. Les repas utilisent des ingredients accessibles et des techniques simples, faisant de la cuisine un moment de pleine conscience plutot qu'une corvee."
       },
       {
-        "heading": "Nutritionally complete",
-        "description": "Reducing meat doesn't mean reducing nutrition. Plans ensure you get enough protein, iron, and B vitamins through fish, eggs, legumes, and dairy throughout the week."
+        "heading": "Nutritionnellement complet",
+        "description": "Reduire la viande ne veut pas dire reduire la nutrition. Les menus garantissent un apport suffisant en proteines, fer et vitamines B grace au poisson, aux oeufs, aux legumineuses et aux produits laitiers tout au long de la semaine."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Lemon-Herb Baked Salmon with Asparagus",
-        "description": "Salmon fillet baked with fresh herbs and lemon slices alongside roasted asparagus. A simple, elegant Friday dinner ready in 25 minutes.",
+        "name": "Saumon au four citron-herbes et asperges",
+        "description": "Pave de saumon cuit au four avec herbes fraiches et rondelles de citron, accompagne d'asperges roties. Un diner du vendredi simple et elegant, pret en 25 minutes.",
         "tags": [
-          "meatless-friday",
-          "high-protein",
-          "one-pan"
+          "vendredi-maigre",
+          "riche-en-proteines",
+          "une-plaque"
         ]
       },
       {
-        "name": "White Bean & Kale Soup",
-        "description": "A rustic Italian-inspired soup with cannellini beans, Tuscan kale, garlic, and a Parmesan rind simmered until rich and comforting.",
+        "name": "Soupe de haricots blancs au chou frise",
+        "description": "Une soupe rustique d'inspiration italienne avec des haricots cannellini, du chou frise toscan, de l'ail et une croute de parmesan mijotee jusqu'a obtenir un resultat riche et reconfortant.",
         "tags": [
-          "meatless-friday",
-          "one-pot",
-          "comfort"
+          "vendredi-maigre",
+          "plat-unique",
+          "reconfortant"
         ]
       },
       {
-        "name": "Egg & Cheese Breakfast Wrap",
-        "description": "Scrambled eggs with sharp cheddar and sautéed peppers wrapped in a warm whole wheat tortilla. Quick, filling, protein-packed.",
+        "name": "Wrap petit-dejeuner aux oeufs et fromage",
+        "description": "Oeufs brouilles avec cheddar affine et poivrons sautes roules dans une tortilla de ble complet chaude. Rapide, rassasiant et riche en proteines.",
         "tags": [
-          "quick",
-          "high-protein"
+          "rapide",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Shrimp Scampi with Linguine",
-        "description": "Garlicky shrimp sautéed in white wine and butter, tossed with linguine, cherry tomatoes, and fresh parsley.",
+        "name": "Crevettes scampi aux linguine",
+        "description": "Crevettes a l'ail sautees au vin blanc et au beurre, melangees avec des linguine, des tomates cerises et du persil frais.",
         "tags": [
-          "meatless-friday",
-          "quick"
+          "vendredi-maigre",
+          "rapide"
         ]
       },
       {
-        "name": "Apple & Peanut Butter Rice Cakes",
-        "description": "Crunchy rice cakes topped with peanut butter and thinly sliced apple. A satisfying afternoon snack with fiber and protein.",
+        "name": "Galettes de riz au beurre de cacahuete et pomme",
+        "description": "Galettes de riz croustillantes garnies de beurre de cacahuete et de fines tranches de pomme. Un gouter satisfaisant avec fibres et proteines.",
         "tags": [
-          "quick",
-          "no-cook"
+          "rapide",
+          "sans-cuisson"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Does the plan follow Catholic Lenten rules?",
-        "answer": "Yes. The plan observes the standard Catholic practice: no meat on Fridays during Lent, and reduced portions on Ash Wednesday and Good Friday. Fish, eggs, and dairy are permitted on abstinence days. If your tradition has different rules (such as Eastern Orthodox fasting), you can adjust preferences in your profile."
+        "question": "Le menu suit-il les regles du Careme catholique ?",
+        "answer": "Oui. Le menu observe la pratique catholique standard : pas de viande le vendredi pendant le Careme, et des portions reduites le Mercredi des Cendres et le Vendredi saint. Le poisson, les oeufs et les produits laitiers sont autorises les jours d'abstinence. Si votre tradition a des regles differentes (comme le jeune orthodoxe), vous pouvez ajuster vos preferences dans votre profil."
       },
       {
-        "question": "What counts as 'meat' during Lent?",
-        "answer": "In the Catholic tradition, meat refers to the flesh of warm-blooded animals — beef, pork, chicken, and lamb. Fish and shellfish are not considered meat and are permitted on Fridays. Our Friday meals always use fish, seafood, or fully vegetarian ingredients."
+        "question": "Qu'entend-on par « viande » pendant le Careme ?",
+        "answer": "Dans la tradition catholique, la viande designe la chair des animaux a sang chaud — boeuf, porc, poulet et agneau. Le poisson et les fruits de mer ne sont pas consideres comme de la viande et sont autorises le vendredi. Nos repas du vendredi utilisent toujours du poisson, des fruits de mer ou des ingredients entierement vegetariens."
       },
       {
-        "question": "Are the non-Friday meals regular meals with meat?",
-        "answer": "Yes. Monday through Thursday and on weekends, the plan includes balanced meals with whatever proteins you prefer, including poultry, beef, and pork. The meatless restriction only applies to Fridays (and optionally Ash Wednesday and Good Friday)."
+        "question": "Les repas hors vendredi sont-ils des repas normaux avec de la viande ?",
+        "answer": "Oui. Du lundi au jeudi et le week-end, le menu comprend des repas equilibres avec les proteines de votre choix, y compris la volaille, le boeuf et le porc. La restriction sans viande ne s'applique qu'aux vendredis (et facultativement au Mercredi des Cendres et au Vendredi saint)."
       },
       {
-        "question": "Can I make the entire plan vegetarian for all of Lent?",
-        "answer": "Absolutely. Some people choose to abstain from meat for the full 40 days as a more intentional practice. Set your profile to vegetarian and the plan will use fish, eggs, dairy, and plant proteins for every meal throughout the season."
+        "question": "Peut-on rendre tout le menu vegetarien pour l'ensemble du Careme ?",
+        "answer": "Absolument. Certaines personnes choisissent de s'abstenir de viande pendant les 40 jours complets comme pratique plus intentionnelle. Definissez votre profil sur vegetarien et le menu utilisera du poisson, des oeufs, des produits laitiers et des proteines vegetales pour chaque repas tout au long de la saison."
       }
     ]
   },
@@ -6191,84 +6191,84 @@
     "title": "Plans Repas Pour la Rentree",
     "metaDescription": "Plans repas pour la rentree scolaire. Repas rapides en semaine et lunchbox equilibrees pour les enfants. Essai gratuit.",
     "h1": "Plans Repas Pour la Rentree Rapides et Equilibres",
-    "intro": "The school year brings a tidal wave of early mornings, packed schedules, and the eternal question: what's for lunch tomorrow? A back-to-school meal plan takes the chaos out of feeding your family by giving you quick breakfasts kids will actually eat, lunches that survive a backpack, and dinners the whole table enjoys. Every recipe is designed for speed, simplicity, and real-kid approval.",
+    "intro": "La rentree amene son lot de levers matinaux, d'emplois du temps surcharges et de l'eternelle question : qu'est-ce qu'on met dans la boite a lunch demain ? Un menu de rentree chasse le chaos de l'alimentation familiale en vous proposant des petits-dejeuners rapides que les enfants mangent vraiment, des repas de midi qui survivent au cartable, et des diners qui plaisent a toute la tablée. Chaque recette est concue pour la rapidite, la simplicite et l'approbation reelle des enfants.",
     "valueProps": [
       {
-        "heading": "5-minute breakfasts",
-        "description": "No-fuss morning meals that fuel kids for the school day — overnight oats, smoothies, egg muffins, and grab-and-go options that don't require a sit-down meal."
+        "heading": "Des petits-dejeuners en 5 minutes",
+        "description": "Des repas matinaux sans prise de tete qui donnent de l'energie aux enfants pour la journee d'ecole — overnight oats, smoothies, muffins aux oeufs et options a emporter qui ne necessitent pas de s'asseoir a table."
       },
       {
-        "heading": "Packable lunches that hold up",
-        "description": "Lunches designed to taste good at room temperature and survive hours in a lunchbox. Wraps, pasta salads, and bento-style boxes that kids actually open and eat."
+        "heading": "Des dejeuners a emporter qui tiennent le coup",
+        "description": "Des repas de midi concus pour etre bons a temperature ambiante et survivre a des heures dans une boite a lunch. Wraps, salades de pates et boites bento que les enfants ouvrent et mangent vraiment."
       },
       {
-        "heading": "30-minute family dinners",
-        "description": "Simple weeknight dinners that everyone at the table can enjoy. One meal, no short-order cooking, plenty of hidden vegetables, done in 30 minutes or less."
+        "heading": "Des diners familiaux en 30 minutes",
+        "description": "Des diners de semaine simples que tout le monde a table peut apprecier. Un seul plat, pas de cuisine a la carte, plein de legumes caches, boucle en 30 minutes ou moins."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Egg Muffin Cups with Cheese & Spinach",
-        "description": "Baked egg cups with cheddar and spinach, made in a batch on Sunday and reheated in 30 seconds each morning. High protein, zero weekday effort.",
+        "name": "Petits flans aux oeufs, fromage et epinards",
+        "description": "Muffins aux oeufs cuits au four avec cheddar et epinards, prepares en lot le dimanche et rechauffes en 30 secondes chaque matin. Riche en proteines, zero effort en semaine.",
         "tags": [
-          "meal-prep",
-          "kid-friendly",
-          "high-protein"
+          "a-preparer",
+          "adapte-aux-enfants",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Turkey & Cheese Pinwheel Wraps",
-        "description": "Sliced turkey and cream cheese rolled in a flour tortilla with shredded carrots. Sliced into pinwheels that are fun to eat and easy to pack.",
+        "name": "Roulades de dinde et fromage frais",
+        "description": "Tranches de dinde et fromage frais roules dans une tortilla de ble avec des carottes rapees. Coupes en roues pour etre amusantes a manger et faciles a emballer.",
         "tags": [
-          "kid-friendly",
-          "no-cook",
-          "packable"
+          "adapte-aux-enfants",
+          "sans-cuisson",
+          "a-emporter"
         ]
       },
       {
-        "name": "One-Pot Mac & Cheese with Hidden Cauliflower",
-        "description": "Creamy stovetop mac and cheese with steamed cauliflower blended right into the cheese sauce. Kids taste cheese, parents see vegetables.",
+        "name": "Mac and cheese en un seul plat au chou-fleur cache",
+        "description": "Mac and cheese cremeux a la casserole avec du chou-fleur cuit a la vapeur mixe directement dans la sauce au fromage. Les enfants goutent le fromage, les parents voient les legumes.",
         "tags": [
-          "kid-friendly",
-          "one-pot",
-          "quick"
+          "adapte-aux-enfants",
+          "plat-unique",
+          "rapide"
         ]
       },
       {
-        "name": "Sheet Pan Chicken Drumsticks & Sweet Potatoes",
-        "description": "Seasoned chicken drumsticks roasted alongside cubed sweet potatoes and green beans on a single sheet pan. Minimal prep, minimal cleanup.",
+        "name": "Pilons de poulet et patates douces sur plaque",
+        "description": "Pilons de poulet assaisonnes rotis avec des cubes de patate douce et des haricots verts sur une seule plaque de cuisson. Preparation minimale, vaisselle minimale.",
         "tags": [
-          "one-pan",
-          "family-friendly",
-          "high-protein"
+          "une-plaque",
+          "familial",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Banana & Granola Yogurt Cups",
-        "description": "Individual cups of vanilla yogurt layered with banana slices and crunchy granola. Perfect for after-school snacking.",
+        "name": "Yaourts a la banane et au granola",
+        "description": "Petits pots de yaourt a la vanille en couches avec des rondelles de banane et du granola croquant. Parfait pour le gouter apres l'ecole.",
         "tags": [
-          "kid-friendly",
-          "quick",
-          "no-cook"
+          "adapte-aux-enfants",
+          "rapide",
+          "sans-cuisson"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Are these meals suitable for picky eaters?",
-        "answer": "Yes. We focus on familiar flavors and textures that most kids enjoy, with vegetables worked in naturally rather than placed front and center. You can note picky eaters in your profile and we'll lean toward milder flavors and recognizable dishes."
+        "question": "Ces repas conviennent-ils aux enfants difficiles ?",
+        "answer": "Oui. On mise sur des saveurs et textures familieres que la plupart des enfants apprecient, avec des legumes integres naturellement plutot que mis en evidence. Vous pouvez noter les mangeurs difficiles dans votre profil et nous orienterons vers des saveurs plus douces et des plats reconnaissables."
       },
       {
-        "question": "How do I handle different dietary needs in the same family?",
-        "answer": "Set household preferences in your profile — allergies, vegetarian kids, etc. — and the plan adapts. Most dinners are designed as a single base recipe with optional add-ons or simple swaps so you're not cooking multiple meals."
+        "question": "Comment gerer des besoins alimentaires differents dans la meme famille ?",
+        "answer": "Definissez les preferences du foyer dans votre profil — allergies, enfants vegetariens, etc. — et le menu s'adapte. La plupart des diners sont concus comme une recette de base unique avec des ajouts optionnels ou des echanges simples pour eviter de cuisiner plusieurs repas."
       },
       {
-        "question": "Can I batch prep lunches for the whole week?",
-        "answer": "Absolutely. Most lunch items are designed for Sunday batch prep. Pinwheel wraps, pasta salads, and muffin cups all keep well for 4-5 days in the fridge. We mark which items prep well and give storage tips."
+        "question": "Peut-on preparer les dejeuners en lot pour toute la semaine ?",
+        "answer": "Absolument. La plupart des elements du dejeuner sont concus pour la preparation du dimanche en lot. Wraps roules, salades de pates et muffins aux oeufs se conservent 4 a 5 jours au refrigerateur. Nous indiquons quels plats se pretent bien a la preparation a l'avance et donnons des conseils de conservation."
       },
       {
-        "question": "My kids have food allergies — can the plan accommodate that?",
-        "answer": "Yes. Note any allergies (nut-free, dairy-free, gluten-free, etc.) in your profile and the plan will exclude those ingredients entirely. School-safe options avoid common allergens like tree nuts and peanuts by default when you flag a school allergy policy."
+        "question": "Mes enfants ont des allergies alimentaires — le menu peut-il s'y adapter ?",
+        "answer": "Oui. Notez les allergies (sans noix, sans lactose, sans gluten, etc.) dans votre profil et le menu exclura entierement ces ingredients. Les options compatibles avec l'ecole evitent par defaut les allergenes courants comme les fruits a coque et les cacahuetes lorsque vous signalez une politique d'allergies scolaire."
       }
     ]
   },
@@ -6276,83 +6276,83 @@
     "title": "Plan Repas Keto Pour Perdre du Poids",
     "metaDescription": "Plan repas cetogene optimise pour la perte de poids. Broulez les graisses en cetose avec des repas savoureux. Essai gratuit.",
     "h1": "Plan Repas Keto Pour Perdre du Poids Efficacement",
-    "intro": "Keto works for weight loss because it shifts your body into fat-burning mode — but only if you do it right. A sloppy keto diet full of bacon and butter bombs stalls progress fast. Our keto weight loss plans hit the right macros (70% fat, 25% protein, 5% carbs) while keeping calories in a sustainable deficit so you burn fat without feeling deprived or running on fumes.",
+    "intro": "Le regime cetogene fonctionne pour la perte de poids parce qu'il bascule votre corps en mode bruleur de graisses — mais seulement si c'est bien fait. Un regime ceto brouillon bourre de bacon et de bombes de beurre cale vite la progression. Nos menus ceto pour la perte de poids atteignent les bons macros (70 % de lipides, 25 % de proteines, 5 % de glucides) tout en maintenant un deficit calorique tenable pour bruler du gras sans privation ni manque d'energie.",
     "valueProps": [
       {
-        "heading": "Proper keto macros, not guesswork",
-        "description": "Every meal is calculated to keep you under 25g net carbs per day while hitting adequate protein to preserve muscle during your deficit. No macro tracking required on your end."
+        "heading": "Les vrais macros ceto, pas du bricolage",
+        "description": "Chaque repas est calcule pour vous maintenir sous 25 g de glucides nets par jour tout en atteignant assez de proteines pour preserver le muscle pendant votre deficit. Aucun comptage de macros necessaire de votre cote."
       },
       {
-        "heading": "Calorie deficit built in",
-        "description": "Being in ketosis doesn't guarantee weight loss — calories still matter. Our plans combine keto macros with a moderate calorie deficit so you're burning fat from two angles."
+        "heading": "Un deficit calorique integre",
+        "description": "Etre en cetose ne garantit pas la perte de poids — les calories comptent toujours. Nos menus combinent les macros ceto avec un deficit calorique modere pour bruler les graisses sur deux fronts."
       },
       {
-        "heading": "Satisfying, real food",
-        "description": "Avocados, salmon, olive oil, cheese, nuts, and quality meats. These plans prove keto doesn't have to mean sad bunless burgers over a sink."
+        "heading": "De vrais aliments satisfaisants",
+        "description": "Avocats, saumon, huile d'olive, fromage, fruits a coque et viandes de qualite. Ces menus prouvent que le ceto ne se resume pas a de tristes steaks haches sans pain au-dessus de l'evier."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Avocado & Bacon Egg Cups",
-        "description": "Halved avocados filled with an egg and topped with crumbled bacon, baked until set. High fat, high protein, virtually zero carbs.",
+        "name": "Avocat farci a l'oeuf et au bacon",
+        "description": "Moities d'avocat garnies d'un oeuf et de bacon emiette, cuites au four jusqu'a prise. Riche en lipides, riche en proteines, quasiment zero glucide.",
         "tags": [
-          "keto",
-          "high-fat",
-          "high-protein"
+          "ceto",
+          "riche-en-lipides",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Grilled Salmon over Cauliflower Mash",
-        "description": "Pan-seared salmon fillet on a bed of buttery garlic cauliflower mash with steamed broccolini on the side.",
+        "name": "Saumon grille sur ecrase de chou-fleur",
+        "description": "Pave de saumon poele sur un lit de puree de chou-fleur au beurre et a l'ail, avec des brocolis a la vapeur en accompagnement.",
         "tags": [
-          "keto",
-          "high-protein",
-          "low-carb"
+          "ceto",
+          "riche-en-proteines",
+          "pauvre-en-glucides"
         ]
       },
       {
-        "name": "Cobb Salad with Ranch Dressing",
-        "description": "Chopped romaine with grilled chicken, hard-boiled egg, avocado, bacon, blue cheese, and a creamy full-fat ranch dressing.",
+        "name": "Salade Cobb et sauce ranch",
+        "description": "Romaine hachee avec poulet grille, oeuf dur, avocat, bacon, fromage bleu et une sauce ranch cremeuse au lait entier.",
         "tags": [
-          "keto",
-          "no-cook",
-          "high-protein"
+          "ceto",
+          "sans-cuisson",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Zucchini Noodle Bolognese",
-        "description": "Spiralized zucchini topped with a rich ground beef and tomato sauce cooked low and slow with Italian herbs.",
+        "name": "Bolognaise de courgettes",
+        "description": "Tagliatelles de courgettes spiralisees garnies d'une riche sauce bolognaise au boeuf hache mijotee longuement avec des herbes italiennes.",
         "tags": [
-          "keto",
-          "low-carb"
+          "ceto",
+          "pauvre-en-glucides"
         ]
       },
       {
-        "name": "Fat Bombs — Chocolate Peanut Butter",
-        "description": "Bite-sized treats made with coconut oil, cocoa powder, and natural peanut butter. 2g net carbs per piece, satisfies sweet cravings instantly.",
+        "name": "Bouchees gourmandes chocolat-cacahuete",
+        "description": "Petites bouchees a base d'huile de coco, de poudre de cacao et de beurre de cacahuete naturel. 2 g de glucides nets par piece, calme instantanement les envies de sucre.",
         "tags": [
-          "keto",
-          "meal-prep",
-          "quick"
+          "ceto",
+          "a-preparer",
+          "rapide"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How fast can I expect to lose weight on a keto meal plan?",
-        "answer": "Most people see 2-5 pounds of water weight drop in the first week as glycogen stores deplete. After that, expect 1-2 pounds per week of actual fat loss with a proper calorie deficit. Results vary based on starting weight, activity level, and consistency."
+        "question": "A quelle vitesse peut-on perdre du poids avec un menu ceto ?",
+        "answer": "La plupart des gens voient 1 a 2,5 kg de poids d'eau disparaitre la premiere semaine quand les reserves de glycogene s'epuisent. Ensuite, attendez-vous a 0,5 a 1 kg par semaine de perte de graisse reelle avec un deficit calorique adequat. Les resultats varient selon le poids de depart, le niveau d'activite et la regularite."
       },
       {
-        "question": "Will I experience the 'keto flu'?",
-        "answer": "Some people feel foggy or tired during the first 3-5 days as their body adapts to burning fat instead of carbs. Our plans include electrolyte-rich foods (avocado, leafy greens, bone broth) to minimize these symptoms. Staying hydrated and getting enough sodium helps significantly."
+        "question": "Vais-je avoir la « grippe ceto » ?",
+        "answer": "Certaines personnes ressentent un brouillard mental ou de la fatigue pendant les 3 a 5 premiers jours, le temps que le corps s'adapte a bruler des graisses au lieu des glucides. Nos menus incluent des aliments riches en electrolytes (avocat, legumes verts, bouillon d'os) pour minimiser ces symptomes. Rester bien hydrate et consommer assez de sodium aide considerablement."
       },
       {
-        "question": "How do I know if I'm in ketosis?",
-        "answer": "Common signs include reduced appetite, increased energy after the adaptation period, and a slight metallic taste. Urine test strips are cheap and easy if you want confirmation. Our plans are designed to get you into ketosis within 2-4 days if you follow them consistently."
+        "question": "Comment savoir si je suis en cetose ?",
+        "answer": "Les signes courants incluent une reduction de l'appetit, une augmentation de l'energie apres la periode d'adaptation, et un leger gout metallique. Les bandelettes urinaires sont bon marche et faciles a utiliser pour confirmation. Nos menus sont concus pour vous mettre en cetose en 2 a 4 jours si vous les suivez regulierement."
       },
       {
-        "question": "Can I do keto long-term for weight loss?",
-        "answer": "Many people cycle in and out of keto — strict keto for weight loss, then a relaxed low-carb maintenance phase. Our plans support both. Once you hit your goal weight, we can transition you to a sustainable low-carb plan that's easier to maintain."
+        "question": "Peut-on faire du ceto a long terme pour perdre du poids ?",
+        "answer": "Beaucoup de gens alternent — ceto strict pour la perte de poids, puis une phase de maintien pauvre en glucides plus souple. Nos menus soutiennent les deux approches. Une fois votre poids cible atteint, nous pouvons vous faire basculer vers un menu pauvre en glucides durable et plus facile a maintenir."
       }
     ]
   },
@@ -6360,88 +6360,88 @@
     "title": "Plan Repas Vegan Pour la Prise de Muscle",
     "metaDescription": "Plan repas vegan riche en proteines pour la croissance musculaire. Proteines vegetales optimisees. Essai gratuit.",
     "h1": "Plan Repas Vegan Pour Prendre du Muscle Sans Viande",
-    "intro": "You don't need chicken breast and whey shakes to build muscle. A well-designed vegan muscle gain plan delivers 120g+ of protein per day through smart combinations of tofu, tempeh, legumes, seitan, and whole grains. We plan your calories in a slight surplus with enough protein at every meal to maximize muscle protein synthesis — all from plants, all delicious, all without the bro-science.",
+    "intro": "Pas besoin de blanc de poulet et de shakers de whey pour construire du muscle. Un menu vegan bien concu pour la prise de masse delivre plus de 120 g de proteines par jour grace a des combinaisons intelligentes de tofu, tempeh, legumineuses, seitan et cereales completes. On planifie vos calories en leger surplus avec suffisamment de proteines a chaque repas pour maximiser la synthese proteique musculaire — tout vegetal, tout delicieux, sans pseudo-science du bodybuilding.",
     "valueProps": [
       {
-        "heading": "120g+ protein per day, fully plant-based",
-        "description": "Every meal is engineered to hit serious protein numbers through strategic combinations — rice and beans, tofu stir-fries, tempeh bowls, and protein-packed smoothies."
+        "heading": "Plus de 120 g de proteines par jour, 100 % vegetal",
+        "description": "Chaque repas est concu pour atteindre des chiffres de proteines serieux grace a des combinaisons strategiques — riz et haricots, sautes de tofu, bols de tempeh et smoothies proteines."
       },
       {
-        "heading": "Caloric surplus without junk",
-        "description": "Building muscle requires extra calories. We add them through nutrient-dense sources like nuts, avocado, whole grains, and coconut — not processed vegan junk food."
+        "heading": "Un surplus calorique sans malbouffe",
+        "description": "Construire du muscle demande des calories supplementaires. On les ajoute via des sources riches en nutriments comme les fruits a coque, l'avocat, les cereales completes et la noix de coco — pas de junk food vegan transformee."
       },
       {
-        "heading": "Complete amino acid profiles",
-        "description": "Plant proteins are combined across meals to ensure you get all essential amino acids. No single meal needs to be 'complete' — the day as a whole covers every base."
+        "heading": "Des profils complets en acides amines",
+        "description": "Les proteines vegetales sont combinees au fil des repas pour garantir que vous obtenez tous les acides amines essentiels. Aucun repas individuel n'a besoin d'etre « complet » — c'est la journee dans son ensemble qui couvre tous les besoins."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Tofu Scramble with Black Beans & Sweet Potato",
-        "description": "Crumbled firm tofu sautéed with turmeric, black beans, and roasted sweet potato cubes. 35g protein to start the day strong.",
+        "name": "Brouilllade de tofu aux haricots noirs et patate douce",
+        "description": "Tofu ferme emiette et saute au curcuma avec des haricots noirs et des cubes de patate douce rotie. 35 g de proteines pour bien demarrer la journee.",
         "tags": [
           "vegan",
-          "high-protein",
-          "quick"
+          "riche-en-proteines",
+          "rapide"
         ]
       },
       {
-        "name": "Tempeh Buddha Bowl with Tahini Dressing",
-        "description": "Marinated baked tempeh over quinoa with roasted chickpeas, shredded cabbage, pickled onions, and a creamy tahini drizzle.",
+        "name": "Buddha bowl au tempeh et vinaigrette tahini",
+        "description": "Tempeh marine et roti sur quinoa avec pois chiches grilles, chou rape, oignons marines et un filet de tahini cremeux.",
         "tags": [
           "vegan",
-          "high-protein",
-          "meal-prep"
+          "riche-en-proteines",
+          "a-preparer"
         ]
       },
       {
-        "name": "Seitan Stir-Fry with Peanut Sauce",
-        "description": "Sliced seitan wok-fried with broccoli, bell peppers, and snap peas in a spicy peanut sauce over brown rice. 40g protein per serving.",
+        "name": "Saute de seitan a la sauce cacahuete",
+        "description": "Lamelles de seitan sautees au wok avec brocolis, poivrons et pois gourmands dans une sauce cacahuete epicee, servi sur riz complet. 40 g de proteines par portion.",
         "tags": [
           "vegan",
-          "high-protein",
-          "quick"
+          "riche-en-proteines",
+          "rapide"
         ]
       },
       {
-        "name": "Lentil & Vegetable Curry",
-        "description": "Red lentils simmered in a rich coconut-tomato curry with spinach and chickpeas. Served over basmati rice with naan on the side.",
+        "name": "Curry de lentilles et legumes",
+        "description": "Lentilles corail mijotees dans un curry onctueux coco-tomate avec epinards et pois chiches. Servi sur riz basmati avec du naan en accompagnement.",
         "tags": [
           "vegan",
-          "one-pot",
-          "high-protein"
+          "plat-unique",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Protein Smoothie with Peanut Butter & Banana",
-        "description": "Frozen banana, peanut butter, soy milk, and a scoop of pea protein blended until thick. 30g protein in a glass.",
+        "name": "Smoothie proteine beurre de cacahuete et banane",
+        "description": "Banane congelee, beurre de cacahuete, lait de soja et une dose de proteines de pois mixes bien epais. 30 g de proteines dans un verre.",
         "tags": [
           "vegan",
-          "high-protein",
-          "quick"
+          "riche-en-proteines",
+          "rapide"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Can you really build muscle on a vegan diet?",
-        "answer": "Absolutely. Muscle growth requires adequate protein, caloric surplus, and resistance training — none of which require animal products. Studies show that plant protein is equally effective for muscle synthesis when total daily intake is sufficient and amino acids are balanced across meals."
+        "question": "Peut-on vraiment construire du muscle avec un regime vegan ?",
+        "answer": "Absolument. La croissance musculaire necessite des proteines adequates, un surplus calorique et de la musculation — rien de tout cela ne requiert de produits animaux. Les etudes montrent que les proteines vegetales sont tout aussi efficaces pour la synthese musculaire lorsque l'apport quotidien total est suffisant et que les acides amines sont equilibres sur l'ensemble des repas."
       },
       {
-        "question": "How much protein do I need for muscle gain?",
-        "answer": "The standard recommendation is 1.6-2.2g of protein per kg of body weight. Our plans target the higher end at roughly 2g/kg since plant proteins are slightly less bioavailable than animal proteins. For a 75kg person, that's about 150g per day, which is very achievable with whole foods."
+        "question": "Combien de proteines faut-il pour la prise de masse ?",
+        "answer": "La recommandation standard est de 1,6 a 2,2 g de proteines par kg de poids corporel. Nos menus visent le haut de la fourchette a environ 2 g/kg, car les proteines vegetales sont legerement moins biodisponibles que les proteines animales. Pour une personne de 75 kg, cela represente environ 150 g par jour, ce qui est tout a fait realisable avec des aliments complets."
       },
       {
-        "question": "Do I need vegan protein powder?",
-        "answer": "It's helpful but not required. Our plans can hit protein targets through whole foods alone — tofu, tempeh, seitan, legumes, and grains. Protein powder (pea, soy, or rice-based) simply makes it more convenient, especially for post-workout shakes."
+        "question": "Ai-je besoin de proteines en poudre vegan ?",
+        "answer": "C'est pratique mais pas indispensable. Nos menus peuvent atteindre les objectifs proteiques avec des aliments complets seuls — tofu, tempeh, seitan, legumineuses et cereales. Les proteines en poudre (pois, soja ou riz) rendent simplement la chose plus facile, surtout pour les shakers post-entrainement."
       },
       {
-        "question": "What about B12 and other nutrients vegans miss?",
-        "answer": "We recommend supplementing B12 (2,500mcg weekly) and vitamin D regardless. Our plans are rich in iron (lentils, spinach), calcium (fortified plant milk, tofu), and omega-3s (flax, chia, walnuts). We also flag when a recipe contains key micronutrients so you can track coverage."
+        "question": "Qu'en est-il de la B12 et des autres nutriments que les vegans peuvent manquer ?",
+        "answer": "Nous recommandons de supplementer en B12 (2 500 mcg par semaine) et en vitamine D dans tous les cas. Nos menus sont riches en fer (lentilles, epinards), en calcium (lait vegetal enrichi, tofu) et en omega-3 (lin, chia, noix). Nous signalons aussi quand une recette contient des micronutriments cles pour que vous puissiez suivre votre couverture."
       },
       {
-        "question": "Will I need to eat huge volumes of food?",
-        "answer": "Plant foods are generally less calorie-dense, so yes, meals can be larger. We offset this by including calorie-dense staples like nuts, nut butter, avocado, coconut milk, and whole grains. The plan is designed so you're comfortably full, not painfully stuffed."
+        "question": "Faudra-t-il manger de gros volumes de nourriture ?",
+        "answer": "Les aliments vegetaux sont generalement moins denses en calories, donc oui, les repas peuvent etre plus volumineux. On compense cela en incluant des aliments denses en calories comme les fruits a coque, les purees d'oleagineux, l'avocat, le lait de coco et les cereales completes. Le menu est concu pour que vous soyez confortablement rassasie, pas peniblement bourre."
       }
     ]
   },
@@ -6449,86 +6449,86 @@
     "title": "Plan Repas Sans Gluten Pour Debutants",
     "metaDescription": "Plan repas sans gluten simple pour ceux qui debutent. Apprenez a cuisiner sans gluten facilement. Essai gratuit.",
     "h1": "Plan Repas Sans Gluten Pour Debutants Facile et Delicieux",
-    "intro": "Going gluten-free can feel overwhelming when you're reading every label and second-guessing every ingredient. The easiest way to start is with meals that are naturally gluten-free — no specialty products, no weird flour blends, just real food that happens to have zero gluten. Our beginner plans focus on whole foods you already know and love, with clear guidance on hidden gluten traps so you build confidence fast.",
+    "intro": "Passer au sans gluten peut sembler accablant quand on lit chaque etiquette et qu'on doute de chaque ingredient. Le moyen le plus simple de commencer, c'est de miser sur des repas naturellement sans gluten — pas de produits specialises, pas de melanges de farines etranges, juste de vrais aliments qui se trouvent ne contenir aucun gluten. Nos menus pour debutants se concentrent sur des aliments complets que vous connaissez et aimez deja, avec des indications claires sur les pieges caches du gluten pour que vous gagniez en confiance rapidement.",
     "valueProps": [
       {
-        "heading": "Naturally gluten-free, not substituted",
-        "description": "Instead of replacing bread with expensive GF bread, we build meals around foods that never had gluten — rice, potatoes, corn, quinoa, oats (certified GF), and plenty of whole proteins and vegetables."
+        "heading": "Naturellement sans gluten, pas substitue",
+        "description": "Plutot que de remplacer le pain par du pain sans gluten hors de prix, on construit les repas autour d'aliments qui n'ont jamais contenu de gluten — riz, pommes de terre, mais, quinoa, avoine certifiee sans gluten, et beaucoup de proteines et de legumes."
       },
       {
-        "heading": "Hidden gluten, uncovered",
-        "description": "Soy sauce, salad dressings, marinades, and even some spice blends contain hidden gluten. Our recipes use safe alternatives and each plan includes a quick-reference guide to common gluten traps."
+        "heading": "Le gluten cache, demasque",
+        "description": "La sauce soja, les vinaigrettes, les marinades et meme certains melanges d'epices contiennent du gluten cache. Nos recettes utilisent des alternatives sures et chaque menu comprend un guide de reference rapide des pieges courants."
       },
       {
-        "heading": "Gradual and forgiving",
-        "description": "Beginner plans start with simple swaps you barely notice — tamari for soy sauce, corn tortillas for flour — so the transition feels natural instead of restrictive."
+        "heading": "Progressif et indulgent",
+        "description": "Les menus pour debutants commencent par des echanges simples que vous remarquez a peine — tamari au lieu de sauce soja, tortillas de mais au lieu de ble — pour que la transition soit naturelle plutot que restrictive."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Sweet Potato & Black Bean Breakfast Hash",
-        "description": "Cubed sweet potato pan-fried with black beans, peppers, and a fried egg on top. Naturally GF, high in fiber, and filling enough to last until lunch.",
+        "name": "Poelée de patate douce et haricots noirs au petit-dejeuner",
+        "description": "Cubes de patate douce risoles avec des haricots noirs, des poivrons et un oeuf au plat dessus. Naturellement sans gluten, riche en fibres et assez rassasiant pour tenir jusqu'au dejeuner.",
         "tags": [
-          "gluten-free",
-          "high-protein",
-          "beginner"
+          "sans-gluten",
+          "riche-en-proteines",
+          "debutant"
         ]
       },
       {
-        "name": "Chicken & Rice Soup",
-        "description": "Classic chicken soup made with rice instead of noodles, loaded with carrots, celery, and fresh dill. Comfort food that happens to be naturally gluten-free.",
+        "name": "Soupe de poulet au riz",
+        "description": "Soupe de poulet classique preparee avec du riz au lieu des nouilles, generreusement garnie de carottes, celeri et aneth frais. Un plat reconfortant qui se trouve etre naturellement sans gluten.",
         "tags": [
-          "gluten-free",
-          "one-pot",
-          "comfort"
+          "sans-gluten",
+          "plat-unique",
+          "reconfortant"
         ]
       },
       {
-        "name": "Grilled Steak with Baked Potato & Salad",
-        "description": "Seasoned ribeye steak with a loaded baked potato (butter, sour cream, chives) and a simple green salad. A dinner you'd never guess is 'gluten-free.'",
+        "name": "Entrecote grillee, pomme de terre au four et salade",
+        "description": "Entrecote assaisonnee avec une pomme de terre au four garnie (beurre, creme fraiche, ciboulette) et une salade verte toute simple. Un diner que vous ne soupconneriez jamais d'etre « sans gluten ».",
         "tags": [
-          "gluten-free",
-          "high-protein"
+          "sans-gluten",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Shrimp Taco Bowl with Corn Salsa",
-        "description": "Seasoned shrimp over cilantro-lime rice with black beans, corn salsa, avocado, and a squeeze of lime. Corn tortilla chips on the side for crunch.",
+        "name": "Bol de crevettes, salsa au mais",
+        "description": "Crevettes assaisonnees sur riz a la coriandre et au citron vert avec haricots noirs, salsa au mais, avocat et un filet de citron vert. Des chips de tortilla de mais pour le croquant.",
         "tags": [
-          "gluten-free",
-          "quick"
+          "sans-gluten",
+          "rapide"
         ]
       },
       {
-        "name": "Apple Slices with Cheese & Almonds",
-        "description": "Crisp apple slices paired with sharp cheddar cubes and a handful of roasted almonds. Simple, naturally GF, and perfectly balanced.",
+        "name": "Quartiers de pomme avec fromage et amandes",
+        "description": "Quartiers de pomme croquants accompagnes de cubes de cheddar affine et d'une poignee d'amandes grillees. Simple, naturellement sans gluten et parfaitement equilibre.",
         "tags": [
-          "gluten-free",
-          "no-cook",
-          "quick"
+          "sans-gluten",
+          "sans-cuisson",
+          "rapide"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "Is this plan suitable for celiac disease?",
-        "answer": "Our recipes use naturally gluten-free ingredients and flag common cross-contamination risks. However, if you have celiac disease, you'll need to ensure your kitchen, cookware, and ingredient sourcing are also cross-contamination-free. We recommend consulting your doctor for personalized medical advice."
+        "question": "Ce menu convient-il pour la maladie coeliaque ?",
+        "answer": "Nos recettes utilisent des ingredients naturellement sans gluten et signalent les risques courants de contamination croisee. Cependant, si vous etes coeliaque, vous devrez vous assurer que votre cuisine, vos ustensiles et votre approvisionnement en ingredients sont aussi exempts de contamination croisee. Nous recommandons de consulter votre medecin pour des conseils medicaux personnalises."
       },
       {
-        "question": "Do I need to buy specialty gluten-free products?",
-        "answer": "Not for our beginner plans. We focus on foods that are naturally GF — rice, potatoes, corn, quinoa, meat, fish, eggs, fruits, and vegetables. You'll only need tamari (GF soy sauce) and certified GF oats as specialty items, both of which are widely available at regular grocery stores."
+        "question": "Faut-il acheter des produits sans gluten specialises ?",
+        "answer": "Pas pour nos menus debutants. On se concentre sur les aliments naturellement sans gluten — riz, pommes de terre, mais, quinoa, viande, poisson, oeufs, fruits et legumes. Vous n'aurez besoin que de tamari (sauce soja sans gluten) et de flocons d'avoine certifies sans gluten comme articles specialises, tous deux largement disponibles en supermarche."
       },
       {
-        "question": "Where does gluten hide that I might not expect?",
-        "answer": "Common culprits include soy sauce (contains wheat), many salad dressings, canned soups, deli meats (fillers), seasoning blends, beer, and some medications. Our plans avoid all hidden sources and we include a cheat sheet of safe swaps with every weekly plan."
+        "question": "Ou se cache le gluten de facon inattendue ?",
+        "answer": "Les suspects habituels incluent la sauce soja (contient du ble), de nombreuses vinaigrettes, les soupes en conserve, les charcuteries (agents de charge), les melanges d'epices, la biere et certains medicaments. Nos menus evitent toutes les sources cachees et nous incluons un aide-memoire d'alternatives sures avec chaque menu hebdomadaire."
       },
       {
-        "question": "Will I lose weight going gluten-free?",
-        "answer": "Not automatically. Cutting gluten removes some processed carbs, which can lead to initial weight loss, but GF packaged foods are often higher in calories and sugar. Our plans focus on whole foods rather than GF substitutes, which naturally supports healthy weight management."
+        "question": "Vais-je perdre du poids en passant au sans gluten ?",
+        "answer": "Pas automatiquement. Supprimer le gluten elimine certains glucides transformes, ce qui peut entrainer une perte de poids initiale, mais les produits emballes sans gluten sont souvent plus caloriques et plus sucres. Nos menus se concentrent sur les aliments complets plutot que sur les substituts sans gluten, ce qui favorise naturellement une gestion saine du poids."
       },
       {
-        "question": "Are oats gluten-free?",
-        "answer": "Oats are naturally gluten-free but are often processed in facilities that also handle wheat. Look for 'certified gluten-free' oats to be safe. Our plans specify certified GF oats whenever oats appear in a recipe."
+        "question": "Les flocons d'avoine sont-ils sans gluten ?",
+        "answer": "Les flocons d'avoine sont naturellement sans gluten mais sont souvent transformes dans des usines qui traitent aussi du ble. Cherchez des flocons d'avoine « certifies sans gluten » pour etre tranquille. Nos menus specifient des flocons d'avoine certifies sans gluten a chaque fois qu'ils apparaissent dans une recette."
       }
     ]
   },
@@ -6536,88 +6536,88 @@
     "title": "Plan Repas Mediterraneen Pour la Sante Cardiaque",
     "metaDescription": "Plan repas mediterraneen bon pour le coeur. Huile d'olive, poisson et legumes pour proteger votre coeur. Essai gratuit.",
     "h1": "Plan Repas Mediterraneen Pour un Coeur en Bonne Sante",
-    "intro": "The Mediterranean diet isn't a fad — it's the most studied dietary pattern in the world for cardiovascular health, with decades of research showing reduced risk of heart disease, stroke, and high blood pressure. Our heart-focused Mediterranean plans emphasize extra-virgin olive oil, fatty fish, whole grains, legumes, and abundant vegetables while minimizing red meat, processed foods, and added sugars. It tastes like a vacation and works like medicine.",
+    "intro": "Le regime mediterraneen n'est pas une mode — c'est le modele alimentaire le plus etudie au monde pour la sante cardiovasculaire, avec des decennies de recherche montrant une reduction du risque de maladie cardiaque, d'AVC et d'hypertension. Nos menus mediterraneens axes sur le coeur privilegient l'huile d'olive extra-vierge, les poissons gras, les cereales completes, les legumineuses et les legumes en abondance, tout en minimisant la viande rouge, les produits transformes et les sucres ajoutes. Ca a le gout des vacances et l'efficacite d'un medicament.",
     "valueProps": [
       {
-        "heading": "Research-backed for heart health",
-        "description": "The PREDIMED trial and countless studies confirm that Mediterranean eating reduces cardiovascular events by up to 30%. These aren't theoretical benefits — this is one of the most evidence-backed dietary patterns that exists."
+        "heading": "Prouve par la science pour le coeur",
+        "description": "L'etude PREDIMED et d'innombrables recherches confirment que l'alimentation mediterraneenne reduit les evenements cardiovasculaires jusqu'a 30 %. Ce ne sont pas des benefices theoriques — c'est l'un des modeles alimentaires les plus solidement etayes qui existe."
       },
       {
-        "heading": "Healthy fats, front and center",
-        "description": "Extra-virgin olive oil, fatty fish (salmon, sardines, mackerel), nuts, and avocado provide the omega-3s and monounsaturated fats that actively improve cholesterol ratios and reduce inflammation."
+        "heading": "Les bonnes graisses au premier plan",
+        "description": "L'huile d'olive extra-vierge, les poissons gras (saumon, sardines, maquereau), les fruits a coque et l'avocat fournissent les omega-3 et les graisses mono-insaturees qui ameliorent activement le bilan lipidique et reduisent l'inflammation."
       },
       {
-        "heading": "Delicious enough to sustain",
-        "description": "The reason the Mediterranean diet works long-term is that it tastes incredible. Fresh herbs, garlic, lemon, quality olive oil, and seasonal produce make every meal something to look forward to."
+        "heading": "Assez delicieux pour durer",
+        "description": "La raison pour laquelle le regime mediterraneen fonctionne a long terme, c'est qu'il est delicieux. Herbes fraiches, ail, citron, huile d'olive de qualite et produits de saison rendent chaque repas rejouissant."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Shakshuka with Crusty Whole Grain Bread",
-        "description": "Eggs poached in a spiced tomato and pepper sauce with cumin, paprika, and fresh herbs. Served with whole grain bread for dipping.",
+        "name": "Shakshuka au pain complet croustillant",
+        "description": "Oeufs poches dans une sauce epicee tomate-poivron au cumin, au paprika et aux herbes fraiches. Servi avec du pain complet pour tremper.",
         "tags": [
-          "mediterranean",
-          "one-pan",
-          "heart-healthy"
+          "mediterraneen",
+          "une-poele",
+          "bon-pour-le-coeur"
         ]
       },
       {
-        "name": "Grilled Sardines with Lemon & Herb Salad",
-        "description": "Whole sardines grilled until crispy, served over a bed of mixed greens, cherry tomatoes, and cucumbers with a lemon-EVOO dressing. Omega-3 powerhouse.",
+        "name": "Sardines grillees, salade au citron et aux herbes",
+        "description": "Sardines entieres grillees jusqu'a etre croustillantes, servies sur un lit de mesclun, tomates cerises et concombres avec une vinaigrette citron-huile d'olive vierge extra. Un concentre d'omega-3.",
         "tags": [
-          "mediterranean",
-          "heart-healthy",
-          "high-protein"
+          "mediterraneen",
+          "bon-pour-le-coeur",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Baked Salmon with Olive Tapenade & Quinoa",
-        "description": "Salmon fillet topped with a briny olive-caper tapenade, baked and served over fluffy quinoa with roasted Mediterranean vegetables.",
+        "name": "Saumon au four, tapenade d'olives et quinoa",
+        "description": "Pave de saumon garni d'une tapenade d'olives et de capres, cuit au four et servi sur un quinoa moelleux avec des legumes mediterraneens rotis.",
         "tags": [
-          "mediterranean",
-          "heart-healthy",
-          "high-protein"
+          "mediterraneen",
+          "bon-pour-le-coeur",
+          "riche-en-proteines"
         ]
       },
       {
-        "name": "Chickpea & Vegetable Stew",
-        "description": "Chickpeas simmered with zucchini, tomatoes, onions, and garlic in a fragrant broth with oregano and a generous pour of olive oil.",
+        "name": "Ragout de pois chiches aux legumes",
+        "description": "Pois chiches mijottes avec courgettes, tomates, oignons et ail dans un bouillon parfume a l'origan et a l'huile d'olive genereusement versee.",
         "tags": [
-          "mediterranean",
-          "one-pot",
-          "heart-healthy"
+          "mediterraneen",
+          "plat-unique",
+          "bon-pour-le-coeur"
         ]
       },
       {
-        "name": "Mixed Nuts & Dried Figs",
-        "description": "A handful of raw almonds, walnuts, and pistachios with a few dried figs. The classic Mediterranean snack — heart-healthy fats and natural sweetness.",
+        "name": "Melange de fruits a coque et figues sechees",
+        "description": "Une poignee d'amandes, de noix et de pistaches nature avec quelques figues sechees. Le gouter mediterraneen classique — bonnes graisses et douceur naturelle.",
         "tags": [
-          "mediterranean",
-          "no-cook",
-          "heart-healthy"
+          "mediterraneen",
+          "sans-cuisson",
+          "bon-pour-le-coeur"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How does the Mediterranean diet improve heart health?",
-        "answer": "It works through multiple mechanisms: olive oil and fish reduce inflammation and improve cholesterol ratios, fiber from whole grains and legumes lowers LDL cholesterol, antioxidants from fruits and vegetables protect blood vessels, and the overall pattern reduces blood pressure. The PREDIMED study showed a 30% reduction in major cardiovascular events."
+        "question": "Comment le regime mediterraneen ameliore-t-il la sante cardiaque ?",
+        "answer": "Il agit par de multiples mecanismes : l'huile d'olive et le poisson reduisent l'inflammation et ameliorent le bilan lipidique, les fibres des cereales completes et des legumineuses abaissent le cholesterol LDL, les antioxydants des fruits et legumes protegent les vaisseaux sanguins, et le modele global reduit la tension arterielle. L'etude PREDIMED a montre une reduction de 30 % des evenements cardiovasculaires majeurs."
       },
       {
-        "question": "How much fish should I eat per week?",
-        "answer": "Our plans include fish 2-3 times per week, in line with American Heart Association recommendations. We emphasize fatty fish like salmon, mackerel, and sardines for their high omega-3 content. If you don't eat fish, we include plant-based omega-3 sources like walnuts, flaxseed, and chia."
+        "question": "Combien de poisson faut-il manger par semaine ?",
+        "answer": "Nos menus incluent du poisson 2 a 3 fois par semaine, conformement aux recommandations cardiologiques. Nous privilegions les poissons gras comme le saumon, le maquereau et les sardines pour leur forte teneur en omega-3. Si vous ne mangez pas de poisson, nous incluons des sources vegetales d'omega-3 comme les noix, les graines de lin et le chia."
       },
       {
-        "question": "Is olive oil really that important?",
-        "answer": "Extra-virgin olive oil is the cornerstone of the Mediterranean diet's heart benefits. It's rich in polyphenols and monounsaturated fats that actively lower LDL cholesterol and reduce inflammation. Our plans use EVOO as the primary cooking fat and in dressings — typically 2-4 tablespoons per day."
+        "question": "L'huile d'olive est-elle vraiment si importante ?",
+        "answer": "L'huile d'olive extra-vierge est la pierre angulaire des bienfaits cardiovasculaires du regime mediterraneen. Elle est riche en polyphenols et en graisses mono-insaturees qui abaissent activement le cholesterol LDL et reduisent l'inflammation. Nos menus utilisent l'huile d'olive vierge extra comme matiere grasse principale pour la cuisson et les assaisonnements — generalement 2 a 4 cuilleres a soupe par jour."
       },
       {
-        "question": "Can I still eat red meat?",
-        "answer": "Yes, but sparingly — our plans include red meat about once per week at most. The emphasis shifts toward fish, poultry, legumes, and eggs as primary protein sources. When red meat does appear, it's lean cuts in moderate portions."
+        "question": "Puis-je encore manger de la viande rouge ?",
+        "answer": "Oui, mais avec parcimonie — nos menus incluent de la viande rouge environ une fois par semaine au maximum. L'accent est mis sur le poisson, la volaille, les legumineuses et les oeufs comme sources principales de proteines. Quand la viande rouge apparait, ce sont des morceaux maigres en portions moderees."
       },
       {
-        "question": "Will this help lower my cholesterol?",
-        "answer": "The Mediterranean diet is one of the most effective dietary approaches for improving cholesterol levels. The combination of olive oil, fish, nuts, and fiber-rich foods typically raises HDL (good) cholesterol and lowers LDL (bad) cholesterol. Many people see measurable improvements within 3-6 months."
+        "question": "Est-ce que ca aidera a baisser mon cholesterol ?",
+        "answer": "Le regime mediterraneen est l'une des approches alimentaires les plus efficaces pour ameliorer le bilan lipidique. La combinaison d'huile d'olive, de poisson, de fruits a coque et d'aliments riches en fibres augmente generalement le HDL (bon cholesterol) et abaisse le LDL (mauvais cholesterol). Beaucoup de personnes observent des ameliorations mesurables en 3 a 6 mois."
       }
     ]
   },
@@ -6625,88 +6625,88 @@
     "title": "Plan Repas Faible en Glucides Pour le Diabete",
     "metaDescription": "Plan repas low-carb pour la gestion du diabete. Controlez votre glycemie avec des repas delicieux. Essai gratuit.",
     "h1": "Plan Repas Faible en Glucides Pour Gerer le Diabete au Quotidien",
-    "intro": "Managing diabetes through diet doesn't mean eliminating all carbs — it means choosing the right ones in the right amounts. Our low-carb diabetes plans keep net carbs moderate (50-100g per day), focus on low-glycemic ingredients, and distribute carbs evenly across meals to prevent blood sugar spikes and crashes. Every recipe is designed for steady energy, stable readings, and food you genuinely enjoy eating day after day.",
+    "intro": "Gerer le diabete par l'alimentation ne signifie pas eliminer tous les glucides — c'est choisir les bons en bonne quantite. Nos menus pauvres en glucides pour le diabete maintiennent les glucides nets a un niveau modere (50 a 100 g par jour), se concentrent sur des ingredients a index glycemique bas et repartissent les glucides uniformement sur les repas pour prevenir les pics et les chutes de glycemie. Chaque recette est concue pour une energie constante, des mesures stables et une alimentation que vous appreciez vraiment au quotidien.",
     "valueProps": [
       {
-        "heading": "Low glycemic, not no carb",
-        "description": "We use slow-digesting carbs — lentils, sweet potatoes, steel-cut oats, and non-starchy vegetables — that release glucose gradually instead of spiking your blood sugar all at once."
+        "heading": "A index glycemique bas, pas zero glucide",
+        "description": "On utilise des glucides a digestion lente — lentilles, patates douces, flocons d'avoine et legumes non feculents — qui liberent le glucose progressivement au lieu de faire monter la glycemie d'un coup."
       },
       {
-        "heading": "Even carb distribution",
-        "description": "Rather than loading carbs into one meal, we spread them evenly across breakfast, lunch, dinner, and snacks. Consistent carb intake helps maintain stable blood sugar levels throughout the day."
+        "heading": "Une repartition reguliere des glucides",
+        "description": "Plutot que de concentrer les glucides dans un seul repas, on les repartit uniformement entre petit-dejeuner, dejeuner, diner et collations. Un apport constant en glucides aide a maintenir une glycemie stable tout au long de la journee."
       },
       {
-        "heading": "Paired with protein and fiber",
-        "description": "Every carb-containing food is paired with protein, fat, or fiber to slow digestion and blunt glucose response. This simple pairing strategy is one of the most effective tools for blood sugar management."
+        "heading": "Toujours accompagnes de proteines et de fibres",
+        "description": "Chaque aliment contenant des glucides est associe a des proteines, des lipides ou des fibres pour ralentir la digestion et attenuer la reponse glycemique. Cette simple strategie d'association est l'un des outils les plus efficaces pour la gestion de la glycemie."
       }
     ],
     "sampleMeals": [
       {
-        "name": "Veggie Omelet with Avocado",
-        "description": "Three-egg omelet stuffed with sautéed spinach, mushrooms, and bell peppers, served with half an avocado. High protein, healthy fats, minimal carb impact.",
+        "name": "Omelette aux legumes et a l'avocat",
+        "description": "Omelette a trois oeufs farcie d'epinards sautes, de champignons et de poivrons, servie avec un demi-avocat. Riche en proteines, en bonnes graisses, impact glucidique minimal.",
         "tags": [
-          "low-carb",
-          "high-protein",
-          "quick"
+          "pauvre-en-glucides",
+          "riche-en-proteines",
+          "rapide"
         ]
       },
       {
-        "name": "Turkey & Hummus Lettuce Wraps",
-        "description": "Sliced turkey breast and a smear of hummus wrapped in crisp romaine leaves with cucumber, tomato, and a sprinkle of feta.",
+        "name": "Wraps de laitue a la dinde et au houmous",
+        "description": "Tranches de blanc de dinde et une couche de houmous roulees dans des feuilles de romaine croquantes avec concombre, tomate et une pincee de feta.",
         "tags": [
-          "low-carb",
-          "no-cook",
-          "quick"
+          "pauvre-en-glucides",
+          "sans-cuisson",
+          "rapide"
         ]
       },
       {
-        "name": "Herb-Crusted Chicken with Roasted Broccoli & Quinoa",
-        "description": "Chicken breast with a Parmesan-herb crust alongside roasted broccoli and a measured half-cup of quinoa. Balanced macros with controlled carbs.",
+        "name": "Poulet en croute d'herbes avec brocolis rotis et quinoa",
+        "description": "Blanc de poulet en croute parmesan-herbes accompagne de brocolis rotis et d'une demi-tasse mesuree de quinoa. Macros equilibrees avec des glucides controles.",
         "tags": [
-          "low-carb",
-          "high-protein",
-          "one-pan"
+          "pauvre-en-glucides",
+          "riche-en-proteines",
+          "une-plaque"
         ]
       },
       {
-        "name": "Lentil Soup with Spinach & Lemon",
-        "description": "Green lentils simmered with spinach, garlic, and a bright squeeze of lemon. Lentils are one of the lowest glycemic legumes, making them ideal for blood sugar management.",
+        "name": "Soupe de lentilles aux epinards et au citron",
+        "description": "Lentilles vertes mijotees avec des epinards, de l'ail et un genereux filet de citron. Les lentilles sont l'une des legumineuses a l'index glycemique le plus bas, ideales pour la gestion de la glycemie.",
         "tags": [
-          "low-carb",
-          "one-pot",
-          "low-glycemic"
+          "pauvre-en-glucides",
+          "plat-unique",
+          "index-glycemique-bas"
         ]
       },
       {
-        "name": "Celery Sticks with Almond Butter",
-        "description": "Crisp celery filled with almond butter — nearly zero glycemic impact with satisfying crunch and healthy fats to keep you steady between meals.",
+        "name": "Batonnets de celeri au beurre d'amande",
+        "description": "Branches de celeri croquantes garnies de beurre d'amande — impact glycemique quasi nul avec un croquant satisfaisant et des bonnes graisses pour tenir entre les repas.",
         "tags": [
-          "low-carb",
-          "no-cook",
-          "quick"
+          "pauvre-en-glucides",
+          "sans-cuisson",
+          "rapide"
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How many carbs per day are in this plan?",
-        "answer": "Our diabetes-focused plans target 50-100g of net carbs per day, distributed evenly across meals. This is moderate low-carb — restrictive enough to improve blood sugar control but flexible enough to include nutritious whole grains, legumes, and fruits in controlled portions. You can adjust the target in your profile."
+        "question": "Combien de glucides par jour contient ce menu ?",
+        "answer": "Nos menus axes sur le diabete visent 50 a 100 g de glucides nets par jour, repartis uniformement sur les repas. C'est un regime modere pauvre en glucides — assez restrictif pour ameliorer le controle glycemique mais assez flexible pour inclure des cereales completes, des legumineuses et des fruits en portions controlees. Vous pouvez ajuster l'objectif dans votre profil."
       },
       {
-        "question": "Is this plan suitable for Type 1 and Type 2 diabetes?",
-        "answer": "Our plans are designed primarily for Type 2 diabetes management, where diet plays a major role in blood sugar control. If you have Type 1 diabetes, low-carb eating can still be beneficial, but you should work with your endocrinologist to adjust insulin dosing as your carb intake changes. Always consult your healthcare team before making significant dietary changes."
+        "question": "Ce menu convient-il au diabete de type 1 et de type 2 ?",
+        "answer": "Nos menus sont concus principalement pour la gestion du diabete de type 2, ou l'alimentation joue un role majeur dans le controle glycemique. Si vous avez un diabete de type 1, une alimentation pauvre en glucides peut aussi etre benefique, mais vous devrez travailler avec votre endocrinologue pour ajuster les doses d'insuline en fonction de l'evolution de votre apport en glucides. Consultez toujours votre equipe medicale avant de modifier significativement votre alimentation."
       },
       {
-        "question": "What fruits can I eat on a low-carb diabetes plan?",
-        "answer": "Berries (strawberries, blueberries, raspberries) are the best choice — they're low glycemic and high in fiber. We also include small portions of apples, pears, and citrus fruits. Tropical fruits like bananas and mangoes appear rarely and in controlled amounts since they have a higher glycemic impact."
+        "question": "Quels fruits peut-on manger dans un menu pauvre en glucides pour diabetiques ?",
+        "answer": "Les baies (fraises, myrtilles, framboises) sont le meilleur choix — elles ont un index glycemique bas et sont riches en fibres. Nous incluons aussi de petites portions de pommes, de poires et d'agrumes. Les fruits tropicaux comme les bananes et les mangues apparaissent rarement et en quantites controlees en raison de leur impact glycemique plus eleve."
       },
       {
-        "question": "Will this plan help reduce my A1C?",
-        "answer": "Many people see measurable A1C improvements within 3-6 months of consistent low-carb eating. Studies show low-carb diets can reduce A1C by 0.5-1.0% on average. However, results depend on your starting point, medication, activity level, and consistency. Track your progress with your doctor."
+        "question": "Ce menu aidera-t-il a reduire mon HbA1c ?",
+        "answer": "Beaucoup de personnes constatent des ameliorations mesurables de l'HbA1c en 3 a 6 mois d'alimentation reguliere pauvre en glucides. Les etudes montrent que les regimes pauvres en glucides peuvent reduire l'HbA1c de 0,5 a 1,0 % en moyenne. Cependant, les resultats dependent de votre point de depart, de vos medicaments, de votre niveau d'activite et de votre regularite. Suivez vos progres avec votre medecin."
       },
       {
-        "question": "Can I still eat bread and pasta?",
-        "answer": "In moderation, yes. We use controlled portions of whole grain or legume-based pasta and bread, always paired with protein and fat to slow glucose absorption. A quarter-cup of whole wheat pasta as part of a balanced meal has a very different blood sugar impact than a large bowl of white pasta on its own."
+        "question": "Puis-je encore manger du pain et des pates ?",
+        "answer": "Avec moderation, oui. Nous utilisons des portions controlees de pates et de pain a base de cereales completes ou de legumineuses, toujours accompagnes de proteines et de lipides pour ralentir l'absorption du glucose. Un quart de tasse de pates completes dans un repas equilibre a un impact glycemique tres different d'un grand bol de pates blanches seules."
       }
     ]
   }
