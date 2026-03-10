@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Mealime Alternative 2026 | AI Meal Plans",
   description:
-    "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $4.99/mo with a free trial, no signup required.",
+    "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $7.99/mo with a free trial, no signup required.",
   openGraph: {
     title:
       "Best Mealime Alternative (2026)",
     description:
-      "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $4.99/mo with a free trial, no signup required.",
+      "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $7.99/mo with a free trial, no signup required.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/mealime-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Best Mealime Alternative (2026)",
     description:
-      "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week. $4.99/mo with a free trial.",
+      "Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week. $7.99/mo with a free trial.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function MealimeAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Mealime Alternative in 2026"
-        description="Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $4.99/mo with a free trial, no signup required."
+        description="Looking for a Mealime alternative? What's For Dinner uses AI to generate unique personalized meal plans every week — no static recipe database, no repetition. $7.99/mo with a free trial, no signup required."
         url="https://whatsfordinner.fit/blog/mealime-alternative"
         datePublished="2026-03-07"
       />
@@ -219,7 +219,7 @@ export default function MealimeAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">Free / $5.99/mo Pro</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo or $59.99/yr
                 </td>
               </tr>
               <tr>
@@ -245,8 +245,10 @@ export default function MealimeAlternativePage() {
           from a static database.
         </p>
         <p>
-          And at <strong>$4.99/month</strong>, it&apos;s cheaper than
-          Mealime Pro while offering significantly more personalization.
+          At <strong>$7.99/month</strong>, it costs a bit more than
+          Mealime Pro &mdash; but you&apos;re getting AI-generated plans
+          unique to you every week, not a shared recipe catalog with
+          filters unlocked.
         </p>
       </div>
 
@@ -379,16 +381,17 @@ export default function MealimeAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          Cheaper than Mealime Pro
+          More for your money than Mealime Pro
         </h3>
         <p>
           Mealime Pro costs <strong>$5.99/month</strong> and mostly unlocks
           filters and nutritional info that feel like they should be free.
-          What&apos;s For Dinner is <strong>$4.99/month</strong> and
-          includes everything &mdash; unlimited dietary customization,
-          budget tiers, weekly email delivery, and AI-generated plans that
-          never repeat. A dollar less per month for significantly more
-          value.
+          What&apos;s For Dinner is <strong>$7.99/month</strong> &mdash;
+          a couple dollars more, but a fundamentally different product.
+          You get unlimited dietary customization in plain English,
+          budget-aware tiers, weekly email delivery, and AI-generated plans
+          that never repeat. Every plan is built from scratch for you,
+          not pulled from the same recipe catalog everyone else browses.
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
@@ -411,7 +414,7 @@ export default function MealimeAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

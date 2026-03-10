@@ -77,7 +77,7 @@ export default function CancelPage() {
         {reason === "price" && (
           <div className="bg-orange-50 border border-orange-200 rounded-2xl p-4 text-center space-y-2">
             <p className="text-sm font-semibold text-stone-800">Switch to yearly instead?</p>
-            <p className="text-sm text-stone-500">$2.50/mo — half the price, same plan every Sunday.</p>
+            <p className="text-sm text-stone-500">$5/mo — save 37% vs monthly, same plan every Sunday.</p>
             <Link
               href="/dashboard"
               className="inline-block text-sm font-semibold text-orange-600 hover:text-orange-700"

@@ -5,11 +5,11 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 export const metadata: Metadata = {
   title: "Best Yummly Alternative (2026)",
   description:
-    "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo.",
+    "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $7.99/mo.",
   openGraph: {
     title: "Best Yummly Alternative (2026)",
     description:
-      "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo.",
+      "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Yummly Alternative (2026)",
     description:
-      "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo.",
+      "Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $7.99/mo.",
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/yummly-alternative",
@@ -29,7 +29,7 @@ export default function YummlyAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Yummly Alternative in 2026"
-        description="Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $4.99/mo."
+        description="Yummly shut down in December 2024. Discover the best Yummly alternative for personalized meal plans, grocery lists, and dietary filters — powered by AI for $7.99/mo."
         url="https://whatsfordinner.fit/blog/yummly-alternative"
         datePublished="2026-02-25"
       />
@@ -238,7 +238,7 @@ export default function YummlyAlternativePage() {
             <p className="font-semibold text-stone-800">Price</p>
             <p>
               Yummly was free, supported by ads and Whirlpool&apos;s appliance
-              ecosystem. What&apos;s For Dinner is $4.99/month &mdash; no ads,
+              ecosystem. What&apos;s For Dinner is $7.99/month &mdash; no ads,
               no data sold to appliance companies, no surprise shutdowns tied to
               a parent company&apos;s hardware strategy. The{" "}
               <Link
@@ -297,7 +297,7 @@ export default function YummlyAlternativePage() {
           card required to see what you&apos;re getting.
         </p>
         <p>
-          If it clicks, subscribe for $4.99/month and get a full 7-day plan
+          If it clicks, subscribe for $7.99/month and get a full 7-day plan
           delivered to your inbox every week. Cancel anytime.
         </p>
       </div>

@@ -70,8 +70,8 @@ export default function TermsPage() {
 
           <h2>5. Subscriptions and Billing</h2>
           <p>
-            Paid subscriptions are billed monthly ($4.99/month) or annually
-            ($29.99/year) through our payment processor, Lemon Squeezy. By
+            Paid subscriptions are billed monthly ($7.99/month) or annually
+            ($59.99/year) through our payment processor, Lemon Squeezy. By
             subscribing, you authorize recurring charges at the selected
             interval until you cancel.
           </p>

@@ -31,7 +31,7 @@ const freePlanSchema = z.object({
   _email: z.string().optional(), // honeypot
 }).passthrough();
 
-const BLOCK_MSG = "You've already received your free plan. Subscribe for just $4.99/mo to get a fresh plan every week!";
+const BLOCK_MSG = "You've already received your free plan. Subscribe for just $7.99/mo to get a fresh plan every week!";
 
 // --- Layer 1: In-memory caches (fast, survives within serverless warm period) ---
 const usedFingerprints = new Set<string>();

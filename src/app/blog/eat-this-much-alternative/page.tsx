@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Eat This Much Alternative (2026)",
   description:
-    "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $4.99/mo — better variety, better price.",
+    "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $7.99/mo — better variety, more personalization.",
   openGraph: {
     title:
       "Eat This Much Alternative (2026)",
     description:
-      "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $4.99/mo — better variety, better price.",
+      "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $7.99/mo — better variety, more personalization.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/eat-this-much-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Eat This Much Alternative (2026)",
     description:
-      "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $4.99/mo.",
+      "Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function EatThisMuchAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Eat This Much Alternative in 2026"
-        description="Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $4.99/mo — better variety, better price."
+        description="Looking for an Eat This Much alternative? What's For Dinner uses AI to generate original meal plans that never repeat, with grocery lists by email for $7.99/mo — better variety, more personalization."
         url="https://whatsfordinner.fit/blog/eat-this-much-alternative"
         datePublished="2026-03-07"
       />
@@ -71,7 +71,7 @@ export default function EatThisMuchAlternativePage() {
           generates meals you&apos;re genuinely excited to eat &mdash;{" "}
           <strong>What&apos;s For Dinner</strong> might be exactly what
           you&apos;re after. It uses AI to create original, personalized meal
-          plans every week, delivered straight to your inbox at half the price.
+          plans every week, delivered straight to your inbox for less.
         </p>
       </div>
 
@@ -215,7 +215,7 @@ export default function EatThisMuchAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">$8.99/mo premium</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo
                 </td>
               </tr>
               <tr>
@@ -236,8 +236,9 @@ export default function EatThisMuchAlternativePage() {
           dietary needs, and your budget, not just your calorie target.
         </p>
         <p>
-          And at <strong>$4.99 per month</strong>, it&apos;s 44% cheaper than
-          Eat This Much&apos;s premium plan.
+          And at <strong>$7.99 per month</strong>, it&apos;s a dollar cheaper than
+          Eat This Much&apos;s $8.99 premium plan &mdash; with more
+          personalization baked in.
         </p>
       </div>
 
@@ -385,14 +386,15 @@ export default function EatThisMuchAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          Nearly half the price
+          Less expensive, more personal
         </h3>
         <p>
-          At <strong>$4.99/month</strong>, What&apos;s For Dinner is
-          significantly cheaper than Eat This Much&apos;s $8.99/month premium
-          plan. AI lets us run lean &mdash; no recipe development team, no
-          massive content library to curate and maintain. Those savings go
-          straight to you.
+          At <strong>$7.99/month</strong>, What&apos;s For Dinner costs a
+          dollar less than Eat This Much&apos;s $8.99/month premium plan.
+          But the real difference isn&apos;t the price &mdash; it&apos;s what
+          you get for it. AI lets us skip the recipe development team and
+          content library overhead, and put that into plans that are
+          genuinely built around your tastes every single week.
         </p>
       </div>
 
@@ -403,7 +405,7 @@ export default function EatThisMuchAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

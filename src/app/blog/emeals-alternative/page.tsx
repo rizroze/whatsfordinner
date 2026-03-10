@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best eMeals Alternative 2026 | AI Meal Plans",
   description:
-    "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
+    "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $7.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
   openGraph: {
     title:
       "Best eMeals Alternative (2026)",
     description:
-      "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
+      "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $7.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/emeals-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Best eMeals Alternative (2026)",
     description:
-      "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo.",
+      "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function EMealsAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best eMeals Alternative in 2026"
-        description="Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $4.99/mo — smarter recipes, real customization, and plans that adapt to your feedback."
+        description="Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $7.99/mo — smarter recipes, real customization, and plans that adapt to your feedback."
         url="https://whatsfordinner.fit/blog/emeals-alternative"
         datePublished="2026-03-07"
       />
@@ -71,7 +71,7 @@ export default function EMealsAlternativePage() {
           <strong>What&apos;s For Dinner</strong> is a modern alternative that
           uses AI to create genuinely personalized meal plans every week &mdash;
           plans that learn from your feedback, adapt to any dietary restriction,
-          and cost less than eMeals.
+          and deliver more value than eMeals.
         </p>
       </div>
 
@@ -222,7 +222,7 @@ export default function EMealsAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">$5.99/mo or $59.99/yr</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo or $59.99/yr
                 </td>
               </tr>
               <tr>
@@ -375,15 +375,18 @@ export default function EMealsAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          A dollar cheaper &mdash; and a free trial with no signup
+          More value per dollar &mdash; and a free trial with no signup
         </h3>
         <p>
-          At <strong>$4.99/month</strong> versus eMeals&apos; $5.99, you save a
-          bit on the subscription. But the bigger difference is that we let you
-          try before you buy. Enter your preferences, get a full sample plan
-          immediately &mdash; no credit card, no account creation. If you
-          don&apos;t like what you see, you haven&apos;t spent a cent. eMeals
-          doesn&apos;t offer that.
+          At <strong>$7.99/month</strong>, What&apos;s For Dinner costs a couple
+          dollars more than eMeals&apos; $5.99. But you&apos;re getting
+          something fundamentally different for that price: AI-generated plans
+          unique to you every week, unlimited dietary customization, budget-aware
+          recipes, and plans that learn from your feedback. eMeals gives you the
+          same shared recipe database everyone else gets. And we let you try
+          before you buy &mdash; enter your preferences, get a full sample plan
+          immediately, no credit card, no account creation. eMeals doesn&apos;t
+          offer that.
         </p>
       </div>
 
@@ -394,7 +397,7 @@ export default function EMealsAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

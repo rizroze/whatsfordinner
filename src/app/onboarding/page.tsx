@@ -600,7 +600,7 @@ function OnboardingContent() {
                 setSubscribing(false);
               }}
             >
-              Subscribe — $4.99/mo
+              Subscribe — $7.99/mo
             </Button>
           ) : (
             <Button

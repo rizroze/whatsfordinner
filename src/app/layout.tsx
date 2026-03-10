@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | What's For Dinner",
   },
   description:
-    "Get personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required. From $4.99/month.",
+    "Get personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required. From $7.99/month.",
   keywords: [
     "meal planner",
     "weekly meal plan",
@@ -81,7 +81,7 @@ const jsonLd = {
         {
           "@type": "Offer",
           name: "Monthly Plan",
-          price: "4.99",
+          price: "7.99",
           priceCurrency: "USD",
           priceValidUntil: "2027-12-31",
           availability: "https://schema.org/InStock",
@@ -89,7 +89,7 @@ const jsonLd = {
         {
           "@type": "Offer",
           name: "Yearly Plan",
-          price: "29.99",
+          price: "59.99",
           priceCurrency: "USD",
           priceValidUntil: "2027-12-31",
           availability: "https://schema.org/InStock",

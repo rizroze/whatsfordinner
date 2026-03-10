@@ -348,7 +348,7 @@ export default function MealPlanWithGroceryList() {
         </p>
         <p className="text-sm text-stone-500 mb-6">
           7 days of meals. One organized grocery list. Delivered every Sunday for
-          $4.99/month.
+          $7.99/month.
         </p>
         <Link
           href="/onboarding"

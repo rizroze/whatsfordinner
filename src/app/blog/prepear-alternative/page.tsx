@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Prepear Alternative 2026 | AI Meal Plans",
   description:
-    "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo with a free trial, no signup required.",
+    "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free trial, no signup required.",
   openGraph: {
     title:
       "Best Prepear Alternative (2026)",
     description:
-      "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo with a free trial, no signup required.",
+      "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free trial, no signup required.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/prepear-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Best Prepear Alternative (2026)",
     description:
-      "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo.",
+      "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function PrepearAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Prepear Alternative in 2026"
-        description="Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $4.99/mo with a free trial, no signup required."
+        description="Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free trial, no signup required."
         url="https://whatsfordinner.fit/blog/prepear-alternative"
         datePublished="2026-03-07"
       />
@@ -221,7 +221,7 @@ export default function PrepearAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">Free / $2.99-$4.99/mo</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo
                 </td>
               </tr>
               <tr>
@@ -396,7 +396,7 @@ export default function PrepearAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

@@ -101,13 +101,13 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
         {status === "active" && planInterval === "monthly" && (
           <div className="bg-orange-50 border border-orange-200 rounded-xl p-3 space-y-2.5">
             <div>
-              <p className="text-xs font-semibold text-stone-700">Save 50% — switch to yearly</p>
-              <p className="text-xs text-stone-500 mt-0.5">$2.50/mo &middot; billed once a year</p>
+              <p className="text-xs font-semibold text-stone-700">Save 37% — switch to yearly</p>
+              <p className="text-xs text-stone-500 mt-0.5">$5/mo &middot; billed $59.99/yr</p>
             </div>
             <div className="space-y-1">
               <div className="flex items-center gap-1.5">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <p className="text-xs text-stone-600">Save $29/yr vs monthly</p>
+                <p className="text-xs text-stone-600">Save $36/yr vs monthly</p>
               </div>
               <div className="flex items-center gap-1.5">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>

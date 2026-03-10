@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best PlateJoy Alternative 2026 | AI Meal Plans",
   description:
-    "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — cheaper, smarter, and built for the post-PlateJoy era.",
+    "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo — cheaper, smarter, and built for the post-PlateJoy era.",
   openGraph: {
     title:
       "Best PlateJoy Alternative (2026)",
     description:
-      "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — cheaper, smarter, and built for the post-PlateJoy era.",
+      "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo — cheaper, smarter, and built for the post-PlateJoy era.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/platejoy-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Best PlateJoy Alternative (2026)",
     description:
-      "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo.",
+      "Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function PlateJoyAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best PlateJoy Alternative in 2026"
-        description="Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — cheaper, smarter, and built for the post-PlateJoy era."
+        description="Looking for a PlateJoy alternative? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo — cheaper, smarter, and built for the post-PlateJoy era."
         url="https://whatsfordinner.fit/blog/platejoy-alternative"
         datePublished="2026-02-25"
       />
@@ -70,7 +70,7 @@ export default function PlateJoyAlternativePage() {
           <strong>What&apos;s For Dinner</strong> was built to solve the exact
           same problem PlateJoy solved &mdash; personalized weekly meal plans
           with a grocery list &mdash; using modern AI to do it better and at
-          half the price.
+          a fraction of the price.
         </p>
       </div>
 
@@ -224,7 +224,7 @@ export default function PlateJoyAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">$8.25 - $12.99/mo</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo
                 </td>
               </tr>
               <tr>
@@ -246,7 +246,7 @@ export default function PlateJoyAlternativePage() {
           same rotation of 30 recipes on repeat.
         </p>
         <p>
-          And at <strong>$4.99 per month</strong>, it&apos;s 40-60% cheaper than
+          And at <strong>$7.99 per month</strong>, it&apos;s 40-60% cheaper than
           PlateJoy ever was.
         </p>
       </div>
@@ -382,10 +382,10 @@ export default function PlateJoyAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          Half the price
+          Save 37%
         </h3>
         <p>
-          At <strong>$4.99/month</strong>, What&apos;s For Dinner costs
+          At <strong>$7.99/month</strong>, What&apos;s For Dinner costs
           significantly less than PlateJoy&apos;s $8.25-$12.99 range. AI lets us
           run lean &mdash; no recipe development team, no massive content
           library to maintain. Those savings go straight to you.
@@ -399,7 +399,7 @@ export default function PlateJoyAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

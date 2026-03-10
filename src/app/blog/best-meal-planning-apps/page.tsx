@@ -127,7 +127,7 @@ export default function BestMealPlanningAppsPage() {
           what you get.
         </p>
         <p>
-          At <strong>$4.99/month</strong>, it&apos;s also the cheapest serious
+          At <strong>$7.99/month</strong>, it&apos;s also the cheapest serious
           option on this list. There&apos;s a free trial that requires no
           signup and no credit card.
         </p>
@@ -139,7 +139,7 @@ export default function BestMealPlanningAppsPage() {
             <li>Handles any dietary restriction in plain English</li>
             <li>Grocery list included with every plan</li>
             <li>Email delivery &mdash; no app or login needed</li>
-            <li>$4.99/mo with free trial, no credit card required</li>
+            <li>$7.99/mo with free trial, no credit card required</li>
           </ul>
         </div>
         <div className="my-4">
@@ -557,7 +557,7 @@ export default function BestMealPlanningAppsPage() {
         <p>
           The cost is the dealbreaker. HelloFresh runs $8-12 per serving,
           which means a family of four is spending $200-400+ per week on
-          dinners alone. Compare that to a meal planning app that costs $5/mo
+          dinners alone. Compare that to a meal planning app that costs $8/mo
           and helps you shop at your local grocery store for a fraction of the
           price. HelloFresh is convenient, but it&apos;s a luxury, not a
           solution for everyday meal planning on a normal budget.
@@ -622,7 +622,7 @@ export default function BestMealPlanningAppsPage() {
           generates plans from scratch in seconds, handles any dietary
           restriction described in plain English, and never runs out of
           variety. The economics are completely different, which is why AI
-          planners can charge $5/mo instead of $10+.
+          planners can charge $8/mo instead of $10+.
         </p>
         <p>
           The apps that survive the next few years will be the ones that
@@ -638,7 +638,7 @@ export default function BestMealPlanningAppsPage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

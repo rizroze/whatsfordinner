@@ -55,7 +55,7 @@ export function buildNurtureDay3Email(email: string): { subject: string; html: s
       </p>
       <div style="text-align:center;">
         <a href="${appUrl}/signup?plan=monthly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
-          Subscribe &mdash; $4.99/mo
+          Subscribe &mdash; $7.99/mo
         </a>
       </div>
     </div>
@@ -81,7 +81,7 @@ export function buildNurtureDay7Email(email: string): { subject: string; html: s
       </p>
       <div style="text-align:center;">
         <a href="${appUrl}/signup?plan=yearly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
-          Subscribe &mdash; $2.50/mo yearly
+          Subscribe &mdash; $5/mo yearly ($59.99/yr)
         </a>
         <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;">That's less than a single takeout coffee.</p>
       </div>

@@ -5,11 +5,11 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 export const metadata: Metadata = {
   title: "Cheap HelloFresh Alternative (2026)",
   description:
-    "Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup.",
+    "Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $7.99/mo — no meal kit markup.",
   openGraph: {
     title: "Cheap HelloFresh Alternative (2026)",
     description:
-      "Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup.",
+      "Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $7.99/mo — no meal kit markup.",
     siteName: "What's For Dinner",
     type: "article",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cheap HelloFresh Alternative (2026)",
     description:
-      "Looking for a HelloFresh alternative cheap enough for any budget? Personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup.",
+      "Looking for a HelloFresh alternative cheap enough for any budget? Personalized weekly meal plans + grocery lists for $7.99/mo — no meal kit markup.",
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/hellofresh-alternative-cheap",
@@ -29,7 +29,7 @@ export default function HelloFreshAlternativeCheap() {
     <>
       <ArticleJsonLd
         title="The Best Cheap Alternative to HelloFresh in 2026"
-        description="Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $4.99/mo — no meal kit markup."
+        description="Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $7.99/mo — no meal kit markup."
         url="https://whatsfordinner.fit/blog/hellofresh-alternative-cheap"
         datePublished="2026-02-25"
       />
@@ -151,7 +151,7 @@ export default function HelloFreshAlternativeCheap() {
           Personalized meal plans, delivered weekly
         </p>
         <p className="text-stone-500 text-sm mb-6">
-          Full week of meals + grocery list for $4.99/mo. No boxes, no markup,
+          Full week of meals + grocery list for $7.99/mo. No boxes, no markup,
           no commitment.
         </p>
         <Link
@@ -178,7 +178,7 @@ export default function HelloFreshAlternativeCheap() {
             breakfast, lunch, and the other 4 dinners.
           </li>
           <li>
-            <strong>What&apos;s For Dinner:</strong> $4.99/month for the plan +
+            <strong>What&apos;s For Dinner:</strong> $7.99/month for the plan +
             ~$60&ndash;80/week in groceries ={" "}
             <strong>~$245&ndash;325/month</strong>. Covers{" "}
             <em>every meal, every day</em>.
@@ -297,7 +297,7 @@ export default function HelloFreshAlternativeCheap() {
           </Link>{" "}
           replaces the planning layer so you can buy groceries on your own
           terms, at your own prices, from your own store. No boxes. No
-          middleman. Just a plan that fits your life, for $4.99/month.
+          middleman. Just a plan that fits your life, for $7.99/month.
         </p>
       </div>
 
@@ -308,7 +308,7 @@ export default function HelloFreshAlternativeCheap() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Get a personalized weekly meal plan + grocery list delivered to your
-          inbox. $4.99/mo, cancel anytime.
+          inbox. $7.99/mo, cancel anytime.
         </p>
         <Link
           href="/onboarding"

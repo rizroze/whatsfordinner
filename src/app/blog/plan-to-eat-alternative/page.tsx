@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Plan to Eat Alternative 2026 | AI Plans",
   description:
-    "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $4.99/mo.",
+    "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $7.99/mo.",
   openGraph: {
     title:
       "Plan to Eat Alternative (2026)",
     description:
-      "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $4.99/mo.",
+      "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/plan-to-eat-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Plan to Eat Alternative (2026)",
     description:
-      "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing. $4.99/mo.",
+      "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing. $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function PlanToEatAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Plan to Eat Alternative in 2026"
-        description="Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $4.99/mo."
+        description="Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $7.99/mo."
         url="https://whatsfordinner.fit/blog/plan-to-eat-alternative"
         datePublished="2026-03-07"
       />
@@ -217,7 +217,7 @@ export default function PlanToEatAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">$5.95/mo or $49.95/yr</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo
                 </td>
               </tr>
               <tr>
@@ -397,7 +397,7 @@ export default function PlanToEatAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

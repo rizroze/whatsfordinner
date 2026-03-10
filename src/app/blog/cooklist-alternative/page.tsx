@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Cooklist Alternative 2026 | AI Meal Plans",
   description:
-    "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required.",
+    "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo — no barcode scanning required.",
   openGraph: {
     title:
       "Best Cooklist Alternative (2026)",
     description:
-      "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required.",
+      "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo — no barcode scanning required.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/cooklist-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Best Cooklist Alternative (2026)",
     description:
-      "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo.",
+      "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function CooklistAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Cooklist Alternative in 2026"
-        description="Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $4.99/mo — no barcode scanning required."
+        description="Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo — no barcode scanning required."
         url="https://whatsfordinner.fit/blog/cooklist-alternative"
         datePublished="2026-03-07"
       />
@@ -216,7 +216,7 @@ export default function CooklistAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">Free / premium</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo
                 </td>
               </tr>
               <tr>
@@ -401,7 +401,7 @@ export default function CooklistAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

@@ -64,7 +64,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
               </h3>
             </div>
             <div className="mt-3 flex items-baseline gap-1.5">
-              <span className="text-4xl font-extrabold text-stone-900 tracking-tight">$4.99</span>
+              <span className="text-4xl font-extrabold text-stone-900 tracking-tight">$7.99</span>
               <span className="text-stone-400 text-sm">{t("landing.pricing.perMonth")}</span>
             </div>
             <p className="mt-1 text-xs text-stone-400">
@@ -98,7 +98,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
               </span>
             </div>
             <div className="mt-3 flex items-baseline gap-1.5">
-              <span className="text-4xl font-extrabold text-stone-900 tracking-tight">$2.50</span>
+              <span className="text-4xl font-extrabold text-stone-900 tracking-tight">$5</span>
               <span className="text-stone-400 text-sm">{t("landing.pricing.perMonth")}</span>
             </div>
             <p className="mt-1 text-xs text-stone-400">

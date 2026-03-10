@@ -5,7 +5,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 export const metadata: Metadata = {
   title: "AI Meal Planner: How It Works",
   description:
-    "Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill. $4.99/mo.",
+    "Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill. $7.99/mo.",
   openGraph: {
     title: "AI Meal Planner: How It Works",
     description:
@@ -30,7 +30,7 @@ export default function AiMealPlannerArticle() {
     <>
       <ArticleJsonLd
         title="AI Meal Planner: How It Works and Why It's Better"
-        description="Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill. $4.99/mo."
+        description="Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill. $7.99/mo."
         url="https://whatsfordinner.fit/blog/ai-meal-planner"
         datePublished="2026-02-25"
       />
@@ -285,7 +285,7 @@ export default function AiMealPlannerArticle() {
             <tbody className="divide-y divide-stone-100">
               <tr>
                 <td className="px-4 py-3 font-medium text-stone-700">Cost</td>
-                <td className="px-4 py-3">$4.99/mo</td>
+                <td className="px-4 py-3">$7.99/mo</td>
                 <td className="px-4 py-3">$60–120+/mo</td>
                 <td className="px-4 py-3">Free</td>
               </tr>
@@ -348,7 +348,7 @@ export default function AiMealPlannerArticle() {
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your preferences in two minutes. Get a personalized 7-day meal
-          plan with a grocery list by email — no app required. $4.99/mo after
+          plan with a grocery list by email — no app required. $7.99/mo after
           your trial.
         </p>
         <Link

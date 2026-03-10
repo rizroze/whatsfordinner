@@ -80,7 +80,7 @@ function getHeroContent(weekNumber: number): { headline: string; subtext: string
     return {
       headline: `you've saved <span style="color:#F97316;">${hoursSaved} hours</span><br>not thinking about what to eat`,
       subtext: `${weekNumber} weeks of stress-free dinners. Imagine going back to winging it.`,
-      savedLine: `${hoursSaved} hours back. ${weekNumber * 21}+ meals planned. Yours for just $2.50/mo.`,
+      savedLine: `${hoursSaved} hours back. ${weekNumber * 21}+ meals planned. Yours for just $5/mo.`,
     };
   }
   // Long-term subscribers
@@ -256,10 +256,10 @@ function buildFreeEmail(weekOf: string, plan: MealPlanData): string {
             Imagine this every week.
           </p>
           <p style="margin:0 0 16px;font-size:14px;color:#57534E;">
-            Full 7-day plans &middot; every Sunday in your inbox &middot; $4.99/mo
+            Full 7-day plans &middot; every Sunday in your inbox &middot; $7.99/mo
           </p>
           <a href="${appUrl}/signup?plan=yearly" style="display:inline-block;background:#1C1917;color:#FFFFFF;text-decoration:none;padding:10px 28px;border-radius:9999px;font-weight:600;font-size:14px;">
-            Subscribe &mdash; $2.50/mo yearly
+            Subscribe &mdash; $5/mo yearly ($59.99/yr)
           </a>
         </div>
 

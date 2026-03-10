@@ -52,8 +52,8 @@ Works on mobile too:
 
 ## Pricing
 
-- **$4.99/month** — fresh 7-day plans every week
-- **$2.50/month** — billed yearly at $29.99
+- **$7.99/month** — fresh 7-day plans every week
+- **$5/month** — billed yearly at $59.99
 
 Both plans include a free 3-day trial, regeneration (up to 2x/week), and support for allergies, diets, and picky eaters.
 

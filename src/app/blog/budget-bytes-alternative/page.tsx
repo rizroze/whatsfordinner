@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Budget Bytes Alternative 2026 | AI Plans",
   description:
-    "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork.",
+    "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $7.99/mo — no browsing, no guesswork.",
   openGraph: {
     title:
       "Budget Bytes Alternative (2026)",
     description:
-      "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork.",
+      "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $7.99/mo — no browsing, no guesswork.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/budget-bytes-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Budget Bytes Alternative (2026)",
     description:
-      "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo.",
+      "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function BudgetBytesAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Budget Bytes Alternative in 2026"
-        description="Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $4.99/mo — no browsing, no guesswork."
+        description="Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $7.99/mo — no browsing, no guesswork."
         url="https://whatsfordinner.fit/blog/budget-bytes-alternative"
         datePublished="2026-03-07"
       />
@@ -217,7 +217,7 @@ export default function BudgetBytesAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">Free (blog)</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo
                 </td>
               </tr>
               <tr>
@@ -231,7 +231,7 @@ export default function BudgetBytesAlternativePage() {
 
         <p>
           The trade-off is straightforward: Budget Bytes is free but demands
-          your time. What&apos;s For Dinner costs <strong>$4.99/month</strong>{" "}
+          your time. What&apos;s For Dinner costs <strong>$7.99/month</strong>{" "}
           but gives you that time back. If you spend even 30 minutes a week
           browsing recipes and building a grocery list, you&apos;re paying for
           meal planning either way — just in hours instead of dollars.
@@ -379,13 +379,13 @@ export default function BudgetBytesAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          Worth the $4.99
+          Worth the $7.99
         </h3>
         <p>
           Budget Bytes is free, and that&apos;s a real advantage. But consider
           what your time is worth. If you spend 30-60 minutes a week planning
           meals from blog posts, that&apos;s 2-4 hours a month of
-          planning time. At <strong>$4.99/month</strong>, What&apos;s For
+          planning time. At <strong>$7.99/month</strong>, What&apos;s For
           Dinner gives you all of that time back. It&apos;s not replacing the
           recipes — it&apos;s replacing the work of turning recipes into
           a plan. And you can{" "}
@@ -406,7 +406,7 @@ export default function BudgetBytesAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

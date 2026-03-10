@@ -371,7 +371,7 @@ Your product occupies a unique niche:
 
 | Service | Monthly | Annual (per month) | Annual Total |
 |---------|---------|-------------------|-------------|
-| **whatsfordinner** | **$4.99** | **$2.50** | **$29.99** |
+| **whatsfordinner** | **$7.99** | **$5.00** | **$59.99** |
 | Mealime Pro | $5.99 | $4.17 | $49.99 |
 | Strongr Fastr | $5.00 | -- | -- |
 | Eat This Much | $15.00 | $5.00 | $60.00 |
@@ -381,17 +381,13 @@ Your product occupies a unique niche:
 | Cook Smarts | $14.99 | $8.33 | $99.99 |
 | Fitia Premium | $19.99 | $5.00 | $59.99 |
 
-### Verdict: $4.99/mo is correctly priced
+### Verdict: $7.99/mo is correctly priced (updated March 2026)
 
-**Not too cheap:** You're in line with Strongr Fastr ($5), Eat This Much annual ($5), and MealPrepPro ($5). Sub-$5 is the sweet spot for impulse subscriptions.
+**Value-positioned:** At $7.99/mo, we're priced above budget competitors (Mealime $5.99, eMeals $5.99) but well below premium (Ollie $10, Cook Smarts $14.99, Eat This Much $15). The AI personalization justifies the premium over basic planners.
 
-**Not too expensive:** You undercut Ollie (the hot competitor) by 50% and eMeals by ~50%.
+**Annual pricing is competitive:** $59.99/yr ($5/mo effective) matches Eat This Much annual and eMeals annual. Strong value proposition for committed users.
 
-**Annual pricing is aggressive (good):** $29.99/yr ($2.50/mo effective) significantly undercuts every competitor's annual plan. This is your conversion weapon -- "less than the cost of one takeout meal per month."
-
-**Risk:** At $4.99/mo, you need volume. Assuming ~30% annual conversion and $0.50/user/mo in AI costs (Claude API), you need ~2,000+ paying subscribers to cover basic costs and ~5,000+ to make this a real business. The low price means you can't afford high CAC -- organic/viral growth is essential.
-
-**Recommendation:** Keep the pricing. It's a moat. You can always raise prices later, but "the $5 meal planner" is a memorable position.
+**Margins improved:** At $7.99/mo vs $4.99, unit economics are significantly better. CAC budget expands, making paid acquisition viable alongside organic growth.
 
 ---
 
@@ -484,7 +480,7 @@ Your entire product is email. Gmail's Promotions tab, spam filters, and email fa
 **Mitigation:** Use Resend (good choice), maintain clean sender reputation, make emails genuinely useful (not promotional), and encourage users to move you to Primary inbox during onboarding.
 
 ### Threat 5: AI Cost Increases (Severity: LOW-MEDIUM)
-Claude API costs could increase, eating into margins at $4.99/mo.
+Claude API costs could increase, eating into margins at $7.99/mo.
 
 **Mitigation:** Cache common meal plan patterns, optimize prompts, batch generation. At current Claude pricing, generating one meal plan per user per week should be well under $0.50/user/month.
 
@@ -564,7 +560,7 @@ Write blog posts targeting Tier 3 and Tier 4 keywords. These will rank faster an
 ### Messaging Angles (Ranked by Potential Impact)
 
 #### 1. "Cheaper Than Takeout, Easier Than Thinking" (Best for Ads)
-Compare the $4.99/mo cost to one DoorDash order ($25-40). "For less than the delivery fee on one takeout order, you get a full week of dinner plans."
+Compare the $7.99/mo cost to one DoorDash order ($25-40). "For less than the delivery fee on one takeout order, you get a full week of dinner plans."
 
 #### 2. "No App. Just Email." (Best for Differentiation)
 Lean into the anti-app angle. "In a world of 47 meal planning apps, we just send you an email." This resonates with the screen-time-conscious audience and the "I don't want another subscription app" crowd.
@@ -592,7 +588,7 @@ Your no-signup free trial is a massive advantage. Most competitors require credi
 | **Twitter/X** | MEDIUM | Solo founder building in public. "Building a $5/mo AI meal planner" resonates with the indie hacker audience, which drives early adopters |
 | **Product Hunt** | MEDIUM | Good for launch spike. AI + simple product = PH audience loves it |
 | **Pinterest** | MEDIUM | Meal planning content performs well on Pinterest. Create pins of weekly plans, grocery lists, budget breakdowns |
-| **Paid Ads** | LOW (for now) | At $4.99/mo, you can't afford high CAC. Only consider retargeting visitors who tried the free trial but didn't convert |
+| **Paid Ads** | MEDIUM | At $7.99/mo, CAC budget is viable. Consider retargeting visitors who tried the free trial but didn't convert, plus keyword ads |
 
 ### Competitor-Specific Positioning
 
@@ -602,14 +598,14 @@ Your no-signup free trial is a massive advantage. Most competitors require credi
 | **Eat This Much** | "No calorie counting required -- just good dinners, delivered to your inbox" |
 | **eMeals** | "AI-personalized for YOU, not the same plan as 10,000 other subscribers" |
 | **Mealime** | "Beyond weeknight dinners -- breakfast, lunch, and dinner, all planned" |
-| **HelloFresh** | "$5/mo vs $200/mo. You already know how to grocery shop." |
+| **HelloFresh** | "$8/mo vs $200/mo. You already know how to grocery shop." |
 | **ChatGPT** | "Like having ChatGPT meal plan for you automatically, every week, without forgetting your preferences" |
 
 ---
 
 ## Summary: The 5-Bullet Go-To-Market
 
-1. **You're the cheapest AI meal planner in the market** at $4.99/mo with a generous annual plan. This is a moat.
+1. **You're the best-value AI meal planner in the market** at $7.99/mo with a competitive annual plan. AI personalization justifies the premium.
 
 2. **Email-first is your differentiator**, not your limitation. While everyone else builds apps, you eliminate friction entirely.
 

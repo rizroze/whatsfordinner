@@ -431,7 +431,7 @@ export default function MealPlanningForBeginnersArticle() {
           >
             full grocery list
           </Link>{" "}
-          every week for $4.99/mo. You set your preferences once and never think
+          every week for $7.99/mo. You set your preferences once and never think
           about planning again.
         </p>
       </div>
@@ -443,7 +443,7 @@ export default function MealPlanningForBeginnersArticle() {
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your preferences in two minutes. Get a personalized 7-day meal
-          plan with a grocery list by email &mdash; no app required. $4.99/mo after
+          plan with a grocery list by email &mdash; no app required. $7.99/mo after
           your trial.
         </p>
         <Link

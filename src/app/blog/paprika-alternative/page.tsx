@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Paprika Alternative 2026 | AI Meal Plans",
   description:
-    "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo — no recipe hunting required.",
+    "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $7.99/mo — no recipe hunting required.",
   openGraph: {
     title:
       "Best Paprika Alternative (2026)",
     description:
-      "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo — no recipe hunting required.",
+      "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $7.99/mo — no recipe hunting required.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/paprika-alternative",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       "Best Paprika Alternative (2026)",
     description:
-      "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo.",
+      "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $7.99/mo.",
   },
 };
 
@@ -31,7 +31,7 @@ export default function PaprikaAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Paprika Alternative in 2026"
-        description="Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $4.99/mo — no recipe hunting required."
+        description="Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $7.99/mo — no recipe hunting required."
         url="https://whatsfordinner.fit/blog/paprika-alternative"
         datePublished="2026-03-07"
       />
@@ -232,7 +232,7 @@ export default function PaprikaAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Price</td>
                 <td className="py-3 px-4">$4.99/platform (one-time)</td>
                 <td className="py-3 pl-4 font-semibold text-stone-800">
-                  $4.99/mo
+                  $7.99/mo
                 </td>
               </tr>
               <tr>
@@ -408,7 +408,7 @@ export default function PaprikaAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $4.99/mo after your free trial.
+          every week. $7.99/mo after your free trial.
         </p>
         <Link
           href="/onboarding"

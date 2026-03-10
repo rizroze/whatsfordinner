@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Meal Planning for Two | Plans for Couples",
   description:
-    "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates — just $4.99/mo.",
+    "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates — just $7.99/mo.",
   openGraph: {
     title:
       "Meal Planning for Two (2026)",
@@ -32,7 +32,7 @@ export default function MealPlanningForTwo() {
     <>
       <ArticleJsonLd
         title="Meal Planning for Two: No More Waste, No More Guessing"
-        description="Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates — just $4.99/mo."
+        description="Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates — just $7.99/mo."
         url="https://whatsfordinner.fit/blog/meal-planning-for-two"
         datePublished="2026-02-25"
       />
@@ -164,7 +164,7 @@ export default function MealPlanningForTwo() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           AI-generated meal plans + grocery lists, scaled to your household.
-          No waste, no guessing. Just $4.99/mo.
+          No waste, no guessing. Just $7.99/mo.
         </p>
         <Link
           href="/onboarding"
@@ -210,7 +210,7 @@ export default function MealPlanningForTwo() {
             meal kit service like HelloFresh
           </Link>
           , where two people easily spend $60-80 per week for just three or four
-          meals. With What&apos;s For Dinner, $4.99/mo covers all seven days of
+          meals. With What&apos;s For Dinner, $7.99/mo covers all seven days of
           planning — and you buy your own groceries at whatever store has the
           best prices.
         </p>
