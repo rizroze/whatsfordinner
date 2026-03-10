@@ -14,11 +14,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://whatsfordinner.fit"),
   title: {
-    default: "What's For Dinner — Personalized Weekly Meal Plans & Grocery Lists",
+    default: "What's For Dinner — Weekly Meal Plans, Recipes & Grocery Lists",
     template: "%s | What's For Dinner",
   },
   description:
-    "Get personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required. From $7.99/month.",
+    "You spend 3+ hours a week deciding what to eat. We do it in 30 seconds — meal plans, recipes, and a grocery list, personalized to your family. Try free, no credit card.",
   keywords: [
     "meal planner",
     "weekly meal plan",
@@ -41,16 +41,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://whatsfordinner.fit",
-    title: "What's For Dinner — Personalized Weekly Meal Plans",
+    title: "What's For Dinner — Meal Plans That End the Dinner Stress",
     description:
-      "Personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required.",
+      "You spend 3+ hours a week deciding what to eat. We do it in 30 seconds — meal plans, recipes, and a grocery list. Try free.",
     siteName: "What's For Dinner",
   },
   twitter: {
     card: "summary_large_image",
-    title: "What's For Dinner — Personalized Weekly Meal Plans",
+    title: "What's For Dinner — Meal Plans That End the Dinner Stress",
     description:
-      "Personalized weekly meal plans, recipes, and grocery lists delivered to your inbox. Try a free 3-day plan — no credit card required.",
+      "You spend 3+ hours a week deciding what to eat. We do it in 30 seconds — meal plans, recipes, and a grocery list. Try free.",
   },
 };
 
@@ -62,7 +62,7 @@ const jsonLd = {
       name: "What's For Dinner",
       url: "https://whatsfordinner.fit",
       description:
-        "Personalized weekly meal plans and grocery lists delivered to your inbox.",
+        "Stop wasting 3+ hours a week deciding what to eat. We plan your meals, recipes, and grocery list in 30 seconds.",
       potentialAction: {
         "@type": "SearchAction",
         target: "https://whatsfordinner.fit/blog?q={search_term_string}",
@@ -76,7 +76,7 @@ const jsonLd = {
       operatingSystem: "Web",
       url: "https://whatsfordinner.fit",
       description:
-        "AI-powered meal planning service that delivers personalized weekly meal plans and grocery lists to your inbox.",
+        "End the dinner stress. Personalized meal plans, recipes, and grocery lists — planned in 30 seconds, delivered to your inbox weekly.",
       offers: [
         {
           "@type": "Offer",
@@ -104,7 +104,7 @@ const jsonLd = {
           name: "How does it work?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Fill out a quick profile with your dietary preferences, household size, and budget. You'll get a free 3-day meal plan immediately — no credit card required. Love it? Subscribe for full 7-day plans every week.",
+            text: "Tell us what you eat, what you avoid, and your budget. In 30 seconds, you get a 3-day meal plan with recipes and a grocery list — free, no credit card. If it clicks, subscribe and we send you a full week, every week.",
           },
         },
         {
@@ -112,7 +112,7 @@ const jsonLd = {
           name: "Is the free plan really free?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes! You get a complete 3-day meal plan with recipes and a grocery list — completely free, no credit card needed. Subscribe to unlock full 7-day plans delivered weekly.",
+            text: "Completely. No credit card, no trial that auto-charges. You get a real 3-day plan with real recipes and a real grocery list. We think once you try it, you won't want to go back to winging it.",
           },
         },
         {
@@ -120,7 +120,7 @@ const jsonLd = {
           name: "Can I customize for allergies and dietary restrictions?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Absolutely. You can specify any allergies, intolerances, or dietary preferences (vegetarian, vegan, gluten-free, keto, etc.) during onboarding. Every meal plan is tailored to your needs.",
+            text: "Down to the ingredient. Vegetarian, vegan, gluten-free, keto, nut allergies, shellfish — whatever it is, every meal is built around it. Your plan won't just avoid things, it'll be good despite them.",
           },
         },
         {
@@ -128,7 +128,7 @@ const jsonLd = {
           name: "What if I don't like the plan?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "You get up to 2 regenerations per week. If a plan doesn't feel right, just hit regenerate from your dashboard and we'll create a new one based on the same preferences.",
+            text: "Hit regenerate. New plan, same preferences, zero guilt. You get 2 regenerations per week. We'd rather you love every meal than settle.",
           },
         },
         {
@@ -136,7 +136,7 @@ const jsonLd = {
           name: "Can I cancel anytime?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, no contracts or commitments. Cancel anytime from your dashboard and you'll retain access through the end of your billing period.",
+            text: "One click from your dashboard. No phone calls, no retention emails, no guilt trip. You keep access through the end of your billing period.",
           },
         },
         {
@@ -144,7 +144,7 @@ const jsonLd = {
           name: "What kind of meals are included?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A wide variety of home-cooked meals — from quick 20-minute weeknight dinners to more involved weekend recipes. All plans include breakfast, lunch, and dinner with realistic prep times and common ingredients.",
+            text: "Real food you'd actually make — 15-minute weeknight dinners, weekend projects, breakfasts that aren't just cereal. Common ingredients you can find anywhere. Nothing that requires a specialty store run.",
           },
         },
         {
@@ -152,7 +152,7 @@ const jsonLd = {
           name: "Is this just for one person?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Nope. During setup, you tell us your household size and we adjust portions and grocery quantities accordingly. Works for individuals, couples, or families.",
+            text: "Works for one, works for six. You set your household size and we adjust everything — portions, grocery quantities, the whole plan. Couples, families, solo cooks — all covered.",
           },
         },
       ],
