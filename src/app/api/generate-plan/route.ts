@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { generateMealPlan } from "@/lib/anthropic";
-import { sendMealPlanEmail } from "@/lib/resend";
+import { sendMealPlanEmail, sendWelcomeEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import { rateLimit } from "@/lib/rate-limit";
 import type { UserProfile, MealPlanData } from "@/types/meal-plan";
@@ -133,6 +133,13 @@ export async function POST(req: NextRequest) {
 
       planId = newPlan.id;
       isNewPlan = true;
+
+      // Fire welcome email non-blocking — arrives while plan is generating
+      if (isSubscribed && !profile.email_opted_out) {
+        const deliveryEmail = profile.delivery_email || user.email!;
+        const firstName = user.user_metadata?.full_name?.split(" ")[0] ?? user.user_metadata?.name?.split(" ")[0] ?? "";
+        void sendWelcomeEmail(deliveryEmail, firstName).catch(() => {});
+      }
     }
 
     // Generate the meal plan with one retry on failure

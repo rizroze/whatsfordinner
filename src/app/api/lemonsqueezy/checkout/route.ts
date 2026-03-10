@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
 
     const checkoutOptions: Parameters<typeof createCheckout>[2] = {
       productOptions: {
-        redirectUrl: user ? `${appUrl}/dashboard` : `${appUrl}/signup?from=checkout`,
+        redirectUrl: user ? `${appUrl}/checkout/return` : `${appUrl}/signup?from=checkout`,
       },
     };
 

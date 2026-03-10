@@ -68,10 +68,11 @@ First payment received. Product Hunt scheduled.
 
 ### High Impact — Do Soon
 
-- [ ] **Funnel analytics** — track landing → onboarding → free plan → signup → paid. Vercel Analytics alone isn't enough. Add Posthog or Plausible with custom events.
+- [x] **Funnel analytics** — Vercel Analytics track() on each onboarding step + completion. onboarding_step_completed + onboarding_completed events live.
+- [x] **Swap single meal** — refresh icon on every meal card, Claude Haiku generates replacement respecting diet/allergies/cuisine, patches DB, updates UI instantly.
+- [x] **Required delivery email** — email field now required in onboarding for both free and paid users. Nurture sequence now always has an address to hit.
 - [ ] **Welcome email** — new signups should get an email before their first plan lands. Introduce the product, set expectations, drive them back to dashboard.
 - [ ] **Email open/click tracking** — Resend supports webhooks. Knowing which emails convert tells you what to double down on.
-- [ ] **Swap single meal** — most requested feature. Let users replace one meal without regenerating the whole week.
 - [ ] **Checkout return page** — after LemonSqueezy redirects back, poll subscription status for 30s before showing dashboard. Currently the user lands before the webhook fires.
 
 ### Growth

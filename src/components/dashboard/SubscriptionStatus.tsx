@@ -98,6 +98,34 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
             t("dashboard.statusCancelledDesc")}
         </p>
 
+        {status === "active" && planInterval === "monthly" && (
+          <div className="bg-orange-50 border border-orange-200 rounded-xl p-3 text-center space-y-2">
+            <p className="text-xs font-semibold text-stone-700">Save 50% — switch to yearly</p>
+            <p className="text-xs text-stone-500">$2.50/mo vs $4.99/mo &middot; billed once a year</p>
+            <Button
+              variant="primary"
+              size="sm"
+              loading={loading}
+              onClick={async () => {
+                setLoading(true);
+                try {
+                  const res = await fetch("/api/lemonsqueezy/checkout", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ plan: "yearly" }),
+                  });
+                  const d = await res.json();
+                  if (d.url) { window.location.href = d.url; return; }
+                } catch {}
+                setLoading(false);
+              }}
+              className="w-full"
+            >
+              Switch to Yearly
+            </Button>
+          </div>
+        )}
+
         {status === "active" && hasBilling && (
           <>
             <Button

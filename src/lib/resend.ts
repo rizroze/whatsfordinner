@@ -291,6 +291,77 @@ function getSubjectLine(weekOf: string, weekNumber: number): string {
   return `Your meal plan for ${weekLabel}`;
 }
 
+// --- Welcome email (new subscribers, sent before first plan) ---
+
+function buildWelcomeEmail(firstName: string): string {
+  const appUrl = getAppUrl();
+  const name = firstName ? `${firstName}` : "there";
+
+  return `<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light only"><style>:root{color-scheme:light only;}</style></head>
+<body style="margin:0;padding:0;background:#FFFBF5;font-family:Inter,system-ui,sans-serif;">
+  <div style="max-width:520px;margin:0 auto;padding:40px 24px;">
+
+    <!-- Header -->
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:24px;"><tr>
+      <td style="vertical-align:middle;width:32px;">
+        <img src="${appUrl}/favicon.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
+      </td>
+      <td style="vertical-align:middle;padding-left:10px;">
+        <p style="margin:0;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
+      </td>
+    </tr></table>
+
+    <!-- Main card -->
+    <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
+      <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;">
+        Hey ${name}, you're in.
+      </h1>
+      <p style="margin:0 0 16px;font-size:14px;color:#57534E;line-height:1.6;">
+        Your first 7-day meal plan is being generated right now. It'll be ready in your dashboard in under a minute &mdash; and you'll get an email the moment it's done.
+      </p>
+      <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
+        Every Sunday from here on, a fresh plan drops in your inbox. Recipes, grocery list, calories &mdash; the whole thing. No more "what's for dinner?" spirals.
+      </p>
+
+      <!-- What's in your plan -->
+      <div style="background:#FFF7ED;border-radius:12px;padding:16px 20px;margin-bottom:20px;">
+        <p style="margin:0 0 10px;font-size:13px;font-weight:700;color:#1C1917;">Every week you get:</p>
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr><td style="padding:3px 0;font-size:13px;color:#57534E;">7 days of meals, tailored to your preferences</td></tr>
+          <tr><td style="padding:3px 0;font-size:13px;color:#57534E;">Full recipes with step-by-step instructions</td></tr>
+          <tr><td style="padding:3px 0;font-size:13px;color:#57534E;">One consolidated grocery list</td></tr>
+          <tr><td style="padding:3px 0;font-size:13px;color:#57534E;">Calorie counts &amp; cook times on every meal</td></tr>
+        </table>
+      </div>
+
+      <div style="text-align:center;">
+        <a href="${appUrl}/dashboard" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+          Go to Dashboard
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align:center;margin-top:28px;">
+      <p style="margin:0;font-size:11px;color:#D6D3D1;">What's For Dinner &middot; whatsfordinner.fit</p>
+    </div>
+  </div>
+</body>
+</html>`;
+}
+
+export async function sendWelcomeEmail(to: string, firstName?: string): Promise<void> {
+  const html = buildWelcomeEmail(firstName ?? "");
+  await getResend().emails.send({
+    from: "What's For Dinner <plans@whatsfordinner.fit>",
+    to,
+    subject: "You're in — your first meal plan is generating",
+    html,
+  });
+}
+
 // --- Exports ---
 
 export async function sendMealPlanEmail(
