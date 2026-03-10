@@ -19,6 +19,7 @@ const statusBadge: Record<
   ready: { variant: "default" },
   sent: { variant: "success" },
   failed: { variant: "muted" },
+  skipped: { variant: "muted" },
 };
 
 export function PastPlans({ plans }: PastPlansProps) {

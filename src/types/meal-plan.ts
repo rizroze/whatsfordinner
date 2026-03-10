@@ -48,7 +48,7 @@ export interface MealPlanRecord {
   week_of: string;
   plan_data: MealPlanData | null;
   regeneration_count: number;
-  status: "generating" | "ready" | "sent" | "failed";
+  status: "generating" | "ready" | "sent" | "failed" | "skipped";
   sent_at: string | null;
   created_at: string;
   updated_at: string;

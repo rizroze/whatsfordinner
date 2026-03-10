@@ -144,6 +144,40 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
     );
   }
 
+  // Skipped
+  if (currentPlan.status === "skipped") {
+    return (
+      <Card>
+        <CardContent className="py-10 text-center space-y-3">
+          <div className="w-12 h-12 mx-auto rounded-full bg-stone-100 flex items-center justify-center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-stone-400">
+              <rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>
+            </svg>
+          </div>
+          <div>
+            <h3 className="text-base font-semibold text-stone-700">Week skipped</h3>
+            <p className="text-sm text-stone-400 mt-1">No plan will be generated this Sunday.</p>
+          </div>
+          <Button
+            variant="secondary"
+            size="sm"
+            loading={loading}
+            onClick={async () => {
+              setLoading(true);
+              try {
+                await fetch("/api/skip-week", { method: "DELETE" });
+                setCurrentPlan(null);
+              } catch {}
+              setLoading(false);
+            }}
+          >
+            Undo skip
+          </Button>
+        </CardContent>
+      </Card>
+    );
+  }
+
   // Failed
   if (currentPlan.status === "failed") {
     return (
@@ -304,13 +338,30 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
           >
             {t("dashboard.regenerate")}
           </Button>
-          <span className="text-xs text-stone-400">
+          <span className="text-xs text-stone-400 flex-1">
             {!isSubscribed
               ? t("dashboard.subscribeToRegen")
               : regenLeft > 0
                 ? t("dashboard.regenUsed", { count: String(currentPlan.regeneration_count) })
                 : t("dashboard.regenMax")}
           </span>
+          {isSubscribed && (
+            <button
+              type="button"
+              onClick={async () => {
+                if (!window.confirm("Skip this week? No plan will be generated on Sunday.")) return;
+                setLoading(true);
+                try {
+                  await fetch("/api/skip-week", { method: "POST" });
+                  setCurrentPlan({ ...currentPlan, status: "skipped" });
+                } catch {}
+                setLoading(false);
+              }}
+              className="text-xs text-stone-400 hover:text-stone-600 transition-colors shrink-0"
+            >
+              Skip week
+            </button>
+          )}
         </div>
         {error && (
           <p className="text-sm text-red-500 mt-2">{error}</p>

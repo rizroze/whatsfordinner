@@ -152,6 +152,11 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
             {error && (
               <p className="text-xs text-red-500 text-center">{error}</p>
             )}
+            <p className="text-center">
+              <a href="/cancel" className="text-xs text-stone-400 hover:text-stone-500 transition-colors">
+                Cancel subscription
+              </a>
+            </p>
           </>
         )}
         {status === "active" && !hasBilling && (
