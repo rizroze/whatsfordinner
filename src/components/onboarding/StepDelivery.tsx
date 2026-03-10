@@ -120,6 +120,7 @@ export function StepDelivery({ data, onChange }: StepProps) {
         placeholder={t("onboarding.delivery.emailPlaceholder")}
         value={data.delivery_email}
         onChange={(e) => onChange({ delivery_email: e.target.value })}
+        required
       />
 
       {/* Timezone */}

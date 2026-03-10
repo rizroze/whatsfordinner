@@ -12,9 +12,11 @@ interface DayCardProps {
   defaultOpen?: boolean;
   feedbackMap?: Record<string, "liked" | "disliked">;
   onFeedback?: (mealName: string, rating: "liked" | "disliked") => void;
+  onSwap?: (mealIndex: number) => void;
+  swappingIndex?: number | null;
 }
 
-export function DayCard({ day, defaultOpen = false, feedbackMap, onFeedback }: DayCardProps) {
+export function DayCard({ day, defaultOpen = false, feedbackMap, onFeedback, onSwap, swappingIndex }: DayCardProps) {
   const { t } = useT();
   const [open, setOpen] = useState(defaultOpen);
 
@@ -59,6 +61,8 @@ export function DayCard({ day, defaultOpen = false, feedbackMap, onFeedback }: D
               meal={meal}
               feedback={feedbackMap?.[meal.name] ?? null}
               onFeedback={onFeedback}
+              onSwap={onSwap ? () => onSwap(i) : undefined}
+              swapping={swappingIndex === i}
             />
           ))}
         </CardContent>

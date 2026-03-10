@@ -22,6 +22,38 @@ type ViewMode = "cards" | "table";
 export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: PlanViewProps) {
   const { t } = useT();
   const [viewMode, setViewMode] = useState<ViewMode>("cards");
+  const [planDays, setPlanDays] = useState(planData.days);
+  const [swappingKey, setSwappingKey] = useState<string | null>(null);
+
+  const handleSwap = useCallback(async (dayIndex: number, mealIndex: number) => {
+    const key = `${dayIndex}-${mealIndex}`;
+    if (swappingKey) return; // one swap at a time
+    setSwappingKey(key);
+    try {
+      const res = await fetch("/api/swap-meal", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ weekId: weekOf, dayIndex, mealIndex }),
+      });
+      if (!res.ok) throw new Error("Swap failed");
+      const { meal } = await res.json();
+      setPlanDays((prev) =>
+        prev.map((day, di) => {
+          if (di !== dayIndex) return day;
+          const updatedMeals = day.meals.map((m, mi) => (mi === mealIndex ? meal : m));
+          return {
+            ...day,
+            meals: updatedMeals,
+            totalCalories: updatedMeals.reduce((sum, m) => sum + (m.calories ?? 0), 0),
+          };
+        }),
+      );
+    } catch {
+      // silently fail — meal stays the same
+    } finally {
+      setSwappingKey(null);
+    }
+  }, [swappingKey, weekOf]);
 
   // Build feedback map from initial data
   const [feedbackMap, setFeedbackMap] = useState<Record<string, "liked" | "disliked">>(() => {
@@ -52,10 +84,10 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
     }).catch(() => {});
   }, []);
 
-  const totalMeals = planData.days.reduce((sum, d) => sum + d.meals.length, 0);
+  const totalMeals = planDays.reduce((sum, d) => sum + d.meals.length, 0);
   const totalGroceryItems = planData.groceryList.reduce((sum, c) => sum + c.items.length, 0);
-  const totalCalories = planData.days.reduce((sum, d) => sum + d.totalCalories, 0);
-  const totalCookTime = planData.days.reduce(
+  const totalCalories = planDays.reduce((sum, d) => sum + d.totalCalories, 0);
+  const totalCookTime = planDays.reduce(
     (sum, d) => sum + d.meals.reduce((ms, m) => ms + m.prepTime + m.cookTime, 0),
     0,
   );
@@ -171,11 +203,13 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
         {/* Mobile: always cards + tabs */}
         <div className="sm:hidden">
           <MobileTabs
-            days={planData.days}
+            days={planDays}
             groceryCategories={planData.groceryList}
             estimatedCost={planData.estimatedWeeklyCost}
             feedbackMap={feedbackMap}
             onFeedback={handleFeedback}
+            onSwap={handleSwap}
+            swappingKey={swappingKey}
           />
         </div>
 
@@ -193,13 +227,15 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
           ) : (
             <div className="lg:grid lg:grid-cols-5 lg:gap-8">
               <div className="lg:col-span-3 space-y-4">
-                {planData.days.map((day, i) => (
+                {planDays.map((day, i) => (
                   <DayCard
                     key={day.day}
                     day={day}
                     defaultOpen={i === 0}
                     feedbackMap={feedbackMap}
                     onFeedback={handleFeedback}
+                    onSwap={(mi) => handleSwap(i, mi)}
+                    swappingIndex={swappingKey?.startsWith(`${i}-`) ? Number(swappingKey.split("-")[1]) : null}
                   />
                 ))}
               </div>

@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
 import { generateFingerprint } from "@/lib/fingerprint";
 import { createClient } from "@/lib/supabase/client";
+import { track } from "@vercel/analytics";
 import {
   StepHousehold,
   type OnboardingFormData,
@@ -167,8 +168,15 @@ function OnboardingContent() {
 
   function handleNext() {
     if (currentStep < 4) {
+      track("onboarding_step_completed", { step: currentStep + 1, step_name: STEP_KEYS[currentStep] });
       setCurrentStep((prev) => prev + 1);
     } else {
+      // Require email on delivery step
+      if (!data.delivery_email?.trim()) {
+        setError("Please enter your email address to receive your meal plan.");
+        return;
+      }
+      track("onboarding_completed", { authenticated: isAuthenticated });
       handleSubmit();
     }
   }
