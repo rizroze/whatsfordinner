@@ -39,9 +39,11 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
     t("landing.pricing.features.groceryLists"),
     t("landing.pricing.features.regenerations"),
     t("landing.pricing.features.emailDelivery"),
-    t("landing.pricing.features.dietarySupport"),
+    t("landing.pricing.features.swapMeals"),
+    t("landing.pricing.features.learnsYourTaste"),
     t("landing.pricing.features.bestValue"),
     t("landing.pricing.features.inviteFriends"),
+    t("landing.pricing.features.prioritySupport"),
   ];
 
   return (

@@ -81,8 +81,11 @@
         "emailDelivery": "每周日通过邮件发送计划",
         "dietarySupport": "适应过敏症、饮食限制、挑食者——全部搞定",
         "cancelAnytime": "无承诺——随时取消",
-        "bestValue": "最超值——比月付每年省$36",
-        "inviteFriends": "邀请3位朋友免费体验"
+        "swapMeals": "随时替换任何一餐——AI帮你挑选新的",
+        "learnsYourTaste": "用得越多，计划越懂你",
+        "bestValue": "比月付每年省$36",
+        "inviteFriends": "邀请3位朋友免费体验",
+        "prioritySupport": "优先邮件支持"
       }
     },
     "faq": {

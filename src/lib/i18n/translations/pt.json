@@ -81,8 +81,11 @@
         "emailDelivery": "Planos entregues na sua caixa de entrada todo domingo",
         "dietarySupport": "Funciona com alergias, dietas, comensais exigentes — tudo",
         "cancelAnytime": "Sem compromisso — cancele quando quiser",
-        "bestValue": "Melhor valor — economize $36/ano vs mensal",
-        "inviteFriends": "Convide 3 amigos para experimentar grátis"
+        "swapMeals": "Troque qualquer refeição na hora — a IA escolhe uma nova",
+        "learnsYourTaste": "Os planos ficam mais inteligentes quanto mais você usa",
+        "bestValue": "Economize $36/ano vs mensal",
+        "inviteFriends": "Convide 3 amigos para experimentar grátis",
+        "prioritySupport": "Suporte prioritário por email"
       }
     },
     "faq": {

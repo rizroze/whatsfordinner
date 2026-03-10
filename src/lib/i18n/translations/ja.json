@@ -81,8 +81,11 @@
         "emailDelivery": "毎週日曜日にメールでプランをお届け",
         "dietarySupport": "アレルギー、食事制限、好き嫌い — すべてに対応",
         "cancelAnytime": "いつでも解約OK — 縛りなし",
-        "bestValue": "最もお得 — 月額より年間$36節約",
-        "inviteFriends": "友達3人を無料で招待"
+        "swapMeals": "どのメニューもワンクリックで変更 — AIが新しいものを選びます",
+        "learnsYourTaste": "使うほどプランが賢くなります",
+        "bestValue": "月額より年間$36節約",
+        "inviteFriends": "友達3人を無料で招待",
+        "prioritySupport": "優先メールサポート"
       }
     },
     "faq": {

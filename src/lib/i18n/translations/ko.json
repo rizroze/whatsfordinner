@@ -81,8 +81,11 @@
         "emailDelivery": "매주 일요일 이메일로 식단 전달",
         "dietarySupport": "알레르기, 식이 제한, 까다로운 입맛 — 모두 지원",
         "cancelAnytime": "약정 없음 — 언제든 해지 가능",
-        "bestValue": "최고 가성비 — 월간 대비 연 $36 절약",
-        "inviteFriends": "친구 3명을 무료로 초대하세요"
+        "swapMeals": "어떤 메뉴든 바로 교체 — AI가 새로운 걸 골라줘요",
+        "learnsYourTaste": "쓸수록 식단이 더 똑똑해져요",
+        "bestValue": "월간 대비 연 $36 절약",
+        "inviteFriends": "친구 3명을 무료로 초대하세요",
+        "prioritySupport": "우선 이메일 지원"
       }
     },
     "faq": {

@@ -81,8 +81,11 @@
         "emailDelivery": "Plans livrés dans votre boîte de réception chaque dimanche",
         "dietarySupport": "Compatible avec allergies, régimes, mangeurs difficiles — tout",
         "cancelAnytime": "Sans engagement — annulez quand vous voulez",
-        "bestValue": "Meilleur rapport qualité-prix — économisez $36/an",
-        "inviteFriends": "Invitez 3 amis à essayer gratuitement"
+        "swapMeals": "Remplacez un repas en un clic — l'IA en choisit un nouveau",
+        "learnsYourTaste": "Les plans s'améliorent au fil de votre utilisation",
+        "bestValue": "Économisez $36/an vs mensuel",
+        "inviteFriends": "Invitez 3 amis à essayer gratuitement",
+        "prioritySupport": "Support email prioritaire"
       }
     },
     "faq": {

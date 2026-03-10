@@ -81,8 +81,11 @@
         "emailDelivery": "Pläne jeden Sonntag in Deinen Posteingang geliefert",
         "dietarySupport": "Funktioniert mit Allergien, Diäten, wählerischen Essern — alles",
         "cancelAnytime": "Keine Bindung — jederzeit kündbar",
-        "bestValue": "Bester Wert — spare $36/Jahr vs monatlich",
-        "inviteFriends": "Lade 3 Freunde zum kostenlosen Testen ein"
+        "swapMeals": "Tausche jede Mahlzeit sofort aus — die KI wählt eine neue",
+        "learnsYourTaste": "Pläne werden mit jeder Nutzung besser",
+        "bestValue": "Spare $36/Jahr vs monatlich",
+        "inviteFriends": "Lade 3 Freunde zum kostenlosen Testen ein",
+        "prioritySupport": "Bevorzugter E-Mail-Support"
       }
     },
     "faq": {
