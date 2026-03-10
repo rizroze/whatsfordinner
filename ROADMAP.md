@@ -1,11 +1,11 @@
 # What's For Dinner - Roadmap
 
-## Launch Status: READY
-Last audit: March 5, 2026
+## Launch Status: LAUNCHED
+Last audit: March 10, 2026
 
 ---
 
-## PHASE 0: Launch Day (NOW)
+## PHASE 0: Launch Day ✅ DONE
 - [x] Core flows working (free plan, signup, checkout, dashboard, emails)
 - [x] SEO: structured data, sitemap, Google Search Console submitted
 - [x] Social proof stats (honest, dynamic, grows with usage)
@@ -14,12 +14,15 @@ Last audit: March 5, 2026
 - [x] Referral codes for yearly subs (3 codes, shows usage)
 - [x] Promo/gift code system working
 - [x] Error handling on all user-facing actions
-- [ ] Test purchase (monthly + yearly) end-to-end
-- [ ] Share on Twitter
+- [x] Test purchase (monthly + yearly) — first real payment received
+- [x] Product Hunt submitted and scheduled
+- [x] 920+ indexed pages (80 pSEO + 800 translated across 10 locales + 18 blog)
+- [x] Bing Webmaster Tools — sitemap fetched, site scan 787/790 pages clean
+- [x] CLAUDE.md, FORZEN.md, skills added
 
 ---
 
-## PHASE 1: First Week Polish (Post-Launch)
+## PHASE 1: First Week Polish (NOW)
 Priority fixes based on real user feedback.
 
 ### Reliability
@@ -86,9 +89,9 @@ Deepen the product based on data.
 ---
 
 ## PHASE 4: Scale (Month 4+)
-If we have paying customers and retention.
+If we have strong retention and growing paid base.
 
-- [ ] Multi-language meal plans (not just UI — actual localized recipes)
+- [x] Multi-language meal plans — 800 translated pages live across 10 locales
 - [ ] Dietary specialist plans (keto meal planner, vegan meal planner as separate landing pages)
 - [ ] API for third-party integrations
 - [ ] iOS app (plan viewer + grocery list with offline support)
