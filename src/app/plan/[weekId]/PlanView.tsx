@@ -121,15 +121,18 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
 
       {/* Hero stat */}
       <div className="border-b border-orange-100 bg-gradient-to-r from-orange-50 via-amber-50 to-orange-50 print:hidden">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-8 sm:pt-14 pb-8 sm:pb-14">
-          <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6 sm:pt-10 pb-8 sm:pb-14">
+          <p className="text-xs sm:text-sm text-stone-500 mb-1">
+            {t("plan.planned", { meals: String(totalMeals) })} &middot; {t("dashboard.heroGroceryItems", { items: String(totalGroceryItems) })} &middot; {totalCalories.toLocaleString()} {t("plan.cal")}
+          </p>
+          <p className="text-xs sm:text-sm text-orange-600/80 mb-4">
+            {t("plan.totalCookTime", { time: String(totalCookTime) })} &middot; {t("plan.estCost", { cost: planData.estimatedWeeklyCost })}
+          </p>
+          <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
             {t("plan.heroSavedYearlyPrefix")} <span className="text-orange-500">{t("plan.heroSavedYearlyHighlight")}</span>
             <br />
             {t("dashboard.heroNotThinking")}
           </h2>
-          <p className="mt-4 text-xs sm:text-sm text-stone-400">
-            {t("plan.planned", { meals: String(totalMeals) })} &middot; {t("dashboard.heroGroceryItems", { items: String(totalGroceryItems) })} &middot; {totalCalories.toLocaleString()} {t("plan.cal")} &middot; {t("plan.totalCookTime", { time: String(totalCookTime) })} &middot; {t("plan.estCost", { cost: planData.estimatedWeeklyCost })}
-          </p>
         </div>
       </div>
 
