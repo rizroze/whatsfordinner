@@ -128,7 +128,7 @@ export function PlanView({ planData, weekOf, formattedWeek, initialFeedback }: P
           <p className="text-xs sm:text-sm text-orange-600/80 mb-4">
             {t("plan.totalCookTime", { time: String(totalCookTime) })} &middot; {t("plan.estCost", { cost: planData.estimatedWeeklyCost })}
           </p>
-          <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-[1.1]">
+          <h2 className="text-3xl sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.25rem] font-extrabold text-stone-900 tracking-tighter leading-[1.08]">
             {t("plan.heroSavedYearlyPrefix")} <span className="text-orange-500">{t("plan.heroSavedYearlyHighlight")}</span>
             <br />
             {t("dashboard.heroNotThinking")}
