@@ -19,6 +19,7 @@ import {
 } from "@/components/dashboard/DashboardContent";
 import { FastingToggle } from "@/components/dashboard/FastingToggle";
 import { PantrySettings } from "@/components/dashboard/PantrySettings";
+import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import type { MealPlanRecord } from "@/types/meal-plan";
 
 export default async function DashboardPage() {
@@ -62,6 +63,7 @@ export default async function DashboardPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <DashboardHeader email={user.email ?? ""} />
           <div className="flex items-center gap-4">
+            <LanguagePicker />
             <DashboardHomeLink />
             <LogoutButton />
           </div>

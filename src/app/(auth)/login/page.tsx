@@ -94,7 +94,18 @@ function LoginForm() {
   }
 
   return (
-    <div className="min-h-screen bg-[#FFFBF5] flex items-center justify-center px-4 py-12">
+    <div className="min-h-screen bg-[#FFFBF5] flex items-center justify-center px-4 py-12 relative">
+      {/* Home button */}
+      <Link
+        href="/"
+        className="absolute top-4 left-4 sm:top-6 sm:left-6 text-sm text-stone-400 hover:text-orange-500 transition-colors flex items-center gap-1.5"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+        {t("dashboard.home")}
+      </Link>
+
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link href="/" className="text-2xl font-semibold text-stone-900 tracking-tight">
