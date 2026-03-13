@@ -3,13 +3,13 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "Best Meal Planning Apps 2026",
+  title: "10 Best Meal Planning Apps in 2026 (Tested & Ranked)",
   description:
-    "We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers. See which ones are worth your money and which ones fell behind.",
+    "We tested every meal planning app still active in 2026. See which AI planners, recipe organizers, and meal kits are actually worth paying for — and which ones fell behind.",
   openGraph: {
-    title: "Best Meal Planning Apps 2026",
+    title: "10 Best Meal Planning Apps in 2026 (Tested & Ranked)",
     description:
-      "We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers. See which ones are worth your money and which ones fell behind.",
+      "We tested every meal planning app still active in 2026. See which AI planners, recipe organizers, and meal kits are actually worth paying for — and which ones fell behind.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/best-meal-planning-apps",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-meal-planning-apps" },
   twitter: {
     card: "summary_large_image",
-    title: "Best Meal Planning Apps 2026",
+    title: "10 Best Meal Planning Apps in 2026 (Tested & Ranked)",
     description:
-      "We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers.",
+      "We tested every meal planning app still active in 2026. See which are worth your money and which fell behind.",
   },
 };
 
@@ -27,10 +27,61 @@ export default function BestMealPlanningAppsPage() {
   return (
     <>
       <ArticleJsonLd
-        title="Best Meal Planning Apps 2026"
-        description="We tested and ranked the 10 best meal planning apps in 2026 — from AI-powered planners to recipe organizers. See which ones are worth your money and which ones fell behind."
+        title="10 Best Meal Planning Apps in 2026 (Tested & Ranked)"
+        description="We tested every meal planning app still active in 2026. See which AI planners, recipe organizers, and meal kits are actually worth paying for — and which ones fell behind."
         url="https://whatsfordinner.fit/blog/best-meal-planning-apps"
         datePublished="2026-03-07"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is the best meal planning app in 2026?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "What's For Dinner is the best overall meal planning app in 2026. It uses AI to generate fully personalized weekly meal plans with recipes and a consolidated grocery list, delivered to your inbox for $7.99/month. Unlike traditional apps that rely on static recipe databases, it generates original plans from scratch every week.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Are there any free meal planning apps?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Mealime offers a free tier with recipe selection and grocery list generation. What's For Dinner offers a free 3-day trial plan with no signup required. Most other apps like Eat This Much, eMeals, and Plan to Eat require a paid subscription for full features.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What's the cheapest meal planning app?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Paprika is the cheapest at $4.99 one-time purchase, but it's a recipe manager, not a meal planner. For actual automated meal planning, What's For Dinner ($7.99/mo) and Mealime Pro ($5.99/mo) are the most affordable options. HelloFresh is the most expensive at $8-12 per serving.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do meal planning apps really save money?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Households that plan meals and shop from a consolidated grocery list spend roughly 25% less on groceries and waste significantly less food. A meal planning app costing $5-8/month typically saves $200-400/month on groceries by reducing impulse buys, food waste, and takeout orders.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What's the difference between a meal planning app and a meal kit?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A meal planning app generates recipes and grocery lists so you can shop and cook yourself, typically costing $5-10/month. A meal kit service like HelloFresh delivers pre-portioned ingredients to your door at $8-12 per serving ($200-400+/week for a family). Meal planning apps are significantly cheaper but require you to do your own grocery shopping.",
+                },
+              },
+            ],
+          }),
+        }}
       />
       <BreadcrumbJsonLd
         items={[
@@ -102,6 +153,107 @@ export default function BestMealPlanningAppsPage() {
           that generate everything automatically. In 2026, you shouldn&apos;t
           have to plan your planner.
         </p>
+      </div>
+
+      {/* --- Quick Comparison Table --- */}
+      <div className="my-10 overflow-x-auto">
+        <h2 className="text-xl font-semibold text-stone-800 mb-4">
+          Quick comparison
+        </h2>
+        <table className="w-full text-sm text-left border-collapse">
+          <thead>
+            <tr className="border-b-2 border-stone-200">
+              <th className="py-3 pr-4 font-semibold text-stone-800">App</th>
+              <th className="py-3 px-4 font-semibold text-stone-800">Price</th>
+              <th className="py-3 px-4 font-semibold text-stone-800">AI-Powered</th>
+              <th className="py-3 px-4 font-semibold text-stone-800">Grocery List</th>
+              <th className="py-3 px-4 font-semibold text-stone-800">Auto Plans</th>
+              <th className="py-3 pl-4 font-semibold text-stone-800">Best For</th>
+            </tr>
+          </thead>
+          <tbody className="text-stone-600">
+            <tr className="border-b border-stone-100 bg-orange-50/50">
+              <td className="py-3 pr-4 font-medium text-stone-900">What&apos;s For Dinner</td>
+              <td className="py-3 px-4">$7.99/mo</td>
+              <td className="py-3 px-4">Yes</td>
+              <td className="py-3 px-4">Yes</td>
+              <td className="py-3 px-4">Yes</td>
+              <td className="py-3 pl-4">Overall best</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">Mealime</td>
+              <td className="py-3 px-4">Free / $5.99</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">Yes</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 pl-4">Free option</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">Eat This Much</td>
+              <td className="py-3 px-4">$9/mo</td>
+              <td className="py-3 px-4">Partial</td>
+              <td className="py-3 px-4">Premium</td>
+              <td className="py-3 px-4">Yes</td>
+              <td className="py-3 pl-4">Calorie counting</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">eMeals</td>
+              <td className="py-3 px-4">$5.99/mo</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">Yes</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 pl-4">Store integration</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">Plan to Eat</td>
+              <td className="py-3 px-4">$5.95/mo</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">Yes</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 pl-4">Recipe organizing</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">Prepear</td>
+              <td className="py-3 px-4">Free / $7.99</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">Premium</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 pl-4">Blogger recipes</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">Paprika</td>
+              <td className="py-3 px-4">$4.99 once</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">Basic</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 pl-4">Recipe manager</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">Budget Bytes</td>
+              <td className="py-3 px-4">$8/mo</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 pl-4">Budget recipes</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-900">Cooklist</td>
+              <td className="py-3 px-4">Free</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 pl-4">Pantry tracking</td>
+            </tr>
+            <tr>
+              <td className="py-3 pr-4 font-medium text-stone-900">HelloFresh</td>
+              <td className="py-3 px-4">$8-12/serving</td>
+              <td className="py-3 px-4">No</td>
+              <td className="py-3 px-4">N/A</td>
+              <td className="py-3 px-4">N/A</td>
+              <td className="py-3 pl-4">Meal kit delivery</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       {/* --- #1 What's For Dinner --- */}

@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 const title =
-  "Meal Plan with Grocery List";
+  "Free Meal Plan with Grocery List (Updated Weekly)";
 const description =
-  "Get a personalized meal plan with grocery list every week. AI-generated, consolidated by category, adjusted to your household size. No app needed — just email.";
+  "Get a personalized meal plan with grocery list delivered every week — AI-generated, sorted by store aisle, adjusted to your household size. Try free, no app needed.";
 
 export const metadata: Metadata = {
   title,
@@ -31,10 +31,53 @@ export default function MealPlanWithGroceryList() {
   return (
     <>
       <ArticleJsonLd
-        title="Meal Plan with Grocery List: The Complete Solution"
-        description="Get a personalized meal plan with grocery list every week. AI-generated, consolidated by category, adjusted to your household size. No app needed — just email."
+        title="Free Meal Plan with Grocery List (Updated Weekly)"
+        description="Get a personalized meal plan with grocery list delivered every week — AI-generated, sorted by store aisle, adjusted to your household size. Try free, no app needed."
         url="https://whatsfordinner.fit/blog/meal-plan-with-grocery-list"
         datePublished="2026-02-25"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How do I get a meal plan with grocery list?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Set your dietary preferences, household size, and budget during a 2-minute onboarding. The AI generates a full 7-day meal plan with recipes and a consolidated grocery list grouped by store section. Your first plan is free with no signup required.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is the grocery list organized by store aisle?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. The grocery list is automatically organized into categories — Produce, Protein, Dairy, Grains & Bakery, and Pantry — so you can work through the store in one pass without backtracking.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does the grocery list adjust for household size?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Whether you're cooking for one or a family of six, all ingredient quantities scale automatically. Duplicates across recipes are merged into single line items with the correct total amount.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much do groceries cost with a meal plan?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A typical week of groceries for two people costs $75-95 depending on your area and store. Budget-tier plans favor in-season produce and pantry staples to keep costs lower. Households using meal plans spend roughly 25% less on groceries than those who shop without a plan.",
+                },
+              },
+            ],
+          }),
+        }}
       />
       <BreadcrumbJsonLd
         items={[

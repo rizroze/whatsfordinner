@@ -9,6 +9,14 @@ import { seasonalPages } from "./seasonal";
 import { healthPages } from "./health";
 import { lifestagePages } from "./lifestage";
 import { practicalPages } from "./practical";
+import { budgetExtendedPages } from "./budget-extended";
+import { dietsExtendedPages } from "./diets-extended";
+import { methodsExtendedPages } from "./methods-extended";
+import { genzPages } from "./genz";
+import { genzExtendedPages } from "./genz-extended";
+import { occasionPages } from "./occasions";
+import { cuisinesExtendedPages } from "./cuisines-extended";
+import { genzSituationPages } from "./genz-situations";
 import type { MealPlanPageData } from "./types";
 
 const ALL_PAGES: MealPlanPageData[] = [
@@ -23,6 +31,14 @@ const ALL_PAGES: MealPlanPageData[] = [
   ...healthPages,
   ...lifestagePages,
   ...practicalPages,
+  ...budgetExtendedPages,
+  ...dietsExtendedPages,
+  ...methodsExtendedPages,
+  ...genzPages,
+  ...genzExtendedPages,
+  ...occasionPages,
+  ...cuisinesExtendedPages,
+  ...genzSituationPages,
 ];
 
 // Validate no duplicate slugs at import time

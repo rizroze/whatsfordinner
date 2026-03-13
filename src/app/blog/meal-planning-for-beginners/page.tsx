@@ -3,22 +3,22 @@ import Link from "next/link";
 import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd";
 
 export const metadata: Metadata = {
-  title: "Meal Planning for Beginners (2026)",
+  title: "Meal Planning for Beginners: 5-Step Guide (2026)",
   description:
-    "Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout.",
+    "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free printable plan included.",
   openGraph: {
-    title: "Meal Planning for Beginners (2026)",
+    title: "Meal Planning for Beginners: 5-Step Guide (2026)",
     description:
-      "Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout.",
+      "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free printable plan included.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/meal-planning-for-beginners",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Meal Planning for Beginners (2026)",
+    title: "Meal Planning for Beginners: 5-Step Guide (2026)",
     description:
-      "Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout.",
+      "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required.",
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/meal-planning-for-beginners",
@@ -29,10 +29,53 @@ export default function MealPlanningForBeginnersArticle() {
   return (
     <>
       <ArticleJsonLd
-        title="Meal Planning for Beginners (2026)"
-        description="Learn how to meal plan from scratch with this beginner-friendly guide. A simple 5-step method that saves 2.5 hours and $50-100 per week — without burnout."
+        title="Meal Planning for Beginners: 5-Step Guide (2026)"
+        description="Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free printable plan included."
         url="https://whatsfordinner.fit/blog/meal-planning-for-beginners"
         datePublished="2026-03-07"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How do I start meal planning as a beginner?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Start with a simple 5-step method: (1) Pick 3-5 dinners for the week, (2) Plan breakfasts and lunches around leftovers and simple staples, (3) Write a consolidated grocery list, (4) Shop once for the whole week, (5) Do 30 minutes of weekend prep. Start with just dinners if the full week feels overwhelming.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much time does meal planning save?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Meal planning saves an average of 2.5 hours per week by eliminating daily 'what's for dinner' decisions, reducing grocery store trips from 3-4 to 1, and cutting down cooking time through batch prep and planned leftovers. That's over 130 hours per year.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much money can meal planning save?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Households that meal plan save $50-100 per week on average by reducing impulse purchases, food waste, and takeout orders. Shopping from a planned list means you buy only what you need, and using overlapping ingredients across meals reduces per-meal costs.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What's the easiest way to meal plan?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The easiest way is to use an AI meal planner that generates your plan and grocery list automatically. Services like What's For Dinner create a personalized 7-day plan with recipes and a consolidated grocery list for $7.99/month — no manual planning required. You can also try a free 3-day plan with no signup.",
+                },
+              },
+            ],
+          }),
+        }}
       />
       <BreadcrumbJsonLd
         items={[
