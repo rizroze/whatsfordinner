@@ -72,7 +72,8 @@ export async function generateSitemaps() {
   ];
 }
 
-export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
+export default async function sitemap(props: { id: Promise<number> | number }): Promise<MetadataRoute.Sitemap> {
+  const id = Number(await props.id);
   const mealPlanPages = getAllMealPlanPages();
 
   // Sitemap 0: static pages + blog
