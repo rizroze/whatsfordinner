@@ -96,67 +96,6 @@ const jsonLd = {
         },
       ],
     },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How does it work?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Tell us what you eat, what you avoid, and your budget. In 30 seconds, you get a 3-day meal plan with recipes and a grocery list — free, no credit card. If it clicks, subscribe and we send you a full week, every week.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is the free plan really free?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Completely. No credit card, no trial that auto-charges. You get a real 3-day plan with real recipes and a real grocery list. We think once you try it, you won't want to go back to winging it.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I customize for allergies and dietary restrictions?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Down to the ingredient. Vegetarian, vegan, gluten-free, keto, nut allergies, shellfish — whatever it is, every meal is built around it. Your plan won't just avoid things, it'll be good despite them.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What if I don't like the plan?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Hit regenerate. New plan, same preferences, zero guilt. You get 2 regenerations per week. We'd rather you love every meal than settle.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I cancel anytime?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "One click from your dashboard. No phone calls, no retention emails, no guilt trip. You keep access through the end of your billing period.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What kind of meals are included?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Real food you'd actually make — 15-minute weeknight dinners, weekend projects, breakfasts that aren't just cereal. Common ingredients you can find anywhere. Nothing that requires a specialty store run.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is this just for one person?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Works for one, works for six. You set your household size and we adjust everything — portions, grocery quantities, the whole plan. Couples, families, solo cooks — all covered.",
-          },
-        },
-      ],
-    },
   ],
 };
 
