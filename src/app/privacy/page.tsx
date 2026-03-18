@@ -256,10 +256,10 @@ export default function PrivacyPage() {
           <p>
             To exercise any of these rights, email us at{" "}
             <a
-              href="mailto:hello@whatsfordinner.fit"
+              href="/feedback"
               className="text-orange-500 hover:text-orange-600"
             >
-              hello@whatsfordinner.fit
+              our contact form
             </a>
             . We will respond within 30 days.
           </p>
@@ -293,10 +293,10 @@ export default function PrivacyPage() {
           <p>
             Questions or concerns about this Privacy Policy? Email us at{" "}
             <a
-              href="mailto:hello@whatsfordinner.fit"
+              href="/feedback"
               className="text-orange-500 hover:text-orange-600"
             >
-              hello@whatsfordinner.fit
+              our contact form
             </a>
             .
           </p>

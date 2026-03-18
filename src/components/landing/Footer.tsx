@@ -39,7 +39,7 @@ export function Footer() {
             {t("landing.footer.terms")}
           </Link>
           <Link
-            href="mailto:hello@whatsfordinner.fit"
+            href="/feedback"
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >
             {t("landing.footer.contact")}

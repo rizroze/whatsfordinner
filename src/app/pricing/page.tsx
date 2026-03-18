@@ -369,7 +369,7 @@ export default function PricingPage() {
               Terms
             </Link>
             <Link
-              href="mailto:hello@whatsfordinner.fit"
+              href="/feedback"
               className="text-sm text-stone-400 hover:text-orange-600 transition-colors"
             >
               Contact

@@ -113,10 +113,10 @@ export default function TermsPage() {
           <p>
             If you believe you were charged in error, contact us at{" "}
             <a
-              href="mailto:hello@whatsfordinner.fit"
+              href="/feedback"
               className="text-orange-500 hover:text-orange-600"
             >
-              hello@whatsfordinner.fit
+              our contact form
             </a>{" "}
             and we will review your case promptly.
           </p>
@@ -231,10 +231,10 @@ export default function TermsPage() {
           <p>
             Questions about these Terms? Email us at{" "}
             <a
-              href="mailto:hello@whatsfordinner.fit"
+              href="/feedback"
               className="text-orange-500 hover:text-orange-600"
             >
-              hello@whatsfordinner.fit
+              our contact form
             </a>
             .
           </p>

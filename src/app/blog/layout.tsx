@@ -61,7 +61,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
               Terms
             </Link>
             <Link
-              href="mailto:hello@whatsfordinner.fit"
+              href="/feedback"
               className="text-sm text-stone-400 hover:text-orange-600 transition-colors"
             >
               Contact
