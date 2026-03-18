@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from "react";
+import { usePathname } from "next/navigation";
 import en from "./translations/en.json";
 
 // Supported languages
@@ -107,16 +108,19 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("en");
   const [dict, setDict] = useState<TranslationDict>(enFlat);
   const [ready, setReady] = useState(false);
+  const pathname = usePathname();
 
-  // Initialize on mount
+  // Detect locale on mount and when pathname changes (e.g. navigating /tr → /es)
   useEffect(() => {
     const detected = detectLocale();
-    setLocaleState(detected);
-    loadTranslation(detected).then((d) => {
-      setDict(d);
-      setReady(true);
-    });
-  }, []);
+    if (detected !== locale || !ready) {
+      setLocaleState(detected);
+      loadTranslation(detected).then((d) => {
+        setDict(d);
+        setReady(true);
+      });
+    }
+  }, [pathname]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const setLocale = useCallback((newLocale: Locale) => {
     setLocaleState(newLocale);
