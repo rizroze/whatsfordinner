@@ -478,5 +478,13 @@
     "pantryStaples": "Vorrats-Basics",
     "likelyAtHome": "Wahrscheinlich schon in deiner Küche",
     "likelyAtHomeNote": "vermutlich schon vorhanden"
+  },
+  "exitIntent": {
+    "title": "Warte — Dein kostenloser Plan ist fertig",
+    "subtitle": "Gib Deine E-Mail ein und wir erstellen Dir einen personalisierten 3-Tages-Essensplan mit Rezepten und Einkaufsliste. Kostenlos.",
+    "emailPlaceholder": "you@example.com",
+    "cta": "Meinen Gratis-Plan Holen →",
+    "reassurance": "Keine Kreditkarte. Kein Spam. Einfach ein Essensplan.",
+    "dismiss": "Nein danke, ich kümmere mich selbst ums Abendessen"
   }
 }

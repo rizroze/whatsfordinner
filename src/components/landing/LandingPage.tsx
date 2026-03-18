@@ -12,6 +12,7 @@ import { FAQ } from "@/components/landing/FAQ";
 import { PopularMealPlans } from "@/components/landing/PopularMealPlans";
 import { GuidesAndTips } from "@/components/landing/GuidesAndTips";
 import { Footer } from "@/components/landing/Footer";
+import { ExitIntentPopup } from "@/components/landing/ExitIntentPopup";
 import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import { useT } from "@/lib/i18n/context";
 import { createClient } from "@/lib/supabase/client";
@@ -74,6 +75,7 @@ export function LandingPage() {
       <PopularMealPlans />
       <GuidesAndTips />
       <Footer />
+      <ExitIntentPopup isSignedIn={isSignedIn === true} />
     </main>
   );
 }

@@ -478,5 +478,13 @@
     "pantryStaples": "常備品",
     "likelyAtHome": "おそらくキッチンにあるもの",
     "likelyAtHomeNote": "すでにお持ちと想定"
+  },
+  "exitIntent": {
+    "title": "ちょっと待って — 無料プランが準備できています",
+    "subtitle": "メールアドレスを入力するだけ。あなた専用の3日間メニュープラン（レシピ・買い物リスト付き）を無料でお届けします。",
+    "emailPlaceholder": "you@example.com",
+    "cta": "無料プランを受け取る →",
+    "reassurance": "クレジットカード不要。迷惑メールなし。届くのはメニュープランだけ。",
+    "dismiss": "いいえ、自分で晩ごはん考えます"
   }
 }

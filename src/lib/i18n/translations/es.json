@@ -478,5 +478,13 @@
     "pantryStaples": "básicos de despensa",
     "likelyAtHome": "Probablemente ya los tienes en casa",
     "likelyAtHomeNote": "asumiendo que ya lo tienes"
+  },
+  "exitIntent": {
+    "title": "Espera — tu plan gratis está listo",
+    "subtitle": "Ingresa tu correo y te crearemos un plan de comidas personalizado de 3 días con recetas y lista de compras. Gratis.",
+    "emailPlaceholder": "you@example.com",
+    "cta": "Obtener Mi Plan Gratis →",
+    "reassurance": "Sin tarjeta de crédito. Sin spam. Solo un plan de comidas.",
+    "dismiss": "No gracias, ya me las arreglo yo con la cena"
   }
 }

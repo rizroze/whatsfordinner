@@ -478,5 +478,13 @@
     "pantryStaples": "mutfak malzemeleri",
     "likelyAtHome": "Muhtemelen mutfağınızda var",
     "likelyAtHomeNote": "zaten evinizde olduğunu varsayarak"
+  },
+  "exitIntent": {
+    "title": "Durun — ücretsiz planınız hazır",
+    "subtitle": "E-postanızı girin, size özel 3 günlük bir öğün planı hazırlayalım — tarifler ve alışveriş listesiyle birlikte. Ücretsiz.",
+    "emailPlaceholder": "you@example.com",
+    "cta": "Ücretsiz Planımı Al →",
+    "reassurance": "Kredi kartı yok. Spam yok. Sadece bir öğün planı.",
+    "dismiss": "Hayır teşekkürler, akşam yemeğini kendim hallederim"
   }
 }

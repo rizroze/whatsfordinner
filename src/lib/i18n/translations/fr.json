@@ -478,5 +478,13 @@
     "pantryStaples": "produits de base",
     "likelyAtHome": "Probablement déjà dans votre cuisine",
     "likelyAtHomeNote": "en supposant que vous l'avez"
+  },
+  "exitIntent": {
+    "title": "Attendez — votre plan gratuit est prêt",
+    "subtitle": "Entrez votre email et nous créerons un plan de repas personnalisé de 3 jours avec recettes et liste de courses. Gratuit.",
+    "emailPlaceholder": "you@example.com",
+    "cta": "Obtenir Mon Plan Gratuit →",
+    "reassurance": "Sans carte de crédit. Sans spam. Juste un plan de repas.",
+    "dismiss": "Non merci, je me débrouillerai pour le dîner"
   }
 }

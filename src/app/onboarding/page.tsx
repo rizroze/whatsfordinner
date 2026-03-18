@@ -69,8 +69,14 @@ function OnboardingContent() {
       setLocale(langParam as Locale);
     }
   }, [langParam, setLocale]);
+  // Pre-fill email from exit-intent popup query param
+  const emailParam = searchParams.get("email");
+
   const [currentStep, setCurrentStep] = useState(0);
-  const [data, setData] = useState<OnboardingFormData>(INITIAL_DATA);
+  const [data, setData] = useState<OnboardingFormData>(() => ({
+    ...INITIAL_DATA,
+    ...(emailParam ? { delivery_email: emailParam } : {}),
+  }));
   const [loading, setLoading] = useState(false);
   const [elapsed, setElapsed] = useState(0);
   const [error, setError] = useState<string | null>(null);

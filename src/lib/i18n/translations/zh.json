@@ -478,5 +478,13 @@
     "pantryStaples": "厨房常备品",
     "likelyAtHome": "可能已经在你的厨房里",
     "likelyAtHomeNote": "假设您已有此物品"
+  },
+  "exitIntent": {
+    "title": "等一下 — 你的免费计划已经准备好了",
+    "subtitle": "输入你的邮箱，我们将为你生成一份个性化的3天餐饮计划，包含食谱和购物清单。完全免费。",
+    "emailPlaceholder": "you@example.com",
+    "cta": "获取我的免费计划 →",
+    "reassurance": "无需信用卡。没有垃圾邮件。只有一份餐饮计划。",
+    "dismiss": "不用了，我自己想办法解决晚饭"
   }
 }

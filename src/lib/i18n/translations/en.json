@@ -478,5 +478,13 @@
     "pantryStaples": "pantry staples",
     "likelyAtHome": "Likely already in your kitchen",
     "likelyAtHomeNote": "assuming you might have this"
+  },
+  "exitIntent": {
+    "title": "Wait — your free plan is ready",
+    "subtitle": "Enter your email and we'll build a personalized 3-day meal plan with recipes and a grocery list. Free.",
+    "emailPlaceholder": "you@example.com",
+    "cta": "Get My Free Plan →",
+    "reassurance": "No credit card. No spam. Just a meal plan.",
+    "dismiss": "No thanks, I'll figure out dinner myself"
   }
 }

@@ -478,5 +478,13 @@
     "pantryStaples": "기본 식재료",
     "likelyAtHome": "아마 이미 부엌에 있을 거예요",
     "likelyAtHomeNote": "이미 있다고 가정"
+  },
+  "exitIntent": {
+    "title": "잠깐 — 무료 식단이 준비됐어요",
+    "subtitle": "이메일을 입력하면 레시피와 장보기 목록이 포함된 맞춤 3일 식단을 만들어 드려요. 무료입니다.",
+    "emailPlaceholder": "you@example.com",
+    "cta": "무료 식단 받기 →",
+    "reassurance": "신용카드 없이. 스팸 없이. 식단만 보내드려요.",
+    "dismiss": "괜찮아요, 저녁은 알아서 할게요"
   }
 }
