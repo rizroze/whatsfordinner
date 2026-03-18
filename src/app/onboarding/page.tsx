@@ -175,6 +175,19 @@ function OnboardingContent() {
   }
 
   function handleNext() {
+    // Step 3 (Dietary) — require age range and goal for personalization
+    if (currentStep === 2) {
+      if (!data.age_range) {
+        setError("Pick your age range so we can tailor portions and nutrition.");
+        return;
+      }
+      if (!data.nutrition_goal) {
+        setError("Select a goal — it helps us balance your meals.");
+        return;
+      }
+    }
+    setError(null);
+
     if (currentStep < 4) {
       track("onboarding_step_completed", { step: currentStep + 1, step_name: STEP_KEYS[currentStep] });
       setCurrentStep((prev) => prev + 1);
@@ -618,7 +631,7 @@ function OnboardingContent() {
 
         {/* Error */}
         {error && (
-          <div className="mb-4 bg-red-50 border border-red-200 text-red-700 text-sm rounded-xl px-4 py-3 text-center">
+          <div className="mb-4 bg-orange-50 border border-orange-200 text-orange-700 text-sm rounded-xl px-4 py-3 text-center">
             {error}
           </div>
         )}
