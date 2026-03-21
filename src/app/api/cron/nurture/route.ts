@@ -43,10 +43,19 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ error: "Failed to fetch plans" }, { status: 500 });
     }
 
+    console.log(`Nurture cron: found ${plans?.length ?? 0} free plan rows`);
+
     if (plans && plans.length > 0) {
+      let withEmail = 0;
+      let skippedNoEmail = 0;
+
       for (const plan of plans) {
         const planData = plan.plan_data as Record<string, unknown> | null;
-        if (!planData || !planData.nurture_email) continue;
+        if (!planData || !planData.nurture_email) {
+          skippedNoEmail++;
+          continue;
+        }
+        withEmail++;
 
         const email = planData.nurture_email as string;
         const nurtureSent = (planData.nurture_sent as string[]) || [];
@@ -79,7 +88,11 @@ export async function GET(req: NextRequest) {
           }
         }
 
-        if (!emailType) continue;
+        if (!emailType) {
+          console.log(`Nurture cron: ${email.replace(/(.{2}).*@/, "$1***@")} — ${daysSinceCreated} days old, already sent: [${nurtureSent.join(",")}], no email due`);
+          continue;
+        }
+        console.log(`Nurture cron: sending ${emailType} to ${email.replace(/(.{2}).*@/, "$1***@")} (${daysSinceCreated} days old)`);
 
         try {
           await sendNurtureEmail(email, emailType);
@@ -179,12 +192,14 @@ export async function GET(req: NextRequest) {
       }
     }
 
-    return NextResponse.json({
+    const result = {
       sent,
       referralsSent,
       errors,
       checked: plans?.length ?? 0,
-    });
+    };
+    console.log("Nurture cron result:", JSON.stringify(result));
+    return NextResponse.json(result);
   } catch (error) {
     console.error("Nurture cron error:", error);
     return NextResponse.json({ error: "Nurture cron failed" }, { status: 500 });
