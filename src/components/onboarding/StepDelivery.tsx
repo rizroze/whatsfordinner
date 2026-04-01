@@ -45,7 +45,7 @@ function formatTimezone(tz: string): string {
   }
 }
 
-export function StepDelivery({ data, onChange }: StepProps) {
+export function StepDelivery({ data, onChange, isAuthenticated = false }: StepProps & { isAuthenticated?: boolean }) {
   const { t } = useT();
 
   const DAYS_OF_WEEK = [
@@ -74,44 +74,48 @@ export function StepDelivery({ data, onChange }: StepProps) {
     <div className="space-y-4 sm:space-y-5">
       <div className="text-center space-y-1">
         <h2 className="text-xl sm:text-2xl font-semibold text-stone-800">
-          {t("onboarding.delivery.title")}
+          {isAuthenticated ? t("onboarding.delivery.title") : t("onboarding.delivery.sendTo")}
         </h2>
         <p className="text-stone-500 text-xs sm:text-sm">
-          {t("onboarding.delivery.subtitle")}
+          {isAuthenticated
+            ? t("onboarding.delivery.subtitle")
+            : "We\u2019ll send your 3-day meal plan with recipes and a grocery list."}
         </p>
       </div>
 
-      {/* Day picker — buttons */}
-      <div className="space-y-2">
-        <label className="text-sm font-medium text-stone-700">
-          {t("onboarding.delivery.everyWeekOn")}
-        </label>
-        <div className="grid grid-cols-7 gap-1.5">
-          {DAYS_OF_WEEK.map((day) => {
-            const selected = data.delivery_day === day.value;
-            return (
-              <button
-                key={day.value}
-                type="button"
-                onClick={() => onChange({ delivery_day: day.value })}
-                className={cn(
-                  "py-2.5 rounded-xl border text-sm font-medium transition-all duration-200",
-                  "hover:border-orange-300",
-                  selected
-                    ? "border-orange-400 bg-orange-50 text-orange-700"
-                    : "border-stone-200 bg-white text-stone-600",
-                )}
-              >
-                {day.label}
-              </button>
-            );
-          })}
+      {/* Day picker — only for authenticated/subscriber users */}
+      {isAuthenticated && (
+        <div className="space-y-2">
+          <label className="text-sm font-medium text-stone-700">
+            {t("onboarding.delivery.everyWeekOn")}
+          </label>
+          <div className="grid grid-cols-7 gap-1.5">
+            {DAYS_OF_WEEK.map((day) => {
+              const selected = data.delivery_day === day.value;
+              return (
+                <button
+                  key={day.value}
+                  type="button"
+                  onClick={() => onChange({ delivery_day: day.value })}
+                  className={cn(
+                    "py-2.5 rounded-xl border text-sm font-medium transition-all duration-200",
+                    "hover:border-orange-300",
+                    selected
+                      ? "border-orange-400 bg-orange-50 text-orange-700"
+                      : "border-stone-200 bg-white text-stone-600",
+                  )}
+                >
+                  {day.label}
+                </button>
+              );
+            })}
+          </div>
+          {/* Confirmation note */}
+          <p className="text-xs text-stone-400 text-center">
+            {t("onboarding.delivery.confirmNote", { day: selectedDayLabel })}
+          </p>
         </div>
-        {/* Confirmation note */}
-        <p className="text-xs text-stone-400 text-center">
-          {t("onboarding.delivery.confirmNote", { day: selectedDayLabel })}
-        </p>
-      </div>
+      )}
 
       {/* Email */}
       <Input
@@ -123,23 +127,25 @@ export function StepDelivery({ data, onChange }: StepProps) {
         required
       />
 
-      {/* Timezone */}
-      <div className="space-y-1">
-        <Select
-          label={t("onboarding.delivery.timezone")}
-          value={data.timezone}
-          onChange={(e) => onChange({ timezone: e.target.value })}
-        >
-          {[...new Set([data.timezone, ...COMMON_TIMEZONES])].map((tz) => (
-            <option key={tz} value={tz}>
-              {formatTimezone(tz)}
-            </option>
-          ))}
-        </Select>
-        <p className="text-xs text-stone-400">
-          {t("onboarding.delivery.timezoneHint")}
-        </p>
-      </div>
+      {/* Timezone — visible for authenticated users, auto-detected silently for anonymous */}
+      {isAuthenticated ? (
+        <div className="space-y-1">
+          <Select
+            label={t("onboarding.delivery.timezone")}
+            value={data.timezone}
+            onChange={(e) => onChange({ timezone: e.target.value })}
+          >
+            {[...new Set([data.timezone, ...COMMON_TIMEZONES])].map((tz) => (
+              <option key={tz} value={tz}>
+                {formatTimezone(tz)}
+              </option>
+            ))}
+          </Select>
+          <p className="text-xs text-stone-400">
+            {t("onboarding.delivery.timezoneHint")}
+          </p>
+        </div>
+      ) : null}
     </div>
   );
 }

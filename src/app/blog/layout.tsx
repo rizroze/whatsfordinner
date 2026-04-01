@@ -24,7 +24,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
           href="/onboarding"
           className="hidden sm:inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
         >
-          Try Free
+          Get Your Free Meal Plan
         </Link>
       </nav>
 

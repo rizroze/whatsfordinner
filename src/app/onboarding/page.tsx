@@ -474,7 +474,7 @@ function OnboardingContent() {
                 <StepPreferences data={data} onChange={handleChange} />
               )}
               {currentStep === 4 && (
-                <StepDelivery data={data} onChange={handleChange} />
+                <StepDelivery data={data} onChange={handleChange} isAuthenticated={isAuthenticated} />
               )}
             </>
           )}

@@ -22,7 +22,8 @@ function SignUpForm() {
   const { t } = useT();
   const router = useRouter();
   const searchParams = useSearchParams();
-  const plan = searchParams.get("plan") || "monthly";
+  const planParam = searchParams.get("plan");
+  const plan = planParam || "monthly";
   const promoCode = searchParams.get("code");
   const redirectParam = searchParams.get("redirect");
   const hasPromo = !!promoCode;
@@ -166,9 +167,36 @@ function SignUpForm() {
           <Link href="/" className="text-2xl font-semibold text-stone-900 tracking-tight">
             What&apos;s For Dinner?
           </Link>
-          <p className="mt-2 text-stone-500 text-sm">
-            {t("auth.createAccount")}
+          {planParam && (
+            <p className="mt-2 text-stone-500 text-sm">
+              {t("auth.createAccount")}
+            </p>
+          )}
+        </div>
+
+        {/* Value reinforcement */}
+        <div className="mb-6">
+          <p className="text-sm text-stone-600 text-center leading-relaxed">
+            {planParam === "yearly"
+              ? "You\u2019re signing up for weekly meal plans with recipes and a grocery list \u2014 $5/mo (billed yearly, save 37%)"
+              : planParam === "monthly"
+                ? "You\u2019re signing up for weekly meal plans with recipes and a grocery list \u2014 $7.99/mo"
+                : "Create your account to get personalized meal plans with recipes and a grocery list"}
           </p>
+          <div className="flex items-center justify-center gap-4 mt-3">
+            <span className="text-xs text-stone-400 flex items-center gap-1">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+              Personalized to your diet
+            </span>
+            <span className="text-xs text-stone-400 flex items-center gap-1">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+              New plan every week
+            </span>
+            <span className="text-xs text-stone-400 flex items-center gap-1">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+              Cancel anytime
+            </span>
+          </div>
         </div>
 
         {checkEmail ? (

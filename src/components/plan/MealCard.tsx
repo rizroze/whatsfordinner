@@ -7,6 +7,7 @@ import type { Meal } from "@/types/meal-plan";
 
 interface MealCardProps {
   meal: Meal;
+  defaultExpanded?: boolean;
   feedback?: "liked" | "disliked" | null;
   onFeedback?: (mealName: string, rating: "liked" | "disliked") => void;
   onSwap?: () => void;
@@ -20,9 +21,9 @@ const mealTypeStyles: Record<Meal["type"], string> = {
   snack: "bg-lime-50 text-lime-600",
 };
 
-export function MealCard({ meal, feedback, onFeedback, onSwap, swapping }: MealCardProps) {
+export function MealCard({ meal, defaultExpanded = false, feedback, onFeedback, onSwap, swapping }: MealCardProps) {
   const { t } = useT();
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(defaultExpanded);
 
   const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(meal.name + " recipe")}`;
 

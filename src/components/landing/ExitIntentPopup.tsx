@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import { useT } from "@/lib/i18n/context";
 
 const STORAGE_KEY = "wfd_exit_shown";
 
 export function ExitIntentPopup({ isSignedIn }: { isSignedIn: boolean }) {
   const { t } = useT();
+  const router = useRouter();
   const [show, setShow] = useState(false);
   const [email, setEmail] = useState("");
   const [closing, setClosing] = useState(false);
@@ -54,7 +56,7 @@ export function ExitIntentPopup({ isSignedIn }: { isSignedIn: boolean }) {
     e.preventDefault();
     const params = new URLSearchParams();
     if (email) params.set("email", email);
-    window.location.href = `/onboarding${params.toString() ? `?${params}` : ""}`;
+    router.push(`/onboarding${params.toString() ? `?${params}` : ""}`);
   };
 
   if (!show) return null;

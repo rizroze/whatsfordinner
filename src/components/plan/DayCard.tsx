@@ -59,6 +59,7 @@ export function DayCard({ day, defaultOpen = false, feedbackMap, onFeedback, onS
             <MealCard
               key={`${meal.name}-${i}`}
               meal={meal}
+              defaultExpanded={defaultOpen && i === 0}
               feedback={feedbackMap?.[meal.name] ?? null}
               onFeedback={onFeedback}
               onSwap={onSwap ? () => onSwap(i) : undefined}

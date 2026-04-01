@@ -103,7 +103,7 @@ export default function PricingPage() {
           href="/onboarding"
           className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
         >
-          Try Free
+          Get Your Free Meal Plan
         </Link>
       </nav>
 
@@ -148,10 +148,16 @@ export default function PricingPage() {
             </ul>
 
             <Link
-              href="/onboarding"
-              className="mt-6 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-stone-700 bg-stone-100 hover:bg-stone-200 rounded-full transition-colors duration-200"
+              href="/signup?plan=monthly"
+              className="mt-6 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
             >
-              Start Free Trial
+              Subscribe Now — $7.99/mo
+            </Link>
+            <Link
+              href="/onboarding"
+              className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
+            >
+              Try a Free 3-Day Plan
             </Link>
           </div>
 
@@ -192,10 +198,16 @@ export default function PricingPage() {
             </ul>
 
             <Link
-              href="/onboarding"
+              href="/signup?plan=yearly"
               className="mt-6 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg shadow-orange-500/20 transition-all duration-200"
             >
-              Start Free Trial
+              Subscribe Now — $5/mo
+            </Link>
+            <Link
+              href="/onboarding"
+              className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
+            >
+              Try a Free 3-Day Plan
             </Link>
           </div>
         </div>

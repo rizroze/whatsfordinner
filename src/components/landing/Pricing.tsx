@@ -82,7 +82,12 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
               ))}
             </ul>
 
-            <Button asChild variant="ghost" className="mt-6 w-full">
+            <Button asChild variant="primary" className="mt-6 w-full">
+              <Link href="/signup?plan=monthly">
+                Subscribe Now — $7.99/mo
+              </Link>
+            </Button>
+            <Button asChild variant="secondary" className="mt-2 w-full">
               <Link href={isSignedIn ? "/dashboard" : "/onboarding"}>
                 {isSignedIn ? t("landing.hero.ctaLoggedIn") : t("landing.pricing.tryFreeFirst")}
               </Link>
@@ -117,6 +122,11 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
             </ul>
 
             <Button asChild variant="primary" className="mt-6 w-full">
+              <Link href="/signup?plan=yearly">
+                Subscribe Now — $5/mo
+              </Link>
+            </Button>
+            <Button asChild variant="secondary" className="mt-2 w-full">
               <Link href={isSignedIn ? "/dashboard" : "/onboarding"}>
                 {isSignedIn ? t("landing.hero.ctaLoggedIn") : t("landing.pricing.tryFreeFirst")}
               </Link>
