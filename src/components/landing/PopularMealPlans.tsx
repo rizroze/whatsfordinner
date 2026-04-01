@@ -7,11 +7,11 @@ const POPULAR_PLANS = [
   { slug: "keto", labelKey: "landing.popularPlans.keto", emoji: "🥑" },
   { slug: "mediterranean", labelKey: "landing.popularPlans.mediterranean", emoji: "🫒" },
   { slug: "vegetarian", labelKey: "landing.popularPlans.vegetarian", emoji: "🥗" },
-  { slug: "vegan", labelKey: "landing.popularPlans.vegan", emoji: "🌱" },
+  { slug: "1500-calorie-meal-plan", labelKey: "landing.popularPlans.cal1500", emoji: "🔥" },
+  { slug: "1200-calorie-meal-plan", labelKey: "landing.popularPlans.cal1200", emoji: "🔥" },
   { slug: "meal-plan-on-a-budget", labelKey: "landing.popularPlans.budget", emoji: "💰" },
   { slug: "high-protein-meal-plan", labelKey: "landing.popularPlans.highProtein", emoji: "💪" },
   { slug: "gluten-free", labelKey: "landing.popularPlans.glutenFree", emoji: "🌾" },
-  { slug: "quick-30-minute-meal-plan", labelKey: "landing.popularPlans.quick30", emoji: "⏱️" },
   { slug: "meal-plan-for-family-of-4", labelKey: "landing.popularPlans.family", emoji: "👨‍👩‍👧‍👦" },
 ];
 

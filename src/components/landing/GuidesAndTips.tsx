@@ -4,12 +4,12 @@ import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 
 const FEATURED_POSTS = [
-  { slug: "meal-planning-for-beginners", titleKey: "landing.guides.beginners", emoji: "📋" },
   { slug: "best-meal-planning-apps", titleKey: "landing.guides.apps", emoji: "📱" },
+  { slug: "yummly-alternative", titleKey: "landing.guides.yummly", emoji: "🔄" },
+  { slug: "meal-plan-with-grocery-list", titleKey: "landing.guides.groceryList", emoji: "🛒" },
   { slug: "eating-healthy-on-a-budget", titleKey: "landing.guides.budget", emoji: "🥦" },
-  { slug: "cheap-meals-for-one", titleKey: "landing.guides.cheapMeals", emoji: "🍳" },
-  { slug: "meal-planning-for-families", titleKey: "landing.guides.families", emoji: "👨‍👩‍👧" },
-  { slug: "how-to-stop-ordering-takeout", titleKey: "landing.guides.stopTakeout", emoji: "🚫" },
+  { slug: "meal-planning-vs-doordash", titleKey: "landing.guides.vsDoordash", emoji: "⚖️" },
+  { slug: "meal-planning-for-beginners", titleKey: "landing.guides.beginners", emoji: "📋" },
 ];
 
 export function GuidesAndTips() {

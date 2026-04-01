@@ -217,10 +217,26 @@ export default function MealPlansIndex() {
         </div>
 
         <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-3">vs Alternatives</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <Link href="/blog/yummly-alternative" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Trending</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Best Yummly Alternative (2026)</h3>
+          </Link>
+          <Link href="/blog/meal-planning-vs-doordash" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Comparison</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Meal Planning vs. DoorDash</h3>
+          </Link>
           <Link href="/blog/best-meal-kit-alternatives" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
             <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Comparison</span>
             <h3 className="text-sm font-medium text-stone-800 mt-1">5 Cheap Alternatives to Meal Kits</h3>
+          </Link>
+        </div>
+
+        <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-3 mt-6">Planning Essentials</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <Link href="/blog/meal-plan-with-grocery-list" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
+            <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Guide</span>
+            <h3 className="text-sm font-medium text-stone-800 mt-1">Meal Plan with Grocery List: The Complete Solution</h3>
           </Link>
           <Link href="/blog/how-to-stop-ordering-takeout" className="rounded-xl border border-stone-100 bg-white p-4 hover:border-orange-200 hover:shadow-sm transition-all">
             <span className="text-[10px] font-semibold text-orange-500 uppercase tracking-wider">Gen Z</span>

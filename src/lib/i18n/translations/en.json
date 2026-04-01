@@ -135,7 +135,9 @@
       "highProtein": "High Protein",
       "glutenFree": "Gluten Free",
       "quick30": "30-Minute Meals",
-      "family": "For Families"
+      "family": "For Families",
+      "cal1500": "1,500 Calorie Plan",
+      "cal1200": "1,200 Calorie Plan"
     },
     "guides": {
       "title": "Guides & Tips",
@@ -146,7 +148,10 @@
       "budget": "Eating Healthy on a Budget",
       "cheapMeals": "Cheap Meals for One",
       "families": "Meal Planning for Families",
-      "stopTakeout": "How to Stop Ordering Takeout"
+      "stopTakeout": "How to Stop Ordering Takeout",
+      "yummly": "Best Yummly Alternative (2026)",
+      "groceryList": "Meal Plan with Grocery List",
+      "vsDoordash": "Meal Planning vs. DoorDash"
     },
     "footer": {
       "brand": "What's For Dinner",

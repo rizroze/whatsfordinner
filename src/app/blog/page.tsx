@@ -521,6 +521,33 @@ function PostCard({ post }: { post: Post }) {
   );
 }
 
+const FEATURED_ARTICLES = [
+  {
+    slug: "best-meal-planning-apps",
+    title: "10 Best Meal Planning Apps in 2026 (Compared)",
+    description: "We compared every major meal planning app. Here's which ones are worth it and which ones to skip.",
+    tag: "Popular",
+  },
+  {
+    slug: "yummly-alternative",
+    title: "The Best Yummly Alternative in 2026",
+    description: "Yummly closed in December 2024. Here's where to get AI-powered meal planning now.",
+    tag: "Trending",
+  },
+  {
+    slug: "meal-plan-with-grocery-list",
+    title: "Meal Plan with Grocery List: The Complete Solution",
+    description: "Why a consolidated grocery list is the secret to actually following through on your meal plan.",
+    tag: "Popular",
+  },
+  {
+    slug: "eating-healthy-on-a-budget",
+    title: "Eating Healthy on a Budget: The $50/Week Plan (2026)",
+    description: "You don't need Whole Foods money to eat well. A realistic $50/week grocery plan with actual meals.",
+    tag: "Popular",
+  },
+];
+
 export default function BlogIndex() {
   return (
     <div>
@@ -528,6 +555,26 @@ export default function BlogIndex() {
       <p className="text-stone-500 mb-10">
         Tips, guides, and comparisons to help you eat better every week.
       </p>
+
+      {/* Most Popular */}
+      <section className="mb-14">
+        <h2 className="text-xl font-bold text-stone-800 mb-5">Most Popular</h2>
+        <div className="grid gap-4 sm:grid-cols-2">
+          {FEATURED_ARTICLES.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/blog/${article.slug}`}
+              className="bg-orange-50 rounded-xl border border-orange-200 hover:border-orange-300 hover:shadow-sm transition-all duration-200 p-5 flex flex-col gap-2"
+            >
+              <span className="text-[10px] font-semibold text-orange-600 uppercase tracking-wider">
+                {article.tag}
+              </span>
+              <h3 className="text-[15px] font-semibold text-stone-900 leading-snug">{article.title}</h3>
+              <p className="text-sm text-stone-500 flex-1 leading-relaxed">{article.description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       {sections.map((section) => (
         <section key={section.heading} className="mb-14">

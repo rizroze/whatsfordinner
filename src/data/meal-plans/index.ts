@@ -17,6 +17,7 @@ import { genzExtendedPages } from "./genz-extended";
 import { occasionPages } from "./occasions";
 import { cuisinesExtendedPages } from "./cuisines-extended";
 import { genzSituationPages } from "./genz-situations";
+import { expansionAprPages } from "./expansion-apr";
 import type { MealPlanPageData } from "./types";
 
 const ALL_PAGES: MealPlanPageData[] = [
@@ -39,6 +40,7 @@ const ALL_PAGES: MealPlanPageData[] = [
   ...occasionPages,
   ...cuisinesExtendedPages,
   ...genzSituationPages,
+  ...expansionAprPages,
 ];
 
 // Validate no duplicate slugs at import time

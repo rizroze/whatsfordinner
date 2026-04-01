@@ -5,11 +5,11 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 export const metadata: Metadata = {
   title: "Best Factor Alternative 2026 (Save $200+/Month)",
   description:
-    "Factor charges $11-13 per meal for pre-made food. What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo — cook better meals for 95% less.",
+    "Factor costs $11-15 per meal in 2026 ($520-620/mo for one person). What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo. Cook better meals, save 95%.",
   openGraph: {
     title: "Best Factor Alternative 2026 (Save $200+/Month)",
     description:
-      "Factor charges $11-13 per meal for pre-made food. What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo — cook better meals for 95% less.",
+      "Factor costs $11-15 per meal in 2026 ($520-620/mo for one person). What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/factor-alternative",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Factor Alternative 2026 (Save $200+/Month)",
     description:
-      "Factor charges $11-13 per meal for pre-made food. Personalized weekly meal plans with recipes and a grocery list for $7.99/mo — 95% cheaper.",
+      "Factor costs $11-15 per meal ($520-620/mo). Personalized weekly meal plans with recipes and a grocery list for $7.99/mo. Save 95%.",
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/factor-alternative",
@@ -30,9 +30,10 @@ export default function FactorAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Factor Alternative If You're Tired of Paying $11/Meal"
-        description="Factor charges $11-13 per meal for pre-made food. What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo — cook better meals for 95% less."
+        description="Factor costs $11-15 per meal in 2026. What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo — cook better meals for 95% less."
         url="https://whatsfordinner.fit/blog/factor-alternative"
         datePublished="2026-03-13"
+        dateModified="2026-04-01"
       />
       <script
         type="application/ld+json"
@@ -43,10 +44,10 @@ export default function FactorAlternativePage() {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "How much does Factor cost per month?",
+                name: "How much does Factor cost per month in 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Factor costs $60-78 per week ($240-312/month) for 6-12 prepared meals. That covers roughly half your dinners. You still need to buy groceries for breakfast, lunch, snacks, and the remaining dinners.",
+                  text: "Factor costs $60-78 per week ($240-312/month) for 6-12 prepared meals. In early 2026, Factor raised prices on several plans, with per-meal costs now reaching $11-15 depending on plan size. That covers roughly half your dinners — you still need to buy groceries for breakfast, lunch, snacks, and the remaining dinners.",
                 },
               },
               {
@@ -54,12 +55,12 @@ export default function FactorAlternativePage() {
                 name: "What is the cheapest alternative to Factor meals?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The cheapest Factor alternative is an AI meal planning app like What's For Dinner ($7.99/month). Instead of paying $11-13 per pre-made meal, you get personalized weekly meal plans with recipes and a grocery list. You cook the meals yourself using groceries from any store, bringing cost per serving to $2-3.",
+                  text: "The cheapest Factor alternative is an AI meal planning app like What's For Dinner ($7.99/month). Instead of paying $11-15 per pre-made meal, you get personalized weekly meal plans with recipes and a grocery list. You cook the meals yourself using groceries from any store, bringing cost per serving to $2-3.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Is Factor worth the money?",
+                name: "Is Factor worth the money in 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Factor is worth it only if you truly cannot cook and have significant disposable income. For most people, the main value of Factor is not having to decide what to eat — which a $7.99/month meal planning app solves equally well. The actual cooking with a good recipe takes 20-30 minutes, far less than most people assume.",
@@ -71,6 +72,14 @@ export default function FactorAlternativePage() {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Yes. Factor meals are well-seasoned but simple — grilled protein, roasted vegetables, a sauce. Any home cook can replicate this with a good recipe. What's For Dinner generates similar meals personalized to your dietary needs, with step-by-step recipes and a consolidated grocery list, for $7.99/month instead of $250+/month.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What happened to Factor 75?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Factor 75 rebranded to simply 'Factor' and was acquired by HelloFresh Group. The service still operates under the Factor name, delivering pre-made meals. However, prices have increased since the acquisition, and many customers report reduced menu variety compared to the original Factor 75 offerings.",
                 },
               },
             ],
@@ -88,8 +97,7 @@ export default function FactorAlternativePage() {
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-2">
         Alternatives
       </span>
-      <p className="text-xs text-stone-400">Updated March 2026</p>
-      <p className="text-sm text-stone-400 mb-8">March 13, 2026</p>
+      <p className="text-sm text-stone-400 mb-8">Updated April 2026</p>
 
       <h1 className="text-3xl font-bold text-stone-900 mb-4 mt-8">
         The Best Factor Alternative If You&apos;re Tired of Paying $11/Meal
@@ -104,7 +112,7 @@ export default function FactorAlternativePage() {
           life hack.
         </p>
         <p>
-          Then the credit card statement arrives. At $11&ndash;13 per meal,
+          Then the credit card statement arrives. At $11&ndash;15 per meal,
           Factor costs more per serving than most sit-down restaurants. And
           you&apos;re still only covering half your dinners — breakfast, lunch,
           and snacks are on you. If you&apos;re reading this, you&apos;re
@@ -113,12 +121,36 @@ export default function FactorAlternativePage() {
         </p>
       </div>
 
+      {/* --- April 2026 Update --- */}
+      <div className="bg-orange-50 border border-orange-100 rounded-xl p-5 my-8">
+        <p className="text-xs font-semibold text-orange-500 uppercase tracking-wider mb-2">April 2026 Update</p>
+        <div className="space-y-3 text-sm text-stone-600">
+          <p>
+            Factor (owned by HelloFresh Group) raised prices on several plans in early 2026. Per-meal
+            costs now range from <strong>$11 to $15</strong> depending on plan size and add-ons. The
+            6-meal/week plan starts at $13.49/meal, while the 18-meal plan drops to around $11/meal.
+            Even at the best rate, you&apos;re looking at $200+/week for one person.
+          </p>
+          <p>
+            Customer sentiment has shifted. Subreddits and review sites increasingly cite Factor&apos;s
+            price-to-value ratio as the main reason for canceling. The most common complaints:
+            shrinking portion sizes, fewer menu choices per week, and price hikes without matching
+            quality improvements.
+          </p>
+          <p>
+            For people who liked the <em>idea</em> of Factor &mdash; not having to decide what to eat &mdash;
+            an AI meal planner solves the same problem at 95% less cost. You trade 25 minutes of cooking
+            for $200&ndash;500/month in savings.
+          </p>
+        </div>
+      </div>
+
       <div className="bg-stone-50 rounded-xl p-5 my-8">
         <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-2">TL;DR</p>
         <ul className="space-y-1 text-sm text-stone-600">
-          <li>Factor costs $520–620/month for one person (just dinners)</li>
+          <li>Factor costs $520&ndash;620/month for one person (just dinners)</li>
           <li>What&apos;s For Dinner: $7.99/mo for all meals + recipes + grocery list</li>
-          <li>You cook 20–30 min/meal but save $200–500/month</li>
+          <li>You cook 20&ndash;30 min/meal but save $200&ndash;500/month</li>
         </ul>
       </div>
 
@@ -259,31 +291,101 @@ export default function FactorAlternativePage() {
         </Link>
       </div>
 
-      {/* --- Side-by-side comparison --- */}
+      {/* --- Side-by-side comparison table --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
-        &#x2696;&#xFE0F; Side-by-side comparison
+        Factor vs What&apos;s For Dinner: Full comparison
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
+        <div className="overflow-x-auto my-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-stone-200">
+                <th className="text-left py-3 pr-4 text-stone-800 font-semibold">Feature</th>
+                <th className="text-left py-3 px-4 text-stone-400 font-medium">Factor</th>
+                <th className="text-left py-3 pl-4 text-orange-600 font-semibold">What&apos;s For Dinner</th>
+              </tr>
+            </thead>
+            <tbody className="text-stone-600">
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Cost per meal</td>
+                <td className="py-3 px-4">$11&ndash;15/meal</td>
+                <td className="py-3 pl-4 font-semibold text-stone-800">$2&ndash;3/meal + $7.99/mo</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Monthly cost (1 person)</td>
+                <td className="py-3 px-4">$520&ndash;620/mo</td>
+                <td className="py-3 pl-4 font-semibold text-stone-800">$7.99/mo + groceries</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Meal coverage</td>
+                <td className="py-3 px-4">6&ndash;18 meals/week (dinners only)</td>
+                <td className="py-3 pl-4">All meals: breakfast, lunch, dinner + snacks</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Cooking required</td>
+                <td className="py-3 px-4">No (microwave only)</td>
+                <td className="py-3 pl-4">Yes (20&ndash;30 min with recipe)</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Personalization</td>
+                <td className="py-3 px-4">Pick from 30&ndash;35 rotating meals</td>
+                <td className="py-3 pl-4">Unlimited AI-generated originals</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Dietary support</td>
+                <td className="py-3 px-4">Keto, vegan, protein+, calorie-smart</td>
+                <td className="py-3 pl-4">Any restriction (free-text AI)</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Cuisine variety</td>
+                <td className="py-3 px-4">Limited to weekly menu</td>
+                <td className="py-3 pl-4">Any cuisine you request</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Grocery list</td>
+                <td className="py-3 px-4">N/A (pre-made meals)</td>
+                <td className="py-3 pl-4">Consolidated weekly list included</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Packaging waste</td>
+                <td className="py-3 px-4">High (sealed trays + insulated boxes)</td>
+                <td className="py-3 pl-4">Zero (shop at your store)</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Budget control</td>
+                <td className="py-3 px-4">No</td>
+                <td className="py-3 pl-4">Budget / moderate / premium tiers</td>
+              </tr>
+              <tr>
+                <td className="py-3 pr-4 font-medium">Free trial</td>
+                <td className="py-3 px-4">No (commitment required)</td>
+                <td className="py-3 pl-4">3-day plan, no signup needed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="grid grid-cols-2 gap-4 my-6">
+          <div className="bg-red-50 rounded-xl p-4 text-center">
+            <p className="text-xs font-semibold text-red-400 uppercase tracking-wider">Factor</p>
+            <p className="text-2xl font-bold text-red-600 mt-1">$11&ndash;15</p>
+            <p className="text-xs text-red-400">per meal</p>
+          </div>
+          <div className="bg-green-50 rounded-xl p-4 text-center">
+            <p className="text-xs font-semibold text-green-500 uppercase tracking-wider">What&apos;s For Dinner</p>
+            <p className="text-2xl font-bold text-green-600 mt-1">$2&ndash;3</p>
+            <p className="text-xs text-green-500">per meal + $7.99/mo</p>
+          </div>
+        </div>
+
         <p>
-          <strong>Price:</strong> Factor costs $11&ndash;13/meal
+          <strong>Price:</strong> Factor costs $11&ndash;15/meal
           ($520&ndash;620/month for 12 meals/week). What&apos;s For Dinner is
           $7.99/month + groceries at regular store prices (~$2&ndash;3/serving).
           See our{" "}
           <Link href="/meal-plans/meal-plan-on-a-budget" className="text-orange-500 underline">budget meal plan</Link>
           {" "}for maximum savings.
         </p>
-        <div className="grid grid-cols-2 gap-4 my-6">
-          <div className="bg-red-50 rounded-xl p-4 text-center">
-            <p className="text-xs font-semibold text-red-400 uppercase tracking-wider">Factor</p>
-            <p className="text-2xl font-bold text-red-600 mt-1">$11–13</p>
-            <p className="text-xs text-red-400">per meal</p>
-          </div>
-          <div className="bg-green-50 rounded-xl p-4 text-center">
-            <p className="text-xs font-semibold text-green-500 uppercase tracking-wider">What&apos;s For Dinner</p>
-            <p className="text-2xl font-bold text-green-600 mt-1">$2–3</p>
-            <p className="text-xs text-green-500">per meal + $7.99/mo</p>
-          </div>
-        </div>
         <p>
           <strong>Personalization:</strong> Factor lets you pick from
           30&ndash;35 rotating meals. WFD generates unlimited original meals
@@ -313,6 +415,71 @@ export default function FactorAlternativePage() {
           (dinners only for most people). WFD covers every meal, every day —
           breakfast, lunch, dinner, and snacks.
         </p>
+      </div>
+
+      {/* --- FAQ section --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        Frequently asked questions
+      </h2>
+      <div className="space-y-6 text-stone-600 leading-relaxed">
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            How much does Factor cost per month in 2026?
+          </h3>
+          <p>
+            Factor costs $60&ndash;78 per week ($240&ndash;312/month) for 6&ndash;12 prepared meals.
+            Per-meal prices range from $11 to $15 depending on plan size. That only covers dinners &mdash;
+            you still need to buy groceries for breakfast, lunch, and snacks separately.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            What is the cheapest alternative to Factor meals?
+          </h3>
+          <p>
+            An AI meal planning app like What&apos;s For Dinner is the cheapest Factor alternative at
+            $7.99/month (or{" "}
+            <Link href="/pricing" className="text-orange-500 hover:text-orange-600 underline">$59.99/year</Link>).
+            Instead of paying $11&ndash;15 per pre-made meal, you get personalized weekly meal plans
+            with recipes and a grocery list. You cook the meals yourself, bringing cost per serving to $2&ndash;3.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            Is Factor worth the money in 2026?
+          </h3>
+          <p>
+            Factor is worth it only if you truly cannot cook and have significant disposable income.
+            For most people, the main value of Factor is not having to decide what to eat &mdash;
+            which a $7.99/month meal planning app solves equally well. The actual cooking with
+            a good recipe takes 20&ndash;30 minutes, far less than most people assume.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            Can I get Factor-quality meals without the price?
+          </h3>
+          <p>
+            Yes. Factor meals are well-seasoned but simple &mdash; grilled protein, roasted vegetables,
+            a sauce. Any home cook can replicate this with a good recipe. What&apos;s For Dinner
+            generates similar meals personalized to your dietary needs, with step-by-step recipes
+            and a{" "}
+            <Link href="/blog/meal-plan-with-grocery-list" className="text-orange-500 hover:text-orange-600 underline">
+              consolidated grocery list
+            </Link>, for $7.99/month instead of $250+/month.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            What happened to Factor 75?
+          </h3>
+          <p>
+            Factor 75 rebranded to simply &ldquo;Factor&rdquo; and was acquired by HelloFresh Group.
+            The service still operates under the Factor name, delivering pre-made meals. However,
+            prices have increased since the acquisition, and many customers report reduced menu
+            variety compared to the original Factor 75 offerings.
+          </p>
+        </div>
       </div>
 
       {/* --- Other alternatives --- */}
@@ -346,6 +513,16 @@ export default function FactorAlternativePage() {
               className="text-orange-500 hover:text-orange-600 underline"
             >
               Hungryroot alternative comparison
+            </Link>
+            .
+          </li>
+          <li>
+            <strong>Home Chef</strong> — Oven-ready meal kits at $8&ndash;10/serving. Read our{" "}
+            <Link
+              href="/blog/home-chef-alternative"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Home Chef alternative comparison
             </Link>
             .
           </li>
@@ -399,6 +576,10 @@ export default function FactorAlternativePage() {
             {" "}&mdash; AI-curated groceries at a steep markup.
           </p>
           <p>
+            <Link href="/blog/eat-this-much-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Eat This Much Alternative</Link>
+            {" "}&mdash; automatic meal planner with recycled database meals.
+          </p>
+          <p>
             <Link href="/blog/best-meal-delivery-alternatives" className="text-orange-500 hover:text-orange-600 underline">7 Best Meal Delivery Alternatives in 2026</Link>
             {" "}&mdash; every delivery alternative ranked.
           </p>
@@ -416,6 +597,7 @@ export default function FactorAlternativePage() {
           <Link href="/meal-plans/high-protein-meal-plan" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">High Protein</Link>
           <Link href="/meal-plans/meal-plan-for-one" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">For One</Link>
           <Link href="/meal-plans/mediterranean" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">Mediterranean</Link>
+          <Link href="/meal-plans/keto-meal-plan" className="inline-block bg-orange-50 text-orange-600 text-xs font-medium px-3 py-1.5 rounded-full hover:bg-orange-100 transition-colors duration-200">Keto</Link>
         </div>
       </div>
 
@@ -433,6 +615,9 @@ export default function FactorAlternativePage() {
           </Link>
           <Link href="/blog/save-money-groceries-meal-planning" className="block text-orange-500 hover:text-orange-600 underline text-sm">
             How to Save Money on Groceries with Meal Planning
+          </Link>
+          <Link href="/blog/ai-meal-planner" className="block text-orange-500 hover:text-orange-600 underline text-sm">
+            AI Meal Planner: How It Works and Why It&apos;s Better
           </Link>
         </div>
       </div>
