@@ -5,11 +5,11 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 export const metadata: Metadata = {
   title: "5 Cheap Alternatives to Meal Kits in 2026 (Under $2/Serving)",
   description:
-    "Meal kits cost $8-12 per serving. These 5 alternatives give you planned meals with grocery lists for under $2/serving. Compare HelloFresh, Blue Apron, and cheaper options.",
+    "Meal kits cost $8-15 per serving in 2026. Compare HelloFresh, Factor, Home Chef, Dinnerly, and EveryPlate to cheaper alternatives. Save $300-800/month with meal planning instead.",
   openGraph: {
     title: "5 Cheap Alternatives to Meal Kits in 2026 (Under $2/Serving)",
     description:
-      "Meal kits cost $8-12 per serving. These 5 alternatives give you planned meals with grocery lists for under $2/serving. Compare HelloFresh, Blue Apron, and cheaper options.",
+      "Meal kits cost $8-15 per serving in 2026. Compare HelloFresh, Factor, Home Chef, Dinnerly, and EveryPlate to cheaper alternatives. Save $300-800/month with meal planning.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/best-meal-kit-alternatives",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "5 Cheap Alternatives to Meal Kits in 2026 (Under $2/Serving)",
     description:
-      "Meal kits cost $8-12 per serving. These 5 alternatives give you planned meals with grocery lists for under $2/serving.",
+      "Meal kits cost $8-15 per serving in 2026. Compare HelloFresh, Factor, Home Chef, Dinnerly, and EveryPlate to cheaper alternatives.",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-meal-kit-alternatives" },
 };
@@ -28,9 +28,10 @@ export default function BestMealKitAlternativesPage() {
     <>
       <ArticleJsonLd
         title="5 Cheap Alternatives to Meal Kits in 2026 (Under $2/Serving)"
-        description="Meal kits cost $8-12 per serving. These 5 alternatives give you planned meals with grocery lists for under $2/serving. Compare HelloFresh, Blue Apron, and cheaper options."
+        description="Meal kits cost $8-15 per serving in 2026. Compare HelloFresh, Factor, Home Chef, Dinnerly, and EveryPlate to cheaper alternatives. Save $300-800/month with meal planning instead."
         url="https://whatsfordinner.fit/blog/best-meal-kit-alternatives"
         datePublished="2026-03-13"
+        dateModified="2026-04-01"
       />
       <script
         type="application/ld+json"
@@ -41,34 +42,34 @@ export default function BestMealKitAlternativesPage() {
             mainEntity: [
               {
                 "@type": "Question",
-                name: "What is the cheapest meal kit alternative?",
+                name: "What's cheaper than HelloFresh?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The cheapest meal kit alternative is an AI meal planning app like What's For Dinner ($7.99/month), which generates personalized weekly meal plans with recipes and a grocery list. You shop at your own grocery store, bringing the cost per serving down to $1.50-2.00 compared to $8-12 per serving with meal kits like HelloFresh.",
+                  text: "An AI meal planning app like What's For Dinner is significantly cheaper than HelloFresh. HelloFresh costs $9.99-11.99 per serving ($80-200+/week depending on household size). A meal planning app costs $7.99/month total and generates personalized weekly meal plans with recipes and a grocery list. You shop at your own store, bringing the cost per serving down to $1.50-3.00. That's a savings of $300-800+ per month for most households.",
                 },
               },
               {
                 "@type": "Question",
-                name: "How much cheaper is meal planning than HelloFresh?",
+                name: "Are meal kits worth it in 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Meal planning is roughly 80-85% cheaper than HelloFresh. HelloFresh costs $8-12 per serving ($200-400/week for a family of 4). With a meal planning app ($7.99/month) and grocery shopping, the same family spends $75-95/week for all meals — not just dinners. That's a savings of $400-1,200+ per month.",
+                  text: "For most households, meal kits are not worth it in 2026. Prices have risen 15-25% since 2023, with most services now charging $9-15 per serving. Subscription fatigue is real — the average American now pays for 6+ subscriptions. A meal planning app provides the same core value (planned meals, recipes, grocery list) at roughly 1/50th the cost. The only scenario where meal kits still make sense is if you physically cannot grocery shop or you're a complete beginner learning to cook.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Are meal kits worth the money?",
+                name: "What's the best alternative to meal delivery?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Meal kits are worth it only if you have zero time for grocery shopping AND money isn't a concern. For most households, a meal planning app provides 90% of the convenience (planned meals, recipes, grocery list) at about 10% of the cost. The ingredients in meal kits aren't special — you can buy the same things at your local store for far less.",
+                  text: "The best alternative to meal delivery is an AI meal planner that generates personalized weekly meal plans with recipes and a consolidated grocery list. You get the same planning and recipe benefits without the $8-15/serving markup on ingredients. Budget alternatives like Dinnerly ($4.99/serving) and EveryPlate ($4.99/serving) are cheaper meal kits, but a meal planning app at $7.99/month total is the most cost-effective option by far.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Can I get meal kit recipes without the box?",
+                name: "How much cheaper is meal planning than meal kits?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. Many meal kit recipes are available online for free — HelloFresh, Blue Apron, and Home Chef all publish their recipe cards. However, you still need to plan your week, build a grocery list, and shop. An AI meal planner like What's For Dinner automates all of this: it generates original recipes, plans your full week, and creates a consolidated grocery list.",
+                  text: "Meal planning is 70-85% cheaper than meal kits. A couple ordering HelloFresh (4 dinners/week) pays $80-96/week just for dinners. The same couple using a meal planning app ($7.99/month) and grocery shopping spends $50-70/week for ALL meals — breakfast, lunch, dinner, and snacks. That's a savings of $300-500/month for a couple, or $500-800/month for a family of four.",
                 },
               },
             ],
@@ -90,7 +91,7 @@ export default function BestMealKitAlternativesPage() {
         5 Cheap Alternatives to Meal Kits in 2026
       </h1>
       <p className="text-sm text-stone-400 mb-8">
-        Updated March 2026
+        Updated April 2026
       </p>
 
       {/* --- Intro --- */}
@@ -99,9 +100,9 @@ export default function BestMealKitAlternativesPage() {
           Meal kits were revolutionary in 2015. A box of pre-portioned
           ingredients showed up at your door, and suddenly cooking felt
           approachable. Ten years later, the novelty has worn off &mdash; but
-          the prices haven&apos;t come down. HelloFresh charges $8-12 per
-          serving. Blue Apron charges about the same. For a family of four
-          eating dinner five nights a week, that&apos;s <strong>$160-240 per
+          the prices haven&apos;t come down. HelloFresh charges $9.99-11.99 per
+          serving. Factor charges $11-15. For a family of four
+          eating dinner five nights a week, that&apos;s <strong>$200-300 per
           week</strong> &mdash; just for dinners.
         </p>
         <p>
@@ -121,6 +122,45 @@ export default function BestMealKitAlternativesPage() {
         </p>
       </div>
 
+      {/* --- Why people are leaving meal kits in 2026 --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        Why people are leaving meal kits in 2026
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          Meal kit cancellations hit record highs in early 2026. Three forces
+          are driving the exodus:
+        </p>
+        <p>
+          <strong>Price increases.</strong> HelloFresh raised prices twice in 2025.
+          Factor crossed the $13/serving threshold. Even the &ldquo;budget&rdquo;
+          options like EveryPlate and Dinnerly, originally $4.99/serving, have
+          crept toward $5.99. Shipping fees are up too &mdash; $10-12 per box is
+          now standard. A service that cost $60/week in 2022 now costs $80-100 for
+          the same plan. Inflation hit groceries hard, but it hit meal kits harder
+          because they pass through both ingredient costs <em>and</em> logistics
+          costs.
+        </p>
+        <p>
+          <strong>Subscription fatigue.</strong> The average American household now
+          pays for 6-8 recurring subscriptions. Streaming, gym, cloud storage,
+          news, software, and then a meal kit on top of it. People are auditing
+          their subscriptions in 2026, and a $300-400/month meal kit is the
+          easiest line item to cut. It&apos;s not that the meals are bad. It&apos;s
+          that the value proposition doesn&apos;t survive scrutiny when you&apos;re
+          trimming $200/month from your budget.
+        </p>
+        <p>
+          <strong>Packaging waste.</strong> Every meal kit delivery arrives in a
+          large cardboard box stuffed with ice packs, plastic bags, individual
+          sauce packets, and insulated liners. Most of it isn&apos;t recyclable
+          curbside, despite what the labels claim. A single HelloFresh order
+          generates 2-3 lbs of packaging waste per meal. Over a year, that&apos;s
+          hundreds of pounds of trash that wouldn&apos;t exist if you bought the
+          same ingredients at a grocery store in a reusable bag.
+        </p>
+      </div>
+
       {/* --- The real cost of meal kits --- */}
       <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
         The real cost of meal kits
@@ -133,16 +173,22 @@ export default function BestMealKitAlternativesPage() {
         </p>
         <ul className="list-disc list-inside space-y-2 pl-1">
           <li>
-            <strong>HelloFresh</strong> &mdash; $9.99/serving average
+            <strong>HelloFresh</strong> &mdash; $9.99-11.99/serving
+          </li>
+          <li>
+            <strong>Factor</strong> &mdash; $11.00-14.99/serving (pre-made meals)
+          </li>
+          <li>
+            <strong>Home Chef</strong> &mdash; $8.99-10.99/serving
+          </li>
+          <li>
+            <strong>Dinnerly</strong> &mdash; $5.49-5.99/serving
+          </li>
+          <li>
+            <strong>EveryPlate</strong> &mdash; $4.99-5.99/serving
           </li>
           <li>
             <strong>Blue Apron</strong> &mdash; $9.99/serving average
-          </li>
-          <li>
-            <strong>Home Chef</strong> &mdash; $8.99/serving average
-          </li>
-          <li>
-            <strong>Factor</strong> &mdash; $11.00/serving (pre-made meals)
           </li>
           <li>
             <strong>Sunbasket</strong> &mdash; $10.99/serving average
@@ -167,6 +213,215 @@ export default function BestMealKitAlternativesPage() {
           $9.99/serving is $160/week. Five dinners is $200. Over a year,
           that&apos;s <strong>$8,000-10,000</strong> spent on meal kits alone.
           A meal planning app costs $96/year.
+        </p>
+      </div>
+
+      {/* --- Comprehensive comparison table --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        HelloFresh vs Factor vs Home Chef vs Dinnerly vs EveryPlate vs meal planning
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          Here&apos;s how every major meal kit stacks up against a meal
+          planning app. This covers the six factors that actually determine
+          whether a service is worth your money:
+        </p>
+
+        <div className="overflow-x-auto my-4 -mx-4 px-4">
+          <table className="w-full text-sm border-collapse min-w-[700px]">
+            <thead>
+              <tr className="border-b border-stone-200">
+                <th className="text-left py-3 pr-3 font-semibold text-stone-800">Service</th>
+                <th className="text-left py-3 pr-3 font-semibold text-stone-800">Price/Serving</th>
+                <th className="text-left py-3 pr-3 font-semibold text-stone-800">Flexibility</th>
+                <th className="text-left py-3 pr-3 font-semibold text-stone-800">Grocery List</th>
+                <th className="text-left py-3 pr-3 font-semibold text-stone-800">Cooking Required</th>
+                <th className="text-left py-3 font-semibold text-stone-800">Diet Support</th>
+              </tr>
+            </thead>
+            <tbody className="text-stone-600">
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-3 font-medium text-stone-700">HelloFresh</td>
+                <td className="py-3 pr-3">$9.99-11.99</td>
+                <td className="py-3 pr-3">Choose from ~30 recipes/week</td>
+                <td className="py-3 pr-3">No (ingredients shipped)</td>
+                <td className="py-3 pr-3">Yes, 30-45 min</td>
+                <td className="py-3">Basic (low-cal, veggie, family)</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-3 font-medium text-stone-700">Factor</td>
+                <td className="py-3 pr-3">$11.00-14.99</td>
+                <td className="py-3 pr-3">Choose from ~35 meals/week</td>
+                <td className="py-3 pr-3">No (pre-made meals)</td>
+                <td className="py-3 pr-3">None (heat and eat)</td>
+                <td className="py-3">Good (keto, protein+, vegan, chef&apos;s choice)</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-3 font-medium text-stone-700">Home Chef</td>
+                <td className="py-3 pr-3">$8.99-10.99</td>
+                <td className="py-3 pr-3">Choose from ~30 options + oven-ready</td>
+                <td className="py-3 pr-3">No (ingredients shipped)</td>
+                <td className="py-3 pr-3">Yes, 30-60 min (or 15 min oven-ready)</td>
+                <td className="py-3">Limited (calorie-conscious, carb-conscious)</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-3 font-medium text-stone-700">Dinnerly</td>
+                <td className="py-3 pr-3">$5.49-5.99</td>
+                <td className="py-3 pr-3">Choose from ~16 recipes/week</td>
+                <td className="py-3 pr-3">No (ingredients shipped)</td>
+                <td className="py-3 pr-3">Yes, 20-30 min (simple)</td>
+                <td className="py-3">Minimal (no-added-gluten, low-carb tags)</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-3 font-medium text-stone-700">EveryPlate</td>
+                <td className="py-3 pr-3">$4.99-5.99</td>
+                <td className="py-3 pr-3">Choose from ~20 recipes/week</td>
+                <td className="py-3 pr-3">No (ingredients shipped)</td>
+                <td className="py-3 pr-3">Yes, 25-40 min</td>
+                <td className="py-3">Very limited (veggie option only)</td>
+              </tr>
+              <tr className="bg-orange-50/50">
+                <td className="py-3 pr-3 font-medium text-orange-700">What&apos;s For Dinner</td>
+                <td className="py-3 pr-3 font-medium text-orange-700">$0.38/day ($7.99/mo)</td>
+                <td className="py-3 pr-3">Fully personalized by AI, swap any meal</td>
+                <td className="py-3 pr-3">Yes, consolidated weekly list</td>
+                <td className="py-3 pr-3">Yes, recipes included</td>
+                <td className="py-3">Any diet in plain English</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          The pattern is clear. Even the cheapest meal kits (Dinnerly, EveryPlate)
+          cost $5-6 per serving for ingredients you can buy for $1.50-2.00 at
+          any grocery store. The expensive ones (Factor, HelloFresh) charge
+          $10-15 per serving &mdash; more than most restaurants charge for takeout.
+          A meal planning app gives you the recipes, the plan, and the grocery
+          list for less than what one meal kit serving costs.
+        </p>
+        <p>
+          Looking for a specific comparison?{" "}
+          <Link href="/blog/hellofresh-alternative-cheap" className="text-orange-500 hover:text-orange-600 underline">
+            HelloFresh alternatives
+          </Link>,{" "}
+          <Link href="/blog/factor-alternative" className="text-orange-500 hover:text-orange-600 underline">
+            Factor alternatives
+          </Link>,{" "}
+          <Link href="/blog/home-chef-alternative" className="text-orange-500 hover:text-orange-600 underline">
+            Home Chef alternatives
+          </Link>,{" "}
+          <Link href="/blog/dinnerly-alternative" className="text-orange-500 hover:text-orange-600 underline">
+            Dinnerly alternatives
+          </Link>,{" "}
+          <Link href="/blog/everyplate-alternative" className="text-orange-500 hover:text-orange-600 underline">
+            EveryPlate alternatives
+          </Link>.
+        </p>
+      </div>
+
+      {/* --- Cost breakdown --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        Cost breakdown: meal kits vs. meal planning
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          Let&apos;s run the real numbers for both a couple and a family of four.
+          These assume 5 dinners per week, which is the most common cooking
+          frequency.
+        </p>
+
+        <div className="bg-stone-50 rounded-xl p-6 my-4">
+          <p className="text-sm font-semibold text-stone-800 mb-3">Couple (2 people), 5 dinners/week:</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-stone-200">
+                  <th className="text-left py-2 pr-4 font-medium text-stone-700">&nbsp;</th>
+                  <th className="text-left py-2 pr-4 font-medium text-stone-700">Meal Kit (avg $10/serving)</th>
+                  <th className="text-left py-2 font-medium text-stone-700">Meal Planning ($3/serving avg)</th>
+                </tr>
+              </thead>
+              <tbody className="text-stone-600">
+                <tr className="border-b border-stone-100">
+                  <td className="py-2 pr-4">Weekly dinner cost</td>
+                  <td className="py-2 pr-4">$100 (5 x 2 x $10)</td>
+                  <td className="py-2">$30 (5 x 2 x $3)</td>
+                </tr>
+                <tr className="border-b border-stone-100">
+                  <td className="py-2 pr-4">+ other meals (groceries)</td>
+                  <td className="py-2 pr-4">$50-60/week</td>
+                  <td className="py-2">$40-50/week (included in list)</td>
+                </tr>
+                <tr className="border-b border-stone-100">
+                  <td className="py-2 pr-4">+ subscription</td>
+                  <td className="py-2 pr-4">$0 (per-serving pricing)</td>
+                  <td className="py-2">$7.99/month</td>
+                </tr>
+                <tr className="font-semibold text-stone-800">
+                  <td className="py-2 pr-4">Monthly total</td>
+                  <td className="py-2 pr-4">$600-640</td>
+                  <td className="py-2">$288-328</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-orange-600 font-medium mt-3">
+            Monthly savings: $300-340 for a couple
+          </p>
+        </div>
+
+        <div className="bg-stone-50 rounded-xl p-6 my-4">
+          <p className="text-sm font-semibold text-stone-800 mb-3">Family of 4, 5 dinners/week:</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-stone-200">
+                  <th className="text-left py-2 pr-4 font-medium text-stone-700">&nbsp;</th>
+                  <th className="text-left py-2 pr-4 font-medium text-stone-700">Meal Kit (avg $10/serving)</th>
+                  <th className="text-left py-2 font-medium text-stone-700">Meal Planning ($3/serving avg)</th>
+                </tr>
+              </thead>
+              <tbody className="text-stone-600">
+                <tr className="border-b border-stone-100">
+                  <td className="py-2 pr-4">Weekly dinner cost</td>
+                  <td className="py-2 pr-4">$200 (5 x 4 x $10)</td>
+                  <td className="py-2">$60 (5 x 4 x $3)</td>
+                </tr>
+                <tr className="border-b border-stone-100">
+                  <td className="py-2 pr-4">+ other meals (groceries)</td>
+                  <td className="py-2 pr-4">$80-100/week</td>
+                  <td className="py-2">$60-80/week (included in list)</td>
+                </tr>
+                <tr className="border-b border-stone-100">
+                  <td className="py-2 pr-4">+ subscription</td>
+                  <td className="py-2 pr-4">$0</td>
+                  <td className="py-2">$7.99/month</td>
+                </tr>
+                <tr className="font-semibold text-stone-800">
+                  <td className="py-2 pr-4">Monthly total</td>
+                  <td className="py-2 pr-4">$1,120-1,200</td>
+                  <td className="py-2">$488-568</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-orange-600 font-medium mt-3">
+            Monthly savings: $560-720 for a family of four
+          </p>
+        </div>
+
+        <p>
+          Over a year, that&apos;s <strong>$3,600-4,000 saved for a couple</strong>{" "}
+          and <strong>$6,700-8,600 saved for a family of four</strong>. Even
+          switching from a budget meal kit like EveryPlate ($4.99/serving) to meal
+          planning saves $150-300/month. The math is not close.
+        </p>
+        <p>
+          Want to see how meal planning fits a tight budget?{" "}
+          <Link href="/meal-plans/meal-plan-on-a-budget" className="text-orange-500 hover:text-orange-600 underline">
+            Browse our budget meal plans
+          </Link>.
         </p>
       </div>
 
@@ -472,12 +727,12 @@ export default function BestMealKitAlternativesPage() {
             <tbody className="text-stone-600">
               <tr className="border-b border-stone-100">
                 <td className="py-3 pr-4 font-medium text-stone-700">Cost per serving</td>
-                <td className="py-3 pr-4">$8-12</td>
-                <td className="py-3">$1.50-2.00</td>
+                <td className="py-3 pr-4">$8-15</td>
+                <td className="py-3">$1.50-3.00</td>
               </tr>
               <tr className="border-b border-stone-100">
                 <td className="py-3 pr-4 font-medium text-stone-700">Monthly cost (family of 4)</td>
-                <td className="py-3 pr-4">$640-960</td>
+                <td className="py-3 pr-4">$640-1,200</td>
                 <td className="py-3">$7.99 + groceries (~$350)</td>
               </tr>
               <tr className="border-b border-stone-100">
@@ -517,7 +772,7 @@ export default function BestMealKitAlternativesPage() {
         <p>
           The only category where meal kits win is pure convenience &mdash;
           you don&apos;t have to go to a store. But that convenience costs
-          you $500-900 per month more than the alternative. Most people
+          you $300-800 per month more than the alternative. Most people
           are already going to the grocery store for breakfast, lunch, and
           snacks anyway. Adding dinner ingredients to that trip takes 15
           minutes when you have a list.
@@ -586,25 +841,96 @@ export default function BestMealKitAlternativesPage() {
         </h2>
         <div className="space-y-3 text-stone-600 text-sm">
           <p>
+            <Link href="/blog/hellofresh-alternative-cheap" className="text-orange-500 hover:text-orange-600 underline">Best Cheap HelloFresh Alternative</Link>
+            {" "}&mdash; the most popular meal kit at $9.99-11.99/serving.
+          </p>
+          <p>
             <Link href="/blog/factor-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Factor Alternative</Link>
-            {" "}&mdash; pre-made meals at $11-13/serving.
+            {" "}&mdash; pre-made meals at $11-15/serving.
           </p>
           <p>
             <Link href="/blog/home-chef-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Home Chef Alternative</Link>
-            {" "}&mdash; oven-ready meal kits at $8-10/serving.
-          </p>
-          <p>
-            <Link href="/blog/everyplate-alternative" className="text-orange-500 hover:text-orange-600 underline">Best EveryPlate Alternative</Link>
-            {" "}&mdash; the cheapest meal kit at $5/serving.
+            {" "}&mdash; oven-ready meal kits at $8-11/serving.
           </p>
           <p>
             <Link href="/blog/dinnerly-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Dinnerly Alternative</Link>
-            {" "}&mdash; simple 6-ingredient budget meals.
+            {" "}&mdash; simple 6-ingredient budget meals at $5.49/serving.
+          </p>
+          <p>
+            <Link href="/blog/everyplate-alternative" className="text-orange-500 hover:text-orange-600 underline">Best EveryPlate Alternative</Link>
+            {" "}&mdash; the cheapest meal kit at $4.99/serving.
           </p>
           <p>
             <Link href="/blog/hungryroot-alternative" className="text-orange-500 hover:text-orange-600 underline">Best Hungryroot Alternative</Link>
             {" "}&mdash; AI-curated groceries without the markup.
           </p>
+          <p>
+            <Link href="/meal-plans/meal-plan-on-a-budget" className="text-orange-500 hover:text-orange-600 underline">Budget Meal Plans</Link>
+            {" "}&mdash; pre-built affordable meal plans under $3/serving.
+          </p>
+        </div>
+      </div>
+
+      {/* --- FAQ section --- */}
+      <div className="mt-10 mb-6">
+        <h2 className="text-xl font-semibold text-stone-800 mb-6">
+          Frequently asked questions
+        </h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-base font-semibold text-stone-800 mb-2">
+              What&apos;s cheaper than HelloFresh?
+            </h3>
+            <p className="text-stone-600 text-sm leading-relaxed">
+              Almost every option on this list is cheaper than HelloFresh. Budget
+              meal kits like EveryPlate ($4.99/serving) and Dinnerly ($5.49/serving)
+              cut the per-serving cost in half. But the biggest savings come from
+              switching to a meal planning app like What&apos;s For Dinner
+              ($7.99/month total), which gives you recipes and a grocery list so
+              you can shop at your own store for $1.50-3.00 per serving. That&apos;s
+              a savings of $300-800/month depending on your household size.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-base font-semibold text-stone-800 mb-2">
+              Are meal kits worth it in 2026?
+            </h3>
+            <p className="text-stone-600 text-sm leading-relaxed">
+              For most people, no. Meal kit prices have risen 15-25% since 2023, and
+              the core value proposition &mdash; planned meals with recipes &mdash; is
+              now available through AI meal planners for a fraction of the cost. Meal
+              kits still make sense if you physically cannot grocery shop, if you&apos;re
+              a complete cooking beginner, or if you use them as an occasional treat
+              rather than a weekly subscription.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-base font-semibold text-stone-800 mb-2">
+              What&apos;s the best alternative to meal delivery?
+            </h3>
+            <p className="text-stone-600 text-sm leading-relaxed">
+              The best alternative depends on what you valued about meal delivery. If
+              you liked having meals planned for you, a meal planning app replaces that
+              at 1/50th the cost. If you liked not cooking, Factor&apos;s pre-made meals
+              or freezer meal prep are the closest substitutes. If you liked the
+              convenience of not shopping, pair a meal planning app with grocery
+              delivery (Instacart, Walmart+) and you get the same door-to-door
+              experience for $200-400 less per month.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-base font-semibold text-stone-800 mb-2">
+              How much cheaper is meal planning than meal kits?
+            </h3>
+            <p className="text-stone-600 text-sm leading-relaxed">
+              Meal planning is 70-85% cheaper than meal kits. A couple using HelloFresh
+              spends roughly $600/month on dinners alone. The same couple using a meal
+              planning app spends about $290/month on <em>all</em> meals &mdash;
+              breakfast, lunch, dinner, and snacks. A family of four saves even more:
+              $560-720/month compared to meal kits. Over a year, that&apos;s $3,600-8,600
+              in savings depending on household size.
+            </p>
+          </div>
         </div>
       </div>
 

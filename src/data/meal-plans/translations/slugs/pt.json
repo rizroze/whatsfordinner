@@ -165,5 +165,11 @@
   "low-carb-italian-meal-plan": "cardapio-baixo-carboidrato-italiano",
   "dairy-free-indian-meal-plan": "cardapio-sem-lactose-indiano",
   "pescatarian-korean-meal-plan": "cardapio-pescetariano-coreano",
-  "vegan-soul-food-meal-plan": "cardapio-vegano-soul-food"
+  "vegan-soul-food-meal-plan": "cardapio-vegano-soul-food",
+  "15-minute-meal-plan": "cardapio-de-15-minutos",
+  "high-fiber-meal-plan": "cardapio-rico-em-fibras",
+  "bodybuilding-meal-plan": "cardapio-para-musculacao",
+  "pregnancy-meal-plan": "cardapio-para-gestantes",
+  "diabetic-meal-plan": "cardapio-para-diabeticos",
+  "clean-eating-meal-plan": "cardapio-alimentacao-limpa"
 }
