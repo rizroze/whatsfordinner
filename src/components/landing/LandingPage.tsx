@@ -34,11 +34,9 @@ export function LandingPage() {
       {/* Site header */}
       <nav className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Button asChild variant="primary" size="icon" className="rounded-xl shrink-0">
-            <Link href="/">
-              <span className="text-2xl leading-none" style={{ filter: "brightness(0) invert(1)" }}>🍴</span>
-            </Link>
-          </Button>
+          <Link href="/" className="shrink-0 inline-flex items-center justify-center w-12 h-12 bg-orange-500 rounded-full">
+            <img src="/logo-white.svg" alt="What's For Dinner" className="w-7 h-7" />
+          </Link>
           <LanguagePicker />
         </div>
         <div className="flex items-center gap-4">
