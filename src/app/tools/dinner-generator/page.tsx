@@ -387,16 +387,13 @@ export default function DinnerGeneratorPage() {
         )}
 
         {/* Bottom conversion section */}
-        <div className="text-center py-12 border-t border-stone-100">
-          <p className="text-stone-500 mb-4">
-            Tired of deciding every night? Let AI plan your whole week.
+        <div className="text-center py-10 border-t border-stone-100">
+          <p className="text-stone-400 text-sm">
+            Tired of deciding every night?{" "}
+            <Link href="/onboarding" className="text-orange-500 hover:text-orange-600 font-medium transition-colors duration-200">
+              Let AI plan your whole week
+            </Link>
           </p>
-          <Link
-            href="/onboarding"
-            className="inline-flex items-center justify-center px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-full shadow-sm hover:shadow-md transition-all duration-200"
-          >
-            Get Your Free Meal Plan
-          </Link>
           <p className="text-xs text-stone-400 mt-3">
             Personalized meal plans with recipes and a grocery list. Free to try.
           </p>

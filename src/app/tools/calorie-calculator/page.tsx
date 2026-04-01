@@ -197,201 +197,175 @@ export default function CalorieCalculatorPage() {
       </section>
 
       {/* Calculator Card */}
-      <section className="max-w-2xl mx-auto px-6 pb-16">
+      <section className="max-w-3xl mx-auto px-6 pb-16">
         <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-6 sm:p-8">
-          {/* Unit Toggle */}
-          <div className="flex items-center justify-center gap-1 mb-8 bg-stone-100 rounded-full p-1 max-w-xs mx-auto">
-            <button
-              onClick={() => setUnits("imperial")}
-              className={`flex-1 py-2 px-4 rounded-full text-sm font-medium transition-all duration-200 ${
-                units === "imperial"
-                  ? "bg-white text-stone-900 shadow-sm"
-                  : "text-stone-500 hover:text-stone-700"
-              }`}
-            >
-              Imperial
-            </button>
-            <button
-              onClick={() => setUnits("metric")}
-              className={`flex-1 py-2 px-4 rounded-full text-sm font-medium transition-all duration-200 ${
-                units === "metric"
-                  ? "bg-white text-stone-900 shadow-sm"
-                  : "text-stone-500 hover:text-stone-700"
-              }`}
-            >
-              Metric
-            </button>
-          </div>
-
-          {/* Gender */}
-          <div className="mb-6">
-            <label className="block text-sm font-medium text-stone-700 mb-2">
-              Gender
-            </label>
-            <div className="flex gap-3">
-              <button
-                onClick={() => setGender("male")}
-                className={`flex-1 py-3 rounded-xl text-sm font-medium border transition-all duration-200 ${
-                  gender === "male"
-                    ? "border-orange-400 bg-orange-50 text-orange-700"
-                    : "border-stone-200 text-stone-500 hover:border-stone-300"
-                }`}
-              >
-                Male
-              </button>
-              <button
-                onClick={() => setGender("female")}
-                className={`flex-1 py-3 rounded-xl text-sm font-medium border transition-all duration-200 ${
-                  gender === "female"
-                    ? "border-orange-400 bg-orange-50 text-orange-700"
-                    : "border-stone-200 text-stone-500 hover:border-stone-300"
-                }`}
-              >
-                Female
-              </button>
+          {/* Top row: Unit toggle + Gender */}
+          <div className="grid grid-cols-2 gap-4 mb-5">
+            <div>
+              <label className="block text-xs font-medium text-stone-500 mb-1.5">Units</label>
+              <div className="flex gap-1 bg-stone-100 rounded-full p-0.5">
+                <button
+                  onClick={() => setUnits("imperial")}
+                  className={`flex-1 py-2 px-3 rounded-full text-xs font-medium transition-all duration-200 ${
+                    units === "imperial"
+                      ? "bg-white text-stone-900 shadow-sm"
+                      : "text-stone-500 hover:text-stone-700"
+                  }`}
+                >
+                  Imperial
+                </button>
+                <button
+                  onClick={() => setUnits("metric")}
+                  className={`flex-1 py-2 px-3 rounded-full text-xs font-medium transition-all duration-200 ${
+                    units === "metric"
+                      ? "bg-white text-stone-900 shadow-sm"
+                      : "text-stone-500 hover:text-stone-700"
+                  }`}
+                >
+                  Metric
+                </button>
+              </div>
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-stone-500 mb-1.5">Gender</label>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => setGender("male")}
+                  className={`flex-1 py-2 rounded-xl text-xs font-medium border transition-all duration-200 ${
+                    gender === "male"
+                      ? "border-orange-400 bg-orange-50 text-orange-700"
+                      : "border-stone-200 text-stone-500 hover:border-stone-300"
+                  }`}
+                >
+                  Male
+                </button>
+                <button
+                  onClick={() => setGender("female")}
+                  className={`flex-1 py-2 rounded-xl text-xs font-medium border transition-all duration-200 ${
+                    gender === "female"
+                      ? "border-orange-400 bg-orange-50 text-orange-700"
+                      : "border-stone-200 text-stone-500 hover:border-stone-300"
+                  }`}
+                >
+                  Female
+                </button>
+              </div>
             </div>
           </div>
 
-          {/* Age */}
-          <div className="mb-6">
-            <label
-              htmlFor="age"
-              className="block text-sm font-medium text-stone-700 mb-2"
-            >
-              Age
-            </label>
-            <input
-              id="age"
-              type="number"
-              inputMode="numeric"
-              placeholder="25"
-              value={age}
-              onChange={(e) => setAge(e.target.value)}
-              className="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
-            />
-          </div>
-
-          {/* Weight */}
-          <div className="mb-6">
-            <label
-              htmlFor="weight"
-              className="block text-sm font-medium text-stone-700 mb-2"
-            >
-              Weight ({units === "imperial" ? "lbs" : "kg"})
-            </label>
-            {units === "imperial" ? (
+          {/* Stats row: Age + Weight + Height */}
+          <div className="grid grid-cols-3 gap-3 mb-5">
+            <div>
+              <label htmlFor="age" className="block text-xs font-medium text-stone-500 mb-1.5">Age</label>
               <input
-                id="weight"
+                id="age"
                 type="number"
-                inputMode="decimal"
-                placeholder="160"
-                value={weightLbs}
-                onChange={(e) => setWeightLbs(e.target.value)}
-                className="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
+                inputMode="numeric"
+                placeholder="25"
+                value={age}
+                onChange={(e) => setAge(e.target.value)}
+                className="w-full px-3 py-2.5 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
               />
-            ) : (
-              <input
-                id="weight"
-                type="number"
-                inputMode="decimal"
-                placeholder="73"
-                value={weightKg}
-                onChange={(e) => setWeightKg(e.target.value)}
-                className="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
-              />
-            )}
-          </div>
-
-          {/* Height */}
-          <div className="mb-6">
-            <label className="block text-sm font-medium text-stone-700 mb-2">
-              Height ({units === "imperial" ? "ft / in" : "cm"})
-            </label>
-            {units === "imperial" ? (
-              <div className="flex gap-3">
-                <div className="flex-1 relative">
-                  <input
-                    type="number"
-                    inputMode="numeric"
-                    placeholder="5"
-                    value={heightFt}
-                    onChange={(e) => setHeightFt(e.target.value)}
-                    className="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
-                  />
-                  <span className="absolute right-4 top-1/2 -translate-y-1/2 text-stone-400 text-sm">
-                    ft
-                  </span>
+            </div>
+            <div>
+              <label htmlFor="weight" className="block text-xs font-medium text-stone-500 mb-1.5">
+                Weight ({units === "imperial" ? "lbs" : "kg"})
+              </label>
+              {units === "imperial" ? (
+                <input
+                  id="weight"
+                  type="number"
+                  inputMode="decimal"
+                  placeholder="160"
+                  value={weightLbs}
+                  onChange={(e) => setWeightLbs(e.target.value)}
+                  className="w-full px-3 py-2.5 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
+                />
+              ) : (
+                <input
+                  id="weight"
+                  type="number"
+                  inputMode="decimal"
+                  placeholder="73"
+                  value={weightKg}
+                  onChange={(e) => setWeightKg(e.target.value)}
+                  className="w-full px-3 py-2.5 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
+                />
+              )}
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-stone-500 mb-1.5">
+                Height ({units === "imperial" ? "ft/in" : "cm"})
+              </label>
+              {units === "imperial" ? (
+                <div className="flex gap-1.5">
+                  <div className="flex-1 relative">
+                    <input
+                      type="number"
+                      inputMode="numeric"
+                      placeholder="5"
+                      value={heightFt}
+                      onChange={(e) => setHeightFt(e.target.value)}
+                      className="w-full px-3 py-2.5 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200 pr-8"
+                    />
+                    <span className="absolute right-2 top-1/2 -translate-y-1/2 text-stone-400 text-xs">ft</span>
+                  </div>
+                  <div className="flex-1 relative">
+                    <input
+                      type="number"
+                      inputMode="numeric"
+                      placeholder="10"
+                      value={heightIn}
+                      onChange={(e) => setHeightIn(e.target.value)}
+                      className="w-full px-3 py-2.5 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200 pr-8"
+                    />
+                    <span className="absolute right-2 top-1/2 -translate-y-1/2 text-stone-400 text-xs">in</span>
+                  </div>
                 </div>
-                <div className="flex-1 relative">
-                  <input
-                    type="number"
-                    inputMode="numeric"
-                    placeholder="10"
-                    value={heightIn}
-                    onChange={(e) => setHeightIn(e.target.value)}
-                    className="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
-                  />
-                  <span className="absolute right-4 top-1/2 -translate-y-1/2 text-stone-400 text-sm">
-                    in
-                  </span>
-                </div>
-              </div>
-            ) : (
-              <input
-                type="number"
-                inputMode="decimal"
-                placeholder="178"
-                value={heightCm}
-                onChange={(e) => setHeightCm(e.target.value)}
-                className="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
-              />
-            )}
+              ) : (
+                <input
+                  type="number"
+                  inputMode="decimal"
+                  placeholder="178"
+                  value={heightCm}
+                  onChange={(e) => setHeightCm(e.target.value)}
+                  className="w-full px-3 py-2.5 rounded-xl border border-stone-200 text-stone-900 text-sm placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 transition-all duration-200"
+                />
+              )}
+            </div>
           </div>
 
-          {/* Activity Level */}
-          <div className="mb-8">
-            <label className="block text-sm font-medium text-stone-700 mb-2">
-              Activity Level
-            </label>
-            <div className="space-y-2">
+          {/* Activity Level - horizontal wrap */}
+          <div className="mb-5">
+            <label className="block text-xs font-medium text-stone-500 mb-1.5">Activity Level</label>
+            <div className="flex flex-wrap gap-1.5">
               {(Object.keys(activityLabels) as ActivityLevel[]).map((level) => (
                 <button
                   key={level}
                   onClick={() => setActivity(level)}
-                  className={`w-full text-left px-4 py-3 rounded-xl border transition-all duration-200 ${
+                  className={`px-3 py-2 rounded-xl border transition-all duration-200 text-xs ${
                     activity === level
-                      ? "border-orange-400 bg-orange-50"
-                      : "border-stone-200 hover:border-stone-300"
+                      ? "border-orange-400 bg-orange-50 text-orange-700 font-medium"
+                      : "border-stone-200 text-stone-500 hover:border-stone-300"
                   }`}
+                  title={activityLabels[level].desc}
                 >
-                  <span
-                    className={`text-sm font-medium ${
-                      activity === level ? "text-orange-700" : "text-stone-700"
-                    }`}
-                  >
-                    {activityLabels[level].label}
-                  </span>
-                  <span
-                    className={`block text-xs mt-0.5 ${
-                      activity === level ? "text-orange-500" : "text-stone-400"
-                    }`}
-                  >
-                    {activityLabels[level].desc}
-                  </span>
+                  {activityLabels[level].label}
                 </button>
               ))}
             </div>
+            <p className="text-xs text-stone-400 mt-1.5">{activityLabels[activity].desc}</p>
           </div>
 
           {/* Error */}
           {error && (
-            <p className="text-red-500 text-sm mb-4 text-center">{error}</p>
+            <p className="text-red-500 text-xs mb-3 text-center">{error}</p>
           )}
 
           {/* Calculate Button */}
           <button
             onClick={handleCalculate}
-            className="w-full bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-medium py-3.5 rounded-full shadow-sm hover:shadow-md transition-all duration-200 text-sm"
+            className="w-full bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-medium py-3 rounded-full shadow-sm hover:shadow-md transition-all duration-200 text-sm"
           >
             Calculate My Calories
           </button>
