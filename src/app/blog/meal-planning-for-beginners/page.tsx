@@ -353,7 +353,22 @@ export default function MealPlanningForBeginnersArticle() {
         <p>
           The best tool is the one you&apos;ll actually use. If pen and paper
           gets you planning consistently, that&apos;s better than a fancy app
-          you open once and forget about.
+          you open once and forget about. If you want to get started right now,
+          try our{" "}
+          <Link
+            href="/tools/calorie-calculator"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            free calorie calculator
+          </Link>{" "}
+          to find your daily target, or use the{" "}
+          <Link
+            href="/tools/dinner-generator"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            dinner generator
+          </Link>{" "}
+          to get tonight&apos;s meal sorted in one click.
         </p>
       </div>
 

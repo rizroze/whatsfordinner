@@ -432,7 +432,11 @@ export default function BestMealPlanningAppsPage() {
           At <strong>$7.99/month</strong> (or $5/month on the yearly plan), it is
           also one of the cheapest serious options on this list. There is a free
           3-day trial that requires no signup and no credit card &mdash; you can
-          see exactly what you get before committing.
+          see exactly what you get before committing. It also offers free standalone tools: a{" "}
+          <Link href="/tools/calorie-calculator" className="text-orange-500 underline">calorie calculator</Link>{" "}
+          and a{" "}
+          <Link href="/tools/dinner-generator" className="text-orange-500 underline">dinner generator</Link>{" "}
+          that anyone can use without an account.
         </p>
 
         <div className="my-4">

@@ -484,7 +484,14 @@ export default function MealPlanningForFamiliesArticle() {
             picky eaters meal plan
           </Link>{" "}
           is built specifically around safe foods with gradual new-food
-          introduction.
+          introduction. On nights when nobody can agree, our{" "}
+          <Link
+            href="/tools/dinner-generator"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            free dinner generator
+          </Link>{" "}
+          can pick something for you in seconds.
         </p>
 
         {/* Pro tip callout */}

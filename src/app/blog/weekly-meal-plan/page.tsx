@@ -501,7 +501,15 @@ export default function WeeklyMealPlanArticle() {
             itself is tedious. If you find yourself dreading Sunday&apos;s
             planning session, that&apos;s a signal to automate it. An AI meal
             planner removes the weekly friction entirely &mdash; you still
-            cook, but you never have to decide what to cook.
+            cook, but you never have to decide what to cook. Or if you just
+            need tonight&apos;s answer, try our{" "}
+            <Link
+              href="/tools/dinner-generator"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              free dinner generator
+            </Link>{" "}
+            for an instant idea.
           </li>
         </ol>
       </div>

@@ -729,6 +729,14 @@ export default function EatingHealthyOnABudgetArticle() {
           impact: fresh fruit beyond bananas ($3), yogurt ($4), ground beef or
           pork ($5), bread ($3), and more variety of frozen vegetables ($3).
           Each addition adds meal variety without breaking the budget.
+          Not sure how many calories you should be targeting on a budget? Our{" "}
+          <Link
+            href="/tools/calorie-calculator"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            free calorie calculator
+          </Link>{" "}
+          can help you find the right daily target for your goals.
         </p>
         <p>
           The real move, though, is to stop doing the planning manually. An{" "}
