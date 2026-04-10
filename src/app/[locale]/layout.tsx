@@ -11,6 +11,8 @@ interface LayoutProps {
   params: Promise<{ locale: string }>;
 }
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return NON_DEFAULT_LOCALES.map((locale) => ({ locale }));
 }
