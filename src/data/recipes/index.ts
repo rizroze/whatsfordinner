@@ -1,14 +1,22 @@
 import { breakfastRecipes } from "./breakfast";
+import { breakfastExtendedRecipes } from "./breakfast-extended";
 import { lunchRecipes } from "./lunch";
+import { lunchExtendedRecipes } from "./lunch-extended";
 import { dinnerRecipes } from "./dinner";
+import { dinnerExtendedRecipes } from "./dinner-extended";
 import { snackRecipes } from "./snack";
+import { globalCuisineRecipes } from "./global-cuisines";
 import type { FullRecipe } from "./types";
 
 const ALL_RECIPES: FullRecipe[] = [
   ...breakfastRecipes,
+  ...breakfastExtendedRecipes,
   ...lunchRecipes,
+  ...lunchExtendedRecipes,
   ...dinnerRecipes,
+  ...dinnerExtendedRecipes,
   ...snackRecipes,
+  ...globalCuisineRecipes,
 ];
 
 // Validate no duplicate slugs at import time
