@@ -1,0 +1,1241 @@
+{
+  "grilled-cheese-tomato-soup-brunch": {
+    "name": "Izgarada Peynirli Sandvic ve Domates Corbasi Brunch'i",
+    "description": "Klasik ikilinin rahatlatici bir brunch yorumu. Tereyagli, citir peynirli izgara sandvicler, zengin ev yapimi domates corbasiyla birlikte servis edilir. Tembel hafta sonu sabahlari icin mukemmel.",
+    "ingredients": [
+      { "name": "eksi maya ekmegi", "amount": "4", "unit": "dilim", "group": "Peynirli sandvic icin" },
+      { "name": "keskin cheddar peyniri", "amount": "4", "unit": "oz", "group": "Peynirli sandvic icin" },
+      { "name": "tuzsuz tereyagi", "amount": "2", "unit": "yk", "group": "Peynirli sandvic icin" },
+      { "name": "konserve butun domates", "amount": "28", "unit": "oz", "group": "Corba icin" },
+      { "name": "sari sogan", "amount": "1", "unit": "orta boy", "group": "Corba icin" },
+      { "name": "sarimsak disi", "amount": "2", "unit": "dis", "group": "Corba icin" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk", "group": "Corba icin" },
+      { "name": "krema", "amount": "2", "unit": "yk", "group": "Corba icin" },
+      { "name": "tuz", "amount": "1", "unit": "tk" },
+      { "name": "karabiber", "amount": "1/2", "unit": "tk" },
+      { "name": "kuru fesleden", "amount": "1/2", "unit": "tk", "group": "Corba icin" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Sogani dogra ve sarimsagi ince kiy. Orta boy bir tencerede zeytinyagini orta ateste isit ve sogani 4-5 dakika yumusayana kadar pisir." },
+      { "step": 2, "instruction": "Sarimsagi ekle ve 30 saniye pisir. Konserve domatesleri sulariyla birlikte dok, kuru fesleden, tuz ve biberi ekle. Kaynatip 15 dakika pisir.", "tip": "Daha parcali bir doku icin butun domatesleri kasikla ezerken pisir veya sonunda puruzssuz olana kadar blenderdan gecir." },
+      { "step": 3, "instruction": "Corba pisarken her ekmek diliminin bir yuzune tereyagi sur. Tereyagsiz yuzler arasina peyniri koyarak 2 sandvic olustur." },
+      { "step": 4, "instruction": "Bir tavay orta ateste isit. Her sandvici her iki tarafta 3-4 dakika altinrengi olana ve peynir eriyene kadar pisir.", "tip": "Duz bir spatula ile hafifce bastir. Dusuk ve yavas ates yuksek atesten daha iyi sonuc verir." },
+      { "step": 5, "instruction": "El blenderini kullanarak corbayi puruzssuz olana kadar ez (ya da parcali kalmasini tercih edersen oyle birak). Kremayi ekle ve karistir." },
+      { "step": 6, "instruction": "Peynirli sandvici capraz kes ve sicak domates corbasi kaseleriyle birlikte servis et." }
+    ]
+  },
+  "shakshuka": {
+    "name": "Shakshuka",
+    "description": "Baharatli domates ve biberli sosta poslanmis yumurtalar, tavadan dogrudan citir ekmekle birlikte servis edilir. Kuzey Afrika ve Orta Dogu mutfaginin vazgecilmez kahvaltisi.",
+    "ingredients": [
+      { "name": "buyuk yumurta", "amount": "6", "unit": "adet" },
+      { "name": "konserve ezilmis domates", "amount": "28", "unit": "oz" },
+      { "name": "kirmizi biber", "amount": "1", "unit": "buyuk" },
+      { "name": "sari sogan", "amount": "1", "unit": "orta boy" },
+      { "name": "sarimsak disi", "amount": "3", "unit": "dis" },
+      { "name": "zeytinyagi", "amount": "2", "unit": "yk" },
+      { "name": "kimyon", "amount": "1", "unit": "tk" },
+      { "name": "ttsz kirmizi biber (paprika)", "amount": "1", "unit": "tk" },
+      { "name": "acı kirmizi biber", "amount": "1/4", "unit": "tk" },
+      { "name": "tuz", "amount": "1", "unit": "tk" },
+      { "name": "taze kişniş", "amount": "2", "unit": "yk" },
+      { "name": "citir ekmek", "amount": "4", "unit": "dilim" },
+      { "name": "ufalanmis beyaz peynir", "amount": "2", "unit": "oz" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Sogani ve biberi dogra. Sarimsagi ince kiy. Buyuk, firina dayanikli bir tavada zeytinyagini orta ateste isit." },
+      { "step": 2, "instruction": "Sogan ve biberi 5-6 dakika yumusayana kadar kavur. Sarimsak, kimyon, paprika ve aci biberi ekle. 1 dakika koku cikana kadar pisir." },
+      { "step": 3, "instruction": "Ezilmis domatesleri dok ve tuzla tatlandir. Iyice karistir ve sos hafifce koyulasana kadar 10 dakika pisir." },
+      { "step": 4, "instruction": "Kasigin arka tarafiyla sosta 6 kucuk cukur ac. Her cukura bir yumurta kir.", "tip": "Kabuk parcalarinin sosa karismasini onlemek icin yumurtalari once kucuk bir kaseye kir." },
+      { "step": 5, "instruction": "Tavayi kapatin ve orta-kisik ateste 6-8 dakika yumurta aklari pisipaana ama sarilari hala akici olana kadar pisirin." },
+      { "step": 6, "instruction": "Atesten al, ufalanmis beyaz peynir ve dogramis kisnisle susle. Citir ekmekle hemen servis et." }
+    ]
+  },
+  "overnight-oats": {
+    "name": "Bir Gece Onceden Hazir Yulaf",
+    "description": "Sut, chia tohumu ve istedigin malzemelerle bir gece onceden hazirlanan, pisirme gerektirmeyen kremsi yulaf lapasi. Yogun sabahlar icin mukemmel bir al-gotur kahvalti.",
+    "ingredients": [
+      { "name": "yulaf ezmesi", "amount": "1", "unit": "su bardagi" },
+      { "name": "sut (her turlu)", "amount": "1", "unit": "su bardagi" },
+      { "name": "sade Greek yogurt", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "chia tohumu", "amount": "2", "unit": "yk" },
+      { "name": "akçaağaç şurubu", "amount": "1", "unit": "yk" },
+      { "name": "vanilya ozutu", "amount": "1/2", "unit": "tk" },
+      { "name": "bir tutam tuz", "amount": "1", "unit": "tutam" },
+      { "name": "taze mevsim meyveleri", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "dilimlenmiş badem", "amount": "2", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Orta boy bir kase veya kavanozda yulaf ezmesi, sut, Greek yogurt, chia tohumu, akcaagac surubu, vanilya ozutu ve tuzu birlestir. Iyice karistir." },
+      { "step": 2, "instruction": "Karisimi iki kavanoz veya kaba paylastir. Yulaflari batirmak icin hafifce bastir." },
+      { "step": 3, "instruction": "Kapatip en az 4 saat veya gece boyunca buzdolabinda beklet.", "tip": "Buzdolabinda 3 gune kadar dayanir, bu yuzden birden fazla porsiyon hazirlayabilirsin." },
+      { "step": 4, "instruction": "Sabah yulaflari karistir, cok koyuysa bir miktar sut ekle. Taze mevsim meyveleri ve dilimlenmiş bademle susle." }
+    ]
+  },
+  "avocado-toast": {
+    "name": "Avokado Tost",
+    "description": "Kizarmis eksi maya ekmegi uzerinde mukemmel ezilmis avokado, rafadan yumurta, everything bagel baharati ve bir sikma limon. Basit, doyurucu ve sonsuz cesitlenebilir.",
+    "ingredients": [
+      { "name": "olgun avokado", "amount": "2", "unit": "orta boy" },
+      { "name": "eksi maya ekmegi", "amount": "2", "unit": "kalin dilim" },
+      { "name": "buyuk yumurta", "amount": "2", "unit": "adet" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk" },
+      { "name": "pul biber", "amount": "1/4", "unit": "tk" },
+      { "name": "everything bagel baharati", "amount": "1", "unit": "tk" },
+      { "name": "pul deniz tuzu", "amount": "1/4", "unit": "tk" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Kucuk bir tencerede suyu hafifce kaynat. Yumurtalari dikkatli bir sekilde icine birak ve kremsi bir sari icin tam 6.5 dakika pisir.", "tip": "Zamanlayici kullan. Pisirmeyi durdurmak icin yumurtalari hemen buzlu suya aktar." },
+      { "step": 2, "instruction": "Yumurtalar pisarken eksi maya ekmeklerini altinrengi ve citir olana kadar kizar." },
+      { "step": 3, "instruction": "Avokadolari ikiye bol ve icini bir kaseye cikart. Limon suyu ve bir tutam tuz ekle. Catalla istedigin kivama gelene kadar ez." },
+      { "step": 4, "instruction": "Ezilmis avokadoyu her tostun uzerine bol miktarda sur. Yumurtalari soy ve ikiye bol, her tostun uzerine birer yari koy." },
+      { "step": 5, "instruction": "Zeytinyagi gezdir, everything bagel baharati, pul biber ve pul deniz tuzuyla susle. Hemen servis et." }
+    ]
+  },
+  "french-toast": {
+    "name": "Fransiz Tostu",
+    "description": "Vanilyali-tarcinli yumurta karisimiyla islatilmis kalin brioche dilimleri, tavada altin renginde kizartilir. Akcaagac surubu, taze meyveler ve pudra sekeriyle servis edilir.",
+    "ingredients": [
+      { "name": "brioche ekmek", "amount": "8", "unit": "kalin dilim" },
+      { "name": "buyuk yumurta", "amount": "4", "unit": "adet" },
+      { "name": "tam yagli sut", "amount": "3/4", "unit": "su bardagi" },
+      { "name": "vanilya ozutu", "amount": "1", "unit": "tk" },
+      { "name": "tarcin", "amount": "1", "unit": "tk" },
+      { "name": "toz seker", "amount": "1", "unit": "yk" },
+      { "name": "tuzsuz tereyagi", "amount": "2", "unit": "yk" },
+      { "name": "akcaagac surubu", "amount": "4", "unit": "yk" },
+      { "name": "pudra sekeri", "amount": "1", "unit": "yk" },
+      { "name": "taze karisik meyveler", "amount": "1", "unit": "su bardagi" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Genis ve sig bir kasede yumurta, sut, vanilya, tarcin ve sekeri iyice cirp." },
+      { "step": 2, "instruction": "Buyuk yapiismaz bir tava veya izgarayi orta ateste isit. Tereyaginin yarisini erit." },
+      { "step": 3, "instruction": "Her brioche dilimini yumurta karisimine batir, her tarafi yaklasik 15 saniye islandir. Fazlasinin suzmesine izin ver.", "tip": "Bir gun onceki bayat ekmek en iyisidir. Karisimi dagitmadan emer." },
+      { "step": 4, "instruction": "Her dilimi her tarafta 2-3 dakika altinrengi olana kadar pisir. Gruplar arasinda gerektiginde tereyagi ekle." },
+      { "step": 5, "instruction": "Tabaklara ust uste koyarak servis et, taze meyve, akcaagac surubu ve hafif bir pudra sekeri serpisiyle susle." }
+    ]
+  },
+  "breakfast-burrito": {
+    "name": "Kahvalti Burritosu",
+    "description": "Kabarik cirpilmis yumurta, baharatli siyah fasulye, erimis peynir, avokado ve salsa ile dolu doyurucu bir un tortillasi. Onceden hazirlama dostu ve kolayca kisisellestirilebilir.",
+    "ingredients": [
+      { "name": "buyuk un tortillasi (25 cm)", "amount": "2", "unit": "adet" },
+      { "name": "buyuk yumurta", "amount": "4", "unit": "adet" },
+      { "name": "konserve siyah fasulye, suzulmus", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "rendelenmis Meksika peynir karisimi", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "olgun avokado", "amount": "1/2", "unit": "orta boy" },
+      { "name": "salsa", "amount": "4", "unit": "yk" },
+      { "name": "tuzsuz tereyagi", "amount": "1", "unit": "yk" },
+      { "name": "tuz", "amount": "1/4", "unit": "tk" },
+      { "name": "karabiber", "amount": "1/4", "unit": "tk" },
+      { "name": "aci sos (istege bagli)", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Siyah fasulyeleri kucuk bir tencerede orta ateste isit. Bir tutam tuzla tatlandir." },
+      { "step": 2, "instruction": "Yumurtalari bir kaseye kir, tuz ve biber ekle ve homojen olana kadar cirp. Yapiismaz tavada orta-kisik ateste tereyagini erit ve yumurtalari hafifce karistirarak 2-3 dakika pisirine kadar kavur.", "tip": "Yumurtalari hala hafif nemli iken atesten al. Kalan isiyla pismeye devam edecekler." },
+      { "step": 3, "instruction": "Tortillalari kuru tavada her tarafta 20-30 saniye veya mikrodalgada 15 saniye isit." },
+      { "step": 4, "instruction": "Her tortillanin uzerine cirpilmis yumurta, siyah fasulye, peynir, dilimlenmiş avokado ve salsa koy. Istersen aci sos ekle." },
+      { "step": 5, "instruction": "Tortillanin kenarlarini iceri katla, sonra alttan yukari dogru sikica sar. Ortadan kes ve servis et.", "tip": "Onceden hazirlamak icin aluminim folyoya sikica sar ve dondur. 190 derece firinda 20 dakika isit." }
+    ]
+  },
+  "greek-yogurt-parfait": {
+    "name": "Greek Yogurt Parfait",
+    "description": "Koyu Greek yogurt, citir granola, taze meyveler ve bal ile katman katman hazirlanan, birlestirilmesi dakikalar suren protein deposu bir kahvalti.",
+    "ingredients": [
+      { "name": "sade Greek yogurt (%2 veya tam yagli)", "amount": "1.5", "unit": "su bardagi" },
+      { "name": "granola", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "taze cilek, dilimlenmiş", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "taze yaban mersini", "amount": "1/4", "unit": "su bardagi" },
+      { "name": "bal", "amount": "2", "unit": "tk" },
+      { "name": "chia tohumu", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Yogurdun yarisini esit sekilde iki bardak veya kaseye paylaştır." },
+      { "step": 2, "instruction": "Yogurdun uzerine bir katman granola, ardindan cileklerin ve yaban mersinlerinin yarisini ekle." },
+      { "step": 3, "instruction": "Kalan yogurdu ekle, uzerine kalan meyveleri ve granolayi koy." },
+      { "step": 4, "instruction": "Bal gezdir ve chia tohumu serp. Granola citir kalsin diye hemen servis et.", "tip": "Onceden hazirlamak icin granolayi ayri kucuk bir kapta sakla ve yemeden hemen once ekle." }
+    ]
+  },
+  "banana-pancakes": {
+    "name": "Muzlu Pankek",
+    "description": "Olgun muzla dogal tatlilik katilmis, kabarik altin rengi pankekler. Taze muz dilimleri, bir parca tereyagi ve ilik akcaagac surubuyla servis edilir.",
+    "ingredients": [
+      { "name": "olgun muz", "amount": "2", "unit": "buyuk" },
+      { "name": "un", "amount": "1.5", "unit": "su bardagi" },
+      { "name": "buyuk yumurta", "amount": "2", "unit": "adet" },
+      { "name": "sut", "amount": "3/4", "unit": "su bardagi" },
+      { "name": "kabartma tozu", "amount": "2", "unit": "tk" },
+      { "name": "toz seker", "amount": "1", "unit": "yk" },
+      { "name": "vanilya ozutu", "amount": "1", "unit": "tk" },
+      { "name": "tuz", "amount": "1/4", "unit": "tk" },
+      { "name": "tuzsuz tereyagi", "amount": "2", "unit": "yk" },
+      { "name": "akcaagac surubu", "amount": "4", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Muzlari buyuk bir kasede catalla cogunlukla puruzssuz olana kadar ez (birkac kucuk parca kalabilir)." },
+      { "step": 2, "instruction": "Ezilmis muzlara yumurta, sut, eritilmis tereyagi (1 yk) ve vanilyayi ekle. Cirparak karistir." },
+      { "step": 3, "instruction": "Ayri bir kasede un, kabartma tozu, seker ve tuzu karistir. Kuru malzemeleri islak malzemelere ekle ve sadece birlesene kadar karistir.", "tip": "Fazla karistirma. Birkac kucuk topak olabilir, bu pankekleri daha kabarik yapar." },
+      { "step": 4, "instruction": "Yapiismaz tava veya izgarayi orta ateste isit. Kucuk bir parca tereyagi ekle. Her pankek icin yaklasik 1/4 su bardagi hamur dok." },
+      { "step": 5, "instruction": "Yuzeyinde kabarciklar olusana ve kenarlar pisiş gorunene kadar pisir (yaklasik 2-3 dakika). Cevir ve altinrengi olana kadar 1-2 dakika daha pisir." },
+      { "step": 6, "instruction": "Ust uste koyarak servis et, uzerine dilimlenmiş muz, bir parca tereyagi ve ilik akcaagac surubu koy." }
+    ]
+  },
+  "salmon-poke-bowl": {
+    "name": "Somon Poke Kasesi",
+    "description": "Soya sosu ve susam yagiyla marine edilmiş taze somon kupleri, sushi pirinci uzerinde avokado, edamame, salatalik ve aci mayonezle servis edilir.",
+    "ingredients": [
+      { "name": "suşi kalitesinde somon", "amount": "10", "unit": "oz", "group": "Poke icin" },
+      { "name": "soya sosu", "amount": "2", "unit": "yk", "group": "Poke icin" },
+      { "name": "susam yagi", "amount": "1", "unit": "tk", "group": "Poke icin" },
+      { "name": "pirinc sirkesi", "amount": "1", "unit": "tk", "group": "Poke icin" },
+      { "name": "sushi pirinci", "amount": "1", "unit": "su bardagi", "group": "Kase icin" },
+      { "name": "olgun avokado", "amount": "1", "unit": "orta boy", "group": "Kase icin" },
+      { "name": "salatalik", "amount": "1", "unit": "orta boy", "group": "Kase icin" },
+      { "name": "kabuklu edamame", "amount": "1/2", "unit": "su bardagi", "group": "Kase icin" },
+      { "name": "mayonez", "amount": "2", "unit": "yk", "group": "Aci mayonez icin" },
+      { "name": "sriracha", "amount": "1", "unit": "tk", "group": "Aci mayonez icin" },
+      { "name": "susam", "amount": "1", "unit": "yk" },
+      { "name": "taze sogan, dilimlenmiş", "amount": "2", "unit": "sap" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Sushi pirincini paket uzerindeki talimatlara gore pisir. Oda sicakligina gelmesini bekle." },
+      { "step": 2, "instruction": "Somonu 1 cm kup seklinde kes. Soya sosu, susam yagi ve pirinc sirkesiyle karistir. 10 dakika buzdolabinda beklet.", "tip": "Sadece guvenilir bir balikcidan alinmiş suşi kalitesinde somon kullan. Balik cig servis edilir." },
+      { "step": 3, "instruction": "Avokadoyu dilimle ve salataligi dogra. Mayonez ve srirachayi aci mayonez icin karistir." },
+      { "step": 4, "instruction": "Pirinci iki kaseye paylastir. Marine edilmiş somonu, avokado, salatalik ve edamameyi uzerine diz." },
+      { "step": 5, "instruction": "Aci mayonezi gezdir, susam ve dilimlenmiş taze soganla susle. Hemen servis et." }
+    ]
+  },
+  "caprese-salad-burrata": {
+    "name": "Burratali Caprese Salatasi",
+    "description": "Italyan klasiginin lüks bir yorumu. Kremsi burrata mozzarellanin yerini alir, olgun iri domates, taze fesleden ve kaliteli balsamik glazuruyle buluşur.",
+    "ingredients": [
+      { "name": "burrata peyniri", "amount": "8", "unit": "oz" },
+      { "name": "iri domates", "amount": "2", "unit": "buyuk" },
+      { "name": "taze fesleden yapragi", "amount": "10", "unit": "yaprak" },
+      { "name": "sizma zeytinyagi", "amount": "2", "unit": "yk" },
+      { "name": "balsamik glazuru", "amount": "1", "unit": "yk" },
+      { "name": "pul deniz tuzu", "amount": "1/4", "unit": "tk" },
+      { "name": "taze cekilmiş karabiber", "amount": "1/4", "unit": "tk" },
+      { "name": "citir ekmek", "amount": "4", "unit": "dilim" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Domatesleri yaklasik 5 mm kalinliginda yuvarlak dilimler halinde kes. Servis tabagina tek katman halinde diz." },
+      { "step": 2, "instruction": "Burratali domateslerin ortasina koy. Kremsi ici disari aksin diye hafifce ac.", "tip": "En iyi tat ve doku icin burratali servis etmeden 15 dakika once buzdolabindan cikar." },
+      { "step": 3, "instruction": "Taze fesleden yapraklarini domateslerin arasina ve cevresine yerlestir." },
+      { "step": 4, "instruction": "Bol zeytinyagi ve balsamik glazuru gezdir. Pul deniz tuzu ve taze cekilmiş karabiberle tatlandir. Citir ekmekle servis et." }
+    ]
+  },
+  "vietnamese-spring-rolls": {
+    "name": "Vietnam Yazlik Rulosu",
+    "description": "Karides, pirinc sehriyesi, citir sebzeler ve taze otlarla dolu pirinc kagidi rulolari. Lezzetli fistik sosuyla servis edilir.",
+    "ingredients": [
+      { "name": "pirinc kagidi (20 cm)", "amount": "12", "unit": "yaprak", "group": "Rulo icin" },
+      { "name": "pisirilmiş karides, uzunlamasina ikiye bolunmus", "amount": "12", "unit": "buyuk", "group": "Rulo icin" },
+      { "name": "pirinc sehriyesi", "amount": "4", "unit": "oz", "group": "Rulo icin" },
+      { "name": "marul yapraklari", "amount": "6", "unit": "yaprak", "group": "Rulo icin" },
+      { "name": "havuc, ince seritler halinde", "amount": "1", "unit": "su bardagi", "group": "Rulo icin" },
+      { "name": "salatalik, ince seritler halinde", "amount": "1", "unit": "su bardagi", "group": "Rulo icin" },
+      { "name": "taze nane yapraklari", "amount": "1/4", "unit": "su bardagi", "group": "Rulo icin" },
+      { "name": "taze kişniş demetleri", "amount": "1/4", "unit": "su bardagi", "group": "Rulo icin" },
+      { "name": "puruzssuz fistik ezmesi", "amount": "3", "unit": "yk", "group": "Fistik sosu icin" },
+      { "name": "hoisin sosu", "amount": "2", "unit": "yk", "group": "Fistik sosu icin" },
+      { "name": "ilik su", "amount": "2", "unit": "yk", "group": "Fistik sosu icin" },
+      { "name": "sriracha", "amount": "1", "unit": "tk", "group": "Fistik sosu icin" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk", "group": "Fistik sosu icin" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pirinc sehriyesini paket uzerindeki talimatlara gore pisir. Suzup soguk suyla durula ve kenara ayir." },
+      { "step": 2, "instruction": "Fistik sosu icin fistik ezmesi, hoisin, ilik su, sriracha ve limon suyunu puruzssuz olana kadar cirp. Kenara ayir." },
+      { "step": 3, "instruction": "Geniş sig bir kaba ilik su doldur. Pirinc kagilarindan birini yaklasik 10-15 saniye esnek olana kadar (tamamen yumusamadan) batir.", "tip": "Kagidi cikardiginizda yumusamaya devam eder. Batirirken fazla yumusaksa sararken yirtilir." },
+      { "step": 4, "instruction": "Kagidi duz yerlestir. Alt ucte birlik kisma bir marul yapragi, bir tutam sehriye, havuc, salatalik, nane ve kişniş koy. 2 karides yarisini kesik yuzu yukari gelecek sekilde ekle." },
+      { "step": 5, "instruction": "Alt kenari malzemenin uzerine katla, kenarları iceri katla ve bir burrito gibi sikica sar. Kagit kendine yapisacaktir." },
+      { "step": 6, "instruction": "Kalan kagitlar ve malzemelerle tekrarla. Fistik sosuyla birlikte servis et." }
+    ]
+  },
+  "greek-chicken-salad": {
+    "name": "Yunan Usulu Tavuk Salatasi",
+    "description": "Limon-otlu izgara tavuk, citir marul uzerinde salatalik, domates, kalamata zeytin, kirmizi sogan ve ufalanmis beyaz peynirle, ferah bir kekikli sos ile.",
+    "ingredients": [
+      { "name": "kemiksiz derisiz tavuk gogusu", "amount": "2", "unit": "orta boy", "group": "Tavuk icin" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk", "group": "Tavuk icin" },
+      { "name": "limon suyu", "amount": "2", "unit": "yk", "group": "Tavuk icin" },
+      { "name": "kuru kekik", "amount": "1", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "marul, dogramis", "amount": "4", "unit": "su bardagi", "group": "Salata icin" },
+      { "name": "salkım domates, ikiye bolunmus", "amount": "1", "unit": "su bardagi", "group": "Salata icin" },
+      { "name": "salatalik, dogranmiş", "amount": "1", "unit": "orta boy", "group": "Salata icin" },
+      { "name": "kalamata zeytini", "amount": "1/4", "unit": "su bardagi", "group": "Salata icin" },
+      { "name": "kirmizi sogan, ince dilimlenmiş", "amount": "1/4", "unit": "kucuk", "group": "Salata icin" },
+      { "name": "ufalanmis beyaz peynir", "amount": "2", "unit": "oz", "group": "Salata icin" },
+      { "name": "sizma zeytinyagi", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "kirmizi sarap sirkesi", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "tuz ve biber", "amount": "1", "unit": "tadina gore" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tavugu zeytinyagi, limon suyunun yarisi, kekik, tuz ve biberle tatlandir. En az 10 dakika marine et." },
+      { "step": 2, "instruction": "Izgara tavayi veya tavayi orta-yuksek ateste isit. Tavugu ic sicakligi 74 dereceye ulasana kadar her tarafta 5-6 dakika pisir. 5 dakika dinlendir, sonra dilimle.", "tip": "Daha esit pisirmek icin tavugu pisiirmeden once esit kalinliga getir." },
+      { "step": 3, "instruction": "Kucuk bir kasede sos icin zeytinyagi, kirmizi sarap sirkesi, kalan limon suyu, tuz ve biberi cirp." },
+      { "step": 4, "instruction": "Buyuk bir kasede marul, domates, salatalik, zeytin ve kirmizi sogani birlestir. Sosla karistir." },
+      { "step": 5, "instruction": "Salatayi tabaklara paylastir, uzerine dilimlenmiş tavuk ve ufalanmis beyaz peynir koy. Hemen servis et." }
+    ]
+  },
+  "shrimp-lettuce-wraps": {
+    "name": "Karides Marul Sarma",
+    "description": "Sarimsak-biberli karides, citir tereyagli marul yapraklarinda tursu havuc, dilimlenmiş turp ve eksi limon sosuyla. Hafif, citir ve inanilmaz taze.",
+    "ingredients": [
+      { "name": "buyuk karides, soyulmus ve temizlenmis", "amount": "12", "unit": "oz" },
+      { "name": "tereyagli marul yapraklari", "amount": "8", "unit": "buyuk yaprak" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis" },
+      { "name": "soya sosu", "amount": "1", "unit": "yk" },
+      { "name": "susam yagi", "amount": "1", "unit": "tk" },
+      { "name": "sarimsak-biber sosu", "amount": "1", "unit": "tk" },
+      { "name": "limon suyu", "amount": "2", "unit": "yk" },
+      { "name": "havuc, rendelenmis", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "turp, ince dilimlenmiş", "amount": "3", "unit": "orta boy" },
+      { "name": "taze kişniş", "amount": "2", "unit": "yk" },
+      { "name": "sivi yag", "amount": "1", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Karidesleri kagit havluyla kurulay. Hafifce tuzla tatlandir." },
+      { "step": 2, "instruction": "Tavada sivi yagi yuksek ateste isit. Karidesleri tek katman halinde dizin ve her tarafta 1-2 dakika pembeleşip kivrilana kadar pisir." },
+      { "step": 3, "instruction": "Sarimsak, soya sosu, susam yagi ve sarimsak-biber sosunu ekle. 30 saniye karistirarak sos karides leri kapla. Atesten al." },
+      { "step": 4, "instruction": "Tereyagli marul yapraklarini tabaga diz. Her birine karides, rendelenmis havuc ve dilimlenmiş turp koy." },
+      { "step": 5, "instruction": "Sarmalarin uzerine limon suyu sik ve taze kişnişle susle. Hemen servis et." }
+    ]
+  },
+  "falafel-bowl": {
+    "name": "Falafel Kasesi",
+    "description": "Citir firinlanmis falafel, kabarik kuskus uzerinde humus, tursu kirmizi sogan, salatalik-domates salatasi ve kremsi tahin sosuyla servis edilir.",
+    "ingredients": [
+      { "name": "konserve nohut, suzulmus ve durulanus", "amount": "15", "unit": "oz", "group": "Falafel icin" },
+      { "name": "taze maydanoz", "amount": "1/2", "unit": "su bardagi", "group": "Falafel icin" },
+      { "name": "taze kişniş", "amount": "1/4", "unit": "su bardagi", "group": "Falafel icin" },
+      { "name": "sarimsak disi", "amount": "3", "unit": "dis", "group": "Falafel icin" },
+      { "name": "kimyon", "amount": "1", "unit": "tk", "group": "Falafel icin" },
+      { "name": "un", "amount": "2", "unit": "yk", "group": "Falafel icin" },
+      { "name": "zeytinyagi", "amount": "2", "unit": "yk", "group": "Falafel icin" },
+      { "name": "kuskus", "amount": "1", "unit": "su bardagi", "group": "Kase icin" },
+      { "name": "hazir humus", "amount": "1/2", "unit": "su bardagi", "group": "Kase icin" },
+      { "name": "salkım domates, dortte birlik", "amount": "1", "unit": "su bardagi", "group": "Kase icin" },
+      { "name": "salatalik, dogranmiş", "amount": "1", "unit": "orta boy", "group": "Kase icin" },
+      { "name": "tahin", "amount": "3", "unit": "yk", "group": "Tahin sosu icin" },
+      { "name": "limon suyu", "amount": "2", "unit": "yk", "group": "Tahin sosu icin" },
+      { "name": "su", "amount": "2", "unit": "yk", "group": "Tahin sosu icin" },
+      { "name": "tuz", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Firini 200 dereceye isit. Firin tepsisine yagli kagit ser ve zeytinyagi ile firca." },
+      { "step": 2, "instruction": "Nohut, maydanoz, kişniş, sarimsak, kimyon, un ve 1/2 tk tuzu mutfak robotuna koy. 10-12 kez parcali ama hala hafif parcacikli olana kadar (macun olmamali) islet.", "tip": "Karisim cok islak ise bir kasik daha un ekle. Basildiginda sekil tutmali." },
+      { "step": 3, "instruction": "Karisimi 12 kucuk kofte seklinde biçimlendir. Firin tepsisine koy ve ustlerini zeytinyagiyla fircala. 25 dakika, yarida cevirirerek, altinrengi ve citir olana kadar pisir." },
+      { "step": 4, "instruction": "Falafel pisarken kuskusu paket uzerindeki talimatlara gore pisir. Catalla kabart." },
+      { "step": 5, "instruction": "Tahin sosunu hazirlamak icin tahin, limon suyu, su ve bir tutam tuzu puruzssuz ve akici olana kadar cirp." },
+      { "step": 6, "instruction": "Kaseleri kuskusu taban olarak koyarak, uzerine falafel, humus, domates-salatalik salatasi ve bol tahin sosu gezdirerek hazirla." }
+    ]
+  },
+  "chicken-shawarma-plate": {
+    "name": "Tavuk Shawarma Tabagi",
+    "description": "Bolca baharatlanmis tavuk but, kizdirici ve sulu olana kadar firinlanir. Sarimsak sosu, tursu, tabbule ve sicak pide ekmegi ile servis edilir.",
+    "ingredients": [
+      { "name": "kemiksiz derisiz tavuk but", "amount": "1.5", "unit": "lb", "group": "Tavuk icin" },
+      { "name": "zeytinyagi", "amount": "2", "unit": "yk", "group": "Tavuk icin" },
+      { "name": "kimyon", "amount": "1", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "kisnis tohumu", "amount": "1", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "ttsz kirmizi biber (paprika)", "amount": "1", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "zerdecal", "amount": "1/2", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "tarcin", "amount": "1/4", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "sade Greek yogurt", "amount": "1/2", "unit": "su bardagi", "group": "Sarimsak sosu icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis", "group": "Sarimsak sosu icin" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk", "group": "Sarimsak sosu icin" },
+      { "name": "pide ekmegi", "amount": "4", "unit": "adet" },
+      { "name": "salkım domates, dogranmiş", "amount": "1", "unit": "su bardagi" },
+      { "name": "salatalik, dogranmiş", "amount": "1/2", "unit": "orta boy" },
+      { "name": "tuz", "amount": "1.5", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Zeytinyagi, kimyon, kisnis, paprika, zerdecal, tarcin ve 1 tk tuzu bir kasede karistir. Tavuk butlari iyice kaplayarak en az 15 dakika (veya gece boyunca) marine et." },
+      { "step": 2, "instruction": "Firini 220 dereceye isit. Tavugu tek katman halinde firin tepsisine yay. Kenarlari kizarana ve ic sicakligi 74 dereceye ulasana kadar 20-25 dakika pisir." },
+      { "step": 3, "instruction": "Tavuk pisarken yogurt, ince kiymis sarimsak, limon suyu ve bir tutam tuzu karistirarak sarimsak sosunu hazirla." },
+      { "step": 4, "instruction": "Dogranmiş domates ve salataligi bir miktar zeytinyagi, limon suyu ve tuzla karistirarak hizli bir yan salata hazirla." },
+      { "step": 5, "instruction": "Tavugu liflerin tersine dilimle. Pide ekmegini isit. Tavugu sarimsak sosu, domates-salatalik salatasi ve sicak pide ile servis et.", "tip": "En iyi kizartma icin tavugu son 2-3 dakika izgara modunda pisir." }
+    ]
+  },
+  "bibimbap": {
+    "name": "Bibimbap",
+    "description": "Baharatli sebzeler, kizarmis yumurta ve gochujang sosu ile suslenmis canli bir Kore pirinc kasesi. Tam deneyim icin yemeden hemen once her seyi karistir.",
+    "ingredients": [
+      { "name": "kisa taneli beyaz pirinc", "amount": "1", "unit": "su bardagi" },
+      { "name": "buyuk yumurta", "amount": "2", "unit": "adet" },
+      { "name": "taze ispanak", "amount": "2", "unit": "su bardagi" },
+      { "name": "havuc, ince seritler halinde", "amount": "1", "unit": "orta boy" },
+      { "name": "kabak, ince seritler halinde", "amount": "1", "unit": "kucuk" },
+      { "name": "soya filizi", "amount": "1", "unit": "su bardagi" },
+      { "name": "shiitake mantari, dilimlenmiş", "amount": "4", "unit": "oz" },
+      { "name": "susam yagi", "amount": "2", "unit": "yk" },
+      { "name": "soya sosu", "amount": "1", "unit": "yk" },
+      { "name": "gochujang (Kore biber salcasi)", "amount": "2", "unit": "yk" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis" },
+      { "name": "susam", "amount": "1", "unit": "yk" },
+      { "name": "sivi yag", "amount": "1", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pirinci paket uzerindeki talimatlara gore pisir. Sicak tut." },
+      { "step": 2, "instruction": "Ispanagi kaynayan suda 30 saniye haslat, suz, suyunu sik ve 1 tk susam yagi ile 1 tk soya sosuyla karistir." },
+      { "step": 3, "instruction": "Her sebzeyi ayri ayri sicak tavada biraz susam yagiyla kavur: havucu 2 dakika, kabagi 2 dakika, mantarlari sarimsak la 3 dakika, soya filizini 1 dakika. Her birini hafifce tuzla tatlandir.", "tip": "Sebzeleri ayri ayri pisirmek kendine ozgu tat ve dokularini korur." },
+      { "step": 4, "instruction": "Yumurtalari sivi yagda orta ateste aklari pisipaana ama sarilari hala akici olana kadar (yaklasik 3 dakika) kizart." },
+      { "step": 5, "instruction": "Pirinci iki kaseye paylastir. Her sebzeyi kasenin etrafina ayri bolumler halinde diz. Uzerine kizarmis yumurta koy." },
+      { "step": 6, "instruction": "Bir kasik gochujang ekle ve susamla susle. Yemeden once her seyi iyice karistir." }
+    ]
+  },
+  "kimchi-fried-rice": {
+    "name": "Kimchi'li Kizarmis Pirinc",
+    "description": "Ekşi kimchi ile dolu, hizli ve derinden lezzetli bir kizarmis pirinc. Citir kizarmis yumurta ve susam yagiyla servis edilir. Bir gun onceki pirinçle en iyi olur.",
+    "ingredients": [
+      { "name": "bir gun onceki pisinmis beyaz pirinc", "amount": "3", "unit": "su bardagi" },
+      { "name": "kimchi, kaba dogranmiş", "amount": "1", "unit": "su bardagi" },
+      { "name": "kimchi suyu", "amount": "2", "unit": "yk" },
+      { "name": "buyuk yumurta", "amount": "2", "unit": "adet" },
+      { "name": "soya sosu", "amount": "1", "unit": "yk" },
+      { "name": "susam yagi", "amount": "1", "unit": "tk" },
+      { "name": "gochujang", "amount": "1", "unit": "tk" },
+      { "name": "taze sogan, dilimlenmiş", "amount": "3", "unit": "sap" },
+      { "name": "sivi yag", "amount": "1", "unit": "yk" },
+      { "name": "susam", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Sivi yagi buyuk bir tava veya wok'ta yuksek ateste isit. Dogranmiş kimchiyi ekle ve hafifce karamelize olana kadar 2-3 dakika kavur." },
+      { "step": 2, "instruction": "Pirinci ekle ve topakları daginik. Pirinc isisinip kenarlardan citirdamaya baslayana kadar 3-4 dakika kavur.", "tip": "Bir gun onceki pirinc daha kuru oldugu icin en iyi sonucu verir. Taze pirinc fazla nemli olur ve citirdamaz." },
+      { "step": 3, "instruction": "Soya sosu, kimchi suyu ve gochujangi ekle. Her sey esit sekilde kaplanana kadar karistir. Pirinci kenara it." },
+      { "step": 4, "instruction": "Ayri kucuk bir tavada yumurtalari aklari citir ama sarilari hala akici olacak sekilde kizart." },
+      { "step": 5, "instruction": "Kizarmis pirinci iki kaseye paylastir. Her birinin uzerine kizarmis yumurta, dilimlenmiş taze sogan, susam ve bir miktar susam yagi gezdir." }
+    ]
+  },
+  "pad-thai": {
+    "name": "Pad Thai",
+    "description": "Tayland'in ikonik kavurma pirinc erişteleri, karides, cirpilmis yumurta, soya filizi ve kirilmis fistikla, tatli-eksili tamarind sosunda.",
+    "ingredients": [
+      { "name": "yassi pirinc erişteleri (pad thai erişteleri)", "amount": "8", "unit": "oz" },
+      { "name": "buyuk karides, soyulmus", "amount": "8", "unit": "oz" },
+      { "name": "buyuk yumurta", "amount": "2", "unit": "adet" },
+      { "name": "tamarind ezmesi", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "balik sosu", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "esmer seker", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "pirinc sirkesi", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "3", "unit": "dis" },
+      { "name": "soya filizi", "amount": "1", "unit": "su bardagi" },
+      { "name": "taze sogan, 2-3 cm parcalar halinde", "amount": "3", "unit": "sap" },
+      { "name": "kavurulmuş fistik, kirilmiş", "amount": "3", "unit": "yk" },
+      { "name": "limon dilimleri", "amount": "2", "unit": "dilim" },
+      { "name": "sivi yag", "amount": "2", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pirinc erişteleri sicak (kaynamayan) suda 8-10 dakika esnek ama hala sert olana kadar islatın. Suzun.", "tip": "Erişteleri fazla islatma. Hafif az pismis olmali cunku wok'ta pismeye devam edecekler." },
+      { "step": 2, "instruction": "Tamarind ezmesi, balik sosu, esmer seker ve pirinc sirkesini kucuk bir kasede karistir. Seker eriyene kadar karistir." },
+      { "step": 3, "instruction": "Wok veya buyuk tavada yagi yuksek ateste isit. Karidesleri her tarafta 1-2 dakika pembe olana kadar pisir. Cikarip kenara koy." },
+      { "step": 4, "instruction": "Ayni wok'ta sarimsagi ekle ve 15 saniye pisir. Kenara it, yumurtalari kir ve hizlica cirp." },
+      { "step": 5, "instruction": "Suzulmus erişteleri ve sosu ekle. Erişleler sosu emene kadar 2-3 dakika enerji kle karistir." },
+      { "step": 6, "instruction": "Karidesleri wok'a geri koy, soya filizi ve taze soganlari ekle, 30 saniye karistir. Kirilmis fistik ve limon dilimleriyle servis et." }
+    ]
+  },
+  "caesar-salad": {
+    "name": "Sezar Salatasi",
+    "description": "Citir marul, ev yapimi Sezar sosuyla karistirilmis sarimsak li krutonsuz, rendelenmis Parmesan ve taze cekilmiş karabiberle.",
+    "ingredients": [
+      { "name": "marul", "amount": "2", "unit": "adet" },
+      { "name": "citir ekmek, kup dogranmiş", "amount": "2", "unit": "su bardagi", "group": "Kruton icin" },
+      { "name": "zeytinyagi", "amount": "2", "unit": "yk", "group": "Kruton icin" },
+      { "name": "sarimsak disi, ikiye bolunmus", "amount": "1", "unit": "dis", "group": "Kruton icin" },
+      { "name": "mayonez", "amount": "3", "unit": "yk", "group": "Sos icin" },
+      { "name": "Parmesan peyniri, ince rendelenmis", "amount": "1/4", "unit": "su bardagi", "group": "Sos icin" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "Dijon hardali", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "Worcestershire sosu", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "1", "unit": "dis", "group": "Sos icin" },
+      { "name": "Parmesan peyniri, ince dilimlenmiş", "amount": "1", "unit": "oz" },
+      { "name": "karabiber", "amount": "1/2", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Firini 190 dereceye isit. Ekmek kuplerini zeytinyagiyla karistir ve ikiye bolunmus sarimsak disiyle ov. Firin tepsisine yay ve 8-10 dakika altinrengi ve citir olana kadar pisir." },
+      { "step": 2, "instruction": "Sosu hazirla: mayonez, rendelenmis Parmesan, limon suyu, Dijon hardali, Worcestershire sosu ve ince kiymis sarimsagi puruzssuz olana kadar cirp.", "tip": "Daha ince bir sos icin soguk suyu birer tk ekleyerek istedigin kivama getir." },
+      { "step": 3, "instruction": "Marulu lokmalık parcalar halinde dogra ve buyuk bir kaseye koy. Sosu ekle ve her yaprak kaplanana kadar karistir." },
+      { "step": 4, "instruction": "Krutonlari ekle ve hafifce karistir. Salatayi tabaga al, ince dilimlenmiş Parmesan ve taze cekilmiş karabiberle susle." }
+    ]
+  },
+  "chicken-quesadilla": {
+    "name": "Tavuklu Quesadilla",
+    "description": "Baharatli didilmis tavuk, erimis peynir, biber ve soganla dolu, citir altinrengi tortillalar. Eksi krema ve salsa ile servis edilir.",
+    "ingredients": [
+      { "name": "buyuk un tortillasi (25 cm)", "amount": "2", "unit": "adet" },
+      { "name": "pismiş didilmis tavuk", "amount": "1", "unit": "su bardagi" },
+      { "name": "rendelenmis Meksika peynir karisimi", "amount": "1", "unit": "su bardagi" },
+      { "name": "biber, ince dilimlenmiş", "amount": "1/2", "unit": "orta boy" },
+      { "name": "sari sogan, ince dilimlenmiş", "amount": "1/4", "unit": "orta boy" },
+      { "name": "kimyon", "amount": "1/2", "unit": "tk" },
+      { "name": "kirmizi biber tozu", "amount": "1/2", "unit": "tk" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk" },
+      { "name": "eksi krema", "amount": "2", "unit": "yk" },
+      { "name": "salsa", "amount": "2", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Zeytinyagini tavada orta ateste isit. Biber ve sogani 3-4 dakika yumusayana kadar kavur." },
+      { "step": 2, "instruction": "Didilmis tavuk, kimyon ve kirmizi biber tozunu ekle. Karistirip 1-2 dakika isit. Bir kaseye al." },
+      { "step": 3, "instruction": "Tavayi sil. Kuru tavaya orta ateste bir tortilla koy. Tortillanin yariisina peynirin yarisini yay, tavuklu biber karisimini koy ve ustune kalan peyniri ekle." },
+      { "step": 4, "instruction": "Tortillayi ikiye katla ve her tarafta 2-3 dakika altinrengi, citir olana ve peynir tamamen eriyene kadar pisir.", "tip": "Spatula ile bastir. Tortillayi yakmadan peyniri eritmek icin atesi orta seviyede tut." },
+      { "step": 5, "instruction": "Ikinci tortilla ile tekrarla. Her quesadillayi dilimlere kes ve eksi krema ile salsa ile servis et." }
+    ]
+  },
+  "spaghetti-carbonara": {
+    "name": "Spagetti Carbonara",
+    "description": "Yumurta, Pecorino Romano, guanciale ve karabiberden yapilan ipeksi soslu otantik Roma makarnasi. Teknik dogru olunca kremaya gerek yok.",
+    "ingredients": [
+      { "name": "spagetti", "amount": "1", "unit": "lb" },
+      { "name": "guanciale veya pancetta, dogranmiş", "amount": "6", "unit": "oz" },
+      { "name": "buyuk yumurta sarisi", "amount": "4", "unit": "adet" },
+      { "name": "buyuk butun yumurta", "amount": "1", "unit": "adet" },
+      { "name": "Pecorino Romano, ince rendelenmis", "amount": "1", "unit": "su bardagi" },
+      { "name": "taze cekilmiş karabiber", "amount": "1", "unit": "tk" },
+      { "name": "tuz (makarna suyu icin)", "amount": "2", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Buyuk bir tencerede suyu kaynat ve bol tuzla tatlandir. Deniz suyu gibi tuzlu olmali." },
+      { "step": 2, "instruction": "Su isisinirken guanciali soguk tavaya koyup orta ateste arada karistirarak 6-8 dakika citir olana ve yagi eriyene kadar pisir. Atesten al." },
+      { "step": 3, "instruction": "Bir kasede yumurta sarilari, butun yumurta, rendelenmis Pecorino ve karabiberi puruzssuz olana kadar cirp.", "tip": "Daha puruzssuz bir sos icin oda sicakliginda yumurta kullan. Soguk yumurtalar sicak makarna ile temasinda katilasabilir." },
+      { "step": 4, "instruction": "Spagettiyi paket uzerindeki sureden 1 dakika az pisir (al dente). Suzmeden once 1 su bardagi nisastali makarna suyunu ayir." },
+      { "step": 5, "instruction": "Suzulmus makarnayi guancialeli tavaya (atesten indirmis halde) ekle. Erimiş yagda kaplayarak karistir." },
+      { "step": 6, "instruction": "Yumurta-peynir karişimini makarnanin uzerine dok ve 60 saniye enerjikle karistir. Kremsi, parlak bir sos her teli kaplayana kadar makarna suyu ekle.", "tip": "Yumurta karisimini eklerken tava mutlaka ATESTEN indirmis olmali. Kalan isi yeterli. Dogrudan ates yumurtalari pisirir." },
+      { "step": 7, "instruction": "Hemen servis et, uzerine ekstra rendelenmis Pecorino ve karabiber serp." }
+    ]
+  },
+  "cacio-e-pepe": {
+    "name": "Cacio e Pepe",
+    "description": "Roma'nin en basit ve zarif makarnasi. Sadece uc malzeme: makarna, Pecorino Romano ve karabiber, kremsi ve biberli bir basit yapita donusur.",
+    "ingredients": [
+      { "name": "tonnarelli veya spagetti", "amount": "8", "unit": "oz" },
+      { "name": "Pecorino Romano, ince rendelenmis", "amount": "1.5", "unit": "su bardagi" },
+      { "name": "taze cekilmiş karabiber", "amount": "1.5", "unit": "tk" },
+      { "name": "tuz (makarna suyu icin)", "amount": "1", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Karabiberi buyuk kuru bir tavada orta ateste 1-2 dakika koku cikana kadar kavur. Bir kepce makarna suyu ekle (kaynadiktan sonra) ve kaynatarak pisir." },
+      { "step": 2, "instruction": "Tuzlu suda makarnayi paket uzerindeki sureden 2 dakika az pisir." },
+      { "step": 3, "instruction": "Bu sirada rendelenmis Pecorino'yu bir kaseye koy. 2-3 kasik ilik (sicak degil) makarna suyu ekle ve koyu bir macun olusana kadar enerjikle karistir.", "tip": "Su ilik olmali, kaynar degil. Kaynar su peynirin topak olmasina neden olur." },
+      { "step": 4, "instruction": "Makarnayi masayla dogrudan tencereden biberli tavaya aktar (beraberinde nisastali su tasisin). Orta-kisik ateste 1 dakika karistir." },
+      { "step": 5, "instruction": "Atesten al. Peynir macununu ekle ve her teli parlak, kremsi bir kaplama kaplayana kadar, kucuk sicitimlar makarna suyu ekleyerek enerjikle karistir." },
+      { "step": 6, "instruction": "Hemen servis et, uzerine ekstra Pecorino ve karabiber serp." }
+    ]
+  },
+  "one-pot-mac-and-cheese": {
+    "name": "Tek Tencerede Mac and Cheese",
+    "description": "Tek tencerede yapilan inanilmaz kremsi ocak ustu mac and cheese. Keskin cheddar ve Gruyere, her makarnaya yapisan kadifemsi bir sosa erir.",
+    "ingredients": [
+      { "name": "boru makarna", "amount": "1", "unit": "lb" },
+      { "name": "tam yagli sut", "amount": "3", "unit": "su bardagi" },
+      { "name": "su", "amount": "1", "unit": "su bardagi" },
+      { "name": "keskin cheddar peyniri, rendelenmis", "amount": "8", "unit": "oz" },
+      { "name": "Gruyere peyniri, rendelenmis", "amount": "4", "unit": "oz" },
+      { "name": "tuzsuz tereyagi", "amount": "2", "unit": "yk" },
+      { "name": "Dijon hardali", "amount": "1", "unit": "tk" },
+      { "name": "sarimsak tozu", "amount": "1/2", "unit": "tk" },
+      { "name": "ttsz kirmizi biber (paprika)", "amount": "1/4", "unit": "tk" },
+      { "name": "tuz", "amount": "1", "unit": "tk" },
+      { "name": "karabiber", "amount": "1/2", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Makarna, sut, su, tereyagi ve tuzu buyuk bir tencerede birlestir. Sik sik karistirarak orta-yuksek ateste kaynat." },
+      { "step": 2, "instruction": "Atesi orta-kisik seviyeye dusur. Kapaksiz, her 2 dakikada bir karistirarak, makarna pisene ve sivi koyu nisastali bir sosa donusene kadar 10-12 dakika pisir.", "tip": "Sik sik karistir. Sut birakilirsa tencere dibinde yanar." },
+      { "step": 3, "instruction": "Atesten al. Rendelenmis cheddar ve Gruyere'i avuc avuc ekle, her seferinde tamamen eriyip puruzssuz olana kadar karistir." },
+      { "step": 4, "instruction": "Dijon hardali, sarimsak tozu, paprika ve karabiberi ekleyip karistir. Sos bekledikce koyulasacak." },
+      { "step": 5, "instruction": "Servis etmeden once 3-4 dakika dinlendir. Sos mukemmel kivama kadar koyulasmaya devam edecek." }
+    ]
+  },
+  "butter-chicken": {
+    "name": "Tereyagli Tavuk",
+    "description": "Zengin, hafif baharatli domates-tereyagi sosunda pisirilen yumusak tavuk parcalari, bir tutam kremayla. Hint mutfaginin en sevilen yemegi.",
+    "ingredients": [
+      { "name": "kemiksiz derisiz tavuk but, kup dogranmiş", "amount": "1.5", "unit": "lb", "group": "Tavuk icin" },
+      { "name": "sade yogurt", "amount": "1/2", "unit": "su bardagi", "group": "Tavuk icin" },
+      { "name": "garam masala", "amount": "1", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "zerdecal", "amount": "1/2", "unit": "tk", "group": "Tavuk icin" },
+      { "name": "konserve ezilmis domates", "amount": "14", "unit": "oz", "group": "Sos icin" },
+      { "name": "tuzsuz tereyagi", "amount": "3", "unit": "yk", "group": "Sos icin" },
+      { "name": "krema", "amount": "1/2", "unit": "su bardagi", "group": "Sos icin" },
+      { "name": "sari sogan, dogranmiş", "amount": "1", "unit": "orta boy", "group": "Sos icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "3", "unit": "dis", "group": "Sos icin" },
+      { "name": "taze zencefil, rendelenmis", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "kimyon", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "kirmizi biber tozu", "amount": "1/2", "unit": "tk", "group": "Sos icin" },
+      { "name": "seker", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "tuz", "amount": "1.5", "unit": "tk" },
+      { "name": "taze kişniş, susleme icin", "amount": "2", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tavuk kuplerini yogurt, garam masala, zerdecal ve 1/2 tk tuzla en az 15 dakika marine et." },
+      { "step": 2, "instruction": "Buyuk bir tavada 1 yk tereyagini orta-yuksek ateste erit. Tavuk parcalarini her tarafta 3-4 dakika kizarana kadar kavur (tamamen pismesine gerek yok). Cikarip kenara koy." },
+      { "step": 3, "instruction": "Ayni tavada kalan tereyagini erit. Sogani 4-5 dakika yumusayana kadar kavur. Sarimsak, zencefil, kimyon ve kirmizi biber tozunu ekle. 1 dakika pisir." },
+      { "step": 4, "instruction": "Ezilmis domates, seker ve kalan tuzu ekle. Sos koyulasana kadar 10 dakika pisir." },
+      { "step": 5, "instruction": "El blenderiyle sosu puruzssuz olana kadar ez (veya parcali birakmak istersen oyle birak). Kremayi ekle." },
+      { "step": 6, "instruction": "Tavugu sosa geri koy. Tavuk pisipaana ve yumuşayana kadar kisik ateste 10 dakika pisir." },
+      { "step": 7, "instruction": "Taze kişnişle susle. Basmati pirinc veya sicak naan ekmegi ile servis et." }
+    ]
+  },
+  "chicken-tikka-masala": {
+    "name": "Chicken Tikka Masala",
+    "description": "Yogurtlu marinede bekletilmis ve kizartilamiş tavuk parcalari, kremsi, baharatli domates sosunda. Derin lezzet veren ama cok aci olmayan bir Ingiliz-Hint klasigi.",
+    "ingredients": [
+      { "name": "kemiksiz derisiz tavuk gogusu, kup dogranmiş", "amount": "1.5", "unit": "lb", "group": "Tikka icin" },
+      { "name": "sade yogurt", "amount": "1/2", "unit": "su bardagi", "group": "Tikka icin" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk", "group": "Tikka icin" },
+      { "name": "kimyon", "amount": "1", "unit": "tk", "group": "Tikka icin" },
+      { "name": "garam masala", "amount": "1.5", "unit": "tk", "group": "Tikka icin" },
+      { "name": "ttsz kirmizi biber (paprika)", "amount": "1", "unit": "tk", "group": "Tikka icin" },
+      { "name": "konserve ezilmis domates", "amount": "14", "unit": "oz", "group": "Sos icin" },
+      { "name": "krema", "amount": "1/2", "unit": "su bardagi", "group": "Sos icin" },
+      { "name": "tuzsuz tereyagi", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "sari sogan, ince dogranmiş", "amount": "1", "unit": "orta boy", "group": "Sos icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "3", "unit": "dis", "group": "Sos icin" },
+      { "name": "taze zencefil, rendelenmis", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "kisnis tohumu", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "tuz", "amount": "1.5", "unit": "tk" },
+      { "name": "basmati pirinci", "amount": "1.5", "unit": "su bardagi" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tavugu yogurt, limon suyu, kimyon, 1 tk garam masala, paprika ve 1/2 tk tuzla birlestir. En az 20 dakika (veya buzdolabinda gece boyunca) marine et." },
+      { "step": 2, "instruction": "Izgarayi yuksek seviyeye ayarla. Tavugu folyo kapli firin tepsisine yay ve her tarafta 4-5 dakika kizarana kadar pisir. Kenara koy.", "tip": "Izgarayi yakindan takip et. Mukemmel kizarma ile yanma arasinda yaklasik 30 saniye vardir." },
+      { "step": 3, "instruction": "Buyuk bir tavada tereyagini orta ateste erit. Sogani 5 dakika kavur. Sarimsak, zencefil, kisnis ve kalan garam masalayi ekle. 1 dakika pisir." },
+      { "step": 4, "instruction": "Ezilmis domates ve kalan tuzu ekle. Ara sira karistirarak koyulasana kadar 15 dakika pisir." },
+      { "step": 5, "instruction": "Kremayi ekle ve kizarmis tavuk parcalarini koy. Her sey isisinana kadar 5 dakika daha pisir." },
+      { "step": 6, "instruction": "Buharda pisirilmiş basmati pirinci uzerinde, yaninda sicak naan ekmegi ile servis et." }
+    ]
+  },
+  "beef-stew": {
+    "name": "Dana Eti Yahnisi",
+    "description": "Yumusak dana eti parcalari, patates, havuc ve kerevizle zengin, lezzetli bir sosta uzun sure pisirilen doyurucu bir yahni. Evi muhteşem kokularla dolduran turden bir yemek.",
+    "ingredients": [
+      { "name": "dana kol eti, 4 cm kup dogranmiş", "amount": "2", "unit": "lb" },
+      { "name": "un", "amount": "3", "unit": "yk" },
+      { "name": "zeytinyagi", "amount": "2", "unit": "yk" },
+      { "name": "sari sogan, dogranmiş", "amount": "1", "unit": "buyuk" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "4", "unit": "dis" },
+      { "name": "havuc, 2-3 cm parcalar halinde", "amount": "3", "unit": "buyuk" },
+      { "name": "patates, dortte birlik", "amount": "1.5", "unit": "lb" },
+      { "name": "kereviz sapi, dilimlenmiş", "amount": "2", "unit": "sap" },
+      { "name": "dana eti suyu", "amount": "4", "unit": "su bardagi" },
+      { "name": "domates salcasi", "amount": "2", "unit": "yk" },
+      { "name": "Worcestershire sosu", "amount": "1", "unit": "yk" },
+      { "name": "kuru kekik", "amount": "1", "unit": "tk" },
+      { "name": "defne yapragi", "amount": "2", "unit": "adet" },
+      { "name": "tuz", "amount": "1.5", "unit": "tk" },
+      { "name": "karabiber", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Et kuplerini kagit havluyla kurula. Tuz ve biberle tatlandir, sonra esit sekilde una bula.", "tip": "Kuru et daha iyi kizarir. Islak et kizarmak yerine buhar yapar, bu da daha az lezzet demektir." },
+      { "step": 2, "instruction": "Buyuk bir guvecte zeytinyagini orta-yuksek ateste isit. Eti gruplar halinde (tencereyi sikistirmadan) her tarafta 2-3 dakika koyu kizarana kadar kavur. Cikarip kenara koy." },
+      { "step": 3, "instruction": "Ayni tencerede sogani 3-4 dakika kavur. Sarimsak ve domates salcasini ekle, 1 dakika pisir. Bir miktar dana eti suyuyla tencerenin dibini kaziyarak kizarmis parcalari topla." },
+      { "step": 4, "instruction": "Eti tencereye geri koy. Kalan suyu, Worcestershire sosunu, kekik ve defne yapragini ekle. Kaynat, sonra kisik atese dusur. Kapatip 1 saat pisir." },
+      { "step": 5, "instruction": "Patates, havuc ve kerevizi ekle. Kapakli olarak et ve sebzeler catalla dagilacak kadar yumuşayana kadar 45-60 dakika daha pisir." },
+      { "step": 6, "instruction": "Defne yapraklarini cikar. Tadina bak ve baharatini ayarla. Yahni koyu ve zengin olmali. Cok ince ise 10 dakika daha kapaksiz pisir." }
+    ]
+  },
+  "mushroom-risotto": {
+    "name": "Mantarli Risotto",
+    "description": "Karisik yabani mantarlarla, beyaz sarap ile yavas yavas pisirilmiş kremsi Arborio pirinci, Parmesan ve tereyagiyla tamamlanan Italyan konfor yemeginin zirvesi.",
+    "ingredients": [
+      { "name": "Arborio pirinci", "amount": "1.5", "unit": "su bardagi" },
+      { "name": "karisik mantar (kestane, shiitake, istiridye), dilimlenmiş", "amount": "12", "unit": "oz" },
+      { "name": "sebze veya tavuk suyu, isitilmiş", "amount": "5", "unit": "su bardagi" },
+      { "name": "kuru beyaz sarap", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "sari sogan, ince dogranmiş", "amount": "1", "unit": "kucuk" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis" },
+      { "name": "tuzsuz tereyagi", "amount": "3", "unit": "yk" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk" },
+      { "name": "Parmesan peyniri, rendelenmis", "amount": "3/4", "unit": "su bardagi" },
+      { "name": "taze kekik yapragi", "amount": "1", "unit": "tk" },
+      { "name": "tuz", "amount": "1", "unit": "tk" },
+      { "name": "karabiber", "amount": "1/2", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Zeytinyagi ve 1 yk tereyagini buyuk, kalin tabanlı bir tavada orta-yuksek ateste isit. Mantarlari altinrengi olana ve tum nemleri buharlaşana kadar 5-6 dakika kavur. Tuzla tatlandir ve tabaga al." },
+      { "step": 2, "instruction": "Ayni tavaya 1 yk tereyagi ekle. Sogani 3-4 dakika seffaflasana kadar kavur. Sarimsagi ekle ve 30 saniye pisir." },
+      { "step": 3, "instruction": "Arborio pirincini ekle ve kenarlari hafifce seffaflasana kadar 1-2 dakika karistir. Beyaz sarabi dok ve tamamen emilene kadar karistir." },
+      { "step": 4, "instruction": "Ilik suyu kepce kepce (yaklasik 3/4 su bardagi) ekleyerek, sik sik karistirarak pisir. Her ekleme cogunlukla emilene kadar bir sonrakini ekleme. Bu toplam yaklasik 18-20 dakika surer.", "tip": "Su ilik olmali. Soguk su pirinci sok eder ve pisirmeyi yavaslatir, hamurumsu bir dokuya yol acar." },
+      { "step": 5, "instruction": "Pirinc kremsi ve al dente (yumusak ama ortasinda hafif bir isirma) olunca atesten al. Mantarlari, kalan tereyagini, Parmesan ve kekigi ekle." },
+      { "step": 6, "instruction": "2 dakika dinlendir. Risotto tabaga konuldugunda yavas yayilmali, sert bir yigin gibi durmamali. Cok koyuysa bir sikma suyla incel. Biberle tatlandir ve servis et." }
+    ]
+  },
+  "homemade-lasagna": {
+    "name": "Ev Yapimi Lazanya",
+    "description": "Yumusak makarna, zengin kiyma sosu, kremsi ricotta ve erimis mozzarella katmanlari, kabarcikli ve altinrengi olana kadar firinlanir. Kalabalik bir grubu doyuran bir emek urunu yemek.",
+    "ingredients": [
+      { "name": "lazanya yapraklari", "amount": "12", "unit": "yaprak" },
+      { "name": "kiyma", "amount": "1", "unit": "lb", "group": "Kiyma sosu icin" },
+      { "name": "Italyan sosisi, kilifindan cikarilmis", "amount": "1/2", "unit": "lb", "group": "Kiyma sosu icin" },
+      { "name": "konserve ezilmis domates", "amount": "28", "unit": "oz", "group": "Kiyma sosu icin" },
+      { "name": "domates salcasi", "amount": "2", "unit": "yk", "group": "Kiyma sosu icin" },
+      { "name": "sari sogan, dogranmiş", "amount": "1", "unit": "orta boy", "group": "Kiyma sosu icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "3", "unit": "dis", "group": "Kiyma sosu icin" },
+      { "name": "kuru kekik", "amount": "1", "unit": "tk", "group": "Kiyma sosu icin" },
+      { "name": "ricotta peyniri", "amount": "15", "unit": "oz", "group": "Ic harci icin" },
+      { "name": "buyuk yumurta", "amount": "1", "unit": "adet", "group": "Ic harci icin" },
+      { "name": "taze fesleden, dogranmiş", "amount": "2", "unit": "yk", "group": "Ic harci icin" },
+      { "name": "mozzarella peyniri, rendelenmis", "amount": "1", "unit": "lb" },
+      { "name": "Parmesan peyniri, rendelenmis", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "tuz", "amount": "1.5", "unit": "tk" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Lazanya yapraklarini paket uzerindeki talimatlara gore pisir. Suz, yapismasin diye hafifce zeytinyagiyla karistir ve firin tepsisine duz olarak yerlestir." },
+      { "step": 2, "instruction": "Buyuk bir tencerede zeytinyagini orta-yuksek ateste isit. Kiyma ve sosisi parcalayarak 6-8 dakika kizarana kadar pisir. Fazla yagi suz." },
+      { "step": 3, "instruction": "Sogani ekle ve 4 dakika pisir. Sarimsak, domates salcasi ve kekigi ekle, 1 dakika pisir. Ezilmis domates ve tuzu dok. 20 dakika pisir." },
+      { "step": 4, "instruction": "Bir kasede ricotta, yumurta ve feslegeni puruzssuz olana kadar karistir." },
+      { "step": 5, "instruction": "Firini 190 dereceye isit. 23x33 cm firin kabina 1/2 su bardagi kiyma sosu yay. Katmanla: 3 yaprak, ricotta karisiminin 1/3'u, kalan kiyma sosunun 1/3'u, mozzarellanin 1/4'u. Katmanlari 2 kez daha tekrarla. Uzerine kalan yapraklar ve mozzarellayi koy, Parmesan serp.", "tip": "Her katmanin kenardan kenara gitmesini sagla. Bosluklara kuruluk olusur." },
+      { "step": 6, "instruction": "Sikica folyo ile ort ve 25 dakika pisir. Folyoyu cikar ve 20-25 dakika daha kabarciklanip uzeri altinrengi olana kadar pisir." },
+      { "step": 7, "instruction": "Kesmeden once lazanyanin 15 dakika dinlenmesini sagla. Bu cok onemli. Katmanlarin oturmasini saglayarak dilimlerin dagılmamasını saglar." }
+    ]
+  },
+  "miso-glazed-salmon": {
+    "name": "Miso Soslu Somon",
+    "description": "Tatli beyaz miso, mirin ve bir miktar esmer sekerle glazurlenmis somon filetolari, karamelize olana kadar izgara modunda pisirilir. Buharda pirinc ve kavurulmus brokoli ile servis edilir.",
+    "ingredients": [
+      { "name": "somon filetosu, derili", "amount": "2", "unit": "adet (170 g)", "group": "Somon icin" },
+      { "name": "beyaz miso ezmesi", "amount": "2", "unit": "yk", "group": "Glazur icin" },
+      { "name": "mirin", "amount": "1", "unit": "yk", "group": "Glazur icin" },
+      { "name": "soya sosu", "amount": "1", "unit": "tk", "group": "Glazur icin" },
+      { "name": "esmer seker", "amount": "1", "unit": "yk", "group": "Glazur icin" },
+      { "name": "pirinc sirkesi", "amount": "1", "unit": "tk", "group": "Glazur icin" },
+      { "name": "buharda pisirilmiş beyaz pirinc", "amount": "2", "unit": "su bardagi" },
+      { "name": "brokoli", "amount": "6", "unit": "oz" },
+      { "name": "susam yagi", "amount": "1", "unit": "tk" },
+      { "name": "susam", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Miso ezmesi, mirin, soya sosu, esmer seker ve pirinc sirkesini puruzssuz olana kadar cirp. Somon filetolarini glazurle kapla ve en az 10 dakika beklet." },
+      { "step": 2, "instruction": "Firinin izgara modunu yuksek seviyeye ayarla. Firin tepsisini folyoyla kaplainip hafifce yaglayın." },
+      { "step": 3, "instruction": "Brokoliyi susam yagi ve tuzla karistir ve firin tepsisinin bir tarafina koy. Glazurlu somonu deri tarafi asagi gelecek sekilde diger tarafa yerlestir." },
+      { "step": 4, "instruction": "Glazur karamelize olup kabarciklanana ve somon catalla kolayca ayrilanancaya kadar dikkatli sekilde 8-10 dakika pisir.", "tip": "Somon pismeden glazur yanmaya baslarsa rafi bir kademe asagi indir." },
+      { "step": 5, "instruction": "Somon ve brokoliyi buharda pisirilmiş pirinc uzerinde servis et. Susamla susle." }
+    ]
+  },
+  "ratatouille": {
+    "name": "Ratatouille",
+    "description": "Ince dilimlenmiş kabak, patlican ve domatesin kavurulmus biber sosu uzerine dizilip eriyik kivaminda yumuşayana kadar firinlandigi guzel bir Provans sebze yemegi.",
+    "ingredients": [
+      { "name": "kabak", "amount": "2", "unit": "orta boy" },
+      { "name": "sari kabak", "amount": "1", "unit": "orta boy" },
+      { "name": "patlican", "amount": "2", "unit": "orta boy" },
+      { "name": "sivri domates", "amount": "4", "unit": "orta boy" },
+      { "name": "konserve ezilmis domates", "amount": "14", "unit": "oz", "group": "Sos icin" },
+      { "name": "kirmizi biber, dogranmiş", "amount": "1", "unit": "buyuk", "group": "Sos icin" },
+      { "name": "sari sogan, dogranmiş", "amount": "1", "unit": "kucuk", "group": "Sos icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "3", "unit": "dis", "group": "Sos icin" },
+      { "name": "zeytinyagi", "amount": "3", "unit": "yk" },
+      { "name": "taze kekik dallari", "amount": "4", "unit": "dal" },
+      { "name": "taze fesleden", "amount": "6", "unit": "yaprak" },
+      { "name": "tuz", "amount": "1", "unit": "tk" },
+      { "name": "karabiber", "amount": "1/2", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Firini 190 dereceye isit. 1 yk zeytinyagini tavada isit. Sogan ve kirmizi biberi 5 dakika kavur. Sarimsagi ekle, 1 dakika pisir. Ezilmis domates ve tuzu ekle. 5 dakika pisir, sonra yuvarlak bir firin kabinin dibine esit sekilde yay." },
+      { "step": 2, "instruction": "Kabak, sari kabak, patlican ve sivri domatesleri yaklasik 3 mm kalinliginda yuvarlak dilimler halinde kes.", "tip": "Varsa mandolin kullan. Esit pisirme icin tutarlilik onemlidir." },
+      { "step": 3, "instruction": "Sebze dilimlerini sicak (kabak, patlican, domates, sari kabak) alternati bir desende sosun uzerine dik olarak diz." },
+      { "step": 4, "instruction": "Kalan zeytinyagini gezdir, tuz ve biberle tatlandir ve kekik dallarini sebzelerin arasina yerlestir." },
+      { "step": 5, "instruction": "Sikica folyo ile ort ve 40 dakika pisir. Folyoyu cikar ve 10 dakika daha sebzeler yumuşayana ve hafifce kizarana kadar pisir." },
+      { "step": 6, "instruction": "Taze feslegenle susle. Ana yemek olarak citir ekmekle veya garnitur olarak servis et." }
+    ]
+  },
+  "herb-crusted-baked-cod": {
+    "name": "Otlu Kabuklu Firinlanmis Mezgit",
+    "description": "Panko galeta unu, taze otlar ve limon kabugundan olusan altin renkli bir kabukla kaplanan lezzetli mezgit filetolari. 25 dakikadan kisa surede hazir olan hafif ve zarif bir aksam yemegi.",
+    "ingredients": [
+      { "name": "mezgit filetosu", "amount": "2", "unit": "adet (170 g)" },
+      { "name": "panko galeta unu", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "taze maydanoz, dogranmiş", "amount": "2", "unit": "yk" },
+      { "name": "limon kabuğu rendesi", "amount": "1", "unit": "tk" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "1", "unit": "dis" },
+      { "name": "zeytinyagi", "amount": "2", "unit": "yk" },
+      { "name": "Dijon hardali", "amount": "1", "unit": "yk" },
+      { "name": "tuz", "amount": "1/2", "unit": "tk" },
+      { "name": "karabiber", "amount": "1/4", "unit": "tk" },
+      { "name": "limon dilimleri", "amount": "2", "unit": "dilim" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Firini 220 dereceye isit. Firin tepsisini yagli kagitla kaplain." },
+      { "step": 2, "instruction": "Kucuk bir kasede panko, maydanoz, limon kabuğu rendesi, sarimsak, zeytinyagi, tuz ve biberi karistir." },
+      { "step": 3, "instruction": "Mezgit filetolarini kurula. Her filetonun ustune ince bir katman Dijon hardali sur.", "tip": "Hardal hem lezzet hem de galeta unu kabugu icin yapiştirici gorevini gorur." },
+      { "step": 4, "instruction": "Panko karisimini her filetonun ustune sikica bastirarak koy. Firin tepsisine yerlestir." },
+      { "step": 5, "instruction": "Kabuk altinrengi olana ve balik catalla kolayca ayrilana kadar (ic sicaklik 63 derece) 12-15 dakika pisir." },
+      { "step": 6, "instruction": "Limon dilimleriyle servis et. Kavurulmus kuskonmaz veya basit bir yesil salatayla iyi gider." }
+    ]
+  },
+  "thai-basil-chicken": {
+    "name": "Taylandli Feslegenli Tavuk",
+    "description": "Pad Krapao Gai. Kiyilmis tavuk, Tay feslegeni, sarimsak, biber ve lezzetli-tatli bir sosla wok'ta kavrulur. Yasemin pirinci uzerinde kizarmis yumurtayla servis edilir.",
+    "ingredients": [
+      { "name": "kiyilmis tavuk", "amount": "1", "unit": "lb" },
+      { "name": "Tay feslegeni yapraklari", "amount": "1", "unit": "su bardagi" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "4", "unit": "dis" },
+      { "name": "Tay aci biberi, dilimlenmiş", "amount": "2", "unit": "adet" },
+      { "name": "soya sosu", "amount": "2", "unit": "yk" },
+      { "name": "istiridye sosu", "amount": "1", "unit": "yk" },
+      { "name": "balik sosu", "amount": "1", "unit": "yk" },
+      { "name": "esmer seker", "amount": "1", "unit": "tk" },
+      { "name": "sivi yag", "amount": "2", "unit": "yk" },
+      { "name": "buyuk yumurta", "amount": "2", "unit": "adet" },
+      { "name": "pisirilmiş yasemin pirinci", "amount": "2", "unit": "su bardagi" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Soya sosu, istiridye sosu, balik sosu ve esmer sekeri kucuk bir kasede karistir. Kenara koy." },
+      { "step": 2, "instruction": "1 yk yagi wok veya buyuk tavada dumanlanana kadar yuksek ateste isit. Sarimsak ve biberleri ekle, 15 saniye karistir.", "tip": "Acılik tercihinize gore biber sayisini ayarla. Daha az aci icin cekirdekleri cikar veya tamamen atla." },
+      { "step": 3, "instruction": "Kiyilmis tavugu ekle ve kucuk parcalara ayirarak 4-5 dakika tamamen pisene ve kizarmaya baslayana kadar kavur." },
+      { "step": 4, "instruction": "Sos karisimini dok ve 1 dakika kavur. Atesten al ve Tay feslegenini solana kadar karistir." },
+      { "step": 5, "instruction": "Ayri bir tavada yumurtalari kalan yagda kenarlar citir ama sari hala akici olana kadar kizart." },
+      { "step": 6, "instruction": "Tavugu yasemin pirinci uzerinde, ustunde kizarmis yumurtayla servis et." }
+    ]
+  },
+  "kung-pao-chicken": {
+    "name": "Kung Pao Tavuk",
+    "description": "Sichuan klasigi: yumusak tavuk kupleri, kavurulmus fistik ve kurutulmus biberlerin, karakteristik uyusturan Sichuan biberiyle eksimsi-tatli bir sosta wok'ta kavurulmasi.",
+    "ingredients": [
+      { "name": "kemiksiz derisiz tavuk but, kup dogranmiş", "amount": "1", "unit": "lb", "group": "Tavuk icin" },
+      { "name": "soya sosu", "amount": "1", "unit": "yk", "group": "Tavuk icin" },
+      { "name": "misir nisastasi", "amount": "1", "unit": "yk", "group": "Tavuk icin" },
+      { "name": "soya sosu", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "Cin siyah sirkesi (veya balsamik)", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "seker", "amount": "2", "unit": "tk", "group": "Sos icin" },
+      { "name": "susam yagi", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "misir nisastasi, 1 yk suyla karistirilmiş", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "kurutulmus kirmizi biber", "amount": "8", "unit": "adet" },
+      { "name": "Sichuan biberi", "amount": "1", "unit": "tk" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "3", "unit": "dis" },
+      { "name": "taze zencefil, ince kiymis", "amount": "1", "unit": "tk" },
+      { "name": "kavurulmuş fistik", "amount": "1/3", "unit": "su bardagi" },
+      { "name": "taze sogan, dilimlenmiş", "amount": "3", "unit": "sap" },
+      { "name": "sivi yag", "amount": "2", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Kup dogranmiş tavugu 1 yk soya sosu ve misir nistasiyla karistir. 10 dakika beklet." },
+      { "step": 2, "instruction": "Sos malzemelerini (2 yk soya sosu, sirke, seker, susam yagi, nisasta bulamaci) kucuk bir kasede karistir." },
+      { "step": 3, "instruction": "Wok'ta yagi yuksek ateste isit. Kurutulmus biberleri ve Sichuan biberlerini ekle, 20 saniye koku cikana ve hafifce koyulasana kadar kavur.", "tip": "Biberlerin siyaha donmesine izin verme yoksa sos aci bir tat alir. Sadece hafifce koyulasmali." },
+      { "step": 4, "instruction": "Tavugu tek katman halinde koy ve karistirmadan 2 dakika kizar. 2-3 dakika daha tamamen pisene kadar kavur." },
+      { "step": 5, "instruction": "Sarimsak ve zencefili ekle, 15 saniye karistir. Sosu dok ve koyulasip tavugu kaplayana kadar (yaklasik 30 saniye) karistir." },
+      { "step": 6, "instruction": "Fistik ve taze soganlari ekle. Hemen buharda pisirilmiş pirinc ile servis et." }
+    ]
+  },
+  "shrimp-tacos-chipotle-crema": {
+    "name": "Chipotle Kremali Karides Takosu",
+    "description": "Biberli-limonlu karides, sicak misir tortillalarinda citir lahana salatasi ve dumansı chipotle kremasiyla. 20 dakikada hazir, taco arabasi lezzeti.",
+    "ingredients": [
+      { "name": "buyuk karides, soyulmus ve temizlenmis", "amount": "12", "unit": "oz", "group": "Karides icin" },
+      { "name": "kirmizi biber tozu", "amount": "1", "unit": "tk", "group": "Karides icin" },
+      { "name": "kimyon", "amount": "1/2", "unit": "tk", "group": "Karides icin" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk", "group": "Karides icin" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk", "group": "Karides icin" },
+      { "name": "misir tortillasi (15 cm)", "amount": "6", "unit": "adet" },
+      { "name": "mor lahana, rendelenmis", "amount": "1.5", "unit": "su bardagi", "group": "Salata icin" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk", "group": "Salata icin" },
+      { "name": "eksi krema", "amount": "3", "unit": "yk", "group": "Krema icin" },
+      { "name": "chipotle biber (adobo sosunda), ince kiymis", "amount": "1", "unit": "adet", "group": "Krema icin" },
+      { "name": "adobo sosu (konserveden)", "amount": "1", "unit": "tk", "group": "Krema icin" },
+      { "name": "taze kişniş", "amount": "2", "unit": "yk" },
+      { "name": "tuz", "amount": "1/2", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Karidesleri kirmizi biber tozu, kimyon, limon suyu ve tuzla karistir. 5 dakika beklet." },
+      { "step": 2, "instruction": "Chipotle kremayi eksi krema, ince kiymis chipotle ve adobo sosunu karistirarak hazirla. Rendelenmis lahanayı limon suyu ve bir tutam tuzla karistir." },
+      { "step": 3, "instruction": "Zeytinyagini tavada yuksek ateste isit. Karidesleri her tarafta 1-2 dakika pembe ve hafifce kizarana kadar pisir." },
+      { "step": 4, "instruction": "Misir tortillalarini kuru tavada veya acik atesin uzerinde her tarafta 15-20 saniye isit." },
+      { "step": 5, "instruction": "Takolari hazirla: alta lahana salatasi, uzerine karides, chipotle krema gezdirmesi ve taze kişniş serpisi. Limon dilimleriyle servis et." }
+    ]
+  },
+  "dan-dan-noodles": {
+    "name": "Dan Dan Erişte",
+    "description": "Sichuan sokak lezzetleri erişteleri, cesur, findiksi biber yagi sosunda lezzetli kiyma, tursu hardal otlari ve kirilmis fistikla.",
+    "ingredients": [
+      { "name": "kurutulmus Cin erişteleri veya spagetti", "amount": "8", "unit": "oz" },
+      { "name": "kiyilmis domuz eti", "amount": "6", "unit": "oz" },
+      { "name": "Cin biber yagi", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "soya sosu", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "Cin susam ezmesi veya tahin", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "Cin siyah sirkesi", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "seker", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "Sichuan biber tozu", "amount": "1/2", "unit": "tk", "group": "Sos icin" },
+      { "name": "tursu hardal otlari (ya cai), ince kiymis", "amount": "2", "unit": "yk" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis" },
+      { "name": "sivi yag", "amount": "1", "unit": "yk" },
+      { "name": "kavurulmuş fistik, kirilmiş", "amount": "2", "unit": "yk" },
+      { "name": "taze sogan, dilimlenmiş", "amount": "2", "unit": "sap" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Erişteleri paket uzerindeki talimatlara gore pisir. 1/2 su bardagi pisirme suyunu ayir, sonra suz." },
+      { "step": 2, "instruction": "Tum sos malzemelerini (biber yagi, soya sosu, susam ezmesi, sirke, seker, Sichuan biber) bir kasede karistir. Bir miktar erişte pisirme suyuyla akici kivama getir." },
+      { "step": 3, "instruction": "Sivi yagi tavada yuksek ateste isit. Kiyilmis domuz etini kucuk parcalara ayirarak 4-5 dakika citir olana kadar kavur." },
+      { "step": 4, "instruction": "Sarimsak ve tursu hardal otlarini kiymanin uzerine ekle. 1 dakika kavur." },
+      { "step": 5, "instruction": "Sosu iki kaseye paylastir. Suzulmus erişteleri koy, uzerine kiyma karisimi, kirilmis fistik ve taze sogan yerlestir. Yemeden once her seyi iyice karistir.", "tip": "Sihir karisimda. Her telin sosla kaplanmasi icin erişteleri iyice karistir." }
+    ]
+  },
+  "jerk-chicken": {
+    "name": "Jerk Tavuk",
+    "description": "Scotch bonnet biber, yenibahar, kekik ve sarimsak karisiminda marine edilen Jamaika jerk tavugu, kizarana ve sulu olana kadar izgaralanir. Pirinc ve fasulye ile servis edilir.",
+    "ingredients": [
+      { "name": "kemikli tavuk but ve baget", "amount": "2.5", "unit": "lb", "group": "Tavuk icin" },
+      { "name": "scotch bonnet biber, cekirdegi cikarilmis ve dogranmiş", "amount": "1", "unit": "adet", "group": "Marinasyon icin" },
+      { "name": "taze sogan, kaba dogranmiş", "amount": "4", "unit": "sap", "group": "Marinasyon icin" },
+      { "name": "sarimsak disi", "amount": "4", "unit": "dis", "group": "Marinasyon icin" },
+      { "name": "taze kekik yapragi", "amount": "1", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "yenibahar", "amount": "1", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "soya sosu", "amount": "2", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "limon suyu", "amount": "2", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "esmer seker", "amount": "1", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "sivi yag", "amount": "2", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "tarcin", "amount": "1/2", "unit": "tk", "group": "Marinasyon icin" },
+      { "name": "muskat", "amount": "1/4", "unit": "tk", "group": "Marinasyon icin" },
+      { "name": "tuz", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tum marinasyon malzemelerini (scotch bonnet, taze sogan, sarimsak, kekik, yenibahar, soya sosu, limon suyu, esmer seker, yag, tarcin, muskat, tuz) mutfak robotunda macun kivamina getir.", "tip": "Scotch bonnet biberlerini tutarken eldiven giyin. Kapsaisin saatlerce cildinizi ve gozlerinizi yakar." },
+      { "step": 2, "instruction": "Tavuk parcalarini bicakla cevreleyin (parca basina 2-3 kesik). Marinasyonu kesikelere bulaştırarak her yerine ov. En az 2 saat, tercihen gece boyunca marine et." },
+      { "step": 3, "instruction": "Izgarayi orta atese (175 derece) isit. Firin kullanacaksan 200 dereceye isit." },
+      { "step": 4, "instruction": "Tavugu 30-35 dakika, her 8-10 dakikada cevirereek, disi kizarip ici pisene kadar (ic sicaklik 74 derece) izgarala. Firin icin tel izgarada 35-40 dakika pisir, sonra kizartma icin 2-3 dakika izgara modunda pisir." },
+      { "step": 5, "instruction": "5 dakika dinlendir. Pirinc ve fasulye, kizarmis muz veya basit bir lahana salatasi ile servis et." }
+    ]
+  },
+  "green-curry": {
+    "name": "Yesil Kori",
+    "description": "Tavuk, bambu filizi, Tay patlicanli ve feslegenli, zengin hindistancevizi sutlu sosunda kokulu bir Tay yesil korisi. Aromatik, kremsi ve taze otlarla canli.",
+    "ingredients": [
+      { "name": "kemiksiz derisiz tavuk but, dilimlenmiş", "amount": "1", "unit": "lb" },
+      { "name": "hindistancevizi sutu (tam yagli)", "amount": "14", "unit": "oz" },
+      { "name": "yesil kori ezmesi", "amount": "3", "unit": "yk" },
+      { "name": "bambu filizi, suzulmus", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "Tay patlicanli veya normal patlican, kup dogranmiş", "amount": "1", "unit": "su bardagi" },
+      { "name": "kirmizi biber, dilimlenmiş", "amount": "1/2", "unit": "orta boy" },
+      { "name": "balik sosu", "amount": "2", "unit": "yk" },
+      { "name": "esmer seker veya palmiye sekeri", "amount": "1", "unit": "yk" },
+      { "name": "Tay feslegeni yapraklari", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "kafir limon yapraklari", "amount": "3", "unit": "yaprak" },
+      { "name": "sivi yag", "amount": "1", "unit": "yk" },
+      { "name": "yasemin pirinci", "amount": "2", "unit": "su bardagi" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Yagi buyuk bir tava veya wok'ta orta ateste isit. Yesil kori ezmesini ekle ve 1 dakika koku cikana kadar karistir." },
+      { "step": 2, "instruction": "Hindistancevizi sutunun yarisini dok ve ezmekle karistir. Yag yuzeyinde ayrilanaya kadar 2-3 dakika pisir.", "tip": "Bu adim kori ezmesini hindistancevizi kremasinda actirir. Atlamak daha karmasik olmayan, sulu bir koriye yol acar." },
+      { "step": 3, "instruction": "Tavugu ekle ve disi beyazlayana kadar 3-4 dakika pisir. Kalan hindistancevizi sutunu, patlican, bambu filizi ve kafir limon yapraklarini ekle." },
+      { "step": 4, "instruction": "Tavuk pisene ve patlican yumuşayana kadar 10-12 dakika pisir. Balik sosu ve sekeri ekle." },
+      { "step": 5, "instruction": "Kirmizi biberi ekle ve 2 dakika daha pisir. Atesten al ve Tay feslegenini karistir." },
+      { "step": 6, "instruction": "Buharda pisirilmiş yasemin pirinci uzerinde servis et." }
+    ]
+  },
+  "birria-tacos": {
+    "name": "Birria Takolari",
+    "description": "Zengin, biberli soslu dana eti yavasta pisirilir. Tortillalar lezzetli yaga batirilip citir olana kadar kizartilinir, sonra yumuşak et, sogan ve kişnişle doldurulur.",
+    "ingredients": [
+      { "name": "dana kol eti", "amount": "3", "unit": "lb", "group": "Birria icin" },
+      { "name": "kurutulmus guajillo biber", "amount": "4", "unit": "adet", "group": "Birria icin" },
+      { "name": "kurutulmus ancho biber", "amount": "2", "unit": "adet", "group": "Birria icin" },
+      { "name": "sivri domates", "amount": "3", "unit": "orta boy", "group": "Birria icin" },
+      { "name": "sari sogan, dortte birlik", "amount": "1", "unit": "buyuk", "group": "Birria icin" },
+      { "name": "sarimsak disi", "amount": "5", "unit": "dis", "group": "Birria icin" },
+      { "name": "dana eti suyu", "amount": "4", "unit": "su bardagi", "group": "Birria icin" },
+      { "name": "elma sirkesi", "amount": "2", "unit": "yk", "group": "Birria icin" },
+      { "name": "kimyon", "amount": "1", "unit": "tk", "group": "Birria icin" },
+      { "name": "kuru kekik", "amount": "1", "unit": "tk", "group": "Birria icin" },
+      { "name": "karanfil", "amount": "1/4", "unit": "tk", "group": "Birria icin" },
+      { "name": "defne yapragi", "amount": "2", "unit": "adet", "group": "Birria icin" },
+      { "name": "misir tortillasi", "amount": "18", "unit": "adet", "group": "Tako icin" },
+      { "name": "rendelenmis Oaxaca veya mozzarella peyniri", "amount": "2", "unit": "su bardagi", "group": "Tako icin" },
+      { "name": "beyaz sogan, ince dogranmiş", "amount": "1/2", "unit": "orta boy" },
+      { "name": "taze kişniş, dogranmiş", "amount": "1/4", "unit": "su bardagi" },
+      { "name": "tuz", "amount": "2", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Kurutulmus biberleri kuru tavada her tarafta 1-2 dakika kavur. Saplari ve cekirdekleri cikar. Yumusayana kadar 15 dakika sicak suda beklet." },
+      { "step": 2, "instruction": "Islatilmis biberleri domates, sarimsak, sirke, kimyon, kekik, karanfil ve 1 su bardagi islatma suyuyla puruzssuz olana kadar blenderdan gecir." },
+      { "step": 3, "instruction": "Dana etini buyuk parcalar halinde (yaklasik 7-8 cm) kes. Tuzla tatlandir. Guvecte yuksek ateste her tarafi kizarana kadar yaklasik 6-8 dakika kavur." },
+      { "step": 4, "instruction": "Biber sosunu ve dana eti suyunu etin uzerine dok. Dortte birlik sogani ve defne yapraklarini ekle. Kaynat, sonra kisik atese dusur. Kapatip et catalla kolayca dagılana kadar 2.5-3 saat pisir.", "tip": "Kisik ates anahtar. Siddetli kaynama eti sertlestirir. Zar zor kabarciklaniyor olmali." },
+      { "step": 5, "instruction": "Eti cikar ve iki catalla did. Konsoyu suz ve fazla yagi ayir (tortilla batirmak icin yagi sakla)." },
+      { "step": 6, "instruction": "Takolari hazirlamak icin: bir misir tortillasini ayrilmis yag/konsoya batir. Sicak izgaraya koy, peynir ve didilmis et ekle. Ikiye katla ve her tarafta 2-3 dakika citir olana kadar pisir." },
+      { "step": 7, "instruction": "Takolari dogranmiş sogan ve kişnişle susle, yaninda batirmak icin ilik konso kasesiyle servis et." }
+    ]
+  },
+  "fish-and-chips": {
+    "name": "Fish and Chips",
+    "description": "Citir bira hamurlu mezgit ile altin renkli kalin kesilmis patates kizartmasi, malt sirkesi ve tartar sosuyla servis edilir. Evde dogru yapilan Ingiliz pub klasigi.",
+    "ingredients": [
+      { "name": "mezgit filetosu", "amount": "2", "unit": "adet (225 g)", "group": "Balik icin" },
+      { "name": "un", "amount": "1", "unit": "su bardagi", "group": "Hamur icin" },
+      { "name": "misir nisastasi", "amount": "2", "unit": "yk", "group": "Hamur icin" },
+      { "name": "kabartma tozu", "amount": "1", "unit": "tk", "group": "Hamur icin" },
+      { "name": "soguk bira (lager)", "amount": "3/4", "unit": "su bardagi", "group": "Hamur icin" },
+      { "name": "tuz", "amount": "1", "unit": "tk", "group": "Hamur icin" },
+      { "name": "patates", "amount": "2", "unit": "buyuk", "group": "Patates icin" },
+      { "name": "kizartma yagi", "amount": "4", "unit": "su bardagi" },
+      { "name": "malt sirkesi", "amount": "2", "unit": "yk" },
+      { "name": "mayonez", "amount": "2", "unit": "yk", "group": "Tartar sosu icin" },
+      { "name": "kornison, ince kiymis", "amount": "2", "unit": "yk", "group": "Tartar sosu icin" },
+      { "name": "kapari, ince kiymis", "amount": "1", "unit": "tk", "group": "Tartar sosu icin" },
+      { "name": "limon suyu", "amount": "1", "unit": "tk", "group": "Tartar sosu icin" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Patatesleri 1 cm kalinliginda cubuklar halinde kes. Fazla nisastayi gidermek icin 30 dakika soguk suda beklet. Suz ve tamamen kurula." },
+      { "step": 2, "instruction": "Yagi derin tencerede 160 dereceye isit. Patatesleri 5-6 dakika pisene ama kizarmadan kizart. Cikarip kagit havlu uzerine koy.", "tip": "Bu cift kizartma yontemi mukemmel patateslerin sirridir: ilk kizartma icini pisirir, ikincisi disini citirdastirir." },
+      { "step": 3, "instruction": "Yag sicakligini 190 dereceye cikar. Patatesleri tekrar 3-4 dakika altin rengi ve citir olana kadar kizart. Hemen tuzla." },
+      { "step": 4, "instruction": "Hamuru hazirla: un, misir nisastasi, kabartma tozu ve tuzu cirp. Soguk biratiyi dok ve sadece birleksene kadar karistir (topaklar olabilir)." },
+      { "step": 5, "instruction": "Mezgit filetolarini kurula ve hafifce unla. Hamura batir, fazlasinin suzmesine izin ver. Dikkatle 190 derece yaga birak. Altin rengi ve citir olana kadar 5-6 dakika kizart." },
+      { "step": 6, "instruction": "Tartar sosu malzemelerini karistir. Balik ve patatesleri kagit serilmiş tabaklarda tartar sosu, malt sirkesi ve limon dilimleriyle servis et." }
+    ]
+  },
+  "stuffed-bell-peppers": {
+    "name": "Doldurulmuş Biber",
+    "description": "Baharatli kiyilmis hindi, pirinc, domates ve erimis peynir karisimi ile doldurulmus renkli biberler, yumusayana kadar firinlanir.",
+    "ingredients": [
+      { "name": "buyuk biber (her renk)", "amount": "4", "unit": "adet" },
+      { "name": "kiyilmis hindi", "amount": "1", "unit": "lb" },
+      { "name": "pisirilmiş beyaz pirinc", "amount": "1", "unit": "su bardagi" },
+      { "name": "konserve dogranmiş domates, suzulmus", "amount": "14", "unit": "oz" },
+      { "name": "sari sogan, dogranmiş", "amount": "1", "unit": "kucuk" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis" },
+      { "name": "kimyon", "amount": "1", "unit": "tk" },
+      { "name": "kirmizi biber tozu", "amount": "1/2", "unit": "tk" },
+      { "name": "rendelenmis cheddar peyniri", "amount": "1", "unit": "su bardagi" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk" },
+      { "name": "tuz", "amount": "1", "unit": "tk" },
+      { "name": "karabiber", "amount": "1/2", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Firini 190 dereceye isit. Biberlerin ustlerini kes ve cekirdek ile zarlarini cikar. Kesik tarafi yukari gelecek sekilde firin kabina koy." },
+      { "step": 2, "instruction": "Zeytinyagini tavada orta ateste isit. Sogani 3 dakika kavur, sarimsagi ekle, 30 saniye pisir. Kiyilmis hindi, kimyon, kirmizi biber tozu, tuz ve biberi ekle. Kizarana kadar yaklasik 5-6 dakika pisir." },
+      { "step": 3, "instruction": "Atesten al ve pisirilmiş pirinci, dogranmiş domatesleri ve peynirin yarisini ekleyip karistir." },
+      { "step": 4, "instruction": "Her biberi harçla bol bol doldur, tepeden yiginarak. Kalan peyniri uzerine koy." },
+      { "step": 5, "instruction": "Firin kabinin dibine 1/4 su bardagi su ekle. Folyo ile ort ve 25 dakika pisir. Folyoyu cikar ve 10 dakika daha peynir kabarciklanip biberler yumusayana kadar pisir.", "tip": "Dibteki su buhar olusturarak biberlerin distan esit sekilde pismesini saglar." }
+    ]
+  },
+  "japanese-curry-rice": {
+    "name": "Japon Kori Pilavi",
+    "description": "Yumuşak tavuk, patates ve havuclu, koyu lezzetli sosta rahatlatici, hafif tatli Japon usulu kori. Japon evlerinde hafta ici favorisi.",
+    "ingredients": [
+      { "name": "kemiksiz derisiz tavuk but, kup dogranmiş", "amount": "1", "unit": "lb" },
+      { "name": "Japon kori bloklari", "amount": "4", "unit": "oz" },
+      { "name": "patates, kup dogranmiş", "amount": "2", "unit": "orta boy" },
+      { "name": "havuc, yarim ay dilimli", "amount": "2", "unit": "orta boy" },
+      { "name": "sari sogan, dilimlenmiş", "amount": "1", "unit": "buyuk" },
+      { "name": "su", "amount": "3", "unit": "su bardagi" },
+      { "name": "sivi yag", "amount": "1", "unit": "yk" },
+      { "name": "soya sosu", "amount": "1", "unit": "tk" },
+      { "name": "bal", "amount": "1", "unit": "tk" },
+      { "name": "buharda pisirilmiş kisa taneli pirinc", "amount": "3", "unit": "su bardagi" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Yagi buyuk bir tencerede orta-yuksek ateste isit. Sogani 4-5 dakika yumusayana ve karamelize olmaya baslayana kadar kavur." },
+      { "step": 2, "instruction": "Tavugu ekle ve disi beyazlayana kadar 3-4 dakika pisir. Havuc ve patatesleri ekle, 1 dakika karistir." },
+      { "step": 3, "instruction": "Suyu dok ve kaynat. Kisik atese dusur, kapatip sebzeler catalla dagilacak kadar yumusayana kadar 15-20 dakika pisir." },
+      { "step": 4, "instruction": "Atesi kapat. Kori bloklarini parcala ve tenceceye ekle. Tamamen eriyene kadar karistir.", "tip": "Kori bloklari sivi ates disinda olunca en iyi erir. Kaynayan siviya eklemek topaklanmaya neden olabilir." },
+      { "step": 5, "instruction": "Tekrar kisik atese al ve sik sik karistirarak kori koyulasana kadar 5-8 dakika pisir. Soya sosu ve bali ekle." },
+      { "step": 6, "instruction": "Buharda pisirilmiş pirinc uzerinde koriyi servis et. Lezzetler gelistikce ertesi gun daha da lezzetli olur." }
+    ]
+  },
+  "beef-bulgogi": {
+    "name": "Bulgogi",
+    "description": "Tatli-tuzlu soya-armut sosunda marine edilmiş ince dilimlenmiş dana eti, karamelize olana kadar izgaralanan veya tavada kizartilan. Kore BBQ'nun temel taslarindan, pirinc ve banchan ile servis edilir.",
+    "ingredients": [
+      { "name": "dana bonfile veya antrikot, ince dilimlenmiş", "amount": "1.5", "unit": "lb", "group": "Et icin" },
+      { "name": "Asya armutu (veya elma), rendelenmis", "amount": "1/2", "unit": "orta boy", "group": "Marinasyon icin" },
+      { "name": "soya sosu", "amount": "3", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "susam yagi", "amount": "1", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "esmer seker", "amount": "1", "unit": "yk", "group": "Marinasyon icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "4", "unit": "dis", "group": "Marinasyon icin" },
+      { "name": "taze zencefil, rendelenmis", "amount": "1", "unit": "tk", "group": "Marinasyon icin" },
+      { "name": "karabiber", "amount": "1/2", "unit": "tk", "group": "Marinasyon icin" },
+      { "name": "sari sogan, ince dilimlenmiş", "amount": "1", "unit": "orta boy" },
+      { "name": "taze sogan, 5 cm parcalar halinde", "amount": "4", "unit": "sap" },
+      { "name": "susam", "amount": "1", "unit": "yk" },
+      { "name": "sivi yag", "amount": "1", "unit": "yk" },
+      { "name": "buharda pisirilmiş beyaz pirinc", "amount": "3", "unit": "su bardagi" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tum marinasyon malzemelerini (rendelenmis armut, soya sosu, susam yagi, esmer seker, sarimsak, zencefil, biber) bir kasede birlestir. Dilimlenmiş eti ve sogani ekle, karistir. En az 30 dakika (gece boyunca da olabilir) marine et.", "tip": "Armut dogal et yumusaticisidir. Asya armudu bulamazsan yarim rendelenmis elma kullanabilirsin." },
+      { "step": 2, "instruction": "Buyuk bir tava veya izgara tavayi dumanlanana kadar yuksek ateste isit. Yagi ekle." },
+      { "step": 3, "instruction": "Eti gruplar halinde (tavayi sikistirmadan) her tarafta 2-3 dakika karamelize olana ve hafifce kizarana kadar pisir. Tabaga al." },
+      { "step": 4, "instruction": "Ayni tavada taze soganlari 30 saniye hizlica kavur. Eti geri ekle ve karistir." },
+      { "step": 5, "instruction": "Susamla susle ve hemen buharda pisirilmiş pirinc ile servis et." }
+    ]
+  },
+  "crispy-tofu-stir-fry": {
+    "name": "Citir Tofu Kavurma",
+    "description": "Sarimsak li soya-zencefil sosunda snap bezelye ve biberlerle karistirilmis altin citir tofu kupleri. Doyurucu bir bitkisel atistirmalik veya hafif yemek.",
+    "ingredients": [
+      { "name": "ekstra sert tofu, suzulmus ve kup dogranmiş", "amount": "14", "unit": "oz" },
+      { "name": "misir nisastasi", "amount": "2", "unit": "yk" },
+      { "name": "soya sosu", "amount": "2", "unit": "yk", "group": "Sos icin" },
+      { "name": "pirinc sirkesi", "amount": "1", "unit": "yk", "group": "Sos icin" },
+      { "name": "susam yagi", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "esmer seker", "amount": "1", "unit": "tk", "group": "Sos icin" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis" },
+      { "name": "taze zencefil, rendelenmis", "amount": "1", "unit": "tk" },
+      { "name": "snap bezelye", "amount": "1", "unit": "su bardagi" },
+      { "name": "kirmizi biber, dilimlenmiş", "amount": "1/2", "unit": "orta boy" },
+      { "name": "sivi yag", "amount": "2", "unit": "yk" },
+      { "name": "susam", "amount": "1", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tofuyu pres: kagit havluya sar, uzerine agir bir nesne koy ve en az 10 dakika suyunu suzdur. 2 cm kup seklinde kes.", "tip": "Iyi preslenmis tofu citirliginin anahtaridir. Ne kadar kuru olursa o kadar citir olur." },
+      { "step": 2, "instruction": "Tofu kuplerini esit sekilde kaplanana kadar misir nisastasiyla karistir. Fazlasini silkel." },
+      { "step": 3, "instruction": "Buyuk yapiismaz tavada sivi yagi orta-yuksek ateste isit. Tofuyu tek katman halinde diz ve her tarafi altin rengi ve citir olana kadar tarafta 3-4 dakika (hareket ettirmeden) pisir. Tabaga al." },
+      { "step": 4, "instruction": "Ayni tavada snap bezelye ve kirmizi biberi ekle. 2 dakika kavur. Sarimsak ve zencefili ekle, 30 saniye pisir." },
+      { "step": 5, "instruction": "Sos malzemelerini karistir. Tofuyu tavaya geri koy, sosu dok ve her sey kaplanip parlak olana kadar 1 dakika karistir. Susamla susle." }
+    ]
+  },
+  "spicy-tuna-crispy-rice": {
+    "name": "Aci Ton Balikli Citir Pirinc",
+    "description": "Aci ton tartari, avokado ve sriracha mayonez gezdirmesiyle suslenmis kizarmis sushi pirinc kofte leri. Evde kolayca yapilabilen viral restoran mezesi.",
+    "ingredients": [
+      { "name": "suşi kalitesinde ahi ton baligi", "amount": "8", "unit": "oz", "group": "Ton icin" },
+      { "name": "soya sosu", "amount": "1", "unit": "yk", "group": "Ton icin" },
+      { "name": "susam yagi", "amount": "1", "unit": "tk", "group": "Ton icin" },
+      { "name": "sriracha", "amount": "1", "unit": "tk", "group": "Ton icin" },
+      { "name": "pisirilmiş sushi pirinci, sogumus", "amount": "2", "unit": "su bardagi", "group": "Pirinc kofteleri icin" },
+      { "name": "pirinc sirkesi", "amount": "1", "unit": "yk", "group": "Pirinc kofteleri icin" },
+      { "name": "olgun avokado, ince dilimlenmiş", "amount": "1/2", "unit": "orta boy" },
+      { "name": "mayonez", "amount": "1", "unit": "yk", "group": "Sriracha mayonez icin" },
+      { "name": "sriracha", "amount": "1", "unit": "tk", "group": "Sriracha mayonez icin" },
+      { "name": "sivi yag", "amount": "2", "unit": "yk" },
+      { "name": "susam", "amount": "1", "unit": "tk" },
+      { "name": "taze sogan, ince dilimlenmiş", "amount": "1", "unit": "sap" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Ton baligini 0.5 cm kup seklinde dogra. Soya sosu, susam yagi ve sriracha ile hafifce karistir. Pirinc koftelerini hazirlarken buzdolabinda beklet.", "tip": "Sadece guvenilir bir kaynaktan suşi kalitesinde ton baligi kullan. Balik cig servis edilir." },
+      { "step": 2, "instruction": "Sogumus sushi pirincini pirinc sirkesiyle karistir. Ellerini islatarak pirinçten 8 kucuk dikdortgen kofte (yaklasik 5x7 cm, 1 cm kalinliginda) sekillendi. Bir arada kalmalari icin sikica bastir." },
+      { "step": 3, "instruction": "Yapiismaz tavada sivi yagi orta-yuksek ateste isit. Pirinc koftelerini disi altin rengi ve citir olana kadar her tarafta 2-3 dakika kizart." },
+      { "step": 4, "instruction": "Sriracha mayonez icin mayonez ve srirachayi karistir." },
+      { "step": 5, "instruction": "Her citir pirinc koftesinin uzerine bir dilim avokado, bir kasik aci ton baligi, sriracha mayonez gezdirmesi, susam ve dilimlenmiş taze sogan koy. Hemen servis et." }
+    ]
+  },
+  "loaded-quesadillas": {
+    "name": "Dolu Quesadilla",
+    "description": "Uc cesit peynir, karamelize sogan, kavurulmus jalapeno ve bir tutam kimyonla dolu citir tortillalar. Paylasim icin mukemmel bir atistirmalik.",
+    "ingredients": [
+      { "name": "buyuk un tortillasi (25 cm)", "amount": "2", "unit": "adet" },
+      { "name": "rendelenmis cheddar peyniri", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "rendelenmis Monterey Jack peyniri", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "krem peynir, yumusatilmis", "amount": "2", "unit": "yk" },
+      { "name": "sari sogan, ince dilimlenmiş", "amount": "1/2", "unit": "orta boy" },
+      { "name": "jalapeno biber, cekirdegi cikarilmis ve dilimlenmiş", "amount": "1", "unit": "orta boy" },
+      { "name": "kimyon", "amount": "1/4", "unit": "tk" },
+      { "name": "zeytinyagi", "amount": "1", "unit": "yk" },
+      { "name": "eksi krema", "amount": "2", "unit": "yk" },
+      { "name": "salsa", "amount": "2", "unit": "yk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Zeytinyagini tavada orta ateste isit. Dilimlenmiş sogan ve jalapenolu 5-6 dakika sogan karamelize olana ve jalapeno yumusayana kadar pisir. Tabaga al." },
+      { "step": 2, "instruction": "Her tortillanin bir yarisina ince bir katman krem peynir sur. Uzerine cheddar ve Monterey Jack, karamelize sogan karisimi ve bir tutam kimyon koy." },
+      { "step": 3, "instruction": "Tortillalari ikiye katla. Kuru tavada orta ateste tortilla altin rengi ve citir, peynir erimiş olana kadar her tarafta 2-3 dakika pisir.", "tip": "Kuru tava (yagsiz) tortillada en iyi esit kizarmayi saglar." },
+      { "step": 4, "instruction": "Her quesadillayi 3 dilime kes. Eksi krema ve salsa ile servis et." }
+    ]
+  },
+  "zucchini-noodle-primavera": {
+    "name": "Kabak Erişte Primavera",
+    "description": "Spiralize edilmiş kabak erişte, kavurulmus bahar sebzeleri, salkım domates, sarimsak ve hafif limon-Parmesan sosuyla. Makarnaya taze, dusuk karbonhidratli bir alternatif.",
+    "ingredients": [
+      { "name": "orta boy kabak, spiralize edilmiş", "amount": "3", "unit": "orta boy" },
+      { "name": "salkım domates, ikiye bolunmus", "amount": "1", "unit": "su bardagi" },
+      { "name": "sari kabak, dogranmiş", "amount": "1", "unit": "kucuk" },
+      { "name": "kuskonmaz, 2-3 cm parcalar halinde", "amount": "6", "unit": "sap" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "2", "unit": "dis" },
+      { "name": "zeytinyagi", "amount": "2", "unit": "yk" },
+      { "name": "Parmesan peyniri, rendelenmis", "amount": "1/4", "unit": "su bardagi" },
+      { "name": "limon suyu", "amount": "1", "unit": "yk" },
+      { "name": "limon kabuğu rendesi", "amount": "1", "unit": "tk" },
+      { "name": "pul biber", "amount": "1/4", "unit": "tk" },
+      { "name": "tuz", "amount": "1/2", "unit": "tk" },
+      { "name": "taze fesleden", "amount": "4", "unit": "yaprak" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Kabagi spiralize et (veya julyen soyucu kullan). Kabak erişteleri kagit havlularin uzerine yay ve fazla nemi cikarmak icin hafifce tuz serp. 5 dakika beklet, sonra kurula.", "tip": "Fazla nemi cikarmak yemegin sulu olmasini onler. Bu adim buyuk fark yaratir." },
+      { "step": 2, "instruction": "1 yk zeytinyagini buyuk tavada orta-yuksek ateste isit. Kuskonmaz ve sari kabagi 3 dakika kavur. Salkım domatesleri ekle ve 1 dakika daha pisir. Sebzeleri tabaga al." },
+      { "step": 3, "instruction": "Kalan zeytinyagi ve sarimsagi tavaya ekle. 30 saniye pisir, sonra kabak erişteleri ekle. Sadece yumuşayana kadar (fazla pisirme) 2 dakika karistir." },
+      { "step": 4, "instruction": "Sebzeleri tavaya geri koy. Limon suyu, limon kabuğu rendesi, pul biber ve Parmesan ekle. Karistir." },
+      { "step": 5, "instruction": "Hemen tabaga al, taze fesleden ve ekstra Parmesan ile susle." }
+    ]
+  },
+  "hummus-with-pita": {
+    "name": "Pide Ekmekli Humus",
+    "description": "Bol zeytinyagi havuzu ve paprika serpisiyle ultra puruzssuz ev yapimi humus, sicak kizarmis pide dilimleriyle servis edilir. Hazirdan cok daha lezzetli.",
+    "ingredients": [
+      { "name": "konserve nohut, suzulmus ve durulanus", "amount": "15", "unit": "oz" },
+      { "name": "tahin", "amount": "1/4", "unit": "su bardagi" },
+      { "name": "limon suyu", "amount": "3", "unit": "yk" },
+      { "name": "sarimsak disi", "amount": "1", "unit": "dis" },
+      { "name": "buzlu su", "amount": "3", "unit": "yk" },
+      { "name": "sizma zeytinyagi", "amount": "2", "unit": "yk" },
+      { "name": "kimyon", "amount": "1/2", "unit": "tk" },
+      { "name": "tuz", "amount": "3/4", "unit": "tk" },
+      { "name": "ttsz kirmizi biber (paprika)", "amount": "1/4", "unit": "tk" },
+      { "name": "pide ekmegi", "amount": "4", "unit": "adet" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tahin ve limon suyunu mutfak robotuna koy. 1 dakika koyu ve acik renge donene kadar islet. Bu adim tahine hava pompalar ve daha puruzssuz bir sonuc verir." },
+      { "step": 2, "instruction": "Sarimsak, kimyon ve tuzu ekle. 30 saniye islet. Nohutu ekle ve 1 dakika islet." },
+      { "step": 3, "instruction": "Robot calisirken buzlu suyu yavas yavas dok. Humus tamamen puruzssuz ve kremsi olana kadar 2-3 dakika daha islet.", "tip": "Buzlu su ultra puruzssuz yapan seydir. Atla ma. Dusundugunun den daha uzun islet." },
+      { "step": 4, "instruction": "Pide ekmeklerini dilimlere kes ve 190 derece firinda 5 dakika citir ve hafif kizarana kadar kizart." },
+      { "step": 5, "instruction": "Humusu kasigin arka tarafiyla bir tabaga surerek girdap olustur. Bol zeytinyagi gezdir ve ttsz kirmizi biberle susle. Ilik pide dilimleriyle servis et." }
+    ]
+  },
+  "trail-mix-energy-bites": {
+    "name": "Enerji Toplari",
+    "description": "Yulaf ezmesi, fistik ezmesi, bal, cikolata parcaciklari ve kurutulmus kiraz ile dolu, firinlanmayan enerji toplari. Onceden hazirlamak ve hareket halinde atistirmak icin mukemmel.",
+    "ingredients": [
+      { "name": "yulaf ezmesi", "amount": "1", "unit": "su bardagi" },
+      { "name": "kremsi fistik ezmesi", "amount": "1/2", "unit": "su bardagi" },
+      { "name": "bal", "amount": "1/3", "unit": "su bardagi" },
+      { "name": "mini cikolata parcaciklari", "amount": "1/4", "unit": "su bardagi" },
+      { "name": "kurutulmus kiraz", "amount": "1/4", "unit": "su bardagi" },
+      { "name": "ogutulmus keten tohumu", "amount": "2", "unit": "yk" },
+      { "name": "vanilya ozutu", "amount": "1", "unit": "tk" },
+      { "name": "bir tutam tuz", "amount": "1", "unit": "tutam" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tum malzemeleri buyuk bir kasede birlestir ve esit sekilde karismcaya kadar karistir. Karisim basildiginda bir arada duracak kadar yapiskcan olmali." },
+      { "step": 2, "instruction": "Karisimin sertlesip yuvarlamasinin kolaylasanmasi icin 15-20 dakika buzdolabinda beklet." },
+      { "step": 3, "instruction": "12 top (her biri yaklasik 1 yk) seklinde yuvarla. Yapismayi onlemek icin hafifce islak eller kullan." },
+      { "step": 4, "instruction": "Buzdolabinda hava gecirmez kapta 1 haftaya kadar veya dondurucuda 3 aya kadar sakla.", "tip": "Buzdolabindan cikan soguk halleri en lezzetli. Oda sicakliginda yumusarlar." }
+    ]
+  },
+  "bruschetta": {
+    "name": "Bruschetta",
+    "description": "Cig sarimsak la ovulmus kizarmis ciabatta uzerinde dogranmiş domates, taze fesleden, balsamik sirke ve en kaliteli zeytinyaginizdan olusan canli bir karisim.",
+    "ingredients": [
+      { "name": "olgun sivri domates, dogranmiş", "amount": "4", "unit": "orta boy" },
+      { "name": "taze fesleden, ince sertiler halinde", "amount": "8", "unit": "yaprak" },
+      { "name": "sizma zeytinyagi", "amount": "2", "unit": "yk" },
+      { "name": "balsamik sirke", "amount": "1", "unit": "yk" },
+      { "name": "sarimsak disi", "amount": "2", "unit": "dis" },
+      { "name": "ciabatta veya baguette, 1 cm kalinliginda dilimlenmiş", "amount": "8", "unit": "dilim" },
+      { "name": "pul deniz tuzu", "amount": "1/4", "unit": "tk" },
+      { "name": "taze cekilmiş karabiber", "amount": "1/4", "unit": "tk" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Dogranmiş domatesleri, feslegeni, 1 yk zeytinyagi, balsamik sirke, tuz ve biberi bir kasede birlestir. Oda sicakliginda en az 10 dakika marine olmaya birak.", "tip": "Bulabildigin en iyi domatesleri kullan. Kisdin, sezon disi buyuk domateslere gore salkım domates genellikle daha lezzetli olur." },
+      { "step": 2, "instruction": "Ekmek dilimlerini her iki tarafi da altinrengi olana kadar kizar veya izgarala." },
+      { "step": 3, "instruction": "Bir sarimsak disini ikiye bol. Kesik tarafi sicak ekmeklere ov (puturzlu yuzey rende gorevini gorur)." },
+      { "step": 4, "instruction": "Ekmeklere kalan zeytinyagini gezdir. Domates karisimini her dilimin uzerine bol miktarda koy. Hemen servis et." }
+    ]
+  },
+  "guacamole-with-chips": {
+    "name": "Cipsli Guacamole",
+    "description": "Olgun avokado, taze limon, kişniş, kirmizi sogan ve jalapeno biberiyle yapilan parcali, canli guacamole. Ilik tortilla cipsleriyle servis edilir.",
+    "ingredients": [
+      { "name": "olgun avokado", "amount": "3", "unit": "orta boy" },
+      { "name": "limon suyu", "amount": "2", "unit": "yk" },
+      { "name": "kirmizi sogan, ince dogranmiş", "amount": "1/4", "unit": "kucuk" },
+      { "name": "jalapeno, cekirdegi cikarilmis ve ince kiymis", "amount": "1", "unit": "kucuk" },
+      { "name": "taze kişniş, dogranmiş", "amount": "3", "unit": "yk" },
+      { "name": "sivri domates, cekirdegi cikarilmis ve dogranmiş", "amount": "1", "unit": "orta boy" },
+      { "name": "sarimsak disi, ince kiymis", "amount": "1", "unit": "dis" },
+      { "name": "tuz", "amount": "3/4", "unit": "tk" },
+      { "name": "tortilla cipsi", "amount": "6", "unit": "oz" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Avokadolari ikiye bol ve cekirdekleri cikar. Icini bir kaseye cikart." },
+      { "step": 2, "instruction": "Limon suyu ve tuzu ekle. Istedigin kivama gelene kadar catalla ez (parcali olan geleneksel).", "tip": "Diger malzemelerden once limon ve tuzu ekle. Asit kararmayi onler ve tuz lezzeti ortaya cikarir." },
+      { "step": 3, "instruction": "Kirmizi sogan, jalapeno, kişniş, domates ve sarimsagi ekle. Her seyi macuna donusturmeden hafifce karistir." },
+      { "step": 4, "instruction": "Tadina bak ve tuz ile limonu ayarla. Hemen tortilla cipsleriyle servis et." }
+    ]
+  }
+}

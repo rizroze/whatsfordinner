@@ -1,0 +1,1241 @@
+{
+  "grilled-cheese-tomato-soup-brunch": {
+    "name": "Queijo Quente com Sopa de Tomate",
+    "description": "Um brunch reconfortante que combina sanduiches de queijo crocantes e dourados com uma rica sopa de tomate caseira. Perfeito para manhas preguicosas de fim de semana.",
+    "ingredients": [
+      { "name": "pao de fermentacao natural", "amount": "4", "unit": "fatias", "group": "Para o queijo quente" },
+      { "name": "queijo cheddar forte", "amount": "4", "unit": "oz", "group": "Para o queijo quente" },
+      { "name": "manteiga sem sal", "amount": "2", "unit": "colheres de sopa", "group": "Para o queijo quente" },
+      { "name": "tomates inteiros em lata", "amount": "28", "unit": "oz", "group": "Para a sopa" },
+      { "name": "cebola amarela", "amount": "1", "unit": "media", "group": "Para a sopa" },
+      { "name": "dentes de alho", "amount": "2", "unit": "dentes", "group": "Para a sopa" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa", "group": "Para a sopa" },
+      { "name": "creme de leite fresco", "amount": "2", "unit": "colheres de sopa", "group": "Para a sopa" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "manjericao seco", "amount": "1/2", "unit": "colher de cha", "group": "Para a sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pique a cebola e triture o alho. Aqueca o azeite em uma panela media em fogo medio e cozinhe a cebola por 4-5 minutos ate ficar macia." },
+      { "step": 2, "instruction": "Adicione o alho e cozinhe por 30 segundos. Despeje os tomates em lata com o suco, adicione o manjericao seco, o sal e a pimenta. Deixe ferver em fogo baixo por 15 minutos.", "tip": "Amasse os tomates inteiros com uma colher enquanto cozinham para uma textura mais rustica, ou bata no liquidificador no final para uma sopa mais lisa." },
+      { "step": 3, "instruction": "Enquanto a sopa cozinha, passe manteiga em um lado de cada fatia de pao. Coloque o queijo entre os lados sem manteiga para formar 2 sanduiches." },
+      { "step": 4, "instruction": "Aqueca uma frigideira em fogo medio. Cozinhe cada sanduiche por 3-4 minutos de cada lado ate ficar dourado e o queijo derreter.", "tip": "Pressione levemente com uma espatula para um dourado uniforme. Fogo baixo e lento da melhores resultados do que fogo alto." },
+      { "step": 5, "instruction": "Use um mixer de mao para triturar a sopa ate ficar lisa (ou deixe com pedacos se preferir). Misture o creme de leite." },
+      { "step": 6, "instruction": "Corte o queijo quente na diagonal e sirva ao lado de tigelas de sopa de tomate quente." }
+    ]
+  },
+  "shakshuka": {
+    "name": "Shakshuka",
+    "description": "Ovos pochados em um molho de tomate e pimentao condimentado, servidos direto da frigideira com pao crocante para mergulhar. Um classico do cafe da manha norte-africano e do Oriente Medio.",
+    "ingredients": [
+      { "name": "ovos grandes", "amount": "6", "unit": "inteiros" },
+      { "name": "tomates triturados em lata", "amount": "28", "unit": "oz" },
+      { "name": "pimentao vermelho", "amount": "1", "unit": "grande" },
+      { "name": "cebola amarela", "amount": "1", "unit": "media" },
+      { "name": "dentes de alho", "amount": "3", "unit": "dentes" },
+      { "name": "azeite de oliva", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "cominho moido", "amount": "1", "unit": "colher de cha" },
+      { "name": "paprica defumada", "amount": "1", "unit": "colher de cha" },
+      { "name": "pimenta caiena", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" },
+      { "name": "coentro fresco", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "pao crocante", "amount": "4", "unit": "fatias" },
+      { "name": "queijo feta esfarelado", "amount": "2", "unit": "oz" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pique a cebola e o pimentao. Triture o alho. Aqueca o azeite em uma frigideira grande que va ao forno em fogo medio." },
+      { "step": 2, "instruction": "Refogue a cebola e o pimentao por 5-6 minutos ate ficarem macios. Adicione o alho, o cominho, a paprica e a pimenta caiena. Cozinhe por 1 minuto ate ficar aromatico." },
+      { "step": 3, "instruction": "Despeje os tomates triturados e tempere com sal. Misture bem e cozinhe em fogo baixo por 10 minutos ate o molho engrossar levemente." },
+      { "step": 4, "instruction": "Faca 6 pequenos buracos no molho com as costas de uma colher. Quebre um ovo em cada buraco.", "tip": "Quebre os ovos primeiro em uma tigela pequena para evitar pedacos de casca no molho." },
+      { "step": 5, "instruction": "Tampe a frigideira e cozinhe em fogo medio-baixo por 6-8 minutos ate as claras estarem firmes mas as gemas ainda liquidas." },
+      { "step": 6, "instruction": "Retire do fogo, polvilhe com queijo feta esfarelado e coentro picado. Sirva imediatamente com pao crocante para mergulhar." }
+    ]
+  },
+  "overnight-oats": {
+    "name": "Aveia Dormida",
+    "description": "Aveia cremosa sem cozimento preparada na noite anterior com leite, sementes de chia e coberturas a sua escolha. O cafe da manha perfeito para levar em manhas corridas.",
+    "ingredients": [
+      { "name": "aveia em flocos", "amount": "1", "unit": "xicara" },
+      { "name": "leite (qualquer tipo)", "amount": "1", "unit": "xicara" },
+      { "name": "iogurte grego natural", "amount": "1/2", "unit": "xicara" },
+      { "name": "sementes de chia", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "xarope de bordo", "amount": "1", "unit": "colher de sopa" },
+      { "name": "extrato de baunilha", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "pitada de sal", "amount": "1", "unit": "pitada" },
+      { "name": "frutas vermelhas frescas", "amount": "1/2", "unit": "xicara" },
+      { "name": "amendoas laminadas", "amount": "2", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Em uma tigela media ou pote, misture a aveia, o leite, o iogurte grego, as sementes de chia, o xarope de bordo, o extrato de baunilha e o sal. Mexa bem." },
+      { "step": 2, "instruction": "Divida a mistura entre dois potes ou recipientes. Pressione levemente para submergir a aveia." },
+      { "step": 3, "instruction": "Tampe e leve a geladeira por pelo menos 4 horas ou a noite toda.", "tip": "Duram ate 3 dias na geladeira, entao voce pode preparar varios de uma vez." },
+      { "step": 4, "instruction": "De manha, mexa a aveia e adicione um pouco de leite se estiver muito grossa. Cubra com frutas vermelhas frescas e amendoas laminadas." }
+    ]
+  },
+  "avocado-toast": {
+    "name": "Torrada de Abacate",
+    "description": "Abacate perfeitamente amassado sobre pao de fermentacao natural tostado com um ovo semicozido, tempero everything bagel e um toque de limao. Simples, satisfatorio e infinitamente personalizavel.",
+    "ingredients": [
+      { "name": "abacates maduros", "amount": "2", "unit": "medios" },
+      { "name": "pao de fermentacao natural", "amount": "2", "unit": "fatias grossas" },
+      { "name": "ovos grandes", "amount": "2", "unit": "inteiros" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa" },
+      { "name": "flocos de pimenta vermelha", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "tempero everything bagel", "amount": "1", "unit": "colher de cha" },
+      { "name": "sal em flocos", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Ferva agua em uma panela pequena em fogo brando. Coloque os ovos com cuidado e cozinhe por exatamente 6,5 minutos para uma gema cremosa.", "tip": "Use um timer. Transfira os ovos imediatamente para um banho de agua gelada para interromper o cozimento." },
+      { "step": 2, "instruction": "Enquanto os ovos cozinham, torre as fatias de pao ate ficarem douradas e crocantes." },
+      { "step": 3, "instruction": "Corte os abacates ao meio e retire a polpa em uma tigela. Adicione o suco de limao e uma pitada de sal. Amasse com um garfo na consistencia que preferir." },
+      { "step": 4, "instruction": "Espalhe generosamente o abacate amassado sobre cada torrada. Descasque e corte os ovos ao meio, colocando uma metade em cada torrada." },
+      { "step": 5, "instruction": "Regue com azeite, polvilhe com tempero everything bagel, flocos de pimenta vermelha e sal em flocos. Sirva imediatamente." }
+    ]
+  },
+  "french-toast": {
+    "name": "Rabanada",
+    "description": "Fatias grossas de brioche mergulhadas em uma mistura de ovo com baunilha e canela, fritas ate ficarem douradas. Servidas com xarope de bordo, frutas vermelhas frescas e uma polvilhada de acucar de confeiteiro.",
+    "ingredients": [
+      { "name": "pao brioche", "amount": "8", "unit": "fatias grossas" },
+      { "name": "ovos grandes", "amount": "4", "unit": "inteiros" },
+      { "name": "leite integral", "amount": "3/4", "unit": "xicara" },
+      { "name": "extrato de baunilha", "amount": "1", "unit": "colher de cha" },
+      { "name": "canela em po", "amount": "1", "unit": "colher de cha" },
+      { "name": "acucar refinado", "amount": "1", "unit": "colher de sopa" },
+      { "name": "manteiga sem sal", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "xarope de bordo", "amount": "4", "unit": "colheres de sopa" },
+      { "name": "acucar de confeiteiro", "amount": "1", "unit": "colher de sopa" },
+      { "name": "frutas vermelhas mistas frescas", "amount": "1", "unit": "xicara" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Em uma tigela rasa e larga, bata os ovos, o leite, a baunilha, a canela e o acucar ate ficar homogeneo." },
+      { "step": 2, "instruction": "Aqueca uma frigideira grande antiaderente ou chapa em fogo medio. Adicione metade da manteiga e deixe derreter." },
+      { "step": 3, "instruction": "Mergulhe cada fatia de brioche na mistura de ovos, deixando absorver por cerca de 15 segundos de cada lado. Deixe o excesso escorrer.", "tip": "Pao do dia anterior funciona melhor. Ele absorve a mistura sem desmanchar." },
+      { "step": 4, "instruction": "Cozinhe cada fatia por 2-3 minutos de cada lado ate ficar dourada. Adicione mais manteiga entre as tandas conforme necessario." },
+      { "step": 5, "instruction": "Sirva empilhadas no prato, cobertas com frutas vermelhas frescas, um fio de xarope de bordo e uma leve polvilhada de acucar de confeiteiro." }
+    ]
+  },
+  "breakfast-burrito": {
+    "name": "Burrito de Cafe da Manha",
+    "description": "Uma tortilha de farinha recheada com ovos mexidos fofinhos, feijao preto temperado, queijo derretido, abacate e salsa. Perfeito para preparar com antecedencia e facil de personalizar.",
+    "ingredients": [
+      { "name": "tortilhas grandes de farinha (25 cm)", "amount": "2", "unit": "inteiras" },
+      { "name": "ovos grandes", "amount": "4", "unit": "inteiros" },
+      { "name": "feijao preto em lata, escorrido", "amount": "1/2", "unit": "xicara" },
+      { "name": "queijo mexicano ralado", "amount": "1/2", "unit": "xicara" },
+      { "name": "abacate maduro", "amount": "1/2", "unit": "medio" },
+      { "name": "salsa", "amount": "4", "unit": "colheres de sopa" },
+      { "name": "manteiga sem sal", "amount": "1", "unit": "colher de sopa" },
+      { "name": "sal", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "molho picante (opcional)", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Aqueca o feijao preto em uma panela pequena em fogo medio. Tempere com uma pitada de sal." },
+      { "step": 2, "instruction": "Quebre os ovos em uma tigela, adicione sal e pimenta e bata ate ficar uniforme. Derreta a manteiga em uma frigideira antiaderente em fogo medio-baixo e mexe os ovos delicadamente ate ficarem no ponto (cerca de 2-3 minutos).", "tip": "Retire os ovos do fogo enquanto ainda estiverem levemente umidos. Eles continuam cozinhando com o calor residual." },
+      { "step": 3, "instruction": "Aqueca as tortilhas em uma frigideira seca por 20-30 segundos de cada lado ou no micro-ondas por 15 segundos." },
+      { "step": 4, "instruction": "Monte cada tortilha com ovos mexidos, feijao preto, queijo, fatias de abacate e salsa. Adicione molho picante se desejar." },
+      { "step": 5, "instruction": "Dobre as laterais da tortilha para dentro e enrole firmemente de baixo para cima formando um burrito. Corte ao meio e sirva.", "tip": "Para preparar com antecedencia, enrole bem em papel aluminio e congele. Reaqueca em forno a 190C por 20 minutos." }
+    ]
+  },
+  "greek-yogurt-parfait": {
+    "name": "Parfait de Iogurte Grego",
+    "description": "Camadas de iogurte grego cremoso, granola crocante, frutas vermelhas frescas e um fio de mel. Um cafe da manha rico em proteinas que leva minutos para montar.",
+    "ingredients": [
+      { "name": "iogurte grego natural (semi ou integral)", "amount": "1.5", "unit": "xicaras" },
+      { "name": "granola", "amount": "1/2", "unit": "xicara" },
+      { "name": "morangos frescos fatiados", "amount": "1/2", "unit": "xicara" },
+      { "name": "mirtilos frescos", "amount": "1/4", "unit": "xicara" },
+      { "name": "mel", "amount": "2", "unit": "colheres de cha" },
+      { "name": "sementes de chia", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Coloque metade do iogurte em dois copos ou tigelas, dividindo igualmente." },
+      { "step": 2, "instruction": "Adicione uma camada de granola sobre o iogurte, seguida de metade dos morangos e mirtilos." },
+      { "step": 3, "instruction": "Adicione o restante do iogurte e cubra com o restante das frutas e granola." },
+      { "step": 4, "instruction": "Regue com mel e polvilhe sementes de chia por cima. Sirva imediatamente para que a granola fique crocante.", "tip": "Para preparar com antecedencia, mantenha a granola separada em um recipiente pequeno e adicione na hora de comer." }
+    ]
+  },
+  "banana-pancakes": {
+    "name": "Panquecas de Banana",
+    "description": "Panquecas fofinhas e douradas feitas com banana madura amassada para uma doçura natural. Cobertas com fatias de banana fresca, uma noz de manteiga e xarope de bordo quente.",
+    "ingredients": [
+      { "name": "bananas maduras", "amount": "2", "unit": "grandes" },
+      { "name": "farinha de trigo", "amount": "1.5", "unit": "xicaras" },
+      { "name": "ovos grandes", "amount": "2", "unit": "inteiros" },
+      { "name": "leite", "amount": "3/4", "unit": "xicara" },
+      { "name": "fermento em po", "amount": "2", "unit": "colheres de cha" },
+      { "name": "acucar refinado", "amount": "1", "unit": "colher de sopa" },
+      { "name": "extrato de baunilha", "amount": "1", "unit": "colher de cha" },
+      { "name": "sal", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "manteiga sem sal", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "xarope de bordo", "amount": "4", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Amasse as bananas em uma tigela grande com um garfo ate ficarem quase lisas (alguns pedacinhos sao normais)." },
+      { "step": 2, "instruction": "Adicione os ovos, o leite, a manteiga derretida (1 colher de sopa) e a baunilha as bananas amassadas. Misture bem." },
+      { "step": 3, "instruction": "Em outra tigela, misture a farinha, o fermento, o acucar e o sal. Adicione os ingredientes secos aos umidos e mexa ate incorporar.", "tip": "Nao misture demais. Alguns grumos pequenos sao normais e deixam as panquecas mais fofas." },
+      { "step": 4, "instruction": "Aqueca uma frigideira antiaderente ou chapa em fogo medio. Adicione um pouco de manteiga. Despeje cerca de 1/4 de xicara de massa por panqueca." },
+      { "step": 5, "instruction": "Cozinhe ate que bolhas se formem na superficie e as bordas parecam firmes (cerca de 2-3 minutos). Vire e cozinhe por mais 1-2 minutos ate ficar dourada." },
+      { "step": 6, "instruction": "Sirva empilhadas com fatias de banana por cima, uma noz de manteiga e xarope de bordo quente." }
+    ]
+  },
+  "salmon-poke-bowl": {
+    "name": "Poke Bowl de Salmao",
+    "description": "Cubos de salmao fresco marinados em molho de soja e oleo de gergelim, servidos sobre arroz para sushi com abacate, edamame, pepino e um fio de maionese picante.",
+    "ingredients": [
+      { "name": "salmao para sushi", "amount": "10", "unit": "oz", "group": "Para o poke" },
+      { "name": "molho de soja", "amount": "2", "unit": "colheres de sopa", "group": "Para o poke" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de cha", "group": "Para o poke" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "colher de cha", "group": "Para o poke" },
+      { "name": "arroz para sushi", "amount": "1", "unit": "xicara", "group": "Para o bowl" },
+      { "name": "abacate maduro", "amount": "1", "unit": "medio", "group": "Para o bowl" },
+      { "name": "pepino japones", "amount": "1", "unit": "medio", "group": "Para o bowl" },
+      { "name": "edamame descascado", "amount": "1/2", "unit": "xicara", "group": "Para o bowl" },
+      { "name": "maionese", "amount": "2", "unit": "colheres de sopa", "group": "Para a maionese picante" },
+      { "name": "sriracha", "amount": "1", "unit": "colher de cha", "group": "Para a maionese picante" },
+      { "name": "sementes de gergelim", "amount": "1", "unit": "colher de sopa" },
+      { "name": "cebolinha verde fatiada", "amount": "2", "unit": "talos" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cozinhe o arroz para sushi conforme as instrucoes da embalagem. Deixe esfriar ate a temperatura ambiente." },
+      { "step": 2, "instruction": "Corte o salmao em cubos de 1 cm. Misture com molho de soja, oleo de gergelim e vinagre de arroz. Leve a geladeira por 10 minutos.", "tip": "Use apenas salmao grau sushi de uma peixaria de confianca. O peixe e servido cru." },
+      { "step": 3, "instruction": "Fatie o abacate e corte o pepino em cubos. Misture a maionese com o sriracha para a maionese picante." },
+      { "step": 4, "instruction": "Divida o arroz entre duas tigelas. Arrume o salmao marinado, abacate, pepino e edamame por cima." },
+      { "step": 5, "instruction": "Regue com maionese picante, polvilhe com sementes de gergelim e cebolinha verde fatiada. Sirva imediatamente." }
+    ]
+  },
+  "caprese-salad-burrata": {
+    "name": "Salada Caprese com Burrata",
+    "description": "Uma versao luxuosa do classico italiano. Burrata cremosa substitui a mucarela, combinada com tomates tradicionais maduros, manjericao fresco e um excelente glace balsamico.",
+    "ingredients": [
+      { "name": "queijo burrata", "amount": "8", "unit": "oz" },
+      { "name": "tomates tradicionais", "amount": "2", "unit": "grandes" },
+      { "name": "folhas de manjericao fresco", "amount": "10", "unit": "folhas" },
+      { "name": "azeite de oliva extravirgem", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "glace balsamico", "amount": "1", "unit": "colher de sopa" },
+      { "name": "sal em flocos", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino moida na hora", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "pao crocante", "amount": "4", "unit": "fatias" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Fatie os tomates em rodelas de 0,5 cm de espessura. Arrume em um prato de servir em camada unica." },
+      { "step": 2, "instruction": "Coloque a burrata no centro dos tomates. Abra-a delicadamente para que o interior cremoso escorra.", "tip": "Deixe a burrata em temperatura ambiente por 15 minutos antes de servir para melhor sabor e textura." },
+      { "step": 3, "instruction": "Distribua folhas de manjericao fresco entre e ao redor dos tomates." },
+      { "step": 4, "instruction": "Regue generosamente com azeite e glace balsamico. Tempere com sal em flocos e pimenta moida. Sirva com pao crocante." }
+    ]
+  },
+  "vietnamese-spring-rolls": {
+    "name": "Rolinhos Primavera Vietnamitas",
+    "description": "Rolinhos de papel de arroz frescos recheados com camarao, aletria de arroz, legumes crocantes e ervas. Servidos com um molho de amendoim para mergulhar.",
+    "ingredients": [
+      { "name": "folhas de papel de arroz (20 cm)", "amount": "12", "unit": "folhas", "group": "Para os rolinhos" },
+      { "name": "camaroes cozidos, cortados ao meio", "amount": "12", "unit": "grandes", "group": "Para os rolinhos" },
+      { "name": "aletria de arroz", "amount": "4", "unit": "oz", "group": "Para os rolinhos" },
+      { "name": "folhas de alface manteiga", "amount": "6", "unit": "folhas", "group": "Para os rolinhos" },
+      { "name": "cenouras em tiras finas", "amount": "1", "unit": "xicara", "group": "Para os rolinhos" },
+      { "name": "pepino em tiras finas", "amount": "1", "unit": "xicara", "group": "Para os rolinhos" },
+      { "name": "folhas de hortela fresca", "amount": "1/4", "unit": "xicara", "group": "Para os rolinhos" },
+      { "name": "ramos de coentro fresco", "amount": "1/4", "unit": "xicara", "group": "Para os rolinhos" },
+      { "name": "pasta de amendoim cremosa", "amount": "3", "unit": "colheres de sopa", "group": "Para o molho de amendoim" },
+      { "name": "molho hoisin", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho de amendoim" },
+      { "name": "agua morna", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho de amendoim" },
+      { "name": "sriracha", "amount": "1", "unit": "colher de cha", "group": "Para o molho de amendoim" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa", "group": "Para o molho de amendoim" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cozinhe a aletria de arroz conforme as instrucoes da embalagem. Escorra, lave com agua fria e reserve." },
+      { "step": 2, "instruction": "Prepare o molho de amendoim misturando a pasta de amendoim, molho hoisin, agua morna, sriracha e suco de limao ate ficar homogeneo. Reserve." },
+      { "step": 3, "instruction": "Encha um prato raso grande com agua morna. Mergulhe uma folha de papel de arroz por vez por cerca de 10-15 segundos ate ficar maleavel (nao totalmente mole).", "tip": "A folha continuara amolecendo depois de retirada. Se ficar mole demais ao mergulhar, vai rasgar ao enrolar." },
+      { "step": 4, "instruction": "Coloque a folha sobre uma superficie plana. Disponha uma folha de alface, um punhado de aletria, cenoura, pepino, hortela e coentro no terco inferior. Adicione 2 metades de camarao com o lado cortado para cima." },
+      { "step": 5, "instruction": "Dobre a borda inferior sobre o recheio, dobre as laterais para dentro e enrole firmemente como um burrito. A folha grudara em si mesma." },
+      { "step": 6, "instruction": "Repita com as folhas e recheio restantes. Sirva com o molho de amendoim para mergulhar." }
+    ]
+  },
+  "greek-chicken-salad": {
+    "name": "Salada Grega com Frango",
+    "description": "Frango grelhado com limao e ervas sobre alface crocante com pepinos, tomates, azeitonas kalamata, cebola roxa e queijo feta esfarelado, regada com um vinagrete de oregano.",
+    "ingredients": [
+      { "name": "peitos de frango sem osso e sem pele", "amount": "2", "unit": "medios", "group": "Para o frango" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa", "group": "Para o frango" },
+      { "name": "suco de limao", "amount": "2", "unit": "colheres de sopa", "group": "Para o frango" },
+      { "name": "oregano seco", "amount": "1", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "alface romana picada", "amount": "4", "unit": "xicaras", "group": "Para a salada" },
+      { "name": "tomates-cereja cortados ao meio", "amount": "1", "unit": "xicara", "group": "Para a salada" },
+      { "name": "pepino em cubos", "amount": "1", "unit": "medio", "group": "Para a salada" },
+      { "name": "azeitonas kalamata", "amount": "1/4", "unit": "xicara", "group": "Para a salada" },
+      { "name": "cebola roxa em fatias finas", "amount": "1/4", "unit": "pequena", "group": "Para a salada" },
+      { "name": "queijo feta esfarelado", "amount": "2", "unit": "oz", "group": "Para a salada" },
+      { "name": "azeite de oliva extravirgem", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "vinagre de vinho tinto", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "sal e pimenta", "amount": "1", "unit": "a gosto" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tempere o frango com azeite, metade do suco de limao, oregano, sal e pimenta. Deixe marinar por pelo menos 10 minutos." },
+      { "step": 2, "instruction": "Aqueca uma frigideira grill ou frigideira em fogo medio-alto. Cozinhe o frango por 5-6 minutos de cada lado ate a temperatura interna atingir 74C. Deixe descansar por 5 minutos e depois fatie.", "tip": "Bata o frango com um martelo para uma espessura uniforme antes de cozinhar para resultados mais uniformes." },
+      { "step": 3, "instruction": "Em uma tigela pequena, misture o azeite, o vinagre de vinho tinto, o restante do suco de limao, sal e pimenta para o molho." },
+      { "step": 4, "instruction": "Em uma tigela grande, combine a alface, tomates, pepino, azeitonas e cebola roxa. Regue com o molho." },
+      { "step": 5, "instruction": "Divida a salada entre os pratos, coloque o frango fatiado e o queijo feta esfarelado por cima. Sirva imediatamente." }
+    ]
+  },
+  "shrimp-lettuce-wraps": {
+    "name": "Wraps de Camarao na Alface",
+    "description": "Camaroes ao alho e pimenta acomodados em folhas crocantes de alface manteiga com cenoura em conserva, rabanetes fatiados e um molho de limao. Leves, crocantes e incrivelmente frescos.",
+    "ingredients": [
+      { "name": "camaroes grandes, descascados e limpos", "amount": "12", "unit": "oz" },
+      { "name": "folhas de alface manteiga", "amount": "8", "unit": "folhas grandes" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes" },
+      { "name": "molho de soja", "amount": "1", "unit": "colher de sopa" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de cha" },
+      { "name": "molho de alho com pimenta", "amount": "1", "unit": "colher de cha" },
+      { "name": "suco de limao", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "cenouras raladas", "amount": "1/2", "unit": "xicara" },
+      { "name": "rabanetes em fatias finas", "amount": "3", "unit": "medios" },
+      { "name": "coentro fresco", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "oleo vegetal", "amount": "1", "unit": "colher de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Seque os camaroes com papel toalha. Tempere levemente com sal." },
+      { "step": 2, "instruction": "Aqueca o oleo vegetal em uma frigideira em fogo alto. Adicione os camaroes em camada unica e cozinhe por 1-2 minutos de cada lado ate ficarem rosados e enrolados." },
+      { "step": 3, "instruction": "Adicione alho, molho de soja, oleo de gergelim e molho de alho com pimenta. Misture por 30 segundos para envolver. Retire do fogo." },
+      { "step": 4, "instruction": "Arrume as folhas de alface em um prato. Recheie cada uma com camaroes, cenoura ralada e rabanetes fatiados." },
+      { "step": 5, "instruction": "Esprema suco de limao sobre os wraps e decore com coentro fresco. Sirva imediatamente." }
+    ]
+  },
+  "falafel-bowl": {
+    "name": "Bowl de Falafel",
+    "description": "Falafel crocante assado servido sobre cuscuz fofinho com homus, cebola roxa em conserva, salada de pepino e tomate, e um molho cremoso de tahine.",
+    "ingredients": [
+      { "name": "grao-de-bico em lata, escorrido e enxaguado", "amount": "15", "unit": "oz", "group": "Para o falafel" },
+      { "name": "salsinha fresca", "amount": "1/2", "unit": "xicara", "group": "Para o falafel" },
+      { "name": "coentro fresco", "amount": "1/4", "unit": "xicara", "group": "Para o falafel" },
+      { "name": "dentes de alho", "amount": "3", "unit": "dentes", "group": "Para o falafel" },
+      { "name": "cominho moido", "amount": "1", "unit": "colher de cha", "group": "Para o falafel" },
+      { "name": "farinha de trigo", "amount": "2", "unit": "colheres de sopa", "group": "Para o falafel" },
+      { "name": "azeite de oliva", "amount": "2", "unit": "colheres de sopa", "group": "Para o falafel" },
+      { "name": "cuscuz", "amount": "1", "unit": "xicara", "group": "Para o bowl" },
+      { "name": "homus pronto", "amount": "1/2", "unit": "xicara", "group": "Para o bowl" },
+      { "name": "tomates-cereja em quartos", "amount": "1", "unit": "xicara", "group": "Para o bowl" },
+      { "name": "pepino em cubos", "amount": "1", "unit": "medio", "group": "Para o bowl" },
+      { "name": "tahine", "amount": "3", "unit": "colheres de sopa", "group": "Para o molho de tahine" },
+      { "name": "suco de limao", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho de tahine" },
+      { "name": "agua", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho de tahine" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Preaqueca o forno a 200C. Forre uma assadeira com papel manteiga e pincele com azeite." },
+      { "step": 2, "instruction": "Coloque o grao-de-bico, a salsinha, o coentro, o alho, o cominho, a farinha e 1/2 colher de cha de sal no processador de alimentos. Pulse 10-12 vezes ate misturar mas ainda levemente granulado (nao vire uma pasta).", "tip": "Se a mistura estiver muito umida, adicione mais uma colher de sopa de farinha. Deve manter o formato ao ser pressionada." },
+      { "step": 3, "instruction": "Modele a mistura em 12 pequenos discos. Coloque na assadeira e pincele com azeite por cima. Asse por 25 minutos, virando na metade, ate ficarem dourados e crocantes." },
+      { "step": 4, "instruction": "Enquanto os falafeis assam, prepare o cuscuz conforme as instrucoes da embalagem. Solte com um garfo." },
+      { "step": 5, "instruction": "Prepare o molho de tahine misturando tahine, suco de limao, agua e uma pitada de sal ate ficar homogeneo e fluido." },
+      { "step": 6, "instruction": "Monte os bowls com cuscuz como base, cobertos com falafel, homus, salada de tomate e pepino, e um generoso fio de molho de tahine." }
+    ]
+  },
+  "chicken-shawarma-plate": {
+    "name": "Prato de Shawarma de Frango",
+    "description": "Sobrecoxas de frango assadas com especiarias ate ficarem chamuscadas e suculentas, servidas com molho de alho, nabo em conserva, tabule e pao pita quente.",
+    "ingredients": [
+      { "name": "sobrecoxas de frango sem osso e sem pele", "amount": "1.5", "unit": "lbs", "group": "Para o frango" },
+      { "name": "azeite de oliva", "amount": "2", "unit": "colheres de sopa", "group": "Para o frango" },
+      { "name": "cominho moido", "amount": "1", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "coentro em po", "amount": "1", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "paprica defumada", "amount": "1", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "curcuma em po", "amount": "1/2", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "canela em po", "amount": "1/4", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "iogurte grego natural", "amount": "1/2", "unit": "xicara", "group": "Para o molho de alho" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes", "group": "Para o molho de alho" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa", "group": "Para o molho de alho" },
+      { "name": "pao pita", "amount": "4", "unit": "unidades" },
+      { "name": "tomates-cereja em cubos", "amount": "1", "unit": "xicara" },
+      { "name": "pepino japones em cubos", "amount": "1/2", "unit": "medio" },
+      { "name": "sal", "amount": "1.5", "unit": "colheres de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Misture azeite, cominho, coentro em po, paprica, curcuma, canela e 1 colher de cha de sal em uma tigela. Cubra bem as sobrecoxas e deixe marinar por pelo menos 15 minutos (ou ate de um dia para o outro)." },
+      { "step": 2, "instruction": "Preaqueca o forno a 220C. Espalhe o frango em uma assadeira em camada unica. Asse por 20-25 minutos ate ficar chamuscado nas bordas e cozido por completo (74C interno)." },
+      { "step": 3, "instruction": "Enquanto o frango assa, prepare o molho de alho combinando iogurte, alho picado, suco de limao e uma pitada de sal." },
+      { "step": 4, "instruction": "Misture os tomates e pepino em cubos com um fio de azeite, suco de limao e sal para uma salada rapida." },
+      { "step": 5, "instruction": "Fatie o frango contra as fibras. Aqueca o pao pita. Sirva o frango com molho de alho, salada de tomate e pepino, e pao pita quente.", "tip": "Para o melhor chamuscado, coloque na funcao grill nos ultimos 2-3 minutos." }
+    ]
+  },
+  "bibimbap": {
+    "name": "Bibimbap",
+    "description": "Um vibrante bowl coreano de arroz coberto com legumes temperados, ovo frito e molho de gochujang. Misture tudo bem antes de comer para a experiencia completa.",
+    "ingredients": [
+      { "name": "arroz branco de grao curto", "amount": "1", "unit": "xicara" },
+      { "name": "ovos grandes", "amount": "2", "unit": "inteiros" },
+      { "name": "espinafre fresco", "amount": "2", "unit": "xicaras" },
+      { "name": "cenouras em tiras finas", "amount": "1", "unit": "media" },
+      { "name": "abobrinha em tiras finas", "amount": "1", "unit": "pequena" },
+      { "name": "brotos de feijao", "amount": "1", "unit": "xicara" },
+      { "name": "cogumelos shiitake fatiados", "amount": "4", "unit": "oz" },
+      { "name": "oleo de gergelim", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "molho de soja", "amount": "1", "unit": "colher de sopa" },
+      { "name": "gochujang (pasta de pimenta coreana)", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes" },
+      { "name": "sementes de gergelim", "amount": "1", "unit": "colher de sopa" },
+      { "name": "oleo vegetal", "amount": "1", "unit": "colher de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cozinhe o arroz conforme as instrucoes da embalagem. Mantenha aquecido." },
+      { "step": 2, "instruction": "Escalde o espinafre em agua fervente por 30 segundos, escorra, esprema bem e tempere com 1 colher de cha de oleo de gergelim e 1 colher de cha de molho de soja." },
+      { "step": 3, "instruction": "Refogue cada legume separadamente em uma frigideira quente com um pouco de oleo de gergelim: cenouras por 2 minutos, abobrinha por 2 minutos, cogumelos com alho por 3 minutos, brotos de feijao por 1 minuto. Tempere cada um levemente com sal.", "tip": "Cozinhar os legumes separadamente preserva seus sabores e texturas distintos." },
+      { "step": 4, "instruction": "Frite os ovos com a gema para cima em oleo vegetal em fogo medio ate as claras estarem firmes mas as gemas ainda liquidas (cerca de 3 minutos)." },
+      { "step": 5, "instruction": "Divida o arroz entre duas tigelas. Arrume cada legume em uma secao ao redor da tigela. Coloque um ovo frito por cima." },
+      { "step": 6, "instruction": "Adicione uma colherada de gochujang e polvilhe com sementes de gergelim. Misture tudo vigorosamente antes de comer." }
+    ]
+  },
+  "kimchi-fried-rice": {
+    "name": "Arroz Frito com Kimchi",
+    "description": "Um arroz frito rapido e saboroso carregado de kimchi azedo, coberto com ovo frito crocante e regado com oleo de gergelim. Fica melhor com arroz do dia anterior.",
+    "ingredients": [
+      { "name": "arroz branco cozido do dia anterior", "amount": "3", "unit": "xicaras" },
+      { "name": "kimchi picado grosseiramente", "amount": "1", "unit": "xicara" },
+      { "name": "suco de kimchi", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "ovos grandes", "amount": "2", "unit": "inteiros" },
+      { "name": "molho de soja", "amount": "1", "unit": "colher de sopa" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de cha" },
+      { "name": "gochujang", "amount": "1", "unit": "colher de cha" },
+      { "name": "cebolinha verde fatiada", "amount": "3", "unit": "talos" },
+      { "name": "oleo vegetal", "amount": "1", "unit": "colher de sopa" },
+      { "name": "sementes de gergelim", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Aqueca o oleo vegetal em uma frigideira grande ou wok em fogo alto. Adicione o kimchi picado e refogue por 2-3 minutos ate caramelizar levemente." },
+      { "step": 2, "instruction": "Adicione o arroz e desfaca os grumos. Refogue por 3-4 minutos ate o arroz ficar quente e comecar a ficar crocante nas bordas.", "tip": "Arroz do dia anterior funciona melhor porque esta mais seco. Arroz fresco fica muito umido e nao cria crocancia." },
+      { "step": 3, "instruction": "Adicione molho de soja, suco de kimchi e gochujang. Misture tudo ate ficar uniforme. Empurre o arroz para o lado." },
+      { "step": 4, "instruction": "Em uma frigideira pequena separada, frite os ovos com a gema para cima ate as claras ficarem crocantes mas a gema ainda liquida." },
+      { "step": 5, "instruction": "Divida o arroz frito entre duas tigelas. Coloque um ovo frito por cima de cada uma, cebolinha verde fatiada, sementes de gergelim e um fio de oleo de gergelim." }
+    ]
+  },
+  "pad-thai": {
+    "name": "Pad Thai",
+    "description": "O classico tailandes de macarrao de arroz frito com camarao, ovo mexido, brotos de feijao e amendoim triturado em um molho agridoce de tamarindo.",
+    "ingredients": [
+      { "name": "macarrao de arroz chato (para pad thai)", "amount": "8", "unit": "oz" },
+      { "name": "camaroes grandes descascados", "amount": "8", "unit": "oz" },
+      { "name": "ovos grandes", "amount": "2", "unit": "inteiros" },
+      { "name": "pasta de tamarindo", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "molho de peixe", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "acucar mascavo", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "dentes de alho picados", "amount": "3", "unit": "dentes" },
+      { "name": "brotos de feijao", "amount": "1", "unit": "xicara" },
+      { "name": "cebolinha verde cortada em pedacos de 2 cm", "amount": "3", "unit": "talos" },
+      { "name": "amendoim torrado triturado", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "fatias de limao", "amount": "2", "unit": "fatias" },
+      { "name": "oleo vegetal", "amount": "2", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Deixe o macarrao de arroz de molho em agua quente (nao fervente) por 8-10 minutos ate ficar maleavel mas ainda firme. Escorra.", "tip": "Nao deixe de molho demais. O macarrao deve ficar levemente cru pois terminara de cozinhar na wok." },
+      { "step": 2, "instruction": "Misture a pasta de tamarindo, o molho de peixe, o acucar mascavo e o vinagre de arroz em uma tigela pequena. Mexa ate o acucar dissolver." },
+      { "step": 3, "instruction": "Aqueca o oleo em uma wok ou frigideira grande em fogo alto. Cozinhe os camaroes por 1-2 minutos de cada lado ate ficarem rosados. Retire e reserve." },
+      { "step": 4, "instruction": "Na mesma wok, adicione o alho e cozinhe por 15 segundos. Empurre para o lado, quebre os ovos e mexe rapidamente." },
+      { "step": 5, "instruction": "Adicione o macarrao escorrido e o molho. Misture vigorosamente por 2-3 minutos ate o macarrao absorver o molho." },
+      { "step": 6, "instruction": "Devolva os camaroes a wok, adicione os brotos de feijao e a cebolinha verde e misture por 30 segundos. Sirva com amendoim triturado e fatias de limao por cima." }
+    ]
+  },
+  "caesar-salad": {
+    "name": "Salada Caesar",
+    "description": "Alface romana crocante regada com molho Caesar caseiro, croutons de alho, lascas de parmesao e pimenta-do-reino moida na hora.",
+    "ingredients": [
+      { "name": "coracoes de alface romana", "amount": "2", "unit": "unidades" },
+      { "name": "pao crocante em cubos", "amount": "2", "unit": "xicaras", "group": "Para os croutons" },
+      { "name": "azeite de oliva", "amount": "2", "unit": "colheres de sopa", "group": "Para os croutons" },
+      { "name": "dente de alho cortado ao meio", "amount": "1", "unit": "dente", "group": "Para os croutons" },
+      { "name": "maionese", "amount": "3", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "queijo parmesao ralado fino", "amount": "1/4", "unit": "xicara", "group": "Para o molho" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "mostarda Dijon", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "molho ingles", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "dente de alho picado", "amount": "1", "unit": "dente", "group": "Para o molho" },
+      { "name": "queijo parmesao em lascas", "amount": "1", "unit": "oz" },
+      { "name": "pimenta-do-reino", "amount": "1/2", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Preaqueca o forno a 190C. Misture os cubos de pao com azeite e esfregue com o dente de alho cortado. Espalhe em uma assadeira e asse por 8-10 minutos ate ficarem dourados e crocantes." },
+      { "step": 2, "instruction": "Prepare o molho: misture a maionese, parmesao ralado, suco de limao, mostarda Dijon, molho ingles e alho picado ate ficar homogeneo.", "tip": "Para um molho mais liquido, adicione agua gelada 1 colher de cha por vez ate atingir a consistencia desejada." },
+      { "step": 3, "instruction": "Pique a alface romana em pedacos e coloque em uma tigela grande. Adicione o molho e misture ate que cada folha esteja coberta." },
+      { "step": 4, "instruction": "Adicione os croutons e misture delicadamente. Sirva a salada coberta com lascas de parmesao e pimenta-do-reino moida na hora." }
+    ]
+  },
+  "chicken-quesadilla": {
+    "name": "Quesadilla de Frango",
+    "description": "Tortilhas douradas e crocantes recheadas com frango desfiado temperado, queijo derretido, pimentoes e cebola. Servidas com creme azedo e salsa para mergulhar.",
+    "ingredients": [
+      { "name": "tortilhas grandes de farinha (25 cm)", "amount": "2", "unit": "inteiras" },
+      { "name": "frango cozido desfiado", "amount": "1", "unit": "xicara" },
+      { "name": "queijo mexicano ralado", "amount": "1", "unit": "xicara" },
+      { "name": "pimentao em fatias finas", "amount": "1/2", "unit": "medio" },
+      { "name": "cebola amarela em fatias finas", "amount": "1/4", "unit": "media" },
+      { "name": "cominho moido", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "chili em po", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa" },
+      { "name": "creme azedo", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "salsa", "amount": "2", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Aqueca o azeite em uma frigideira em fogo medio. Refogue o pimentao e a cebola por 3-4 minutos ate amolecer." },
+      { "step": 2, "instruction": "Adicione o frango desfiado, cominho e chili em po. Misture para combinar e aqueca por 1-2 minutos. Retire para uma tigela." },
+      { "step": 3, "instruction": "Limpe a frigideira. Coloque uma tortilha na frigideira seca em fogo medio. Espalhe metade do queijo em uma metade da tortilha, cubra com a mistura de frango e pimentao, e adicione o restante do queijo por cima." },
+      { "step": 4, "instruction": "Dobre a tortilha ao meio e cozinhe por 2-3 minutos de cada lado ate ficar dourada e crocante e o queijo completamente derretido.", "tip": "Pressione com uma espatula para um dourado uniforme. Mantenha fogo medio para derreter o queijo sem queimar a tortilha." },
+      { "step": 5, "instruction": "Repita com a segunda tortilha. Corte cada quesadilla em triangulos e sirva com creme azedo e salsa." }
+    ]
+  },
+  "spaghetti-carbonara": {
+    "name": "Espaguete a Carbonara",
+    "description": "A autentica massa romana com um molho sedoso feito de ovos, Pecorino Romano, guanciale e pimenta-do-reino. Nao precisa de creme de leite quando voce domina a tecnica.",
+    "ingredients": [
+      { "name": "espaguete", "amount": "1", "unit": "lb" },
+      { "name": "guanciale ou pancetta em cubos", "amount": "6", "unit": "oz" },
+      { "name": "gemas de ovo grandes", "amount": "4", "unit": "inteiras" },
+      { "name": "ovo inteiro grande", "amount": "1", "unit": "inteiro" },
+      { "name": "Pecorino Romano ralado fino", "amount": "1", "unit": "xicara" },
+      { "name": "pimenta-do-reino moida na hora", "amount": "1", "unit": "colher de cha" },
+      { "name": "sal (para a agua da massa)", "amount": "2", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Ferva uma panela grande de agua e tempere bastante com sal. Deve ter gosto de mar." },
+      { "step": 2, "instruction": "Enquanto a agua esquenta, cozinhe o guanciale em uma frigideira fria em fogo medio, mexendo ocasionalmente, por 6-8 minutos ate ficar crocante e a gordura derreter. Retire do fogo." },
+      { "step": 3, "instruction": "Em uma tigela, misture as gemas, o ovo inteiro, o Pecorino ralado e a pimenta-do-reino ate ficar homogeneo.", "tip": "Use ovos em temperatura ambiente para um molho mais liso. Ovos frios podem chocar e talhar em contato com a massa quente." },
+      { "step": 4, "instruction": "Cozinhe o espaguete 1 minuto a menos que o indicado na embalagem (al dente). Reserve 1 xicara da agua do cozimento antes de escorrer." },
+      { "step": 5, "instruction": "Adicione a massa escorrida a frigideira com o guanciale (fora do fogo). Misture para envolver na gordura." },
+      { "step": 6, "instruction": "Despeje a mistura de ovos e queijo sobre a massa e misture vigorosamente por 60 segundos, adicionando jatos da agua da massa ate obter um molho cremoso e brilhante que cubra cada fio.", "tip": "A frigideira deve estar FORA do fogo ao adicionar a mistura de ovos. O calor residual e suficiente. Fogo direto vai talhar os ovos." },
+      { "step": 7, "instruction": "Sirva imediatamente com mais Pecorino ralado e pimenta-do-reino por cima." }
+    ]
+  },
+  "cacio-e-pepe": {
+    "name": "Cacio e Pepe",
+    "description": "A massa mais simples e elegante de Roma. Apenas tres ingredientes: massa, Pecorino Romano e pimenta-do-reino, combinados em uma obra-prima cremosa e apimentada.",
+    "ingredients": [
+      { "name": "tonnarelli ou espaguete", "amount": "8", "unit": "oz" },
+      { "name": "Pecorino Romano ralado fino", "amount": "1.5", "unit": "xicaras" },
+      { "name": "pimenta-do-reino moida na hora", "amount": "1.5", "unit": "colheres de cha" },
+      { "name": "sal (para a agua da massa)", "amount": "1", "unit": "colher de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Torre a pimenta-do-reino em uma frigideira grande seca em fogo medio por 1-2 minutos ate ficar aromatica. Adicione uma concha de agua da massa (quando estiver fervendo) e deixe cozinhar." },
+      { "step": 2, "instruction": "Ferva uma panela de agua com sal. Cozinhe a massa 2 minutos a menos que o indicado na embalagem." },
+      { "step": 3, "instruction": "Enquanto isso, coloque o Pecorino ralado em uma tigela. Adicione 2-3 colheres de sopa de agua da massa morna (nao quente) e mexa vigorosamente ate formar uma pasta grossa.", "tip": "A agua deve ser morna, nao fervente. Agua fervente faz o queijo empelotar em uma bola ao inves de formar um creme." },
+      { "step": 4, "instruction": "Transfira a massa diretamente da panela para a frigideira com pimenta usando um pegador (trazendo agua junto). Mexa em fogo medio-baixo por 1 minuto." },
+      { "step": 5, "instruction": "Retire do fogo. Adicione a pasta de queijo e misture vigorosamente, adicionando jatos de agua da massa ate obter um revestimento brilhante e cremoso em cada fio." },
+      { "step": 6, "instruction": "Sirva imediatamente com mais Pecorino e pimenta por cima." }
+    ]
+  },
+  "one-pot-mac-and-cheese": {
+    "name": "Mac and Cheese de Uma Panela So",
+    "description": "Mac and cheese incrivelmente cremoso feito no fogao em uma unica panela. Cheddar forte e Gruyere derretidos em um molho aveludado que envolve cada macarrao.",
+    "ingredients": [
+      { "name": "macarrao cotovelo", "amount": "1", "unit": "lb" },
+      { "name": "leite integral", "amount": "3", "unit": "xicaras" },
+      { "name": "agua", "amount": "1", "unit": "xicara" },
+      { "name": "queijo cheddar forte ralado", "amount": "8", "unit": "oz" },
+      { "name": "queijo Gruyere ralado", "amount": "4", "unit": "oz" },
+      { "name": "manteiga sem sal", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "mostarda Dijon", "amount": "1", "unit": "colher de cha" },
+      { "name": "alho em po", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "paprica defumada", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino", "amount": "1/2", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combine o macarrao, o leite, a agua, a manteiga e o sal em uma panela grande. Leve a fervura em fogo medio-alto, mexendo frequentemente para nao grudar." },
+      { "step": 2, "instruction": "Reduza o fogo para medio-baixo. Cozinhe sem tampa, mexendo a cada 2 minutos, por 10-12 minutos ate a massa ficar cozida e o liquido reduzir a um molho grosso e cremoso.", "tip": "Mexa frequentemente. O leite pode queimar no fundo se ficar sem mexer." },
+      { "step": 3, "instruction": "Retire do fogo. Adicione o cheddar e o Gruyere em punhados, mexendo apos cada adicao ate derreter completamente e ficar homogeneo." },
+      { "step": 4, "instruction": "Misture a mostarda Dijon, o alho em po, a paprica defumada e a pimenta. O molho engrossara conforme esfria." },
+      { "step": 5, "instruction": "Deixe descansar por 3-4 minutos antes de servir. O molho continuara engrossando ate a consistencia perfeita." }
+    ]
+  },
+  "butter-chicken": {
+    "name": "Frango Amanteigado",
+    "description": "Pedacos de frango macios cozidos em um molho rico de tomate e manteiga levemente temperado com um toque de creme de leite. O prato mais amado da culinaria indiana, com toda razao.",
+    "ingredients": [
+      { "name": "sobrecoxas de frango sem osso e sem pele, em cubos", "amount": "1.5", "unit": "lbs", "group": "Para o frango" },
+      { "name": "iogurte natural", "amount": "1/2", "unit": "xicara", "group": "Para o frango" },
+      { "name": "garam masala", "amount": "1", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "curcuma em po", "amount": "1/2", "unit": "colher de cha", "group": "Para o frango" },
+      { "name": "tomates triturados em lata", "amount": "14", "unit": "oz", "group": "Para o molho" },
+      { "name": "manteiga sem sal", "amount": "3", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "creme de leite fresco", "amount": "1/2", "unit": "xicara", "group": "Para o molho" },
+      { "name": "cebola amarela em cubos", "amount": "1", "unit": "media", "group": "Para o molho" },
+      { "name": "dentes de alho picados", "amount": "3", "unit": "dentes", "group": "Para o molho" },
+      { "name": "gengibre fresco ralado", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "cominho moido", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "chili em po", "amount": "1/2", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "acucar", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "sal", "amount": "1.5", "unit": "colheres de cha" },
+      { "name": "coentro fresco para decorar", "amount": "2", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Marine os cubos de frango em iogurte, garam masala, curcuma e 1/2 colher de cha de sal por pelo menos 15 minutos." },
+      { "step": 2, "instruction": "Derreta 1 colher de sopa de manteiga em uma frigideira grande em fogo medio-alto. Sele os pedacos de frango por 3-4 minutos ate dourar por todos os lados (nao precisam cozinhar por completo). Retire e reserve." },
+      { "step": 3, "instruction": "Na mesma frigideira, derreta a manteiga restante. Refogue a cebola por 4-5 minutos ate amolecer. Adicione alho, gengibre, cominho e chili em po. Cozinhe por 1 minuto." },
+      { "step": 4, "instruction": "Adicione os tomates triturados, o acucar e o sal restante. Cozinhe em fogo baixo por 10 minutos ate o molho engrossar." },
+      { "step": 5, "instruction": "Bata o molho com um mixer de mao ate ficar liso (ou deixe com pedacos se preferir). Misture o creme de leite." },
+      { "step": 6, "instruction": "Devolva o frango ao molho. Cozinhe em fogo baixo por 10 minutos ate o frango estar cozido e macio." },
+      { "step": 7, "instruction": "Decore com coentro fresco. Sirva sobre arroz basmati ou com pao naan quente." }
+    ]
+  },
+  "chicken-tikka-masala": {
+    "name": "Chicken Tikka Masala",
+    "description": "Pedacos de frango marinados em iogurte e grelhados ate chamuscar, em um molho cremoso de tomate temperado. Um classico indo-britanico que entrega sabor profundo sem excesso de picancia.",
+    "ingredients": [
+      { "name": "peitos de frango sem osso e sem pele, em cubos", "amount": "1.5", "unit": "lbs", "group": "Para o tikka" },
+      { "name": "iogurte natural", "amount": "1/2", "unit": "xicara", "group": "Para o tikka" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa", "group": "Para o tikka" },
+      { "name": "cominho moido", "amount": "1", "unit": "colher de cha", "group": "Para o tikka" },
+      { "name": "garam masala", "amount": "1.5", "unit": "colheres de cha", "group": "Para o tikka" },
+      { "name": "paprica defumada", "amount": "1", "unit": "colher de cha", "group": "Para o tikka" },
+      { "name": "tomates triturados em lata", "amount": "14", "unit": "oz", "group": "Para o molho" },
+      { "name": "creme de leite fresco", "amount": "1/2", "unit": "xicara", "group": "Para o molho" },
+      { "name": "manteiga sem sal", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "cebola amarela picada fina", "amount": "1", "unit": "media", "group": "Para o molho" },
+      { "name": "dentes de alho picados", "amount": "3", "unit": "dentes", "group": "Para o molho" },
+      { "name": "gengibre fresco ralado", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "coentro em po", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "sal", "amount": "1.5", "unit": "colheres de cha" },
+      { "name": "arroz basmati", "amount": "1.5", "unit": "xicaras" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Misture o frango com iogurte, suco de limao, cominho, 1 colher de cha de garam masala, paprica e 1/2 colher de cha de sal. Marine por pelo menos 20 minutos (ou ate de um dia para o outro na geladeira)." },
+      { "step": 2, "instruction": "Preaqueca o grill no maximo. Espalhe o frango em uma assadeira forrada com papel aluminio e grille por 4-5 minutos de cada lado ate chamuscar em alguns pontos. Reserve.", "tip": "Fique de olho no grill. A diferenca entre perfeitamente chamuscado e queimado e de cerca de 30 segundos." },
+      { "step": 3, "instruction": "Derreta a manteiga em uma panela grande em fogo medio. Refogue a cebola por 5 minutos. Adicione alho, gengibre, coentro em po e o garam masala restante. Cozinhe 1 minuto." },
+      { "step": 4, "instruction": "Adicione os tomates triturados e o sal restante. Cozinhe em fogo baixo por 15 minutos, mexendo ocasionalmente, ate engrossar." },
+      { "step": 5, "instruction": "Misture o creme de leite e adicione os pedacos de frango grelhado. Cozinhe por mais 5 minutos ate tudo estar bem aquecido." },
+      { "step": 6, "instruction": "Sirva sobre arroz basmati cozido no vapor com pao naan na lateral." }
+    ]
+  },
+  "beef-stew": {
+    "name": "Ensopado de Carne",
+    "description": "Um ensopado farto e cozido lentamente com pedacos macios de carne, batatas, cenouras e aipo em um caldo rico e saboroso. O tipo de refeicao que enche a casa com um aroma incrivel.",
+    "ingredients": [
+      { "name": "achem de carne, cortado em cubos de 4 cm", "amount": "2", "unit": "lbs" },
+      { "name": "farinha de trigo", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "azeite de oliva", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "cebola amarela em cubos", "amount": "1", "unit": "grande" },
+      { "name": "dentes de alho picados", "amount": "4", "unit": "dentes" },
+      { "name": "cenouras cortadas em pedacos de 2 cm", "amount": "3", "unit": "grandes" },
+      { "name": "batatas Yukon Gold em quartos", "amount": "1.5", "unit": "lbs" },
+      { "name": "talos de aipo fatiados", "amount": "2", "unit": "talos" },
+      { "name": "caldo de carne", "amount": "4", "unit": "xicaras" },
+      { "name": "extrato de tomate", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "molho ingles", "amount": "1", "unit": "colher de sopa" },
+      { "name": "tomilho seco", "amount": "1", "unit": "colher de cha" },
+      { "name": "folhas de louro", "amount": "2", "unit": "inteiras" },
+      { "name": "sal", "amount": "1.5", "unit": "colheres de cha" },
+      { "name": "pimenta-do-reino", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Seque os cubos de carne com papel toalha. Tempere com sal e pimenta e passe na farinha para envolver uniformemente.", "tip": "Carne seca sela melhor. Carne umida cozinha no vapor em vez de dourar, o que significa menos sabor." },
+      { "step": 2, "instruction": "Aqueca o azeite em uma panela tipo Dutch oven em fogo medio-alto. Sele a carne em tandas (nao encha a panela) por 2-3 minutos de cada lado ate ficar bem dourada. Retire e reserve." },
+      { "step": 3, "instruction": "Na mesma panela, refogue a cebola por 3-4 minutos. Adicione alho e extrato de tomate, cozinhe por 1 minuto. Deglace com um pouco de caldo de carne, raspando os pedacinhos dourados do fundo." },
+      { "step": 4, "instruction": "Devolva a carne a panela. Adicione o restante do caldo, molho ingles, tomilho e louro. Leve a fervura e reduza para fogo baixo. Tampe e cozinhe por 1 hora." },
+      { "step": 5, "instruction": "Adicione as batatas, cenouras e aipo. Continue cozinhando tampado por mais 45-60 minutos ate a carne e os legumes estarem macios ao garfo." },
+      { "step": 6, "instruction": "Retire as folhas de louro. Prove e ajuste o tempero. O ensopado deve ficar grosso e encorpado. Se estiver fino demais, cozinhe destampado por mais 10 minutos." }
+    ]
+  },
+  "mushroom-risotto": {
+    "name": "Risoto de Cogumelos",
+    "description": "Arroz arborio cremoso cozido lentamente com uma mistura de cogumelos selvagens, vinho branco, e finalizado com parmesao e manteiga. O auge da cozinha italiana reconfortante.",
+    "ingredients": [
+      { "name": "arroz arborio", "amount": "1.5", "unit": "xicaras" },
+      { "name": "cogumelos variados (cremini, shiitake, shimeji) fatiados", "amount": "12", "unit": "oz" },
+      { "name": "caldo de legumes ou frango aquecido", "amount": "5", "unit": "xicaras" },
+      { "name": "vinho branco seco", "amount": "1/2", "unit": "xicara" },
+      { "name": "cebola amarela picada fina", "amount": "1", "unit": "pequena" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes" },
+      { "name": "manteiga sem sal", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa" },
+      { "name": "queijo parmesao ralado", "amount": "3/4", "unit": "xicara" },
+      { "name": "folhas de tomilho fresco", "amount": "1", "unit": "colher de cha" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino", "amount": "1/2", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Aqueca o azeite e 1 colher de sopa de manteiga em uma panela grande de fundo grosso em fogo medio-alto. Refogue os cogumelos por 5-6 minutos ate ficarem dourados e toda a umidade evaporar. Tempere com sal e retire para um prato." },
+      { "step": 2, "instruction": "Na mesma panela, adicione 1 colher de sopa de manteiga. Refogue a cebola por 3-4 minutos ate ficar translucida. Adicione o alho e cozinhe 30 segundos." },
+      { "step": 3, "instruction": "Adicione o arroz arborio e mexa por 1-2 minutos ate as bordas ficarem levemente translucidas. Despeje o vinho branco e mexa ate ser absorvido completamente." },
+      { "step": 4, "instruction": "Adicione o caldo quente uma concha por vez (cerca de 3/4 de xicara), mexendo frequentemente. Espere cada porcao ser absorvida antes de adicionar a proxima. Esse processo leva cerca de 18-20 minutos no total.", "tip": "O caldo deve estar quente. Caldo frio choca o arroz e retarda o cozimento, gerando uma textura grudenta." },
+      { "step": 5, "instruction": "Quando o arroz estiver cremoso e al dente (macio com uma leve resistencia no centro), retire do fogo. Incorpore os cogumelos, a manteiga restante, o parmesao e o tomilho." },
+      { "step": 6, "instruction": "Deixe descansar por 2 minutos. O risoto deve se espalhar lentamente ao ser servido no prato, nao ficar em um monte firme. Ajuste com um pouco de caldo se estiver muito grosso. Tempere com pimenta e sirva." }
+    ]
+  },
+  "homemade-lasagna": {
+    "name": "Lasanha Caseira",
+    "description": "Camadas de massa tenra, molho de carne encorpado, ricota cremosa e mucarela derretida, assadas ate ficarem borbulhantes e douradas. Um trabalho de amor que alimenta uma multidao.",
+    "ingredients": [
+      { "name": "folhas de lasanha", "amount": "12", "unit": "folhas" },
+      { "name": "carne moida", "amount": "1", "unit": "lb", "group": "Para o molho de carne" },
+      { "name": "linguica italiana, sem tripa", "amount": "1/2", "unit": "lb", "group": "Para o molho de carne" },
+      { "name": "tomates triturados em lata", "amount": "28", "unit": "oz", "group": "Para o molho de carne" },
+      { "name": "extrato de tomate", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho de carne" },
+      { "name": "cebola amarela em cubos", "amount": "1", "unit": "media", "group": "Para o molho de carne" },
+      { "name": "dentes de alho picados", "amount": "3", "unit": "dentes", "group": "Para o molho de carne" },
+      { "name": "oregano seco", "amount": "1", "unit": "colher de cha", "group": "Para o molho de carne" },
+      { "name": "queijo ricota", "amount": "15", "unit": "oz", "group": "Para o recheio" },
+      { "name": "ovo grande", "amount": "1", "unit": "inteiro", "group": "Para o recheio" },
+      { "name": "manjericao fresco picado", "amount": "2", "unit": "colheres de sopa", "group": "Para o recheio" },
+      { "name": "queijo mucarela ralado", "amount": "1", "unit": "lb" },
+      { "name": "queijo parmesao ralado", "amount": "1/2", "unit": "xicara" },
+      { "name": "sal", "amount": "1.5", "unit": "colheres de cha" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cozinhe as folhas de lasanha conforme as instrucoes da embalagem. Escorra, misture levemente com azeite para nao grudar e estenda sobre uma assadeira." },
+      { "step": 2, "instruction": "Aqueca o azeite em uma panela grande em fogo medio-alto. Doure a carne moida e a linguica, quebrando em pedacos, por 6-8 minutos. Escorra o excesso de gordura." },
+      { "step": 3, "instruction": "Adicione a cebola e cozinhe por 4 minutos. Adicione alho, extrato de tomate e oregano, cozinhe 1 minuto. Despeje os tomates triturados e o sal. Cozinhe em fogo baixo por 20 minutos." },
+      { "step": 4, "instruction": "Em uma tigela, misture a ricota, o ovo e o manjericao ate ficar homogeneo." },
+      { "step": 5, "instruction": "Preaqueca o forno a 190C. Em uma forma de 23x33 cm, espalhe 1/2 xicara de molho de carne no fundo. Monte as camadas: 3 folhas de massa, 1/3 da mistura de ricota, 1/3 do molho de carne restante, 1/4 da mucarela. Repita as camadas mais duas vezes. Finalize com as folhas restantes, mucarela e polvilhe parmesao.", "tip": "Certifique-se de que cada camada va de ponta a ponta. Espacos criam pontos secos." },
+      { "step": 6, "instruction": "Cubra bem com papel aluminio e asse por 25 minutos. Retire o aluminio e asse por mais 20-25 minutos ate borbulhar e dourar por cima." },
+      { "step": 7, "instruction": "Deixe a lasanha descansar por 15 minutos antes de cortar. Isso e fundamental. Permite que as camadas firmem para que as fatias mantenham o formato." }
+    ]
+  },
+  "miso-glazed-salmon": {
+    "name": "Salmao Glaceado com Miso",
+    "description": "Files de salmao glaceados com miso branco doce, mirin e um toque de acucar mascavo, grelhados ate caramelizar. Servidos sobre arroz no vapor com brocolis assado.",
+    "ingredients": [
+      { "name": "files de salmao com pele", "amount": "2", "unit": "files de 170g", "group": "Para o salmao" },
+      { "name": "pasta de miso branco", "amount": "2", "unit": "colheres de sopa", "group": "Para o glace" },
+      { "name": "mirin", "amount": "1", "unit": "colher de sopa", "group": "Para o glace" },
+      { "name": "molho de soja", "amount": "1", "unit": "colher de cha", "group": "Para o glace" },
+      { "name": "acucar mascavo", "amount": "1", "unit": "colher de sopa", "group": "Para o glace" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "colher de cha", "group": "Para o glace" },
+      { "name": "arroz branco cozido no vapor", "amount": "2", "unit": "xicaras" },
+      { "name": "brocolis", "amount": "6", "unit": "oz" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de cha" },
+      { "name": "sementes de gergelim", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Misture a pasta de miso, mirin, molho de soja, acucar mascavo e vinagre de arroz ate ficar homogeneo. Cubra os files de salmao com o glace e deixe descansar por pelo menos 10 minutos." },
+      { "step": 2, "instruction": "Preaqueca o grill no maximo. Forre uma assadeira com papel aluminio e unte levemente." },
+      { "step": 3, "instruction": "Misture o brocolis com oleo de gergelim e sal e coloque em um lado da assadeira. Coloque o salmao glaceado com a pele para baixo do outro lado." },
+      { "step": 4, "instruction": "Grille por 8-10 minutos, observando com atencao, ate o glace caramelizar e borbulhar e o salmao se soltar facilmente com um garfo.", "tip": "Se o glace comecar a queimar antes do salmao ficar pronto, abaixe a grade uma posicao." },
+      { "step": 5, "instruction": "Sirva o salmao e o brocolis sobre arroz cozido no vapor. Polvilhe com sementes de gergelim." }
+    ]
+  },
+  "ratatouille": {
+    "name": "Ratatouille",
+    "description": "Um lindo prato provencal de legumes com fatias finas de abobrinha, berinjela e tomate dispostas sobre um molho de pimentao assado e assadas ate ficarem deliciosamente macias.",
+    "ingredients": [
+      { "name": "abobrinha", "amount": "2", "unit": "medias" },
+      { "name": "abobora amarela", "amount": "1", "unit": "media" },
+      { "name": "berinjela japonesa", "amount": "2", "unit": "medias" },
+      { "name": "tomates italianos", "amount": "4", "unit": "medios" },
+      { "name": "tomates triturados em lata", "amount": "14", "unit": "oz", "group": "Para o molho" },
+      { "name": "pimentao vermelho em cubos", "amount": "1", "unit": "grande", "group": "Para o molho" },
+      { "name": "cebola amarela em cubos", "amount": "1", "unit": "pequena", "group": "Para o molho" },
+      { "name": "dentes de alho picados", "amount": "3", "unit": "dentes", "group": "Para o molho" },
+      { "name": "azeite de oliva", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "ramos de tomilho fresco", "amount": "4", "unit": "ramos" },
+      { "name": "manjericao fresco", "amount": "6", "unit": "folhas" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino", "amount": "1/2", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Preaqueca o forno a 190C. Aqueca 1 colher de sopa de azeite em uma frigideira. Refogue a cebola e o pimentao por 5 minutos. Adicione o alho, cozinhe 1 minuto. Misture os tomates triturados e o sal. Cozinhe por 5 minutos e espalhe uniformemente no fundo de uma assadeira redonda." },
+      { "step": 2, "instruction": "Fatie a abobrinha, a abobora amarela, a berinjela e os tomates italianos em rodelas de 3 mm.", "tip": "Use um mandolim se tiver para fatias perfeitamente uniformes. Uniformidade e fundamental para um cozimento igual." },
+      { "step": 3, "instruction": "Arrume as fatias de legumes em um padrao alternado (abobrinha, berinjela, tomate, abobora) em espiral apertada sobre o molho, colocando as fatias de pe." },
+      { "step": 4, "instruction": "Regue com o azeite restante, tempere com sal e pimenta e acomode os ramos de tomilho entre os legumes." },
+      { "step": 5, "instruction": "Cubra bem com papel aluminio e asse por 40 minutos. Retire o aluminio e asse por mais 10 minutos ate os legumes ficarem macios e levemente dourados." },
+      { "step": 6, "instruction": "Decore com manjericao fresco. Sirva como prato principal com pao crocante ou como acompanhamento." }
+    ]
+  },
+  "herb-crusted-baked-cod": {
+    "name": "Bacalhau Assado com Crosta de Ervas",
+    "description": "Files de bacalhau macios cobertos com uma crosta dourada de panko, ervas frescas e raspas de limao. Um jantar leve e elegante pronto em menos de 25 minutos.",
+    "ingredients": [
+      { "name": "files de bacalhau", "amount": "2", "unit": "files de 170g" },
+      { "name": "farinha panko", "amount": "1/2", "unit": "xicara" },
+      { "name": "salsinha fresca picada", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "raspas de limao", "amount": "1", "unit": "colher de cha" },
+      { "name": "dente de alho picado", "amount": "1", "unit": "dente" },
+      { "name": "azeite de oliva", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "mostarda Dijon", "amount": "1", "unit": "colher de sopa" },
+      { "name": "sal", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "fatias de limao", "amount": "2", "unit": "fatias" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Preaqueca o forno a 220C. Forre uma assadeira com papel manteiga." },
+      { "step": 2, "instruction": "Em uma tigela pequena, misture o panko, a salsinha, as raspas de limao, o alho, o azeite, o sal e a pimenta ate combinar." },
+      { "step": 3, "instruction": "Seque os files de bacalhau. Pincele a parte de cima de cada file com uma camada fina de mostarda Dijon.", "tip": "A mostarda funciona como tempero e como cola para a crosta de panko." },
+      { "step": 4, "instruction": "Pressione firmemente a mistura de panko sobre a parte de cima de cada file. Coloque na assadeira." },
+      { "step": 5, "instruction": "Asse por 12-15 minutos ate a crosta ficar dourada e o peixe se soltar facilmente com um garfo (temperatura interna de 63C)." },
+      { "step": 6, "instruction": "Sirva com fatias de limao. Combina bem com aspargos assados ou uma salada verde simples." }
+    ]
+  },
+  "thai-basil-chicken": {
+    "name": "Frango com Manjericao Tailandes",
+    "description": "Pad Krapao Gai. Frango moido refogado com manjericao sagrado tailandes, alho, pimenta e um molho salgado-doce. Servido sobre arroz jasmim com um ovo frito por cima.",
+    "ingredients": [
+      { "name": "frango moido", "amount": "1", "unit": "lb" },
+      { "name": "folhas de manjericao tailandes", "amount": "1", "unit": "xicara" },
+      { "name": "dentes de alho picados", "amount": "4", "unit": "dentes" },
+      { "name": "pimenta dedo-de-moca tailandesa fatiada", "amount": "2", "unit": "inteiras" },
+      { "name": "molho de soja", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "molho de ostra", "amount": "1", "unit": "colher de sopa" },
+      { "name": "molho de peixe", "amount": "1", "unit": "colher de sopa" },
+      { "name": "acucar mascavo", "amount": "1", "unit": "colher de cha" },
+      { "name": "oleo vegetal", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "ovos grandes", "amount": "2", "unit": "inteiros" },
+      { "name": "arroz jasmim cozido", "amount": "2", "unit": "xicaras" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Misture o molho de soja, molho de ostra, molho de peixe e acucar mascavo em uma tigela pequena. Reserve." },
+      { "step": 2, "instruction": "Aqueca 1 colher de sopa de oleo em uma wok ou frigideira grande em fogo alto ate fumegar. Adicione o alho e as pimentas, mexa por 15 segundos.", "tip": "Ajuste a quantidade de pimentas ao seu gosto. Retire as sementes para menos ardencia, ou elimine-as para uma versao suave." },
+      { "step": 3, "instruction": "Adicione o frango moido e refogue, quebrando em pedacos pequenos, por 4-5 minutos ate cozinhar e comecar a dourar." },
+      { "step": 4, "instruction": "Despeje a mistura de molho e refogue por 1 minuto. Retire do fogo e misture o manjericao tailandes ate murchar." },
+      { "step": 5, "instruction": "Em uma frigideira separada, frite os ovos no oleo restante ate as bordas ficarem crocantes e a gema ainda liquida." },
+      { "step": 6, "instruction": "Sirva o frango sobre arroz jasmim, com um ovo frito por cima." }
+    ]
+  },
+  "kung-pao-chicken": {
+    "name": "Kung Pao Chicken",
+    "description": "Um classico de Sichuan com cubos macios de frango, amendoim torrado e pimentas secas refogados em um molho azedo e levemente adocicado com a caracteristica pimenta de Sichuan entorpecente.",
+    "ingredients": [
+      { "name": "sobrecoxas de frango sem osso e sem pele, em cubos", "amount": "1", "unit": "lb", "group": "Para o frango" },
+      { "name": "molho de soja", "amount": "1", "unit": "colher de sopa", "group": "Para o frango" },
+      { "name": "amido de milho", "amount": "1", "unit": "colher de sopa", "group": "Para o frango" },
+      { "name": "molho de soja", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "vinagre preto chines (ou balsamico)", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "acucar", "amount": "2", "unit": "colheres de cha", "group": "Para o molho" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "amido de milho misturado com 1 colher de sopa de agua", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "pimentas vermelhas secas", "amount": "8", "unit": "inteiras" },
+      { "name": "pimenta de Sichuan em graos", "amount": "1", "unit": "colher de cha" },
+      { "name": "dentes de alho picados", "amount": "3", "unit": "dentes" },
+      { "name": "gengibre fresco picado", "amount": "1", "unit": "colher de cha" },
+      { "name": "amendoim torrado", "amount": "1/3", "unit": "xicara" },
+      { "name": "cebolinha verde fatiada", "amount": "3", "unit": "talos" },
+      { "name": "oleo vegetal", "amount": "2", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Misture os cubos de frango com 1 colher de sopa de molho de soja e amido de milho. Deixe descansar 10 minutos." },
+      { "step": 2, "instruction": "Misture os ingredientes do molho (2 colheres de sopa de molho de soja, vinagre, acucar, oleo de gergelim, amido diluido) em uma tigela pequena." },
+      { "step": 3, "instruction": "Aqueca o oleo em uma wok em fogo alto. Adicione as pimentas secas e a pimenta de Sichuan, mexa por 20 segundos ate ficarem aromaticas e levemente escurecidas.", "tip": "Nao deixe as pimentas ficarem pretas ou o molho ficara amargo. Devem apenas escurecer levemente." },
+      { "step": 4, "instruction": "Adicione o frango em camada unica e sele sem mexer por 2 minutos. Refogue por mais 2-3 minutos ate cozinhar." },
+      { "step": 5, "instruction": "Adicione alho e gengibre, mexa por 15 segundos. Despeje o molho e mexa ate engrossar e envolver o frango (cerca de 30 segundos)." },
+      { "step": 6, "instruction": "Misture o amendoim e a cebolinha verde. Sirva imediatamente sobre arroz branco." }
+    ]
+  },
+  "shrimp-tacos-chipotle-crema": {
+    "name": "Tacos de Camarao com Creme de Chipotle",
+    "description": "Camaroes selados com chili e limao em tortilhas de milho quentes com salada crocante de repolho e um creme de chipotle defumado. Pronto em 20 minutos, com gosto de taqueria.",
+    "ingredients": [
+      { "name": "camaroes grandes, descascados e limpos", "amount": "12", "unit": "oz", "group": "Para os camaroes" },
+      { "name": "chili em po", "amount": "1", "unit": "colher de cha", "group": "Para os camaroes" },
+      { "name": "cominho moido", "amount": "1/2", "unit": "colher de cha", "group": "Para os camaroes" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa", "group": "Para os camaroes" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa", "group": "Para os camaroes" },
+      { "name": "tortilhas de milho (15 cm)", "amount": "6", "unit": "inteiras" },
+      { "name": "repolho roxo ralado", "amount": "1.5", "unit": "xicaras", "group": "Para a salada" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa", "group": "Para a salada" },
+      { "name": "creme azedo", "amount": "3", "unit": "colheres de sopa", "group": "Para o creme" },
+      { "name": "pimenta chipotle em adobo, picada", "amount": "1", "unit": "pimenta", "group": "Para o creme" },
+      { "name": "molho adobo (da lata)", "amount": "1", "unit": "colher de cha", "group": "Para o creme" },
+      { "name": "coentro fresco", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "sal", "amount": "1/2", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Misture os camaroes com chili em po, cominho, suco de limao e sal. Deixe descansar 5 minutos." },
+      { "step": 2, "instruction": "Prepare o creme de chipotle misturando o creme azedo, chipotle picado e molho adobo. Misture o repolho ralado com suco de limao e uma pitada de sal." },
+      { "step": 3, "instruction": "Aqueca o azeite em uma frigideira em fogo alto. Cozinhe os camaroes por 1-2 minutos de cada lado ate ficarem rosados e levemente chamuscados." },
+      { "step": 4, "instruction": "Aqueca as tortilhas de milho em uma frigideira seca ou sobre chama aberta por 15-20 segundos de cada lado." },
+      { "step": 5, "instruction": "Monte os tacos: salada de repolho na base, camaroes por cima, um fio de creme de chipotle e uma polvilhada de coentro fresco. Sirva com fatias de limao." }
+    ]
+  },
+  "dan-dan-noodles": {
+    "name": "Dan Dan Noodles",
+    "description": "Macarrao de rua sichuanes servido em um molho ousado e amendoado de oleo de pimenta com carne de porco moida crocante, mostarda em conserva e amendoim triturado.",
+    "ingredients": [
+      { "name": "macarrao chines seco ou espaguete", "amount": "8", "unit": "oz" },
+      { "name": "carne de porco moida", "amount": "6", "unit": "oz" },
+      { "name": "oleo de pimenta chines", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "molho de soja", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "pasta de gergelim chinesa ou tahine", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "vinagre preto chines", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "acucar", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "pimenta de Sichuan em po", "amount": "1/2", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "mostarda em conserva (ya cai), picada", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes" },
+      { "name": "oleo vegetal", "amount": "1", "unit": "colher de sopa" },
+      { "name": "amendoim torrado triturado", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "cebolinha verde fatiada", "amount": "2", "unit": "talos" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cozinhe o macarrao conforme as instrucoes da embalagem. Reserve 1/2 xicara da agua do cozimento e escorra." },
+      { "step": 2, "instruction": "Misture todos os ingredientes do molho (oleo de pimenta, molho de soja, pasta de gergelim, vinagre, acucar, pimenta de Sichuan) em uma tigela. Dilua com um pouco da agua do macarrao ate ficar fluido." },
+      { "step": 3, "instruction": "Aqueca o oleo vegetal em uma frigideira em fogo alto. Doure a carne de porco moida, quebrando em pedacinhos, por 4-5 minutos ate ficar crocante." },
+      { "step": 4, "instruction": "Adicione alho e mostarda em conserva a carne. Refogue por 1 minuto." },
+      { "step": 5, "instruction": "Divida o molho entre duas tigelas. Adicione o macarrao escorrido e cubra com a mistura de carne, amendoim triturado e cebolinha verde. Misture tudo antes de comer.", "tip": "A magia esta na mistura. Misture bem o macarrao para que cada fio fique coberto no molho." }
+    ]
+  },
+  "jerk-chicken": {
+    "name": "Frango Jerk",
+    "description": "Frango jerk jamaicano marinado em uma mistura ardente de pimenta scotch bonnet, pimenta-da-jamaica, tomilho e alho, depois grelhado ate ficar chamuscado e suculento. Servido com arroz e feijao.",
+    "ingredients": [
+      { "name": "coxas e sobrecoxas de frango com osso", "amount": "2.5", "unit": "lbs", "group": "Para o frango" },
+      { "name": "pimenta scotch bonnet, sem sementes e picada", "amount": "1", "unit": "inteira", "group": "Para a marinada" },
+      { "name": "cebolinha verde picada grosseiramente", "amount": "4", "unit": "talos", "group": "Para a marinada" },
+      { "name": "dentes de alho", "amount": "4", "unit": "dentes", "group": "Para a marinada" },
+      { "name": "folhas de tomilho fresco", "amount": "1", "unit": "colher de sopa", "group": "Para a marinada" },
+      { "name": "pimenta-da-jamaica moida", "amount": "1", "unit": "colher de sopa", "group": "Para a marinada" },
+      { "name": "molho de soja", "amount": "2", "unit": "colheres de sopa", "group": "Para a marinada" },
+      { "name": "suco de limao", "amount": "2", "unit": "colheres de sopa", "group": "Para a marinada" },
+      { "name": "acucar mascavo", "amount": "1", "unit": "colher de sopa", "group": "Para a marinada" },
+      { "name": "oleo vegetal", "amount": "2", "unit": "colheres de sopa", "group": "Para a marinada" },
+      { "name": "canela em po", "amount": "1/2", "unit": "colher de cha", "group": "Para a marinada" },
+      { "name": "noz-moscada moida", "amount": "1/4", "unit": "colher de cha", "group": "Para a marinada" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Bata todos os ingredientes da marinada (scotch bonnet, cebolinha verde, alho, tomilho, pimenta-da-jamaica, molho de soja, suco de limao, acucar mascavo, oleo, canela, noz-moscada, sal) no processador de alimentos ate formar uma pasta.", "tip": "Use luvas ao manusear pimenta scotch bonnet. A capsaicina queima a pele e os olhos por horas." },
+      { "step": 2, "instruction": "Faca cortes no frango com uma faca (2-3 cortes por peca). Esfregue a marinada por toda parte, penetrando nos cortes. Marine por pelo menos 2 horas, de preferencia de um dia para o outro." },
+      { "step": 3, "instruction": "Preaqueca a churrasqueira em fogo medio (175C). Se usar forno, preaqueca a 200C." },
+      { "step": 4, "instruction": "Grelhe o frango por 30-35 minutos, virando a cada 8-10 minutos, ate ficar chamuscado por fora e cozido por dentro (74C interno). Para forno, asse em uma grade por 35-40 minutos e depois grille por 2-3 minutos para chamuscar." },
+      { "step": 5, "instruction": "Deixe descansar por 5 minutos. Sirva com arroz e feijao, banana-da-terra frita ou uma salada de repolho simples." }
+    ]
+  },
+  "green-curry": {
+    "name": "Curry Verde",
+    "description": "Um fragante curry verde tailandes com frango, broto de bambu, berinjela tailandesa e manjericao em um molho rico de leite de coco. Aromatico, cremoso e vibrante com ervas frescas.",
+    "ingredients": [
+      { "name": "sobrecoxas de frango sem osso e sem pele, fatiadas", "amount": "1", "unit": "lb" },
+      { "name": "leite de coco (integral)", "amount": "14", "unit": "oz" },
+      { "name": "pasta de curry verde", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "broto de bambu escorrido", "amount": "1/2", "unit": "xicara" },
+      { "name": "berinjela tailandesa ou berinjela comum em cubos", "amount": "1", "unit": "xicara" },
+      { "name": "pimentao vermelho fatiado", "amount": "1/2", "unit": "medio" },
+      { "name": "molho de peixe", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "acucar mascavo ou acucar de palma", "amount": "1", "unit": "colher de sopa" },
+      { "name": "folhas de manjericao tailandes", "amount": "1/2", "unit": "xicara" },
+      { "name": "folhas de limao kaffir", "amount": "3", "unit": "folhas" },
+      { "name": "oleo vegetal", "amount": "1", "unit": "colher de sopa" },
+      { "name": "arroz jasmim", "amount": "2", "unit": "xicaras" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Aqueca o oleo em uma panela grande ou wok em fogo medio. Adicione a pasta de curry verde e mexa por 1 minuto ate ficar aromatica." },
+      { "step": 2, "instruction": "Despeje metade do leite de coco e misture com a pasta. Cozinhe por 2-3 minutos ate o oleo comecar a se separar na superficie.", "tip": "Esse passo libera os sabores da pasta de curry no creme de coco. Pular faz um curry menos complexo e aguado." },
+      { "step": 3, "instruction": "Adicione o frango e cozinhe por 3-4 minutos ate a parte de fora ficar branca. Adicione o restante do leite de coco, berinjela, broto de bambu e folhas de limao kaffir." },
+      { "step": 4, "instruction": "Cozinhe em fogo baixo por 10-12 minutos ate o frango estar cozido e a berinjela macia. Misture o molho de peixe e o acucar." },
+      { "step": 5, "instruction": "Adicione o pimentao e cozinhe por mais 2 minutos. Retire do fogo e misture o manjericao tailandes." },
+      { "step": 6, "instruction": "Sirva sobre arroz jasmim cozido no vapor." }
+    ]
+  },
+  "birria-tacos": {
+    "name": "Tacos de Birria",
+    "description": "Carne bovina cozida lentamente em um consume rico e temperado com chili. As tortilhas sao mergulhadas na gordura saborosa e grelhadas ate ficarem crocantes, depois recheadas com carne macia, cebola e coentro.",
+    "ingredients": [
+      { "name": "achem de carne", "amount": "3", "unit": "lbs", "group": "Para a birria" },
+      { "name": "chili guajillo seco", "amount": "4", "unit": "inteiros", "group": "Para a birria" },
+      { "name": "chili ancho seco", "amount": "2", "unit": "inteiros", "group": "Para a birria" },
+      { "name": "tomates italianos", "amount": "3", "unit": "medios", "group": "Para a birria" },
+      { "name": "cebola amarela em quartos", "amount": "1", "unit": "grande", "group": "Para a birria" },
+      { "name": "dentes de alho", "amount": "5", "unit": "dentes", "group": "Para a birria" },
+      { "name": "caldo de carne", "amount": "4", "unit": "xicaras", "group": "Para a birria" },
+      { "name": "vinagre de maca", "amount": "2", "unit": "colheres de sopa", "group": "Para a birria" },
+      { "name": "cominho moido", "amount": "1", "unit": "colher de cha", "group": "Para a birria" },
+      { "name": "oregano seco", "amount": "1", "unit": "colher de cha", "group": "Para a birria" },
+      { "name": "cravo moido", "amount": "1/4", "unit": "colher de cha", "group": "Para a birria" },
+      { "name": "folhas de louro", "amount": "2", "unit": "inteiras", "group": "Para a birria" },
+      { "name": "tortilhas de milho", "amount": "18", "unit": "inteiras", "group": "Para os tacos" },
+      { "name": "queijo Oaxaca ou mucarela ralado", "amount": "2", "unit": "xicaras", "group": "Para os tacos" },
+      { "name": "cebola branca picada fina", "amount": "1/2", "unit": "media" },
+      { "name": "coentro fresco picado", "amount": "1/4", "unit": "xicara" },
+      { "name": "sal", "amount": "2", "unit": "colheres de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Torre os chilis secos em uma frigideira seca por 1-2 minutos de cada lado. Retire os talos e as sementes. Deixe de molho em agua quente por 15 minutos ate amolecer." },
+      { "step": 2, "instruction": "Bata os chilis hidratados com tomates, alho, vinagre, cominho, oregano, cravo e 1 xicara da agua de imersao no liquidificador ate ficar liso." },
+      { "step": 3, "instruction": "Corte a carne em pedacos grandes (cerca de 8 cm). Tempere com sal. Sele em uma panela tipo Dutch oven em fogo alto ate dourar de todos os lados, cerca de 6-8 minutos." },
+      { "step": 4, "instruction": "Despeje o molho de chili e o caldo de carne sobre a carne. Adicione a cebola em quartos e as folhas de louro. Leve a fervura e reduza para fogo bem baixo. Tampe e cozinhe por 2,5-3 horas ate a carne se desfiar facilmente com um garfo.", "tip": "Fogo baixo e devagar e fundamental. Fervura forte deixa a carne dura. Deve apenas borbulhar de leve." },
+      { "step": 5, "instruction": "Retire a carne e desfie com dois garfos. Coe o consume e retire o excesso de gordura (reserve a gordura para mergulhar as tortilhas)." },
+      { "step": 6, "instruction": "Para fazer os tacos: mergulhe uma tortilha de milho na gordura/consume. Coloque em uma chapa quente, adicione queijo e carne desfiada. Dobre ao meio e cozinhe por 2-3 minutos de cada lado ate ficar crocante." },
+      { "step": 7, "instruction": "Sirva os tacos cobertos com cebola picada e coentro, com uma tigela de consume quente para mergulhar." }
+    ]
+  },
+  "fish-and-chips": {
+    "name": "Fish and Chips",
+    "description": "Bacalhau crocante empanado com massa de cerveja e batatas grossas douradas, servidos com vinagre de malte e molho tartaro. Um classico de pub britanico feito direitinho em casa.",
+    "ingredients": [
+      { "name": "files de bacalhau", "amount": "2", "unit": "files de 230g", "group": "Para o peixe" },
+      { "name": "farinha de trigo", "amount": "1", "unit": "xicara", "group": "Para a massa" },
+      { "name": "amido de milho", "amount": "2", "unit": "colheres de sopa", "group": "Para a massa" },
+      { "name": "fermento em po", "amount": "1", "unit": "colher de cha", "group": "Para a massa" },
+      { "name": "cerveja gelada (lager)", "amount": "3/4", "unit": "xicara", "group": "Para a massa" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha", "group": "Para a massa" },
+      { "name": "batatas Russet", "amount": "2", "unit": "grandes", "group": "Para as batatas" },
+      { "name": "oleo vegetal para fritar", "amount": "4", "unit": "xicaras" },
+      { "name": "vinagre de malte", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "maionese", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho tartaro" },
+      { "name": "pepininhos em conserva picados", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho tartaro" },
+      { "name": "alcaparras picadas", "amount": "1", "unit": "colher de cha", "group": "Para o molho tartaro" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de cha", "group": "Para o molho tartaro" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Corte as batatas em tiras de 1 cm de espessura. Deixe de molho em agua fria por 30 minutos para remover o excesso de amido. Escorra e seque completamente." },
+      { "step": 2, "instruction": "Aqueca o oleo a 160C em uma panela pesada ou Dutch oven. Frite as batatas por 5-6 minutos ate ficarem cozidas por dentro mas sem dourar. Retire e escorra em papel toalha.", "tip": "Esse metodo de dupla fritura e o segredo das batatas perfeitas: a primeira fritura cozinha por dentro, a segunda cria a crocancia por fora." },
+      { "step": 3, "instruction": "Aumente a temperatura do oleo para 190C. Frite as batatas novamente por 3-4 minutos ate ficarem douradas e crocantes. Tempere com sal imediatamente." },
+      { "step": 4, "instruction": "Prepare a massa: misture farinha, amido de milho, fermento e sal. Despeje a cerveja gelada e mexa ate combinar (grumos sao normais)." },
+      { "step": 5, "instruction": "Seque os files de bacalhau e passe levemente na farinha. Mergulhe na massa, deixando o excesso escorrer. Coloque cuidadosamente no oleo a 190C. Frite por 5-6 minutos ate ficar dourado e crocante." },
+      { "step": 6, "instruction": "Misture os ingredientes do molho tartaro. Sirva o peixe e as batatas em pratos forrados com papel, acompanhados de molho tartaro, vinagre de malte e fatias de limao." }
+    ]
+  },
+  "stuffed-bell-peppers": {
+    "name": "Pimentoes Recheados",
+    "description": "Pimentoes coloridos recheados com uma mistura saborosa de peru moido temperado, arroz, tomates e queijo derretido, assados ate ficarem macios.",
+    "ingredients": [
+      { "name": "pimentoes grandes (qualquer cor)", "amount": "4", "unit": "inteiros" },
+      { "name": "peru moido", "amount": "1", "unit": "lb" },
+      { "name": "arroz branco cozido", "amount": "1", "unit": "xicara" },
+      { "name": "tomates em cubos em lata, escorridos", "amount": "14", "unit": "oz" },
+      { "name": "cebola amarela em cubos", "amount": "1", "unit": "pequena" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes" },
+      { "name": "cominho moido", "amount": "1", "unit": "colher de cha" },
+      { "name": "chili em po", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "queijo cheddar ralado", "amount": "1", "unit": "xicara" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa" },
+      { "name": "sal", "amount": "1", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino", "amount": "1/2", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Preaqueca o forno a 190C. Corte as tampas dos pimentoes e retire as sementes e membranas. Coloque-os com a abertura para cima em uma assadeira." },
+      { "step": 2, "instruction": "Aqueca o azeite em uma frigideira em fogo medio. Refogue a cebola por 3 minutos, adicione alho e cozinhe 30 segundos. Adicione o peru moido, cominho, chili em po, sal e pimenta. Cozinhe ate dourar, cerca de 5-6 minutos." },
+      { "step": 3, "instruction": "Retire do fogo e misture o arroz cozido, os tomates em cubos e metade do queijo." },
+      { "step": 4, "instruction": "Recheie generosamente cada pimentao com o recheio, fazendo um monte por cima. Cubra com o queijo restante." },
+      { "step": 5, "instruction": "Adicione 1/4 de xicara de agua no fundo da assadeira. Cubra com papel aluminio e asse por 25 minutos. Retire o aluminio e asse por mais 10 minutos ate o queijo borbulhar e os pimentoes ficarem macios.", "tip": "A agua no fundo cria vapor que ajuda a cozinhar os pimentoes uniformemente por fora." }
+    ]
+  },
+  "japanese-curry-rice": {
+    "name": "Arroz com Curry Japones",
+    "description": "Um reconfortante curry japones levemente adocicado com frango macio, batatas e cenouras em um molho grosso e saboroso. Um prato basico do dia a dia nas casas japonesas.",
+    "ingredients": [
+      { "name": "sobrecoxas de frango sem osso e sem pele, em cubos", "amount": "1", "unit": "lb" },
+      { "name": "tabletes de roux de curry japones", "amount": "4", "unit": "oz" },
+      { "name": "batatas Yukon Gold em cubos", "amount": "2", "unit": "medias" },
+      { "name": "cenouras cortadas em meia-lua", "amount": "2", "unit": "medias" },
+      { "name": "cebola amarela fatiada", "amount": "1", "unit": "grande" },
+      { "name": "agua", "amount": "3", "unit": "xicaras" },
+      { "name": "oleo vegetal", "amount": "1", "unit": "colher de sopa" },
+      { "name": "molho de soja", "amount": "1", "unit": "colher de cha" },
+      { "name": "mel", "amount": "1", "unit": "colher de cha" },
+      { "name": "arroz de grao curto cozido no vapor", "amount": "3", "unit": "xicaras" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Aqueca o oleo em uma panela grande em fogo medio-alto. Refogue a cebola por 4-5 minutos ate amolecer e comecar a caramelizar." },
+      { "step": 2, "instruction": "Adicione o frango e cozinhe por 3-4 minutos ate a parte de fora ficar branca. Adicione as cenouras e batatas, mexa por 1 minuto." },
+      { "step": 3, "instruction": "Despeje a agua e leve a fervura. Reduza para fogo baixo, tampe e cozinhe por 15-20 minutos ate os legumes estarem macios ao garfo." },
+      { "step": 4, "instruction": "Desligue o fogo. Quebre os tabletes de roux de curry em pedacos e adicione a panela. Mexa ate dissolver completamente.", "tip": "O roux dissolve melhor quando o liquido nao esta fervendo. Adicionar em liquido fervente pode formar grumos." },
+      { "step": 5, "instruction": "Volte ao fogo baixo e cozinhe por 5-8 minutos, mexendo frequentemente, ate o curry engrossar. Misture o molho de soja e o mel." },
+      { "step": 6, "instruction": "Sirva o curry sobre arroz cozido no vapor. Fica ainda melhor no dia seguinte conforme os sabores se desenvolvem." }
+    ]
+  },
+  "beef-bulgogi": {
+    "name": "Beef Bulgogi",
+    "description": "Carne fatiada finamente marinada em um molho doce e salgado de soja e pera, depois grelhada ou selada ate caramelizar. Um pilar do churrasco coreano, servido com arroz e acompanhamentos.",
+    "ingredients": [
+      { "name": "contra-file ou entrecote fatiado fino", "amount": "1.5", "unit": "lbs", "group": "Para a carne" },
+      { "name": "pera asiatica (ou maca) ralada", "amount": "1/2", "unit": "media", "group": "Para a marinada" },
+      { "name": "molho de soja", "amount": "3", "unit": "colheres de sopa", "group": "Para a marinada" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de sopa", "group": "Para a marinada" },
+      { "name": "acucar mascavo", "amount": "1", "unit": "colher de sopa", "group": "Para a marinada" },
+      { "name": "dentes de alho picados", "amount": "4", "unit": "dentes", "group": "Para a marinada" },
+      { "name": "gengibre fresco ralado", "amount": "1", "unit": "colher de cha", "group": "Para a marinada" },
+      { "name": "pimenta-do-reino", "amount": "1/2", "unit": "colher de cha", "group": "Para a marinada" },
+      { "name": "cebola amarela em fatias finas", "amount": "1", "unit": "media" },
+      { "name": "cebolinha verde cortada em pedacos de 5 cm", "amount": "4", "unit": "talos" },
+      { "name": "sementes de gergelim", "amount": "1", "unit": "colher de sopa" },
+      { "name": "oleo vegetal", "amount": "1", "unit": "colher de sopa" },
+      { "name": "arroz branco cozido no vapor", "amount": "3", "unit": "xicaras" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combine todos os ingredientes da marinada (pera ralada, molho de soja, oleo de gergelim, acucar mascavo, alho, gengibre, pimenta) em uma tigela. Adicione a carne fatiada e a cebola, misture para envolver. Marine por pelo menos 30 minutos (ate de um dia para o outro).", "tip": "A pera e um amaciante natural de carne. Se nao encontrar pera asiatica, use metade de uma maca ralada." },
+      { "step": 2, "instruction": "Aqueca uma frigideira grande ou grill em fogo alto ate fumegar. Adicione o oleo." },
+      { "step": 3, "instruction": "Cozinhe a carne em tandas (nao encha a frigideira) por 2-3 minutos de cada lado ate caramelizar e ficar levemente chamuscada. Retire para um prato." },
+      { "step": 4, "instruction": "Na mesma frigideira, refogue rapidamente a cebolinha verde por 30 segundos. Devolva a carne e misture." },
+      { "step": 5, "instruction": "Polvilhe com sementes de gergelim e sirva imediatamente sobre arroz cozido no vapor." }
+    ]
+  },
+  "crispy-tofu-stir-fry": {
+    "name": "Tofu Crocante Refogado",
+    "description": "Cubos de tofu dourados e crocantes misturados em um molho de soja e gengibre com alho, ervilhas tortas e pimentoes. Um prato vegetal satisfatorio.",
+    "ingredients": [
+      { "name": "tofu extra-firme, escorrido e em cubos", "amount": "14", "unit": "oz" },
+      { "name": "amido de milho", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "molho de soja", "amount": "2", "unit": "colheres de sopa", "group": "Para o molho" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "colher de sopa", "group": "Para o molho" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "acucar mascavo", "amount": "1", "unit": "colher de cha", "group": "Para o molho" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes" },
+      { "name": "gengibre fresco ralado", "amount": "1", "unit": "colher de cha" },
+      { "name": "ervilhas tortas", "amount": "1", "unit": "xicara" },
+      { "name": "pimentao vermelho fatiado", "amount": "1/2", "unit": "medio" },
+      { "name": "oleo vegetal", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "sementes de gergelim", "amount": "1", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pressione o tofu: envolva em papel toalha, coloque um objeto pesado por cima e deixe escorrer por pelo menos 10 minutos. Corte em cubos de 2 cm.", "tip": "Tofu bem prensado e a chave para a crocancia. Quanto mais seco, mais crocante fica." },
+      { "step": 2, "instruction": "Misture os cubos de tofu no amido de milho ate ficarem uniformemente cobertos. Sacuda o excesso." },
+      { "step": 3, "instruction": "Aqueca o oleo vegetal em uma frigideira grande antiaderente em fogo medio-alto. Adicione o tofu em camada unica e cozinhe por 3-4 minutos de cada lado (nao mexa) ate ficar dourado e crocante de todos os lados. Retire para um prato." },
+      { "step": 4, "instruction": "Na mesma frigideira, adicione as ervilhas tortas e o pimentao. Refogue por 2 minutos. Adicione alho e gengibre, cozinhe 30 segundos." },
+      { "step": 5, "instruction": "Misture os ingredientes do molho. Devolva o tofu a frigideira, despeje o molho e misture por 1 minuto ate tudo ficar envolvido e brilhante. Polvilhe com sementes de gergelim." }
+    ]
+  },
+  "spicy-tuna-crispy-rice": {
+    "name": "Atum Picante sobre Arroz Crocante",
+    "description": "Bolinhos de arroz para sushi selados cobertos com tartare de atum picante, abacate e um fio de maionese de sriracha. Uma entrada viral de restaurante facil de fazer em casa.",
+    "ingredients": [
+      { "name": "atum grau sushi", "amount": "8", "unit": "oz", "group": "Para o atum" },
+      { "name": "molho de soja", "amount": "1", "unit": "colher de sopa", "group": "Para o atum" },
+      { "name": "oleo de gergelim", "amount": "1", "unit": "colher de cha", "group": "Para o atum" },
+      { "name": "sriracha", "amount": "1", "unit": "colher de cha", "group": "Para o atum" },
+      { "name": "arroz para sushi cozido e resfriado", "amount": "2", "unit": "xicaras", "group": "Para os bolinhos de arroz" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "colher de sopa", "group": "Para os bolinhos de arroz" },
+      { "name": "abacate maduro em fatias finas", "amount": "1/2", "unit": "medio" },
+      { "name": "maionese", "amount": "1", "unit": "colher de sopa", "group": "Para a maionese de sriracha" },
+      { "name": "sriracha", "amount": "1", "unit": "colher de cha", "group": "Para a maionese de sriracha" },
+      { "name": "oleo vegetal", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "sementes de gergelim", "amount": "1", "unit": "colher de cha" },
+      { "name": "cebolinha verde em fatias finas", "amount": "1", "unit": "talo" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Corte o atum em cubos de 0,5 cm. Misture delicadamente com molho de soja, oleo de gergelim e sriracha. Leve a geladeira enquanto prepara os bolinhos de arroz.", "tip": "Use apenas atum grau sushi de uma fonte confiavel. O peixe e servido cru." },
+      { "step": 2, "instruction": "Misture o arroz para sushi resfriado com vinagre de arroz. Com as maos umidas, modele o arroz em 8 pequenos retangulos de cerca de 5x7 cm e 1 cm de espessura. Pressione firmemente para manter o formato." },
+      { "step": 3, "instruction": "Aqueca o oleo vegetal em uma frigideira antiaderente em fogo medio-alto. Sele os bolinhos de arroz por 2-3 minutos de cada lado ate ficarem dourados e crocantes por fora." },
+      { "step": 4, "instruction": "Misture a maionese e o sriracha para a maionese de sriracha." },
+      { "step": 5, "instruction": "Coloque uma fatia de abacate, uma colherada de atum picante, um fio de maionese de sriracha, sementes de gergelim e cebolinha verde fatiada sobre cada bolinho de arroz crocante. Sirva imediatamente." }
+    ]
+  },
+  "loaded-quesadillas": {
+    "name": "Quesadillas Carregadas",
+    "description": "Tortilhas crocantes recheadas com tres tipos de queijo, cebola caramelizada, jalapenos assados e um toque de cominho. Cortadas em triangulos para um petisco perfeito para compartilhar.",
+    "ingredients": [
+      { "name": "tortilhas grandes de farinha (25 cm)", "amount": "2", "unit": "inteiras" },
+      { "name": "queijo cheddar ralado", "amount": "1/2", "unit": "xicara" },
+      { "name": "queijo Monterey Jack ralado", "amount": "1/2", "unit": "xicara" },
+      { "name": "cream cheese amolecido", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "cebola amarela em fatias finas", "amount": "1/2", "unit": "media" },
+      { "name": "pimenta jalapeno, sem sementes e fatiada", "amount": "1", "unit": "media" },
+      { "name": "cominho moido", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "azeite de oliva", "amount": "1", "unit": "colher de sopa" },
+      { "name": "creme azedo", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "salsa", "amount": "2", "unit": "colheres de sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Aqueca o azeite em uma frigideira em fogo medio. Cozinhe a cebola fatiada e o jalapeno por 5-6 minutos ate a cebola caramelizar e o jalapeno amolecer. Retire para um prato." },
+      { "step": 2, "instruction": "Espalhe uma camada fina de cream cheese em uma metade de cada tortilha. Cubra com cheddar e Monterey Jack, a mistura de cebola caramelizada e uma pitada de cominho." },
+      { "step": 3, "instruction": "Dobre as tortilhas ao meio. Cozinhe em uma frigideira seca em fogo medio por 2-3 minutos de cada lado ate a tortilha ficar dourada e crocante e o queijo derreter.", "tip": "Uma frigideira seca (sem oleo) proporciona o melhor dourado uniforme na tortilha." },
+      { "step": 4, "instruction": "Corte cada quesadilla em 3 triangulos. Sirva com creme azedo e salsa para mergulhar." }
+    ]
+  },
+  "zucchini-noodle-primavera": {
+    "name": "Macarrao de Abobrinha Primavera",
+    "description": "Abobrinha espiralizada misturada com legumes salteados da estacao, tomates-cereja, alho e um molho leve de limao e parmesao. Uma alternativa fresca e low-carb a massa.",
+    "ingredients": [
+      { "name": "abobrinhas medias espiralizadas", "amount": "3", "unit": "medias" },
+      { "name": "tomates-cereja cortados ao meio", "amount": "1", "unit": "xicara" },
+      { "name": "abobora amarela em cubos", "amount": "1", "unit": "pequena" },
+      { "name": "aspargos cortados em pedacos de 2 cm", "amount": "6", "unit": "talos" },
+      { "name": "dentes de alho picados", "amount": "2", "unit": "dentes" },
+      { "name": "azeite de oliva", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "queijo parmesao ralado", "amount": "1/4", "unit": "xicara" },
+      { "name": "suco de limao", "amount": "1", "unit": "colher de sopa" },
+      { "name": "raspas de limao", "amount": "1", "unit": "colher de cha" },
+      { "name": "flocos de pimenta vermelha", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "sal", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "manjericao fresco", "amount": "4", "unit": "folhas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Espiralize a abobrinha (ou use um descascador julienne). Disponha o macarrao em papel toalha e polvilhe levemente com sal para extrair a umidade. Deixe descansar 5 minutos e depois seque.", "tip": "Remover o excesso de umidade evita que o prato fique aguado. Esse passo faz toda a diferenca." },
+      { "step": 2, "instruction": "Aqueca 1 colher de sopa de azeite em uma frigideira grande em fogo medio-alto. Refogue os aspargos e a abobora amarela por 3 minutos. Adicione os tomates-cereja e cozinhe por mais 1 minuto. Retire os legumes para um prato." },
+      { "step": 3, "instruction": "Adicione o azeite restante e o alho a frigideira. Cozinhe 30 segundos, depois adicione o macarrao de abobrinha. Misture por 2 minutos ate ficar al dente (nao cozinhe demais)." },
+      { "step": 4, "instruction": "Devolva os legumes a frigideira. Adicione suco de limao, raspas de limao, flocos de pimenta vermelha e parmesao. Misture para combinar." },
+      { "step": 5, "instruction": "Sirva imediatamente, decorado com manjericao fresco e mais parmesao." }
+    ]
+  },
+  "hummus-with-pita": {
+    "name": "Homus com Pita",
+    "description": "Homus caseiro ultra-cremoso com uma generosa piscina de azeite e uma polvilhada de paprica, servido com triangulos de pita torrado quente. Muito melhor que o industrializado.",
+    "ingredients": [
+      { "name": "grao-de-bico em lata, escorrido e enxaguado", "amount": "15", "unit": "oz" },
+      { "name": "tahine", "amount": "1/4", "unit": "xicara" },
+      { "name": "suco de limao", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "dente de alho", "amount": "1", "unit": "dente" },
+      { "name": "agua gelada", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "azeite de oliva extravirgem", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "cominho moido", "amount": "1/2", "unit": "colher de cha" },
+      { "name": "sal", "amount": "3/4", "unit": "colher de cha" },
+      { "name": "paprica defumada", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "pao pita", "amount": "4", "unit": "unidades" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Adicione o tahine e o suco de limao ao processador de alimentos. Processe por 1 minuto ate ficar grosso e palido. Esse passo incorpora ar ao tahine para um resultado mais cremoso." },
+      { "step": 2, "instruction": "Adicione o alho, o cominho e o sal. Processe por 30 segundos. Adicione o grao-de-bico e processe por 1 minuto." },
+      { "step": 3, "instruction": "Com o processador ligado, despeje a agua gelada em fio. Continue processando por 2-3 minutos ate o homus ficar completamente liso e cremoso.", "tip": "A agua gelada e o que o torna ultra-cremoso. Nao pule. Processe por mais tempo do que acha necessario." },
+      { "step": 4, "instruction": "Corte o pao pita em triangulos e torre em forno a 190C por 5 minutos ate ficar crocante e levemente dourado." },
+      { "step": 5, "instruction": "Espalhe o homus em um prato usando as costas de uma colher para criar um redemoinho. Regue generosamente com azeite e polvilhe com paprica defumada. Sirva com triangulos de pita quentes." }
+    ]
+  },
+  "trail-mix-energy-bites": {
+    "name": "Bolinhas Energeticas de Trail Mix",
+    "description": "Bolinhas energeticas sem forno recheadas com aveia, pasta de amendoim, mel, gotas de chocolate e cranberries secos. Perfeitas para preparar com antecedencia e para lanchinhos rapidos.",
+    "ingredients": [
+      { "name": "aveia em flocos", "amount": "1", "unit": "xicara" },
+      { "name": "pasta de amendoim cremosa", "amount": "1/2", "unit": "xicara" },
+      { "name": "mel", "amount": "1/3", "unit": "xicara" },
+      { "name": "mini gotas de chocolate", "amount": "1/4", "unit": "xicara" },
+      { "name": "cranberries secos", "amount": "1/4", "unit": "xicara" },
+      { "name": "linhaca moida", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "extrato de baunilha", "amount": "1", "unit": "colher de cha" },
+      { "name": "pitada de sal", "amount": "1", "unit": "pitada" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combine todos os ingredientes em uma tigela grande e mexa ate ficar uniformemente misturado. A mistura deve ser grudenta o suficiente para manter o formato ao ser pressionada." },
+      { "step": 2, "instruction": "Leve a geladeira por 15-20 minutos para a mistura firmar e facilitar o manuseio." },
+      { "step": 3, "instruction": "Enrole em 12 bolinhas (cerca de 1 colher de sopa cada). Use as maos levemente umidas para nao grudar." },
+      { "step": 4, "instruction": "Guarde em um recipiente hermetico na geladeira por ate 1 semana, ou congele por ate 3 meses.", "tip": "Ficam mais gostosas geladas direto da geladeira. Amolecem em temperatura ambiente." }
+    ]
+  },
+  "bruschetta": {
+    "name": "Bruschetta",
+    "description": "Ciabatta torrada esfregada com alho cru e coberta com uma mistura vibrante de tomates em cubos, manjericao fresco, vinagre balsamico e o melhor azeite que voce tiver.",
+    "ingredients": [
+      { "name": "tomates italianos maduros em cubos", "amount": "4", "unit": "medios" },
+      { "name": "manjericao fresco em tiras", "amount": "8", "unit": "folhas" },
+      { "name": "azeite de oliva extravirgem", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "vinagre balsamico", "amount": "1", "unit": "colher de sopa" },
+      { "name": "dentes de alho", "amount": "2", "unit": "dentes" },
+      { "name": "ciabatta ou baguete fatiada com 1 cm de espessura", "amount": "8", "unit": "fatias" },
+      { "name": "sal em flocos", "amount": "1/4", "unit": "colher de cha" },
+      { "name": "pimenta-do-reino moida na hora", "amount": "1/4", "unit": "colher de cha" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Misture os tomates em cubos, o manjericao, 1 colher de sopa de azeite, vinagre balsamico, sal e pimenta em uma tigela. Deixe marinar por pelo menos 10 minutos em temperatura ambiente.", "tip": "Use os melhores tomates que encontrar. No inverno, tomates-uva costumam ter melhor sabor que os tomates grandes fora de epoca." },
+      { "step": 2, "instruction": "Torre ou grille as fatias de pao ate ficarem douradas dos dois lados." },
+      { "step": 3, "instruction": "Corte um dente de alho ao meio. Esfregue o lado cortado sobre o pao quente (a superficie rugosa funciona como um ralador)." },
+      { "step": 4, "instruction": "Regue as torradas com o azeite restante. Coloque generosamente a mistura de tomate sobre cada fatia. Sirva imediatamente." }
+    ]
+  },
+  "guacamole-with-chips": {
+    "name": "Guacamole com Tortilhas",
+    "description": "Guacamole vibrante e com pedacos feito com abacates maduros, limao fresco, coentro, cebola roxa e um toque de jalapeno. Servido com tortilhas crocantes.",
+    "ingredients": [
+      { "name": "abacates maduros", "amount": "3", "unit": "medios" },
+      { "name": "suco de limao", "amount": "2", "unit": "colheres de sopa" },
+      { "name": "cebola roxa picada fina", "amount": "1/4", "unit": "pequena" },
+      { "name": "jalapeno, sem sementes e picado", "amount": "1", "unit": "pequeno" },
+      { "name": "coentro fresco picado", "amount": "3", "unit": "colheres de sopa" },
+      { "name": "tomate italiano, sem sementes e em cubos", "amount": "1", "unit": "medio" },
+      { "name": "dente de alho picado", "amount": "1", "unit": "dente" },
+      { "name": "sal", "amount": "3/4", "unit": "colher de cha" },
+      { "name": "tortilhas chips", "amount": "6", "unit": "oz" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Corte os abacates ao meio e retire os carocos. Coloque a polpa em uma tigela." },
+      { "step": 2, "instruction": "Adicione o suco de limao e o sal. Amasse com um garfo na consistencia que preferir (com pedacos e o tradicional).", "tip": "Adicione o limao e o sal primeiro antes dos outros ingredientes. O acido evita o escurecimento e o sal realca o sabor." },
+      { "step": 3, "instruction": "Incorpore delicadamente a cebola roxa, jalapeno, coentro, tomate e alho. Mexa com cuidado para combinar sem transformar tudo em pasta." },
+      { "step": 4, "instruction": "Prove e ajuste sal e limao. Sirva imediatamente com tortilhas chips." }
+    ]
+  }
+}
