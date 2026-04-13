@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllMealPlanPages } from "@/data/meal-plans";
+import { getAllRecipes } from "@/data/recipes";
 import { NON_DEFAULT_LOCALES } from "@/lib/i18n/locales";
 import { getSlugForLocale } from "@/data/meal-plans/translations";
+import { getRecipeSlugForLocale } from "@/data/recipes/translations";
 import {
   getTranslatedBlogSlugs,
   getBlogSlugForLocale,
@@ -75,6 +77,7 @@ const blogPosts = [
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const mealPlanPages = getAllMealPlanPages();
+  const recipes = getAllRecipes();
   const translatedBlogSlugs = getTranslatedBlogSlugs();
 
   // Static pages
@@ -181,6 +184,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: page.type === "combo" ? 0.7 : 0.8,
   }));
 
+  // English recipe pages
+  const recipeEntries: MetadataRoute.Sitemap = recipes.map((recipe) => ({
+    url: `${BASE}/recipes/${recipe.slug}`,
+    lastModified: new Date(recipe.dateModified),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
   // Localized pages (all locales)
   const localizedEntries: MetadataRoute.Sitemap = NON_DEFAULT_LOCALES.flatMap(
     (locale) => {
@@ -205,7 +216,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.7,
       }));
 
-      return [hub, ...mealPlans, ...blogs];
+      const localizedRecipes = recipes.map((recipe) => ({
+        url: `${BASE}/${locale}/recipes/${getRecipeSlugForLocale(recipe.slug, locale)}`,
+        lastModified: new Date(recipe.dateModified),
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+      }));
+
+      return [hub, ...mealPlans, ...blogs, ...localizedRecipes];
     }
   );
 
@@ -213,6 +231,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...staticPages,
     ...blogEntries,
     ...mealPlanEntries,
+    ...recipeEntries,
     ...localizedEntries,
   ];
 }

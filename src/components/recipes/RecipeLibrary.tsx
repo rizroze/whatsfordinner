@@ -3,15 +3,31 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 
-export interface RecipeEntry {
+interface FullRecipeEntry {
+  slug: string;
   name: string;
-  mealType: "breakfast" | "lunch" | "dinner" | "snack";
+  emoji: string;
+  description: string;
+  mealType: string;
+  prepTime: number;
+  cuisine: string;
+  difficulty: string;
+  tags: string[];
+}
+
+interface PreviewRecipeEntry {
+  name: string;
+  mealType: string;
   description: string;
   prepTime: string;
   tags: string[];
   parentSlug: string;
   parentTitle: string;
 }
+
+type CardItem =
+  | { kind: "full"; data: FullRecipeEntry }
+  | { kind: "preview"; data: PreviewRecipeEntry };
 
 const MEAL_TYPES = ["breakfast", "lunch", "dinner", "snack"] as const;
 
@@ -86,36 +102,59 @@ function ArrowIcon() {
   );
 }
 
-export function RecipeLibrary({ recipes }: { recipes: RecipeEntry[] }) {
+function formatPrepTime(minutes: number): string {
+  if (minutes < 60) return `${minutes} min`;
+  const hrs = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+  if (mins === 0) return `${hrs} hr`;
+  return `${hrs} hr ${mins} min`;
+}
+
+export function RecipeLibrary({
+  fullRecipes,
+  previewRecipes,
+}: {
+  fullRecipes: FullRecipeEntry[];
+  previewRecipes: PreviewRecipeEntry[];
+}) {
   const [search, setSearch] = useState("");
   const [activeMealType, setActiveMealType] = useState<string | null>(null);
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
-  const [expandedRecipe, setExpandedRecipe] = useState<string | null>(null);
+  const [expandedPreview, setExpandedPreview] = useState<string | null>(null);
+
+  const totalCount = fullRecipes.length + previewRecipes.length;
+
+  // Merge both lists: full recipes first, then previews
+  const allItems: CardItem[] = useMemo(() => {
+    const full: CardItem[] = fullRecipes.map((r) => ({ kind: "full", data: r }));
+    const preview: CardItem[] = previewRecipes.map((r) => ({ kind: "preview", data: r }));
+    return [...full, ...preview];
+  }, [fullRecipes, previewRecipes]);
 
   const filtered = useMemo(() => {
-    let result = recipes;
+    let result = allItems;
 
     if (search.trim()) {
       const q = search.toLowerCase().trim();
       result = result.filter(
-        (r) =>
-          r.name.toLowerCase().includes(q) ||
-          r.description.toLowerCase().includes(q)
+        (item) =>
+          item.data.name.toLowerCase().includes(q) ||
+          item.data.description.toLowerCase().includes(q)
       );
     }
 
     if (activeMealType) {
-      result = result.filter((r) => r.mealType === activeMealType);
+      result = result.filter((item) => item.data.mealType === activeMealType);
     }
 
     if (activeTags.size > 0) {
-      result = result.filter((r) =>
-        [...activeTags].every((tag) => r.tags.includes(tag))
+      result = result.filter((item) =>
+        [...activeTags].every((tag) => item.data.tags.includes(tag))
       );
     }
 
     return result;
-  }, [recipes, search, activeMealType, activeTags]);
+  }, [allItems, search, activeMealType, activeTags]);
 
   function toggleTag(tag: string) {
     setActiveTags((prev) => {
@@ -157,8 +196,10 @@ export function RecipeLibrary({ recipes }: { recipes: RecipeEntry[] }) {
             Recipe Library
           </h1>
           <p className="text-stone-500 text-base sm:text-lg max-w-2xl leading-relaxed">
-            Browse {recipes.length} recipe ideas across every diet, cuisine, and goal.
-            Find something you love, then get a full personalized meal plan built around it.
+            Browse {totalCount} recipe ideas across every diet, cuisine, and goal.
+            {fullRecipes.length > 0 && (
+              <> {fullRecipes.length} recipes have full ingredients and step-by-step instructions.</>
+            )}
           </p>
         </div>
 
@@ -226,93 +267,31 @@ export function RecipeLibrary({ recipes }: { recipes: RecipeEntry[] }) {
 
         {/* Results count */}
         <p className="mb-6 text-sm text-stone-400">
-          {filtered.length === recipes.length
-            ? `${recipes.length} recipes`
-            : `${filtered.length} of ${recipes.length} recipes`}
+          {filtered.length === totalCount
+            ? `${totalCount} recipes`
+            : `${filtered.length} of ${totalCount} recipes`}
         </p>
 
         {/* Recipe grid */}
         {filtered.length > 0 ? (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {filtered.map((recipe, i) => {
-              const cardKey = `${recipe.parentSlug}-${recipe.name}-${i}`;
-              const isExpanded = expandedRecipe === cardKey;
-
+            {filtered.map((item, i) => {
+              if (item.kind === "full") {
+                return <FullRecipeCard key={`full-${item.data.slug}`} recipe={item.data} />;
+              }
               return (
-                <div
-                  key={cardKey}
-                  onClick={() => setExpandedRecipe(isExpanded ? null : cardKey)}
-                  className={`group flex flex-col rounded-2xl border bg-white p-5 transition-all duration-200 cursor-pointer ${
-                    isExpanded
-                      ? "border-orange-300 shadow-lg"
-                      : "border-stone-200 hover:border-orange-200 hover:shadow-lg hover:-translate-y-0.5"
-                  }`}
-                >
-                  {/* Top row: badge + prep time */}
-                  <div className="flex items-center justify-between mb-3">
-                    <span
-                      className={`inline-block rounded-full px-2.5 py-1 text-[11px] font-semibold capitalize ${mealTypeBadge[recipe.mealType]}`}
-                    >
-                      {recipe.mealType}
-                    </span>
-                    <span className="flex items-center gap-1 text-xs text-stone-400">
-                      <ClockIcon />
-                      {recipe.prepTime}
-                    </span>
-                  </div>
-
-                  {/* Name */}
-                  <h3 className={`text-base font-semibold leading-snug mb-2 transition-colors duration-200 ${
-                    isExpanded ? "text-orange-600" : "text-stone-900 group-hover:text-orange-600"
-                  }`}>
-                    {recipe.name}
-                  </h3>
-
-                  {/* Description */}
-                  <p className={`text-sm text-stone-500 leading-relaxed mb-4 flex-1 ${
-                    isExpanded ? "" : "line-clamp-2"
-                  }`}>
-                    {recipe.description}
-                  </p>
-
-                  {/* Tags */}
-                  {recipe.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-1.5 mb-4">
-                      {recipe.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="rounded-full bg-stone-50 px-2 py-0.5 text-[10px] font-medium text-stone-400"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-
-                  {/* Expanded: CTA to get full recipe */}
-                  {isExpanded && (
-                    <div className="mt-2 pt-4 border-t border-stone-100">
-                      <p className="text-sm text-stone-500 mb-3">
-                        Get the full recipe with ingredients, step-by-step instructions, and a grocery list.
-                      </p>
-                      <Link
-                        href="/onboarding"
-                        onClick={(e) => e.stopPropagation()}
-                        className="inline-flex items-center justify-center w-full rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-orange-600 min-h-[44px]"
-                      >
-                        Get this recipe free
-                      </Link>
-                      <Link
-                        href={`/meal-plans/${recipe.parentSlug}`}
-                        onClick={(e) => e.stopPropagation()}
-                        className="flex items-center justify-center gap-1.5 text-xs text-orange-500 hover:text-orange-600 font-medium mt-3 transition-colors duration-200"
-                      >
-                        <span>Browse {recipe.parentTitle}</span>
-                        <ArrowIcon />
-                      </Link>
-                    </div>
-                  )}
-                </div>
+                <PreviewRecipeCard
+                  key={`preview-${item.data.parentSlug}-${item.data.name}-${i}`}
+                  recipe={item.data}
+                  isExpanded={expandedPreview === `${item.data.parentSlug}-${item.data.name}-${i}`}
+                  onToggle={() =>
+                    setExpandedPreview(
+                      expandedPreview === `${item.data.parentSlug}-${item.data.name}-${i}`
+                        ? null
+                        : `${item.data.parentSlug}-${item.data.name}-${i}`
+                    )
+                  }
+                />
               );
             })}
           </div>
@@ -347,6 +326,167 @@ export function RecipeLibrary({ recipes }: { recipes: RecipeEntry[] }) {
           </Link>
         </div>
       </div>
+    </div>
+  );
+}
+
+/* ---------- Full Recipe Card ---------- */
+
+function FullRecipeCard({ recipe }: { recipe: FullRecipeEntry }) {
+  return (
+    <Link
+      href={`/recipes/${recipe.slug}`}
+      className="group flex flex-col rounded-2xl border border-stone-200 bg-white p-5 transition-all duration-200 hover:border-orange-200 hover:shadow-lg hover:-translate-y-0.5"
+    >
+      {/* Top row: emoji + badges */}
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2">
+          <span className="text-3xl leading-none">{recipe.emoji}</span>
+          <span
+            className={`inline-block rounded-full px-2.5 py-1 text-[11px] font-semibold capitalize ${mealTypeBadge[recipe.mealType] ?? "bg-stone-50 text-stone-500"}`}
+          >
+            {recipe.mealType}
+          </span>
+        </div>
+        <span className="rounded-full bg-orange-50 px-2 py-0.5 text-[10px] font-semibold text-orange-600">
+          Full Recipe
+        </span>
+      </div>
+
+      {/* Name */}
+      <h3 className="text-base font-semibold leading-snug mb-2 text-stone-900 group-hover:text-orange-600 transition-colors duration-200">
+        {recipe.name}
+      </h3>
+
+      {/* Description */}
+      <p className="text-sm text-stone-500 leading-relaxed mb-4 flex-1 line-clamp-2">
+        {recipe.description}
+      </p>
+
+      {/* Meta pills */}
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="flex items-center gap-1 text-xs text-stone-400">
+          <ClockIcon />
+          {formatPrepTime(recipe.prepTime)}
+        </span>
+        <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] font-medium text-stone-500">
+          {recipe.cuisine}
+        </span>
+        <span className="rounded-full bg-stone-100 px-2 py-0.5 text-[10px] font-medium text-stone-500">
+          {recipe.difficulty}
+        </span>
+      </div>
+
+      {/* Tags */}
+      {recipe.tags.length > 0 && (
+        <div className="flex flex-wrap gap-1.5">
+          {recipe.tags.slice(0, 4).map((tag) => (
+            <span
+              key={tag}
+              className="rounded-full bg-stone-50 px-2 py-0.5 text-[10px] font-medium text-stone-400"
+            >
+              {tag}
+            </span>
+          ))}
+          {recipe.tags.length > 4 && (
+            <span className="rounded-full bg-stone-50 px-2 py-0.5 text-[10px] font-medium text-stone-400">
+              +{recipe.tags.length - 4}
+            </span>
+          )}
+        </div>
+      )}
+    </Link>
+  );
+}
+
+/* ---------- Preview Recipe Card ---------- */
+
+function PreviewRecipeCard({
+  recipe,
+  isExpanded,
+  onToggle,
+}: {
+  recipe: PreviewRecipeEntry;
+  isExpanded: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <div
+      onClick={onToggle}
+      className={`group flex flex-col rounded-2xl border bg-white p-5 transition-all duration-200 cursor-pointer ${
+        isExpanded
+          ? "border-orange-300 shadow-lg"
+          : "border-stone-100 hover:border-orange-200 hover:shadow-lg hover:-translate-y-0.5"
+      }`}
+    >
+      {/* Top row: badge + prep time */}
+      <div className="flex items-center justify-between mb-3">
+        <span
+          className={`inline-block rounded-full px-2.5 py-1 text-[11px] font-semibold capitalize ${mealTypeBadge[recipe.mealType] ?? "bg-stone-50 text-stone-500"}`}
+        >
+          {recipe.mealType}
+        </span>
+        <span className="flex items-center gap-1 text-xs text-stone-400">
+          <ClockIcon />
+          {recipe.prepTime}
+        </span>
+      </div>
+
+      {/* Name */}
+      <h3
+        className={`text-base font-semibold leading-snug mb-2 transition-colors duration-200 ${
+          isExpanded ? "text-orange-600" : "text-stone-900 group-hover:text-orange-600"
+        }`}
+      >
+        {recipe.name}
+      </h3>
+
+      {/* Description */}
+      <p
+        className={`text-sm text-stone-500 leading-relaxed mb-4 flex-1 ${
+          isExpanded ? "" : "line-clamp-2"
+        }`}
+      >
+        {recipe.description}
+      </p>
+
+      {/* Tags */}
+      {recipe.tags.length > 0 && (
+        <div className="flex flex-wrap gap-1.5 mb-4">
+          {recipe.tags.map((tag) => (
+            <span
+              key={tag}
+              className="rounded-full bg-stone-50 px-2 py-0.5 text-[10px] font-medium text-stone-400"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+
+      {/* Expanded: CTA to get full recipe */}
+      {isExpanded && (
+        <div className="mt-2 pt-4 border-t border-stone-100">
+          <p className="text-sm text-stone-500 mb-3">
+            Get the full recipe with ingredients, step-by-step instructions, and a grocery list.
+          </p>
+          <Link
+            href="/onboarding"
+            onClick={(e) => e.stopPropagation()}
+            className="inline-flex items-center justify-center w-full rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-orange-600 min-h-[44px]"
+          >
+            Get this recipe free
+          </Link>
+          <Link
+            href={`/meal-plans/${recipe.parentSlug}`}
+            onClick={(e) => e.stopPropagation()}
+            className="flex items-center justify-center gap-1.5 text-xs text-orange-500 hover:text-orange-600 font-medium mt-3 transition-colors duration-200"
+          >
+            <span>Browse {recipe.parentTitle}</span>
+            <ArrowIcon />
+          </Link>
+        </div>
+      )}
     </div>
   );
 }

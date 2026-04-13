@@ -1,0 +1,1241 @@
+{
+  "grilled-cheese-tomato-soup-brunch": {
+    "name": "Sandwich de Queso a la Plancha con Sopa de Tomate",
+    "description": "Un reconfortante brunch que combina sándwiches de queso crujientes y dorados con una rica sopa de tomate casera. Perfecto para mañanas de fin de semana sin prisas.",
+    "ingredients": [
+      { "name": "pan de masa madre", "amount": "4", "unit": "rebanadas", "group": "Para el sándwich de queso" },
+      { "name": "queso cheddar fuerte", "amount": "4", "unit": "oz", "group": "Para el sándwich de queso" },
+      { "name": "mantequilla sin sal", "amount": "2", "unit": "cdas", "group": "Para el sándwich de queso" },
+      { "name": "tomates enteros enlatados", "amount": "28", "unit": "oz", "group": "Para la sopa" },
+      { "name": "cebolla amarilla", "amount": "1", "unit": "mediana", "group": "Para la sopa" },
+      { "name": "dientes de ajo", "amount": "2", "unit": "dientes", "group": "Para la sopa" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda", "group": "Para la sopa" },
+      { "name": "crema espesa", "amount": "2", "unit": "cdas", "group": "Para la sopa" },
+      { "name": "sal", "amount": "1", "unit": "cdta" },
+      { "name": "pimienta negra", "amount": "1/2", "unit": "cdta" },
+      { "name": "albahaca seca", "amount": "1/2", "unit": "cdta", "group": "Para la sopa" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pica la cebolla y tritura el ajo. Calienta el aceite de oliva en una cacerola mediana a fuego medio y cocina la cebolla durante 4-5 minutos hasta que esté blanda." },
+      { "step": 2, "instruction": "Agrega el ajo y cocina por 30 segundos. Vierte los tomates enlatados con su jugo, añade la albahaca seca, la sal y la pimienta. Lleva a ebullición suave y cocina durante 15 minutos.", "tip": "Aplasta los tomates enteros con una cuchara mientras se cocinan para una textura más rústica, o licúa al final para una sopa más suave." },
+      { "step": 3, "instruction": "Mientras la sopa hierve a fuego lento, unta mantequilla en un lado de cada rebanada de pan. Coloca el queso entre los lados sin mantequilla para formar 2 sándwiches." },
+      { "step": 4, "instruction": "Calienta una sartén a fuego medio. Cocina cada sándwich durante 3-4 minutos por lado hasta que esté dorado y el queso se haya derretido.", "tip": "Presiona suavemente con una espátula para un dorado uniforme. Fuego bajo y lento da mejores resultados que fuego alto." },
+      { "step": 5, "instruction": "Usa una batidora de mano para hacer puré la sopa hasta que esté suave (o déjala con trozos si prefieres). Incorpora la crema espesa." },
+      { "step": 6, "instruction": "Corta el sándwich de queso en diagonal y sirve junto a tazones de sopa de tomate caliente." }
+    ]
+  },
+  "shakshuka": {
+    "name": "Shakshuka",
+    "description": "Huevos escalfados en una salsa de tomate y pimiento especiada, servidos directamente de la sartén con pan crujiente para mojar. Un clásico del desayuno norteafricano y de Medio Oriente.",
+    "ingredients": [
+      { "name": "huevos grandes", "amount": "6", "unit": "enteros" },
+      { "name": "tomates triturados enlatados", "amount": "28", "unit": "oz" },
+      { "name": "pimiento rojo", "amount": "1", "unit": "grande" },
+      { "name": "cebolla amarilla", "amount": "1", "unit": "mediana" },
+      { "name": "dientes de ajo", "amount": "3", "unit": "dientes" },
+      { "name": "aceite de oliva", "amount": "2", "unit": "cdas" },
+      { "name": "comino molido", "amount": "1", "unit": "cdta" },
+      { "name": "pimentón ahumado", "amount": "1", "unit": "cdta" },
+      { "name": "pimienta de cayena", "amount": "1/4", "unit": "cdta" },
+      { "name": "sal", "amount": "1", "unit": "cdta" },
+      { "name": "cilantro fresco", "amount": "2", "unit": "cdas" },
+      { "name": "pan crujiente", "amount": "4", "unit": "rebanadas" },
+      { "name": "queso feta desmenuzado", "amount": "2", "unit": "oz" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pica la cebolla y el pimiento. Tritura el ajo. Calienta el aceite de oliva en una sartén grande apta para horno a fuego medio." },
+      { "step": 2, "instruction": "Saltea la cebolla y el pimiento durante 5-6 minutos hasta que estén blandos. Agrega el ajo, el comino, el pimentón y la cayena. Cocina por 1 minuto hasta que esté fragante." },
+      { "step": 3, "instruction": "Vierte los tomates triturados y sazona con sal. Remueve bien y cocina a fuego lento durante 10 minutos hasta que la salsa espese ligeramente." },
+      { "step": 4, "instruction": "Haz 6 pequeños huecos en la salsa con el dorso de una cuchara. Rompe un huevo en cada hueco.", "tip": "Rompe los huevos primero en un tazón pequeño para evitar fragmentos de cáscara en la salsa." },
+      { "step": 5, "instruction": "Tapa la sartén y cocina a fuego medio-bajo durante 6-8 minutos hasta que las claras estén cuajadas pero las yemas aún estén líquidas." },
+      { "step": 6, "instruction": "Retira del fuego, espolvorea con queso feta desmenuzado y cilantro picado. Sirve inmediatamente con pan crujiente para mojar." }
+    ]
+  },
+  "overnight-oats": {
+    "name": "Avena Nocturna",
+    "description": "Avena cremosa sin cocción preparada la noche anterior con leche, semillas de chía y los toppings de tu elección. El desayuno perfecto para llevar en mañanas ajetreadas.",
+    "ingredients": [
+      { "name": "avena en hojuelas", "amount": "1", "unit": "taza" },
+      { "name": "leche (cualquier tipo)", "amount": "1", "unit": "taza" },
+      { "name": "yogur griego natural", "amount": "1/2", "unit": "taza" },
+      { "name": "semillas de chía", "amount": "2", "unit": "cdas" },
+      { "name": "jarabe de arce", "amount": "1", "unit": "cda" },
+      { "name": "extracto de vainilla", "amount": "1/2", "unit": "cdta" },
+      { "name": "pizca de sal", "amount": "1", "unit": "pizca" },
+      { "name": "frutos rojos frescos", "amount": "1/2", "unit": "taza" },
+      { "name": "almendras laminadas", "amount": "2", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "En un tazón mediano o frasco, mezcla la avena, la leche, el yogur griego, las semillas de chía, el jarabe de arce, el extracto de vainilla y la sal. Remueve bien." },
+      { "step": 2, "instruction": "Divide la mezcla entre dos frascos o recipientes. Presiona ligeramente para sumergir la avena." },
+      { "step": 3, "instruction": "Tapa y refrigera por al menos 4 horas o toda la noche.", "tip": "Se conservan hasta 3 días en el refrigerador, así que puedes preparar varios a la vez." },
+      { "step": 4, "instruction": "Por la mañana, remueve la avena y agrega un chorrito de leche si está muy espesa. Cubre con frutos rojos frescos y almendras laminadas." }
+    ]
+  },
+  "avocado-toast": {
+    "name": "Tostada de Aguacate",
+    "description": "Aguacate perfectamente machacado sobre pan de masa madre tostado con un huevo semicocido, condimento everything bagel y un toque de limón. Simple, satisfactorio e infinitamente personalizable.",
+    "ingredients": [
+      { "name": "aguacates maduros", "amount": "2", "unit": "medianos" },
+      { "name": "pan de masa madre", "amount": "2", "unit": "rebanadas gruesas" },
+      { "name": "huevos grandes", "amount": "2", "unit": "enteros" },
+      { "name": "jugo de limón", "amount": "1", "unit": "cda" },
+      { "name": "hojuelas de chile rojo", "amount": "1/4", "unit": "cdta" },
+      { "name": "condimento everything bagel", "amount": "1", "unit": "cdta" },
+      { "name": "sal de mar en escamas", "amount": "1/4", "unit": "cdta" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pon a hervir una pequeña olla de agua suavemente. Baja los huevos con cuidado y cocina durante exactamente 6.5 minutos para una yema cremosa.", "tip": "Usa un temporizador. Transfiere los huevos inmediatamente a un baño de agua con hielo para detener la cocción." },
+      { "step": 2, "instruction": "Mientras se cocinan los huevos, tuesta las rebanadas de masa madre hasta que estén doradas y crujientes." },
+      { "step": 3, "instruction": "Parte los aguacates por la mitad y saca la pulpa en un tazón. Agrega el jugo de limón y una pizca de sal. Machaca con un tenedor a tu consistencia preferida." },
+      { "step": 4, "instruction": "Unta generosamente el aguacate machacado sobre cada tostada. Pela y corta por la mitad los huevos, colocando una mitad en cada tostada." },
+      { "step": 5, "instruction": "Rocía con aceite de oliva, espolvorea con condimento everything bagel, hojuelas de chile rojo y sal de mar en escamas. Sirve inmediatamente." }
+    ]
+  },
+  "french-toast": {
+    "name": "Tostada Francesa",
+    "description": "Gruesas rebanadas de brioche remojadas en una mezcla de huevo con vainilla y canela, doradas a la perfección. Servidas con jarabe de arce, frutos rojos frescos y una espolvoreada de azúcar glas.",
+    "ingredients": [
+      { "name": "pan brioche", "amount": "8", "unit": "rebanadas gruesas" },
+      { "name": "huevos grandes", "amount": "4", "unit": "enteros" },
+      { "name": "leche entera", "amount": "3/4", "unit": "taza" },
+      { "name": "extracto de vainilla", "amount": "1", "unit": "cdta" },
+      { "name": "canela molida", "amount": "1", "unit": "cdta" },
+      { "name": "azúcar granulada", "amount": "1", "unit": "cda" },
+      { "name": "mantequilla sin sal", "amount": "2", "unit": "cdas" },
+      { "name": "jarabe de arce", "amount": "4", "unit": "cdas" },
+      { "name": "azúcar glas", "amount": "1", "unit": "cda" },
+      { "name": "frutos rojos mixtos frescos", "amount": "1", "unit": "taza" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "En un plato hondo y amplio, bate los huevos, la leche, la vainilla, la canela y el azúcar hasta que esté todo bien mezclado." },
+      { "step": 2, "instruction": "Calienta una sartén antiadherente grande o plancha a fuego medio. Agrega la mitad de la mantequilla y deja que se derrita." },
+      { "step": 3, "instruction": "Sumerge cada rebanada de brioche en la mezcla de huevo, dejándola remojar unos 15 segundos por lado. Deja que escurra el exceso.", "tip": "El pan del día anterior funciona mejor. Absorbe la mezcla sin desmoronarse." },
+      { "step": 4, "instruction": "Cocina cada rebanada durante 2-3 minutos por lado hasta que esté dorada. Agrega más mantequilla entre tandas según sea necesario." },
+      { "step": 5, "instruction": "Sirve apiladas en platos, cubiertas con frutos rojos frescos, un chorrito de jarabe de arce y una ligera espolvoreada de azúcar glas." }
+    ]
+  },
+  "breakfast-burrito": {
+    "name": "Burrito de Desayuno",
+    "description": "Un abundante burrito de tortilla de harina relleno de huevos revueltos esponjosos, frijoles negros sazonados, queso derretido, aguacate y salsa. Ideal para preparar con antelación y fácil de personalizar.",
+    "ingredients": [
+      { "name": "tortillas de harina grandes (25 cm)", "amount": "2", "unit": "enteras" },
+      { "name": "huevos grandes", "amount": "4", "unit": "enteros" },
+      { "name": "frijoles negros enlatados, escurridos", "amount": "1/2", "unit": "taza" },
+      { "name": "queso mexicano rallado", "amount": "1/2", "unit": "taza" },
+      { "name": "aguacate maduro", "amount": "1/2", "unit": "mediano" },
+      { "name": "salsa", "amount": "4", "unit": "cdas" },
+      { "name": "mantequilla sin sal", "amount": "1", "unit": "cda" },
+      { "name": "sal", "amount": "1/4", "unit": "cdta" },
+      { "name": "pimienta negra", "amount": "1/4", "unit": "cdta" },
+      { "name": "salsa picante (opcional)", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Calienta los frijoles negros en una cacerola pequeña a fuego medio. Sazona con una pizca de sal." },
+      { "step": 2, "instruction": "Rompe los huevos en un tazón, agrega sal y pimienta, y bate hasta que estén uniformes. Derrite la mantequilla en una sartén antiadherente a fuego medio-bajo y revuelve los huevos suavemente hasta que estén apenas cuajados (unos 2-3 minutos).", "tip": "Retira los huevos del fuego mientras aún estén ligeramente húmedos. Seguirán cocinándose con el calor residual." },
+      { "step": 3, "instruction": "Calienta las tortillas en una sartén seca durante 20-30 segundos por lado o en el microondas durante 15 segundos." },
+      { "step": 4, "instruction": "Coloca en cada tortilla huevos revueltos, frijoles negros, queso, aguacate en rodajas y salsa. Agrega salsa picante si lo deseas." },
+      { "step": 5, "instruction": "Dobla los lados de la tortilla hacia adentro, luego enrolla firmemente de abajo hacia arriba para formar un burrito. Corta por la mitad y sirve.", "tip": "Para preparar con antelación, envuelve firmemente en papel de aluminio y congela. Recalienta en un horno a 190°C durante 20 minutos." }
+    ]
+  },
+  "greek-yogurt-parfait": {
+    "name": "Parfait de Yogur Griego",
+    "description": "Capas de yogur griego espeso, granola crujiente, frutos rojos frescos y un chorrito de miel. Un desayuno rico en proteínas que se prepara en minutos.",
+    "ingredients": [
+      { "name": "yogur griego natural (2% o entero)", "amount": "1.5", "unit": "tazas" },
+      { "name": "granola", "amount": "1/2", "unit": "taza" },
+      { "name": "fresas frescas, en rodajas", "amount": "1/2", "unit": "taza" },
+      { "name": "arándanos frescos", "amount": "1/4", "unit": "taza" },
+      { "name": "miel", "amount": "2", "unit": "cdtas" },
+      { "name": "semillas de chía", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Vierte la mitad del yogur en dos vasos o tazones, dividiéndolo equitativamente." },
+      { "step": 2, "instruction": "Agrega una capa de granola sobre el yogur, seguida de la mitad de las fresas y los arándanos." },
+      { "step": 3, "instruction": "Agrega el yogur restante, luego cubre con el resto de los frutos rojos y la granola." },
+      { "step": 4, "instruction": "Rocía con miel y espolvorea semillas de chía. Sirve inmediatamente para que la granola se mantenga crujiente.", "tip": "Para preparar con antelación, mantén la granola separada en un recipiente pequeño y agrégala justo antes de comer." }
+    ]
+  },
+  "banana-pancakes": {
+    "name": "Panqueques de Plátano",
+    "description": "Esponjosos panqueques dorados hechos con plátanos maduros machacados para una dulzura natural. Cubiertos con rodajas de plátano fresco, un trozo de mantequilla y jarabe de arce caliente.",
+    "ingredients": [
+      { "name": "plátanos maduros", "amount": "2", "unit": "grandes" },
+      { "name": "harina para todo uso", "amount": "1.5", "unit": "tazas" },
+      { "name": "huevos grandes", "amount": "2", "unit": "enteros" },
+      { "name": "leche", "amount": "3/4", "unit": "taza" },
+      { "name": "polvo para hornear", "amount": "2", "unit": "cdtas" },
+      { "name": "azúcar granulada", "amount": "1", "unit": "cda" },
+      { "name": "extracto de vainilla", "amount": "1", "unit": "cdta" },
+      { "name": "sal", "amount": "1/4", "unit": "cdta" },
+      { "name": "mantequilla sin sal", "amount": "2", "unit": "cdas" },
+      { "name": "jarabe de arce", "amount": "4", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Machaca los plátanos en un tazón grande con un tenedor hasta que estén casi suaves (unos pocos grumos pequeños están bien)." },
+      { "step": 2, "instruction": "Agrega los huevos, la leche, la mantequilla derretida (1 cda) y la vainilla a los plátanos machacados. Bate para mezclar." },
+      { "step": 3, "instruction": "En un tazón separado, bate la harina, el polvo para hornear, el azúcar y la sal. Agrega los ingredientes secos a los húmedos y mezcla hasta que apenas estén combinados.", "tip": "No mezcles demasiado. Unos pocos grumos están bien y harán que los panqueques queden más esponjosos." },
+      { "step": 4, "instruction": "Calienta una sartén antiadherente o plancha a fuego medio. Agrega un poco de mantequilla. Vierte aproximadamente 1/4 de taza de masa por panqueque." },
+      { "step": 5, "instruction": "Cocina hasta que se formen burbujas en la superficie y los bordes se vean cuajados (unos 2-3 minutos). Voltea y cocina 1-2 minutos más hasta que estén dorados." },
+      { "step": 6, "instruction": "Sirve apilados con rodajas de plátano encima, un trozo de mantequilla y jarabe de arce caliente." }
+    ]
+  },
+  "salmon-poke-bowl": {
+    "name": "Bowl de Poke de Salmón",
+    "description": "Cubos de salmón fresco marinados en salsa de soja y aceite de sésamo, servidos sobre arroz para sushi con aguacate, edamame, pepino y un chorrito de mayonesa picante.",
+    "ingredients": [
+      { "name": "salmón para sushi", "amount": "10", "unit": "oz", "group": "Para el poke" },
+      { "name": "salsa de soja", "amount": "2", "unit": "cdas", "group": "Para el poke" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cdta", "group": "Para el poke" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "cdta", "group": "Para el poke" },
+      { "name": "arroz para sushi", "amount": "1", "unit": "taza", "group": "Para el bowl" },
+      { "name": "aguacate maduro", "amount": "1", "unit": "mediano", "group": "Para el bowl" },
+      { "name": "pepino persa", "amount": "1", "unit": "mediano", "group": "Para el bowl" },
+      { "name": "edamame pelado", "amount": "1/2", "unit": "taza", "group": "Para el bowl" },
+      { "name": "mayonesa", "amount": "2", "unit": "cdas", "group": "Para la mayo picante" },
+      { "name": "sriracha", "amount": "1", "unit": "cdta", "group": "Para la mayo picante" },
+      { "name": "semillas de sésamo", "amount": "1", "unit": "cda" },
+      { "name": "cebolletas, en rodajas", "amount": "2", "unit": "tallos" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cocina el arroz para sushi según las instrucciones del paquete. Déjalo enfriar a temperatura ambiente." },
+      { "step": 2, "instruction": "Corta el salmón en cubos de 1 cm. Mezcla con la salsa de soja, el aceite de sésamo y el vinagre de arroz. Refrigera durante 10 minutos.", "tip": "Usa solo salmón para sushi de una fuente confiable. El pescado se sirve crudo." },
+      { "step": 3, "instruction": "Corta el aguacate en rodajas y pica el pepino en cubos. Mezcla la mayonesa y la sriracha para la mayo picante." },
+      { "step": 4, "instruction": "Divide el arroz entre dos tazones. Coloca encima el salmón marinado, el aguacate, el pepino y el edamame." },
+      { "step": 5, "instruction": "Rocía con mayo picante, espolvorea con semillas de sésamo y cebolletas en rodajas. Sirve inmediatamente." }
+    ]
+  },
+  "caprese-salad-burrata": {
+    "name": "Ensalada Caprese con Burrata",
+    "description": "Una versión lujosa del clásico italiano. La cremosa burrata reemplaza la mozzarella, acompañada de tomates herederos maduros, albahaca fresca y un glaseado balsámico de calidad.",
+    "ingredients": [
+      { "name": "queso burrata", "amount": "8", "unit": "oz" },
+      { "name": "tomates herederos", "amount": "2", "unit": "grandes" },
+      { "name": "hojas de albahaca fresca", "amount": "10", "unit": "hojas" },
+      { "name": "aceite de oliva extra virgen", "amount": "2", "unit": "cdas" },
+      { "name": "glaseado balsámico", "amount": "1", "unit": "cda" },
+      { "name": "sal de mar en escamas", "amount": "1/4", "unit": "cdta" },
+      { "name": "pimienta negra recién molida", "amount": "1/4", "unit": "cdta" },
+      { "name": "pan crujiente", "amount": "4", "unit": "rebanadas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Corta los tomates en rodajas de medio centímetro de grosor. Colócalos en un plato de servir en una sola capa." },
+      { "step": 2, "instruction": "Coloca la burrata en el centro de los tomates. Ábrela suavemente para que el interior cremoso se derrame.", "tip": "Deja la burrata a temperatura ambiente durante 15 minutos antes de servir para obtener el mejor sabor y textura." },
+      { "step": 3, "instruction": "Coloca hojas de albahaca fresca entre y alrededor de los tomates." },
+      { "step": 4, "instruction": "Rocía generosamente con aceite de oliva y glaseado balsámico. Sazona con sal en escamas y pimienta molida. Sirve con pan crujiente." }
+    ]
+  },
+  "vietnamese-spring-rolls": {
+    "name": "Rollitos Vietnamitas",
+    "description": "Rollitos frescos de papel de arroz rellenos de camarones, fideos de arroz, vegetales crujientes y hierbas. Servidos con una sabrosa salsa de maní.",
+    "ingredients": [
+      { "name": "obleas de papel de arroz (20 cm)", "amount": "12", "unit": "hojas", "group": "Para los rollitos" },
+      { "name": "camarones cocidos, cortados a la mitad", "amount": "12", "unit": "grandes", "group": "Para los rollitos" },
+      { "name": "fideos de arroz", "amount": "4", "unit": "oz", "group": "Para los rollitos" },
+      { "name": "hojas de lechuga mantecosa", "amount": "6", "unit": "hojas", "group": "Para los rollitos" },
+      { "name": "zanahorias, en juliana", "amount": "1", "unit": "taza", "group": "Para los rollitos" },
+      { "name": "pepino, en juliana", "amount": "1", "unit": "taza", "group": "Para los rollitos" },
+      { "name": "hojas de menta fresca", "amount": "1/4", "unit": "taza", "group": "Para los rollitos" },
+      { "name": "ramitas de cilantro fresco", "amount": "1/4", "unit": "taza", "group": "Para los rollitos" },
+      { "name": "mantequilla de maní suave", "amount": "3", "unit": "cdas", "group": "Para la salsa de maní" },
+      { "name": "salsa hoisin", "amount": "2", "unit": "cdas", "group": "Para la salsa de maní" },
+      { "name": "agua tibia", "amount": "2", "unit": "cdas", "group": "Para la salsa de maní" },
+      { "name": "sriracha", "amount": "1", "unit": "cdta", "group": "Para la salsa de maní" },
+      { "name": "jugo de lima", "amount": "1", "unit": "cda", "group": "Para la salsa de maní" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cocina los fideos de arroz según las instrucciones del paquete. Escurre, enjuaga con agua fría y reserva." },
+      { "step": 2, "instruction": "Prepara la salsa de maní batiendo la mantequilla de maní, la salsa hoisin, el agua tibia, la sriracha y el jugo de lima hasta que esté suave. Reserva." },
+      { "step": 3, "instruction": "Llena un plato grande y poco profundo con agua tibia. Sumerge una oblea de papel de arroz a la vez durante 10-15 segundos hasta que esté flexible (no completamente blanda).", "tip": "La oblea seguirá ablandándose después de sacarla. Si está demasiado blanda al sumergirla, se romperá al enrollar." },
+      { "step": 4, "instruction": "Coloca la oblea plana. Pon una hoja de lechuga, un puñado pequeño de fideos, zanahorias, pepino, menta y cilantro en el tercio inferior. Agrega 2 mitades de camarón, con el corte hacia arriba." },
+      { "step": 5, "instruction": "Dobla el borde inferior sobre el relleno, mete los lados y enrolla firmemente como un burrito. La oblea se adherirá sola." },
+      { "step": 6, "instruction": "Repite con las obleas y el relleno restantes. Sirve con la salsa de maní." }
+    ]
+  },
+  "greek-chicken-salad": {
+    "name": "Ensalada Griega de Pollo",
+    "description": "Pollo a la plancha con hierbas y limón sobre lechuga romana crujiente con pepinos, tomates, aceitunas kalamata, cebolla roja y queso feta desmenuzado, aderezado con una vinagreta de orégano.",
+    "ingredients": [
+      { "name": "pechugas de pollo sin hueso ni piel", "amount": "2", "unit": "medianas", "group": "Para el pollo" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda", "group": "Para el pollo" },
+      { "name": "jugo de limón", "amount": "2", "unit": "cdas", "group": "Para el pollo" },
+      { "name": "orégano seco", "amount": "1", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "lechuga romana, picada", "amount": "4", "unit": "tazas", "group": "Para la ensalada" },
+      { "name": "tomates cherry, cortados a la mitad", "amount": "1", "unit": "taza", "group": "Para la ensalada" },
+      { "name": "pepino, en cubos", "amount": "1", "unit": "mediano", "group": "Para la ensalada" },
+      { "name": "aceitunas kalamata", "amount": "1/4", "unit": "taza", "group": "Para la ensalada" },
+      { "name": "cebolla roja, en rodajas finas", "amount": "1/4", "unit": "pequeña", "group": "Para la ensalada" },
+      { "name": "queso feta desmenuzado", "amount": "2", "unit": "oz", "group": "Para la ensalada" },
+      { "name": "aceite de oliva extra virgen", "amount": "2", "unit": "cdas", "group": "Para el aderezo" },
+      { "name": "vinagre de vino tinto", "amount": "1", "unit": "cda", "group": "Para el aderezo" },
+      { "name": "sal y pimienta", "amount": "1", "unit": "al gusto" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Sazona el pollo con aceite de oliva, la mitad del jugo de limón, orégano, sal y pimienta. Deja marinar al menos 10 minutos." },
+      { "step": 2, "instruction": "Calienta una sartén para asar o sartén a fuego medio-alto. Cocina el pollo 5-6 minutos por lado hasta que la temperatura interna alcance 74°C. Deja reposar 5 minutos, luego corta en rodajas.", "tip": "Aplana el pollo a un grosor uniforme antes de cocinar para resultados más parejos." },
+      { "step": 3, "instruction": "En un tazón pequeño, bate el aceite de oliva, el vinagre de vino tinto, el jugo de limón restante, sal y pimienta para el aderezo." },
+      { "step": 4, "instruction": "En un tazón grande, combina la lechuga romana, los tomates, el pepino, las aceitunas y la cebolla roja. Mezcla con el aderezo." },
+      { "step": 5, "instruction": "Divide la ensalada entre los platos, cubre con el pollo en rodajas y el queso feta desmenuzado. Sirve inmediatamente." }
+    ]
+  },
+  "shrimp-lettuce-wraps": {
+    "name": "Wraps de Lechuga con Camarones",
+    "description": "Camarones con ajo y chile en copas de lechuga mantecosa crujiente con zanahorias encurtidas, rábanos en rodajas y un aderezo ácido de lima. Ligeros, crujientes e increíblemente frescos.",
+    "ingredients": [
+      { "name": "camarones grandes, pelados y desvenados", "amount": "12", "unit": "oz" },
+      { "name": "hojas de lechuga mantecosa", "amount": "8", "unit": "hojas grandes" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes" },
+      { "name": "salsa de soja", "amount": "1", "unit": "cda" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cdta" },
+      { "name": "salsa de ajo con chile", "amount": "1", "unit": "cdta" },
+      { "name": "jugo de lima", "amount": "2", "unit": "cdas" },
+      { "name": "zanahorias, ralladas", "amount": "1/2", "unit": "taza" },
+      { "name": "rábanos, en rodajas finas", "amount": "3", "unit": "medianos" },
+      { "name": "cilantro fresco", "amount": "2", "unit": "cdas" },
+      { "name": "aceite vegetal", "amount": "1", "unit": "cda" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Seca los camarones con toallas de papel. Sazona ligeramente con sal." },
+      { "step": 2, "instruction": "Calienta el aceite vegetal en una sartén a fuego alto. Agrega los camarones en una sola capa y cocina 1-2 minutos por lado hasta que estén rosados y curvados." },
+      { "step": 3, "instruction": "Agrega el ajo, la salsa de soja, el aceite de sésamo y la salsa de ajo con chile. Mezcla durante 30 segundos para cubrir. Retira del fuego." },
+      { "step": 4, "instruction": "Coloca las hojas de lechuga mantecosa en un plato. Rellena cada una con camarones, zanahorias ralladas y rábanos en rodajas." },
+      { "step": 5, "instruction": "Exprime jugo de lima sobre los wraps y decora con cilantro fresco. Sirve inmediatamente." }
+    ]
+  },
+  "falafel-bowl": {
+    "name": "Bowl de Falafel",
+    "description": "Falafel horneado crujiente servido sobre cuscús esponjoso con hummus, cebolla roja encurtida, ensalada de pepino y tomate, y una cremosa salsa de tahini.",
+    "ingredients": [
+      { "name": "garbanzos enlatados, escurridos y enjuagados", "amount": "15", "unit": "oz", "group": "Para el falafel" },
+      { "name": "perejil fresco", "amount": "1/2", "unit": "taza", "group": "Para el falafel" },
+      { "name": "cilantro fresco", "amount": "1/4", "unit": "taza", "group": "Para el falafel" },
+      { "name": "dientes de ajo", "amount": "3", "unit": "dientes", "group": "Para el falafel" },
+      { "name": "comino molido", "amount": "1", "unit": "cdta", "group": "Para el falafel" },
+      { "name": "harina para todo uso", "amount": "2", "unit": "cdas", "group": "Para el falafel" },
+      { "name": "aceite de oliva", "amount": "2", "unit": "cdas", "group": "Para el falafel" },
+      { "name": "cuscús", "amount": "1", "unit": "taza", "group": "Para el bowl" },
+      { "name": "hummus comprado", "amount": "1/2", "unit": "taza", "group": "Para el bowl" },
+      { "name": "tomates cherry, en cuartos", "amount": "1", "unit": "taza", "group": "Para el bowl" },
+      { "name": "pepino, en cubos", "amount": "1", "unit": "mediano", "group": "Para el bowl" },
+      { "name": "tahini", "amount": "3", "unit": "cdas", "group": "Para la salsa de tahini" },
+      { "name": "jugo de limón", "amount": "2", "unit": "cdas", "group": "Para la salsa de tahini" },
+      { "name": "agua", "amount": "2", "unit": "cdas", "group": "Para la salsa de tahini" },
+      { "name": "sal", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Precalienta el horno a 200°C. Cubre una bandeja para hornear con papel pergamino y unta con aceite de oliva." },
+      { "step": 2, "instruction": "Agrega los garbanzos, perejil, cilantro, ajo, comino, harina y 1/2 cdta de sal a un procesador de alimentos. Pulsa 10-12 veces hasta que esté combinado pero aún ligeramente con trozos (no una pasta).", "tip": "Si la mezcla está muy húmeda, agrega otra cucharada de harina. Debe mantenerse junta al presionar." },
+      { "step": 3, "instruction": "Forma la mezcla en 12 hamburguesas pequeñas. Colócalas en la bandeja y unta la parte superior con aceite de oliva. Hornea durante 25 minutos, volteando a mitad de cocción, hasta que estén doradas y crujientes." },
+      { "step": 4, "instruction": "Mientras el falafel se hornea, cocina el cuscús según las instrucciones del paquete. Esponja con un tenedor." },
+      { "step": 5, "instruction": "Prepara la salsa de tahini batiendo el tahini, el jugo de limón, el agua y una pizca de sal hasta que esté suave y fluida." },
+      { "step": 6, "instruction": "Arma los bowls con cuscús como base, cubierto con falafel, hummus, ensalada de tomate y pepino, y un generoso chorrito de salsa de tahini." }
+    ]
+  },
+  "chicken-shawarma-plate": {
+    "name": "Plato de Shawarma de Pollo",
+    "description": "Muslos de pollo especiados asados hasta quedar chamuscados y jugosos, servidos con salsa de ajo, encurtidos, tabulé y pan pita caliente.",
+    "ingredients": [
+      { "name": "muslos de pollo sin hueso ni piel", "amount": "1.5", "unit": "lbs", "group": "Para el pollo" },
+      { "name": "aceite de oliva", "amount": "2", "unit": "cdas", "group": "Para el pollo" },
+      { "name": "comino molido", "amount": "1", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "cilantro molido", "amount": "1", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "pimentón ahumado", "amount": "1", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "cúrcuma molida", "amount": "1/2", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "canela molida", "amount": "1/4", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "yogur griego natural", "amount": "1/2", "unit": "taza", "group": "Para la salsa de ajo" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes", "group": "Para la salsa de ajo" },
+      { "name": "jugo de limón", "amount": "1", "unit": "cda", "group": "Para la salsa de ajo" },
+      { "name": "pan pita", "amount": "4", "unit": "redondeles" },
+      { "name": "tomates cherry, en cubos", "amount": "1", "unit": "taza" },
+      { "name": "pepino inglés, en cubos", "amount": "1/2", "unit": "mediano" },
+      { "name": "sal", "amount": "1.5", "unit": "cdtas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Mezcla el aceite de oliva, comino, cilantro, pimentón, cúrcuma, canela y 1 cdta de sal en un tazón. Cubre bien los muslos de pollo y deja marinar al menos 15 minutos (o hasta toda la noche)." },
+      { "step": 2, "instruction": "Precalienta el horno a 220°C. Coloca el pollo en una bandeja en una sola capa. Asa durante 20-25 minutos hasta que los bordes estén chamuscados y esté cocido (74°C interno)." },
+      { "step": 3, "instruction": "Mientras el pollo se asa, prepara la salsa de ajo combinando yogur, ajo picado, jugo de limón y una pizca de sal." },
+      { "step": 4, "instruction": "Mezcla los tomates y pepino en cubos con un chorrito de aceite de oliva, jugo de limón y sal para una ensalada rápida." },
+      { "step": 5, "instruction": "Corta el pollo en contra de la fibra. Calienta el pan pita. Sirve el pollo con salsa de ajo, la ensalada de tomate y pepino, y pan pita caliente.", "tip": "Para un mejor chamuscado, pon el pollo bajo el gratinador durante los últimos 2-3 minutos." }
+    ]
+  },
+  "bibimbap": {
+    "name": "Bibimbap",
+    "description": "Un vibrante bowl de arroz coreano cubierto con vegetales sazonados, un huevo frito y salsa gochujang. Mezcla todo junto antes de comer para la experiencia completa.",
+    "ingredients": [
+      { "name": "arroz de grano corto", "amount": "1", "unit": "taza" },
+      { "name": "huevos grandes", "amount": "2", "unit": "enteros" },
+      { "name": "espinacas frescas", "amount": "2", "unit": "tazas" },
+      { "name": "zanahorias, en juliana", "amount": "1", "unit": "mediana" },
+      { "name": "calabacín, en juliana", "amount": "1", "unit": "pequeño" },
+      { "name": "brotes de soja", "amount": "1", "unit": "taza" },
+      { "name": "hongos shiitake, en rodajas", "amount": "4", "unit": "oz" },
+      { "name": "aceite de sésamo", "amount": "2", "unit": "cdas" },
+      { "name": "salsa de soja", "amount": "1", "unit": "cda" },
+      { "name": "gochujang (pasta de chile coreana)", "amount": "2", "unit": "cdas" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes" },
+      { "name": "semillas de sésamo", "amount": "1", "unit": "cda" },
+      { "name": "aceite vegetal", "amount": "1", "unit": "cda" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cocina el arroz según las instrucciones del paquete. Mantenlo caliente." },
+      { "step": 2, "instruction": "Blanquea las espinacas en agua hirviendo durante 30 segundos, escurre, exprime el exceso de agua y mezcla con 1 cdta de aceite de sésamo y 1 cdta de salsa de soja." },
+      { "step": 3, "instruction": "Saltea cada vegetal por separado en una sartén caliente con un poco de aceite de sésamo: zanahorias por 2 minutos, calabacín por 2 minutos, hongos con ajo por 3 minutos, brotes de soja por 1 minuto. Sazona cada uno ligeramente con sal.", "tip": "Cocinar los vegetales por separado preserva sus sabores y texturas distintas." },
+      { "step": 4, "instruction": "Fríe los huevos con la yema hacia arriba en aceite vegetal a fuego medio hasta que las claras estén cuajadas pero las yemas aún líquidas (unos 3 minutos)." },
+      { "step": 5, "instruction": "Divide el arroz entre dos tazones. Coloca cada vegetal en una sección alrededor del tazón. Pon un huevo frito encima." },
+      { "step": 6, "instruction": "Agrega una cucharada de gochujang y espolvorea con semillas de sésamo. Mezcla todo vigorosamente antes de comer." }
+    ]
+  },
+  "kimchi-fried-rice": {
+    "name": "Arroz Frito con Kimchi",
+    "description": "Un arroz frito rápido y profundamente sabroso cargado de kimchi ácido, cubierto con un huevo frito crujiente y rociado con aceite de sésamo. Mejor preparado con arroz del día anterior.",
+    "ingredients": [
+      { "name": "arroz blanco cocido del día anterior", "amount": "3", "unit": "tazas" },
+      { "name": "kimchi, picado grueso", "amount": "1", "unit": "taza" },
+      { "name": "jugo de kimchi", "amount": "2", "unit": "cdas" },
+      { "name": "huevos grandes", "amount": "2", "unit": "enteros" },
+      { "name": "salsa de soja", "amount": "1", "unit": "cda" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cdta" },
+      { "name": "gochujang", "amount": "1", "unit": "cdta" },
+      { "name": "cebolletas, en rodajas", "amount": "3", "unit": "tallos" },
+      { "name": "aceite vegetal", "amount": "1", "unit": "cda" },
+      { "name": "semillas de sésamo", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Calienta el aceite vegetal en una sartén grande o wok a fuego alto. Agrega el kimchi picado y saltea durante 2-3 minutos hasta que esté ligeramente caramelizado." },
+      { "step": 2, "instruction": "Agrega el arroz y deshaz los grumos. Saltea durante 3-4 minutos hasta que el arroz esté caliente y empiece a crujir en los bordes.", "tip": "El arroz del día anterior funciona mejor porque está más seco. El arroz fresco será demasiado húmedo y no quedará crujiente." },
+      { "step": 3, "instruction": "Agrega la salsa de soja, el jugo de kimchi y el gochujang. Mezcla todo hasta que esté uniformemente cubierto. Empuja el arroz a un lado." },
+      { "step": 4, "instruction": "En una sartén pequeña aparte, fríe los huevos con la yema hacia arriba hasta que las claras estén crujientes pero la yema aún líquida." },
+      { "step": 5, "instruction": "Divide el arroz frito entre dos tazones. Cubre cada uno con un huevo frito, cebolletas en rodajas, semillas de sésamo y un chorrito de aceite de sésamo." }
+    ]
+  },
+  "pad-thai": {
+    "name": "Pad Thai",
+    "description": "Los icónicos fideos de arroz salteados de Tailandia con camarones, huevo revuelto, brotes de soja y maní triturado en una salsa agridulce de tamarindo.",
+    "ingredients": [
+      { "name": "fideos de arroz planos (fideos pad thai)", "amount": "8", "unit": "oz" },
+      { "name": "camarones grandes, pelados", "amount": "8", "unit": "oz" },
+      { "name": "huevos grandes", "amount": "2", "unit": "enteros" },
+      { "name": "pasta de tamarindo", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "salsa de pescado", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "azúcar morena", "amount": "1", "unit": "cda", "group": "Para la salsa" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "cda", "group": "Para la salsa" },
+      { "name": "dientes de ajo, picados", "amount": "3", "unit": "dientes" },
+      { "name": "brotes de soja", "amount": "1", "unit": "taza" },
+      { "name": "cebolletas, cortadas en trozos de 2 cm", "amount": "3", "unit": "tallos" },
+      { "name": "maní tostado, triturado", "amount": "3", "unit": "cdas" },
+      { "name": "gajos de lima", "amount": "2", "unit": "gajos" },
+      { "name": "aceite vegetal", "amount": "2", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Remoja los fideos de arroz en agua caliente (no hirviendo) durante 8-10 minutos hasta que estén flexibles pero aún firmes. Escurre.", "tip": "No remojes demasiado los fideos. Deben estar ligeramente crudos ya que terminarán de cocinarse en el wok." },
+      { "step": 2, "instruction": "Mezcla la pasta de tamarindo, la salsa de pescado, el azúcar morena y el vinagre de arroz en un tazón pequeño. Remueve hasta que el azúcar se disuelva." },
+      { "step": 3, "instruction": "Calienta el aceite en un wok o sartén grande a fuego alto. Cocina los camarones 1-2 minutos por lado hasta que estén rosados. Retira y reserva." },
+      { "step": 4, "instruction": "En el mismo wok, agrega el ajo y cocina durante 15 segundos. Empuja hacia un lado, rompe los huevos y revuélvelos rápidamente." },
+      { "step": 5, "instruction": "Agrega los fideos escurridos y la salsa. Mezcla vigorosamente durante 2-3 minutos hasta que los fideos absorban la salsa." },
+      { "step": 6, "instruction": "Regresa los camarones al wok, agrega los brotes de soja y las cebolletas, y mezcla durante 30 segundos. Sirve cubierto con maní triturado y gajos de lima." }
+    ]
+  },
+  "caesar-salad": {
+    "name": "Ensalada César",
+    "description": "Lechuga romana crujiente bañada en un aderezo César casero con crutones de ajo, Parmesano en virutas y pimienta negra recién molida.",
+    "ingredients": [
+      { "name": "corazones de lechuga romana", "amount": "2", "unit": "cabezas" },
+      { "name": "pan crujiente, en cubos", "amount": "2", "unit": "tazas", "group": "Para los crutones" },
+      { "name": "aceite de oliva", "amount": "2", "unit": "cdas", "group": "Para los crutones" },
+      { "name": "diente de ajo, cortado a la mitad", "amount": "1", "unit": "diente", "group": "Para los crutones" },
+      { "name": "mayonesa", "amount": "3", "unit": "cdas", "group": "Para el aderezo" },
+      { "name": "queso Parmesano, finamente rallado", "amount": "1/4", "unit": "taza", "group": "Para el aderezo" },
+      { "name": "jugo de limón", "amount": "1", "unit": "cda", "group": "Para el aderezo" },
+      { "name": "mostaza Dijon", "amount": "1", "unit": "cdta", "group": "Para el aderezo" },
+      { "name": "salsa Worcestershire", "amount": "1", "unit": "cdta", "group": "Para el aderezo" },
+      { "name": "diente de ajo, picado", "amount": "1", "unit": "diente", "group": "Para el aderezo" },
+      { "name": "queso Parmesano, en virutas", "amount": "1", "unit": "oz" },
+      { "name": "pimienta negra", "amount": "1/2", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Precalienta el horno a 190°C. Mezcla los cubos de pan con aceite de oliva y frota con el diente de ajo cortado a la mitad. Extiende en una bandeja y hornea durante 8-10 minutos hasta que estén dorados y crujientes." },
+      { "step": 2, "instruction": "Prepara el aderezo: bate la mayonesa, el Parmesano rallado, el jugo de limón, la mostaza Dijon, la salsa Worcestershire y el ajo picado hasta que esté suave.", "tip": "Para un aderezo más ligero, agrega agua fría 1 cdta a la vez hasta alcanzar la consistencia deseada." },
+      { "step": 3, "instruction": "Corta la lechuga romana en trozos del tamaño de un bocado y colócala en un tazón grande. Agrega el aderezo y mezcla hasta que cada hoja esté cubierta." },
+      { "step": 4, "instruction": "Agrega los crutones y mezcla suavemente. Sirve la ensalada cubierta con virutas de Parmesano y pimienta negra recién molida." }
+    ]
+  },
+  "chicken-quesadilla": {
+    "name": "Quesadilla de Pollo",
+    "description": "Tortillas doradas y crujientes rellenas de pollo desmenuzado sazonado, queso derretido, pimientos y cebollas. Servidas con crema agria y salsa para mojar.",
+    "ingredients": [
+      { "name": "tortillas de harina grandes (25 cm)", "amount": "2", "unit": "enteras" },
+      { "name": "pollo desmenuzado cocido", "amount": "1", "unit": "taza" },
+      { "name": "queso mexicano rallado", "amount": "1", "unit": "taza" },
+      { "name": "pimiento, en rodajas finas", "amount": "1/2", "unit": "mediano" },
+      { "name": "cebolla amarilla, en rodajas finas", "amount": "1/4", "unit": "mediana" },
+      { "name": "comino molido", "amount": "1/2", "unit": "cdta" },
+      { "name": "chile en polvo", "amount": "1/2", "unit": "cdta" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda" },
+      { "name": "crema agria", "amount": "2", "unit": "cdas" },
+      { "name": "salsa", "amount": "2", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Calienta el aceite de oliva en una sartén a fuego medio. Saltea el pimiento y la cebolla durante 3-4 minutos hasta que estén blandos." },
+      { "step": 2, "instruction": "Agrega el pollo desmenuzado, el comino y el chile en polvo. Mezcla para combinar y calienta durante 1-2 minutos. Retira a un tazón." },
+      { "step": 3, "instruction": "Limpia la sartén. Coloca una tortilla en la sartén seca a fuego medio. Extiende la mitad del queso en una mitad de la tortilla, cubre con la mezcla de pollo y pimiento, y agrega el queso restante encima." },
+      { "step": 4, "instruction": "Dobla la tortilla por la mitad y cocina 2-3 minutos por lado hasta que esté dorada y crujiente y el queso esté completamente derretido.", "tip": "Presiona con una espátula para un dorado uniforme. Mantén el fuego medio para derretir el queso sin quemar la tortilla." },
+      { "step": 5, "instruction": "Repite con la segunda tortilla. Corta cada quesadilla en triángulos y sirve con crema agria y salsa." }
+    ]
+  },
+  "spaghetti-carbonara": {
+    "name": "Espaguetis a la Carbonara",
+    "description": "La auténtica pasta romana con una salsa sedosa hecha de huevos, Pecorino Romano, guanciale y pimienta negra. No necesitas crema cuando dominas la técnica.",
+    "ingredients": [
+      { "name": "espaguetis", "amount": "1", "unit": "lb" },
+      { "name": "guanciale o panceta, en cubos", "amount": "6", "unit": "oz" },
+      { "name": "yemas de huevo grandes", "amount": "4", "unit": "enteras" },
+      { "name": "huevo entero grande", "amount": "1", "unit": "entero" },
+      { "name": "Pecorino Romano, finamente rallado", "amount": "1", "unit": "taza" },
+      { "name": "pimienta negra recién molida", "amount": "1", "unit": "cdta" },
+      { "name": "sal (para el agua de la pasta)", "amount": "2", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Pon a hervir una olla grande de agua y sala generosamente. Debe saber como el mar." },
+      { "step": 2, "instruction": "Mientras el agua se calienta, cocina el guanciale en una sartén fría a fuego medio, removiendo ocasionalmente, durante 6-8 minutos hasta que esté crujiente y la grasa se haya derretido. Retira del fuego." },
+      { "step": 3, "instruction": "En un tazón, bate las yemas de huevo, el huevo entero, el Pecorino rallado y la pimienta negra hasta que esté suave.", "tip": "Usa huevos a temperatura ambiente para una salsa más suave. Los huevos fríos pueden cuajar al contacto con la pasta caliente." },
+      { "step": 4, "instruction": "Cocina los espaguetis 1 minuto menos de lo que indican las instrucciones del paquete (al dente). Reserva 1 taza de agua de cocción antes de escurrir." },
+      { "step": 5, "instruction": "Agrega la pasta escurrida a la sartén con el guanciale (fuera del fuego). Mezcla para cubrir con la grasa derretida." },
+      { "step": 6, "instruction": "Vierte la mezcla de huevo y queso sobre la pasta y mezcla vigorosamente durante 60 segundos, agregando chorros de agua de pasta hasta obtener una salsa cremosa y brillante que cubra cada hebra.", "tip": "La sartén debe estar FUERA del fuego cuando agregues la mezcla de huevo. El calor residual es suficiente. El fuego directo revolverá los huevos." },
+      { "step": 7, "instruction": "Sirve inmediatamente con Pecorino rallado extra y pimienta negra por encima." }
+    ]
+  },
+  "cacio-e-pepe": {
+    "name": "Cacio e Pepe",
+    "description": "La pasta más simple y elegante de Roma. Solo tres ingredientes: pasta, Pecorino Romano y pimienta negra, combinados en una obra maestra cremosa y picante.",
+    "ingredients": [
+      { "name": "tonnarelli o espaguetis", "amount": "8", "unit": "oz" },
+      { "name": "Pecorino Romano, finamente rallado", "amount": "1.5", "unit": "tazas" },
+      { "name": "pimienta negra recién molida", "amount": "1.5", "unit": "cdtas" },
+      { "name": "sal (para el agua de la pasta)", "amount": "1", "unit": "cda" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tuesta la pimienta negra en una sartén grande seca a fuego medio durante 1-2 minutos hasta que esté fragante. Agrega un cucharón de agua de pasta (una vez que esté hirviendo) y deja hervir a fuego lento." },
+      { "step": 2, "instruction": "Pon a hervir una olla de agua con sal. Cocina la pasta 2 minutos menos de lo que indican las instrucciones del paquete." },
+      { "step": 3, "instruction": "Mientras tanto, coloca el Pecorino rallado en un tazón. Agrega 2-3 cucharadas de agua de pasta tibia (no caliente) y remueve vigorosamente para formar una pasta espesa.", "tip": "El agua debe estar tibia, no hirviendo. El agua hirviendo hará que el queso se aglomere en una bola en vez de formar una crema." },
+      { "step": 4, "instruction": "Transfiere la pasta directamente de la olla a la sartén con pimienta usando pinzas (llevando agua almidonada con ella). Mezcla a fuego medio-bajo durante 1 minuto." },
+      { "step": 5, "instruction": "Retira del fuego. Agrega la pasta de queso y mezcla agresivamente, agregando pequeños chorros de agua de pasta, hasta obtener un recubrimiento brillante y cremoso en cada hebra." },
+      { "step": 6, "instruction": "Sirve inmediatamente con Pecorino y pimienta extra por encima." }
+    ]
+  },
+  "one-pot-mac-and-cheese": {
+    "name": "Macarrones con Queso",
+    "description": "Macarrones con queso increíblemente cremosos hechos en una sola olla. Cheddar fuerte y Gruyère derretidos en una salsa aterciopelada que se adhiere a cada fideo.",
+    "ingredients": [
+      { "name": "macarrones coditos", "amount": "1", "unit": "lb" },
+      { "name": "leche entera", "amount": "3", "unit": "tazas" },
+      { "name": "agua", "amount": "1", "unit": "taza" },
+      { "name": "queso cheddar fuerte, rallado", "amount": "8", "unit": "oz" },
+      { "name": "queso Gruyère, rallado", "amount": "4", "unit": "oz" },
+      { "name": "mantequilla sin sal", "amount": "2", "unit": "cdas" },
+      { "name": "mostaza Dijon", "amount": "1", "unit": "cdta" },
+      { "name": "ajo en polvo", "amount": "1/2", "unit": "cdta" },
+      { "name": "pimentón ahumado", "amount": "1/4", "unit": "cdta" },
+      { "name": "sal", "amount": "1", "unit": "cdta" },
+      { "name": "pimienta negra", "amount": "1/2", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combina los macarrones, la leche, el agua, la mantequilla y la sal en una olla grande. Lleva a ebullición a fuego medio-alto, removiendo frecuentemente para evitar que se pegue." },
+      { "step": 2, "instruction": "Reduce el fuego a medio-bajo. Hierve a fuego lento sin tapar, removiendo cada 2 minutos, durante 10-12 minutos hasta que la pasta esté cocida y el líquido se haya reducido a una salsa espesa y almidonada.", "tip": "Remueve frecuentemente. La leche se quemará en el fondo si no se vigila." },
+      { "step": 3, "instruction": "Retira del fuego. Agrega el cheddar y el Gruyère en puñados, removiendo después de cada adición hasta que esté completamente derretido y suave." },
+      { "step": 4, "instruction": "Incorpora la mostaza Dijon, el ajo en polvo, el pimentón ahumado y la pimienta. La salsa espesará mientras reposa." },
+      { "step": 5, "instruction": "Deja reposar 3-4 minutos antes de servir. La salsa seguirá espesándose hasta la consistencia perfecta." }
+    ]
+  },
+  "butter-chicken": {
+    "name": "Pollo al Mantequilla",
+    "description": "Trozos tiernos de pollo cocidos a fuego lento en una rica salsa de tomate y mantequilla suavemente especiada con un toque de crema. El plato más querido de la cocina india, y con razón.",
+    "ingredients": [
+      { "name": "muslos de pollo sin hueso ni piel, en cubos", "amount": "1.5", "unit": "lbs", "group": "Para el pollo" },
+      { "name": "yogur natural", "amount": "1/2", "unit": "taza", "group": "Para el pollo" },
+      { "name": "garam masala", "amount": "1", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "cúrcuma molida", "amount": "1/2", "unit": "cdta", "group": "Para el pollo" },
+      { "name": "tomates triturados enlatados", "amount": "14", "unit": "oz", "group": "Para la salsa" },
+      { "name": "mantequilla sin sal", "amount": "3", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "crema espesa", "amount": "1/2", "unit": "taza", "group": "Para la salsa" },
+      { "name": "cebolla amarilla, en cubos", "amount": "1", "unit": "mediana", "group": "Para la salsa" },
+      { "name": "dientes de ajo, picados", "amount": "3", "unit": "dientes", "group": "Para la salsa" },
+      { "name": "jengibre fresco, rallado", "amount": "1", "unit": "cda", "group": "Para la salsa" },
+      { "name": "comino molido", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "chile en polvo", "amount": "1/2", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "azúcar", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "sal", "amount": "1.5", "unit": "cdtas" },
+      { "name": "cilantro fresco para decorar", "amount": "2", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Marina los cubos de pollo en yogur, garam masala, cúrcuma y 1/2 cdta de sal durante al menos 15 minutos." },
+      { "step": 2, "instruction": "Derrite 1 cda de mantequilla en una sartén grande a fuego medio-alto. Sella los trozos de pollo durante 3-4 minutos hasta que estén dorados por todos lados (no necesitan estar cocidos por dentro). Retira y reserva." },
+      { "step": 3, "instruction": "En la misma sartén, derrite la mantequilla restante. Saltea la cebolla durante 4-5 minutos hasta que esté blanda. Agrega el ajo, el jengibre, el comino y el chile en polvo. Cocina por 1 minuto." },
+      { "step": 4, "instruction": "Agrega los tomates triturados, el azúcar y la sal restante. Cocina a fuego lento durante 10 minutos hasta que la salsa espese." },
+      { "step": 5, "instruction": "Licúa la salsa con una batidora de mano hasta que esté suave (o déjala con trozos si prefieres). Incorpora la crema espesa." },
+      { "step": 6, "instruction": "Regresa el pollo a la salsa. Cocina a fuego lento durante 10 minutos hasta que el pollo esté cocido y tierno." },
+      { "step": 7, "instruction": "Decora con cilantro fresco. Sirve sobre arroz basmati o con pan naan caliente." }
+    ]
+  },
+  "chicken-tikka-masala": {
+    "name": "Pollo Tikka Masala",
+    "description": "Trozos de pollo marinados en yogur y chamuscados, en una cremosa salsa de tomate especiada. Un clásico británico-indio que ofrece sabor profundo sin demasiado picante.",
+    "ingredients": [
+      { "name": "pechugas de pollo sin hueso, en cubos", "amount": "1.5", "unit": "lbs", "group": "Para el tikka" },
+      { "name": "yogur natural", "amount": "1/2", "unit": "taza", "group": "Para el tikka" },
+      { "name": "jugo de limón", "amount": "1", "unit": "cda", "group": "Para el tikka" },
+      { "name": "comino molido", "amount": "1", "unit": "cdta", "group": "Para el tikka" },
+      { "name": "garam masala", "amount": "1.5", "unit": "cdtas", "group": "Para el tikka" },
+      { "name": "pimentón ahumado", "amount": "1", "unit": "cdta", "group": "Para el tikka" },
+      { "name": "tomates triturados enlatados", "amount": "14", "unit": "oz", "group": "Para la salsa" },
+      { "name": "crema espesa", "amount": "1/2", "unit": "taza", "group": "Para la salsa" },
+      { "name": "mantequilla sin sal", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "cebolla amarilla, finamente picada", "amount": "1", "unit": "mediana", "group": "Para la salsa" },
+      { "name": "dientes de ajo, picados", "amount": "3", "unit": "dientes", "group": "Para la salsa" },
+      { "name": "jengibre fresco, rallado", "amount": "1", "unit": "cda", "group": "Para la salsa" },
+      { "name": "cilantro molido", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "sal", "amount": "1.5", "unit": "cdtas" },
+      { "name": "arroz basmati", "amount": "1.5", "unit": "tazas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combina el pollo con yogur, jugo de limón, comino, 1 cdta de garam masala, pimentón y 1/2 cdta de sal. Marina al menos 20 minutos (o hasta toda la noche en el refrigerador)." },
+      { "step": 2, "instruction": "Precalienta el gratinador a temperatura alta. Extiende el pollo en una bandeja forrada con aluminio y gratina 4-5 minutos por lado hasta que esté chamuscado en partes. Reserva.", "tip": "Vigila el gratinador de cerca. La diferencia entre perfectamente chamuscado y quemado es de unos 30 segundos." },
+      { "step": 3, "instruction": "Derrite la mantequilla en una sartén grande a fuego medio. Saltea la cebolla durante 5 minutos. Agrega el ajo, el jengibre, el cilantro molido y el garam masala restante. Cocina 1 minuto." },
+      { "step": 4, "instruction": "Agrega los tomates triturados y la sal restante. Cocina a fuego lento durante 15 minutos, removiendo ocasionalmente, hasta que espese." },
+      { "step": 5, "instruction": "Incorpora la crema espesa y agrega los trozos de pollo gratinados. Cocina a fuego lento 5 minutos más hasta que todo esté bien caliente." },
+      { "step": 6, "instruction": "Sirve sobre arroz basmati al vapor con pan naan caliente al lado." }
+    ]
+  },
+  "beef-stew": {
+    "name": "Estofado de Res",
+    "description": "Un abundante estofado cocido a fuego lento con trozos tiernos de res, papas, zanahorias y apio en un rico caldo sabroso. El tipo de comida que llena la casa con un aroma increíble.",
+    "ingredients": [
+      { "name": "carne de res para estofar, en cubos de 4 cm", "amount": "2", "unit": "lbs" },
+      { "name": "harina para todo uso", "amount": "3", "unit": "cdas" },
+      { "name": "aceite de oliva", "amount": "2", "unit": "cdas" },
+      { "name": "cebolla amarilla, en cubos", "amount": "1", "unit": "grande" },
+      { "name": "dientes de ajo, picados", "amount": "4", "unit": "dientes" },
+      { "name": "zanahorias, en trozos de 2 cm", "amount": "3", "unit": "grandes" },
+      { "name": "papas Yukon Gold, en cuartos", "amount": "1.5", "unit": "lbs" },
+      { "name": "tallos de apio, en rodajas", "amount": "2", "unit": "tallos" },
+      { "name": "caldo de res", "amount": "4", "unit": "tazas" },
+      { "name": "pasta de tomate", "amount": "2", "unit": "cdas" },
+      { "name": "salsa Worcestershire", "amount": "1", "unit": "cda" },
+      { "name": "tomillo seco", "amount": "1", "unit": "cdta" },
+      { "name": "hojas de laurel", "amount": "2", "unit": "enteras" },
+      { "name": "sal", "amount": "1.5", "unit": "cdtas" },
+      { "name": "pimienta negra", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Seca los cubos de res con toallas de papel. Sazona con sal y pimienta, luego reboza en harina para cubrir uniformemente.", "tip": "La carne seca se sella mejor. La carne húmeda se cocina al vapor en vez de dorarse, lo que significa menos sabor." },
+      { "step": 2, "instruction": "Calienta el aceite de oliva en una olla grande de hierro a fuego medio-alto. Sella la carne en tandas (no llenes demasiado la olla) durante 2-3 minutos por lado hasta que esté profundamente dorada. Retira y reserva." },
+      { "step": 3, "instruction": "En la misma olla, saltea la cebolla durante 3-4 minutos. Agrega el ajo y la pasta de tomate, cocina 1 minuto. Deglasa con un chorrito de caldo de res, raspando los trocitos dorados del fondo." },
+      { "step": 4, "instruction": "Regresa la carne a la olla. Agrega el caldo restante, la salsa Worcestershire, el tomillo y las hojas de laurel. Lleva a ebullición, luego reduce a fuego lento. Tapa y cocina durante 1 hora." },
+      { "step": 5, "instruction": "Agrega las papas, zanahorias y apio. Continúa cocinando a fuego lento tapado durante otros 45-60 minutos hasta que la carne y los vegetales estén tiernos al tenedor." },
+      { "step": 6, "instruction": "Retira las hojas de laurel. Prueba y ajusta el sazón. El estofado debe ser espeso y rico. Si está muy líquido, cocina destapado 10 minutos más." }
+    ]
+  },
+  "mushroom-risotto": {
+    "name": "Risotto de Champiñones",
+    "description": "Arroz Arborio cremoso cocido lentamente con una mezcla de hongos silvestres, vino blanco, y terminado con Parmesano y mantequilla. La máxima expresión de la cocina italiana reconfortante.",
+    "ingredients": [
+      { "name": "arroz Arborio", "amount": "1.5", "unit": "tazas" },
+      { "name": "hongos mixtos (cremini, shiitake, ostra), en rodajas", "amount": "12", "unit": "oz" },
+      { "name": "caldo de verduras o de pollo, caliente", "amount": "5", "unit": "tazas" },
+      { "name": "vino blanco seco", "amount": "1/2", "unit": "taza" },
+      { "name": "cebolla amarilla, finamente picada", "amount": "1", "unit": "pequeña" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes" },
+      { "name": "mantequilla sin sal", "amount": "3", "unit": "cdas" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda" },
+      { "name": "queso Parmesano, rallado", "amount": "3/4", "unit": "taza" },
+      { "name": "hojas de tomillo fresco", "amount": "1", "unit": "cdta" },
+      { "name": "sal", "amount": "1", "unit": "cdta" },
+      { "name": "pimienta negra", "amount": "1/2", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Calienta el aceite de oliva y 1 cda de mantequilla en una sartén grande de fondo grueso a fuego medio-alto. Saltea los hongos durante 5-6 minutos hasta que estén dorados y toda la humedad se haya evaporado. Sazona con sal y retira a un plato." },
+      { "step": 2, "instruction": "En la misma sartén, agrega 1 cda de mantequilla. Saltea la cebolla durante 3-4 minutos hasta que esté transparente. Agrega el ajo y cocina 30 segundos." },
+      { "step": 3, "instruction": "Agrega el arroz Arborio y remueve durante 1-2 minutos hasta que los bordes se vuelvan ligeramente transparentes. Vierte el vino blanco y remueve hasta que se absorba completamente." },
+      { "step": 4, "instruction": "Agrega el caldo caliente un cucharón a la vez (aproximadamente 3/4 de taza), removiendo frecuentemente. Espera a que cada adición se absorba casi por completo antes de agregar la siguiente. Esto toma unos 18-20 minutos en total.", "tip": "El caldo debe estar caliente. El caldo frío enfría el arroz y ralentiza la cocción, produciendo una textura gomosa." },
+      { "step": 5, "instruction": "Cuando el arroz esté cremoso y al dente (tierno con un ligero punto en el centro), retira del fuego. Incorpora los hongos, la mantequilla restante, el Parmesano y el tomillo." },
+      { "step": 6, "instruction": "Deja reposar 2 minutos. El risotto debe extenderse lentamente al emplatarse, no quedarse en un montículo rígido. Ajusta con un chorrito de caldo si está muy espeso. Sazona con pimienta y sirve." }
+    ]
+  },
+  "homemade-lasagna": {
+    "name": "Lasaña Casera",
+    "description": "Capas de pasta tierna, rica salsa de carne, cremosa ricotta y mozzarella derretida, horneadas hasta que estén burbujeantes y doradas. Un plato hecho con amor que alimenta a muchos.",
+    "ingredients": [
+      { "name": "láminas de lasaña", "amount": "12", "unit": "láminas" },
+      { "name": "carne molida de res", "amount": "1", "unit": "lb", "group": "Para la salsa de carne" },
+      { "name": "salchicha italiana, sin tripa", "amount": "1/2", "unit": "lb", "group": "Para la salsa de carne" },
+      { "name": "tomates triturados enlatados", "amount": "28", "unit": "oz", "group": "Para la salsa de carne" },
+      { "name": "pasta de tomate", "amount": "2", "unit": "cdas", "group": "Para la salsa de carne" },
+      { "name": "cebolla amarilla, en cubos", "amount": "1", "unit": "mediana", "group": "Para la salsa de carne" },
+      { "name": "dientes de ajo, picados", "amount": "3", "unit": "dientes", "group": "Para la salsa de carne" },
+      { "name": "orégano seco", "amount": "1", "unit": "cdta", "group": "Para la salsa de carne" },
+      { "name": "queso ricotta", "amount": "15", "unit": "oz", "group": "Para el relleno" },
+      { "name": "huevo grande", "amount": "1", "unit": "entero", "group": "Para el relleno" },
+      { "name": "albahaca fresca, picada", "amount": "2", "unit": "cdas", "group": "Para el relleno" },
+      { "name": "queso mozzarella, rallado", "amount": "1", "unit": "lb" },
+      { "name": "queso Parmesano, rallado", "amount": "1/2", "unit": "taza" },
+      { "name": "sal", "amount": "1.5", "unit": "cdtas" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cocina las láminas de lasaña según las instrucciones del paquete. Escurre, mezcla ligeramente con aceite de oliva para evitar que se peguen, y colócalas planas en una bandeja." },
+      { "step": 2, "instruction": "Calienta el aceite de oliva en una olla grande a fuego medio-alto. Dora la carne molida y la salchicha, desmenuzando, durante 6-8 minutos. Escurre el exceso de grasa." },
+      { "step": 3, "instruction": "Agrega la cebolla y cocina 4 minutos. Agrega el ajo, la pasta de tomate y el orégano, cocina 1 minuto. Vierte los tomates triturados y la sal. Cocina a fuego lento durante 20 minutos." },
+      { "step": 4, "instruction": "En un tazón, mezcla la ricotta, el huevo y la albahaca hasta que esté suave." },
+      { "step": 5, "instruction": "Precalienta el horno a 190°C. En un molde de 23x33 cm, extiende 1/2 taza de salsa de carne en el fondo. Capa: 3 láminas, 1/3 de la mezcla de ricotta, 1/3 de la salsa de carne restante, 1/4 de la mozzarella. Repite las capas dos veces más. Termina con las láminas restantes y la mozzarella, y espolvorea con Parmesano.", "tip": "Asegúrate de que cada capa llegue de borde a borde. Los huecos crean puntos secos." },
+      { "step": 6, "instruction": "Cubre bien con papel aluminio y hornea durante 25 minutos. Retira el aluminio y hornea 20-25 minutos más hasta que esté burbujeante y dorada por encima." },
+      { "step": 7, "instruction": "Deja reposar la lasaña 15 minutos antes de cortar. Esto es fundamental. Permite que las capas se asienten para que las porciones mantengan su forma." }
+    ]
+  },
+  "miso-glazed-salmon": {
+    "name": "Salmón Glaseado con Miso",
+    "description": "Filetes de salmón glaseados con miso blanco dulce, mirin y un toque de azúcar morena, luego gratinados hasta caramelizar. Servidos sobre arroz al vapor con broccolini asado.",
+    "ingredients": [
+      { "name": "filetes de salmón, con piel", "amount": "2", "unit": "filetes de 6 oz", "group": "Para el salmón" },
+      { "name": "pasta de miso blanco", "amount": "2", "unit": "cdas", "group": "Para el glaseado" },
+      { "name": "mirin", "amount": "1", "unit": "cda", "group": "Para el glaseado" },
+      { "name": "salsa de soja", "amount": "1", "unit": "cdta", "group": "Para el glaseado" },
+      { "name": "azúcar morena", "amount": "1", "unit": "cda", "group": "Para el glaseado" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "cdta", "group": "Para el glaseado" },
+      { "name": "arroz blanco al vapor", "amount": "2", "unit": "tazas" },
+      { "name": "broccolini", "amount": "6", "unit": "oz" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cdta" },
+      { "name": "semillas de sésamo", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Bate la pasta de miso, el mirin, la salsa de soja, el azúcar morena y el vinagre de arroz hasta que esté suave. Cubre los filetes de salmón con el glaseado y deja reposar al menos 10 minutos." },
+      { "step": 2, "instruction": "Precalienta el gratinador a temperatura alta. Cubre una bandeja con papel aluminio y engrasa ligeramente." },
+      { "step": 3, "instruction": "Mezcla el broccolini con aceite de sésamo y sal, y colócalo en un lado de la bandeja. Coloca el salmón glaseado con la piel hacia abajo en el otro lado." },
+      { "step": 4, "instruction": "Gratina durante 8-10 minutos, vigilando con cuidado, hasta que el glaseado esté caramelizado y burbujeante y el salmón se desmenuce fácilmente con un tenedor.", "tip": "Si el glaseado empieza a quemarse antes de que el salmón esté listo, baja la rejilla una posición." },
+      { "step": 5, "instruction": "Sirve el salmón y el broccolini sobre arroz al vapor. Espolvorea con semillas de sésamo." }
+    ]
+  },
+  "ratatouille": {
+    "name": "Ratatouille",
+    "description": "Un hermoso plato provenzal de vegetales con calabacín, berenjena y tomates finamente cortados, dispuestos sobre una salsa de pimiento asado y horneados hasta quedar tiernos.",
+    "ingredients": [
+      { "name": "calabacín", "amount": "2", "unit": "medianos" },
+      { "name": "calabaza amarilla", "amount": "1", "unit": "mediana" },
+      { "name": "berenjena japonesa", "amount": "2", "unit": "medianas" },
+      { "name": "tomates Roma", "amount": "4", "unit": "medianos" },
+      { "name": "tomates triturados enlatados", "amount": "14", "unit": "oz", "group": "Para la salsa" },
+      { "name": "pimiento rojo, en cubos", "amount": "1", "unit": "grande", "group": "Para la salsa" },
+      { "name": "cebolla amarilla, en cubos", "amount": "1", "unit": "pequeña", "group": "Para la salsa" },
+      { "name": "dientes de ajo, picados", "amount": "3", "unit": "dientes", "group": "Para la salsa" },
+      { "name": "aceite de oliva", "amount": "3", "unit": "cdas" },
+      { "name": "ramitas de tomillo fresco", "amount": "4", "unit": "ramitas" },
+      { "name": "albahaca fresca", "amount": "6", "unit": "hojas" },
+      { "name": "sal", "amount": "1", "unit": "cdta" },
+      { "name": "pimienta negra", "amount": "1/2", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Precalienta el horno a 190°C. Calienta 1 cda de aceite de oliva en una sartén. Saltea la cebolla y el pimiento durante 5 minutos. Agrega el ajo, cocina 1 minuto. Incorpora los tomates triturados y la sal. Cocina a fuego lento 5 minutos, luego extiende uniformemente en el fondo de un molde redondo para hornear." },
+      { "step": 2, "instruction": "Corta el calabacín, la calabaza amarilla, la berenjena y los tomates Roma en rodajas de 3 mm.", "tip": "Usa una mandolina si tienes una para rodajas perfectamente uniformes. La consistencia es clave para una cocción pareja." },
+      { "step": 3, "instruction": "Coloca las rodajas de vegetales en un patrón alternado (calabacín, berenjena, tomate, calabaza) en una espiral apretada sobre la salsa, colocando las rodajas de pie." },
+      { "step": 4, "instruction": "Rocía con el aceite de oliva restante, sazona con sal y pimienta, y coloca ramitas de tomillo entre los vegetales." },
+      { "step": 5, "instruction": "Cubre bien con papel aluminio y hornea durante 40 minutos. Retira el aluminio y hornea 10 minutos más hasta que los vegetales estén tiernos y ligeramente dorados." },
+      { "step": 6, "instruction": "Decora con albahaca fresca. Sirve como plato principal con pan crujiente o como guarnición." }
+    ]
+  },
+  "herb-crusted-baked-cod": {
+    "name": "Bacalao al Horno con Costra de Hierbas",
+    "description": "Filetes de bacalao hojaldrado cubiertos con una costra dorada de panko, hierbas frescas y ralladura de limón. Una cena ligera y elegante lista en menos de 25 minutos.",
+    "ingredients": [
+      { "name": "filetes de bacalao", "amount": "2", "unit": "filetes de 6 oz" },
+      { "name": "pan rallado panko", "amount": "1/2", "unit": "taza" },
+      { "name": "perejil fresco, picado", "amount": "2", "unit": "cdas" },
+      { "name": "ralladura de limón", "amount": "1", "unit": "cdta" },
+      { "name": "diente de ajo, picado", "amount": "1", "unit": "diente" },
+      { "name": "aceite de oliva", "amount": "2", "unit": "cdas" },
+      { "name": "mostaza Dijon", "amount": "1", "unit": "cda" },
+      { "name": "sal", "amount": "1/2", "unit": "cdta" },
+      { "name": "pimienta negra", "amount": "1/4", "unit": "cdta" },
+      { "name": "gajos de limón", "amount": "2", "unit": "gajos" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Precalienta el horno a 220°C. Cubre una bandeja con papel pergamino." },
+      { "step": 2, "instruction": "En un tazón pequeño, mezcla el panko, el perejil, la ralladura de limón, el ajo, el aceite de oliva, la sal y la pimienta hasta que esté combinado." },
+      { "step": 3, "instruction": "Seca los filetes de bacalao. Unta una capa fina de mostaza Dijon en la parte superior de cada filete.", "tip": "La mostaza actúa tanto como saborizante como pegamento para la costra de pan rallado." },
+      { "step": 4, "instruction": "Presiona firmemente la mezcla de panko sobre la parte superior de cada filete. Colócalos en la bandeja." },
+      { "step": 5, "instruction": "Hornea durante 12-15 minutos hasta que la costra esté dorada y el pescado se desmenuce fácilmente con un tenedor (temperatura interna 63°C)." },
+      { "step": 6, "instruction": "Sirve con gajos de limón. Combina bien con espárragos asados o una ensalada verde sencilla." }
+    ]
+  },
+  "thai-basil-chicken": {
+    "name": "Pollo con Albahaca Tailandesa",
+    "description": "Pad Krapao Gai. Pollo molido salteado con albahaca tailandesa sagrada, ajo, chile y una salsa sabrosa-dulce. Servido sobre arroz jazmín con un huevo frito encima.",
+    "ingredients": [
+      { "name": "pollo molido", "amount": "1", "unit": "lb" },
+      { "name": "hojas de albahaca tailandesa", "amount": "1", "unit": "taza" },
+      { "name": "dientes de ajo, picados", "amount": "4", "unit": "dientes" },
+      { "name": "chile ojo de pájaro tailandés, en rodajas", "amount": "2", "unit": "enteros" },
+      { "name": "salsa de soja", "amount": "2", "unit": "cdas" },
+      { "name": "salsa de ostras", "amount": "1", "unit": "cda" },
+      { "name": "salsa de pescado", "amount": "1", "unit": "cda" },
+      { "name": "azúcar morena", "amount": "1", "unit": "cdta" },
+      { "name": "aceite vegetal", "amount": "2", "unit": "cdas" },
+      { "name": "huevos grandes", "amount": "2", "unit": "enteros" },
+      { "name": "arroz jazmín cocido", "amount": "2", "unit": "tazas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Mezcla la salsa de soja, la salsa de ostras, la salsa de pescado y el azúcar morena en un tazón pequeño. Reserva." },
+      { "step": 2, "instruction": "Calienta 1 cda de aceite en un wok o sartén grande a fuego alto hasta que humee. Agrega el ajo y los chiles, remueve durante 15 segundos.", "tip": "Ajusta la cantidad de chiles según tu preferencia de picante. Retira las semillas para menos picante, o no los uses para una versión suave." },
+      { "step": 3, "instruction": "Agrega el pollo molido y saltea, desmenuzándolo en trozos pequeños, durante 4-5 minutos hasta que esté cocido y comience a dorarse." },
+      { "step": 4, "instruction": "Vierte la mezcla de salsa y saltea durante 1 minuto. Retira del fuego e incorpora la albahaca tailandesa hasta que se marchite." },
+      { "step": 5, "instruction": "En otra sartén, fríe los huevos en el aceite restante hasta que los bordes estén crujientes y la yema aún esté líquida." },
+      { "step": 6, "instruction": "Sirve el pollo sobre arroz jazmín, cubierto con un huevo frito." }
+    ]
+  },
+  "kung-pao-chicken": {
+    "name": "Pollo Kung Pao",
+    "description": "Un clásico sichuanés de tiernos cubos de pollo, maní tostado y chiles secos salteados en una salsa agridulce con la característica pimienta de Sichuan adormecedora.",
+    "ingredients": [
+      { "name": "muslos de pollo sin hueso, en cubos", "amount": "1", "unit": "lb", "group": "Para el pollo" },
+      { "name": "salsa de soja", "amount": "1", "unit": "cda", "group": "Para el pollo" },
+      { "name": "maicena", "amount": "1", "unit": "cda", "group": "Para el pollo" },
+      { "name": "salsa de soja", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "vinagre negro chino (o balsámico)", "amount": "1", "unit": "cda", "group": "Para la salsa" },
+      { "name": "azúcar", "amount": "2", "unit": "cdtas", "group": "Para la salsa" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "maicena mezclada con 1 cda de agua", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "chiles rojos secos", "amount": "8", "unit": "enteros" },
+      { "name": "pimienta de Sichuan", "amount": "1", "unit": "cdta" },
+      { "name": "dientes de ajo, picados", "amount": "3", "unit": "dientes" },
+      { "name": "jengibre fresco, picado", "amount": "1", "unit": "cdta" },
+      { "name": "maní tostado", "amount": "1/3", "unit": "taza" },
+      { "name": "cebolletas, en rodajas", "amount": "3", "unit": "tallos" },
+      { "name": "aceite vegetal", "amount": "2", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Mezcla los cubos de pollo con 1 cda de salsa de soja y maicena. Deja reposar 10 minutos." },
+      { "step": 2, "instruction": "Mezcla los ingredientes de la salsa (2 cdas de salsa de soja, vinagre, azúcar, aceite de sésamo, mezcla de maicena) en un tazón pequeño." },
+      { "step": 3, "instruction": "Calienta el aceite en un wok a fuego alto. Agrega los chiles secos y la pimienta de Sichuan, remueve durante 20 segundos hasta que estén fragantes y ligeramente oscurecidos.", "tip": "No dejes que los chiles se pongan negros o la salsa tendrá un sabor amargo. Solo deben oscurecerse ligeramente." },
+      { "step": 4, "instruction": "Agrega el pollo en una sola capa y sella sin mover durante 2 minutos. Saltea otros 2-3 minutos hasta que esté cocido." },
+      { "step": 5, "instruction": "Agrega el ajo y el jengibre, remueve durante 15 segundos. Vierte la salsa y mezcla hasta que espese y cubra el pollo (unos 30 segundos)." },
+      { "step": 6, "instruction": "Incorpora el maní y las cebolletas. Sirve inmediatamente sobre arroz al vapor." }
+    ]
+  },
+  "shrimp-tacos-chipotle-crema": {
+    "name": "Tacos de Camarones con Crema de Chipotle",
+    "description": "Camarones sellados con chile y lima en tortillas de maíz tibias con ensalada crujiente de repollo y una cremosa salsa de chipotle. Listos en 20 minutos, con sabor de taquería.",
+    "ingredients": [
+      { "name": "camarones grandes, pelados y desvenados", "amount": "12", "unit": "oz", "group": "Para los camarones" },
+      { "name": "chile en polvo", "amount": "1", "unit": "cdta", "group": "Para los camarones" },
+      { "name": "comino molido", "amount": "1/2", "unit": "cdta", "group": "Para los camarones" },
+      { "name": "jugo de lima", "amount": "1", "unit": "cda", "group": "Para los camarones" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda", "group": "Para los camarones" },
+      { "name": "tortillas de maíz (15 cm)", "amount": "6", "unit": "enteras" },
+      { "name": "repollo morado, rallado", "amount": "1.5", "unit": "tazas", "group": "Para la ensalada" },
+      { "name": "jugo de lima", "amount": "1", "unit": "cda", "group": "Para la ensalada" },
+      { "name": "crema agria", "amount": "3", "unit": "cdas", "group": "Para la crema" },
+      { "name": "chile chipotle en adobo, picado", "amount": "1", "unit": "chile", "group": "Para la crema" },
+      { "name": "salsa de adobo (de la lata)", "amount": "1", "unit": "cdta", "group": "Para la crema" },
+      { "name": "cilantro fresco", "amount": "2", "unit": "cdas" },
+      { "name": "sal", "amount": "1/2", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Mezcla los camarones con chile en polvo, comino, jugo de lima y sal. Deja reposar 5 minutos." },
+      { "step": 2, "instruction": "Prepara la crema de chipotle mezclando la crema agria, el chipotle picado y la salsa de adobo. Mezcla el repollo rallado con jugo de lima y una pizca de sal." },
+      { "step": 3, "instruction": "Calienta el aceite de oliva en una sartén a fuego alto. Cocina los camarones 1-2 minutos por lado hasta que estén rosados y ligeramente chamuscados." },
+      { "step": 4, "instruction": "Calienta las tortillas de maíz en una sartén seca o sobre una llama abierta durante 15-20 segundos por lado." },
+      { "step": 5, "instruction": "Arma los tacos: ensalada de repollo en la base, camarones encima, un chorrito de crema de chipotle y una espolvoreada de cilantro fresco. Sirve con gajos de lima." }
+    ]
+  },
+  "dan-dan-noodles": {
+    "name": "Fideos Dan Dan",
+    "description": "Fideos de comida callejera sichuanesa mezclados en una audaz salsa de aceite de chile con nueces, con carne de cerdo molida sabrosa, mostaza encurtida y maní triturado.",
+    "ingredients": [
+      { "name": "fideos chinos secos o espaguetis", "amount": "8", "unit": "oz" },
+      { "name": "carne de cerdo molida", "amount": "6", "unit": "oz" },
+      { "name": "aceite de chile chino", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "salsa de soja", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "pasta de sésamo china o tahini", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "vinagre negro chino", "amount": "1", "unit": "cda", "group": "Para la salsa" },
+      { "name": "azúcar", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "pimienta de Sichuan en polvo", "amount": "1/2", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "mostaza encurtida (ya cai), picada", "amount": "2", "unit": "cdas" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes" },
+      { "name": "aceite vegetal", "amount": "1", "unit": "cda" },
+      { "name": "maní tostado, triturado", "amount": "2", "unit": "cdas" },
+      { "name": "cebolletas, en rodajas", "amount": "2", "unit": "tallos" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Cocina los fideos según las instrucciones del paquete. Reserva 1/2 taza de agua de cocción, luego escurre." },
+      { "step": 2, "instruction": "Mezcla todos los ingredientes de la salsa (aceite de chile, salsa de soja, pasta de sésamo, vinagre, azúcar, pimienta de Sichuan) en un tazón. Diluye con un chorrito de agua de cocción de los fideos hasta que fluya." },
+      { "step": 3, "instruction": "Calienta el aceite vegetal en una sartén a fuego alto. Dora la carne de cerdo molida, desmenuzándola en trozos pequeños, durante 4-5 minutos hasta que esté crujiente." },
+      { "step": 4, "instruction": "Agrega el ajo y la mostaza encurtida a la carne de cerdo. Saltea durante 1 minuto." },
+      { "step": 5, "instruction": "Divide la salsa entre dos tazones. Agrega los fideos escurridos y cubre con la mezcla de cerdo, el maní triturado y las cebolletas. Mezcla todo antes de comer.", "tip": "La magia está en la mezcla. Remueve los fideos a fondo para que cada hebra esté cubierta de salsa." }
+    ]
+  },
+  "jerk-chicken": {
+    "name": "Pollo Jerk",
+    "description": "Pollo jerk jamaicano marinado en una mezcla ardiente de chiles scotch bonnet, pimienta de Jamaica, tomillo y ajo, luego asado a la parrilla hasta quedar chamuscado y jugoso. Servido con arroz y frijoles.",
+    "ingredients": [
+      { "name": "muslos y piernas de pollo con hueso", "amount": "2.5", "unit": "lbs", "group": "Para el pollo" },
+      { "name": "chile scotch bonnet, sin semillas y picado", "amount": "1", "unit": "entero", "group": "Para el adobo" },
+      { "name": "cebolletas, picadas grueso", "amount": "4", "unit": "tallos", "group": "Para el adobo" },
+      { "name": "dientes de ajo", "amount": "4", "unit": "dientes", "group": "Para el adobo" },
+      { "name": "hojas de tomillo fresco", "amount": "1", "unit": "cda", "group": "Para el adobo" },
+      { "name": "pimienta de Jamaica molida", "amount": "1", "unit": "cda", "group": "Para el adobo" },
+      { "name": "salsa de soja", "amount": "2", "unit": "cdas", "group": "Para el adobo" },
+      { "name": "jugo de lima", "amount": "2", "unit": "cdas", "group": "Para el adobo" },
+      { "name": "azúcar morena", "amount": "1", "unit": "cda", "group": "Para el adobo" },
+      { "name": "aceite vegetal", "amount": "2", "unit": "cdas", "group": "Para el adobo" },
+      { "name": "canela molida", "amount": "1/2", "unit": "cdta", "group": "Para el adobo" },
+      { "name": "nuez moscada molida", "amount": "1/4", "unit": "cdta", "group": "Para el adobo" },
+      { "name": "sal", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Licúa todos los ingredientes del adobo (scotch bonnet, cebolletas, ajo, tomillo, pimienta de Jamaica, salsa de soja, jugo de lima, azúcar morena, aceite, canela, nuez moscada, sal) hasta formar una pasta en un procesador de alimentos.", "tip": "Usa guantes al manipular los chiles scotch bonnet. La capsaicina quemará tu piel y ojos durante horas." },
+      { "step": 2, "instruction": "Haz cortes en las piezas de pollo con un cuchillo (2-3 cortes por pieza). Frota el adobo por todos lados, metiéndolo en los cortes. Marina al menos 2 horas, preferiblemente toda la noche." },
+      { "step": 3, "instruction": "Precalienta la parrilla a fuego medio (175°C). Si usas horno, precalienta a 200°C." },
+      { "step": 4, "instruction": "Asa el pollo durante 30-35 minutos, volteando cada 8-10 minutos, hasta que esté chamuscado por fuera y cocido por dentro (74°C interno). Para horno, hornea sobre una rejilla durante 35-40 minutos, luego gratina 2-3 minutos para chamuscar." },
+      { "step": 5, "instruction": "Deja reposar 5 minutos. Sirve con arroz y frijoles, plátanos fritos o una ensalada de repollo sencilla." }
+    ]
+  },
+  "green-curry": {
+    "name": "Curry Verde",
+    "description": "Un fragante curry verde tailandés con pollo, brotes de bambú, berenjena tailandesa y albahaca en una rica salsa de leche de coco. Aromático, cremoso y vibrante con hierbas frescas.",
+    "ingredients": [
+      { "name": "muslos de pollo sin hueso, en rodajas", "amount": "1", "unit": "lb" },
+      { "name": "leche de coco (entera)", "amount": "14", "unit": "oz" },
+      { "name": "pasta de curry verde", "amount": "3", "unit": "cdas" },
+      { "name": "brotes de bambú, escurridos", "amount": "1/2", "unit": "taza" },
+      { "name": "berenjena tailandesa o regular, en cubos", "amount": "1", "unit": "taza" },
+      { "name": "pimiento rojo, en rodajas", "amount": "1/2", "unit": "mediano" },
+      { "name": "salsa de pescado", "amount": "2", "unit": "cdas" },
+      { "name": "azúcar morena o azúcar de palma", "amount": "1", "unit": "cda" },
+      { "name": "hojas de albahaca tailandesa", "amount": "1/2", "unit": "taza" },
+      { "name": "hojas de lima kaffir", "amount": "3", "unit": "hojas" },
+      { "name": "aceite vegetal", "amount": "1", "unit": "cda" },
+      { "name": "arroz jazmín", "amount": "2", "unit": "tazas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Calienta el aceite en una sartén grande o wok a fuego medio. Agrega la pasta de curry verde y remueve durante 1 minuto hasta que esté fragante." },
+      { "step": 2, "instruction": "Vierte la mitad de la leche de coco y remueve para combinar con la pasta. Cocina 2-3 minutos hasta que el aceite comience a separarse en la superficie.", "tip": "Este paso tuesta la pasta de curry en la crema de coco. Saltártelo da un curry menos complejo y aguado." },
+      { "step": 3, "instruction": "Agrega el pollo y cocina 3-4 minutos hasta que el exterior esté blanco. Agrega el resto de la leche de coco, la berenjena, los brotes de bambú y las hojas de lima kaffir." },
+      { "step": 4, "instruction": "Cocina a fuego lento durante 10-12 minutos hasta que el pollo esté cocido y la berenjena esté tierna. Incorpora la salsa de pescado y el azúcar." },
+      { "step": 5, "instruction": "Agrega el pimiento y cocina 2 minutos más. Retira del fuego e incorpora la albahaca tailandesa." },
+      { "step": 6, "instruction": "Sirve sobre arroz jazmín al vapor." }
+    ]
+  },
+  "birria-tacos": {
+    "name": "Tacos de Birria",
+    "description": "Carne de res lentamente guisada en un rico consomé de chiles especiados. Las tortillas se sumergen en la grasa sabrosa y se doran en la plancha hasta quedar crujientes, luego se rellenan con carne tierna, cebolla y cilantro.",
+    "ingredients": [
+      { "name": "carne de res para guisar", "amount": "3", "unit": "lbs", "group": "Para la birria" },
+      { "name": "chiles guajillo secos", "amount": "4", "unit": "enteros", "group": "Para la birria" },
+      { "name": "chiles ancho secos", "amount": "2", "unit": "enteros", "group": "Para la birria" },
+      { "name": "tomates Roma", "amount": "3", "unit": "medianos", "group": "Para la birria" },
+      { "name": "cebolla amarilla, en cuartos", "amount": "1", "unit": "grande", "group": "Para la birria" },
+      { "name": "dientes de ajo", "amount": "5", "unit": "dientes", "group": "Para la birria" },
+      { "name": "caldo de res", "amount": "4", "unit": "tazas", "group": "Para la birria" },
+      { "name": "vinagre de sidra de manzana", "amount": "2", "unit": "cdas", "group": "Para la birria" },
+      { "name": "comino molido", "amount": "1", "unit": "cdta", "group": "Para la birria" },
+      { "name": "orégano seco", "amount": "1", "unit": "cdta", "group": "Para la birria" },
+      { "name": "clavo molido", "amount": "1/4", "unit": "cdta", "group": "Para la birria" },
+      { "name": "hojas de laurel", "amount": "2", "unit": "enteras", "group": "Para la birria" },
+      { "name": "tortillas de maíz", "amount": "18", "unit": "enteras", "group": "Para los tacos" },
+      { "name": "queso Oaxaca o mozzarella rallado", "amount": "2", "unit": "tazas", "group": "Para los tacos" },
+      { "name": "cebolla blanca, finamente picada", "amount": "1/2", "unit": "mediana" },
+      { "name": "cilantro fresco, picado", "amount": "1/4", "unit": "taza" },
+      { "name": "sal", "amount": "2", "unit": "cdtas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Tuesta los chiles secos en una sartén seca durante 1-2 minutos por lado. Retira los tallos y semillas. Remoja en agua caliente durante 15 minutos hasta que estén suaves." },
+      { "step": 2, "instruction": "Licúa los chiles remojados con los tomates, el ajo, el vinagre, el comino, el orégano, los clavos y 1 taza del agua de remojo hasta obtener una mezcla suave." },
+      { "step": 3, "instruction": "Corta la carne en trozos grandes (unos 8 cm). Sazona con sal. Sella en una olla de hierro a fuego alto hasta que esté dorada por todos lados, unos 6-8 minutos." },
+      { "step": 4, "instruction": "Vierte la salsa de chile y el caldo de res sobre la carne. Agrega la cebolla en cuartos y las hojas de laurel. Lleva a ebullición, luego reduce a fuego lento. Tapa y cocina durante 2.5-3 horas hasta que la carne se deshile fácilmente con un tenedor.", "tip": "Fuego bajo y lento es la clave. Un hervor fuerte hará que la carne quede dura. Debe apenas burbujear." },
+      { "step": 5, "instruction": "Retira la carne y deshila con dos tenedores. Cuela el consomé y quita el exceso de grasa (reserva la grasa para sumergir las tortillas)." },
+      { "step": 6, "instruction": "Para hacer los tacos: sumerge una tortilla de maíz en la grasa/consomé. Colócala en una plancha caliente, agrega queso y carne deshilada. Dobla por la mitad y cocina 2-3 minutos por lado hasta que esté crujiente." },
+      { "step": 7, "instruction": "Sirve los tacos cubiertos con cebolla picada y cilantro, con un tazón pequeño de consomé caliente para mojar." }
+    ]
+  },
+  "fish-and-chips": {
+    "name": "Pescado con Patatas Fritas",
+    "description": "Bacalao crujiente rebozado en cerveza con patatas gruesas doradas, servido con vinagre de malta y salsa tártara. Un clásico de pub británico hecho bien en casa.",
+    "ingredients": [
+      { "name": "filetes de bacalao", "amount": "2", "unit": "filetes de 8 oz", "group": "Para el pescado" },
+      { "name": "harina para todo uso", "amount": "1", "unit": "taza", "group": "Para el rebozado" },
+      { "name": "maicena", "amount": "2", "unit": "cdas", "group": "Para el rebozado" },
+      { "name": "polvo para hornear", "amount": "1", "unit": "cdta", "group": "Para el rebozado" },
+      { "name": "cerveza fría (lager)", "amount": "3/4", "unit": "taza", "group": "Para el rebozado" },
+      { "name": "sal", "amount": "1", "unit": "cdta", "group": "Para el rebozado" },
+      { "name": "papas Russet", "amount": "2", "unit": "grandes", "group": "Para las patatas" },
+      { "name": "aceite vegetal para freír", "amount": "4", "unit": "tazas" },
+      { "name": "vinagre de malta", "amount": "2", "unit": "cdas" },
+      { "name": "mayonesa", "amount": "2", "unit": "cdas", "group": "Para la salsa tártara" },
+      { "name": "pepinillos, picados", "amount": "2", "unit": "cdas", "group": "Para la salsa tártara" },
+      { "name": "alcaparras, picadas", "amount": "1", "unit": "cdta", "group": "Para la salsa tártara" },
+      { "name": "jugo de limón", "amount": "1", "unit": "cdta", "group": "Para la salsa tártara" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Corta las papas en bastones de 1 cm de grosor. Remójalas en agua fría durante 30 minutos para quitar el exceso de almidón. Escurre y seca completamente." },
+      { "step": 2, "instruction": "Calienta el aceite a 160°C en una olla pesada o cacerola de hierro. Fríe las patatas durante 5-6 minutos hasta que estén cocidas pero no doradas. Retira y escurre sobre papel absorbente.", "tip": "Este método de doble fritura es el secreto de las patatas perfectas: la primera fritura cocina el interior, la segunda las hace crujientes por fuera." },
+      { "step": 3, "instruction": "Aumenta la temperatura del aceite a 190°C. Fríe las patatas nuevamente durante 3-4 minutos hasta que estén doradas y crujientes. Sazona con sal inmediatamente." },
+      { "step": 4, "instruction": "Prepara el rebozado: bate la harina, la maicena, el polvo para hornear y la sal. Vierte la cerveza fría y mezcla hasta que esté apenas combinado (los grumos están bien)." },
+      { "step": 5, "instruction": "Seca los filetes de bacalao y espolvorea ligeramente con harina. Sumerge en el rebozado, dejando que escurra el exceso. Con cuidado, baja al aceite a 190°C. Fríe 5-6 minutos hasta que estén dorados y crujientes." },
+      { "step": 6, "instruction": "Mezcla los ingredientes de la salsa tártara. Sirve el pescado y las patatas en platos forrados con papel, con salsa tártara, vinagre de malta y gajos de limón." }
+    ]
+  },
+  "stuffed-bell-peppers": {
+    "name": "Pimientos Rellenos",
+    "description": "Coloridos pimientos rellenos con una mezcla sabrosa de pavo molido sazonado, arroz, tomates y queso derretido, luego horneados hasta quedar tiernos.",
+    "ingredients": [
+      { "name": "pimientos grandes (cualquier color)", "amount": "4", "unit": "enteros" },
+      { "name": "pavo molido", "amount": "1", "unit": "lb" },
+      { "name": "arroz blanco cocido", "amount": "1", "unit": "taza" },
+      { "name": "tomates en cubos enlatados, escurridos", "amount": "14", "unit": "oz" },
+      { "name": "cebolla amarilla, en cubos", "amount": "1", "unit": "pequeña" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes" },
+      { "name": "comino molido", "amount": "1", "unit": "cdta" },
+      { "name": "chile en polvo", "amount": "1/2", "unit": "cdta" },
+      { "name": "queso cheddar rallado", "amount": "1", "unit": "taza" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda" },
+      { "name": "sal", "amount": "1", "unit": "cdta" },
+      { "name": "pimienta negra", "amount": "1/2", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Precalienta el horno a 190°C. Corta la parte superior de los pimientos y retira las semillas y membranas. Colócalos con el corte hacia arriba en un molde para hornear." },
+      { "step": 2, "instruction": "Calienta el aceite de oliva en una sartén a fuego medio. Saltea la cebolla durante 3 minutos, agrega el ajo, cocina 30 segundos. Agrega el pavo molido, el comino, el chile en polvo, la sal y la pimienta. Cocina hasta que esté dorado, unos 5-6 minutos." },
+      { "step": 3, "instruction": "Retira del fuego e incorpora el arroz cocido, los tomates en cubos y la mitad del queso." },
+      { "step": 4, "instruction": "Rellena cada pimiento generosamente con el relleno, apilándolo por encima. Cubre con el queso restante." },
+      { "step": 5, "instruction": "Agrega 1/4 de taza de agua al fondo del molde. Cubre con papel aluminio y hornea durante 25 minutos. Retira el aluminio y hornea 10 minutos más hasta que el queso esté burbujeante y los pimientos estén tiernos.", "tip": "El agua en el fondo crea vapor que ayuda a cocinar los pimientos uniformemente por fuera." }
+    ]
+  },
+  "japanese-curry-rice": {
+    "name": "Arroz con Curry Japonés",
+    "description": "Un reconfortante curry japonés suavemente dulce con pollo tierno, papas y zanahorias en una salsa espesa y sabrosa. Un plato básico de la cocina casera japonesa entre semana.",
+    "ingredients": [
+      { "name": "muslos de pollo sin hueso, en cubos", "amount": "1", "unit": "lb" },
+      { "name": "bloques de roux de curry japonés", "amount": "4", "unit": "oz" },
+      { "name": "papas Yukon Gold, en cubos", "amount": "2", "unit": "medianas" },
+      { "name": "zanahorias, en medias lunas", "amount": "2", "unit": "medianas" },
+      { "name": "cebolla amarilla, en rodajas", "amount": "1", "unit": "grande" },
+      { "name": "agua", "amount": "3", "unit": "tazas" },
+      { "name": "aceite vegetal", "amount": "1", "unit": "cda" },
+      { "name": "salsa de soja", "amount": "1", "unit": "cdta" },
+      { "name": "miel", "amount": "1", "unit": "cdta" },
+      { "name": "arroz de grano corto al vapor", "amount": "3", "unit": "tazas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Calienta el aceite en una olla grande a fuego medio-alto. Saltea la cebolla durante 4-5 minutos hasta que esté blanda y empiece a caramelizar." },
+      { "step": 2, "instruction": "Agrega el pollo y cocina 3-4 minutos hasta que el exterior esté blanco. Agrega las zanahorias y las papas, remueve 1 minuto." },
+      { "step": 3, "instruction": "Vierte el agua y lleva a ebullición. Reduce a fuego lento, tapa y cocina 15-20 minutos hasta que los vegetales estén tiernos al tenedor." },
+      { "step": 4, "instruction": "Apaga el fuego. Rompe los bloques de roux de curry en pedazos y agrégalos a la olla. Remueve hasta que se disuelvan completamente.", "tip": "El roux se disuelve mejor cuando el líquido está fuera del fuego. Agregarlo a líquido hirviendo puede causar grumos." },
+      { "step": 5, "instruction": "Regresa a fuego bajo y cocina a fuego lento durante 5-8 minutos, removiendo frecuentemente, hasta que el curry espese. Incorpora la salsa de soja y la miel." },
+      { "step": 6, "instruction": "Sirve el curry sobre arroz al vapor. Sabe aún mejor al día siguiente cuando los sabores se desarrollan." }
+    ]
+  },
+  "beef-bulgogi": {
+    "name": "Bulgogi de Res",
+    "description": "Carne de res finamente cortada marinada en una dulce y sabrosa salsa de soja y pera, luego asada a la parrilla o sellada hasta caramelizar. Una piedra angular del BBQ coreano, servida con arroz y banchan.",
+    "ingredients": [
+      { "name": "lomo o rib-eye de res, finamente cortado", "amount": "1.5", "unit": "lbs", "group": "Para la carne" },
+      { "name": "pera asiática (o manzana), rallada", "amount": "1/2", "unit": "mediana", "group": "Para el adobo" },
+      { "name": "salsa de soja", "amount": "3", "unit": "cdas", "group": "Para el adobo" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cda", "group": "Para el adobo" },
+      { "name": "azúcar morena", "amount": "1", "unit": "cda", "group": "Para el adobo" },
+      { "name": "dientes de ajo, picados", "amount": "4", "unit": "dientes", "group": "Para el adobo" },
+      { "name": "jengibre fresco, rallado", "amount": "1", "unit": "cdta", "group": "Para el adobo" },
+      { "name": "pimienta negra", "amount": "1/2", "unit": "cdta", "group": "Para el adobo" },
+      { "name": "cebolla amarilla, en rodajas finas", "amount": "1", "unit": "mediana" },
+      { "name": "cebolletas, cortadas en trozos de 5 cm", "amount": "4", "unit": "tallos" },
+      { "name": "semillas de sésamo", "amount": "1", "unit": "cda" },
+      { "name": "aceite vegetal", "amount": "1", "unit": "cda" },
+      { "name": "arroz blanco al vapor", "amount": "3", "unit": "tazas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combina todos los ingredientes del adobo (pera rallada, salsa de soja, aceite de sésamo, azúcar morena, ajo, jengibre, pimienta) en un tazón. Agrega la carne en rodajas y la cebolla, mezcla para cubrir. Marina al menos 30 minutos (hasta toda la noche).", "tip": "La pera es un ablandador natural de carne. Si no encuentras pera asiática, usa media manzana rallada." },
+      { "step": 2, "instruction": "Calienta una sartén grande o plancha para asar a fuego alto hasta que humee. Agrega el aceite." },
+      { "step": 3, "instruction": "Cocina la carne en tandas (no llenes demasiado la sartén) durante 2-3 minutos por lado hasta que esté caramelizada y ligeramente chamuscada. Retira a un plato." },
+      { "step": 4, "instruction": "En la misma sartén, saltea rápidamente las cebolletas durante 30 segundos. Regresa la carne y mezcla." },
+      { "step": 5, "instruction": "Espolvorea con semillas de sésamo y sirve inmediatamente sobre arroz al vapor." }
+    ]
+  },
+  "crispy-tofu-stir-fry": {
+    "name": "Tofu Crujiente Salteado",
+    "description": "Cubos de tofu dorado y crujiente mezclados en una salsa de soja y jengibre con ajo, ejotes y pimientos. Un tentempié o comida ligera vegetal satisfactoria.",
+    "ingredients": [
+      { "name": "tofu extra firme, escurrido y en cubos", "amount": "14", "unit": "oz" },
+      { "name": "maicena", "amount": "2", "unit": "cdas" },
+      { "name": "salsa de soja", "amount": "2", "unit": "cdas", "group": "Para la salsa" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "cda", "group": "Para la salsa" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "azúcar morena", "amount": "1", "unit": "cdta", "group": "Para la salsa" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes" },
+      { "name": "jengibre fresco, rallado", "amount": "1", "unit": "cdta" },
+      { "name": "ejotes", "amount": "1", "unit": "taza" },
+      { "name": "pimiento rojo, en rodajas", "amount": "1/2", "unit": "mediano" },
+      { "name": "aceite vegetal", "amount": "2", "unit": "cdas" },
+      { "name": "semillas de sésamo", "amount": "1", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Prensa el tofu: envuélvelo en toallas de papel, coloca un objeto pesado encima y déjalo escurrir al menos 10 minutos. Corta en cubos de 2 cm.", "tip": "Un tofu bien prensado es la clave de la crocancia. Cuanto más seco esté, más crujiente quedará." },
+      { "step": 2, "instruction": "Mezcla los cubos de tofu en maicena hasta que estén uniformemente cubiertos. Sacude el exceso." },
+      { "step": 3, "instruction": "Calienta el aceite vegetal en una sartén antiadherente grande a fuego medio-alto. Agrega el tofu en una sola capa y cocina 3-4 minutos por lado (no lo muevas) hasta que esté dorado y crujiente por todos lados. Retira a un plato." },
+      { "step": 4, "instruction": "En la misma sartén, agrega los ejotes y el pimiento. Saltea durante 2 minutos. Agrega el ajo y el jengibre, cocina 30 segundos." },
+      { "step": 5, "instruction": "Mezcla los ingredientes de la salsa. Regresa el tofu a la sartén, vierte la salsa y mezcla durante 1 minuto hasta que todo esté cubierto y brillante. Espolvorea con semillas de sésamo." }
+    ]
+  },
+  "spicy-tuna-crispy-rice": {
+    "name": "Arroz Crujiente con Atún Picante",
+    "description": "Tortas de arroz para sushi selladas cubiertas con tartar de atún picante, aguacate y un chorrito de mayonesa sriracha. Un aperitivo viral de restaurante que puedes hacer fácilmente en casa.",
+    "ingredients": [
+      { "name": "atún ahi para sushi", "amount": "8", "unit": "oz", "group": "Para el atún" },
+      { "name": "salsa de soja", "amount": "1", "unit": "cda", "group": "Para el atún" },
+      { "name": "aceite de sésamo", "amount": "1", "unit": "cdta", "group": "Para el atún" },
+      { "name": "sriracha", "amount": "1", "unit": "cdta", "group": "Para el atún" },
+      { "name": "arroz para sushi cocido y enfriado", "amount": "2", "unit": "tazas", "group": "Para las tortas de arroz" },
+      { "name": "vinagre de arroz", "amount": "1", "unit": "cda", "group": "Para las tortas de arroz" },
+      { "name": "aguacate maduro, en rodajas finas", "amount": "1/2", "unit": "mediano" },
+      { "name": "mayonesa", "amount": "1", "unit": "cda", "group": "Para la mayo sriracha" },
+      { "name": "sriracha", "amount": "1", "unit": "cdta", "group": "Para la mayo sriracha" },
+      { "name": "aceite vegetal", "amount": "2", "unit": "cdas" },
+      { "name": "semillas de sésamo", "amount": "1", "unit": "cdta" },
+      { "name": "cebolleta, en rodajas finas", "amount": "1", "unit": "tallo" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Corta el atún en cubos de medio centímetro. Mezcla suavemente con la salsa de soja, el aceite de sésamo y la sriracha. Refrigera mientras preparas las tortas de arroz.", "tip": "Usa solo atún para sushi de una fuente confiable. El pescado se sirve crudo." },
+      { "step": 2, "instruction": "Mezcla el arroz para sushi enfriado con el vinagre de arroz. Moja tus manos y forma el arroz en 8 pequeñas tortas rectangulares, de unos 5x7 cm y 1 cm de grosor. Presiona firmemente para que mantengan su forma." },
+      { "step": 3, "instruction": "Calienta el aceite vegetal en una sartén antiadherente a fuego medio-alto. Sella las tortas de arroz durante 2-3 minutos por lado hasta que estén doradas y crujientes por fuera." },
+      { "step": 4, "instruction": "Mezcla la mayonesa y la sriracha para la mayo sriracha." },
+      { "step": 5, "instruction": "Cubre cada torta de arroz crujiente con una rodaja de aguacate, una cucharada de atún picante, un chorrito de mayo sriracha, semillas de sésamo y cebolleta en rodajas. Sirve inmediatamente." }
+    ]
+  },
+  "loaded-quesadillas": {
+    "name": "Quesadillas Cargadas",
+    "description": "Tortillas crujientes cargadas con tres tipos de queso, cebollas caramelizadas, jalapeños asados y un toque de comino. Cortadas en triángulos para el snack perfecto para compartir.",
+    "ingredients": [
+      { "name": "tortillas de harina grandes (25 cm)", "amount": "2", "unit": "enteras" },
+      { "name": "queso cheddar rallado", "amount": "1/2", "unit": "taza" },
+      { "name": "queso Monterey Jack rallado", "amount": "1/2", "unit": "taza" },
+      { "name": "queso crema, ablandado", "amount": "2", "unit": "cdas" },
+      { "name": "cebolla amarilla, en rodajas finas", "amount": "1/2", "unit": "mediana" },
+      { "name": "jalapeño, sin semillas y en rodajas", "amount": "1", "unit": "mediano" },
+      { "name": "comino molido", "amount": "1/4", "unit": "cdta" },
+      { "name": "aceite de oliva", "amount": "1", "unit": "cda" },
+      { "name": "crema agria", "amount": "2", "unit": "cdas" },
+      { "name": "salsa", "amount": "2", "unit": "cdas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Calienta el aceite de oliva en una sartén a fuego medio. Cocina la cebolla en rodajas y el jalapeño durante 5-6 minutos hasta que la cebolla esté caramelizada y el jalapeño esté blando. Retira a un plato." },
+      { "step": 2, "instruction": "Extiende una capa fina de queso crema en una mitad de cada tortilla. Cubre con el cheddar y el Monterey Jack, la mezcla de cebolla caramelizada y una pizca de comino." },
+      { "step": 3, "instruction": "Dobla las tortillas por la mitad. Cocina en una sartén seca a fuego medio durante 2-3 minutos por lado hasta que la tortilla esté dorada y crujiente y el queso derretido.", "tip": "Una sartén seca (sin aceite) da el mejor dorado uniforme en la tortilla." },
+      { "step": 4, "instruction": "Corta cada quesadilla en 3 triángulos. Sirve con crema agria y salsa para mojar." }
+    ]
+  },
+  "zucchini-noodle-primavera": {
+    "name": "Fideos de Calabacín Primavera",
+    "description": "Calabacín espiralizado mezclado con vegetales de primavera salteados, tomates cherry, ajo y una ligera salsa de limón y Parmesano. Una alternativa fresca y baja en carbohidratos a la pasta.",
+    "ingredients": [
+      { "name": "calabacín mediano, espiralizado", "amount": "3", "unit": "medianos" },
+      { "name": "tomates cherry, cortados a la mitad", "amount": "1", "unit": "taza" },
+      { "name": "calabaza amarilla, en cubos", "amount": "1", "unit": "pequeña" },
+      { "name": "espárragos, cortados en trozos de 2 cm", "amount": "6", "unit": "tallos" },
+      { "name": "dientes de ajo, picados", "amount": "2", "unit": "dientes" },
+      { "name": "aceite de oliva", "amount": "2", "unit": "cdas" },
+      { "name": "queso Parmesano, rallado", "amount": "1/4", "unit": "taza" },
+      { "name": "jugo de limón", "amount": "1", "unit": "cda" },
+      { "name": "ralladura de limón", "amount": "1", "unit": "cdta" },
+      { "name": "hojuelas de chile rojo", "amount": "1/4", "unit": "cdta" },
+      { "name": "sal", "amount": "1/2", "unit": "cdta" },
+      { "name": "albahaca fresca", "amount": "4", "unit": "hojas" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Espiraliza el calabacín (o usa un pelador juliana). Coloca los fideos sobre toallas de papel y espolvorea ligeramente con sal para extraer la humedad. Deja reposar 5 minutos, luego seca.", "tip": "Quitar el exceso de humedad evita que el plato quede aguado. Este paso marca toda la diferencia." },
+      { "step": 2, "instruction": "Calienta 1 cda de aceite de oliva en una sartén grande a fuego medio-alto. Saltea los espárragos y la calabaza amarilla durante 3 minutos. Agrega los tomates cherry y cocina 1 minuto más. Retira los vegetales a un plato." },
+      { "step": 3, "instruction": "Agrega el aceite de oliva restante y el ajo a la sartén. Cocina 30 segundos, luego agrega los fideos de calabacín. Mezcla durante 2 minutos hasta que estén apenas tiernos (no cocines demasiado)." },
+      { "step": 4, "instruction": "Regresa los vegetales a la sartén. Agrega el jugo de limón, la ralladura, las hojuelas de chile rojo y el Parmesano. Mezcla para combinar." },
+      { "step": 5, "instruction": "Sirve inmediatamente, decora con albahaca fresca y Parmesano extra." }
+    ]
+  },
+  "hummus-with-pita": {
+    "name": "Hummus con Pan Pita",
+    "description": "Hummus casero ultrasuave con un generoso charco de aceite de oliva y una espolvoreada de pimentón, servido con triángulos de pan pita tostado y caliente. Muy superior al comprado.",
+    "ingredients": [
+      { "name": "garbanzos enlatados, escurridos y enjuagados", "amount": "15", "unit": "oz" },
+      { "name": "tahini", "amount": "1/4", "unit": "taza" },
+      { "name": "jugo de limón", "amount": "3", "unit": "cdas" },
+      { "name": "diente de ajo", "amount": "1", "unit": "diente" },
+      { "name": "agua helada", "amount": "3", "unit": "cdas" },
+      { "name": "aceite de oliva extra virgen", "amount": "2", "unit": "cdas" },
+      { "name": "comino molido", "amount": "1/2", "unit": "cdta" },
+      { "name": "sal", "amount": "3/4", "unit": "cdta" },
+      { "name": "pimentón ahumado", "amount": "1/4", "unit": "cdta" },
+      { "name": "pan pita", "amount": "4", "unit": "redondeles" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Agrega el tahini y el jugo de limón a un procesador de alimentos. Procesa durante 1 minuto hasta que esté espeso y pálido. Este paso incorpora aire al tahini para un resultado más suave." },
+      { "step": 2, "instruction": "Agrega el ajo, el comino y la sal. Procesa 30 segundos. Agrega los garbanzos y procesa durante 1 minuto." },
+      { "step": 3, "instruction": "Con el procesador en marcha, vierte el agua helada en un chorrito. Continúa procesando durante 2-3 minutos hasta que el hummus esté completamente suave y cremoso.", "tip": "El agua helada es lo que lo hace ultrasuave. No lo omitas. Procesa más tiempo del que crees necesario." },
+      { "step": 4, "instruction": "Corta el pan pita en triángulos y tuesta en un horno a 190°C durante 5 minutos hasta que esté crujiente y ligeramente dorado." },
+      { "step": 5, "instruction": "Extiende el hummus en un plato usando el dorso de una cuchara para crear un remolino. Rocía generosamente con aceite de oliva y espolvorea con pimentón ahumado. Sirve con triángulos de pita calientes." }
+    ]
+  },
+  "trail-mix-energy-bites": {
+    "name": "Bolitas Energéticas de Frutos Secos",
+    "description": "Bolitas energéticas sin hornear repletas de avena, mantequilla de maní, miel, chispas de chocolate y arándanos secos. Perfectas para preparar con antelación y comer sobre la marcha.",
+    "ingredients": [
+      { "name": "avena en hojuelas", "amount": "1", "unit": "taza" },
+      { "name": "mantequilla de maní cremosa", "amount": "1/2", "unit": "taza" },
+      { "name": "miel", "amount": "1/3", "unit": "taza" },
+      { "name": "mini chispas de chocolate", "amount": "1/4", "unit": "taza" },
+      { "name": "arándanos secos", "amount": "1/4", "unit": "taza" },
+      { "name": "linaza molida", "amount": "2", "unit": "cdas" },
+      { "name": "extracto de vainilla", "amount": "1", "unit": "cdta" },
+      { "name": "pizca de sal", "amount": "1", "unit": "pizca" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combina todos los ingredientes en un tazón grande y remueve hasta que estén uniformemente mezclados. La mezcla debe ser lo suficientemente pegajosa para mantenerse unida al presionar." },
+      { "step": 2, "instruction": "Refrigera durante 15-20 minutos para que la mezcla se endurezca y sea más fácil de formar." },
+      { "step": 3, "instruction": "Forma 12 bolitas (aproximadamente 1 cucharada cada una). Usa las manos ligeramente húmedas para evitar que se pegue." },
+      { "step": 4, "instruction": "Guarda en un recipiente hermético en el refrigerador hasta por 1 semana, o congela hasta por 3 meses.", "tip": "Saben mejor frías del refrigerador. Se ablandan a temperatura ambiente." }
+    ]
+  },
+  "bruschetta": {
+    "name": "Bruschetta",
+    "description": "Ciabatta tostada frotada con ajo crudo y cubierta con una mezcla vibrante de tomates en cubos, albahaca fresca, vinagre balsámico y el mejor aceite de oliva que tengas.",
+    "ingredients": [
+      { "name": "tomates Roma maduros, en cubos", "amount": "4", "unit": "medianos" },
+      { "name": "albahaca fresca, en chiffonade", "amount": "8", "unit": "hojas" },
+      { "name": "aceite de oliva extra virgen", "amount": "2", "unit": "cdas" },
+      { "name": "vinagre balsámico", "amount": "1", "unit": "cda" },
+      { "name": "dientes de ajo", "amount": "2", "unit": "dientes" },
+      { "name": "ciabatta o baguette, en rebanadas de 1 cm", "amount": "8", "unit": "rebanadas" },
+      { "name": "sal de mar en escamas", "amount": "1/4", "unit": "cdta" },
+      { "name": "pimienta negra recién molida", "amount": "1/4", "unit": "cdta" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Combina los tomates en cubos, la albahaca, 1 cda de aceite de oliva, el vinagre balsámico, la sal y la pimienta en un tazón. Deja marinar al menos 10 minutos a temperatura ambiente.", "tip": "Usa los mejores tomates que encuentres. En invierno, los tomates uva suelen tener mejor sabor que los grandes fuera de temporada." },
+      { "step": 2, "instruction": "Tuesta o asa las rebanadas de pan hasta que estén doradas por ambos lados." },
+      { "step": 3, "instruction": "Corta un diente de ajo por la mitad. Frota el lado cortado sobre las tostadas calientes (la superficie rugosa actúa como un rallador)." },
+      { "step": 4, "instruction": "Rocía las tostadas con el aceite de oliva restante. Coloca generosamente la mezcla de tomate sobre cada rebanada. Sirve inmediatamente." }
+    ]
+  },
+  "guacamole-with-chips": {
+    "name": "Guacamole con Totopos",
+    "description": "Guacamole vibrante y con trozos hecho con aguacates maduros, lima fresca, cilantro, cebolla roja y un toque de jalapeño. Servido con totopos calientes.",
+    "ingredients": [
+      { "name": "aguacates maduros", "amount": "3", "unit": "medianos" },
+      { "name": "jugo de lima", "amount": "2", "unit": "cdas" },
+      { "name": "cebolla roja, finamente picada", "amount": "1/4", "unit": "pequeña" },
+      { "name": "jalapeño, sin semillas y picado", "amount": "1", "unit": "pequeño" },
+      { "name": "cilantro fresco, picado", "amount": "3", "unit": "cdas" },
+      { "name": "tomate Roma, sin semillas y en cubos", "amount": "1", "unit": "mediano" },
+      { "name": "diente de ajo, picado", "amount": "1", "unit": "diente" },
+      { "name": "sal", "amount": "3/4", "unit": "cdta" },
+      { "name": "totopos", "amount": "6", "unit": "oz" }
+    ],
+    "steps": [
+      { "step": 1, "instruction": "Parte los aguacates por la mitad y retira los huesos. Saca la pulpa en un tazón." },
+      { "step": 2, "instruction": "Agrega el jugo de lima y la sal. Machaca con un tenedor hasta la consistencia deseada (con trozos es lo tradicional).", "tip": "Agrega la lima y la sal primero antes de los demás ingredientes. El ácido previene el oscurecimiento y la sal realza el sabor." },
+      { "step": 3, "instruction": "Incorpora la cebolla roja, el jalapeño, el cilantro, el tomate y el ajo. Mezcla suavemente para combinar sin machacar todo en una pasta." },
+      { "step": 4, "instruction": "Prueba y ajusta la sal y la lima. Sirve inmediatamente con totopos." }
+    ]
+  }
+}
