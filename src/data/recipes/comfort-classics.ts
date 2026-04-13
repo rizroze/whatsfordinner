@@ -392,7 +392,7 @@ export const comfortClassicsRecipes: FullRecipe[] = [
     ],
     nutrition: { calories: 480, protein: 28, carbs: 34, fat: 26, fiber: 3 },
     tags: ["comfort-food", "family-friendly"],
-    youtubeVideoId: null,
+    youtubeVideoId: "W1XELWKaCi4",
     relatedSlugs: ["chicken-noodle-soup", "chicken-and-dumplings", "shepherds-pie"],
     datePublished: "2026-04-13",
     dateModified: "2026-04-13",

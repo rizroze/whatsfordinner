@@ -735,7 +735,7 @@ export const lunchExtendedRecipes: FullRecipe[] = [
     ],
     nutrition: { calories: 280, protein: 14, carbs: 42, fat: 8, fiber: 10 },
     tags: ["vegetarian", "budget", "meal-prep", "one-pan"],
-    youtubeVideoId: null,
+    youtubeVideoId: "C-PfiXkydl8",
     relatedSlugs: ["lentil-soup", "french-onion-soup", "chicken-tortilla-soup"],
     datePublished: "2026-04-13",
     dateModified: "2026-04-13",
