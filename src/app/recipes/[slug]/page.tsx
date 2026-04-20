@@ -43,6 +43,7 @@ export async function generateMetadata({
 
   const title = `${recipe.name} Recipe | What's For Dinner`;
   const description = recipe.description;
+  const imageUrl = `https://whatsfordinner.fit/api/og/recipe/${slug}`;
 
   return {
     title,
@@ -54,11 +55,13 @@ export async function generateMetadata({
       url,
       siteName: "What's For Dinner",
       type: "article",
+      images: [{ url: imageUrl, width: 1200, height: 630, alt: recipe.name }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [imageUrl],
     },
   };
 }

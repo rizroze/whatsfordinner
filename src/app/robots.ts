@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/dashboard", "/plan/", "/checkout", "/preview", "/callback"],
     },
-    sitemap: "https://whatsfordinner.fit/sitemap-index.xml",
+    sitemap: "https://whatsfordinner.fit/sitemap.xml",
   };
 }

@@ -322,51 +322,40 @@ function FAQSchema({ faqs }: { faqs: MealPlanPageData["faqs"] }) {
   );
 }
 
-/** Parses "25 min" → "PT25M", "1 hr 15 min" → "PT1H15M", "5 min + overnight" → "PT5M" */
-function toISO8601Duration(prepTime: string): string {
-  const clean = prepTime.split("+")[0].trim().toLowerCase();
-  const hrMatch = clean.match(/(\d+)\s*hr/);
-  const minMatch = clean.match(/(\d+)\s*min/);
-  const hours = hrMatch ? parseInt(hrMatch[1]) : 0;
-  const minutes = minMatch ? parseInt(minMatch[1]) : 0;
-  if (hours && minutes) return `PT${hours}H${minutes}M`;
-  if (hours) return `PT${hours}H`;
-  if (minutes) return `PT${minutes}M`;
-  return "PT30M";
-}
-
-function RecipeSchemas({ meals, pageTitle }: { meals: MealPlanPageData["sampleMeals"]; pageTitle: string }) {
-  const schemas = meals.map((meal) => ({
+function SampleMealsItemList({
+  meals,
+  pageTitle,
+  pageUrl,
+}: {
+  meals: MealPlanPageData["sampleMeals"];
+  pageTitle: string;
+  pageUrl: string;
+}) {
+  const schema = {
     "@context": "https://schema.org",
-    "@type": "Recipe",
-    name: meal.name,
-    description: meal.description,
-    prepTime: toISO8601Duration(meal.prepTime),
-    totalTime: toISO8601Duration(meal.prepTime),
-    recipeCategory: meal.mealType.charAt(0).toUpperCase() + meal.mealType.slice(1),
-    keywords: meal.tags.join(", "),
-    isPartOf: {
-      "@type": "CreativeWork",
-      name: pageTitle,
-      url: "https://whatsfordinner.fit",
-    },
-  }));
+    "@type": "ItemList",
+    name: `Sample meals from ${pageTitle}`,
+    url: pageUrl,
+    numberOfItems: meals.length,
+    itemListElement: meals.map((meal, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: meal.name,
+      description: meal.description,
+    })),
+  };
   return (
-    <>
-      {schemas.map((schema, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
-    </>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
   );
 }
 
 export function MealPlanTemplate({ data, locale }: { data: MealPlanPageData; locale?: string }) {
   const prefix = locale && locale !== "en" ? `/${locale}` : "";
   const ui = getUI(locale);
+  const pageUrl = `https://whatsfordinner.fit${prefix}/meal-plans/${data.slug}`;
 
   return (
     <>
@@ -374,11 +363,11 @@ export function MealPlanTemplate({ data, locale }: { data: MealPlanPageData; loc
         items={[
           { name: ui.home, url: `https://whatsfordinner.fit${prefix || ""}` },
           { name: ui.mealPlans, url: `https://whatsfordinner.fit${prefix}/meal-plans` },
-          { name: data.h1, url: `https://whatsfordinner.fit${prefix}/meal-plans/${data.slug}` },
+          { name: data.h1, url: pageUrl },
         ]}
       />
       <FAQSchema faqs={data.faqs} />
-      <RecipeSchemas meals={data.sampleMeals} pageTitle={data.h1} />
+      <SampleMealsItemList meals={data.sampleMeals} pageTitle={data.h1} pageUrl={pageUrl} />
 
       <article className="py-10 sm:py-16">
         {/* Breadcrumb nav */}
