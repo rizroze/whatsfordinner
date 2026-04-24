@@ -1,4 +1,7 @@
 import type { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
+
 import { getAllMealPlanPages } from "@/data/meal-plans";
 import { getAllRecipes } from "@/data/recipes";
 import { NON_DEFAULT_LOCALES } from "@/lib/i18n/locales";
