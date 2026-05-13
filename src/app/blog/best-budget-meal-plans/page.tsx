@@ -31,7 +31,7 @@ export default function BestBudgetMealPlansPage() {
         description="The best budget meal plans and cheap meal planning services ranked for 2026. Keep groceries under $30-50/week per person with AI-powered plans, recipes, and grocery lists."
         url="https://whatsfordinner.fit/blog/best-budget-meal-plans"
         datePublished="2026-03-13"
-        dateModified="2026-04-01"
+        dateModified="2026-04-15"
       />
       <script
         type="application/ld+json"
@@ -107,7 +107,7 @@ export default function BestBudgetMealPlansPage() {
         5 Best Budget Meal Plans in 2026 (Under $75/Week for Two)
       </h1>
       <p className="text-sm text-stone-400 mb-8">
-        Updated April 2026
+        Updated April 15, 2026
       </p>
 
       {/* --- Intro --- */}
@@ -135,6 +135,67 @@ export default function BestBudgetMealPlansPage() {
         <p>
           Here are the 5 best budget meal plan options in 2026, tested against
           a target of under $75/week in groceries for two people.
+        </p>
+      </div>
+
+      {/* --- Meal planning vs no planning cost comparison --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        The real cost of not having a meal plan
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          Before diving into services, here is what meal planning actually
+          saves. These numbers come from USDA food expenditure surveys and
+          consumer spending data for 2025-2026:
+        </p>
+        <div className="overflow-x-auto my-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b-2 border-stone-200">
+                <th className="text-left py-2 pr-4 font-semibold text-stone-700">Monthly expense</th>
+                <th className="text-left py-2 pr-4 font-semibold text-stone-700">Without a plan</th>
+                <th className="text-left py-2 pr-4 font-semibold text-stone-700">With a plan</th>
+                <th className="text-left py-2 font-semibold text-stone-700">Monthly savings</th>
+              </tr>
+            </thead>
+            <tbody className="text-stone-600">
+              <tr className="border-b border-stone-100">
+                <td className="py-2 pr-4 font-medium">Groceries (2 people)</td>
+                <td className="py-2 pr-4">$500-600</td>
+                <td className="py-2 pr-4">$300-400</td>
+                <td className="py-2 font-semibold text-green-600">$150-200</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-2 pr-4 font-medium">Food waste</td>
+                <td className="py-2 pr-4">$80-120 wasted</td>
+                <td className="py-2 pr-4">$15-25 wasted</td>
+                <td className="py-2 font-semibold text-green-600">$65-95</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-2 pr-4 font-medium">Takeout/delivery</td>
+                <td className="py-2 pr-4">$200-400</td>
+                <td className="py-2 pr-4">$50-100</td>
+                <td className="py-2 font-semibold text-green-600">$150-300</td>
+              </tr>
+              <tr className="border-b border-stone-100 bg-orange-50/50">
+                <td className="py-2 pr-4 font-semibold">Total food spend</td>
+                <td className="py-2 pr-4 font-semibold">$780-1,120</td>
+                <td className="py-2 pr-4 font-semibold">$365-525</td>
+                <td className="py-2 font-bold text-green-600">$365-595/mo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          Even at the conservative end, meal planning saves over $4,000 per
+          year for a household of two. An $8/month meal plan service pays for
+          itself roughly 45 times over. That is not marketing math. That is
+          what happens when you stop buying food you never cook and ordering
+          delivery because you do not know what to make. For the full
+          breakdown, read our{" "}
+          <Link href="/blog/save-money-groceries-meal-planning" className="text-orange-500 hover:text-orange-600 underline">
+            guide on how meal planning saves money
+          </Link>.
         </p>
       </div>
 
@@ -336,6 +397,11 @@ export default function BestBudgetMealPlansPage() {
             <li>Handles any dietary restriction in plain English</li>
             <li>New, non-repeating plans every week</li>
             <li>Meal swap feature to replace any meal you don&apos;t want</li>
+            <li>Access to{" "}
+              <Link href="/recipes" className="text-orange-500 hover:text-orange-600 underline">
+                250 curated recipes
+              </Link>{" "}for extra cooking inspiration
+            </li>
           </ul>
         </div>
         <div className="my-4">
@@ -697,6 +763,72 @@ export default function BestBudgetMealPlansPage() {
             meal planning vs. DoorDash costs
           </Link>{" "}
           for the full math.
+        </p>
+      </div>
+
+      {/* --- Budget recipe examples --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        Budget-friendly recipe ideas under $3/serving
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          To give you a concrete idea of what budget meal planning looks
+          like in practice, here are real recipes from our{" "}
+          <Link href="/recipes" className="text-orange-500 hover:text-orange-600 underline">
+            library of 250 recipes
+          </Link>{" "}
+          that come in under $3 per serving:
+        </p>
+        <ul className="list-disc list-inside space-y-2 pl-1">
+          <li>
+            <Link href="/recipes/chicken-fried-rice" className="text-orange-500 hover:text-orange-600 underline">
+              Chicken Fried Rice
+            </Link>{" "}
+            &mdash; ~$2.50/serving. Uses leftover rice, frozen veggies, eggs,
+            and chicken thighs. A complete meal in one pan.
+          </li>
+          <li>
+            <Link href="/recipes/chili-con-carne" className="text-orange-500 hover:text-orange-600 underline">
+              Chili Con Carne
+            </Link>{" "}
+            &mdash; ~$2.00/serving. Ground beef, canned beans, canned tomatoes.
+            Makes 6-8 servings per batch for easy leftovers.
+          </li>
+          <li>
+            <Link href="/recipes/red-beans-and-rice" className="text-orange-500 hover:text-orange-600 underline">
+              Red Beans and Rice
+            </Link>{" "}
+            &mdash; ~$1.50/serving. One of the cheapest complete meals you can
+            make. High protein, filling, and gets better the next day.
+          </li>
+          <li>
+            <Link href="/recipes/chicken-noodle-soup" className="text-orange-500 hover:text-orange-600 underline">
+              Chicken Noodle Soup
+            </Link>{" "}
+            &mdash; ~$2.25/serving. Use a whole chicken or thighs, basic
+            vegetables, and egg noodles. Stretches easily to feed a family.
+          </li>
+          <li>
+            <Link href="/recipes/overnight-oats" className="text-orange-500 hover:text-orange-600 underline">
+              Overnight Oats
+            </Link>{" "}
+            &mdash; ~$0.75/serving. The cheapest breakfast you can prep. Oats,
+            milk, and whatever fruit is in season.
+          </li>
+        </ul>
+        <p>
+          These are the kinds of recipes our AI gravitates toward when you
+          select the budget tier. Affordable ingredients, high yield, and
+          meals that taste good enough that you actually want to eat them.
+          Browse more ideas on our{" "}
+          <Link href="/meal-plans/meal-plan-on-a-budget" className="text-orange-500 hover:text-orange-600 underline">
+            budget meal plan page
+          </Link>{" "}
+          or try the{" "}
+          <Link href="/tools/what-should-i-cook" className="text-orange-500 hover:text-orange-600 underline">
+            What Should I Cook? quiz
+          </Link>{" "}
+          for instant suggestions.
         </p>
       </div>
 

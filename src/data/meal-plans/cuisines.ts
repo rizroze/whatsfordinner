@@ -4,9 +4,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "american",
     type: "cuisine",
-    title: "Weekly American Meal Plans",
+    title: "American Meal Plan with Grocery List – Free AI Planner",
     metaDescription:
-      "Get weekly American meal plans with classic comfort food recipes and organized grocery lists. Save time and eat well with dishes your whole family will love.",
+      "Free personalized American meal plan with recipes and grocery list. Classic comfort food your whole family loves, AI-planned weekly. No card needed.",
     h1: "Classic American Meal Plans for Busy Families",
     intro:
       "From hearty burgers and BBQ to wholesome casseroles and Sunday roasts, American cuisine is all about bold flavors and satisfying portions. Our AI-powered meal planner builds you a weekly lineup of classic American dishes, complete with a grocery list so you can skip the guesswork and get cooking. Whether you're feeding a family of four or meal-prepping solo, these plans make weeknight dinners effortless.",
@@ -98,9 +98,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "italian",
     type: "cuisine",
-    title: "Weekly Italian Meal Plans",
+    title: "Italian Meal Plan with Grocery List – Free AI Planner",
     metaDescription:
-      "Plan a week of authentic Italian meals with handpicked recipes and auto-generated grocery lists. From fresh pasta to risotto, dinner is handled every night.",
+      "Free personalized Italian meal plan with recipes and grocery list. Authentic pasta, risotto, and more – AI-planned weekly. No credit card needed.",
     h1: "Italian Meal Plans That Bring the Trattoria Home",
     intro:
       "Italian cooking is built on simplicity — great ingredients, honest technique, and meals meant to be shared. Our weekly Italian meal plans give you a curated lineup of pastas, risottos, grilled proteins, and rustic salads that taste like they came from a Roman trattoria. Every plan comes with a consolidated grocery list so you can grab your San Marzano tomatoes and fresh basil in one trip.",
@@ -192,9 +192,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "mexican",
     type: "cuisine",
-    title: "Weekly Mexican Meal Plans",
+    title: "Mexican Meal Plan with Grocery List – Free AI Planner",
     metaDescription:
-      "Discover weekly Mexican meal plans with authentic recipes from tacos to tamales. Get organized grocery lists and bring bold, vibrant flavors to every meal.",
+      "Free personalized Mexican meal plan with recipes and grocery list. Tacos, enchiladas, rice bowls – AI-planned weekly menus. No credit card needed.",
     h1: "Bold Mexican Meal Plans for Every Night of the Week",
     intro:
       "Mexican cuisine goes far beyond tacos — it's a rich tapestry of moles, salsas, braises, and fresh ceviches shaped by centuries of tradition. Our AI meal planner delivers a week of authentic Mexican recipes with the right balance of heat, acid, and richness. Every plan comes with a grocery list so you know exactly which chiles, limes, and spices to grab.",
@@ -380,9 +380,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "mediterranean",
     type: "cuisine",
-    title: "Weekly Mediterranean Meal Plans",
+    title: "Mediterranean Diet Meal Plan with Grocery List – Free",
     metaDescription:
-      "Eat the Mediterranean way with weekly meal plans full of fresh vegetables, olive oil, and lean proteins. Auto-generated grocery lists make healthy eating effortless.",
+      "Free personalized Mediterranean diet meal plan with recipes and grocery list. Fresh vegetables, olive oil, lean proteins – AI-planned weekly. No card needed.",
     h1: "Mediterranean Meal Plans for a Healthier Week",
     intro:
       "The Mediterranean diet is consistently ranked as the world's healthiest way to eat — and for good reason. Built on olive oil, fresh vegetables, whole grains, fish, and legumes, it's as delicious as it is nutritious. Our weekly plans curate the best of Greek, Spanish, Lebanese, and Italian coastal cooking into a practical meal schedule with a ready-to-go grocery list.",

@@ -1,12 +1,10 @@
 import type { MetadataRoute } from "next";
 
-export const dynamic = "force-static";
-
 import { getAllMealPlanPages } from "@/data/meal-plans";
 import { getAllRecipes } from "@/data/recipes";
 import { NON_DEFAULT_LOCALES } from "@/lib/i18n/locales";
 import { getSlugForLocale } from "@/data/meal-plans/translations";
-import { getRecipeSlugForLocale } from "@/data/recipes/translations";
+import { getRecipeSlugForLocale, getAllTranslatedRecipeSlugs } from "@/data/recipes/translations";
 import {
   getTranslatedBlogSlugs,
   getBlogSlugForLocale,
@@ -110,12 +108,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
-      url: `${BASE}/onboarding`,
-      lastModified: new Date("2026-03-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
       url: `${BASE}/tools`,
       lastModified: new Date("2026-04-01"),
       changeFrequency: "monthly",
@@ -144,18 +136,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date("2026-04-13"),
       changeFrequency: "weekly",
       priority: 0.9,
-    },
-    {
-      url: `${BASE}/login`,
-      lastModified: new Date("2026-03-01"),
-      changeFrequency: "monthly",
-      priority: 0.4,
-    },
-    {
-      url: `${BASE}/signup`,
-      lastModified: new Date("2026-03-01"),
-      changeFrequency: "monthly",
-      priority: 0.4,
     },
     {
       url: `${BASE}/privacy`,
@@ -219,12 +199,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.7,
       }));
 
-      const localizedRecipes = recipes.map((recipe) => ({
-        url: `${BASE}/${locale}/recipes/${getRecipeSlugForLocale(recipe.slug, locale)}`,
-        lastModified: new Date(recipe.dateModified),
-        changeFrequency: "monthly" as const,
-        priority: 0.7,
-      }));
+      const translatedLocalizedSlugs = new Set(getAllTranslatedRecipeSlugs(locale));
+      const localizedRecipes: MetadataRoute.Sitemap = recipes.flatMap((recipe) => {
+        const localizedSlug = getRecipeSlugForLocale(recipe.slug, locale);
+        if (!translatedLocalizedSlugs.has(localizedSlug)) return [];
+        return [{
+          url: `${BASE}/${locale}/recipes/${localizedSlug}`,
+          lastModified: new Date(recipe.dateModified),
+          changeFrequency: "monthly" as const,
+          priority: 0.7,
+        }];
+      });
 
       return [hub, ...mealPlans, ...blogs, ...localizedRecipes];
     }

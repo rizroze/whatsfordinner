@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best PlateJoy Alternative 2026 | AI Meal Plans + Recipes + Grocery List",
   description:
-    "PlateJoy shut down in 2025. Compare the best PlateJoy alternatives including What's For Dinner, Home Chef, Daily Harvest, and Factor. AI meal plans with recipes and grocery lists from $7.99/mo.",
+    "PlateJoy shut down in 2025. Compare the best alternatives: What's For Dinner gives you AI meal plans with recipes and grocery lists from $7.99/mo. Free trial.",
   openGraph: {
     title:
       "Best PlateJoy Alternative in 2026 (Compared)",
     description:
-      "PlateJoy shut down in 2025. Compare the best PlateJoy alternatives including What's For Dinner, Home Chef, Daily Harvest, and Factor. AI meal plans with recipes and grocery lists from $7.99/mo.",
+      "PlateJoy shut down in 2025. Compare the best alternatives: What's For Dinner gives you AI meal plans with recipes and grocery lists from $7.99/mo. Free trial.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/platejoy-alternative",
@@ -34,7 +34,7 @@ export default function PlateJoyAlternativePage() {
         description="PlateJoy shut down in 2025. Compare the best PlateJoy alternatives including What's For Dinner, Home Chef, Daily Harvest, and Factor. AI meal plans with recipes and grocery lists from $7.99/mo."
         url="https://whatsfordinner.fit/blog/platejoy-alternative"
         datePublished="2026-02-25"
-        dateModified="2026-04-01"
+        dateModified="2026-04-15"
       />
       <BreadcrumbJsonLd
         items={[
@@ -51,7 +51,7 @@ export default function PlateJoyAlternativePage() {
         The Best PlateJoy Alternative in 2026
       </h1>
       <p className="text-sm text-stone-400 mb-8">
-        Updated April 2026
+        Updated April 15, 2026
       </p>
 
       <div className="space-y-4 text-stone-600 leading-relaxed">
@@ -233,6 +233,21 @@ export default function PlateJoyAlternativePage() {
                 <td className="py-3 pr-4 font-medium">Full recipes included</td>
                 <td className="py-3 px-4">Yes</td>
                 <td className="py-3 pl-4">Yes, with prep times and servings</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Recipe library</td>
+                <td className="py-3 px-4">Fixed database</td>
+                <td className="py-3 pl-4">250 curated + unlimited AI-generated</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Nutritional info</td>
+                <td className="py-3 px-4">Basic</td>
+                <td className="py-3 pl-4">Calories, protein, carbs, fat per serving</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Data portability</td>
+                <td className="py-3 px-4">None (data lost at shutdown)</td>
+                <td className="py-3 pl-4">Email delivery, always accessible</td>
               </tr>
               <tr className="border-b border-stone-100">
                 <td className="py-3 pr-4 font-medium">Dietary restrictions</td>
@@ -596,6 +611,79 @@ export default function PlateJoyAlternativePage() {
         </p>
       </div>
 
+      {/* --- PlateJoy migration checklist --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        PlateJoy to What&apos;s For Dinner: 2-minute migration checklist
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          Since PlateJoy didn&apos;t offer a data export, there is nothing to
+          migrate. That actually makes switching easier. Here is your
+          complete checklist:
+        </p>
+        <ol className="list-decimal list-inside space-y-3 pl-1">
+          <li>
+            <strong>Go to{" "}
+            <Link
+              href="/onboarding"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              whatsfordinner.fit/onboarding
+            </Link></strong>{" "}
+            (no account creation needed for the free trial)
+          </li>
+          <li>
+            <strong>Enter your household size</strong> &mdash; the same info
+            PlateJoy asked for, but faster
+          </li>
+          <li>
+            <strong>Type your dietary restrictions in plain English</strong> &mdash;
+            no dropdowns to hunt through. &ldquo;Keto, no shellfish, prefer
+            Mediterranean&rdquo; works perfectly
+          </li>
+          <li>
+            <strong>Set your budget tier</strong> &mdash; something PlateJoy
+            never offered
+          </li>
+          <li>
+            <strong>Get your free 3-day plan instantly</strong> &mdash; complete
+            with recipes and a grocery list
+          </li>
+        </ol>
+        <p>
+          Total time: about 2 minutes. If you like what you see, subscribe
+          for $7.99/month (or $59.99/year) and get a full 7-day plan
+          every week. While you are getting set up, browse our{" "}
+          <Link
+            href="/recipes"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            library of 250 recipes
+          </Link>{" "}
+          for cooking inspiration. Favorites include{" "}
+          <Link
+            href="/recipes/chicken-pot-pie"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            chicken pot pie
+          </Link>
+          ,{" "}
+          <Link
+            href="/recipes/teriyaki-chicken"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            teriyaki chicken
+          </Link>
+          , and{" "}
+          <Link
+            href="/recipes/shepherds-pie"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            shepherd&apos;s pie
+          </Link>.
+        </p>
+      </div>
+
       {/* --- Bottom CTA --- */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
@@ -703,6 +791,60 @@ export default function PlateJoyAlternativePage() {
             {" "}sample plans to see examples.
           </p>
         </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            How much cheaper is What&apos;s For Dinner than PlateJoy was?
+          </h3>
+          <p>
+            PlateJoy ranged from $8.25 to $12.99 per month depending on plan length.
+            What&apos;s For Dinner is $7.99/month, or $5/month on the{" "}
+            <Link
+              href="/pricing"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              yearly plan
+            </Link>{" "}
+            ($59.99/year). That is up to 60% cheaper than PlateJoy&apos;s most expensive tier,
+            and you get AI-generated plans that PlateJoy never offered.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            Does What&apos;s For Dinner have a recipe library?
+          </h3>
+          <p>
+            Yes. Beyond the AI-generated recipes in your weekly plans, we maintain a{" "}
+            <Link
+              href="/recipes"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              library of 250 curated recipes
+            </Link>{" "}
+            you can browse anytime. Each recipe includes full ingredients,
+            step-by-step instructions, prep times, and nutritional information. Popular
+            picks include{" "}
+            <Link
+              href="/recipes/chicken-parmesan"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              chicken parmesan
+            </Link>
+            ,{" "}
+            <Link
+              href="/recipes/beef-tacos"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              beef tacos
+            </Link>
+            , and{" "}
+            <Link
+              href="/recipes/shakshuka"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              shakshuka
+            </Link>.
+          </p>
+        </div>
       </div>
 
       {/* FAQ Schema */}
@@ -743,6 +885,22 @@ export default function PlateJoyAlternativePage() {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text: "Yes, and more. PlateJoy supported 14+ preset diets. What's For Dinner uses AI that understands free-text dietary input, so you can type any combination of restrictions and the AI will respect it.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much cheaper is What's For Dinner than PlateJoy was?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "PlateJoy cost $8.25 to $12.99 per month depending on plan length. What's For Dinner costs $7.99/month or $59.99/year ($5/month effective). That's up to 60% cheaper than PlateJoy's most expensive tier, while offering AI-generated plans that PlateJoy never had.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What happened to PlateJoy users' data?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "All PlateJoy user data was permanently lost when the service shut down on July 1, 2025. No export tool was provided. Saved recipes, dietary preference profiles, and plan history are unrecoverable. The website now redirects to a generic landing page.",
                 },
               },
             ],

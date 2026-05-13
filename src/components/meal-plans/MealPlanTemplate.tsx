@@ -385,9 +385,14 @@ export function MealPlanTemplate({ data, locale }: { data: MealPlanPageData; loc
         </span>
 
         {/* H1 */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-900 tracking-tight leading-tight mb-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-900 tracking-tight leading-tight mb-3">
           {data.h1}
         </h1>
+
+        {/* Byline + date */}
+        <p className="text-xs text-stone-400 mb-6">
+          By the What&apos;s For Dinner Team &middot; Updated {new Date(data.dateModified).toLocaleDateString("en-US", { month: "long", year: "numeric" })}
+        </p>
 
         {/* Intro */}
         <p className="text-base sm:text-lg text-stone-600 leading-relaxed mb-10">

@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Mealime Alternative in 2026 | AI-Powered Meal Plans + Grocery List",
   description:
-    "Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free trial, no signup. See how it compares.",
+    "Tired of Mealime's recycled recipes? Get unique AI-generated meal plans with recipes and a grocery list every week. Free trial – no card or app needed.",
   openGraph: {
     title:
       "Best Mealime Alternative in 2026",
     description:
-      "Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free trial, no signup. See how it compares.",
+      "Tired of Mealime's recycled recipes? Get unique AI-generated meal plans with recipes and a grocery list every week. Free trial – no card or app needed.",
     siteName: "What's For Dinner",
     type: "article",
     url: "https://whatsfordinner.fit/blog/mealime-alternative",
@@ -34,6 +34,7 @@ export default function MealimeAlternativePage() {
         description="Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free trial, no signup. See the full comparison."
         url="https://whatsfordinner.fit/blog/mealime-alternative"
         datePublished="2026-03-07"
+        dateModified="2026-04-15"
       />
       <BreadcrumbJsonLd
         items={[
@@ -81,6 +82,30 @@ export default function MealimeAlternativePage() {
                   text: "Yes. What's For Dinner offers a completely free AI-generated meal plan with recipes and a grocery list. No account creation, no credit card, and no email required. You see exactly what subscribers get before deciding.",
                 },
               },
+              {
+                "@type": "Question",
+                name: "Does Mealime have AI meal planning?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. Mealime uses a static recipe database with preset dietary filters. It does not generate new recipes or use AI for personalization. You browse and pick meals manually. What's For Dinner uses Claude AI to generate original meal plans with recipes tailored to your exact dietary needs, budget, and household size every week.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can I use Mealime for free in 2026?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, Mealime still offers a free tier, but it's limited to basic dietary filters. Keto, paleo, Whole30, and other popular diets are locked behind Mealime Pro at $5.99/month. What's For Dinner includes all dietary restrictions on every plan, and you can try it free with a 3-day AI-generated meal plan before subscribing.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How many recipes does Mealime have vs What's For Dinner?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Mealime has a fixed database of several hundred recipes that doesn't change frequently. What's For Dinner uses AI to generate original recipes every week, so variety is unlimited. Additionally, What's For Dinner has a browsable library of 250 curated recipes at whatsfordinner.fit/recipes for cooking inspiration between plans.",
+                },
+              },
             ],
           }),
         }}
@@ -93,7 +118,7 @@ export default function MealimeAlternativePage() {
         The Best Mealime Alternative in 2026
       </h1>
       <p className="text-sm text-stone-400 mb-8">
-        Updated April 2026
+        Updated April 15, 2026
       </p>
 
       <div className="space-y-4 text-stone-600 leading-relaxed">
@@ -353,6 +378,16 @@ export default function MealimeAlternativePage() {
                 <td className="py-3 pl-4">Yes, full instructions + ingredients</td>
               </tr>
               <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Recipe library</td>
+                <td className="py-3 px-4">Fixed database (~hundreds)</td>
+                <td className="py-3 pl-4">250 curated + unlimited AI-generated</td>
+              </tr>
+              <tr className="border-b border-stone-100">
+                <td className="py-3 pr-4 font-medium">Nutritional info</td>
+                <td className="py-3 px-4">Pro only ($5.99/mo)</td>
+                <td className="py-3 pl-4">Included on all recipes</td>
+              </tr>
+              <tr className="border-b border-stone-100">
                 <td className="py-3 pr-4 font-medium">Cuisine preferences</td>
                 <td className="py-3 px-4">Browse by category</td>
                 <td className="py-3 pl-4">Any cuisine (free-text)</td>
@@ -423,6 +458,58 @@ export default function MealimeAlternativePage() {
           AI-generated plans unique to you every week, not a shared recipe
           catalog with filters unlocked.
         </p>
+      </div>
+
+      {/* --- Not sure what to cook tonight? --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        Not sure if you&apos;re ready to switch? Try these free tools
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          If you&apos;re on the fence about leaving Mealime, start with
+          our free tools. No account needed for any of them:
+        </p>
+        <ul className="list-disc list-inside space-y-2 pl-1">
+          <li>
+            <Link
+              href="/tools/what-should-i-cook"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              What Should I Cook?
+            </Link>{" "}
+            &mdash; a quick quiz that suggests meals based on what you have
+            and what you&apos;re in the mood for
+          </li>
+          <li>
+            <Link
+              href="/tools/random-meal"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Random Meal Generator
+            </Link>{" "}
+            &mdash; stuck in a rut? Get a random recipe idea instantly
+          </li>
+          <li>
+            <Link
+              href="/recipes"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Recipe Library
+            </Link>{" "}
+            &mdash; browse 250 curated recipes with full ingredients,
+            instructions, and nutritional info
+          </li>
+          <li>
+            <Link
+              href="/tools/calorie-calculator"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Calorie Calculator
+            </Link>{" "}
+            &mdash; figure out your daily calorie target based on your
+            goals
+          </li>
+        </ul>
       </div>
 
       {/* --- Mid-article CTA --- */}
@@ -514,7 +601,34 @@ export default function MealimeAlternativePage() {
           Dinner uses Claude AI to <strong>generate completely original
           recipes</strong> every week based on your exact preferences.
           You&apos;ll never hit a ceiling because there isn&apos;t one.
-          The AI creates new combinations every time.
+          The AI creates new combinations every time. Plus, we maintain a{" "}
+          <Link
+            href="/recipes"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            library of 250 curated recipes
+          </Link>{" "}
+          you can browse for cooking inspiration anytime, from{" "}
+          <Link
+            href="/recipes/chicken-stir-fry"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            chicken stir-fry
+          </Link>{" "}
+          to{" "}
+          <Link
+            href="/recipes/thai-red-curry"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            Thai red curry
+          </Link>{" "}
+          to{" "}
+          <Link
+            href="/recipes/overnight-oats"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            overnight oats
+          </Link>.
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
@@ -702,6 +816,69 @@ export default function MealimeAlternativePage() {
             with recipes and a grocery list. No account creation, no
             credit card, and no email required. You see exactly what
             subscribers get before deciding.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            Does Mealime have AI meal planning?
+          </h3>
+          <p>
+            No. Mealime uses a static recipe database with preset filters.
+            You browse recipes and pick them manually. It does not generate
+            new recipes or use AI to personalize your plan. What&apos;s For
+            Dinner uses Claude AI to build original meal plans with recipes
+            tailored to your dietary needs, budget, and household every week.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            Can I use Mealime for free in 2026?
+          </h3>
+          <p>
+            Yes, Mealime still offers a free tier with basic dietary filters.
+            However, keto, paleo, Whole30, and other popular diets require
+            Mealime Pro at $5.99/month. Nutritional info is also locked
+            behind Pro. What&apos;s For Dinner includes all dietary
+            restrictions on every plan, and the{" "}
+            <Link
+              href="/onboarding"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              free 3-day trial
+            </Link>{" "}
+            gives you a complete AI-generated plan with no limitations.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold text-stone-700 mb-2">
+            How many recipes does What&apos;s For Dinner have?
+          </h3>
+          <p>
+            What&apos;s For Dinner generates unlimited original recipes
+            through AI, so your weekly plans never repeat. On top of that,
+            we maintain a{" "}
+            <Link
+              href="/recipes"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              browsable library of 250 curated recipes
+            </Link>{" "}
+            with full ingredients, step-by-step instructions, and nutritional
+            information. From{" "}
+            <Link
+              href="/recipes/chicken-fajitas"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              chicken fajitas
+            </Link>{" "}
+            to{" "}
+            <Link
+              href="/recipes/lemon-butter-salmon"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              lemon butter salmon
+            </Link>
+            , there is always something new to try.
           </p>
         </div>
       </div>

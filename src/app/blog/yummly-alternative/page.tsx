@@ -32,7 +32,7 @@ export default function YummlyAlternativePage() {
         description="Yummly shut down in December 2024 and isn't coming back. Here's the best replacement: AI-powered weekly meal plans with recipes and a grocery list, personalized to your diet, budget, and household."
         url="https://whatsfordinner.fit/blog/yummly-alternative"
         datePublished="2026-02-25"
-        dateModified="2026-04-01"
+        dateModified="2026-04-15"
       />
       <BreadcrumbJsonLd
         items={[
@@ -80,6 +80,30 @@ export default function YummlyAlternativePage() {
                   text: "What's For Dinner costs $7.99/month or $59.99/year ($5/month effective). You can try it free with a 3-day sample plan before subscribing. Unlike Yummly, which was free but funded by Whirlpool's hardware business (and shut down when that strategy changed), What's For Dinner is independently funded by subscriptions.",
                 },
               },
+              {
+                "@type": "Question",
+                name: "What apps are similar to Yummly?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The closest Yummly alternatives in 2026 are: What's For Dinner (AI-generated meal plans with recipes and grocery lists, $7.99/mo), Paprika (recipe manager for bookmarking and organizing recipes, one-time $5 purchase), Mealime (recipe browser with meal planning, free/$5.99 Pro), and CookBook (recipe organizer). For full meal planning and grocery lists like Yummly offered, What's For Dinner is the most complete replacement.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Why did Whirlpool shut down Yummly?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Whirlpool acquired Yummly in 2017 to integrate recipe discovery with their smart kitchen appliances. The strategy never gained meaningful consumer traction, and by late 2024, Whirlpool decided to discontinue the platform entirely. The app and website went dark on December 20, 2024 with no data export tool provided to users.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is there a free Yummly alternative?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "What's For Dinner offers a free 3-day sample plan with recipes and a grocery list, no account or credit card needed. Mealime has a free tier with limited dietary filters. For free recipe browsing, What's For Dinner maintains a library of 250 curated recipes at whatsfordinner.fit/recipes. The USDA MyPlate program also offers free basic meal plans.",
+                },
+              },
             ],
           }),
         }}
@@ -88,7 +112,7 @@ export default function YummlyAlternativePage() {
       <span className="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded-full inline-block mb-4">
         Alternatives
       </span>
-      <p className="text-sm text-stone-400 mb-8">Updated April 1, 2026</p>
+      <p className="text-sm text-stone-400 mb-8">Updated April 15, 2026</p>
 
       <h1 className="text-3xl font-bold text-stone-900 mb-4 mt-8">
         The Best Yummly Alternative in 2026
@@ -315,8 +339,23 @@ export default function YummlyAlternativePage() {
             </tr>
             <tr className="border-b border-stone-100">
               <td className="py-3 pr-4 font-medium text-stone-700">Dietary filters</td>
-              <td className="py-3 px-4">Extensive</td>
-              <td className="py-3 pl-4">Extensive (same range)</td>
+              <td className="py-3 px-4">Extensive preset filters</td>
+              <td className="py-3 pl-4">Unlimited (free-text AI input)</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-700">Recipe library</td>
+              <td className="py-3 px-4">Large static database (now deleted)</td>
+              <td className="py-3 pl-4">250 curated + unlimited AI-generated</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-700">Household size</td>
+              <td className="py-3 px-4">Manual serving adjustment</td>
+              <td className="py-3 pl-4">Built into AI plan generation</td>
+            </tr>
+            <tr className="border-b border-stone-100">
+              <td className="py-3 pr-4 font-medium text-stone-700">Cuisine preferences</td>
+              <td className="py-3 px-4">Algorithm-learned over time</td>
+              <td className="py-3 pl-4">Set instantly during onboarding</td>
             </tr>
             <tr className="border-b border-stone-100">
               <td className="py-3 pr-4 font-medium text-stone-700">Delivery</td>
@@ -369,7 +408,15 @@ export default function YummlyAlternativePage() {
           instructions built into your plan. Plus a consolidated grocery list
           for your entire week. Not a per-recipe list that you have to merge
           yourself -- a single, organized list that accounts for overlapping
-          ingredients across every meal. Less browsing, more doing.
+          ingredients across every meal. And if you miss browsing recipes like
+          you did on Yummly, we also maintain a{" "}
+          <Link
+            href="/recipes"
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            library of 250 curated recipes
+          </Link>{" "}
+          you can explore anytime. Less browsing, more doing.
         </p>
         <p>
           And it all arrives in your inbox. No app to open, no algorithm to
@@ -695,6 +742,168 @@ export default function YummlyAlternativePage() {
             ambitions.
           </p>
         </div>
+
+        <div>
+          <p className="font-semibold text-stone-800 mb-1">
+            What apps are similar to Yummly?
+          </p>
+          <p>
+            The closest Yummly alternatives depend on what you used it for.
+            For <strong>meal planning + grocery lists</strong>:{" "}
+            <Link
+              href="/onboarding"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              What&apos;s For Dinner
+            </Link>{" "}
+            ($7.99/mo, AI-generated plans) and{" "}
+            <Link
+              href="/blog/mealime-alternative"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Mealime
+            </Link>{" "}
+            (free/Pro) are the top picks. For <strong>recipe bookmarking</strong>:{" "}
+            <Link
+              href="/blog/paprika-alternative"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Paprika
+            </Link>{" "}
+            ($5 one-time) is the best recipe manager. For a full
+            rundown, see our{" "}
+            <Link
+              href="/blog/best-meal-planning-apps"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              10 best meal planning apps ranking
+            </Link>.
+          </p>
+        </div>
+
+        <div>
+          <p className="font-semibold text-stone-800 mb-1">
+            Is there a free Yummly alternative?
+          </p>
+          <p>
+            Yes. What&apos;s For Dinner offers a{" "}
+            <Link
+              href="/onboarding"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              free 3-day sample plan
+            </Link>{" "}
+            with recipes and a grocery list, no account or credit card needed.
+            You can also browse our{" "}
+            <Link
+              href="/recipes"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              library of 250 curated recipes
+            </Link>{" "}
+            for free anytime. Other free options include Mealime&apos;s free tier
+            (limited dietary filters) and the USDA MyPlate program (basic
+            government meal plans).
+          </p>
+        </div>
+
+        <div>
+          <p className="font-semibold text-stone-800 mb-1">
+            Does What&apos;s For Dinner have recipes I can browse?
+          </p>
+          <p>
+            Yes. Beyond the AI-generated recipes in your weekly plans, we
+            maintain a{" "}
+            <Link
+              href="/recipes"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              browsable recipe library
+            </Link>{" "}
+            with 250 curated recipes. Each includes full ingredients,
+            step-by-step instructions, nutritional information, and some
+            include YouTube cooking videos. Popular picks include{" "}
+            <Link
+              href="/recipes/beef-stroganoff"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              beef stroganoff
+            </Link>
+            ,{" "}
+            <Link
+              href="/recipes/chicken-fajitas"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              chicken fajitas
+            </Link>
+            , and{" "}
+            <Link
+              href="/recipes/banana-pancakes"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              banana pancakes
+            </Link>.
+          </p>
+        </div>
+      </div>
+
+      {/* --- Free tools section --- */}
+      <h2 className="text-xl font-semibold text-stone-800 mt-10 mb-4">
+        Free tools for former Yummly users
+      </h2>
+      <div className="space-y-4 text-stone-600 leading-relaxed">
+        <p>
+          Missing Yummly&apos;s recipe discovery? These free tools can help
+          fill the gap while you decide on a full meal planning solution:
+        </p>
+        <ul className="list-disc list-inside space-y-2 pl-1">
+          <li>
+            <Link
+              href="/recipes"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Recipe Library
+            </Link>{" "}
+            &mdash; browse 250 curated recipes with full ingredients,
+            instructions, and nutritional info. Filter by cuisine, diet,
+            and meal type.
+          </li>
+          <li>
+            <Link
+              href="/tools/what-should-i-cook"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              What Should I Cook? Quiz
+            </Link>{" "}
+            &mdash; answer a few quick questions and get a personalized
+            meal suggestion. The closest thing to Yummly&apos;s recipe
+            recommendations, but faster.
+          </li>
+          <li>
+            <Link
+              href="/tools/random-meal"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Random Meal Generator
+            </Link>{" "}
+            &mdash; when you just need an idea and don&apos;t want to
+            think about it.
+          </li>
+          <li>
+            <Link
+              href="/tools/calorie-calculator"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Calorie Calculator
+            </Link>{" "}
+            &mdash; figure out your daily targets based on your goals,
+            then let the AI plan meals around those numbers.
+          </li>
+        </ul>
+        <p>
+          All of these are free, no account required. They work well alongside
+          whatever meal planning approach you choose.
+        </p>
       </div>
 
       {/* --- Bottom CTA --- */}

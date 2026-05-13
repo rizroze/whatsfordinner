@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/dashboard", "/plan/", "/checkout", "/preview", "/callback"],
+      disallow: ["/api/", "/dashboard", "/plan/", "/checkout", "/preview", "/callback", "/onboarding"],
     },
     sitemap: "https://whatsfordinner.fit/sitemap.xml",
   };

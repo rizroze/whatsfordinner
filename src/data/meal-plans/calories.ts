@@ -4,9 +4,9 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "1200-calorie-meal-plan",
     type: "calorie",
-    title: "1200 Calorie Meal Plan",
+    title: "1200 Calorie Meal Plan with Recipes & Grocery List",
     metaDescription:
-      "Get a personalized 1200 calorie meal plan with recipes and a grocery list. Designed for petite women and sedentary adults. Filling meals, smart portions, no starvation.",
+      "Free 1200 calorie meal plan with recipes and grocery list. AI-personalized, filling meals with smart portions. No starvation, no guesswork. Try free.",
     h1: "A 1200 Calorie Meal Plan That Actually Keeps You Full",
     intro:
       "A 1,200-calorie meal plan works best for petite women (under 5'4\"), sedentary adults, and people with slower metabolisms who need a moderate deficit to see results. Eating this few calories doesn't have to mean tiny portions or bland food. The trick is choosing high-volume, nutrient-dense ingredients: leafy greens, lean proteins, cruciferous vegetables, eggs, berries, and healthy fats that fill your plate and keep you satisfied for hours. A typical day on this plan looks like a veggie-packed egg white omelette for breakfast (220 cal), a big chicken lettuce wrap for lunch (310 cal), baked cod with roasted vegetables for dinner (320 cal), and a high-protein snack like cottage cheese bites (90 cal), with room left for a second snack or a larger portion at one meal. We build you a fresh 1,200-calorie plan each week with recipes and a grocery list so every calorie counts, nothing goes to waste, and you never feel like you're white-knuckling through a diet.",
@@ -371,9 +371,9 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "1800-calorie-meal-plan",
     type: "calorie",
-    title: "1800 Calorie Meal Plan",
+    title: "1800 Calorie Meal Plan with Recipes & Grocery List",
     metaDescription:
-      "Get a weekly 1800 calorie meal plan with enough fuel for active lifestyles. Gradual weight loss with satisfying meals planned automatically. Try free.",
+      "Free 1800 calorie meal plan with recipes and grocery list. Enough fuel for active lifestyles, AI-planned weekly. Gradual weight loss without restriction.",
     h1: "An 1800 Calorie Meal Plan for People Who Actually Move",
     intro:
       "If you're active and trying to lose weight, extreme calorie cuts backfire. An 1,800-calorie plan gives you enough fuel to power through workouts, stay sharp at work, and still create a moderate deficit that chips away at fat over time. These are real-sized meals with enough carbs for energy, enough protein for recovery, and enough flavor that you forget you're on a plan.",
@@ -470,9 +470,9 @@ export const caloriePages: MealPlanPageData[] = [
   {
     slug: "2000-calorie-meal-plan",
     type: "calorie",
-    title: "2000 Calorie Meal Plan",
+    title: "2000 Calorie Meal Plan with Recipes & Grocery List",
     metaDescription:
-      "Get a weekly 2000 calorie meal plan with balanced, USDA-aligned nutrition. Three satisfying meals plus snacks, planned automatically. Try it free today.",
+      "Free 2000 calorie meal plan with recipes and grocery list. Balanced USDA-aligned nutrition, AI-personalized weekly. Three meals plus snacks. No card needed.",
     h1: "A 2000 Calorie Meal Plan for Balanced, Everyday Eating",
     intro:
       "2,000 calories is the standard benchmark for a reason — it works for a huge range of adults looking to maintain their weight and eat well. Whether you're done dieting and want to hold your results, or you just want a structured plan that keeps nutrition on track without overthinking it, this is your baseline. Balanced macros, diverse ingredients, and meals that feel completely normal.",
