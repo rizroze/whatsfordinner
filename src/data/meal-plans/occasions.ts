@@ -100,7 +100,7 @@ export const occasionPages: MealPlanPageData[] = [
       "mediterranean-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -199,7 +199,7 @@ export const occasionPages: MealPlanPageData[] = [
       "thanksgiving-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -298,7 +298,7 @@ export const occasionPages: MealPlanPageData[] = [
       "meal-plan-for-entertaining",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -397,7 +397,7 @@ export const occasionPages: MealPlanPageData[] = [
       "meal-plan-for-entertaining",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -496,7 +496,7 @@ export const occasionPages: MealPlanPageData[] = [
       "high-protein-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -595,7 +595,7 @@ export const occasionPages: MealPlanPageData[] = [
       "high-protein-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -694,7 +694,7 @@ export const occasionPages: MealPlanPageData[] = [
       "meal-plan-for-entertaining",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -793,7 +793,7 @@ export const occasionPages: MealPlanPageData[] = [
       "super-bowl-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -892,7 +892,7 @@ export const occasionPages: MealPlanPageData[] = [
       "summer-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 
   {
@@ -991,6 +991,6 @@ export const occasionPages: MealPlanPageData[] = [
       "meal-prep-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

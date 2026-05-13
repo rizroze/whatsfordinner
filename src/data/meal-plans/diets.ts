@@ -93,7 +93,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegan", "pescatarian", "dairy-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegan",
@@ -187,7 +187,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegetarian", "gluten-free", "vegan-gluten-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gluten-free",
@@ -281,7 +281,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["dairy-free", "vegan", "keto"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "dairy-free",
@@ -375,7 +375,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["gluten-free", "vegan", "vegetarian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "keto",
@@ -469,7 +469,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["low-carb", "gluten-free", "dairy-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "low-carb",
@@ -563,7 +563,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["keto", "gluten-free", "pescatarian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "pescatarian",
@@ -657,7 +657,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegetarian", "low-carb", "dairy-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "halal",
@@ -751,7 +751,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["dairy-free", "low-carb", "gluten-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "kosher",
@@ -845,7 +845,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["halal", "vegetarian", "dairy-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "no-meat-fridays",
@@ -940,6 +940,6 @@ export const DIET_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["pescatarian", "vegetarian", "dairy-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

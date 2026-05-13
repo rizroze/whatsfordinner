@@ -104,7 +104,7 @@ export const healthPages: MealPlanPageData[] = [
       "anti-inflammatory-meal-plan",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "pcos-meal-plan",
@@ -208,7 +208,7 @@ export const healthPages: MealPlanPageData[] = [
       "meal-plan-for-diabetes",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gerd-meal-plan",
@@ -307,7 +307,7 @@ export const healthPages: MealPlanPageData[] = [
       "gut-health-meal-plan",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gut-health-meal-plan",
@@ -412,7 +412,7 @@ export const healthPages: MealPlanPageData[] = [
       "mediterranean",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "high-cholesterol-meal-plan",
@@ -516,7 +516,7 @@ export const healthPages: MealPlanPageData[] = [
       "anti-inflammatory-meal-plan",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "hypothyroid-meal-plan",
@@ -623,6 +623,6 @@ export const healthPages: MealPlanPageData[] = [
       "high-protein-meal-plan",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
 ];

@@ -93,7 +93,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegan", "thai", "vegan-indian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegan-indian",
@@ -187,7 +187,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegan", "indian", "vegetarian-indian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegan-mediterranean",
@@ -281,7 +281,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegan", "mediterranean", "vegetarian-mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "keto-mediterranean",
@@ -375,7 +375,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["keto", "mediterranean", "keto-asian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "keto-asian",
@@ -469,7 +469,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["keto", "asian", "keto-mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "keto-mexican",
@@ -563,7 +563,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["keto", "mexican", "gluten-free-mexican"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegetarian-italian",
@@ -657,7 +657,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegetarian", "italian", "gluten-free-italian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegetarian-indian",
@@ -751,7 +751,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegetarian", "indian", "vegan-indian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegetarian-mediterranean",
@@ -845,7 +845,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegetarian", "mediterranean", "vegan-mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gluten-free-asian",
@@ -939,7 +939,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["gluten-free", "asian", "gluten-free-italian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gluten-free-italian",
@@ -1033,7 +1033,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["gluten-free", "italian", "vegetarian-italian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gluten-free-mexican",
@@ -1127,7 +1127,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["gluten-free", "mexican", "keto-mexican"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "halal-mediterranean",
@@ -1221,7 +1221,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["halal", "mediterranean", "halal-middle-eastern"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "halal-indian",
@@ -1315,7 +1315,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["halal", "indian", "halal-mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "halal-middle-eastern",
@@ -1409,7 +1409,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["halal", "middle-eastern", "halal-mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "pescatarian-japanese",
@@ -1503,7 +1503,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["pescatarian", "japanese", "pescatarian-mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "pescatarian-mediterranean",
@@ -1597,7 +1597,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["pescatarian", "mediterranean", "pescatarian-japanese"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "dairy-free-thai",
@@ -1691,7 +1691,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["dairy-free", "thai", "vegan-thai"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "dairy-free-mexican",
@@ -1785,7 +1785,7 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["dairy-free", "mexican", "gluten-free-mexican"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "low-carb-southern",
@@ -1879,6 +1879,6 @@ export const COMBO_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["low-carb", "southern", "keto-mexican"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

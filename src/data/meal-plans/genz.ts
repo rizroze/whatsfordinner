@@ -93,7 +93,7 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-college-students", "meal-plan-for-beginners", "meal-plan-on-a-budget"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-roommates",
@@ -187,7 +187,7 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-college-students", "meal-plan-for-first-apartment", "meal-plan-on-a-budget"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-no-cooking-experience",
@@ -281,7 +281,7 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-beginners", "meal-plan-for-first-apartment", "quick-30-minute-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-busy-students",
@@ -375,7 +375,7 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-college-students", "meal-plan-on-a-budget", "meal-plan-no-cooking-experience"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "tiktok-recipes-meal-plan",
@@ -469,7 +469,7 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "meal-plan-for-first-apartment", "meal-plan-for-two"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-gym-beginners",
@@ -563,7 +563,7 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["high-protein-budget-meal-plan", "high-protein-meal-plan", "meal-plan-for-beginners"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "high-protein-budget-meal-plan",
@@ -657,7 +657,7 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-gym-beginners", "meal-plan-on-a-budget", "high-protein-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-to-stop-ordering-takeout",
@@ -751,6 +751,6 @@ export const genzPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "meal-plan-on-a-budget", "meal-plan-for-first-apartment"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

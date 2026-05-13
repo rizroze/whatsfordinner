@@ -93,7 +93,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["southern", "mexican", "mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "italian",
@@ -187,7 +187,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["mediterranean", "french", "american"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "mexican",
@@ -281,7 +281,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["american", "southern", "korean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "asian",
@@ -375,7 +375,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["japanese", "thai", "korean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "mediterranean",
@@ -471,7 +471,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["italian", "middle-eastern", "french"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "indian",
@@ -565,7 +565,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["thai", "middle-eastern", "asian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "thai",
@@ -659,7 +659,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["asian", "japanese", "indian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "japanese",
@@ -753,7 +753,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["asian", "korean", "thai"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "french",
@@ -848,7 +848,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["italian", "mediterranean", "american"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "middle-eastern",
@@ -943,7 +943,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["mediterranean", "indian", "italian"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "korean",
@@ -1037,7 +1037,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["japanese", "asian", "thai"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "southern",
@@ -1131,6 +1131,6 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     ],
     relatedSlugs: ["american", "mexican", "french"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

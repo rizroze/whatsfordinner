@@ -93,7 +93,7 @@ export const householdPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-on-a-budget", "meal-plan-for-beginners", "quick-30-minute-meal-plan"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-two",
@@ -187,7 +187,7 @@ export const householdPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-one", "meal-plan-for-family-of-4", "quick-30-minute-meal-plan"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-family-of-4",
@@ -286,7 +286,7 @@ export const householdPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-picky-eaters", "meal-plan-on-a-budget", "meal-plan-for-family-of-6"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-family-of-6",
@@ -380,7 +380,7 @@ export const householdPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-family-of-4", "meal-plan-on-a-budget", "meal-plan-for-picky-eaters"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-college-students",
@@ -479,7 +479,7 @@ export const householdPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-on-a-budget", "meal-plan-for-one", "meal-plan-for-beginners"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "quick-30-minute-meal-plan",
@@ -573,6 +573,6 @@ export const householdPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-beginners", "meal-plan-for-two", "meal-plan-for-college-students"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

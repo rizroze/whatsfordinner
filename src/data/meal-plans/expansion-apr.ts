@@ -111,7 +111,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "no-cook-meal-plan", "under-20-minute-meal-plan"],
     datePublished: "2026-04-01",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
   {
     slug: "high-fiber-meal-plan",
@@ -223,7 +223,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["gut-health-meal-plan", "anti-inflammatory-meal-plan", "plant-based-meal-plan"],
     datePublished: "2026-04-01",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
   {
     slug: "bodybuilding-meal-plan",
@@ -340,7 +340,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["high-protein-meal-plan", "3000-calorie-meal-plan", "2500-calorie-meal-plan"],
     datePublished: "2026-04-01",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
   {
     slug: "pregnancy-meal-plan",
@@ -457,7 +457,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["postpartum-meal-plan", "anti-inflammatory-meal-plan", "high-protein-meal-plan"],
     datePublished: "2026-04-01",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
   {
     slug: "diabetic-meal-plan",
@@ -569,7 +569,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["high-cholesterol-meal-plan", "anti-inflammatory-meal-plan", "1500-calorie-meal-plan"],
     datePublished: "2026-04-01",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
   {
     slug: "clean-eating-meal-plan",
@@ -689,6 +689,6 @@ export const expansionAprPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["plant-based-meal-plan", "whole30-meal-plan", "anti-inflammatory-meal-plan"],
     datePublished: "2026-04-01",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
 ];

@@ -93,7 +93,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["high-protein-meal-plan", "low-carb", "keto"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-muscle-gain",
@@ -192,7 +192,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["high-protein-meal-plan", "meal-plan-for-weight-loss", "keto"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-pregnancy",
@@ -291,7 +291,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-family-of-4", "dairy-free", "gluten-free"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-beginners",
@@ -385,7 +385,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "meal-plan-on-a-budget", "meal-plan-for-one"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-picky-eaters",
@@ -479,7 +479,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-beginners", "meal-plan-for-family-of-4", "american"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-on-a-budget",
@@ -578,7 +578,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-beginners", "meal-plan-for-college-students", "meal-plan-for-one"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-diabetes",
@@ -672,7 +672,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["low-carb", "anti-inflammatory-meal-plan", "meal-plan-for-heart-health"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-heart-health",
@@ -766,7 +766,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["anti-inflammatory-meal-plan", "meal-plan-for-diabetes", "mediterranean"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "high-protein-meal-plan",
@@ -865,7 +865,7 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-muscle-gain", "meal-plan-for-weight-loss", "keto"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "anti-inflammatory-meal-plan",
@@ -959,6 +959,6 @@ export const goalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["mediterranean", "meal-plan-for-heart-health", "meal-plan-for-diabetes"],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

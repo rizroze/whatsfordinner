@@ -98,7 +98,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "paleo-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "paleo-meal-plan",
@@ -197,7 +197,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "meal-plan-for-weight-loss",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "fodmap-meal-plan",
@@ -296,7 +296,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "dairy-free",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "dash-diet-meal-plan",
@@ -395,7 +395,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "anti-inflammatory-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "carnivore-meal-plan",
@@ -494,7 +494,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "whole30-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "aip-meal-plan",
@@ -593,7 +593,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "gut-health-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "plant-based-meal-plan",
@@ -692,7 +692,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "meal-plan-on-a-budget",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "intermittent-fasting-meal-plan",
@@ -791,6 +791,6 @@ export const dietsExtendedPages: MealPlanPageData[] = [
       "low-carb",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

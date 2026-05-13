@@ -93,7 +93,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["slow-cooker-meal-plan", "one-pot-meal-plan", "meal-prep-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "sheet-pan-meal-plan",
@@ -187,7 +187,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["one-pot-meal-plan", "quick-30-minute-meal-plan", "meal-prep-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "freezer-meal-plan",
@@ -281,7 +281,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-prep-meal-plan", "batch-cooking-meal-plan", "slow-cooker-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "5-ingredient-meal-plan",
@@ -375,7 +375,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "meal-plan-for-beginners", "meal-plan-on-a-budget"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "under-20-minute-meal-plan",
@@ -469,7 +469,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "5-ingredient-meal-plan", "no-cook-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "batch-cooking-meal-plan",
@@ -563,7 +563,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-prep-meal-plan", "freezer-meal-plan", "meal-plan-for-family-of-4"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "one-pan-keto-meal-plan",
@@ -657,7 +657,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["keto", "one-pot-meal-plan", "keto-mediterranean", "quick-30-minute-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "instant-pot-family-meal-plan",
@@ -751,6 +751,6 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["instant-pot-meal-plan", "meal-plan-for-family-of-4", "slow-cooker-meal-plan", "meal-plan-for-picky-eaters"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

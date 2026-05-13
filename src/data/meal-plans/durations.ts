@@ -97,7 +97,7 @@ export const durationPages: MealPlanPageData[] = [
       "quick-30-minute-meal-plan",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "5-day-meal-plan",
@@ -196,7 +196,7 @@ export const durationPages: MealPlanPageData[] = [
       "meal-plan-on-a-budget",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "7-day-meal-plan",
@@ -300,7 +300,7 @@ export const durationPages: MealPlanPageData[] = [
       "meal-plan-for-family-of-4",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "14-day-meal-plan",
@@ -399,7 +399,7 @@ export const durationPages: MealPlanPageData[] = [
       "meal-plan-for-family-of-4",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "21-day-meal-plan",
@@ -503,7 +503,7 @@ export const durationPages: MealPlanPageData[] = [
       "meal-plan-for-beginners",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "30-day-meal-plan",
@@ -607,6 +607,6 @@ export const durationPages: MealPlanPageData[] = [
       "meal-plan-on-a-budget",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

@@ -156,7 +156,7 @@ export const caloriePages: MealPlanPageData[] = [
       "meal-plan-on-a-budget",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
   {
     slug: "1500-calorie-meal-plan",
@@ -366,7 +366,7 @@ export const caloriePages: MealPlanPageData[] = [
       "high-protein-meal-plan",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-04-01",
+    dateModified: "2026-05-13",
   },
   {
     slug: "1800-calorie-meal-plan",
@@ -465,7 +465,7 @@ export const caloriePages: MealPlanPageData[] = [
       "high-protein-meal-plan",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "2000-calorie-meal-plan",
@@ -564,7 +564,7 @@ export const caloriePages: MealPlanPageData[] = [
       "meal-plan-on-a-budget",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "2500-calorie-meal-plan",
@@ -668,7 +668,7 @@ export const caloriePages: MealPlanPageData[] = [
       "high-protein-meal-plan",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "3000-calorie-meal-plan",
@@ -772,6 +772,6 @@ export const caloriePages: MealPlanPageData[] = [
       "meal-plan-on-a-budget",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

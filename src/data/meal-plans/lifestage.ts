@@ -99,7 +99,7 @@ export const lifestagePages: MealPlanPageData[] = [
       "quick-30-minute-meal-plan",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-seniors",
@@ -204,7 +204,7 @@ export const lifestagePages: MealPlanPageData[] = [
       "mediterranean",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "postpartum-meal-plan",
@@ -309,7 +309,7 @@ export const lifestagePages: MealPlanPageData[] = [
       "quick-30-minute-meal-plan",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "anti-inflammatory-mediterranean",
@@ -409,7 +409,7 @@ export const lifestagePages: MealPlanPageData[] = [
       "pescatarian-mediterranean",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "high-protein-vegetarian",
@@ -514,6 +514,6 @@ export const lifestagePages: MealPlanPageData[] = [
       "meal-plan-for-muscle-gain",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
 ];

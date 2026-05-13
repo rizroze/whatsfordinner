@@ -93,7 +93,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["under-50-dollar-meal-plan", "meal-plan-on-a-budget", "meal-plan-for-college-students"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "under-75-dollar-meal-plan",
@@ -187,7 +187,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-on-a-budget", "meal-plan-for-two", "under-50-dollar-meal-plan", "meal-plan-for-couples"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "under-100-dollar-family-meal-plan",
@@ -281,7 +281,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-family-of-4", "meal-plan-on-a-budget", "under-50-dollar-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-couples",
@@ -375,7 +375,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-two", "under-75-dollar-meal-plan", "quick-30-minute-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-athletes",
@@ -469,7 +469,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["high-protein-meal-plan", "meal-plan-for-muscle-gain", "3000-calorie-meal-plan", "2500-calorie-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-new-parents",
@@ -563,6 +563,6 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["postpartum-meal-plan", "meal-plan-for-beginners", "quick-30-minute-meal-plan", "meal-prep-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

@@ -93,7 +93,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["japanese", "vegan", "vegan-thai", "pescatarian-japanese"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "keto-indian-meal-plan",
@@ -187,7 +187,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["indian", "keto", "keto-mediterranean", "vegetarian-indian"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gluten-free-korean-meal-plan",
@@ -281,7 +281,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["korean", "gluten-free", "gluten-free-asian", "gluten-free-meal-plan-for-beginners"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegetarian-mexican-meal-plan",
@@ -375,7 +375,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["mexican", "vegetarian", "gluten-free-mexican", "vegetarian-mediterranean"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "halal-asian-meal-plan",
@@ -469,7 +469,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["halal", "asian", "halal-mediterranean", "halal-indian"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "paleo-mediterranean-meal-plan",
@@ -563,7 +563,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["mediterranean", "paleo-meal-plan", "keto-mediterranean", "pescatarian-mediterranean"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "low-carb-italian-meal-plan",
@@ -657,7 +657,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["italian", "low-carb", "gluten-free-italian", "vegetarian-italian"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "dairy-free-indian-meal-plan",
@@ -751,7 +751,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["indian", "dairy-free", "dairy-free-thai", "vegan-indian"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "pescatarian-korean-meal-plan",
@@ -845,7 +845,7 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["korean", "pescatarian", "pescatarian-japanese", "pescatarian-mediterranean"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegan-soul-food-meal-plan",
@@ -939,6 +939,6 @@ export const cuisinesExtendedPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["vegan", "southern", "low-carb-southern", "plant-based-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

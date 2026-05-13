@@ -97,7 +97,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "microwave-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-broke-college-kids",
@@ -196,7 +196,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "dorm-room-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "post-graduation-meal-plan",
@@ -294,7 +294,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "meal-plan-for-college-students",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-night-shift",
@@ -392,7 +392,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "meal-plan-for-one",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-remote-workers",
@@ -490,7 +490,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "meal-plan-for-night-shift",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "5-dollar-meal-plan",
@@ -588,7 +588,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "meal-plan-for-family-of-4",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "microwave-meal-plan",
@@ -686,7 +686,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "quick-30-minute-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-depression",
@@ -784,7 +784,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "quick-30-minute-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-adhd",
@@ -882,7 +882,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "quick-30-minute-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "social-media-detox-meal-plan",
@@ -981,6 +981,6 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "meal-plan-for-two",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

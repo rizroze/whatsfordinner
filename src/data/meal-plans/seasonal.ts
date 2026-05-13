@@ -100,7 +100,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-for-family-of-4",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "winter-meal-plan",
@@ -199,7 +199,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-for-beginners",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-ramadan",
@@ -303,7 +303,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-on-a-budget",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-lent",
@@ -402,7 +402,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-for-family-of-4",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "back-to-school-meal-plan",
@@ -501,7 +501,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "gluten-free",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 
   // ──────────────────────────────────────────────
@@ -604,7 +604,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "high-protein-meal-plan",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "vegan-meal-plan-for-muscle-gain",
@@ -708,7 +708,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-for-beginners",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "gluten-free-meal-plan-for-beginners",
@@ -811,7 +811,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-for-weight-loss",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "mediterranean-meal-plan-for-heart-health",
@@ -915,7 +915,7 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-for-diabetes",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
   {
     slug: "low-carb-meal-plan-for-diabetes",
@@ -1019,6 +1019,6 @@ export const seasonalPages: MealPlanPageData[] = [
       "meal-plan-for-heart-health",
     ],
     datePublished: "2026-03-07",
-    dateModified: "2026-03-07",
+    dateModified: "2026-05-13",
   },
 ];

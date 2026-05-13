@@ -93,7 +93,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-to-stop-ordering-takeout", "meal-plan-on-a-budget", "5-dollar-meal-plan", "meal-plan-for-first-apartment"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-picky-adults",
@@ -187,7 +187,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-picky-eaters", "meal-plan-for-beginners", "meal-plan-no-cooking-experience"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-no-oven",
@@ -281,7 +281,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["one-pot-meal-plan", "microwave-meal-plan", "meal-plan-for-first-apartment", "quick-30-minute-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "date-night-meal-plan",
@@ -375,7 +375,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-two", "meal-plan-for-couples", "tiktok-recipes-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-gamers",
@@ -469,7 +469,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "meal-plan-for-remote-workers", "meal-plan-to-stop-ordering-takeout", "under-20-minute-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-content-creators",
@@ -563,7 +563,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-remote-workers", "meal-plan-for-gamers", "quick-30-minute-meal-plan", "meal-prep-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-minimalists",
@@ -657,7 +657,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["5-ingredient-meal-plan", "meal-plan-on-a-budget", "meal-plan-for-one", "no-cook-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "anti-diet-meal-plan",
@@ -751,7 +751,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-beginners", "meal-plan-for-picky-eaters", "meal-plan-for-one"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "meal-plan-for-shift-workers",
@@ -845,7 +845,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-night-shift", "meal-prep-meal-plan", "freezer-meal-plan", "batch-cooking-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
   {
     slug: "lazy-meal-plan",
@@ -939,6 +939,6 @@ export const genzSituationPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["no-cook-meal-plan", "microwave-meal-plan", "meal-plan-no-cooking-experience", "under-20-minute-meal-plan"],
     datePublished: "2026-03-13",
-    dateModified: "2026-03-13",
+    dateModified: "2026-05-13",
   },
 ];

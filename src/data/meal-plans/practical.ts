@@ -98,7 +98,7 @@ export const practicalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "meal-plan-on-a-budget", "meal-plan-for-one"],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "slow-cooker-meal-plan",
@@ -192,7 +192,7 @@ export const practicalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["one-pot-meal-plan", "meal-prep-meal-plan", "meal-plan-for-beginners"],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "air-fryer-meal-plan",
@@ -291,7 +291,7 @@ export const practicalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["quick-30-minute-meal-plan", "one-pot-meal-plan", "high-protein-meal-plan"],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "one-pot-meal-plan",
@@ -385,7 +385,7 @@ export const practicalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["slow-cooker-meal-plan", "quick-30-minute-meal-plan", "meal-plan-for-beginners"],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "no-cook-meal-plan",
@@ -484,7 +484,7 @@ export const practicalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-for-college-students", "summer-meal-plan", "quick-30-minute-meal-plan"],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
   {
     slug: "under-50-dollar-meal-plan",
@@ -583,6 +583,6 @@ export const practicalPages: MealPlanPageData[] = [
     ],
     relatedSlugs: ["meal-plan-on-a-budget", "meal-plan-for-college-students", "meal-plan-for-one"],
     datePublished: "2026-03-11",
-    dateModified: "2026-03-11",
+    dateModified: "2026-05-13",
   },
 ];
