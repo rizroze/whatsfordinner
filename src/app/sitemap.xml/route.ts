@@ -1,14 +1,21 @@
-import type { MetadataRoute } from "next";
-
 import { getAllMealPlanPages } from "@/data/meal-plans";
 import { getAllRecipes } from "@/data/recipes";
 import { NON_DEFAULT_LOCALES } from "@/lib/i18n/locales";
 import { getSlugForLocale } from "@/data/meal-plans/translations";
-import { getRecipeSlugForLocale, getAllTranslatedRecipeSlugs } from "@/data/recipes/translations";
+import {
+  getRecipeSlugForLocale,
+  getAllTranslatedRecipeSlugs,
+} from "@/data/recipes/translations";
 import {
   getTranslatedBlogSlugs,
   getBlogSlugForLocale,
 } from "@/data/blog/translations/content";
+
+// Route Handler instead of Next.js metadata sitemap.ts — gives us explicit control
+// over response headers. sitemap.ts adds `vary: rsc, next-router-state-tree, ...`
+// headers which cause Vercel's edge to maintain separate cache variants per RSC
+// header combination; Google's sitemap crawler may hit a cold/wrong variant.
+export const dynamic = "force-static";
 
 const BASE = "https://whatsfordinner.fit";
 
@@ -76,150 +83,124 @@ const blogPosts = [
   { slug: "best-meal-planners-2026", date: "2026-04-13" },
 ];
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+function escapeXml(s: string) {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function url(
+  loc: string,
+  lastmod: string,
+  changefreq: string,
+  priority: number
+) {
+  return `<url><loc>${escapeXml(loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority.toFixed(1)}</priority></url>`;
+}
+
+function toDate(d: string | Date) {
+  return new Date(d).toISOString().split("T")[0];
+}
+
+export async function GET() {
   const mealPlanPages = getAllMealPlanPages();
   const recipes = getAllRecipes();
   const translatedBlogSlugs = getTranslatedBlogSlugs();
 
+  const entries: string[] = [];
+
   // Static pages
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: BASE,
-      lastModified: new Date("2026-03-18"),
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    {
-      url: `${BASE}/blog`,
-      lastModified: new Date("2026-03-18"),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${BASE}/meal-plans`,
-      lastModified: new Date("2026-03-18"),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${BASE}/pricing`,
-      lastModified: new Date("2026-03-18"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${BASE}/tools`,
-      lastModified: new Date("2026-04-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/tools/calorie-calculator`,
-      lastModified: new Date("2026-04-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/tools/dinner-generator`,
-      lastModified: new Date("2026-04-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/tools/what-to-cook`,
-      lastModified: new Date("2026-04-13"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${BASE}/recipes`,
-      lastModified: new Date("2026-04-13"),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${BASE}/privacy`,
-      lastModified: new Date("2026-01-01"),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${BASE}/terms`,
-      lastModified: new Date("2026-01-01"),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-  ];
+  entries.push(url(BASE, "2026-03-18", "weekly", 1.0));
+  entries.push(url(`${BASE}/blog`, "2026-03-18", "weekly", 0.9));
+  entries.push(url(`${BASE}/meal-plans`, "2026-03-18", "weekly", 0.9));
+  entries.push(url(`${BASE}/pricing`, "2026-03-18", "monthly", 0.9));
+  entries.push(url(`${BASE}/tools`, "2026-04-01", "monthly", 0.8));
+  entries.push(url(`${BASE}/tools/calorie-calculator`, "2026-04-01", "monthly", 0.8));
+  entries.push(url(`${BASE}/tools/dinner-generator`, "2026-04-01", "monthly", 0.8));
+  entries.push(url(`${BASE}/tools/what-to-cook`, "2026-04-13", "monthly", 0.8));
+  entries.push(url(`${BASE}/recipes`, "2026-04-13", "weekly", 0.9));
+  entries.push(url(`${BASE}/privacy`, "2026-01-01", "yearly", 0.3));
+  entries.push(url(`${BASE}/terms`, "2026-01-01", "yearly", 0.3));
 
   // Blog posts
-  const blogEntries: MetadataRoute.Sitemap = blogPosts.map((post) => ({
-    url: `${BASE}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
+  for (const post of blogPosts) {
+    entries.push(url(`${BASE}/blog/${post.slug}`, post.date, "monthly", 0.8));
+  }
 
   // English meal plan pages
-  const mealPlanEntries: MetadataRoute.Sitemap = mealPlanPages.map((page) => ({
-    url: `${BASE}/meal-plans/${page.slug}`,
-    lastModified: new Date(page.dateModified),
-    changeFrequency: "monthly",
-    priority: page.type === "combo" ? 0.7 : 0.8,
-  }));
+  for (const page of mealPlanPages) {
+    entries.push(
+      url(
+        `${BASE}/meal-plans/${page.slug}`,
+        toDate(page.dateModified),
+        "monthly",
+        page.type === "combo" ? 0.7 : 0.8
+      )
+    );
+  }
 
   // English recipe pages
-  const recipeEntries: MetadataRoute.Sitemap = recipes.map((recipe) => ({
-    url: `${BASE}/recipes/${recipe.slug}`,
-    lastModified: new Date(recipe.dateModified),
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
+  for (const recipe of recipes) {
+    entries.push(
+      url(
+        `${BASE}/recipes/${recipe.slug}`,
+        toDate(recipe.dateModified),
+        "monthly",
+        0.8
+      )
+    );
+  }
 
-  // Localized pages (all locales)
-  const localizedEntries: MetadataRoute.Sitemap = NON_DEFAULT_LOCALES.flatMap(
-    (locale) => {
-      const hub = {
-        url: `${BASE}/${locale}/meal-plans`,
-        lastModified: new Date("2026-03-08"),
-        changeFrequency: "weekly" as const,
-        priority: 0.8,
-      };
+  // Localized pages
+  for (const locale of NON_DEFAULT_LOCALES) {
+    entries.push(
+      url(`${BASE}/${locale}/meal-plans`, "2026-03-08", "weekly", 0.8)
+    );
 
-      const mealPlans = mealPlanPages.map((page) => ({
-        url: `${BASE}/${locale}/meal-plans/${getSlugForLocale(page.slug, locale)}`,
-        lastModified: new Date(page.dateModified),
-        changeFrequency: "monthly" as const,
-        priority: page.type === "combo" ? 0.6 : 0.7,
-      }));
-
-      const blogs = translatedBlogSlugs.map((englishSlug) => ({
-        url: `${BASE}/${locale}/blog/${getBlogSlugForLocale(englishSlug, locale)}`,
-        lastModified: new Date("2026-04-01"),
-        changeFrequency: "monthly" as const,
-        priority: 0.7,
-      }));
-
-      const translatedLocalizedSlugs = new Set(getAllTranslatedRecipeSlugs(locale));
-      const localizedRecipes: MetadataRoute.Sitemap = recipes.flatMap((recipe) => {
-        const localizedSlug = getRecipeSlugForLocale(recipe.slug, locale);
-        if (!translatedLocalizedSlugs.has(localizedSlug)) return [];
-        return [{
-          url: `${BASE}/${locale}/recipes/${localizedSlug}`,
-          lastModified: new Date(recipe.dateModified),
-          changeFrequency: "monthly" as const,
-          priority: 0.7,
-        }];
-      });
-
-      return [hub, ...mealPlans, ...blogs, ...localizedRecipes];
+    for (const page of mealPlanPages) {
+      entries.push(
+        url(
+          `${BASE}/${locale}/meal-plans/${getSlugForLocale(page.slug, locale)}`,
+          toDate(page.dateModified),
+          "monthly",
+          page.type === "combo" ? 0.6 : 0.7
+        )
+      );
     }
-  );
 
-  return [
-    ...staticPages,
-    ...blogEntries,
-    ...mealPlanEntries,
-    ...recipeEntries,
-    ...localizedEntries,
-  ];
+    for (const englishSlug of translatedBlogSlugs) {
+      entries.push(
+        url(
+          `${BASE}/${locale}/blog/${getBlogSlugForLocale(englishSlug, locale)}`,
+          "2026-04-01",
+          "monthly",
+          0.7
+        )
+      );
+    }
+
+    const translatedSlugs = new Set(getAllTranslatedRecipeSlugs(locale));
+    for (const recipe of recipes) {
+      const localizedSlug = getRecipeSlugForLocale(recipe.slug, locale);
+      if (!translatedSlugs.has(localizedSlug)) continue;
+      entries.push(
+        url(
+          `${BASE}/${locale}/recipes/${localizedSlug}`,
+          toDate(recipe.dateModified),
+          "monthly",
+          0.7
+        )
+      );
+    }
+  }
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries.join("")}</urlset>`;
+
+  return new Response(xml, {
+    headers: {
+      "Content-Type": "application/xml; charset=utf-8",
+      "Cache-Control": "public, max-age=3600, s-maxage=3600",
+    },
+  });
 }
