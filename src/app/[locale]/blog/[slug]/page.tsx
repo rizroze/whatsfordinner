@@ -13,7 +13,7 @@ import {
   getTranslatedBlogSlugs,
 } from "@/data/blog/translations/content";
 
-export const revalidate = 86400; // ISR: revalidate once per day
+export const dynamicParams = false;
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;

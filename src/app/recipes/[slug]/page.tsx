@@ -9,7 +9,7 @@ import {
 } from "@/lib/i18n/locales";
 import { getRecipeSlugForLocale } from "@/data/recipes/translations";
 
-export const revalidate = 86400;
+export const dynamicParams = false;
 
 interface PageProps {
   params: Promise<{ slug: string }>;

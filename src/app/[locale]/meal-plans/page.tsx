@@ -12,7 +12,7 @@ import {
   getSlugForLocale,
 } from "@/data/meal-plans/translations";
 
-export const revalidate = 86400;
+export const dynamicParams = false;
 
 interface PageProps {
   params: Promise<{ locale: string }>;

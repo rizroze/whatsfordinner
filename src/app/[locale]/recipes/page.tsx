@@ -13,7 +13,7 @@ import {
   getRecipeSlugForLocale,
 } from "@/data/recipes/translations";
 
-export const revalidate = 86400;
+export const dynamicParams = false;
 
 interface PageProps {
   params: Promise<{ locale: string }>;
