@@ -41,5 +41,4 @@ yarn-error.log*
 next-env.d.ts
 .env*.local
 
-# generated at build time
-/public/sitemap.xml
+# sitemap is committed as static file (public/sitemap.xml)
