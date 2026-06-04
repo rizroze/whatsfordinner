@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RelatedArticles } from "@/components/blog/RelatedArticles";
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -29,7 +30,10 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
       </nav>
 
       {/* Content */}
-      <main className="max-w-2xl mx-auto px-6 pb-28 sm:pb-20">{children}</main>
+      <main className="max-w-2xl mx-auto px-6 pb-28 sm:pb-20">
+        {children}
+        <RelatedArticles />
+      </main>
 
       {/* Sticky mobile CTA */}
       <div className="blog-sticky-cta">
