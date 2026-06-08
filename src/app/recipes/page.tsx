@@ -16,6 +16,7 @@ export const metadata: Metadata = {
       "Browse 800+ recipe ideas for breakfast, lunch, dinner, and snacks. Filter by diet, cuisine, prep time, and more.",
     url: "https://whatsfordinner.fit/recipes",
     siteName: "What's For Dinner",
+    images: [{ url: `/api/og?title=Recipe%20Library%20%E2%80%94%20250%20Recipes%20with%20Nutrition%20%26%20Grocery%20Lists&description=Browse%20250%20recipes%20with%20full%20ingredients%2C%20steps%2C%20nutrition%20info%2C%20and%20instant%20grocery%20list%20generation.`, width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {

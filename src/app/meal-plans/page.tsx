@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     description: "Browse personalized weekly meal plans for every diet and cuisine. Free 3-day plan included.",
     url: "https://whatsfordinner.fit/meal-plans",
     siteName: "What's For Dinner",
+    images: [{ url: `/api/og?title=Weekly%20Meal%20Plans%20%E2%80%94%20Personalized%20for%20Every%20Diet&description=Browse%20167%20meal%20plan%20types%3A%20keto%2C%20vegan%2C%20budget%2C%20family%2C%20and%20more.%20All%20AI-generated%20with%20recipes%20and%20grocery%20lists.`, width: 1200, height: 630 }],
     type: "website",
   },
 };

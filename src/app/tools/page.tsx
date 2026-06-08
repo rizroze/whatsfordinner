@@ -19,6 +19,7 @@ export const metadata: Metadata = {
       "Free meal planning tools: calculate your daily calorie target and get instant dinner ideas.",
     url: "https://whatsfordinner.fit/tools",
     siteName: "What's For Dinner",
+    images: [{ url: `/api/og?title=Free%20Meal%20Planning%20Tools%20%E2%80%94%20Calorie%20Calculator%20%26%20More&description=Free%20tools%3A%20calorie%20calculator%2C%20random%20meal%20generator%2C%20dinner%20idea%20quiz.%20No%20signup%20needed.`, width: 1200, height: 630 }],
     type: "website",
   },
 };

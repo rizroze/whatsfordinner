@@ -474,10 +474,10 @@ export const methodsExtendedPages: MealPlanPageData[] = [
   {
     slug: "batch-cooking-meal-plan",
     type: "method",
-    title: "Batch Cooking Meal Plan — Cook Once, Eat All Week",
+    title: "Weekly Batch Cooking Meal Plan — Cook Once, Eat All Week",
     metaDescription:
-      "Get a personalized weekly batch cooking meal plan with big-batch recipes and a grocery list. One cooking session fuels your entire week. Try free.",
-    h1: "Batch Cooking Meal Plan — One Big Cook, Zero Weeknight Stress",
+      "Get a personalized weekly batch cooking meal plan with big-batch recipes and a grocery list. One cooking session, zero weeknight stress. Try free.",
+    h1: "Weekly Batch Cooking Meal Plan — One Big Cook, Zero Weeknight Stress",
     intro:
       "Batch cooking isn't meal prep's boring cousin — it's the strategy behind every restaurant kitchen. Cook large quantities of versatile bases (proteins, grains, sauces) on one day, then remix them into completely different meals throughout the week. Sunday's roasted chicken becomes Monday's grain bowl, Wednesday's soup, and Friday's tacos. You cook once but eat variety all week. The key is building modular components, not identical containers.",
     valueProps: [

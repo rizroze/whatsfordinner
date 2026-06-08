@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     description:
       "Meal planning tips, AI-powered cooking guides, and alternatives to popular meal planning services.",
     siteName: "What's For Dinner",
+    images: [{ url: `/api/og?title=Meal%20Planning%20Blog%20%E2%80%94%20Tips%2C%20Guides%20%26%20Tools&description=Practical%20meal%20planning%20guides%2C%20budget%20meal%20ideas%2C%20and%20tools%20to%20help%20you%20cook%20more%20and%20spend%20less.`, width: 1200, height: 630 }],
   },
 };
 

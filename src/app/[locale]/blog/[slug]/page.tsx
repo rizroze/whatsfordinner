@@ -73,11 +73,13 @@ export async function generateMetadata({
       siteName: "What's For Dinner",
       type: "article",
       locale: getLocaleConfig(locale).hreflang,
+      images: [{ url: `/api/og?title=${encodeURIComponent(content.title)}&description=${encodeURIComponent(content.description)}`, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
       title: content.title,
       description: content.description,
+      images: [`/api/og?title=${encodeURIComponent(content.title)}&description=${encodeURIComponent(content.description)}`],
     },
   };
 }
