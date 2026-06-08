@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=AI%20Meal%20Planner%3A%20How%20It%20Works&description=Discover%20how%20an%20AI%20meal%20planner%20builds%20personalized%20weekly%20meal%20plans%20with%20grocery%20lists%20based%20on%20your%20diet%2C%20budget%2C%20hou`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/ai-meal-planner",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "AI Meal Planner: How It Works",
     description:
       "Discover how an AI meal planner builds personalized weekly meal plans with grocery lists based on your diet, budget, household size, and cooking skill.",
+    images: ["/api/og?title=AI%20Meal%20Planner%3A%20How%20It%20Works&description=Discover%20how%20an%20AI%20meal%20planner%20builds%20personalized%20weekly%20meal%20plans%20with%20grocery%20lists%20based%20on%20your%20diet%2C%20budget%2C%20hou"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/ai-meal-planner",

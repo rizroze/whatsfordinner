@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Factor costs $11-15 per meal in 2026 ($520-620/mo for one person). What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Factor%20Alternative%202026%20(Save%20%24200%2B%2FMonth)&description=Factor%20costs%20%2411-15%20per%20meal%20in%202026%20(%24520-620%2Fmo%20for%20one%20person).%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/factor-alternative",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Best Factor Alternative 2026 (Save $200+/Month)",
     description:
       "Factor costs $11-15 per meal ($520-620/mo). Personalized weekly meal plans with recipes and a grocery list for $7.99/mo. Save 95%.",
+    images: ["/api/og?title=Best%20Factor%20Alternative%202026%20(Save%20%24200%2B%2FMonth)&description=Factor%20costs%20%2411-15%20per%20meal%20in%202026%20(%24520-620%2Fmo%20for%20one%20person).%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/factor-alternative",

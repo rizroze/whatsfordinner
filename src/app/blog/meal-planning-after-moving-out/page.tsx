@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "You moved out. Nobody taught you how to feed yourself. Here's everything you need to know about groceries, cooking, and not living on takeout — from scratch.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Planning%20After%20Moving%20Out%3A%20The%20Adulting%20Guide%20Nobody%20Gave%20You&description=You%20moved%20out.%20Nobody%20taught%20you%20how%20to%20feed%20yourself.%20Here's%20everything%20you%20need%20to%20know%20about%20groceries%2C%20cooking%2C%20and%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/meal-planning-after-moving-out",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Meal Planning After Moving Out: The Adulting Guide Nobody Gave You",
     description:
       "You moved out. Nobody taught you how to feed yourself. Here's everything you need to know about groceries, cooking, and not living on takeout — from scratch.",
+    images: ["/api/og?title=Meal%20Planning%20After%20Moving%20Out%3A%20The%20Adulting%20Guide%20Nobody%20Gave%20You&description=You%20moved%20out.%20Nobody%20taught%20you%20how%20to%20feed%20yourself.%20Here's%20everything%20you%20need%20to%20know%20about%20groceries%2C%20cooking%2C%20and%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/meal-planning-after-moving-out",

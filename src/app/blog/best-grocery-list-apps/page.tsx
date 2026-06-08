@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Most grocery list apps are just note apps with a food skin. These 5 actually consolidate ingredients, organize by aisle, and save you time at the store.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=5%20Best%20Grocery%20List%20Apps%20in%202026%20(That%20Actually%20Help)&description=Most%20grocery%20list%20apps%20are%20just%20note%20apps%20with%20a%20food%20skin.%20These%205%20actually%20consolidate%20ingredients%2C%20organize%20by%20aisle%2C`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/best-grocery-list-apps",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-grocery-list-apps" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "5 Best Grocery List Apps in 2026 (That Actually Help)",
     description:
       "Most grocery list apps are just note apps with a food skin. These 5 actually consolidate ingredients and save you time.",
+    images: ["/api/og?title=5%20Best%20Grocery%20List%20Apps%20in%202026%20(That%20Actually%20Help)&description=Most%20grocery%20list%20apps%20are%20just%20note%20apps%20with%20a%20food%20skin.%20These%205%20actually%20consolidate%20ingredients%2C%20organize%20by%20aisle%2C"],
   },
 };
 

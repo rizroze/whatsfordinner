@@ -37,6 +37,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://whatsfordinner.fit",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -45,12 +51,21 @@ export const metadata: Metadata = {
     description:
       "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Try free, no credit card.",
     siteName: "What's For Dinner",
+    images: [
+      {
+        url: "/api/og?title=What%27s+For+Dinner%3F&description=Personalized+meal+plans%2C+recipes%2C+and+a+grocery+list+%E2%80%94+planned+in+30+seconds.",
+        width: 1200,
+        height: 630,
+        alt: "What's For Dinner — AI Meal Planner",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "What's For Dinner — Your Week of Meals, Planned in 30 Seconds",
     description:
       "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Try free, no credit card.",
+    images: ["/api/og?title=What%27s+For+Dinner%3F&description=Personalized+meal+plans%2C+recipes%2C+and+a+grocery+list+%E2%80%94+planned+in+30+seconds."],
   },
 };
 

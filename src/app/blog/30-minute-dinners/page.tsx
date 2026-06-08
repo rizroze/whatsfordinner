@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor. Plus a free weekly meal plan.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=20%20Easy%2030-Minute%20Dinners%20(That%20Don't%20Taste%20Like%20Shortcuts)&description=20%20fast%20dinner%20recipes%20that%20are%20legitimately%20done%20in%2030%20minutes%20or%20less.%20One-pan%20meals%2C%20quick%20pastas%2C%20sheet%20pan%20dinners%2C`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/30-minute-dinners",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "20 Easy 30-Minute Dinners (That Don't Taste Like Shortcuts)",
     description:
       "20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor.",
+    images: ["/api/og?title=20%20Easy%2030-Minute%20Dinners%20(That%20Don't%20Taste%20Like%20Shortcuts)&description=20%20fast%20dinner%20recipes%20that%20are%20legitimately%20done%20in%2030%20minutes%20or%20less.%20One-pan%20meals%2C%20quick%20pastas%2C%20sheet%20pan%20dinners%2C"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/30-minute-dinners",

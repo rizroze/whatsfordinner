@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Dinnerly charges $5-7 per serving for simple meal kits. What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo — same simplicity, fraction of the cost.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Dinnerly%20Alternative%202026&description=Dinnerly%20charges%20%245-7%20per%20serving%20for%20simple%20meal%20kits.%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20plans%20with%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/dinnerly-alternative",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Best Dinnerly Alternative 2026",
     description:
       "Dinnerly charges $5-7/serving for simple meal kits. Personalized weekly meal plans with recipes for $7.99/mo — same simplicity, way cheaper.",
+    images: ["/api/og?title=Best%20Dinnerly%20Alternative%202026&description=Dinnerly%20charges%20%245-7%20per%20serving%20for%20simple%20meal%20kits.%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20plans%20with%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/dinnerly-alternative",

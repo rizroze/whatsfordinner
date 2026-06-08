@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title,
     description,
     type: "article",
+    images: [{ url: `/api/og?title=What's%20For%20Dinner%3F&description=Personalized%20meal%20plans%2C%20recipes%2C%20and%20a%20grocery%20list.`, width: 1200, height: 630 }],
     siteName: "What's For Dinner",
     url: "https://whatsfordinner.fit/blog/meal-plan-with-grocery-list",
   },

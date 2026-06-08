@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "You have random stuff in the fridge and zero inspiration. Here are 12 actual meals you can make from whatever's left — no grocery run needed.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=What%20to%20Cook%20When%20You%20Have%20'Nothing'%20in%20the%20Fridge&description=You%20have%20random%20stuff%20in%20the%20fridge%20and%20zero%20inspiration.%20Here%20are%2012%20actual%20meals%20you%20can%20make%20from%20whatever's%20left%20%E2%80%94%20n`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/what-to-cook-when-you-have-nothing",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "What to Cook When You Have 'Nothing' in the Fridge",
     description:
       "You have random stuff in the fridge and zero inspiration. Here are 12 actual meals you can make from whatever's left — no grocery run needed.",
+    images: ["/api/og?title=What%20to%20Cook%20When%20You%20Have%20'Nothing'%20in%20the%20Fridge&description=You%20have%20random%20stuff%20in%20the%20fridge%20and%20zero%20inspiration.%20Here%20are%2012%20actual%20meals%20you%20can%20make%20from%20whatever's%20left%20%E2%80%94%20n"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/what-to-cook-when-you-have-nothing",

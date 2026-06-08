@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $7.99/mo — no browsing, no guesswork.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Budget%20Bytes%20Alternative%20(2026)&description=Looking%20for%20a%20Budget%20Bytes%20alternative%20with%20automated%20meal%20planning%3F%20What's%20For%20Dinner%20generates%20personalized%20AI%20meal%20pl`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/budget-bytes-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/budget-bytes-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Budget Bytes Alternative (2026)",
     description:
       "Looking for a Budget Bytes alternative with automated meal planning? What's For Dinner generates personalized AI meal plans with grocery lists for $7.99/mo.",
+    images: ["/api/og?title=Budget%20Bytes%20Alternative%20(2026)&description=Looking%20for%20a%20Budget%20Bytes%20alternative%20with%20automated%20meal%20planning%3F%20What's%20For%20Dinner%20generates%20personalized%20AI%20meal%20pl"],
   },
 };
 

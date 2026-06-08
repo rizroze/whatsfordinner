@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Eat This Much costs $8.99/mo for recycled database meals. What's For Dinner uses AI to generate original meal plans with recipes and a grocery list every week for $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Eat%20This%20Much%20Alternative%202026%20(Cheaper%20%2B%20Better%20Variety)&description=Eat%20This%20Much%20costs%20%248.99%2Fmo%20for%20recycled%20database%20meals.%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20original%20meal%20plans%20with`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/eat-this-much-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/eat-this-much-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Best Eat This Much Alternative 2026 (Cheaper + Better Variety)",
     description:
       "Eat This Much costs $8.99/mo for recycled database meals. AI-generated meal plans with recipes and grocery list for $7.99/mo. Free trial.",
+    images: ["/api/og?title=Best%20Eat%20This%20Much%20Alternative%202026%20(Cheaper%20%2B%20Better%20Variety)&description=Eat%20This%20Much%20costs%20%248.99%2Fmo%20for%20recycled%20database%20meals.%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20original%20meal%20plans%20with"],
   },
 };
 

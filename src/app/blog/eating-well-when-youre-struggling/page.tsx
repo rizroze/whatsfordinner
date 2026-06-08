@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "When everything feels hard, cooking is the first thing to go. Here are low-effort meals that take care of you when you can't take care of yourself. No judgment.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=How%20to%20Eat%20Well%20When%20You're%20Going%20Through%20It&description=When%20everything%20feels%20hard%2C%20cooking%20is%20the%20first%20thing%20to%20go.%20Here%20are%20low-effort%20meals%20that%20take%20care%20of%20you%20when%20you%20c`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/eating-well-when-youre-struggling",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "How to Eat Well When You're Going Through It",
     description:
       "When everything feels hard, cooking is the first thing to go. Low-effort meals for when you can't take care of yourself. No judgment.",
+    images: ["/api/og?title=How%20to%20Eat%20Well%20When%20You're%20Going%20Through%20It&description=When%20everything%20feels%20hard%2C%20cooking%20is%20the%20first%20thing%20to%20go.%20Here%20are%20low-effort%20meals%20that%20take%20care%20of%20you%20when%20you%20c"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/eating-well-when-youre-struggling",

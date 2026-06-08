@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "We tested the top meal planners in 2026 and compared pricing, features, and who each one is best for. From AI-powered plans to manual recipe organizers.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=7%20Best%20Meal%20Planners%20in%202026%20(Tested%20%26%20Compared)&description=We%20tested%20the%20top%20meal%20planners%20in%202026%20and%20compared%20pricing%2C%20features%2C%20and%20who%20each%20one%20is%20best%20for.%20From%20AI-powered%20pl`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/best-meal-planners-2026",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-meal-planners-2026" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "7 Best Meal Planners in 2026 (Tested & Compared)",
     description:
       "AI planners, free options, recipe managers. We tested and compared the 7 best meal planners in 2026.",
+    images: ["/api/og?title=7%20Best%20Meal%20Planners%20in%202026%20(Tested%20%26%20Compared)&description=We%20tested%20the%20top%20meal%20planners%20in%202026%20and%20compared%20pricing%2C%20features%2C%20and%20who%20each%20one%20is%20best%20for.%20From%20AI-powered%20pl"],
   },
 };
 

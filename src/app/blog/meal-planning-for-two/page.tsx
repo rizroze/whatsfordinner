@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists for couples and roommates.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Planning%20for%20Two%20(2026)&description=Meal%20planning%20for%20two%20doesn't%20have%20to%20mean%20food%20waste%20or%20boring%20leftovers.%20Get%20AI-generated%2C%20perfectly%20portioned%20weekly%20`, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
       "Meal Planning for Two (2026)",
     description:
       "Meal planning for two doesn't have to mean food waste or boring leftovers. Get AI-generated, perfectly portioned weekly meal plans and grocery lists.",
+    images: ["/api/og?title=Meal%20Planning%20for%20Two%20(2026)&description=Meal%20planning%20for%20two%20doesn't%20have%20to%20mean%20food%20waste%20or%20boring%20leftovers.%20Get%20AI-generated%2C%20perfectly%20portioned%20weekly%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/meal-planning-for-two",

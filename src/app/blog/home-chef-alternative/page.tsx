@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Home Chef charges $8-10 per serving for ingredients in a box. What's For Dinner gives you personalized weekly meal plans with recipes and a grocery list for $7.99/mo — same recipes, 90% cheaper.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Home%20Chef%20Alternative%202026&description=Home%20Chef%20charges%20%248-10%20per%20serving%20for%20ingredients%20in%20a%20box.%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20plans`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/home-chef-alternative",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Best Home Chef Alternative 2026",
     description:
       "Home Chef charges $8-10 per serving for ingredients in a box. Personalized weekly meal plans with recipes for $7.99/mo — 90% cheaper.",
+    images: ["/api/og?title=Best%20Home%20Chef%20Alternative%202026&description=Home%20Chef%20charges%20%248-10%20per%20serving%20for%20ingredients%20in%20a%20box.%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20plans"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/home-chef-alternative",

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Instant ramen doesn't have to be depressing. These 10 upgrades turn a $0.30 pack into a legit meal — egg drop, peanut butter, chili oil, and more. Under $2/serving.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Upgrade%20Your%20Ramen%3A%2010%20Ways%20to%20Make%20Instant%20Noodles%20Actually%20Good&description=Instant%20ramen%20doesn't%20have%20to%20be%20depressing.%20These%2010%20upgrades%20turn%20a%20%240.30%20pack%20into%20a%20legit%20meal%20%E2%80%94%20egg%20drop%2C%20peanut%20bu`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/upgrade-your-ramen",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Upgrade Your Ramen: 10 Ways to Make Instant Noodles Actually Good",
     description:
       "Instant ramen doesn't have to be depressing. These 10 upgrades turn a $0.30 pack into a legit meal — under $2/serving.",
+    images: ["/api/og?title=Upgrade%20Your%20Ramen%3A%2010%20Ways%20to%20Make%20Instant%20Noodles%20Actually%20Good&description=Instant%20ramen%20doesn't%20have%20to%20be%20depressing.%20These%2010%20upgrades%20turn%20a%20%240.30%20pack%20into%20a%20legit%20meal%20%E2%80%94%20egg%20drop%2C%20peanut%20bu"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/upgrade-your-ramen",

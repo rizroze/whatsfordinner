@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Meal kits cost $8-15 per serving in 2026. Compare HelloFresh, Factor, Home Chef, Dinnerly, and EveryPlate to cheaper alternatives. Save $300-800/month with meal planning.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=5%20Cheap%20Alternatives%20to%20Meal%20Kits%20in%202026%20(Under%20%242%2FServing)&description=Meal%20kits%20cost%20%248-15%20per%20serving%20in%202026.%20Compare%20HelloFresh%2C%20Factor%2C%20Home%20Chef%2C%20Dinnerly%2C%20and%20EveryPlate%20to%20cheaper%20alt`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/best-meal-kit-alternatives",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "5 Cheap Alternatives to Meal Kits in 2026 (Under $2/Serving)",
     description:
       "Meal kits cost $8-15 per serving in 2026. Compare HelloFresh, Factor, Home Chef, Dinnerly, and EveryPlate to cheaper alternatives.",
+    images: ["/api/og?title=5%20Cheap%20Alternatives%20to%20Meal%20Kits%20in%202026%20(Under%20%242%2FServing)&description=Meal%20kits%20cost%20%248-15%20per%20serving%20in%202026.%20Compare%20HelloFresh%2C%20Factor%2C%20Home%20Chef%2C%20Dinnerly%2C%20and%20EveryPlate%20to%20cheaper%20alt"],
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-meal-kit-alternatives" },
 };

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Meal kits cost $9-12/serving. Meal planning apps cost $8/month. We compared convenience, cost, customization, and food quality side by side.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Kits%20vs.%20Meal%20Planning%20Apps%3A%20Which%20Saves%20More%3F%20(2026)&description=Meal%20kits%20cost%20%249-12%2Fserving.%20Meal%20planning%20apps%20cost%20%248%2Fmonth.%20We%20compared%20convenience%2C%20cost%2C%20customization%2C%20and%20food%20q`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/meal-kits-vs-meal-planning",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/meal-kits-vs-meal-planning" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Meal Kits vs. Meal Planning Apps: Which Saves More? (2026)",
     description:
       "Meal kits cost $9-12/serving. Meal planning apps cost $8/month. We compared convenience, cost, customization, and food quality side by side.",
+    images: ["/api/og?title=Meal%20Kits%20vs.%20Meal%20Planning%20Apps%3A%20Which%20Saves%20More%3F%20(2026)&description=Meal%20kits%20cost%20%249-12%2Fserving.%20Meal%20planning%20apps%20cost%20%248%2Fmonth.%20We%20compared%20convenience%2C%20cost%2C%20customization%2C%20and%20food%20q"],
   },
 };
 

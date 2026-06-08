@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing, no manual planning. $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Plan%20to%20Eat%20Alternative%20(2026)&description=Looking%20for%20a%20Plan%20to%20Eat%20alternative%3F%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20personalized%20meal%20plans%20and%20grocery%20lists%20f`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/plan-to-eat-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/plan-to-eat-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Plan to Eat Alternative (2026)",
     description:
       "Looking for a Plan to Eat alternative? What's For Dinner uses AI to generate personalized meal plans and grocery lists for you — no recipe importing. $7.99/mo.",
+    images: ["/api/og?title=Plan%20to%20Eat%20Alternative%20(2026)&description=Looking%20for%20a%20Plan%20to%20Eat%20alternative%3F%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20personalized%20meal%20plans%20and%20grocery%20lists%20f"],
   },
 };
 

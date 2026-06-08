@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "You buy fresh food with good intentions. By Thursday it's brown. Here's why it happens and the simple system that stops the cycle — from someone who's been there.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Why%20Your%20Groceries%20Keep%20Going%20Bad%20(And%20How%20to%20Fix%20It)&description=You%20buy%20fresh%20food%20with%20good%20intentions.%20By%20Thursday%20it's%20brown.%20Here's%20why%20it%20happens%20and%20the%20simple%20system%20that%20stops%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/groceries-keep-going-bad",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Why Your Groceries Keep Going Bad (And How to Fix It)",
     description:
       "You buy fresh food with good intentions. By Thursday it's brown. Here's why it happens and the simple system that stops the cycle.",
+    images: ["/api/og?title=Why%20Your%20Groceries%20Keep%20Going%20Bad%20(And%20How%20to%20Fix%20It)&description=You%20buy%20fresh%20food%20with%20good%20intentions.%20By%20Thursday%20it's%20brown.%20Here's%20why%20it%20happens%20and%20the%20simple%20system%20that%20stops%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/groceries-keep-going-bad",

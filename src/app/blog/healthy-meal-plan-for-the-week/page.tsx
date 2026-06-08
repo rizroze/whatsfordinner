@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "A complete healthy weekly meal plan with breakfast, lunch, and dinner — all under 30 minutes. Balanced macros, real food, nothing weird. Plus a grocery list and 15 meal ideas.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Healthy%20Meal%20Plan%20for%20the%20Week%3A%20Balanced%2C%20Simple%2C%20Under%2030%20Minutes&description=A%20complete%20healthy%20weekly%20meal%20plan%20with%20breakfast%2C%20lunch%2C%20and%20dinner%20%E2%80%94%20all%20under%2030%20minutes.%20Balanced%20macros%2C%20real%20food`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/healthy-meal-plan-for-the-week",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Healthy Meal Plan for the Week: Balanced, Simple, Under 30 Minutes",
     description:
       "A complete healthy weekly meal plan with breakfast, lunch, and dinner — all under 30 minutes. Balanced macros, real food, nothing weird.",
+    images: ["/api/og?title=Healthy%20Meal%20Plan%20for%20the%20Week%3A%20Balanced%2C%20Simple%2C%20Under%2030%20Minutes&description=A%20complete%20healthy%20weekly%20meal%20plan%20with%20breakfast%2C%20lunch%2C%20and%20dinner%20%E2%80%94%20all%20under%2030%20minutes.%20Balanced%20macros%2C%20real%20food"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/healthy-meal-plan-for-the-week",

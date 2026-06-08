@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good. Plus a free weekly meal plan.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Cheap%20Meals%20for%20One%3A%2015%20Dinners%20Under%20%243%2FServing&description=Eating%20alone%20doesn't%20mean%20eating%20sad.%20These%2015%20cheap%20dinner%20ideas%20cost%20under%20%243%2Fserving%2C%20take%20under%2030%20minutes%2C%20and%20actu`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/cheap-meals-for-one",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Cheap Meals for One: 15 Dinners Under $3/Serving",
     description:
       "Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good.",
+    images: ["/api/og?title=Cheap%20Meals%20for%20One%3A%2015%20Dinners%20Under%20%243%2FServing&description=Eating%20alone%20doesn't%20mean%20eating%20sad.%20These%2015%20cheap%20dinner%20ideas%20cost%20under%20%243%2Fserving%2C%20take%20under%2030%20minutes%2C%20and%20actu"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/cheap-meals-for-one",

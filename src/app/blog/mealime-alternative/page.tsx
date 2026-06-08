@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Tired of Mealime's recycled recipes? Get unique AI-generated meal plans with recipes and a grocery list every week. Free trial – no card or app needed.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Mealime%20Alternative%20in%202026&description=Tired%20of%20Mealime's%20recycled%20recipes%3F%20Get%20unique%20AI-generated%20meal%20plans%20with%20recipes%20and%20a%20grocery%20list%20every%20week.%20Free`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/mealime-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/mealime-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Best Mealime Alternative in 2026",
     description:
       "Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free trial, no signup.",
+    images: ["/api/og?title=Best%20Mealime%20Alternative%20in%202026&description=Tired%20of%20Mealime's%20recycled%20recipes%3F%20Get%20unique%20AI-generated%20meal%20plans%20with%20recipes%20and%20a%20grocery%20list%20every%20week.%20Free"],
   },
 };
 

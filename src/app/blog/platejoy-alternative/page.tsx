@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "PlateJoy shut down in 2025. Compare the best alternatives: What's For Dinner gives you AI meal plans with recipes and grocery lists from $7.99/mo. Free trial.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20PlateJoy%20Alternative%20in%202026%20(Compared)&description=PlateJoy%20shut%20down%20in%202025.%20Compare%20the%20best%20alternatives%3A%20What's%20For%20Dinner%20gives%20you%20AI%20meal%20plans%20with%20recipes%20and%20gr`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/platejoy-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/platejoy-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Best PlateJoy Alternative in 2026 (Compared)",
     description:
       "PlateJoy shut down. Here are the best alternatives compared: AI meal plans, Home Chef, Daily Harvest, Factor, and more.",
+    images: ["/api/og?title=Best%20PlateJoy%20Alternative%20in%202026%20(Compared)&description=PlateJoy%20shut%20down%20in%202025.%20Compare%20the%20best%20alternatives%3A%20What's%20For%20Dinner%20gives%20you%20AI%20meal%20plans%20with%20recipes%20and%20gr"],
   },
 };
 

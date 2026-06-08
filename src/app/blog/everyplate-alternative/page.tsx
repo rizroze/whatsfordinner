@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "EveryPlate is the cheapest meal kit at $5/serving — but that's still 10x more than meal planning. Personalized weekly meal plans with recipes for $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20EveryPlate%20Alternative%202026&description=EveryPlate%20is%20the%20cheapest%20meal%20kit%20at%20%245%2Fserving%20%E2%80%94%20but%20that's%20still%2010x%20more%20than%20meal%20planning.%20Personalized%20weekly%20me`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/everyplate-alternative",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Best EveryPlate Alternative 2026",
     description:
       "EveryPlate is the cheapest meal kit at $5/serving — but that's still 10x more than meal planning. Personalized plans for $7.99/mo.",
+    images: ["/api/og?title=Best%20EveryPlate%20Alternative%202026&description=EveryPlate%20is%20the%20cheapest%20meal%20kit%20at%20%245%2Fserving%20%E2%80%94%20but%20that's%20still%2010x%20more%20than%20meal%20planning.%20Personalized%20weekly%20me"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/everyplate-alternative",

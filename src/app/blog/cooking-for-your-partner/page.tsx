@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Want to cook for your boyfriend or girlfriend but don't know how? These 10 meals look impressive but are secretly easy. Date night dinner for under $15.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Cooking%20for%20Your%20Partner%3A%2010%20Impressive%20Meals%20Anyone%20Can%20Make&description=Want%20to%20cook%20for%20your%20boyfriend%20or%20girlfriend%20but%20don't%20know%20how%3F%20These%2010%20meals%20look%20impressive%20but%20are%20secretly%20easy.%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/cooking-for-your-partner",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Cooking for Your Partner: 10 Impressive Meals Anyone Can Make",
     description:
       "Want to cook for your boyfriend or girlfriend but don't know how? These 10 meals look impressive but are secretly easy. Date night dinner for under $15.",
+    images: ["/api/og?title=Cooking%20for%20Your%20Partner%3A%2010%20Impressive%20Meals%20Anyone%20Can%20Make&description=Want%20to%20cook%20for%20your%20boyfriend%20or%20girlfriend%20but%20don't%20know%20how%3F%20These%2010%20meals%20look%20impressive%20but%20are%20secretly%20easy.%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/cooking-for-your-partner",

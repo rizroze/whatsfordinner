@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Traditional meal planning is an executive function nightmare. Here's an ADHD-friendly system with low-decision meals, flexible structure, and zero guilt when plans change.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=ADHD%20Meal%20Planning%3A%20A%20System%20That%20Actually%20Works&description=Traditional%20meal%20planning%20is%20an%20executive%20function%20nightmare.%20Here's%20an%20ADHD-friendly%20system%20with%20low-decision%20meals%2C%20fl`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/adhd-meal-planning",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "ADHD Meal Planning: A System That Actually Works",
     description:
       "Traditional meal planning is an executive function nightmare. Here's an ADHD-friendly system that actually accounts for how your brain works.",
+    images: ["/api/og?title=ADHD%20Meal%20Planning%3A%20A%20System%20That%20Actually%20Works&description=Traditional%20meal%20planning%20is%20an%20executive%20function%20nightmare.%20Here's%20an%20ADHD-friendly%20system%20with%20low-decision%20meals%2C%20fl"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/adhd-meal-planning",

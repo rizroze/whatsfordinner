@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $7.99/mo — no recipe hunting required.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Paprika%20Alternative%20(2026)&description=Looking%20for%20a%20Paprika%20alternative%20that%20actually%20plans%20your%20meals%3F%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20personalized%20wee`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/paprika-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/paprika-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Best Paprika Alternative (2026)",
     description:
       "Looking for a Paprika alternative that actually plans your meals? What's For Dinner uses AI to generate personalized weekly meal plans with grocery lists for $7.99/mo.",
+    images: ["/api/og?title=Best%20Paprika%20Alternative%20(2026)&description=Looking%20for%20a%20Paprika%20alternative%20that%20actually%20plans%20your%20meals%3F%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20personalized%20wee"],
   },
 };
 

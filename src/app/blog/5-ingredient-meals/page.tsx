@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Simple 5-ingredient dinners that actually taste good. 15 recipes using pantry staples, fresh basics, and no-cook assembly meals — all under 30 minutes. Plus a free personalized meal plan.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=15%20Easy%205-Ingredient%20Dinners%20(Under%2030%20Minutes)&description=Simple%205-ingredient%20dinners%20that%20actually%20taste%20good.%2015%20recipes%20using%20pantry%20staples%2C%20fresh%20basics%2C%20and%20no-cook%20assembl`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/5-ingredient-meals",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "15 Easy 5-Ingredient Dinners (Under 30 Minutes)",
     description:
       "Simple 5-ingredient dinners that actually taste good. 15 recipes using pantry staples, fresh basics, and no-cook assembly meals — all under 30 minutes.",
+    images: ["/api/og?title=15%20Easy%205-Ingredient%20Dinners%20(Under%2030%20Minutes)&description=Simple%205-ingredient%20dinners%20that%20actually%20taste%20good.%2015%20recipes%20using%20pantry%20staples%2C%20fresh%20basics%2C%20and%20no-cook%20assembl"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/5-ingredient-meals",

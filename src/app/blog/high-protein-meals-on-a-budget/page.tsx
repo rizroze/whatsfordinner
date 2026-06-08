@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "You don't need expensive salmon to hit 30g+ protein per meal. These 15 cheap high-protein dinners cost $2-4/serving and actually taste good. Plus a $50 weekly meal plan.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=High-Protein%20Meals%20on%20a%20Budget%3A%2015%20Dinners%20Under%20%244&description=You%20don't%20need%20expensive%20salmon%20to%20hit%2030g%2B%20protein%20per%20meal.%20These%2015%20cheap%20high-protein%20dinners%20cost%20%242-4%2Fserving%20and%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/high-protein-meals-on-a-budget",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "High-Protein Meals on a Budget: 15 Dinners Under $4",
     description:
       "You don't need expensive salmon to hit 30g+ protein per meal. These 15 cheap high-protein dinners cost $2-4/serving and actually taste good.",
+    images: ["/api/og?title=High-Protein%20Meals%20on%20a%20Budget%3A%2015%20Dinners%20Under%20%244&description=You%20don't%20need%20expensive%20salmon%20to%20hit%2030g%2B%20protein%20per%20meal.%20These%2015%20cheap%20high-protein%20dinners%20cost%20%242-4%2Fserving%20and%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/high-protein-meals-on-a-budget",

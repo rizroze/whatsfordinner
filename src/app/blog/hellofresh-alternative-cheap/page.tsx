@@ -12,12 +12,14 @@ export const metadata: Metadata = {
       "Looking for a HelloFresh alternative cheap enough for any budget? What's For Dinner gives you personalized weekly meal plans + grocery lists for $7.99/mo — no meal kit markup.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Cheap%20HelloFresh%20Alternative%20(2026)&description=Looking%20for%20a%20HelloFresh%20alternative%20cheap%20enough%20for%20any%20budget%3F%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20p`, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Cheap HelloFresh Alternative (2026)",
     description:
       "Looking for a HelloFresh alternative cheap enough for any budget? Personalized weekly meal plans + grocery lists for $7.99/mo — no meal kit markup.",
+    images: ["/api/og?title=Cheap%20HelloFresh%20Alternative%20(2026)&description=Looking%20for%20a%20HelloFresh%20alternative%20cheap%20enough%20for%20any%20budget%3F%20What's%20For%20Dinner%20gives%20you%20personalized%20weekly%20meal%20p"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/hellofresh-alternative-cheap",

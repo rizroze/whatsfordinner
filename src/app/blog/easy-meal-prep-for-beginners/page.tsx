@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Meal prep doesn't mean eating the same sad chicken for 5 days. Here's a 1-hour Sunday system with variety, zero cooking skills needed. Free plan included.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Easy%20Meal%20Prep%20for%20Beginners%20(Just%201%20Hour%2FWeek)&description=Meal%20prep%20doesn't%20mean%20eating%20the%20same%20sad%20chicken%20for%205%20days.%20Here's%20a%201-hour%20Sunday%20system%20with%20variety%2C%20zero%20cooking%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/easy-meal-prep-for-beginners",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Easy Meal Prep for Beginners (Just 1 Hour/Week)",
     description:
       "Meal prep doesn't mean eating the same sad chicken for 5 days. Here's a 1-hour Sunday system with variety, zero cooking skills needed.",
+    images: ["/api/og?title=Easy%20Meal%20Prep%20for%20Beginners%20(Just%201%20Hour%2FWeek)&description=Meal%20prep%20doesn't%20mean%20eating%20the%20same%20sad%20chicken%20for%205%20days.%20Here's%20a%201-hour%20Sunday%20system%20with%20variety%2C%20zero%20cooking%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/easy-meal-prep-for-beginners",

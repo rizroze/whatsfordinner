@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "It's 6pm and you're hungry. These 20 dinner ideas are organized by what's already in your fridge — chicken, pasta, eggs, ground beef, or literally nothing. All under 25 minutes.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=What%20Should%20I%20Make%20for%20Dinner%3F%2020%20Ideas%20Based%20on%20What%20You%20Have&description=It's%206pm%20and%20you're%20hungry.%20These%2020%20dinner%20ideas%20are%20organized%20by%20what's%20already%20in%20your%20fridge%20%E2%80%94%20chicken%2C%20pasta%2C%20eggs%2C`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/dinner-ideas-tonight",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "What Should I Make for Dinner? 20 Ideas Based on What You Have",
     description:
       "It's 6pm and you're hungry. 20 dinner ideas organized by what's in your fridge. All under 25 minutes.",
+    images: ["/api/og?title=What%20Should%20I%20Make%20for%20Dinner%3F%2020%20Ideas%20Based%20on%20What%20You%20Have&description=It's%206pm%20and%20you're%20hungry.%20These%2020%20dinner%20ideas%20are%20organized%20by%20what's%20already%20in%20your%20fridge%20%E2%80%94%20chicken%2C%20pasta%2C%20eggs%2C"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/dinner-ideas-tonight",

@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Stop writing random grocery lists. This store-section template matches your meals to your list automatically. Free weekly grocery list generator included.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=The%20Only%20Grocery%20List%20Template%20You%20Need%20(%2B%20Free%20Generator)&description=Stop%20writing%20random%20grocery%20lists.%20This%20store-section%20template%20matches%20your%20meals%20to%20your%20list%20automatically.%20Free%20weekl`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/grocery-list-template",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "The Only Grocery List Template You Need (+ Free Generator)",
     description:
       "Stop writing random grocery lists. This store-section template matches your meals to your list automatically.",
+    images: ["/api/og?title=The%20Only%20Grocery%20List%20Template%20You%20Need%20(%2B%20Free%20Generator)&description=Stop%20writing%20random%20grocery%20lists.%20This%20store-section%20template%20matches%20your%20meals%20to%20your%20list%20automatically.%20Free%20weekl"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/grocery-list-template",

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free printable plan included.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Planning%20for%20Beginners%3A%205-Step%20Guide%20(2026)&description=Start%20meal%20planning%20this%20week%20with%20a%20simple%205-step%20method.%20Save%202.5%20hours%20and%20%2450-100%20per%20week%20%E2%80%94%20no%20cooking%20skills%20requi`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/meal-planning-for-beginners",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Meal Planning for Beginners: 5-Step Guide (2026)",
     description:
       "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required.",
+    images: ["/api/og?title=Meal%20Planning%20for%20Beginners%3A%205-Step%20Guide%20(2026)&description=Start%20meal%20planning%20this%20week%20with%20a%20simple%205-step%20method.%20Save%202.5%20hours%20and%20%2450-100%20per%20week%20%E2%80%94%20no%20cooking%20skills%20requi"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/meal-planning-for-beginners",

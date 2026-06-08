@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Recipes serve 4. Produce goes bad by Wednesday. Here's how to actually cook for one person without throwing money in the trash.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Cooking%20for%20One%20Without%20Wasting%20Half%20Your%20Groceries&description=Recipes%20serve%204.%20Produce%20goes%20bad%20by%20Wednesday.%20Here's%20how%20to%20actually%20cook%20for%20one%20person%20without%20throwing%20money%20in%20the`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/cooking-for-one-without-wasting-food",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Cooking for One Without Wasting Half Your Groceries",
     description:
       "Recipes serve 4. Produce goes bad by Wednesday. Here's how to actually cook for one person without throwing money in the trash.",
+    images: ["/api/og?title=Cooking%20for%20One%20Without%20Wasting%20Half%20Your%20Groceries&description=Recipes%20serve%204.%20Produce%20goes%20bad%20by%20Wednesday.%20Here's%20how%20to%20actually%20cook%20for%20one%20person%20without%20throwing%20money%20in%20the"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/cooking-for-one-without-wasting-food",

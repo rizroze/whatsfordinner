@@ -45,11 +45,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url,
       siteName: "What's For Dinner",
       type: "article",
+      images: [
+        {
+          url: `/api/og?title=${encodeURIComponent(data.title)}&description=${encodeURIComponent(data.metaDescription)}`,
+          width: 1200,
+          height: 630,
+          alt: data.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: data.title,
       description: data.metaDescription,
+      images: [`/api/og?title=${encodeURIComponent(data.title)}&description=${encodeURIComponent(data.metaDescription)}`],
     },
   };
 }

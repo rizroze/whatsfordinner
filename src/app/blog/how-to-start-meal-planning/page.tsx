@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Meal planning keeps failing? It's not willpower — it's your system. Learn the simple 5-day method that actually sticks, with 10 beginner-friendly meals and a starter grocery list.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=How%20to%20Start%20Meal%20Planning%20(Even%20If%20You've%20Failed%20Before)&description=Meal%20planning%20keeps%20failing%3F%20It's%20not%20willpower%20%E2%80%94%20it's%20your%20system.%20Learn%20the%20simple%205-day%20method%20that%20actually%20sticks%2C%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/how-to-start-meal-planning",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "How to Start Meal Planning (Even If You've Failed Before)",
     description:
       "Meal planning keeps failing? It's not willpower — it's your system. Learn the simple 5-day method that actually sticks, with 10 beginner-friendly meals.",
+    images: ["/api/og?title=How%20to%20Start%20Meal%20Planning%20(Even%20If%20You've%20Failed%20Before)&description=Meal%20planning%20keeps%20failing%3F%20It's%20not%20willpower%20%E2%80%94%20it's%20your%20system.%20Learn%20the%20simple%205-day%20method%20that%20actually%20sticks%2C%20"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/how-to-start-meal-planning",

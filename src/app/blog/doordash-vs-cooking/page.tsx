@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "DoorDash averages $25/order with fees. Cooking the same meal costs $3-5. Here's the real math on delivery apps vs. cooking — and how to actually make the switch.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=DoorDash%20vs.%20Cooking%20at%20Home%3A%20The%20Real%20Cost%20(2026)&description=DoorDash%20averages%20%2425%2Forder%20with%20fees.%20Cooking%20the%20same%20meal%20costs%20%243-5.%20Here's%20the%20real%20math%20on%20delivery%20apps%20vs.%20cooki`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/doordash-vs-cooking",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "DoorDash vs. Cooking at Home: The Real Cost (2026)",
     description:
       "DoorDash averages $25/order with fees. Cooking the same meal costs $3-5. Here's the real math on delivery apps vs. cooking.",
+    images: ["/api/og?title=DoorDash%20vs.%20Cooking%20at%20Home%3A%20The%20Real%20Cost%20(2026)&description=DoorDash%20averages%20%2425%2Forder%20with%20fees.%20Cooking%20the%20same%20meal%20costs%20%243-5.%20Here's%20the%20real%20math%20on%20delivery%20apps%20vs.%20cooki"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/doordash-vs-cooking",

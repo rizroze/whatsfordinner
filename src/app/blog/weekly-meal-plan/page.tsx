@@ -13,6 +13,7 @@ export const metadata: Metadata = {
       "Get a complete weekly meal plan for Monday through Sunday with breakfast, lunch, and dinner recipes, a consolidated grocery list, and cost breakdowns. Free template and 5-step guide included.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Weekly%20Meal%20Plan%3A%207-Day%20Template%20with%20Recipes%2C%20Grocery%20List%20%26%20Costs%20(2026)&description=Get%20a%20complete%20weekly%20meal%20plan%20for%20Monday%20through%20Sunday%20with%20breakfast%2C%20lunch%2C%20and%20dinner%20recipes%2C%20a%20consolidated%20groc`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/weekly-meal-plan",
   },
   twitter: {
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Weekly Meal Plan: 7-Day Template with Recipes, Grocery List & Costs (2026)",
     description:
       "Complete weekly meal plan for Monday-Sunday with recipes, grocery list, and cost breakdowns. Free template and 5-step guide included.",
+    images: ["/api/og?title=Weekly%20Meal%20Plan%3A%207-Day%20Template%20with%20Recipes%2C%20Grocery%20List%20%26%20Costs%20(2026)&description=Get%20a%20complete%20weekly%20meal%20plan%20for%20Monday%20through%20Sunday%20with%20breakfast%2C%20lunch%2C%20and%20dinner%20recipes%2C%20a%20consolidated%20groc"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/weekly-meal-plan",

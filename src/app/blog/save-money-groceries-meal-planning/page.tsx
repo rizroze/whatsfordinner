@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "The average family wastes $1,500/year on food. Learn 5 budget meal planning rules, savings by household size, and how an AI meal planner cuts grocery bills automatically.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Save%20Money%20on%20Groceries&description=The%20average%20family%20wastes%20%241%2C500%2Fyear%20on%20food.%20Learn%205%20budget%20meal%20planning%20rules%2C%20savings%20by%20household%20size%2C%20and%20how%20an`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/save-money-groceries-meal-planning",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Save Money on Groceries",
     description:
       "The average family wastes $1,500/year on food. Learn 5 budget meal planning rules, savings by household size, and how an AI meal planner cuts grocery bills automatically.",
+    images: ["/api/og?title=Save%20Money%20on%20Groceries&description=The%20average%20family%20wastes%20%241%2C500%2Fyear%20on%20food.%20Learn%205%20budget%20meal%20planning%20rules%2C%20savings%20by%20household%20size%2C%20and%20how%20an"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/save-money-groceries-meal-planning",

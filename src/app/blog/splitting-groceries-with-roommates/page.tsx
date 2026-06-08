@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Shared fridges, stolen food, and passive-aggressive labels. Here's how to actually split groceries with roommates — 3 systems that work and 2 that don't.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=How%20to%20Split%20Groceries%20with%20Roommates%20(Without%20Drama)&description=Shared%20fridges%2C%20stolen%20food%2C%20and%20passive-aggressive%20labels.%20Here's%20how%20to%20actually%20split%20groceries%20with%20roommates%20%E2%80%94%203%20sy`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/splitting-groceries-with-roommates",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "How to Split Groceries with Roommates (Without Drama)",
     description:
       "Shared fridges, stolen food, and passive-aggressive labels. Here's how to actually split groceries with roommates — 3 systems that work and 2 that don't.",
+    images: ["/api/og?title=How%20to%20Split%20Groceries%20with%20Roommates%20(Without%20Drama)&description=Shared%20fridges%2C%20stolen%20food%2C%20and%20passive-aggressive%20labels.%20Here's%20how%20to%20actually%20split%20groceries%20with%20roommates%20%E2%80%94%203%20sy"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/splitting-groceries-with-roommates",

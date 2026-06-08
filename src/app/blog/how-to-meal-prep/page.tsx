@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Learn a simple 2-hour Sunday meal prep routine that saves time, cuts grocery costs, and eliminates weeknight stress. Step-by-step guide with storage tips.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=How%20to%20Meal%20Prep%20(2026%20Guide)&description=Learn%20a%20simple%202-hour%20Sunday%20meal%20prep%20routine%20that%20saves%20time%2C%20cuts%20grocery%20costs%2C%20and%20eliminates%20weeknight%20stress.%20Ste`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/how-to-meal-prep",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "How to Meal Prep (2026 Guide)",
     description:
       "Learn a simple 2-hour Sunday meal prep routine that saves time, cuts grocery costs, and eliminates weeknight stress. Step-by-step guide with storage tips.",
+    images: ["/api/og?title=How%20to%20Meal%20Prep%20(2026%20Guide)&description=Learn%20a%20simple%202-hour%20Sunday%20meal%20prep%20routine%20that%20saves%20time%2C%20cuts%20grocery%20costs%2C%20and%20eliminates%20weeknight%20stress.%20Ste"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/how-to-meal-prep",

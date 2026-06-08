@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Food is probably your biggest budget leak. Here's how to set a realistic food budget, what you should actually spend, and the one habit that makes it stick.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=How%20to%20Set%20a%20Food%20Budget%20in%20Your%2020s%20(And%20Actually%20Stick%20to%20It)&description=Food%20is%20probably%20your%20biggest%20budget%20leak.%20Here's%20how%20to%20set%20a%20realistic%20food%20budget%2C%20what%20you%20should%20actually%20spend%2C%20an`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/food-budget-in-your-20s",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "How to Set a Food Budget in Your 20s (And Actually Stick to It)",
     description:
       "Food is probably your biggest budget leak. Here's how to set a realistic food budget and the one habit that makes it stick.",
+    images: ["/api/og?title=How%20to%20Set%20a%20Food%20Budget%20in%20Your%2020s%20(And%20Actually%20Stick%20to%20It)&description=Food%20is%20probably%20your%20biggest%20budget%20leak.%20Here's%20how%20to%20set%20a%20realistic%20food%20budget%2C%20what%20you%20should%20actually%20spend%2C%20an"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/food-budget-in-your-20s",

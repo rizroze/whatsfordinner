@@ -12,12 +12,14 @@ export const metadata: Metadata = {
       "Yummly shut down in December 2024 and isn't coming back. Here's the best replacement: AI-powered meal plans with recipes and a grocery list, personalized weekly for $7.99/mo.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Yummly%20Alternative%20in%202026%20(After%20Shutdown)&description=Yummly%20shut%20down%20in%20December%202024%20and%20isn't%20coming%20back.%20Here's%20the%20best%20replacement%3A%20AI-powered%20meal%20plans%20with%20recipes`, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Yummly Alternative in 2026 (After Shutdown)",
     description:
       "Yummly shut down in December 2024 and isn't coming back. Here's the best replacement: AI-powered meal plans with recipes and a grocery list, personalized weekly.",
+    images: ["/api/og?title=Best%20Yummly%20Alternative%20in%202026%20(After%20Shutdown)&description=Yummly%20shut%20down%20in%20December%202024%20and%20isn't%20coming%20back.%20Here's%20the%20best%20replacement%3A%20AI-powered%20meal%20plans%20with%20recipes"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/yummly-alternative",

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $7.99/mo — smarter recipes, real customization, and plans that adapt to your feedback.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20eMeals%20Alternative%20(2026)&description=Looking%20for%20an%20eMeals%20alternative%3F%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20unique%2C%20personalized%20meal%20plans%20every%20week%20for%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/emeals-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/emeals-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Best eMeals Alternative (2026)",
     description:
       "Looking for an eMeals alternative? What's For Dinner uses AI to generate unique, personalized meal plans every week for $7.99/mo.",
+    images: ["/api/og?title=Best%20eMeals%20Alternative%20(2026)&description=Looking%20for%20an%20eMeals%20alternative%3F%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20unique%2C%20personalized%20meal%20plans%20every%20week%20for%20"],
   },
 };
 

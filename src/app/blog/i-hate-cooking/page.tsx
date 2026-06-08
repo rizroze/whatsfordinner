@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "You don't have to love cooking. You just need to not go broke on delivery. Here's a system for people who genuinely dislike being in the kitchen.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=I%20Hate%20Cooking%20(But%20I%20Still%20Need%20to%20Eat)&description=You%20don't%20have%20to%20love%20cooking.%20You%20just%20need%20to%20not%20go%20broke%20on%20delivery.%20Here's%20a%20system%20for%20people%20who%20genuinely%20disl`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/i-hate-cooking",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "I Hate Cooking (But I Still Need to Eat)",
     description:
       "You don't have to love cooking. You just need to not go broke on delivery. Here's a system for people who genuinely dislike being in the kitchen.",
+    images: ["/api/og?title=I%20Hate%20Cooking%20(But%20I%20Still%20Need%20to%20Eat)&description=You%20don't%20have%20to%20love%20cooking.%20You%20just%20need%20to%20not%20go%20broke%20on%20delivery.%20Here's%20a%20system%20for%20people%20who%20genuinely%20disl"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/i-hate-cooking",

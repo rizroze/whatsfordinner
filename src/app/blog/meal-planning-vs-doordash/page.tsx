@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "A family of 4 spends $120-175/week on DoorDash vs $50-75/week with a meal plan. Full cost breakdown with real numbers and a realistic switching plan.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Planning%20vs.%20DoorDash%3A%20Save%20%24400%2FMonth%20on%20Family%20Dinners%20(2026)&description=A%20family%20of%204%20spends%20%24120-175%2Fweek%20on%20DoorDash%20vs%20%2450-75%2Fweek%20with%20a%20meal%20plan.%20Full%20cost%20breakdown%20with%20real%20numbers%20an`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/meal-planning-vs-doordash",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/meal-planning-vs-doordash" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Meal Planning vs. DoorDash: Save $400/Month on Family Dinners (2026)",
     description:
       "A family of 4 spends $120-175/week on DoorDash vs $50-75/week with a meal plan. That's $3,000-5,000/year. Here's the complete cost breakdown.",
+    images: ["/api/og?title=Meal%20Planning%20vs.%20DoorDash%3A%20Save%20%24400%2FMonth%20on%20Family%20Dinners%20(2026)&description=A%20family%20of%204%20spends%20%24120-175%2Fweek%20on%20DoorDash%20vs%20%2450-75%2Fweek%20with%20a%20meal%20plan.%20Full%20cost%20breakdown%20with%20real%20numbers%20an"],
   },
 };
 

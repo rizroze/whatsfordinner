@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Meal planning is deciding what to eat. Meal prep is cooking it in advance. You need both — but you can skip the prep. Here's how each one works and which to start with.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Planning%20vs.%20Meal%20Prep%3A%20What's%20the%20Difference%3F&description=Meal%20planning%20is%20deciding%20what%20to%20eat.%20Meal%20prep%20is%20cooking%20it%20in%20advance.%20You%20need%20both%20%E2%80%94%20but%20you%20can%20skip%20the%20prep.%20He`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/meal-planning-vs-meal-prep",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/meal-planning-vs-meal-prep" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "Meal Planning vs. Meal Prep: What's the Difference?",
     description:
       "Meal planning is deciding what to eat. Meal prep is cooking it in advance. You need both — but you can skip the prep.",
+    images: ["/api/og?title=Meal%20Planning%20vs.%20Meal%20Prep%3A%20What's%20the%20Difference%3F&description=Meal%20planning%20is%20deciding%20what%20to%20eat.%20Meal%20prep%20is%20cooking%20it%20in%20advance.%20You%20need%20both%20%E2%80%94%20but%20you%20can%20skip%20the%20prep.%20He"],
   },
 };
 

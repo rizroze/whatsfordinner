@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "You said you'd stop ordering DoorDash. Again. Here's the system that actually works — meal planning that takes 10 minutes and saves $200+/month.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=How%20to%20Stop%20Ordering%20Takeout%20Every%20Night%20(2026)&description=You%20said%20you'd%20stop%20ordering%20DoorDash.%20Again.%20Here's%20the%20system%20that%20actually%20works%20%E2%80%94%20meal%20planning%20that%20takes%2010%20minute`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/how-to-stop-ordering-takeout",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "How to Stop Ordering Takeout Every Night (2026)",
     description:
       "You said you'd stop ordering DoorDash. Again. Here's the system that actually works — meal planning that takes 10 minutes and saves $200+/month.",
+    images: ["/api/og?title=How%20to%20Stop%20Ordering%20Takeout%20Every%20Night%20(2026)&description=You%20said%20you'd%20stop%20ordering%20DoorDash.%20Again.%20Here's%20the%20system%20that%20actually%20works%20%E2%80%94%20meal%20planning%20that%20takes%2010%20minute"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/how-to-stop-ordering-takeout",

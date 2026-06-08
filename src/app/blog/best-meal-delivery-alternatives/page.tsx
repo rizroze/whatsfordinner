@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Meal delivery services cost $200-400/month. These 7 alternatives give you the same convenience for a fraction of the price. Tested and ranked.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=7%20Best%20Meal%20Delivery%20Alternatives%20in%202026%20(Cheaper%20Options)&description=Meal%20delivery%20services%20cost%20%24200-400%2Fmonth.%20These%207%20alternatives%20give%20you%20the%20same%20convenience%20for%20a%20fraction%20of%20the%20pri`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/best-meal-delivery-alternatives",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-meal-delivery-alternatives" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "7 Best Meal Delivery Alternatives in 2026 (Cheaper Options)",
     description:
       "Meal delivery services cost $200-400/month. These 7 alternatives give you the same convenience for a fraction of the price.",
+    images: ["/api/og?title=7%20Best%20Meal%20Delivery%20Alternatives%20in%202026%20(Cheaper%20Options)&description=Meal%20delivery%20services%20cost%20%24200-400%2Fmonth.%20These%207%20alternatives%20give%20you%20the%20same%20convenience%20for%20a%20fraction%20of%20the%20pri"],
   },
 };
 

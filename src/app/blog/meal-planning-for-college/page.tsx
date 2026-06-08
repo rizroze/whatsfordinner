@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "The college meal plan is overpriced and the dining hall closes at 8. Here's how to actually feed yourself in college — dorm-friendly, under $40/week, no kitchen required.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Planning%20for%20College%20Students%20(Dorm%20%2B%20Off-Campus)&description=The%20college%20meal%20plan%20is%20overpriced%20and%20the%20dining%20hall%20closes%20at%208.%20Here's%20how%20to%20actually%20feed%20yourself%20in%20college%20%E2%80%94%20d`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/meal-planning-for-college",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Meal Planning for College Students (Dorm + Off-Campus)",
     description:
       "The college meal plan is overpriced and the dining hall closes at 8. Here's how to actually feed yourself in college — dorm-friendly, under $40/week.",
+    images: ["/api/og?title=Meal%20Planning%20for%20College%20Students%20(Dorm%20%2B%20Off-Campus)&description=The%20college%20meal%20plan%20is%20overpriced%20and%20the%20dining%20hall%20closes%20at%208.%20Here's%20how%20to%20actually%20feed%20yourself%20in%20college%20%E2%80%94%20d"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/meal-planning-for-college",

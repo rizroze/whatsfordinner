@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "We tested every meal planning app in 2026 and ranked the 12 best. Compare AI meal planners, free options, and recipe organizers with pricing, features, and honest reviews. Updated April 2026.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=12%20Best%20Meal%20Planning%20Apps%20in%202026%20(Tested%20%26%20Ranked)&description=We%20tested%20every%20meal%20planning%20app%20in%202026%20and%20ranked%20the%2012%20best.%20Compare%20AI%20meal%20planners%2C%20free%20options%2C%20and%20recipe%20org`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/best-meal-planning-apps",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-meal-planning-apps" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "12 Best Meal Planning Apps in 2026 (Tested & Ranked)",
     description:
       "We tested every meal planning app in 2026. AI planners, free options, recipe managers, and shutdown apps -- all compared honestly.",
+    images: ["/api/og?title=12%20Best%20Meal%20Planning%20Apps%20in%202026%20(Tested%20%26%20Ranked)&description=We%20tested%20every%20meal%20planning%20app%20in%202026%20and%20ranked%20the%2012%20best.%20Compare%20AI%20meal%20planners%2C%20free%20options%2C%20and%20recipe%20org"],
   },
 };
 

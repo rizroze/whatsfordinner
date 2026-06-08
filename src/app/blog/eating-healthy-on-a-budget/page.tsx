@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Eat healthy for $50/week in 2026 with a real grocery list, 7-day meal plan, and cost breakdowns. USDA data, meal kit comparisons, and budget strategies included.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Eating%20Healthy%20on%20a%20Budget%3A%20The%20%2450%2FWeek%20Plan%20(2026)&description=Eat%20healthy%20for%20%2450%2Fweek%20in%202026%20with%20a%20real%20grocery%20list%2C%207-day%20meal%20plan%2C%20and%20cost%20breakdowns.%20USDA%20data%2C%20meal%20kit%20com`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/eating-healthy-on-a-budget",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Eating Healthy on a Budget: The $50/Week Plan (2026)",
     description:
       "Eat healthy for $50/week in 2026 with a real grocery list, 7-day meal plan, and cost breakdowns. USDA data, meal kit comparisons, and budget strategies included.",
+    images: ["/api/og?title=Eating%20Healthy%20on%20a%20Budget%3A%20The%20%2450%2FWeek%20Plan%20(2026)&description=Eat%20healthy%20for%20%2450%2Fweek%20in%202026%20with%20a%20real%20grocery%20list%2C%207-day%20meal%20plan%2C%20and%20cost%20breakdowns.%20USDA%20data%2C%20meal%20kit%20com"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/eating-healthy-on-a-budget",

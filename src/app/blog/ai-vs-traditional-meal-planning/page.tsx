@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "AI meal planners generate personalized plans from scratch. Traditional apps shuffle a recipe database. Here's why AI is winning — and where it still falls short.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=AI%20Meal%20Planning%20vs.%20Traditional%3A%20Which%20Is%20Better%3F%20(2026)&description=AI%20meal%20planners%20generate%20personalized%20plans%20from%20scratch.%20Traditional%20apps%20shuffle%20a%20recipe%20database.%20Here's%20why%20AI%20is%20`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/ai-vs-traditional-meal-planning",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/ai-vs-traditional-meal-planning" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "AI Meal Planning vs. Traditional: Which Is Better? (2026)",
     description:
       "AI meal planners generate personalized plans from scratch. Traditional apps shuffle a recipe database. Here's why AI is winning.",
+    images: ["/api/og?title=AI%20Meal%20Planning%20vs.%20Traditional%3A%20Which%20Is%20Better%3F%20(2026)&description=AI%20meal%20planners%20generate%20personalized%20plans%20from%20scratch.%20Traditional%20apps%20shuffle%20a%20recipe%20database.%20Here's%20why%20AI%20is%20"],
   },
 };
 

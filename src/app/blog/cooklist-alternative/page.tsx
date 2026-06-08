@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo — no barcode scanning required.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Best%20Cooklist%20Alternative%20(2026)&description=Looking%20for%20a%20Cooklist%20alternative%20focused%20on%20meal%20planning%3F%20What's%20For%20Dinner%20delivers%20AI-powered%20personalized%20meal%20pla`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/cooklist-alternative",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/cooklist-alternative" },
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
       "Best Cooklist Alternative (2026)",
     description:
       "Looking for a Cooklist alternative focused on meal planning? What's For Dinner delivers AI-powered personalized meal plans and grocery lists by email for $7.99/mo.",
+    images: ["/api/og?title=Best%20Cooklist%20Alternative%20(2026)&description=Looking%20for%20a%20Cooklist%20alternative%20focused%20on%20meal%20planning%3F%20What's%20For%20Dinner%20delivers%20AI-powered%20personalized%20meal%20pla"],
   },
 };
 

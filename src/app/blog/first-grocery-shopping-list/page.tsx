@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "Just moved into your first apartment? Here's the exact grocery list to start with — staples, spices, and 5 easy meals you can make this week. Under $60 total.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Your%20First%20Real%20Grocery%20List%20(New%20Apartment%20Starter%20Kit)&description=Just%20moved%20into%20your%20first%20apartment%3F%20Here's%20the%20exact%20grocery%20list%20to%20start%20with%20%E2%80%94%20staples%2C%20spices%2C%20and%205%20easy%20meals%20yo`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/first-grocery-shopping-list",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Your First Real Grocery List (New Apartment Starter Kit)",
     description:
       "Just moved into your first apartment? Here's the exact grocery list to start with — staples, spices, and 5 easy meals you can make this week.",
+    images: ["/api/og?title=Your%20First%20Real%20Grocery%20List%20(New%20Apartment%20Starter%20Kit)&description=Just%20moved%20into%20your%20first%20apartment%3F%20Here's%20the%20exact%20grocery%20list%20to%20start%20with%20%E2%80%94%20staples%2C%20spices%2C%20and%205%20easy%20meals%20yo"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/first-grocery-shopping-list",

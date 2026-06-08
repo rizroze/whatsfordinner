@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "You're spending $200-400/month on delivery apps. Here's how to meal plan your way out — even if you can't cook. Simple system, $50-75/week groceries, zero cooking skills needed.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=Meal%20Planning%20in%20Your%2020s%3A%20Stop%20Spending%20%24300%2FMonth%20on%20DoorDash&description=You're%20spending%20%24200-400%2Fmonth%20on%20delivery%20apps.%20Here's%20how%20to%20meal%20plan%20your%20way%20out%20%E2%80%94%20even%20if%20you%20can't%20cook.%20Simple%20s`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/meal-planning-in-your-20s",
   },
   twitter: {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     title: "Meal Planning in Your 20s: Stop Spending $300/Month on DoorDash",
     description:
       "You're spending $200-400/month on delivery apps. Here's how to meal plan your way out — even if you can't cook.",
+    images: ["/api/og?title=Meal%20Planning%20in%20Your%2020s%3A%20Stop%20Spending%20%24300%2FMonth%20on%20DoorDash&description=You're%20spending%20%24200-400%2Fmonth%20on%20delivery%20apps.%20Here's%20how%20to%20meal%20plan%20your%20way%20out%20%E2%80%94%20even%20if%20you%20can't%20cook.%20Simple%20s"],
   },
   alternates: {
     canonical: "https://whatsfordinner.fit/blog/meal-planning-in-your-20s",

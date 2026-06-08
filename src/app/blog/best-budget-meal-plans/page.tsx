@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "The best budget meal plans and cheap meal planning services ranked for 2026. Keep groceries under $30-50/week per person with AI-powered plans, recipes, and grocery lists.",
     siteName: "What's For Dinner",
     type: "article",
+    images: [{ url: `/api/og?title=5%20Best%20Budget%20Meal%20Plans%20in%202026%20(Under%20%2475%2FWeek)&description=The%20best%20budget%20meal%20plans%20and%20cheap%20meal%20planning%20services%20ranked%20for%202026.%20Keep%20groceries%20under%20%2430-50%2Fweek%20per%20person`, width: 1200, height: 630 }],
     url: "https://whatsfordinner.fit/blog/best-budget-meal-plans",
   },
   alternates: { canonical: "https://whatsfordinner.fit/blog/best-budget-meal-plans" },
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
     title: "5 Best Budget Meal Plans in 2026 (Under $75/Week)",
     description:
       "Budget meal plans that actually work. Compare services, see real grocery costs, and start eating well for $30-50/week per person.",
+    images: ["/api/og?title=5%20Best%20Budget%20Meal%20Plans%20in%202026%20(Under%20%2475%2FWeek)&description=The%20best%20budget%20meal%20plans%20and%20cheap%20meal%20planning%20services%20ranked%20for%202026.%20Keep%20groceries%20under%20%2430-50%2Fweek%20per%20person"],
   },
 };
 
