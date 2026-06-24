@@ -83,11 +83,17 @@ export async function GET(req: NextRequest) {
     // Build lookup maps
     const userMap = new Map(users.map((u) => [u.id, u]));
 
+    // Skip emails listed in CRON_SKIP_EMAILS (comma-separated env var)
+    const skipEmails = new Set(
+      (process.env.CRON_SKIP_EMAILS ?? "").split(",").map((e) => e.trim().toLowerCase()).filter(Boolean)
+    );
+
     total = profiles.length;
 
     for (const profile of profiles) {
       const user = userMap.get(profile.user_id);
       if (!user) continue;
+      if (skipEmails.has(user.email.toLowerCase())) continue;
 
       try {
         // Skip if plan already exists for this week
