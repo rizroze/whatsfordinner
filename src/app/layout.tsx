@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     url: "https://whatsfordinner.fit",
     title: "What's For Dinner — Your Week of Meals, Planned in 30 Seconds",
     description:
-      "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Try free, no credit card.",
+      "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. From $7.99/month, cancel anytime.",
     siteName: "What's For Dinner",
     images: [
       {
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "What's For Dinner — Your Week of Meals, Planned in 30 Seconds",
     description:
-      "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. Try free, no credit card.",
+      "Personalized meal plans, recipes, and a grocery list, delivered to your inbox every Sunday. From $7.99/month, cancel anytime.",
     images: ["/api/og?title=What%27s+For+Dinner%3F&description=Personalized+meal+plans%2C+recipes%2C+and+a+grocery+list+%E2%80%94+planned+in+30+seconds."],
   },
 };

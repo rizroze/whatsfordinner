@@ -20,9 +20,9 @@
       "description": "Tell us what your family likes. We handle the rest.\nEvery week, automatically.",
       "tryCta": "",
       "noCreditCard": "",
-      "cta": "Get Your First Plan Free",
+      "cta": "Build My Meal Plan",
       "ctaLoggedIn": "Go to Dashboard",
-      "subtext": "No credit card. Just a quick taste quiz.",
+      "subtext": "Takes 2 minutes. Cancel anytime.",
       "liveCounter": "{count}+ meals planned and counting"
     },
     "social": {
@@ -100,9 +100,9 @@
       "title": "Still thinking about it?",
       "subtitle": "Here's everything holding you back, addressed.",
       "q1": "How does it work?",
-      "a1": "Tell us what you eat, what you avoid, and your budget. In 30 seconds, you get a 3-day meal plan with recipes and a grocery list. Free, no credit card. If it clicks, subscribe and we send you a full week, every week.",
-      "q2": "Is the free plan really free?",
-      "a2": "Completely. No credit card, no trial that auto-charges. You get a real 3-day plan with real recipes and a real grocery list. We think once you try it, you won't want to go back to winging it.",
+      "a1": "Tell us what you eat, what you avoid, and your budget. In 2 minutes, you get a personalized 7-day meal plan with recipes and a grocery list, delivered to your inbox every week.",
+      "q2": "How much does it cost?",
+      "a2": "$7.99/month or $59.99/year (about $5/month). You get a personalized 7-day plan with full recipes and a grocery list every week. Cancel anytime in one click — no phone calls, no guilt trip.",
       "q3": "Can I customize for allergies and dietary restrictions?",
       "a3": "Down to the ingredient. Vegetarian, vegan, gluten-free, keto, nut allergies, shellfish, whatever it is. Every meal is built around it. Your plan won't just avoid things, it'll be good despite them.",
       "q4": "What if I don't like the plan?",
@@ -490,7 +490,7 @@
     "subtitle": "Enter your email and we'll build a personalized 3-day meal plan with recipes and a grocery list. Free.",
     "emailPlaceholder": "you@example.com",
     "cta": "Get My Free Plan →",
-    "reassurance": "No credit card. No spam. Just a meal plan.",
+    "reassurance": "From $7.99/mo. Cancel anytime.",
     "dismiss": "No thanks, I'll figure out dinner myself"
   }
 }

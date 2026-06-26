@@ -61,8 +61,8 @@ const comparisonRows = [
 
 const faqs = [
   {
-    q: "Is there a free trial?",
-    a: "Yes! You can generate a free 3-day meal plan with recipes and a grocery list, no credit card required. It's a great way to see how personalized your plans really are before subscribing.",
+    q: "Can I see an example before subscribing?",
+    a: "Yes — complete the 2-minute taste quiz and we'll show you a real sample day from your personalized plan before you pay anything.",
   },
   {
     q: "Can I cancel anytime?",
@@ -338,7 +338,7 @@ export default function PricingPage() {
             Your first plan is free
           </h2>
           <p className="mt-3 text-orange-100 text-sm sm:text-base max-w-md mx-auto">
-            Get a personalized 3-day meal plan with recipes and a grocery list. No credit card required.
+            Takes 2 minutes to set up. Your first plan generates the moment you subscribe.
           </p>
           <Link
             href="/onboarding"
