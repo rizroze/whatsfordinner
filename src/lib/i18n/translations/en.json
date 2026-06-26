@@ -6,7 +6,7 @@
     "signUp": "Create Account",
     "subscribe": "Subscribe",
     "loading": "Loading...",
-    "tryFree": "Try Free",
+    "tryFree": "Get Started",
     "email": "Email",
     "password": "Password",
     "or": "or",
@@ -80,9 +80,9 @@
       "perMonthCalc": "$5/mo",
       "billedMonthly": "Billed monthly. Cancel anytime.",
       "billedYearly": "Billed yearly at $59.99",
-      "tryFreeFirst": "Try It Free First",
+      "tryFreeFirst": "Get Started",
       "features": {
-        "firstWeekFree": "Try a free 3-day plan, no credit card needed",
+        "firstWeekFree": "Personalized 7-day plan with recipes and a grocery list",
         "sevenDayPlans": "A full week of meals planned for you, every week",
         "groceryLists": "One grocery list, no duplicates, no guessing",
         "regenerations": "Don't love something? Swap it, no questions asked",
@@ -165,7 +165,7 @@
   },
   "onboarding": {
     "title": "Let's set up your meal plan",
-    "subtitle": "Takes about 2 minutes. Get a free 3-day meal plan.",
+    "subtitle": "Takes about 2 minutes. Get your personalized weekly meal plan.",
     "steps": {
       "household": "Household",
       "budget": "Budget",
@@ -173,7 +173,7 @@
       "preferences": "Preferences",
       "delivery": "Delivery"
     },
-    "generate": "Generate My Free Plan",
+    "generate": "Generate My Plan",
     "loadingTime": "This takes about 15-30 seconds ({elapsed}s)",
     "loadingPrefs": "Loading your preferences...",
     "cooking": {

@@ -35,6 +35,22 @@ function SignUpForm() {
   const [googleLoading, setGoogleLoading] = useState(false);
   const [checkEmail, setCheckEmail] = useState(false);
 
+  // Pre-fill email from onboarding preferences if coming from preview flow
+  useEffect(() => {
+    const emailParam = searchParams.get("email");
+    if (emailParam) {
+      setEmail(emailParam);
+      return;
+    }
+    try {
+      const raw = localStorage.getItem("wfd_preferences");
+      if (raw) {
+        const prefs = JSON.parse(raw);
+        if (prefs.delivery_email) setEmail(prefs.delivery_email);
+      }
+    } catch { /* ignore */ }
+  }, [searchParams]);
+
   // Store promo code in localStorage so it survives auth redirects
   useEffect(() => {
     if (promoCode) {
@@ -71,7 +87,9 @@ function SignUpForm() {
       // Promo users skip checkout — redirect to onboarding after auth
       const callbackUrl = hasPromo
         ? `${appUrl}/callback?redirect=/onboarding`
-        : `${appUrl}/callback?plan=${plan}`;
+        : redirectParam
+          ? `${appUrl}/callback?redirect=${encodeURIComponent(redirectParam)}`
+          : `${appUrl}/callback?plan=${plan}`;
 
       const { error: oauthError } = await supabase.auth.signInWithOAuth({
         provider: "google",
@@ -112,7 +130,9 @@ function SignUpForm() {
 
       const emailRedirectUrl = hasPromo
         ? `${appUrl}/callback?redirect=/onboarding`
-        : `${appUrl}/callback?plan=${plan}`;
+        : redirectParam
+          ? `${appUrl}/callback?redirect=${encodeURIComponent(redirectParam)}`
+          : `${appUrl}/callback?plan=${plan}`;
 
       const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email,

@@ -10,15 +10,15 @@ const homepageJsonLd = [
         name: "How does What's For Dinner work?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Tell us what you eat, what you avoid, and your budget. In 30 seconds, you get a 3-day meal plan with recipes and a grocery list. Free, no credit card. If it clicks, subscribe and we send you a full week, every week.",
+          text: "Tell us what you eat, what you avoid, and your budget. In under 2 minutes, you get a personalized 7-day meal plan with full recipes and a grocery list, delivered to your inbox every week.",
         },
       },
       {
         "@type": "Question",
-        name: "Is the free meal plan really free?",
+        name: "How much does What's For Dinner cost?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Completely. No credit card, no trial that auto-charges. You get a real 3-day plan with real recipes and a real grocery list. We think once you try it, you won't want to go back to winging it.",
+          text: "Plans start at $7.99/month or $59.99/year (about $5/month). You get a personalized 7-day meal plan with full recipes and a grocery list, delivered every week. Cancel anytime in one click.",
         },
       },
       {

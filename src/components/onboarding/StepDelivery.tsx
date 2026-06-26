@@ -79,7 +79,7 @@ export function StepDelivery({ data, onChange, isAuthenticated = false }: StepPr
         <p className="text-stone-500 text-xs sm:text-sm">
           {isAuthenticated
             ? t("onboarding.delivery.subtitle")
-            : "We\u2019ll send your 3-day meal plan with recipes and a grocery list."}
+            : "Create your free account and get a personalized weekly plan with recipes and a grocery list."}
         </p>
       </div>
 

@@ -91,12 +91,7 @@ function OnboardingContent() {
   useEffect(() => {
     const supabase = createClient();
     supabase.auth.getUser().then(async ({ data: { user } }) => {
-      // Anonymous user who already used their free plan — show banner but let them browse
-      // Skip block if they have a promo code (they're redeeming a gift)
       const hasPromoCode = !!localStorage.getItem("wfd_promo_code");
-      if (!user && !isEdit && !hasPromoCode && localStorage.getItem("wfd_free_used") === "1") {
-        setBlocked(true);
-      }
       if (!user) return;
       setIsAuthenticated(true);
       // Pre-fill email from auth
@@ -232,13 +227,6 @@ function OnboardingContent() {
         return;
       }
 
-      // If there's already a cached plan, go straight to preview
-      const cached = localStorage.getItem("wfd_free_plan");
-      if (cached) {
-        router.push("/preview");
-        return;
-      }
-
       // Save profile (required for authenticated plan generation)
       if (isAuthenticated) {
         const profileRes = await fetch("/api/profile", {
@@ -302,53 +290,8 @@ function OnboardingContent() {
         return;
       }
 
-      // Anonymous: check device-level block
-      if (localStorage.getItem("wfd_free_used") === "1") {
-        setBlocked(true);
-        throw new Error("block");
-      }
-
-      // Generate the free 1-day plan (anonymous only)
-      const fingerprint = await generateFingerprint();
-
-      const submitData = {
-        ...data,
-        servings_per_meal: data.household_size,
-        _fingerprint: fingerprint,
-        _t: startedAtRef.current,
-        _email: "",
-      };
-
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 120_000);
-
-      const res = await fetch("/api/generate-free-plan", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(submitData),
-        signal: controller.signal,
-      });
-
-      clearTimeout(timeout);
-
-      if (!res.ok) {
-        const errData = await res.json();
-        if (res.status === 403 || res.status === 429) {
-          localStorage.setItem("wfd_free_used", "1");
-          setBlocked(true);
-          throw new Error("block");
-        }
-        throw new Error(errData.error || "Failed to generate plan");
-      }
-
-      const { plan, weekOf } = await res.json();
-
-      localStorage.setItem("wfd_free_used", "1");
-      localStorage.setItem(
-        "wfd_free_plan",
-        JSON.stringify({ plan, weekOf, generatedAt: Date.now() })
-      );
-
+      // Anonymous: save preferences and go to preview
+      localStorage.setItem("wfd_preferences", JSON.stringify(data));
       router.push("/preview");
     } catch (err) {
       if (err instanceof Error && err.message === "block") {
@@ -524,114 +467,7 @@ function OnboardingContent() {
                   </Button>
                 </div>
               </>
-            ) : (
-              <>
-                <div className="space-y-4">
-                  {/* Friendly headline — not a wall */}
-                  <div className="flex items-center justify-center gap-2">
-                    <span className="text-2xl">🎉</span>
-                    <h3 className="text-sm font-bold text-stone-800">
-                      You liked your free plan!
-                    </h3>
-                  </div>
-                  <p className="text-xs text-stone-500 max-w-sm mx-auto">
-                    Your 3-day plan showed you how it works. Upgrade to get a full 7-day plan with recipes and a grocery list every week.
-                  </p>
-
-                  {/* What you get — quick visual */}
-                  <div className="grid grid-cols-2 gap-2 max-w-xs mx-auto text-left">
-                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
-                      7-day plans
-                    </div>
-                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
-                      Full recipes
-                    </div>
-                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
-                      Grocery list
-                    </div>
-                    <div className="flex items-center gap-1.5 text-xs text-stone-600">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500 shrink-0"><polyline points="20 6 9 17 4 12" /></svg>
-                      Every Sunday
-                    </div>
-                  </div>
-
-                  {/* Price comparison */}
-                  <div className="bg-white rounded-xl border border-stone-100 p-3 max-w-xs mx-auto">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs font-medium text-stone-500">DoorDash tonight</span>
-                      <span className="text-xs font-bold text-red-500 line-through">~$25</span>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-medium text-stone-500">Full week of meals</span>
-                      <span className="text-xs font-bold text-green-600">$7.99/mo</span>
-                    </div>
-                  </div>
-
-                  {/* CTA buttons */}
-                  <div className="flex flex-col gap-2 max-w-xs mx-auto">
-                    <Button
-                      size="sm"
-                      loading={subscribing}
-                      onClick={async () => {
-                        setSubscribing(true);
-                        try {
-                          const res = await fetch("/api/lemonsqueezy/checkout", {
-                            method: "POST",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify({ plan: "yearly" }),
-                          });
-                          const d = await res.json();
-                          if (d.url) { window.location.href = d.url; return; }
-                        } catch {}
-                        setSubscribing(false);
-                      }}
-                    >
-                      Start for $5/mo (yearly, save 37%)
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      loading={subscribing}
-                      onClick={async () => {
-                        setSubscribing(true);
-                        try {
-                          const res = await fetch("/api/lemonsqueezy/checkout", {
-                            method: "POST",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify({ plan: "monthly" }),
-                          });
-                          const d = await res.json();
-                          if (d.url) { window.location.href = d.url; return; }
-                        } catch {}
-                        setSubscribing(false);
-                      }}
-                    >
-                      Or $7.99/mo monthly
-                    </Button>
-                  </div>
-
-                  {/* View existing plan link */}
-                  <div className="flex flex-col items-center gap-1">
-                    <Link href="/preview" className="text-xs text-orange-500 hover:text-orange-600 font-medium">
-                      View your free plan &rarr;
-                    </Link>
-                    <p className="text-[10px] text-stone-400">
-                      <Link href="/login" className="text-orange-500 hover:text-orange-600 font-medium">
-                        Sign in
-                      </Link>
-                      {" "}or{" "}
-                      <Link href="/signup" className="text-orange-500 hover:text-orange-600 font-medium">
-                        sign up
-                      </Link>
-                      {" "}to manage your account
-                    </p>
-                  </div>
-                </div>
-              </>
-            )}
+            ) : null}
           </div>
         )}
 
@@ -655,49 +491,26 @@ function OnboardingContent() {
               </Button>
             )}
           </div>
-          {blocked && isLastStep ? (
-            <Button
-              variant="primary"
-              size="lg"
-              loading={subscribing}
-              onClick={async () => {
-                setSubscribing(true);
-                try {
-                  const res = await fetch("/api/lemonsqueezy/checkout", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ plan: "monthly" }),
-                  });
-                  const d = await res.json();
-                  if (d.url) { window.location.href = d.url; return; }
-                } catch {}
-                setSubscribing(false);
-              }}
-            >
-              Subscribe — $7.99/mo
-            </Button>
-          ) : (
-            <Button
-              variant="primary"
-              size="lg"
-              onClick={handleNext}
-              loading={loading}
-              disabled={blocked && isLastStep}
-              className="transition-all duration-500 ease-in-out"
-              style={{ minWidth: loading ? 260 : undefined }}
-            >
-              {isLastStep
-                ? loading
-                  ? <span className="inline-flex items-center gap-0">
-                    {cookingMessage}
-                    <span className="animated-dots ml-0.5">
-                      <span>.</span><span>.</span><span>.</span>
-                    </span>
+          <Button
+            variant="primary"
+            size="lg"
+            onClick={handleNext}
+            loading={loading}
+            disabled={blocked && !isAuthenticated}
+            className="transition-all duration-500 ease-in-out"
+            style={{ minWidth: loading ? 260 : undefined }}
+          >
+            {isLastStep
+              ? loading
+                ? <span className="inline-flex items-center gap-0">
+                  {cookingMessage}
+                  <span className="animated-dots ml-0.5">
+                    <span>.</span><span>.</span><span>.</span>
                   </span>
-                  : isEdit ? t("common.save") : t("onboarding.generate")
-                : t("common.next")}
-            </Button>
-          )}
+                </span>
+                : isEdit ? t("common.save") : isAuthenticated ? t("onboarding.generate") : "Create Account & Get My Plan"
+              : t("common.next")}
+          </Button>
         </div>
 
         {/* Loading status */}
