@@ -22,22 +22,6 @@ function Check({ className = "text-green-500" }: { className?: string }) {
   );
 }
 
-function Dash() {
-  return (
-    <svg
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2.5"
-      strokeLinecap="round"
-      className="shrink-0 text-stone-300"
-    >
-      <line x1="5" y1="12" x2="19" y2="12" />
-    </svg>
-  );
-}
 
 const features = [
   "7-day personalized meal plans",
@@ -48,16 +32,6 @@ const features = [
   "Cancel anytime",
 ];
 
-const comparisonRows = [
-  { feature: "Meal plan days", free: "3 days", paid: "7 days" },
-  { feature: "Recipes included", free: true, paid: true },
-  { feature: "Grocery list", free: true, paid: true },
-  { feature: "Saved to account", free: false, paid: true },
-  { feature: "New plan every week", free: false, paid: true },
-  { feature: "Swap individual meals", free: false, paid: true },
-  { feature: "Email delivery", free: false, paid: true },
-  { feature: "Personalized to you", free: true, paid: true },
-];
 
 const faqs = [
   {
@@ -103,7 +77,7 @@ export default function PricingPage() {
           href="/onboarding"
           className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
         >
-          Get Your Free Meal Plan
+          Build My Meal Plan
         </Link>
       </nav>
 
@@ -154,10 +128,10 @@ export default function PricingPage() {
               Subscribe Now — $7.99/mo
             </Link>
             <Link
-              href="/onboarding"
+              href="/preview"
               className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
             >
-              Try a Free 3-Day Plan
+              See an Example Plan
             </Link>
           </div>
 
@@ -204,83 +178,11 @@ export default function PricingPage() {
               Subscribe Now — $5/mo
             </Link>
             <Link
-              href="/onboarding"
+              href="/preview"
               className="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-stone-700 bg-white border border-stone-200 hover:border-orange-300 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
             >
-              Try a Free 3-Day Plan
+              See an Example Plan
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Comparison Table */}
-      <section className="border-t border-stone-100 bg-white py-16 sm:py-24">
-        <div className="max-w-3xl mx-auto px-6">
-          <h2 className="text-2xl sm:text-3xl font-bold text-stone-900 text-center tracking-tight">
-            Free vs. Paid
-          </h2>
-          <p className="mt-3 text-stone-500 text-center text-sm sm:text-base max-w-md mx-auto">
-            Try the free plan first. Upgrade when you&apos;re ready for the full experience.
-          </p>
-
-          <div className="mt-10 overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-stone-200">
-                  <th className="text-left py-3 pr-4 font-semibold text-stone-700">
-                    Feature
-                  </th>
-                  <th className="text-center py-3 px-4 font-semibold text-stone-700 w-28">
-                    Free
-                  </th>
-                  <th className="text-center py-3 pl-4 font-semibold text-orange-600 w-28">
-                    Paid
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparisonRows.map((row) => (
-                  <tr
-                    key={row.feature}
-                    className="border-b border-stone-100 last:border-0"
-                  >
-                    <td className="py-3 pr-4 text-stone-600">{row.feature}</td>
-                    <td className="py-3 px-4 text-center">
-                      {typeof row.free === "boolean" ? (
-                        row.free ? (
-                          <span className="inline-flex justify-center">
-                            <Check className="text-green-500" />
-                          </span>
-                        ) : (
-                          <span className="inline-flex justify-center">
-                            <Dash />
-                          </span>
-                        )
-                      ) : (
-                        <span className="text-stone-500">{row.free}</span>
-                      )}
-                    </td>
-                    <td className="py-3 pl-4 text-center">
-                      {typeof row.paid === "boolean" ? (
-                        row.paid ? (
-                          <span className="inline-flex justify-center">
-                            <Check className="text-green-500" />
-                          </span>
-                        ) : (
-                          <span className="inline-flex justify-center">
-                            <Dash />
-                          </span>
-                        )
-                      ) : (
-                        <span className="font-medium text-stone-700">
-                          {row.paid}
-                        </span>
-                      )}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
           </div>
         </div>
       </section>
@@ -335,16 +237,16 @@ export default function PricingPage() {
       <section className="bg-orange-500 py-16 sm:py-20">
         <div className="max-w-2xl mx-auto px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            Your first plan is free
+            Ready to stop thinking about dinner?
           </h2>
           <p className="mt-3 text-orange-100 text-sm sm:text-base max-w-md mx-auto">
-            Takes 2 minutes to set up. Your first plan generates the moment you subscribe.
+            Takes 2 minutes to set up. Your plan generates the moment you subscribe.
           </p>
           <Link
             href="/onboarding"
             className="mt-8 inline-flex items-center px-8 py-3.5 text-base font-semibold text-orange-600 bg-white hover:bg-orange-50 rounded-full shadow-lg transition-all duration-200"
           >
-            Start Your Free Plan
+            Build My Meal Plan
           </Link>
         </div>
       </section>
