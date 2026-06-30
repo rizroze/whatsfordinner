@@ -175,9 +175,9 @@ export default function PreviewPage() {
             </div>
           </div>
 
-          {/* Overlay CTA */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="bg-white/95 backdrop-blur-md rounded-2xl border border-orange-100 shadow-xl p-6 sm:p-8 mx-4 text-center max-w-sm w-full">
+          {/* Overlay CTA — pinned near top of locked section, follows viewport */}
+          <div className="absolute inset-0 flex justify-center pointer-events-none">
+            <div className="sticky top-24 self-start mt-6 pointer-events-auto bg-white/95 backdrop-blur-md rounded-2xl border border-orange-100 shadow-xl p-6 sm:p-8 mx-4 text-center max-w-sm w-full">
               <div className="w-10 h-10 bg-orange-50 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-orange-500">
                   <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
