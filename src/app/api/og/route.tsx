@@ -17,6 +17,8 @@ export async function GET(req: Request) {
   const interRegular = await readFile(
     join(process.cwd(), "public", "Inter-Regular.woff"),
   );
+  const iconData = await readFile(join(process.cwd(), "public", "favicon.png"));
+  const iconSrc = `data:image/png;base64,${iconData.toString("base64")}`;
 
   return new ImageResponse(
     (
@@ -109,20 +111,12 @@ export async function GET(req: Request) {
               gap: 12,
             }}
           >
-            <div
-              style={{
-                width: 40,
-                height: 40,
-                borderRadius: "50%",
-                backgroundColor: "#F97316",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 20,
-              }}
-            >
-              🍽️
-            </div>
+            <img
+              src={iconSrc}
+              width={40}
+              height={40}
+              style={{ borderRadius: 9, display: "flex" }}
+            />
             <span
               style={{
                 fontSize: 18,

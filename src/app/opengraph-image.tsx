@@ -8,6 +8,8 @@ export default async function OGImage() {
   const { readFile } = await import("node:fs/promises");
   const { join } = await import("node:path");
   const interExtraBold = await readFile(join(process.cwd(), "public", "Inter-ExtraBold.woff"));
+  const iconData = await readFile(join(process.cwd(), "public", "favicon.png"));
+  const iconSrc = `data:image/png;base64,${iconData.toString("base64")}`;
 
   return new ImageResponse(
     (
@@ -48,11 +50,12 @@ export default async function OGImage() {
             gap: 14,
           }}
         >
-          <div style={{
-            fontSize: 36,
-            display: "flex",
-            filter: "brightness(0) saturate(100%) invert(47%) sepia(89%) saturate(2092%) hue-rotate(11deg) brightness(100%) contrast(97%)",
-          }}>🍴</div>
+          <img
+            src={iconSrc}
+            width={38}
+            height={38}
+            style={{ borderRadius: 9, display: "flex" }}
+          />
           <span
             style={{
               fontSize: 22,
