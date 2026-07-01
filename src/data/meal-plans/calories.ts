@@ -6,7 +6,7 @@ export const caloriePages: MealPlanPageData[] = [
     type: "calorie",
     title: "1200 Calorie Meal Plan with Recipes & Grocery List",
     metaDescription:
-      "Free 1200 calorie meal plan with recipes and grocery list. AI-personalized, filling meals with smart portions. No starvation, no guesswork. Try free.",
+      "Personalized 1200 calorie meal plan with recipes and grocery list. AI-personalized, filling meals with smart portions. No starvation, no guesswork. Free preview.",
     h1: "A 1200 Calorie Meal Plan That Actually Keeps You Full",
     intro:
       "A 1,200-calorie meal plan works best for petite women (under 5'4\"), sedentary adults, and people with slower metabolisms who need a moderate deficit to see results. Eating this few calories doesn't have to mean tiny portions or bland food. The trick is choosing high-volume, nutrient-dense ingredients: leafy greens, lean proteins, cruciferous vegetables, eggs, berries, and healthy fats that fill your plate and keep you satisfied for hours. A typical day on this plan looks like a veggie-packed egg white omelette for breakfast (220 cal), a big chicken lettuce wrap for lunch (310 cal), baked cod with roasted vegetables for dinner (320 cal), and a high-protein snack like cottage cheese bites (90 cal), with room left for a second snack or a larger portion at one meal. We build you a fresh 1,200-calorie plan each week with recipes and a grocery list so every calorie counts, nothing goes to waste, and you never feel like you're white-knuckling through a diet.",
@@ -356,7 +356,7 @@ export const caloriePages: MealPlanPageData[] = [
       {
         question: "Simple 1500 calorie meal plan for beginners: where do I start?",
         answer:
-          "Start by telling us your dietary preferences, household size, and any allergies. Our AI generates a complete 1,500-calorie meal plan with every recipe written step-by-step for beginners, no advanced cooking skills needed. Most recipes use 5-8 common grocery store ingredients and take under 20 minutes. You also get a pre-built grocery list so your first shopping trip is fast and focused. The free 3-day plan is the easiest way to try it: you will get breakfast, lunch, dinner, and a snack for three days with a single grocery list covering everything. No calorie counting, no food scale, no macro tracking. Just follow the recipes and the portions are already dialed in to 1,500 calories.",
+          "Start by telling us your dietary preferences, household size, and any allergies. Our AI generates a complete 1,500-calorie meal plan with every recipe written step-by-step for beginners, no advanced cooking skills needed. Most recipes use 5-8 common grocery store ingredients and take under 20 minutes. You also get a pre-built grocery list so your first shopping trip is fast and focused. The free preview is the easiest way to try it: answer a few quick questions and instantly see a personalized day of meals, then unlock the full week with a single grocery list covering everything. No calorie counting, no food scale, no macro tracking. Just follow the recipes and the portions are already dialed in to 1,500 calories.",
       },
     ],
     relatedSlugs: [
@@ -571,7 +571,7 @@ export const caloriePages: MealPlanPageData[] = [
     type: "calorie",
     title: "2500 Calorie Meal Plan",
     metaDescription:
-      "Get a weekly 2500 calorie meal plan built for active men, athletes, and lean bulking. High protein, balanced macros, planned automatically. Try free.",
+      "Get a weekly 2500 calorie meal plan built for active men, athletes, and lean bulking. High protein, balanced macros, planned automatically. Free preview.",
     h1: "A 2500 Calorie Meal Plan Built for Performance",
     intro:
       "If you're training hard, building muscle, or just have an active job that burns through fuel, 2,000 calories isn't going to cut it. A 2,500-calorie plan gives you the energy to perform, the protein to recover, and the carbs to keep glycogen topped off — all from real food, not shakes and bars. We plan your week with hearty meals that support your goals without resorting to junk.",
@@ -773,5 +773,101 @@ export const caloriePages: MealPlanPageData[] = [
     ],
     datePublished: "2026-03-07",
     dateModified: "2026-05-13",
+  },
+  {
+    slug: "1200-calorie-meal-plan-for-women",
+    type: "calorie",
+    title: "1200 Calorie Meal Plan for Women — Recipes & Grocery List",
+    metaDescription:
+      "Personalized 1200 calorie meal plan for women with recipes and a grocery list. Filling, nutrient-dense meals built around iron, calcium, and protein. Free preview.",
+    h1: "A 1200 Calorie Meal Plan Built for Women",
+    intro:
+      "Most 1,200-calorie plans are just smaller portions of generic food — and that's why they fail. Women cutting to 1,200 calories have specific nutritional stakes: iron (especially with menstruation), calcium and vitamin D for bone density, enough protein to protect lean muscle during a deficit, and fiber to actually stay full. Our plans are built around those priorities, not around eating less of everything. Expect high-volume, nutrient-dense meals: Greek yogurt bowls with berries, big salads with grilled chicken and chickpeas, salmon with roasted vegetables, and snacks with real protein. A moderate deficit you can sustain beats an aggressive one you abandon by Thursday.",
+    valueProps: [
+      {
+        heading: "Nutrients women actually need in a deficit",
+        description:
+          "Every week hits iron-rich foods (lentils, spinach, lean beef), calcium sources (yogurt, fortified milks, leafy greens), and 80-100g of daily protein to preserve muscle while you lose fat. A 1,200-calorie plan only works if those bases are covered — otherwise you're just hungry and tired.",
+      },
+      {
+        heading: "Volume eating, not portion shrinking",
+        description:
+          "We fill your plate with high-volume, low-calorie ingredients — cruciferous vegetables, leafy greens, berries, broth-based soups — so meals look and feel normal. You should finish dinner satisfied, not counting hours to your next snack.",
+      },
+      {
+        heading: "Personalized to your life, not a template",
+        description:
+          "Tell us your dietary restrictions, allergies, cooking time, and household size. The plan adapts — including cooking for a family while you stay at 1,200, with shared meals portioned differently for you.",
+      },
+    ],
+    sampleMeals: [
+      {
+        name: "Greek Yogurt Bowl with Berries & Almonds",
+        mealType: "breakfast",
+        description:
+          "Nonfat Greek yogurt with strawberries, blueberries, a tablespoon of sliced almonds, and cinnamon. About 280 calories with 20g+ protein and a solid calcium hit to start the day.",
+        prepTime: "5 min",
+        tags: ["high-protein", "no-cook", "calcium-rich"],
+      },
+      {
+        name: "Chicken & Chickpea Power Salad",
+        mealType: "lunch",
+        description:
+          "Grilled chicken breast over mixed greens with chickpeas, cucumber, cherry tomatoes, red onion, and a lemon-olive oil dressing. Around 340 calories, high fiber, and iron from the chickpeas and greens.",
+        prepTime: "15 min",
+        tags: ["high-protein", "iron-rich", "meal-prep"],
+      },
+      {
+        name: "Baked Salmon with Roasted Broccoli & Sweet Potato",
+        mealType: "dinner",
+        description:
+          "A palm-sized salmon fillet with a big tray of roasted broccoli and half a sweet potato. About 400 calories with omega-3s, vitamin D, and enough volume to feel like a real dinner.",
+        prepTime: "25 min",
+        tags: ["omega-3", "one-pan", "gluten-free"],
+      },
+      {
+        name: "Cottage Cheese with Cucumber & Everything Seasoning",
+        mealType: "snack",
+        description:
+          "Half a cup of low-fat cottage cheese with cucumber slices and everything bagel seasoning. Roughly 110 calories and 12g of protein — the snack that actually holds you until dinner.",
+        prepTime: "3 min",
+        tags: ["high-protein", "no-cook", "quick"],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is 1,200 calories safe for women?",
+        answer:
+          "It depends on your size and activity level. For petite, sedentary women, 1,200 calories can be an appropriate moderate deficit. For taller or active women it's usually too low — you'd likely do better at 1,400-1,600. As a rule, 1,200 is considered the floor for meeting micronutrient needs, which is why our plans prioritize nutrient density so hard. If you have a history of disordered eating, are pregnant or breastfeeding, or have a medical condition, talk to your doctor before starting any calorie-restricted plan.",
+      },
+      {
+        question: "How much protein should women eat on 1,200 calories?",
+        answer:
+          "Aim for 80-100g daily — that's 27-33% of your calories. Protein protects lean muscle during a deficit, keeps you fuller between meals, and has a higher thermic effect than carbs or fat. Our 1,200-calorie plans hit this range using lean poultry, fish, Greek yogurt, cottage cheese, eggs, tofu, and legumes spread across all meals and snacks.",
+      },
+      {
+        question: "Why am I not losing weight on 1,200 calories?",
+        answer:
+          "The most common causes: untracked extras (oils, dressings, bites while cooking) pushing real intake higher, water retention masking fat loss on the scale (especially around your cycle), or a metabolism adapted to prolonged dieting. Give any plan 3-4 weeks and judge by trend, not by daily weigh-ins. If nothing moves after a month of consistent tracking, it's worth checking with a doctor.",
+      },
+      {
+        question: "Can I follow a 1,200-calorie plan while cooking for my family?",
+        answer:
+          "Yes — this is exactly what personalization is for. Tell us your household size and the plan builds shared dinners where your portion is calibrated to your calories and everyone else eats normal servings. No cooking two separate meals, no eating plain chicken while the family has pasta.",
+      },
+      {
+        question: "What does a typical 1,200-calorie day look like?",
+        answer:
+          "Roughly: a 280-calorie breakfast, 340-calorie lunch, 400-calorie dinner, and one or two snacks totaling 150-200 calories. We weight dinner slightly larger because that's when most people struggle with hunger. You can also tell the plan to skip snacks and put those calories into bigger meals.",
+      },
+    ],
+    relatedSlugs: [
+      "1200-calorie-meal-plan",
+      "1500-calorie-meal-plan",
+      "meal-plan-for-weight-loss",
+      "high-protein-meal-plan",
+    ],
+    datePublished: "2026-07-02",
+    dateModified: "2026-07-02",
   },
 ];

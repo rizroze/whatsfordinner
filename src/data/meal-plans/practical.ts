@@ -6,7 +6,7 @@ export const practicalPages: MealPlanPageData[] = [
     type: "practical",
     title: "Meal Prep Meal Plan — Weekly Batch Cooking Made Easy",
     metaDescription:
-      "Get a personalized weekly meal prep plan with batch cooking instructions, container portions, and a grocery list. Prep Sunday, eat all week. Try free.",
+      "Get a personalized weekly meal prep plan with batch cooking instructions, container portions, and a grocery list. Prep Sunday, eat all week. Free preview.",
     h1: "Meal Prep Meal Plan — Cook Once, Eat All Week",
     intro:
       "Sunday afternoon, two hours, done for the week. A good meal prep plan isn't about eating the same sad chicken and rice five days straight — it's about cooking smart so your weeknight self just reheats and eats. We design plans where ingredients overlap, proteins batch-cook together, and everything stores beautifully in containers for 4-5 days.",
@@ -105,7 +105,7 @@ export const practicalPages: MealPlanPageData[] = [
     type: "practical",
     title: "Slow Cooker Meal Plan — Dump, Set, Forget",
     metaDescription:
-      "Get a personalized weekly slow cooker meal plan with crockpot recipes, prep guides, and a grocery list. Dump it in the morning, dinner's ready by evening. Try free.",
+      "Get a personalized weekly slow cooker meal plan with crockpot recipes, prep guides, and a grocery list. Dump it in the morning, dinner's ready by evening. Free preview.",
     h1: "Slow Cooker Meal Plan — Dump It In, Walk Away, Eat Well",
     intro:
       "The slow cooker is the most underrated kitchen appliance. Toss everything in before work, come home to a house that smells incredible, and serve dinner in five minutes. Our slow cooker plans are built for real crockpot cooking — long braises, dump-and-go soups, and fall-apart proteins that actually benefit from 6-8 hours of low heat.",
@@ -199,7 +199,7 @@ export const practicalPages: MealPlanPageData[] = [
     type: "practical",
     title: "Air Fryer Meal Plan — Crispy Meals, Less Oil",
     metaDescription:
-      "Get a personalized weekly air fryer meal plan with crispy, quick recipes and a grocery list. Faster than your oven, healthier than deep frying. Try free.",
+      "Get a personalized weekly air fryer meal plan with crispy, quick recipes and a grocery list. Faster than your oven, healthier than deep frying. Free preview.",
     h1: "Air Fryer Meal Plan — Crispy Everything, Zero Guilt",
     intro:
       "If your air fryer only makes frozen fries, you're using 10% of its potential. It roasts vegetables in half the time, crisps chicken skin perfectly, and reheats leftovers better than any microwave. Our air fryer plans are built around what the appliance actually excels at — fast, crispy, less-oil cooking that makes weeknight dinners genuinely easy.",
@@ -298,7 +298,7 @@ export const practicalPages: MealPlanPageData[] = [
     type: "practical",
     title: "One-Pot Meal Plan — Minimal Cooking, Minimal Cleanup",
     metaDescription:
-      "Get a personalized weekly one-pot meal plan with easy recipes and a grocery list. One pot, one pan, one dish to wash. Delicious dinners, minimal cleanup. Try free.",
+      "Get a personalized weekly one-pot meal plan with easy recipes and a grocery list. One pot, one pan, one dish to wash. Delicious dinners, minimal cleanup. Free preview.",
     h1: "One-Pot Meal Plan — Dinner's Ready, Dishes Aren't",
     intro:
       "The best part of a one-pot meal isn't the food — it's the empty sink afterward. When everything cooks together in a single pot or pan, flavors meld, cleanup takes two minutes, and you spend your evening doing literally anything other than scrubbing dishes. Our plans are built around true one-vessel cooking where the pot IS the method.",
@@ -392,7 +392,7 @@ export const practicalPages: MealPlanPageData[] = [
     type: "practical",
     title: "No-Cook Meal Plan — Fresh Meals, No Stove Required",
     metaDescription:
-      "Get a personalized weekly no-cook meal plan with fresh recipes and a grocery list. No stove, no oven, no microwave needed. Perfect for summer, dorms, and offices. Try free.",
+      "Get a personalized weekly no-cook meal plan with fresh recipes and a grocery list. No stove, no oven, no microwave needed. Perfect for summer, dorms, and offices. Free preview.",
     h1: "No-Cook Meal Plan — Delicious Meals Without Turning On the Stove",
     intro:
       "No stove, no oven, no problem. Whether your kitchen is a dorm mini-fridge, your apartment has no AC in August, or you simply hate cooking — a no-cook meal plan proves you can eat well with nothing more than a knife, a bowl, and a fridge. These aren't just salads. Think wraps, overnight oats, grain bowls with pre-cooked grains, ceviche, and assembling meals that taste intentional, not lazy.",
@@ -489,10 +489,10 @@ export const practicalPages: MealPlanPageData[] = [
   {
     slug: "under-50-dollar-meal-plan",
     type: "practical",
-    title: "Under $50/Week Meal Plan — Cheap, Nutritious, Never Boring",
+    title: "Under $50/Week Meal Plan — Family & Solo Budget Menus",
     metaDescription:
-      "Get a personalized weekly meal plan under $50 in groceries with recipes and a grocery list. Budget-friendly meals that are actually nutritious and delicious. Try free.",
-    h1: "Under $50/Week Meal Plan — Eat Well Without Breaking the Bank",
+      "Get a personalized weekly meal plan under $50 in groceries — for one person or a whole family. Recipes and grocery list included. Free preview.",
+    h1: "Under $50/Week Meal Plan — Feed Yourself or Your Family for Less",
     intro:
       "Fifty dollars, seven days, three meals a day. It's tight but absolutely doable — and not just rice and beans on repeat. The trick is strategic ingredient use: a whole chicken becomes roast dinner, then chicken salad, then soup stock. Beans and lentils stretch everything. Seasonal produce keeps costs down. We build plans where every dollar works double duty and nothing goes to waste.",
     valueProps: [
@@ -561,6 +561,11 @@ export const practicalPages: MealPlanPageData[] = [
           "Yes, for 1-2 people. Our plans are designed for one person at roughly $45-50/week or two people sharing meals at $50-60/week. The key is building meals around affordable staples — rice, beans, eggs, frozen vegetables, chicken thighs and drumsticks, canned goods — and avoiding processed convenience foods that eat up budget fast.",
       },
       {
+        question: "Can I feed a family of 4 for under $50 a week?",
+        answer:
+          "It's tight but possible with strategic planning — think $50-75/week for a family of four depending on your area. The same principles scale up: whole chickens instead of parts, dried beans instead of canned, oats and eggs for breakfasts, and big-batch dinners that become tomorrow's lunch. Tell us your household size and budget and the plan adjusts portions and picks recipes that stretch — casseroles, soups, and one-pot meals that feed four for the price of two takeout coffees.",
+      },
+      {
         question: "Do I need a fully stocked pantry to start?",
         answer:
           "We assume you have cooking oil, salt, pepper, and a few basic spices (garlic powder, cumin, paprika). If you're starting from absolute zero, the first week might run $10-15 over budget for pantry staples, but those last months. After that, the weekly grocery runs stay under $50.",
@@ -581,8 +586,8 @@ export const practicalPages: MealPlanPageData[] = [
           "Spices and sauces do the heavy lifting. The same chicken and rice base becomes Mexican with cumin and salsa, Asian with soy sauce and ginger, or Mediterranean with lemon and oregano. We also vary cooking methods — same ingredients roasted, stir-fried, or in soup taste completely different.",
       },
     ],
-    relatedSlugs: ["meal-plan-on-a-budget", "meal-plan-for-college-students", "meal-plan-for-one"],
+    relatedSlugs: ["meal-plan-on-a-budget", "meal-plan-for-family-of-4", "meal-plan-for-one"],
     datePublished: "2026-03-11",
-    dateModified: "2026-05-13",
+    dateModified: "2026-07-02",
   },
 ];
