@@ -4,34 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { DayCard } from "@/components/plan/DayCard";
-import { MOCK_PLAN } from "@/lib/mock-plan";
-
-const BLURRED_DAYS = [
-  {
-    day: "Tuesday",
-    meals: ["Avocado Toast with Poached Eggs", "Quinoa Buddha Bowl", "Baked Salmon with Asparagus"],
-  },
-  {
-    day: "Wednesday",
-    meals: ["Overnight Oats with Banana", "Turkey & Veggie Wrap", "One-Pan Lemon Chicken Thighs"],
-  },
-  {
-    day: "Thursday",
-    meals: ["Smoothie Bowl with Chia Seeds", "Lentil Soup with Crusty Bread", "Shrimp Stir-Fry with Rice"],
-  },
-  {
-    day: "Friday",
-    meals: ["Scrambled Eggs with Whole Grain Toast", "Caprese Salad with Grilled Chicken", "Homemade Beef Tacos"],
-  },
-  {
-    day: "Saturday",
-    meals: ["Banana Pancakes", "Tomato Basil Pasta", "Herb-Crusted Pork Tenderloin"],
-  },
-  {
-    day: "Sunday",
-    meals: ["French Toast with Maple Syrup", "Chicken Caesar Salad", "Slow-Cooked Beef Stew"],
-  },
-];
+import type { PreviewPlanResult } from "@/lib/preview-plan";
 
 const MEAL_TYPE_LABELS: Record<string, string> = {
   breakfast: "Breakfast",
@@ -43,16 +16,30 @@ const MEAL_TYPE_LABELS: Record<string, string> = {
 export default function PreviewPage() {
   const router = useRouter();
   const [prefs, setPrefs] = useState<Record<string, unknown> | null>(null);
+  const [plan, setPlan] = useState<PreviewPlanResult | null>(null);
 
   useEffect(() => {
-    const raw = localStorage.getItem("wfd_preferences");
-    if (raw) {
-      try {
-        setPrefs(JSON.parse(raw));
-      } catch {
-        // ignore
-      }
+    let stored: Record<string, unknown> = {};
+    try {
+      const raw = localStorage.getItem("wfd_preferences");
+      if (raw) stored = JSON.parse(raw);
+    } catch {
+      // ignore
     }
+    fetch("/api/preview-plan", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(stored),
+    })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        setPrefs(stored);
+        if (data) setPlan(data);
+      })
+      .catch(() => {
+        // leave skeleton; CTA still works
+        setPrefs(stored);
+      });
   }, []);
 
   function handleCTA() {
@@ -75,8 +62,6 @@ export default function PreviewPage() {
   const personalizationLabel = personalizationBits.length
     ? personalizationBits.join(" · ")
     : null;
-
-  const monday = MOCK_PLAN.days[0];
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
@@ -121,7 +106,18 @@ export default function PreviewPage() {
             <span className="text-xs font-semibold text-green-600 uppercase tracking-wider">Unlocked</span>
             <div className="flex-1 h-px bg-stone-100" />
           </div>
-          <DayCard day={monday} defaultOpen={true} />
+          {plan ? (
+            <DayCard day={plan.monday} defaultOpen={true} />
+          ) : (
+            <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-5 animate-pulse">
+              <div className="h-5 w-28 bg-stone-100 rounded mb-4" />
+              <div className="space-y-3">
+                {[0, 1, 2].map((i) => (
+                  <div key={i} className="h-14 bg-stone-50 rounded-xl" />
+                ))}
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Days 2-7 — blurred */}
@@ -132,9 +128,9 @@ export default function PreviewPage() {
             <div className="flex-1 h-px bg-stone-100" />
           </div>
 
-          {/* Blurred day cards */}
+          {/* Blurred day cards — real diet-safe picks from the recipe library */}
           <div className="space-y-3 select-none pointer-events-none" aria-hidden="true">
-            {BLURRED_DAYS.map((day) => (
+            {(plan?.lockedDays ?? []).map((day) => (
               <div
                 key={day.day}
                 className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-5 blur-[3px] opacity-70"
@@ -147,32 +143,34 @@ export default function PreviewPage() {
                   {day.meals.map((meal, i) => (
                     <div key={i} className="flex items-center gap-3 py-2 border-b border-stone-50 last:border-0">
                       <span className="text-xs font-medium text-stone-400 w-16 shrink-0">
-                        {i === 0 ? "Breakfast" : i === 1 ? "Lunch" : "Dinner"}
+                        {MEAL_TYPE_LABELS[meal.type] ?? meal.type}
                       </span>
-                      <span className="text-sm text-stone-700 font-medium">{meal}</span>
+                      <span className="text-sm text-stone-700 font-medium">{meal.name}</span>
                     </div>
                   ))}
                 </div>
               </div>
             ))}
 
-            {/* Blurred grocery list preview */}
-            <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-5 blur-[3px] opacity-70">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-base font-semibold text-stone-800">Grocery List</span>
-                <span className="text-xs bg-orange-100 text-orange-600 font-medium px-2 py-0.5 rounded-full">
-                  ~{Math.floor(Math.random() * 10) + 25} items
-                </span>
+            {/* Blurred grocery list preview — real items from the visitor's Monday */}
+            {plan && (
+              <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-5 blur-[3px] opacity-70">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-base font-semibold text-stone-800">Grocery List</span>
+                  <span className="text-xs bg-orange-100 text-orange-600 font-medium px-2 py-0.5 rounded-full">
+                    ~{plan.groceryItemCount} items
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-1.5">
+                  {plan.groceryPreview.map((item) => (
+                    <div key={item} className="flex items-center gap-2 text-xs text-stone-500">
+                      <div className="w-3 h-3 rounded border border-stone-200 shrink-0" />
+                      {item}
+                    </div>
+                  ))}
+                </div>
               </div>
-              <div className="grid grid-cols-2 gap-1.5">
-                {["Chicken thighs", "Salmon fillet", "Quinoa", "Avocado", "Baby spinach", "Greek yogurt", "Cherry tomatoes", "Lemon"].map((item) => (
-                  <div key={item} className="flex items-center gap-2 text-xs text-stone-500">
-                    <div className="w-3 h-3 rounded border border-stone-200 shrink-0" />
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </div>
+            )}
           </div>
 
           {/* Overlay CTA — pinned near top of locked section, follows viewport */}
