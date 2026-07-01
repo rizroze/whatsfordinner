@@ -136,7 +136,7 @@ export async function GET(req: Request) {
               display: "flex",
             }}
           >
-            Free 3-day plan · No signup needed
+            Meal plans · recipes · grocery list
           </div>
         </div>
       </div>

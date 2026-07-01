@@ -151,7 +151,7 @@ export default async function OGImage() {
               display: "flex",
             }}
           >
-            Get your free 3-day plan
+            Get Started
           </div>
         </div>
 
