@@ -1,7 +1,7 @@
 {
   "vegetarian": {
     "title": "Planes de Comida Vegetarianos Semanales",
-    "metaDescription": "Planes de comida vegetarianos personalizados con listas de compras. Comidas sin carne equilibradas y ricas en proteínas. Prueba gratis.",
+    "metaDescription": "Planes de comida vegetarianos personalizados con listas de compras. Comidas sin carne equilibradas y ricas en proteínas. Vista previa gratis.",
     "h1": "Planes de Comida Vegetarianos Que Realmente Te Satisfacen",
     "intro": "Comer vegetariano no debería significar sobrevivir a base de pasta y queso. El verdadero reto es alcanzar tus metas de proteína y mantener las comidas interesantes semana tras semana sin caer en la monotonía. Te armamos un plan vegetariano nuevo cada semana con macros balanceados, cocina de todo el mundo y una lista de compras lista para usar, para que nunca tengas que preguntarte qué hay de cenar.",
     "valueProps": [
@@ -161,7 +161,7 @@
   },
   "gluten-free": {
     "title": "Planes de Comida Sin Gluten Semanales",
-    "metaDescription": "Planes de comida sin gluten con recetas seguras y listas de compras. Sin contaminación cruzada. Prueba gratis.",
+    "metaDescription": "Planes de comida sin gluten con recetas seguras y listas de compras. Sin contaminación cruzada. Vista previa gratis.",
     "h1": "Planes de Comida Sin Gluten Que Son Realmente Deliciosos",
     "intro": "Vivir sin gluten significa mucho más que dejar el pan — es revisar cada etiqueta, cuestionar cada salsa y preguntarte si la avena es realmente segura. Eliminamos esa carga mental armándote un plan semanal donde cada ingrediente es verificado, para que puedas cocinar con confianza y disfrutar comidas que no saben a \"versión sin gluten\".",
     "valueProps": [
@@ -241,7 +241,7 @@
   },
   "dairy-free": {
     "title": "Planes de Comida Sin Lácteos Semanales",
-    "metaDescription": "Planes de comida sin lácteos con alternativas cremosas y nutritivas. Listas de compras incluidas. Prueba gratis.",
+    "metaDescription": "Planes de comida sin lácteos con alternativas cremosas y nutritivas. Listas de compras incluidas. Vista previa gratis.",
     "h1": "Planes de Comida Sin Lácteos Que No Extrañarás",
     "intro": "Eliminar los lácteos significa repensar todo, desde tu café de la mañana hasta la cena rápida entre semana. Lo difícil no es encontrar alternativas — es encontrar comidas que realmente sepan bien sin depender de queso y mantequilla como muleta. Nuestros planes te dan recetas cremosas, satisfactorias y llenas de sabor sin una gota de lácteo.",
     "valueProps": [
@@ -321,7 +321,7 @@
   },
   "keto": {
     "title": "Planes de Comida Keto Semanales",
-    "metaDescription": "Planes de comida keto personalizados con macros calculados y listas de compras. Mantente en cetosis fácilmente. Prueba gratis.",
+    "metaDescription": "Planes de comida keto personalizados con macros calculados y listas de compras. Mantente en cetosis fácilmente. Vista previa gratis.",
     "h1": "Planes de Comida Keto Que Hacen la Cetosis Fácil",
     "intro": "Keto suena simple — reduce los carbohidratos, come más grasa — pero en la práctica es un malabar diario de macros, antojos y la eterna duda de \"¿esto me saca de cetosis?\" Nuestros planes se encargan de los cálculos, los ingredientes tramposos y la monotonía para que tú solo tengas que cocinar y disfrutar.",
     "valueProps": [
@@ -401,7 +401,7 @@
   },
   "low-carb": {
     "title": "Planes de Comida Bajos en Carbohidratos",
-    "metaDescription": "Planes de comida bajos en carbohidratos con recetas satisfactorias y listas de compras. Menos carbos, más sabor. Prueba gratis.",
+    "metaDescription": "Planes de comida bajos en carbohidratos con recetas satisfactorias y listas de compras. Menos carbos, más sabor. Vista previa gratis.",
     "h1": "Planes de Comida Bajos en Carbohidratos Sin Pasar Hambre",
     "intro": "Quieres reducir los carbohidratos, pero no quieres renunciar a la fruta, el camote o el gusto de una tortilla de vez en cuando. Lo bueno de low-carb es que no tiene que ser todo o nada. Nuestros planes encuentran el punto medio perfecto — menos carbohidratos refinados, más alimentos reales, y la flexibilidad para que puedas mantenerlo a largo plazo.",
     "valueProps": [
@@ -481,7 +481,7 @@
   },
   "pescatarian": {
     "title": "Planes de Comida Pescetarianos Semanales",
-    "metaDescription": "Planes de comida pescetarianos con pescados y mariscos frescos. Recetas equilibradas con listas de compras. Prueba gratis.",
+    "metaDescription": "Planes de comida pescetarianos con pescados y mariscos frescos. Recetas equilibradas con listas de compras. Vista previa gratis.",
     "h1": "Planes de Comida Pescetarianos Frescos y Nutritivos",
     "intro": "La alimentación pescetariana te da lo mejor de dos mundos — la nutrición de los mariscos con la ligereza de una dieta basada en plantas. El reto es no caer en comer salmón todas las noches ni gastar una fortuna en pescadería. Nuestros planes mezclan pescados y mariscos variados con comidas vegetarianas para darte una semana equilibrada, deliciosa y que no revienta tu presupuesto.",
     "valueProps": [
@@ -561,7 +561,7 @@
   },
   "halal": {
     "title": "Planes de Comida Halal Semanales",
-    "metaDescription": "Planes de comida halal personalizados con ingredientes certificados. Recetas diversas con listas de compras. Prueba gratis.",
+    "metaDescription": "Planes de comida halal personalizados con ingredientes certificados. Recetas diversas con listas de compras. Vista previa gratis.",
     "h1": "Planes de Comida Halal Con Sabores del Mundo",
     "intro": "Planificar comidas halal va más allá de evitar el cerdo — significa revisar cada salsa, cada marinada y cada producto para asegurarte de que cumpla con los requisitos. Esa carga mental de verificar todo, todas las semanas, agota. Nuestros planes se encargan de eso por ti, con recetas 100% halal que traen sabores de todo el mundo a tu mesa.",
     "valueProps": [
@@ -641,7 +641,7 @@
   },
   "kosher": {
     "title": "Planes de Comida Kosher Semanales",
-    "metaDescription": "Planes de comida kosher con separación adecuada de lácteos y carne. Recetas para toda la familia. Prueba gratis.",
+    "metaDescription": "Planes de comida kosher con separación adecuada de lácteos y carne. Recetas para toda la familia. Vista previa gratis.",
     "h1": "Planes de Comida Kosher Para Toda la Semana",
     "intro": "Planificar comidas kosher no se trata solo de qué comes — es cómo se combinan los ingredientes, cómo se preparan y cuándo se sirven. La separación de carne y lácteos convierte la planificación semanal en un rompecabezas. Nuestros planes resuelven ese rompecabezas por ti, con cada comida claramente designada y pensada para que tu semana fluya sin estrés.",
     "valueProps": [
@@ -721,7 +721,7 @@
   },
   "no-meat-fridays": {
     "title": "Planes de Comida Sin Carne los Viernes",
-    "metaDescription": "Planes de comida con opciones sin carne para los viernes. Recetas de pescado y vegetarianas. Prueba gratis.",
+    "metaDescription": "Planes de comida con opciones sin carne para los viernes. Recetas de pescado y vegetarianas. Vista previa gratis.",
     "h1": "Planes de Viernes Sin Carne Que Esperarás Con Ganas",
     "intro": "Ya sea que observes la Cuaresma, sigas la tradición de abstinencia los viernes durante todo el año, o simplemente te guste la idea de un día sin carne, el reto es el mismo: hacer que la cena del viernes sea algo que esperes con ganas, no una obligación aburrida. Nuestros planes convierten los viernes sin carne en el mejor día gastronómico de tu semana.",
     "valueProps": [
@@ -801,7 +801,7 @@
   },
   "american": {
     "title": "Planes de Comida Americana Semanal",
-    "metaDescription": "Planes de comida con recetas americanas clásicas y listas de compras. Comfort food hecho saludable. Prueba gratis.",
+    "metaDescription": "Planes de comida con recetas americanas clásicas y listas de compras. Comfort food hecho saludable. Vista previa gratis.",
     "h1": "Planes de Comida Americana Clásica y Saludable",
     "intro": "Desde jugosas hamburguesas y barbacoa hasta reconfortantes guisos y asados de domingo, la cocina estadounidense es puro sabor audaz y porciones generosas. Nuestro planificador de comidas con IA te arma un menú semanal de clásicos americanos, con lista de compras incluida para que dejes de improvisar y te pongas a cocinar. Ya sea que alimentes a una familia de cuatro o prepares tus comidas en solitario, estos planes hacen que las cenas entre semana sean pan comido.",
     "valueProps": [
@@ -883,7 +883,7 @@
   },
   "italian": {
     "title": "Planes de Comida Italiana Semanal",
-    "metaDescription": "Planes de comida italiana con pastas, risottos y más. Recetas auténticas con listas de compras. Prueba gratis.",
+    "metaDescription": "Planes de comida italiana con pastas, risottos y más. Recetas auténticas con listas de compras. Vista previa gratis.",
     "h1": "Planes de Comida Italiana Auténtica Cada Semana",
     "intro": "La cocina italiana se construye sobre la simplicidad — ingredientes de calidad, técnica honesta y comidas hechas para compartir. Nuestros planes de comida italianos semanales te ofrecen una selección curada de pastas, risottos, proteínas a la parrilla y ensaladas rústicas que saben como si vinieran de una trattoria romana. Cada plan viene con una lista de compras consolidada para que puedas conseguir tus tomates San Marzano y albahaca fresca en una sola ida al súper.",
     "valueProps": [
@@ -966,7 +966,7 @@
   },
   "mexican": {
     "title": "Planes de Comida Mexicana Semanal",
-    "metaDescription": "Planes de comida mexicana con tacos, enchiladas y más. Sabores auténticos con listas de compras. Prueba gratis.",
+    "metaDescription": "Planes de comida mexicana con tacos, enchiladas y más. Sabores auténticos con listas de compras. Vista previa gratis.",
     "h1": "Planes de Comida Mexicana Llenos de Sabor",
     "intro": "La cocina mexicana va mucho más allá de los tacos — es un rico tapiz de moles, salsas, guisos y ceviches frescos moldeados por siglos de tradición. Nuestro planificador de comidas con IA te entrega una semana de recetas mexicanas auténticas con el balance perfecto de picante, ácido y riqueza. Cada plan viene con una lista de compras para que sepas exactamente qué chiles, limones y especias necesitas.",
     "valueProps": [
@@ -1048,7 +1048,7 @@
   },
   "asian": {
     "title": "Planes de Comida Asiática Semanal",
-    "metaDescription": "Planes de comida asiática con recetas de China, Japón, Tailandia y más. Listas de compras incluidas. Prueba gratis.",
+    "metaDescription": "Planes de comida asiática con recetas de China, Japón, Tailandia y más. Listas de compras incluidas. Vista previa gratis.",
     "h1": "Planes de Comida Asiática de Múltiples Cocinas",
     "intro": "La cocina asiática abarca un rango increíble — desde la intensidad del wok en los salteados chinos hasta los bowls limpios y herbales del pho vietnamita. Nuestros planes de comida asiáticos recorren todo el continente para armar una semana de comidas vibrantes y bien balanceadas. Cada plan incluye una lista de compras para que te abastezcas de salsa de soya, aceite de ajonjolí, fideos de arroz y aromáticos frescos en una sola ida.",
     "valueProps": [
@@ -1131,7 +1131,7 @@
   },
   "mediterranean": {
     "title": "Planes de Comida Mediterránea Semanal",
-    "metaDescription": "Planes de comida mediterránea con aceite de oliva, pescado y verduras frescas. Dieta saludable. Prueba gratis.",
+    "metaDescription": "Planes de comida mediterránea con aceite de oliva, pescado y verduras frescas. Dieta saludable. Vista previa gratis.",
     "h1": "Planes de Comida Mediterránea Para una Vida Saludable",
     "intro": "La dieta mediterránea es consistentemente clasificada como la forma más saludable de comer en el mundo — y con buena razón. Construida sobre aceite de oliva, verduras frescas, granos integrales, pescado y legumbres, es tan deliciosa como nutritiva. Nuestros planes semanales reúnen lo mejor de la cocina costera griega, española, libanesa e italiana en un menú práctico con lista de compras lista para usar.",
     "valueProps": [
@@ -1212,7 +1212,7 @@
   },
   "indian": {
     "title": "Planes de Comida India Semanal",
-    "metaDescription": "Planes de comida india con curries, dals y biryanis auténticos. Especias y sabores reales. Prueba gratis.",
+    "metaDescription": "Planes de comida india con curries, dals y biryanis auténticos. Especias y sabores reales. Vista previa gratis.",
     "h1": "Planes de Comida India Rica en Especias y Sabor",
     "intro": "La cocina india es un universo de sabor — desde los cremosos butter chicken de Punjab hasta los curries con coco de Kerala. Nuestro planificador con IA te arma una semana balanceada de comidas indias que cubren todo el espectro de especias, texturas y tradición regional. Cada plan incluye una lista de compras especia por especia para que sepas exactamente qué necesitas, ya seas un cocinero experimentado o estés probando recetas indias por primera vez.",
     "valueProps": [
@@ -1296,7 +1296,7 @@
   },
   "thai": {
     "title": "Planes de Comida Tailandesa Semanal",
-    "metaDescription": "Planes de comida tailandesa con curries, pad thai y sopas. Equilibrio perfecto de sabores. Prueba gratis.",
+    "metaDescription": "Planes de comida tailandesa con curries, pad thai y sopas. Equilibrio perfecto de sabores. Vista previa gratis.",
     "h1": "Planes de Comida Tailandesa Auténtica en Casa",
     "intro": "La cocina tailandesa es una clase magistral en equilibrio — dulce, ácido, salado y picante en cada bocado. Desde los aromáticos curries verdes hasta las ensaladas som tum con su toque cítrico, es una de las cocinas más emocionantes para cocinar en casa. Nuestros planes de comida tailandeses semanales te guían por platos de calidad de restaurante con instrucciones claras y una lista de compras que cubre todo, desde hierba limón hasta albahaca tailandesa.",
     "valueProps": [
@@ -1380,7 +1380,7 @@
   },
   "japanese": {
     "title": "Planes de Comida Japonesa Semanal",
-    "metaDescription": "Planes de comida japonesa con ramen, sushi bowls y más. Cocina limpia y equilibrada. Prueba gratis.",
+    "metaDescription": "Planes de comida japonesa con ramen, sushi bowls y más. Cocina limpia y equilibrada. Vista previa gratis.",
     "h1": "Planes de Comida Japonesa Limpia y Equilibrada",
     "intro": "La cocina casera japonesa está a un mundo de distancia de lo que la mayoría imagina — no todo es sushi y ramen. Es sopa de miso para el desayuno, pescado a la parrilla con verduras encurtidas, y nabe calentito en una olla en las noches frías. Nuestros planes de comida japoneses semanales traen esta elegante simplicidad a tu cocina con recetas prácticas y una lista de compras que cubre tu dashi, miso, mirin y todo lo demás que necesitas.",
     "valueProps": [
@@ -1462,7 +1462,7 @@
   },
   "french": {
     "title": "Planes de Comida Francesa Semanal",
-    "metaDescription": "Planes de comida francesa con técnicas clásicas simplificadas. Elegancia en cada plato. Prueba gratis.",
+    "metaDescription": "Planes de comida francesa con técnicas clásicas simplificadas. Elegancia en cada plato. Vista previa gratis.",
     "h1": "Planes de Comida Francesa Elegante y Accesible",
     "intro": "La cocina francesa tiene una reputación intimidante, pero la realidad de la cocina casera francesa del día a día es simple, de temporada y profundamente satisfactoria. Piensa en quiches dorados, guisos sustanciosos y vinagretas perfectas — no en complejidad con estrella Michelin. Nuestros planes semanales traen comidas francesas estilo bistró a tu cocina con instrucciones directas y una lista de compras sin complicaciones.",
     "valueProps": [
@@ -1545,7 +1545,7 @@
   },
   "middle-eastern": {
     "title": "Planes de Comida del Medio Oriente",
-    "metaDescription": "Planes de comida del Medio Oriente con falafel, hummus y kebabs. Sabores auténticos. Prueba gratis.",
+    "metaDescription": "Planes de comida del Medio Oriente con falafel, hummus y kebabs. Sabores auténticos. Vista previa gratis.",
     "h1": "Planes de Comida del Medio Oriente Ricos en Tradición",
     "intro": "La cocina del Medio Oriente es una de las grandes tradiciones de comida reconfortante del mundo — generosa, aromática y hecha para compartir. Desde los mezze libaneses hasta los platos de arroz persas y las ensaladas israelíes, estos sabores son cálidos, herbales y profundamente satisfactorios. Nuestros planes semanales traen esta hospitalidad a tu mesa con recetas organizadas y una lista de compras que cubre cada especia, grano y hierba fresca que necesitarás.",
     "valueProps": [
@@ -1627,7 +1627,7 @@
   },
   "korean": {
     "title": "Planes de Comida Coreana Semanal",
-    "metaDescription": "Planes de comida coreana con kimchi, bibimbap y BBQ. Sabores fermentados y atrevidos. Prueba gratis.",
+    "metaDescription": "Planes de comida coreana con kimchi, bibimbap y BBQ. Sabores fermentados y atrevidos. Vista previa gratis.",
     "h1": "Planes de Comida Coreana Atrevida y Fermentada",
     "intro": "La cocina coreana ha conquistado el mundo, y con razón — es audaz, fermentada, picante e irresistiblemente adictiva. Pero la cocina casera coreana va mucho más allá del BBQ y el pollo frito. Son mesas repletas de banchan, guisos burbujeantes y reconfortantes bowls de arroz. Nuestros planes semanales llevan toda esa riqueza a tu cocina con recetas que van desde un rápido bibimbap entre semana hasta un jjigae cocinado a fuego lento, más una lista de compras que cubre tu gochujang, aceite de sésamo y todo lo demás.",
     "valueProps": [
@@ -1711,7 +1711,7 @@
   },
   "southern": {
     "title": "Planes de Comida Sureña Americana",
-    "metaDescription": "Planes de comida sureña americana con comfort food clásico hecho más saludable. Prueba gratis.",
+    "metaDescription": "Planes de comida sureña americana con comfort food clásico hecho más saludable. Vista previa gratis.",
     "h1": "Planes de Comida Sureña Reconfortante y Saludable",
     "intro": "La cocina sureña es la definición de comida con alma — platillos transmitidos de generación en generación, preparados en sartenes de hierro fundido, braseados lentos y mucho cariño. Desde esponjosos biscuits de suero de leche hasta verduras de collar ahumadas y pollo frito crujiente, estas son las comidas que reúnen a la gente en la mesa. Nuestros planes semanales traen esa calidez y tradición con recetas organizadas y una lista de compras para que te enfoques en cocinar, no en planificar.",
     "valueProps": [
@@ -1794,7 +1794,7 @@
   },
   "vegan-thai": {
     "title": "Planes de Comida Vegana Tailandesa",
-    "metaDescription": "Planes de comida vegana tailandesa con curries de coco y pad thai sin carne. Prueba gratis.",
+    "metaDescription": "Planes de comida vegana tailandesa con curries de coco y pad thai sin carne. Vista previa gratis.",
     "h1": "Planes de Comida Vegana Tailandesa Llenos de Sabor",
     "intro": "La cocina tailandesa es ideal para la alimentación vegana — la leche de coco, el lemongrass, el galangal y las hierbas frescas hacen el trabajo pesado. Pero navegar entre la salsa de pescado, la pasta de camarón y la salsa de ostión requiere conocimiento. Nuestros planes veganos tailandeses sustituyen esos ingredientes con alternativas inteligentes mientras mantienen cada platillo inconfundiblemente tailandés.",
     "valueProps": [
@@ -1883,7 +1883,7 @@
   },
   "vegan-indian": {
     "title": "Planes de Comida Vegana India",
-    "metaDescription": "Planes de comida vegana india con dals, curries y arroz. Nutrición completa sin lácteos. Prueba gratis.",
+    "metaDescription": "Planes de comida vegana india con dals, curries y arroz. Nutrición completa sin lácteos. Vista previa gratis.",
     "h1": "Planes de Comida Vegana India Nutritiva y Especiada",
     "intro": "La cocina india ya tiene una de las tradiciones vegetarianas más ricas del mundo. Hacerla completamente vegana significa reemplazar el ghee, el paneer y el yogurt — pero el estilo de cocina centrado en especias hace que apenas se note. Nuestros planes veganos indios se nutren de tradiciones regionales de toda India para mantener tu semana repleta de sabor.",
     "valueProps": [
@@ -1972,7 +1972,7 @@
   },
   "vegan-mediterranean": {
     "title": "Planes de Comida Vegana Mediterránea",
-    "metaDescription": "Planes de comida vegana mediterránea con verduras frescas y legumbres. Dieta plant-based saludable. Prueba gratis.",
+    "metaDescription": "Planes de comida vegana mediterránea con verduras frescas y legumbres. Dieta plant-based saludable. Vista previa gratis.",
     "h1": "Planes de Comida Vegana Mediterránea Fresca y Ligera",
     "intro": "La dieta mediterránea ya es celebrada como una de las más saludables del mundo. Quita los lácteos y los mariscos, y todavía tienes un tesoro de aceite de oliva, legumbres, cereales integrales, frutos secos y productos de temporada. Nuestros planes veganos mediterráneos hacen que cada semana se sienta como un almuerzo tranquilo en la Costa Amalfitana.",
     "valueProps": [
@@ -2059,7 +2059,7 @@
   },
   "keto-mediterranean": {
     "title": "Planes de Comida Keto Mediterránea",
-    "metaDescription": "Planes keto mediterráneos con pescado, aceite de oliva y verduras bajas en carbos. Prueba gratis.",
+    "metaDescription": "Planes keto mediterráneos con pescado, aceite de oliva y verduras bajas en carbos. Vista previa gratis.",
     "h1": "Planes de Comida Keto Mediterránea Saludable",
     "intro": "La dieta mediterránea y la keto comparten el amor por las grasas saludables — aceite de oliva, aguacate, frutos secos y pescado graso. El ajuste principal es eliminar el pan, la pasta y los cereales. Lo que queda es posiblemente la versión más nutritiva de keto: rica en omega-3, antioxidantes y sabor, sin la típica dependencia keto de carnes procesadas y queso.",
     "valueProps": [
@@ -2148,7 +2148,7 @@
   },
   "keto-asian": {
     "title": "Planes de Comida Keto Asiática",
-    "metaDescription": "Planes de comida keto asiática con proteínas y verduras sin los carbos del arroz. Prueba gratis.",
+    "metaDescription": "Planes de comida keto asiática con proteínas y verduras sin los carbos del arroz. Vista previa gratis.",
     "h1": "Planes de Comida Keto Asiática Sin Arroz ni Fideos",
     "intro": "La cocina asiática se construye sobre sabores audaces — soya, jengibre, ajo, sésamo, chile — que funcionan perfectamente sin carbohidratos. El reto es reemplazar el arroz, los fideos y las salsas dulces. Nuestros planes keto asiáticos usan arroz de coliflor, fideos shirataki y salsas sin azúcar para mantener cada comida bajo 30g de carbohidratos netos con un sabor auténticamente asiático.",
     "valueProps": [
@@ -2241,7 +2241,7 @@
   },
   "keto-mexican": {
     "title": "Planes de Comida Keto Mexicana",
-    "metaDescription": "Planes de comida keto mexicana con tacos en lechuga y bowls sin tortilla. Prueba gratis.",
+    "metaDescription": "Planes de comida keto mexicana con tacos en lechuga y bowls sin tortilla. Vista previa gratis.",
     "h1": "Planes de Comida Keto Mexicana Baja en Carbohidratos",
     "intro": "La cocina mexicana trae picor, profundidad y alma a cada comida — y la mayor parte de esa magia viene de los chiles, el limón, el cilantro y las carnes cocinadas a fuego lento, no de las tortillas que las envuelven. Nuestros planes keto mexicanos eliminan el maíz, los frijoles y el arroz mientras conservan los sabores que hacen de la comida mexicana una de las más queridas del mundo.",
     "valueProps": [
@@ -2331,7 +2331,7 @@
   },
   "vegetarian-italian": {
     "title": "Planes de Comida Vegetariana Italiana",
-    "metaDescription": "Planes de comida vegetariana italiana con pastas, risottos y pizzas sin carne. Prueba gratis.",
+    "metaDescription": "Planes de comida vegetariana italiana con pastas, risottos y pizzas sin carne. Vista previa gratis.",
     "h1": "Planes de Comida Vegetariana Italiana Auténtica",
     "intro": "La cocina italiana siempre ha celebrado las verduras, el queso, la pasta y el aceite de oliva. Algunos de los platillos italianos más icónicos — pizza margherita, cacio e pepe, risotto — ya son vegetarianos. Nuestros planes de comida se apoyan en esta tradición, dándote una semana de comida reconfortante italiana que nunca se siente como si le faltara algo.",
     "valueProps": [
@@ -2419,7 +2419,7 @@
   },
   "vegetarian-indian": {
     "title": "Planes de Comida Vegetariana India",
-    "metaDescription": "Planes de comida vegetariana india con paneer, dals y curries de verduras. Prueba gratis.",
+    "metaDescription": "Planes de comida vegetariana india con paneer, dals y curries de verduras. Vista previa gratis.",
     "h1": "Planes de Comida Vegetariana India Rica en Proteínas",
     "intro": "India alberga la mayor población vegetariana del mundo, y su cocina refleja siglos de innovación sin carne. Desde cremosos platillos de paneer hasta ardientes dales de lentejas y crujientes dosas, la comida vegetariana india nunca es un segundo plato — es el evento principal. Nuestros planes semanales se nutren de las tradiciones del norte, sur, este y oeste de India.",
     "valueProps": [
@@ -2508,7 +2508,7 @@
   },
   "vegetarian-mediterranean": {
     "title": "Planes de Comida Vegetariana Mediterránea",
-    "metaDescription": "Planes de comida vegetariana mediterránea con legumbres, queso y verduras. Prueba gratis.",
+    "metaDescription": "Planes de comida vegetariana mediterránea con legumbres, queso y verduras. Vista previa gratis.",
     "h1": "Planes de Comida Vegetariana Mediterránea Equilibrada",
     "intro": "La dieta mediterránea ya pone las verduras, los cereales y las legumbres en el centro — quitar la carne simplemente lleva esos ingredientes al primer plano. Nuestros planes vegetarianos mediterráneos combinan huevos, queso y yogur con el aceite de oliva, las hierbas frescas y los productos de temporada que definen este reconocido estilo de alimentación.",
     "valueProps": [
@@ -2594,7 +2594,7 @@
   },
   "gluten-free-asian": {
     "title": "Planes de Comida Asiática Sin Gluten",
-    "metaDescription": "Planes de comida asiática sin gluten con arroz, fideos de arroz y proteínas. Prueba gratis.",
+    "metaDescription": "Planes de comida asiática sin gluten con arroz, fideos de arroz y proteínas. Vista previa gratis.",
     "h1": "Planes de Comida Asiática Sin Gluten y Deliciosa",
     "intro": "La cocina asiática ofrece una variedad increíble para quienes comen sin gluten — el arroz es el almidón por defecto en la mayor parte de Asia, y muchos platos son naturalmente libres de trigo. Lo complicado es la salsa de soya (que contiene trigo), algunos fideos y los espesantes ocultos. Nuestros planes asiáticos sin gluten se encargan de todo eso, para que disfrutes de los sabores asiáticos sin preocupaciones.",
     "valueProps": [
@@ -2684,7 +2684,7 @@
   },
   "gluten-free-italian": {
     "title": "Planes de Comida Italiana Sin Gluten",
-    "metaDescription": "Planes de comida italiana sin gluten con pasta GF, risottos y más. Prueba gratis.",
+    "metaDescription": "Planes de comida italiana sin gluten con pasta GF, risottos y más. Vista previa gratis.",
     "h1": "Planes de Comida Italiana Sin Gluten Que Satisfacen",
     "intro": "La comida italiana y el gluten parecen inseparables — hasta que descubres el risotto, la polenta, la pasta sin gluten y los incontables platos italianos que nunca necesitaron trigo. Nuestros planes italianos sin gluten demuestran que puedes comer como si estuvieras en Roma sin que un solo grano de trigo toque tu plato.",
     "valueProps": [
@@ -2771,7 +2771,7 @@
   },
   "gluten-free-mexican": {
     "title": "Planes de Comida Mexicana Sin Gluten",
-    "metaDescription": "Planes de comida mexicana sin gluten con tortillas de maíz y bowls. Prueba gratis.",
+    "metaDescription": "Planes de comida mexicana sin gluten con tortillas de maíz y bowls. Vista previa gratis.",
     "h1": "Planes de Comida Mexicana Sin Gluten Naturalmente",
     "intro": "La buena noticia: la cocina mexicana tradicional está construida sobre el maíz, no el trigo. Las tortillas de maíz, los tamales, las tostadas y los sopes son todos naturalmente sin gluten. Los riesgos son las tortillas de harina, los alimentos capeados con cerveza y algunas mezclas de especias comerciales. Nuestros planes se apegan a la auténtica cocina mexicana a base de maíz y señalan cada fuente oculta de gluten.",
     "valueProps": [
@@ -2857,7 +2857,7 @@
   },
   "halal-mediterranean": {
     "title": "Planes de Comida Halal Mediterránea",
-    "metaDescription": "Planes de comida halal mediterránea con cordero, pollo y verduras frescas. Prueba gratis.",
+    "metaDescription": "Planes de comida halal mediterránea con cordero, pollo y verduras frescas. Vista previa gratis.",
     "h1": "Planes de Comida Halal Mediterránea Saludable",
     "intro": "La cocina mediterránea y la cocina halal comparten raíces profundas — gran parte de la costa oriental del Mediterráneo es históricamente musulmana, y platos como el shawarma, el fattoush y el kibbeh son mediterráneos y halal por naturaleza. Nuestros planes reúnen lo mejor de ambos mundos: alimentación mediterránea saludable para el corazón con estricto cumplimiento halal.",
     "valueProps": [
@@ -2943,7 +2943,7 @@
   },
   "halal-indian": {
     "title": "Planes de Comida Halal India",
-    "metaDescription": "Planes de comida halal india con curries de pollo, cordero y biryanis. Prueba gratis.",
+    "metaDescription": "Planes de comida halal india con curries de pollo, cordero y biryanis. Vista previa gratis.",
     "h1": "Planes de Comida Halal India Auténtica y Especiada",
     "intro": "India tiene una de las poblaciones musulmanas más grandes del mundo, y su tradición culinaria halal es extraordinaria — desde el biryani de Lucknow hasta el haleem de Hyderabad, desde los kebabs mogoles hasta el curry de pescado de Kerala. Nuestros planes halal indios se nutren de estas ricas tradiciones, usando carne halal y evitando ingredientes con alcohol por completo.",
     "valueProps": [
@@ -3031,7 +3031,7 @@
   },
   "halal-middle-eastern": {
     "title": "Planes de Comida Halal del Medio Oriente",
-    "metaDescription": "Planes halal del Medio Oriente con kebabs, falafel y granos. Certificado halal. Prueba gratis.",
+    "metaDescription": "Planes halal del Medio Oriente con kebabs, falafel y granos. Certificado halal. Vista previa gratis.",
     "h1": "Planes de Comida Halal del Medio Oriente Tradicional",
     "intro": "La cocina del Medio Oriente es halal en su esencia — estas recetas han sido transmitidas de generación en generación por familias musulmanas del Levante, la Península Arábiga y el norte de África. Nuestros planes llevan esa herencia a tu cocina con recetas auténticas de shawarma, mansaf, maqluba y las mesas de mezze que hacen legendaria la gastronomía del Medio Oriente.",
     "valueProps": [
@@ -3119,7 +3119,7 @@
   },
   "pescatarian-japanese": {
     "title": "Planes de Comida Pescetariana Japonesa",
-    "metaDescription": "Planes de comida pescetariana japonesa con sushi, ramen de mariscos y más. Prueba gratis.",
+    "metaDescription": "Planes de comida pescetariana japonesa con sushi, ramen de mariscos y más. Vista previa gratis.",
     "h1": "Planes de Comida Pescetariana Japonesa Fresca",
     "intro": "Japón es una nación insular, y su cocina lo refleja — los mariscos y las verduras siempre han estado en el corazón de la cocina japonesa. Una dieta japonesa pescetariana apenas es una restricción; es más cercana a como la mayoría de los japoneses realmente comen. Nuestros planes semanales cubren sushi, ramen, donburi y favoritos de izakaya, todos centrados en pescado e ingredientes de origen vegetal.",
     "valueProps": [
@@ -3207,7 +3207,7 @@
   },
   "pescatarian-mediterranean": {
     "title": "Planes Pescetarianos Mediterráneos",
-    "metaDescription": "Planes de comida pescetariana mediterránea con pescado fresco y mariscos. Prueba gratis.",
+    "metaDescription": "Planes de comida pescetariana mediterránea con pescado fresco y mariscos. Vista previa gratis.",
     "h1": "Planes de Comida Pescetariana Mediterránea con Mariscos",
     "intro": "La dieta mediterránea tradicional siempre fue una dieta pescetariana — las comunidades costeras de Grecia, Italia, España y el norte de África comían pescado a diario y carne rara vez. Nuestros planes pescetarianos mediterráneos regresan a esas raíces con pescado a la parrilla, guisos de mariscos, aceite de oliva, verduras frescas y las preparaciones sencillas que hacen de este estilo alimentario el estándar de oro para la salud.",
     "valueProps": [
@@ -3295,7 +3295,7 @@
   },
   "dairy-free-thai": {
     "title": "Planes de Comida Tailandesa Sin Lácteos",
-    "metaDescription": "Planes de comida tailandesa sin lácteos con leche de coco y curries. Naturalmente libre. Prueba gratis.",
+    "metaDescription": "Planes de comida tailandesa sin lácteos con leche de coco y curries. Naturalmente libre. Vista previa gratis.",
     "h1": "Planes de Comida Tailandesa Sin Lácteos Natural",
     "intro": "La cocina tailandesa es una de las cocinas más naturalmente libres de lácteos del planeta. La leche de coco reemplaza a la crema, la salsa de pescado reemplaza a la mantequilla, y los sabores intensos del lemongrass, el galangal y el chile hacen que no extrañes el queso ni por un segundo. Nuestros planes tailandeses sin lácteos requieren prácticamente cero sustituciones — así es como la comida tailandesa siempre se debió comer.",
     "valueProps": [
@@ -3385,7 +3385,7 @@
   },
   "dairy-free-mexican": {
     "title": "Planes de Comida Mexicana Sin Lácteos",
-    "metaDescription": "Planes de comida mexicana sin lácteos con sabores auténticos sin queso. Prueba gratis.",
+    "metaDescription": "Planes de comida mexicana sin lácteos con sabores auténticos sin queso. Vista previa gratis.",
     "h1": "Planes de Comida Mexicana Sin Lácteos y Auténtica",
     "intro": "La comida mexicana sin lácteos suena como un sacrificio, hasta que te das cuenta de que el alma de la cocina mexicana vive en los chiles, el limón, el cilantro, el comino y las carnes cocinadas a fuego lento, no en el queso encima. La cocina mexicana tradicional precolonial era completamente libre de lácteos. Nuestros planes regresan a esas raíces mientras conservan todos los sabores intensos y satisfactorios que tanto disfrutas.",
     "valueProps": [
@@ -3475,7 +3475,7 @@
   },
   "low-carb-southern": {
     "title": "Planes de Comida Sureña Baja en Carbos",
-    "metaDescription": "Planes de comida sureña baja en carbohidratos con comfort food reinventado. Prueba gratis.",
+    "metaDescription": "Planes de comida sureña baja en carbohidratos con comfort food reinventado. Vista previa gratis.",
     "h1": "Planes de Comida Sureña Baja en Carbohidratos",
     "intro": "La comida sureña es legendaria por sus sabores intensos, sus porciones generosas y su calidez reconfortante, pero también por su fuerte dependencia del pan de maíz, los bisquets, la sémola y el té dulce. Nuestros planes sureños bajos en carbohidratos conservan el alma de la cocina del sur: carnes ahumadas lentamente, verduras braseadas, mezclas de especias y técnicas con sartén de hierro, mientras eliminan los almidones que te pesan.",
     "valueProps": [
@@ -3565,7 +3565,7 @@
   },
   "meal-plan-for-weight-loss": {
     "title": "Plan de Comidas Para Bajar de Peso",
-    "metaDescription": "Planes de comida personalizados para pérdida de peso con control de calorías y listas de compras. Prueba gratis.",
+    "metaDescription": "Planes de comida personalizados para pérdida de peso con control de calorías y listas de compras. Vista previa gratis.",
     "h1": "Planes de Comida Para Bajar de Peso Que Funcionan",
     "intro": "Perder peso no debería significar comer pollo insípido y brócoli al vapor en repetición. La clave son comidas con calorías controladas que realmente satisfacen para que nunca te sientas privado. Te preparamos un plan de alimentación fresco para bajar de peso cada semana con porciones adecuadas, nutrición balanceada y suficiente variedad para mantenerte motivado durante todo el camino.",
     "valueProps": [
@@ -3645,7 +3645,7 @@
   },
   "meal-plan-for-muscle-gain": {
     "title": "Plan de Comidas Para Ganar Músculo",
-    "metaDescription": "Planes de comida altos en proteína para ganancia muscular con macros calculados. Prueba gratis.",
+    "metaDescription": "Planes de comida altos en proteína para ganancia muscular con macros calculados. Vista previa gratis.",
     "h1": "Planes de Comida Para Ganar Músculo y Fuerza",
     "intro": "Ganar músculo requiere más que solo ir al gimnasio — necesitas nutrición consistente y rica en proteínas para apoyar la recuperación y el crecimiento. El problema es que preparar comidas para volumen es agotador y repetitivo. Generamos un plan de alimentación fresco, alto en calorías y proteínas cada semana para que puedas enfocarte en entrenar mientras nosotros nos encargamos de la nutrición.",
     "valueProps": [
@@ -3729,7 +3729,7 @@
   },
   "meal-plan-for-pregnancy": {
     "title": "Plan de Comidas Para el Embarazo",
-    "metaDescription": "Planes de comida seguros para embarazadas con nutrientes esenciales y ácido fólico. Prueba gratis.",
+    "metaDescription": "Planes de comida seguros para embarazadas con nutrientes esenciales y ácido fólico. Vista previa gratis.",
     "h1": "Planes de Comida Para el Embarazo Seguros y Nutritivos",
     "intro": "Comer bien durante el embarazo importa más que nunca, pero entre los antojos, las aversiones y la fatiga, planificar comidas nutritivas puede sentirse abrumador. Nuestros planes de alimentación para el embarazo están diseñados con los nutrientes prenatales clave en mente — ácido fólico, hierro, calcio, omega-3 — manteniendo las comidas apetitosas incluso cuando tu apetito es impredecible.",
     "valueProps": [
@@ -3813,7 +3813,7 @@
   },
   "meal-plan-for-beginners": {
     "title": "Plan de Comidas Para Principiantes",
-    "metaDescription": "Planes de comida fáciles para principiantes con recetas simples y listas de compras. Prueba gratis.",
+    "metaDescription": "Planes de comida fáciles para principiantes con recetas simples y listas de compras. Vista previa gratis.",
     "h1": "Planes de Comida Para Principiantes Super Fáciles",
     "intro": "Si la planificación de comidas te parece intimidante, no estás solo. La mayoría falla porque intenta pasar de cero a chef gourmet de la noche a la mañana. Nuestros planes para principiantes usan técnicas sencillas, ingredientes comunes y tiempos de preparación cortos para que construyas el hábito sin agotarte. Cada receta asume que empiezas desde cero — no se requieren habilidades de chef.",
     "valueProps": [
@@ -3893,7 +3893,7 @@
   },
   "meal-plan-for-picky-eaters": {
     "title": "Plan de Comidas Para Quisquillosos",
-    "metaDescription": "Planes de comida para comedores quisquillosos con opciones familiares y nutritivas. Prueba gratis.",
+    "metaDescription": "Planes de comida para comedores quisquillosos con opciones familiares y nutritivas. Vista previa gratis.",
     "h1": "Planes de Comida Para Comedores Quisquillosos",
     "intro": "Ser quisquilloso con la comida no significa que estés condenado a comer nuggets de pollo para siempre. El truco es comenzar con sabores familiares y gradualmente ampliar tu zona de confort. Nuestros planes para comedores selectivos se enfocan en ingredientes accesibles, texturas reconfortantes y sabores que gustan a todos, mientras incorporan nutrición balanceada que ni siquiera notarás.",
     "valueProps": [
@@ -3973,7 +3973,7 @@
   },
   "meal-plan-on-a-budget": {
     "title": "Plan de Comidas Económico",
-    "metaDescription": "Planes de comida económicos con recetas asequibles y listas de compras que ahorran. Prueba gratis.",
+    "metaDescription": "Planes de comida económicos con recetas asequibles y listas de compras que ahorran. Vista previa gratis.",
     "h1": "Planes de Comida Económicos Sin Sacrificar Calidad",
     "intro": "Comer saludable con un presupuesto ajustado es posible — solo necesitas un plan. Los mayores desperdicios de dinero son las compras impulsivas, la comida que se echa a perder antes de usarla y la comida para llevar de último momento. Nuestros planes económicos usan ingredientes básicos asequibles, minimizan el desperdicio con ingredientes que se comparten entre recetas y generan listas de compras inteligentes para que cada peso cuente.",
     "valueProps": [
@@ -4057,7 +4057,7 @@
   },
   "meal-plan-for-diabetes": {
     "title": "Plan de Comidas Para Diabéticos",
-    "metaDescription": "Planes de comida para diabetes con control glucémico y recetas bajas en azúcar. Prueba gratis.",
+    "metaDescription": "Planes de comida para diabetes con control glucémico y recetas bajas en azúcar. Vista previa gratis.",
     "h1": "Planes de Comida Para Diabéticos Balanceados",
     "intro": "Manejar la diabetes a través de la dieta no tiene que significar renunciar a los alimentos que amas. La clave son comidas consistentes y balanceadas que mantengan el azúcar en sangre estable durante todo el día. Nuestros planes amigables con la diabetes se enfocan en carbohidratos de bajo índice glucémico, proteínas magras, grasas saludables y porciones adecuadas — todo mientras mantienen las comidas realmente disfrutables.",
     "valueProps": [
@@ -4137,7 +4137,7 @@
   },
   "meal-plan-for-heart-health": {
     "title": "Plan de Comidas Para la Salud del Corazón",
-    "metaDescription": "Planes de comida cardiosaludables con bajo sodio y grasas buenas. Prueba gratis.",
+    "metaDescription": "Planes de comida cardiosaludables con bajo sodio y grasas buenas. Vista previa gratis.",
     "h1": "Planes de Comida Para un Corazón Saludable",
     "intro": "Una dieta saludable para el corazón es una de las cosas más efectivas que puedes hacer por tu longevidad, pero no debería sentirse como un castigo. Nuestros planes enfatizan los ácidos grasos omega-3, la fibra soluble, las proteínas magras y abundantes frutas y verduras mientras mantienen el sodio bajo control. Cada comida está diseñada para apoyar la salud cardiovascular sin sacrificar el sabor.",
     "valueProps": [
@@ -4217,7 +4217,7 @@
   },
   "high-protein-meal-plan": {
     "title": "Plan de Comidas Alto en Proteína",
-    "metaDescription": "Planes de comida altos en proteína con 100g+ diarios y recetas variadas. Prueba gratis.",
+    "metaDescription": "Planes de comida altos en proteína con 100g+ diarios y recetas variadas. Vista previa gratis.",
     "h1": "Planes de Comida Altos en Proteína Para Cada Día",
     "intro": "Ya sea que estés ganando músculo, bajando de peso o simplemente quieras sentirte más satisfecho después de comer, la proteína es la respuesta. El reto es alcanzar tu meta de proteína todos los días sin comer el mismo pollo a la plancha de siempre. Nuestros planes altos en proteína entregan entre 100 y 180g de proteína diaria con comidas variadas y deliciosas que nunca se sienten repetitivas.",
     "valueProps": [
@@ -4301,7 +4301,7 @@
   },
   "anti-inflammatory-meal-plan": {
     "title": "Plan de Comidas Antiinflamatorio",
-    "metaDescription": "Planes de comida antiinflamatorios con alimentos que reducen la inflamación. Prueba gratis.",
+    "metaDescription": "Planes de comida antiinflamatorios con alimentos que reducen la inflamación. Vista previa gratis.",
     "h1": "Planes de Comida Antiinflamatorios Que Sanan",
     "intro": "La inflamación crónica está vinculada a todo, desde dolor articular hasta enfermedades cardíacas, y lo que comes juega un papel enorme. Nuestros planes antiinflamatorios están construidos alrededor de alimentos que combaten activamente la inflamación — pescados grasos, verduras de hoja verde, frutos rojos, cúrcuma, aceite de oliva — mientras eliminan los alimentos procesados y azúcares refinados que la empeoran.",
     "valueProps": [
@@ -4381,7 +4381,7 @@
   },
   "meal-plan-for-one": {
     "title": "Plan de Comidas Para Una Persona",
-    "metaDescription": "Planes de comida para una persona sin desperdiciar ingredientes. Porciones perfectas. Prueba gratis.",
+    "metaDescription": "Planes de comida para una persona sin desperdiciar ingredientes. Porciones perfectas. Vista previa gratis.",
     "h1": "Planes de Comida Para Una Persona Sin Desperdicio",
     "intro": "Cocinar para uno tiene sus propios retos. Las recetas están diseñadas para cuatro, las verduras se echan a perder antes de que puedas usarlas, y la tentación de pedir comida a domicilio es real. Nuestros planes para una persona resuelven todo eso — recetas con porciones adecuadas, listas de compras inteligentes que minimizan el desperdicio, y comidas que se sienten como una cena de verdad aunque comas solo.",
     "valueProps": [
@@ -4461,7 +4461,7 @@
   },
   "meal-plan-for-two": {
     "title": "Plan de Comidas Para Dos Personas",
-    "metaDescription": "Planes de comida para parejas con recetas románticas y prácticas. Prueba gratis.",
+    "metaDescription": "Planes de comida para parejas con recetas románticas y prácticas. Vista previa gratis.",
     "h1": "Planes de Comida Para Dos Personas Perfectos",
     "intro": "Cocinar para dos debería ser simple, pero la mayoría de las recetas rinden para cuatro y te dejan ahogado en sobras o dividiendo medidas de forma incómoda. Nuestros planes están hechos para exactamente dos porciones — cenas dignas de noche de cita, comidas fáciles entre semana, y una lista de compras dimensionada para que nada se desperdicie. Ya sean pareja, roomies o padre e hijo, simplemente funciona.",
     "valueProps": [
@@ -4541,7 +4541,7 @@
   },
   "meal-plan-for-family-of-4": {
     "title": "Plan de Comidas Para Familia de 4",
-    "metaDescription": "Planes de comida familiares para 4 personas con recetas que gustan a todos. Prueba gratis.",
+    "metaDescription": "Planes de comida familiares para 4 personas con recetas que gustan a todos. Vista previa gratis.",
     "h1": "Planes de Comida Familiares Para 4 Personas",
     "intro": "Alimentar a una familia de cuatro significa equilibrar nutrición, preferencias de sabor, tiempo y presupuesto — todas las noches. La carga mental de decidir qué cocinar es agotadora antes de siquiera empezar a cocinar. Nuestros planes familiares te quitan esa decisión de encima con comidas aprobadas por niños y nutritivas que los adultos también disfrutan, más una sola lista de compras para toda la semana.",
     "valueProps": [
@@ -4625,7 +4625,7 @@
   },
   "meal-plan-for-family-of-6": {
     "title": "Plan de Comidas Para Familia de 6",
-    "metaDescription": "Planes de comida para familias grandes de 6 personas con recetas escalables. Prueba gratis.",
+    "metaDescription": "Planes de comida para familias grandes de 6 personas con recetas escalables. Vista previa gratis.",
     "h1": "Planes de Comida Para Familias Grandes de 6",
     "intro": "Alimentar seis bocas todos los días es una hazaña logística. El costo sube rápido, cocinar toma una eternidad, y encontrar comidas que satisfagan tanto a los pequeños como a los adolescentes parece imposible. Nuestros planes para familias grandes están diseñados para volumen — recetas en lote que escalan naturalmente, ingredientes económicos, y sabores que le gustan a todos sin importar la edad.",
     "valueProps": [
@@ -4705,7 +4705,7 @@
   },
   "meal-plan-for-college-students": {
     "title": "Plan de Comidas Para Universitarios",
-    "metaDescription": "Planes de comida baratos y fáciles para estudiantes universitarios. Sin cocina completa. Prueba gratis.",
+    "metaDescription": "Planes de comida baratos y fáciles para estudiantes universitarios. Sin cocina completa. Vista previa gratis.",
     "h1": "Planes de Comida Para Universitarios Económicos",
     "intro": "Entre clases, estudiar y la vida social, cocinar es lo último en la mente de la mayoría de los universitarios. Pero sobrevivir a base de ramen instantáneo y pizza de la cafetería se vuelve viejo rápido — y caro. Nuestros planes para universitarios usan ingredientes baratos, equipo mínimo y recetas lo suficientemente cortas para cocinar entre clases. Sin horno necesario para la mayoría de las comidas.",
     "valueProps": [
@@ -4789,7 +4789,7 @@
   },
   "quick-30-minute-meal-plan": {
     "title": "Plan de Comidas Rápidas en 30 Minutos",
-    "metaDescription": "Planes de comida con recetas de 30 minutos o menos. Cenas rápidas y saludables. Prueba gratis.",
+    "metaDescription": "Planes de comida con recetas de 30 minutos o menos. Cenas rápidas y saludables. Vista previa gratis.",
     "h1": "Planes de Comida en 30 Minutos o Menos",
     "intro": "No tienes una hora para cocinar la cena cada noche, y no deberías necesitarla. Cada receta en nuestro plan de comidas de 30 minutos está diseñada para ir del refrigerador a la mesa en media hora o menos — incluyendo la preparación. Sin trucos de olla lenta, sin letras chiquitas de 'sin incluir tiempo de marinado'. Solo comidas genuinamente rápidas que son balanceadas, satisfactorias y lo suficientemente variadas para que no se vuelvan aburridas.",
     "valueProps": [
@@ -4869,7 +4869,7 @@
   },
   "1200-calorie-meal-plan": {
     "title": "Plan de Comidas de 1200 Calorías",
-    "metaDescription": "Planes de comida de 1200 calorías nutricionalmente completos con recetas satisfactorias. Prueba gratis.",
+    "metaDescription": "Planes de comida de 1200 calorías nutricionalmente completos con recetas satisfactorias. Vista previa gratis.",
     "h1": "Planes de Comida de 1200 Calorías Que Satisfacen",
     "intro": "Comer 1,200 calorías al día no tiene que significar sentir hambre todo el tiempo. El truco es elegir alimentos que empaquen máxima nutrición en cada bocado — verduras altas en fibra, proteínas magras y grasas saludables que te mantienen satisfecho por horas. Te creamos un plan fresco de 1200 calorías cada semana con comidas sabrosas, llenadoras y diseñadas para que nunca sientas que estás sufriendo una dieta.",
     "valueProps": [
@@ -4953,7 +4953,7 @@
   },
   "1500-calorie-meal-plan": {
     "title": "Plan de Comidas de 1500 Calorías",
-    "metaDescription": "Planes de comida de 1500 calorías equilibrados con proteína y fibra. Prueba gratis.",
+    "metaDescription": "Planes de comida de 1500 calorías equilibrados con proteína y fibra. Vista previa gratis.",
     "h1": "Planes de Comida de 1500 Calorías Equilibrados",
     "intro": "1,500 calorías es el punto ideal para la mayoría de las personas que buscan bajar de peso sin sentirse miserables. Es suficiente para incluir porciones reales, ingredientes diversos e incluso un antojo ocasional — pero lo suficientemente bajo para crear un déficit calórico significativo. Planificamos tu semana con macros balanceados, mucho sabor y comidas de 30 minutos o menos para que el plan realmente encaje en tu vida.",
     "valueProps": [
@@ -5033,7 +5033,7 @@
   },
   "1800-calorie-meal-plan": {
     "title": "Plan de Comidas de 1800 Calorías",
-    "metaDescription": "Planes de comida de 1800 calorías para mantenimiento activo con macros balanceados. Prueba gratis.",
+    "metaDescription": "Planes de comida de 1800 calorías para mantenimiento activo con macros balanceados. Vista previa gratis.",
     "h1": "Planes de Comida de 1800 Calorías Para Activos",
     "intro": "Si eres una persona activa que busca bajar de peso, los recortes extremos de calorías solo te perjudican. Un plan de 1,800 calorías te da suficiente energía para rendir en tus entrenamientos, mantenerte enfocado en el trabajo y aún así crear un déficit moderado que va eliminando grasa con el tiempo. Son comidas de tamaño real con suficientes carbohidratos para energía, suficiente proteína para recuperarte y suficiente sabor para que olvides que estás siguiendo un plan.",
     "valueProps": [
@@ -5113,7 +5113,7 @@
   },
   "2000-calorie-meal-plan": {
     "title": "Plan de Comidas de 2000 Calorías",
-    "metaDescription": "Planes de comida de 2000 calorías para ingesta diaria estándar con variedad. Prueba gratis.",
+    "metaDescription": "Planes de comida de 2000 calorías para ingesta diaria estándar con variedad. Vista previa gratis.",
     "h1": "Planes de Comida de 2000 Calorías Variados",
     "intro": "2,000 calorías son el punto de referencia estándar por una buena razón — funciona para una gran variedad de adultos que quieren mantener su peso y comer bien. Ya sea que hayas terminado de hacer dieta y quieras mantener tus resultados, o simplemente quieras un plan estructurado que mantenga tu nutrición al día sin pensarlo demasiado, esta es tu base. Macros equilibrados, ingredientes variados y comidas que se sienten completamente normales.",
     "valueProps": [
@@ -5193,7 +5193,7 @@
   },
   "2500-calorie-meal-plan": {
     "title": "Plan de Comidas de 2500 Calorías",
-    "metaDescription": "Planes de comida de 2500 calorías para atletas y personas activas. Prueba gratis.",
+    "metaDescription": "Planes de comida de 2500 calorías para atletas y personas activas. Vista previa gratis.",
     "h1": "Planes de Comida de 2500 Calorías Para Atletas",
     "intro": "Si entrenas duro, estás ganando músculo o simplemente tienes un trabajo activo que quema mucha energía, 2,000 calorías no van a ser suficientes. Un plan de 2,500 calorías te da la energía para rendir, la proteína para recuperarte y los carbohidratos para mantener el glucógeno al máximo — todo con comida real, no con batidos y barras. Planificamos tu semana con comidas abundantes que apoyan tus metas sin recurrir a comida chatarra.",
     "valueProps": [
@@ -5277,7 +5277,7 @@
   },
   "3000-calorie-meal-plan": {
     "title": "Plan de Comidas de 3000 Calorías",
-    "metaDescription": "Planes de comida de 3000 calorías para bulking y alto rendimiento. Prueba gratis.",
+    "metaDescription": "Planes de comida de 3000 calorías para bulking y alto rendimiento. Vista previa gratis.",
     "h1": "Planes de Comida de 3000 Calorías Para Volumen",
     "intro": "Comer 3,000 calorías limpias al día es más difícil de lo que suena. Cualquiera puede demoler una pizza y decir que está en volumen — el reto es lograrlo con comidas que realmente construyan músculo, apoyen la recuperación y mantengan tu energía estable. Planificamos tu semana con comidas grandes y nutritivas distribuidas a lo largo del día para que nunca tengas que forzarte a comer todo de un solo golpe ni depender de batidos de ganancia de masa.",
     "valueProps": [
@@ -5361,9 +5361,9 @@
   },
   "3-day-meal-plan": {
     "title": "Plan de Comidas de 3 Días",
-    "metaDescription": "Plan de comidas de 3 días perfecto para empezar. Recetas fáciles y lista de compras. Prueba gratis.",
+    "metaDescription": "Plan de comidas de 3 días perfecto para empezar. Recetas fáciles y lista de compras. Vista previa gratis.",
     "h1": "Plan de Comidas de 3 Días Para Empezar Fácil",
-    "intro": "¿No estás seguro si la planificación de comidas es para ti? Un plan de 3 días es la forma perfecta de descubrirlo sin presión. Cubre tus noches más ocupadas con comidas balanceadas y fáciles de cocinar y descubre cuánto tiempo y energía mental te ahorras. Nuestra prueba gratuita es exactamente eso — tres días de comidas planificadas para que experimentes la diferencia antes de comprometerte con una semana completa.",
+    "intro": "¿No estás seguro si la planificación de comidas es para ti? Un plan de 3 días es la forma perfecta de descubrirlo sin presión. Cubre tus noches más ocupadas con comidas balanceadas y fáciles de cocinar y descubre cuánto tiempo y energía mental te ahorras. Nuestra vista previa gratuita es exactamente eso — tres días de comidas planificadas para que experimentes la diferencia antes de comprometerte con una semana completa.",
     "valueProps": [
       {
         "heading": "Sin compromiso, resultados reales",
@@ -5375,7 +5375,7 @@
       },
       {
         "heading": "Pruébalo gratis, ahora mismo",
-        "description": "Nuestro plan gratuito genera exactamente 3 días de comidas personalizadas basadas en tus preferencias alimentarias. Sin tarjeta de crédito, sin cuenta requerida. Solo dinos qué te gusta y obtén tu plan."
+        "description": "Nuestra vista previa gratuita genera un día de comidas personalizadas basadas en tus preferencias alimentarias. Sin tarjeta de crédito, sin cuenta requerida. Solo dinos qué te gusta y obtén tu plan."
       }
     ],
     "sampleMeals": [
@@ -5423,15 +5423,15 @@
     "faqs": [
       {
         "question": "¿Son suficientes 3 días para ver los beneficios de planificar comidas?",
-        "answer": "Absolutamente. Tres días cubren el tramo más ocupado de la semana de la mayoría de las personas. Notarás menos estrés a la hora de la cena, menos pedidos impulsivos de comida a domicilio y una lista de compras más corta. Muchos de nuestros suscriptores empezaron con el plan gratuito de 3 días y se pasaron al plan completo una vez que sintieron la diferencia."
+        "answer": "Absolutamente. Tres días cubren el tramo más ocupado de la semana de la mayoría de las personas. Notarás menos estrés a la hora de la cena, menos pedidos impulsivos de comida a domicilio y una lista de compras más corta. Muchos de nuestros suscriptores empezaron con la vista previa gratuita y se pasaron al plan completo una vez que sintieron la diferencia."
       },
       {
-        "question": "¿Qué incluye el plan gratuito de 3 días?",
+        "question": "¿Qué incluye la vista previa gratuita?",
         "answer": "Obtienes 3 días completos de comidas — desayuno, almuerzo y cena — personalizadas según tus preferencias alimentarias y tamaño del hogar. Cada comida incluye ingredientes, instrucciones y tiempos de preparación. Es la misma calidad que nuestros planes de suscripción, solo que más corto."
       },
       {
         "question": "¿Puedo repetir el plan de 3 días cada semana?",
-        "answer": "El plan gratuito es una prueba única para que experimentes la planificación de comidas. Si te encanta, nuestra suscripción semanal genera un plan fresco de 7 días cada semana con nuevas recetas, para que nunca comas las mismas comidas de forma repetitiva."
+        "answer": "La vista previa es una muestra única para que experimentes la planificación de comidas. Si te encanta, nuestra suscripción semanal genera un plan fresco de 7 días cada semana con nuevas recetas, para que nunca comas las mismas comidas de forma repetitiva."
       },
       {
         "question": "¿Cómo convierto mi plan de 3 días en una semana completa?",
@@ -5441,7 +5441,7 @@
   },
   "5-day-meal-plan": {
     "title": "Plan de Comidas de 5 Días",
-    "metaDescription": "Plan de comidas de 5 días para días laborales con recetas rápidas. Prueba gratis.",
+    "metaDescription": "Plan de comidas de 5 días para días laborales con recetas rápidas. Vista previa gratis.",
     "h1": "Plan de Comidas de 5 Días Para la Semana Laboral",
     "intro": "Quieres estructura durante la semana pero libertad el sábado y domingo. Un plan de 5 días cubre cada cena y almuerzo de la semana laboral sin tocar tus fines de semana. Come fuera, pide a domicilio o improvisa en tus días libres — los días de trabajo están cubiertos. Es el punto ideal entre planificación total y flexibilidad completa.",
     "valueProps": [
@@ -5521,7 +5521,7 @@
   },
   "7-day-meal-plan": {
     "title": "Plan de Comidas de 7 Días",
-    "metaDescription": "Plan de comidas semanal completo de 7 días con recetas y lista de compras. Prueba gratis.",
+    "metaDescription": "Plan de comidas semanal completo de 7 días con recetas y lista de compras. Vista previa gratis.",
     "h1": "Plan de Comidas Completo de 7 Días",
     "intro": "Un plan de comidas completo de 7 días es el estándar de oro de la planificación alimentaria. Cada desayuno, almuerzo y cena de toda la semana — planificado, porcionado y con lista de compras antes del lunes por la mañana. Sin huecos, sin adivinanzas, sin comida desperdiciada. Esto es lo que nuestros suscriptores reciben cada semana: un plan completo creado según sus preferencias, entregado automáticamente.",
     "valueProps": [
@@ -5582,8 +5582,8 @@
     ],
     "faqs": [
       {
-        "question": "¿En qué se diferencia un plan de 7 días de la prueba gratuita?",
-        "answer": "La prueba gratuita te da un plan de 3 días para probar la experiencia. Un plan de 7 días cubre toda tu semana con más variedad y reutilización más inteligente de ingredientes en las 21 comidas. Los suscriptores también reciben planes frescos cada semana, opciones de regeneración y entrega por correo electrónico."
+        "question": "¿En qué se diferencia un plan de 7 días de la vista previa gratuita?",
+        "answer": "La vista previa gratuita te da un plan de 3 días para probar la experiencia. Un plan de 7 días cubre toda tu semana con más variedad y reutilización más inteligente de ingredientes en las 21 comidas. Los suscriptores también reciben planes frescos cada semana, opciones de regeneración y entrega por correo electrónico."
       },
       {
         "question": "¿Puedo personalizar qué comidas se incluyen?",
@@ -5605,7 +5605,7 @@
   },
   "14-day-meal-plan": {
     "title": "Plan de Comidas de 14 Días",
-    "metaDescription": "Plan de comidas de 2 semanas con variedad y rotación de recetas. Prueba gratis.",
+    "metaDescription": "Plan de comidas de 2 semanas con variedad y rotación de recetas. Vista previa gratis.",
     "h1": "Plan de Comidas de 14 Días Con Máxima Variedad",
     "intro": "¿Para qué planificar cada semana cuando puedes planificar cada dos? Un plan de 14 días te da dos semanas completas de desayunos, almuerzos y cenas de un solo golpe. Es ideal para hacer compras en mayoreo, reducir tus sesiones de planificación a la mitad y obtener suficiente variedad para que ninguna comida se sienta repetida. Piénsalo como el equivalente de planificación de comidas de comprar al por mayor — menos esfuerzo, mejores resultados.",
     "valueProps": [
@@ -5685,7 +5685,7 @@
   },
   "21-day-meal-plan": {
     "title": "Plan de Comidas de 21 Días",
-    "metaDescription": "Plan de comidas de 21 días para crear hábitos saludables duraderos. Prueba gratis.",
+    "metaDescription": "Plan de comidas de 21 días para crear hábitos saludables duraderos. Vista previa gratis.",
     "h1": "Plan de Comidas de 21 Días Para Cambiar Hábitos",
     "intro": "Se necesitan alrededor de 21 días para construir un nuevo hábito, y la planificación de comidas no es la excepción. Un plan de 21 días te da tres semanas completas de comidas estructuradas y balanceadas — suficiente tiempo para que cocinar en casa se sienta automático en vez de aspiracional. Para el día 21, tendrás una despensa bien surtida, una rutina de compras más rápida y la confianza de que realmente puedes hacer esto cada semana.",
     "valueProps": [
@@ -5769,7 +5769,7 @@
   },
   "30-day-meal-plan": {
     "title": "Plan de Comidas de 30 Días",
-    "metaDescription": "Plan de comidas mensual de 30 días con planificación completa. Prueba gratis.",
+    "metaDescription": "Plan de comidas mensual de 30 días con planificación completa. Vista previa gratis.",
     "h1": "Plan de Comidas de 30 Días Para Todo el Mes",
     "intro": "Un plan de 30 días es un reinicio total. Cuatro semanas de desayunos, almuerzos y cenas planificados que eliminan las adivinanzas de comer bien durante un mes entero. Ya sea que estés empezando una nueva dieta, recuperándote de una temporada de comida a domicilio o simplemente quieras demostrarte que cocinar en casa de forma consistente es posible — 30 días te dan el tiempo y la estructura para lograrlo y ver resultados reales y notables.",
     "valueProps": [
@@ -5853,7 +5853,7 @@
   },
   "summer-meal-plan": {
     "title": "Plan de Comidas de Verano",
-    "metaDescription": "Planes de comida de verano con recetas frescas, ligeras y de temporada. Prueba gratis.",
+    "metaDescription": "Planes de comida de verano con recetas frescas, ligeras y de temporada. Vista previa gratis.",
     "h1": "Planes de Comida de Verano Frescos y Ligeros",
     "intro": "Nadie quiere pasar una hora frente a la estufa cuando hace un calor insoportable. Un buen plan de comidas de verano aprovecha los ingredientes frescos, las parrilladas rápidas y las opciones sin cocción que se preparan en minutos. Te armamos un plan semanal lleno de frutas de temporada, ensaladas crujientes y proteínas ligeras para que comas rico sin calentar la cocina.",
     "valueProps": [
@@ -5936,7 +5936,7 @@
   },
   "winter-meal-plan": {
     "title": "Plan de Comidas de Invierno",
-    "metaDescription": "Planes de comida de invierno con sopas, guisos y comfort food de temporada. Prueba gratis.",
+    "metaDescription": "Planes de comida de invierno con sopas, guisos y comfort food de temporada. Vista previa gratis.",
     "h1": "Planes de Comida de Invierno Reconfortantes",
     "intro": "Cuando baja la temperatura, tus comidas deben estar a la altura. Un plan de comidas de invierno bien armado significa llegar a casa con guisos hirviendo a fuego lento, verduras doradas al horno y platillos de una sola olla que te calientan desde adentro. Planificamos tu semana con productos de temporada invernal como tubérculos, calabaza y cítricos para que cada comida se sienta reconfortante, nutritiva y que valga la pena.",
     "valueProps": [
@@ -6018,7 +6018,7 @@
   },
   "meal-plan-for-ramadan": {
     "title": "Plan de Comidas Para Ramadán",
-    "metaDescription": "Planes de comida para Ramadán con suhoor e iftar nutritivos y energizantes. Prueba gratis.",
+    "metaDescription": "Planes de comida para Ramadán con suhoor e iftar nutritivos y energizantes. Vista previa gratis.",
     "h1": "Planes de Comida Para Ramadán Energizantes",
     "intro": "Comer bien durante el Ramadán significa hacer que cada comida cuente. Con solo dos ventanas para comer, tu suhoor necesita sostenerte durante un día completo de ayuno, y tu iftar debe reponer energía sin sobrecargar tu sistema. Creamos planes semanales para Ramadán con energía de liberación lenta en el suhoor, entradas suaves para el iftar y platillos principales satisfactorios — todo halal, consciente de la hidratación y diseñado para mantener tu energía estable desde el amanecer hasta el anochecer.",
     "valueProps": [
@@ -6107,7 +6107,7 @@
   },
   "meal-plan-for-lent": {
     "title": "Plan de Comidas Para Cuaresma",
-    "metaDescription": "Planes de comida para Cuaresma con recetas sin carne para viernes. Prueba gratis.",
+    "metaDescription": "Planes de comida para Cuaresma con recetas sin carne para viernes. Vista previa gratis.",
     "h1": "Planes de Comida Para Cuaresma Sin Carne",
     "intro": "Observar la Cuaresma no significa comer pasta simple durante 40 días. Un plan de comidas para Cuaresma bien pensado te da viernes sin carne satisfactorios con pescado, legumbres y platillos ricos en verduras mientras mantiene el resto de la semana balanceado y nutritivo. Planificamos alrededor de las tradiciones de ayuno y abstinencia para que puedas enfocarte en lo espiritual sin estresarte por qué cocinar.",
     "valueProps": [
@@ -6189,7 +6189,7 @@
   },
   "back-to-school-meal-plan": {
     "title": "Plan de Comidas de Regreso a Clases",
-    "metaDescription": "Planes de comida de regreso a clases con loncheras y cenas rápidas para familias. Prueba gratis.",
+    "metaDescription": "Planes de comida de regreso a clases con loncheras y cenas rápidas para familias. Vista previa gratis.",
     "h1": "Planes de Comida de Regreso a Clases Prácticos",
     "intro": "El regreso a clases trae una avalancha de mañanas tempranas, horarios apretados y la eterna pregunta: ¿qué lleva de lunch mañana? Un plan de comidas para el regreso a clases elimina el caos de alimentar a tu familia dándote desayunos rápidos que los niños realmente comerán, almuerzos que sobreviven en la mochila y cenas que toda la mesa disfruta. Cada receta está diseñada para la velocidad, la sencillez y la aprobación real de los niños.",
     "valueProps": [
@@ -6274,7 +6274,7 @@
   },
   "keto-meal-plan-for-weight-loss": {
     "title": "Plan Keto Para Bajar de Peso",
-    "metaDescription": "Planes de comida keto para pérdida de peso con macros cetogénicos y déficit calórico. Prueba gratis.",
+    "metaDescription": "Planes de comida keto para pérdida de peso con macros cetogénicos y déficit calórico. Vista previa gratis.",
     "h1": "Plan de Comida Keto Para Bajar de Peso Efectivo",
     "intro": "La dieta keto funciona para bajar de peso porque pone a tu cuerpo en modo de quema de grasa — pero solo si la haces bien. Una dieta keto descuidada llena de tocino y bombas de mantequilla frena el progreso rápidamente. Nuestros planes keto para pérdida de peso alcanzan los macros correctos (70% grasa, 25% proteína, 5% carbohidratos) mientras mantienen las calorías en un déficit sostenible para que quemes grasa sin sentirte privado ni sin energía.",
     "valueProps": [
@@ -6358,7 +6358,7 @@
   },
   "vegan-meal-plan-for-muscle-gain": {
     "title": "Plan Vegano Para Ganar Músculo",
-    "metaDescription": "Planes de comida veganos altos en proteína para ganancia muscular plant-based. Prueba gratis.",
+    "metaDescription": "Planes de comida veganos altos en proteína para ganancia muscular plant-based. Vista previa gratis.",
     "h1": "Plan de Comida Vegano Para Ganar Músculo",
     "intro": "No necesitas pechuga de pollo ni batidos de whey para ganar músculo. Un plan vegano para ganar masa bien diseñado aporta más de 120g de proteína al día a través de combinaciones inteligentes de tofu, tempeh, legumbres, seitán y granos integrales. Planificamos tus calorías en un ligero superávit con suficiente proteína en cada comida para maximizar la síntesis de proteína muscular — todo de plantas, todo delicioso, todo sin la pseudociencia fitness.",
     "valueProps": [
@@ -6447,7 +6447,7 @@
   },
   "gluten-free-meal-plan-for-beginners": {
     "title": "Plan Sin Gluten Para Principiantes",
-    "metaDescription": "Planes de comida sin gluten fáciles para principiantes con guía completa. Prueba gratis.",
+    "metaDescription": "Planes de comida sin gluten fáciles para principiantes con guía completa. Vista previa gratis.",
     "h1": "Plan de Comida Sin Gluten Para Principiantes",
     "intro": "Empezar una dieta sin gluten puede sentirse abrumador cuando lees cada etiqueta y dudas de cada ingrediente. La forma más fácil de comenzar es con comidas que son naturalmente libres de gluten — sin productos especiales, sin mezclas raras de harinas, solo comida real que simplemente no tiene gluten. Nuestros planes para principiantes se enfocan en alimentos integrales que ya conoces y te encantan, con guía clara sobre las trampas de gluten oculto para que ganes confianza rápido.",
     "valueProps": [
@@ -6534,7 +6534,7 @@
   },
   "mediterranean-meal-plan-for-heart-health": {
     "title": "Plan Mediterráneo Para el Corazón",
-    "metaDescription": "Planes de comida mediterráneos para salud cardiovascular con grasas saludables. Prueba gratis.",
+    "metaDescription": "Planes de comida mediterráneos para salud cardiovascular con grasas saludables. Vista previa gratis.",
     "h1": "Plan Mediterráneo Para la Salud del Corazón",
     "intro": "La dieta mediterránea no es una moda — es el patrón alimentario más estudiado del mundo para la salud cardiovascular, con décadas de investigación que muestra reducción en el riesgo de enfermedades cardíacas, infartos cerebrales e hipertensión. Nuestros planes mediterráneos enfocados en el corazón enfatizan el aceite de oliva extra virgen, pescado graso, granos integrales, legumbres y verduras en abundancia mientras minimizan la carne roja, los alimentos procesados y los azúcares añadidos. Sabe a vacaciones y funciona como medicina.",
     "valueProps": [
@@ -6623,7 +6623,7 @@
   },
   "low-carb-meal-plan-for-diabetes": {
     "title": "Plan Bajo en Carbos Para Diabéticos",
-    "metaDescription": "Planes de comida bajos en carbohidratos para control de diabetes con índice glucémico bajo. Prueba gratis.",
+    "metaDescription": "Planes de comida bajos en carbohidratos para control de diabetes con índice glucémico bajo. Vista previa gratis.",
     "h1": "Plan Bajo en Carbohidratos Para Control de Diabetes",
     "intro": "Manejar la diabetes a través de la alimentación no significa eliminar todos los carbohidratos — significa elegir los correctos en las cantidades correctas. Nuestros planes bajos en carbohidratos para diabetes mantienen los carbohidratos netos moderados (50-100g por día), se enfocan en ingredientes de bajo índice glucémico y distribuyen los carbohidratos de manera uniforme entre las comidas para prevenir picos y caídas de azúcar en sangre. Cada receta está diseñada para energía constante, lecturas estables y comida que genuinamente disfrutas comer día tras día.",
     "valueProps": [
@@ -6712,7 +6712,7 @@
   },
   "15-minute-meal-plan": {
     "title": "Plan de Comidas de 15 Minutos — Cenas Rápidas Sin Prisas",
-    "metaDescription": "Plan semanal personalizado de comidas en 15 minutos con recetas rápidas y lista de compras. Cenas reales en 15 minutos. Prueba gratis.",
+    "metaDescription": "Plan semanal personalizado de comidas en 15 minutos con recetas rápidas y lista de compras. Cenas reales en 15 minutos. Vista previa gratis.",
     "h1": "Plan de Comidas de 15 Minutos — Comida Real, Increíblemente Rápida",
     "intro": "Quince minutos es todo lo que necesitas. No quince minutos de cocción activa más veinte de reposo — quince minutos en total, desde que abres la nevera hasta que te sientas con el plato. No son comidas tristes de escritorio ni snacks glorificados. Son cenas de verdad construidas con proteínas de cocción rápida, ingredientes prelistos y técnicas que ahorran tiempo sin sacrificar sabor.",
     "valueProps": [
@@ -6810,7 +6810,7 @@
   },
   "high-fiber-meal-plan": {
     "title": "Plan de Comidas Alto en Fibra — Mejor Digestión, Más Energía",
-    "metaDescription": "Plan semanal personalizado alto en fibra con recetas ricas en fibra y lista de compras. 30g+ de fibra diaria para mejor digestión. Prueba gratis.",
+    "metaDescription": "Plan semanal personalizado alto en fibra con recetas ricas en fibra y lista de compras. 30g+ de fibra diaria para mejor digestión. Vista previa gratis.",
     "h1": "Plan Alto en Fibra — Más Saciedad, Mejor Digestión",
     "intro": "La mayoría come la mitad de la fibra que necesita. Los 25-30 gramos diarios recomendados suenan manejables hasta que te das cuenta de que la dieta típica aporta unos 15. La diferencia se nota en hinchazón, bajones de energía y esa sensación de no estar satisfecho después de comer. Un plan alto en fibra soluciona esto sin convertir cada comida en un tazón de cereal con salvado.",
     "valueProps": [
@@ -6912,7 +6912,7 @@
   },
   "bodybuilding-meal-plan": {
     "title": "Plan de Comidas para Fisicoculturismo — Impulsa Tus Ganancias",
-    "metaDescription": "Plan semanal personalizado para fisicoculturismo con recetas altas en proteína y lista de compras. Cumple tus macros sin comer pollo y arroz siempre. Prueba gratis.",
+    "metaDescription": "Plan semanal personalizado para fisicoculturismo con recetas altas en proteína y lista de compras. Cumple tus macros sin comer pollo y arroz siempre. Vista previa gratis.",
     "h1": "Plan para Fisicoculturismo — Cumple Tus Macros Sin Monotonía",
     "intro": "La dieta de fisicoculturismo tiene un problema de imagen. La gente imagina pechuga de pollo insípida, arroz blanco y brócoli al vapor seis veces al día. Ese enfoque funciona, pero nadie lo mantiene porque es miserable. No necesitas comer como un robot para ganar músculo. Necesitas suficiente proteína, el superávit o déficit calórico correcto, y suficiente variedad para no querer rendirte en la cuarta comida.",
     "valueProps": [
@@ -7018,7 +7018,7 @@
   },
   "pregnancy-meal-plan": {
     "title": "Plan de Comidas para Embarazo — Nutre a Dos Sin Agobio",
-    "metaDescription": "Plan semanal personalizado para embarazo con recetas seguras, ricas en nutrientes y lista de compras. Ácido fólico, hierro, proteína cubiertos. Prueba gratis.",
+    "metaDescription": "Plan semanal personalizado para embarazo con recetas seguras, ricas en nutrientes y lista de compras. Ácido fólico, hierro, proteína cubiertos. Vista previa gratis.",
     "h1": "Plan para Embarazo — Comer Bien por Dos, Con Simplicidad",
     "intro": "Los consejos de nutrición en el embarazo son abrumadores. No comas esto, come más de aquello, toma estos suplementos. Mientras tanto estás con náuseas, agotada y lo único que suena bien son galletas y agua con jengibre. Un plan de comidas para embarazo corta el ruido con una respuesta clara cada día: esto es lo que hay que comer, por qué es bueno para ti y tu bebé, y cómo prepararlo en menos de 30 minutos.",
     "valueProps": [
@@ -7124,7 +7124,7 @@
   },
   "diabetic-meal-plan": {
     "title": "Plan de Comidas para Diabéticos — Control de Azúcar con Sabor",
-    "metaDescription": "Plan semanal personalizado para diabéticos con recetas de bajo índice glucémico y lista de compras. Comidas que mantienen el azúcar estable. Prueba gratis.",
+    "metaDescription": "Plan semanal personalizado para diabéticos con recetas de bajo índice glucémico y lista de compras. Comidas que mantienen el azúcar estable. Vista previa gratis.",
     "h1": "Plan para Diabéticos — Azúcar Estable, Sabor Real",
     "intro": "Manejar la diabetes a través de la dieta no significa renunciar a todo lo que disfrutas. Significa elegir alimentos que liberen energía lentamente, combinar carbohidratos con proteína y fibra, y saber qué comidas mantendrán tu azúcar estable en vez de subirla y bajarla como montaña rusa. El reto no es conocer la teoría — es saber qué cocinar un martes por la noche que cumpla todos los requisitos y aún así sepa a comida que quieres comer.",
     "valueProps": [
@@ -7226,7 +7226,7 @@
   },
   "clean-eating-meal-plan": {
     "title": "Plan de Comida Limpia — Alimentos Reales, Sin Complicaciones",
-    "metaDescription": "Plan semanal personalizado de comida limpia con recetas de alimentos integrales y lista de compras. Sin procesados, sin reglas complicadas. Prueba gratis.",
+    "metaDescription": "Plan semanal personalizado de comida limpia con recetas de alimentos integrales y lista de compras. Sin procesados, sin reglas complicadas. Vista previa gratis.",
     "h1": "Plan de Comida Limpia — Ingredientes Reales, Resultados Reales",
     "intro": "Comer limpio es simple: come alimentos que parezcan alimentos. Si creció de la tierra, caminó sobre ella o nadó en el mar, entra. Si fue fabricado en una fábrica con una lista de ingredientes más larga que un ticket, no entra. Sin contar macros, sin eliminar grupos alimenticios, sin comprar productos especiales. Solo ingredientes enteros y mínimamente procesados cocinados en comidas que te hacen sentir bien.",
     "valueProps": [
@@ -7332,6 +7332,254 @@
       {
         "question": "¿Qué pasa con comer fuera?",
         "answer": "Elige restaurantes que cocinen desde cero. Proteínas a la parrilla, guarniciones de vegetales y preparaciones simples. No se trata de perfección, sino de elegir alimentos reales la mayor parte del tiempo."
+      }
+    ]
+  },
+  "ibs-meal-plan": {
+    "title": "Plan de Comidas para el SII - Comidas Semanales Bajas en FODMAP",
+    "metaDescription": "Obtén un plan de comidas personalizado bajo en FODMAP para el SII, con recetas y listas de compras. Reduce la hinchazón, los cólicos y los brotes con comidas diseñadas para evitar los desencadenantes. Vista previa gratis.",
+    "h1": "Un plan de comidas bajo en FODMAP que le quita la incertidumbre al SII",
+    "intro": "Vivir con SII significa que cada comida es una apuesta: ¿será esta la que te arruine la tarde? El enfoque bajo en FODMAP está clínicamente probado para reducir los síntomas en hasta el 75% de quienes padecen SII, pero descubrir qué puedes comer en realidad es agotador. Te preparamos un plan de comidas bajo en FODMAP nuevo cada semana, con recetas seguras y llenas de sabor, para que comas con confianza sin pasar horas cotejando listas de ingredientes.",
+    "valueProps": [
+      {
+        "heading": "Bajo en FODMAP por defecto",
+        "description": "Cada receta evita desencadenantes altos en FODMAP como el ajo, la cebolla, el trigo y el exceso de lactosa. Usamos aceite infusionado con ajo, la parte verde de la cebolleta y otros sustitutos bajos en FODMAP para que disfrutes del sabor sin el dolor."
+      },
+      {
+        "heading": "Diseñado para la fase de eliminación",
+        "description": "Nuestros planes base siguen las pautas estrictas de la fase de eliminación. A medida que identifiques tus desencadenantes personales, puedes actualizar tus preferencias y ajustaremos tus comidas según tu progreso de reintroducción."
+      },
+      {
+        "heading": "Amigable con el intestino sin ser aburrido",
+        "description": "Bajo en FODMAP no significa pollo y arroz sin sal todas las noches. Usamos hierbas, cítricos, jengibre, jarabe de arce y otros potenciadores de sabor seguros para que las comidas sigan siendo interesantes y satisfactorias."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Avena Nocturna con Arándanos y Arce",
+        "description": "Copos de avena remojados en leche sin lactosa con semillas de chía, arándanos frescos y un chorrito de jarabe de arce. Suave para el intestino y lista al despertar.",
+        "tags": [
+          "bajo-en-fodmap",
+          "sin-cocción"
+        ]
+      },
+      {
+        "name": "Rollitos de Papel de Arroz con Pollo y Salsa de Cacahuete",
+        "description": "Rollitos de papel de arroz frescos rellenos de pollo escalfado, zanahoria, pepino y menta, servidos con una salsa de jengibre y cacahuete sin ajo ni cebolla.",
+        "tags": [
+          "bajo-en-fodmap",
+          "sin-cocción"
+        ]
+      },
+      {
+        "name": "Salmón a la Sartén con Papas al Limón y Eneldo",
+        "description": "Filete de salmón con piel acompañado de papas baby asadas en aceite de oliva infusionado con ajo, eneldo fresco y ralladura de limón. Servido con judías verdes al vapor.",
+        "tags": [
+          "bajo-en-fodmap",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Salteado de Pollo al Jengibre y Soja con Bok Choy",
+        "description": "Pechuga de pollo en tiras salteada con bok choy, pimientos y brotes de soja en una salsa de jengibre, soja y sésamo sobre arroz jazmín. Sin cebolla, sin ajo.",
+        "tags": [
+          "bajo-en-fodmap",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Tortitas de Arroz con Mantequilla de Cacahuete y Plátano",
+        "description": "Dos tortitas de arroz naturales cubiertas con mantequilla de cacahuete natural y plátano firme en rodajas (1/3 mediano, dentro de los límites FODMAP). Crujientes, satisfactorias y seguras.",
+        "tags": [
+          "bajo-en-fodmap",
+          "rápido"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué alimentos debo evitar en un plan de comidas bajo en FODMAP?",
+        "answer": "Los alimentos altos en FODMAP incluyen ajo, cebolla, trigo, centeno, manzanas, peras, sandía, miel, leche, yogur, legumbres y coliflor. Nuestros planes los excluyen automáticamente y usan sustitutos bajos en FODMAP —como aceite infusionado con ajo en lugar de dientes de ajo, y plátano firme en lugar de maduro— para que no tengas que memorizar las listas."
+      },
+      {
+        "question": "¿Cuánto tiempo debo seguir una dieta baja en FODMAP para el SII?",
+        "answer": "La fase estricta de eliminación suele durar de 2 a 6 semanas, seguida de una fase estructurada de reintroducción en la que pruebas un grupo de FODMAP a la vez. Nuestros planes comienzan con la eliminación estricta. La mayoría descubre que solo necesita evitar 1 o 2 grupos específicos de FODMAP a largo plazo, no todos."
+      },
+      {
+        "question": "¿Puede una dieta baja en FODMAP realmente reducir los síntomas del SII?",
+        "answer": "Sí. Investigaciones de la Universidad Monash muestran que una dieta baja en FODMAP reduce síntomas como hinchazón, gases, cólicos y diarrea en alrededor del 75% de las personas con SII. Actualmente es el enfoque dietético con más evidencia para el manejo del SII y lo recomiendan la mayoría de los gastroenterólogos."
+      },
+      {
+        "question": "¿Obtendré suficiente fibra en un plan bajo en FODMAP?",
+        "answer": "Por supuesto. Muchos alimentos bajos en FODMAP son excelentes fuentes de fibra: avena, quinoa, semillas de chía, naranjas, fresas, zanahorias, papas y col rizada son seguros y ricos en fibra. Nuestros planes están diseñados para incluir fibra suficiente, porque el manejo del SII no debería sacrificar la salud intestinal general."
+      },
+      {
+        "question": "¿Puedo seguir un plan bajo en FODMAP si soy vegetariano o vegano?",
+        "answer": "Sí, aunque requiere más planificación, ya que muchas proteínas vegetales (lentejas, garbanzos, frijoles rojos) son altas en FODMAP. Usamos lentejas enlatadas y enjuagadas en porciones pequeñas, tofu firme (que es bajo en FODMAP), tempeh y frutos secos para que alcances tus objetivos de proteína. Configura tus preferencias dietéticas y crearemos planes que funcionen dentro de ambas restricciones."
+      }
+    ]
+  },
+  "pcos-meal-plan": {
+    "title": "Plan de Comidas para SOP - Antiinflamatorio y Amigable con la Glucosa",
+    "metaDescription": "Obtén un plan de comidas semanal personalizado para el SOP, con recetas antiinflamatorias y listas de compras. Maneja la resistencia a la insulina y el equilibrio hormonal a través de la comida. Vista previa gratis.",
+    "h1": "Un plan de comidas para el SOP diseñado en torno a la resistencia a la insulina, no solo a las calorías",
+    "intro": "El SOP no es solo un problema reproductivo: es metabólico, y lo que comes tiene un impacto directo en los niveles de insulina, la inflamación y el equilibrio hormonal. Lo frustrante es que los consejos genéricos de \"alimentación saludable\" no bastan cuando tu cuerpo procesa los carbohidratos de forma diferente. Cada semana creamos planes de comidas específicos para el SOP que priorizan la estabilidad de la glucosa, los ingredientes antiinflamatorios y los macros equilibrados, sin que la comida se sienta como un medicamento.",
+    "valueProps": [
+      {
+        "heading": "Estabilidad de la glucosa en cada comida",
+        "description": "Cada comida combina carbohidratos complejos con proteína y grasas saludables para prevenir los picos de insulina. Usamos cereales de bajo índice glucémico, limitamos los azúcares refinados y distribuimos los carbohidratos de forma estratégica para que tu glucosa se mantenga estable durante el día."
+      },
+      {
+        "heading": "Antiinflamatorio por diseño",
+        "description": "La inflamación crónica de bajo grado impulsa los síntomas del SOP. Nuestros planes priorizan pescado rico en omega-3, cúrcuma, verduras de hoja verde, frutos rojos y aceite de oliva virgen extra, mientras reducen los alimentos procesados, los aceites refinados y el exceso de azúcar."
+      },
+      {
+        "heading": "Sostenible, no restrictivo",
+        "description": "No te ponemos en una dieta extrema de 1200 calorías. El SOP responde mejor a una nutrición adecuada con los macros correctos que a la restricción. Nuestros planes son saciantes, variados y pensados para mantenerse a largo plazo."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Muffins de Huevo con Espinaca y Feta",
+        "description": "Tazas de huevo horneadas con espinaca fresca, feta desmenuzado y tomates secos. Altas en proteína, de bajo índice glucémico y perfectas para preparar con antelación en las mañanas ocupadas.",
+        "tags": [
+          "alto-en-proteína",
+          "preparación-previa"
+        ]
+      },
+      {
+        "name": "Bowl de Salmón y Quinoa con Aguacate",
+        "description": "Salmón salvaje sobre quinoa con aguacate en rodajas, pepino, edamame y un aderezo de cúrcuma y tahini. Omega-3 y especias antiinflamatorias en un solo bowl.",
+        "tags": [
+          "antiinflamatorio",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Pimientos Rellenos de Pavo y Lentejas",
+        "description": "Pimientos rellenos de pavo molido, lentejas verdes, tomate en cubos y comino, cubiertos con un poco de cheddar. Proteína equilibrada y carbohidratos de digestión lenta.",
+        "tags": [
+          "alto-en-proteína",
+          "alto-en-fibra"
+        ]
+      },
+      {
+        "name": "Pollo a la Cúrcuma con Brócoli Asado y Camote",
+        "description": "Muslos de pollo untados con cúrcuma, pimienta negra y aceite de oliva, asados junto con floretes de brócoli y gajos de camote. Antiinflamatorio y profundamente satisfactorio.",
+        "tags": [
+          "antiinflamatorio",
+          "una-sartén"
+        ]
+      },
+      {
+        "name": "Bolitas Energéticas de Almendra y Canela",
+        "description": "Bolitas sin horno hechas con mantequilla de almendra, avena, linaza, canela y un toque de chocolate negro. La canela ayuda con la sensibilidad a la insulina y estas calman los antojos de dulce.",
+        "tags": [
+          "sin-cocción",
+          "preparación-previa"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué debo comer para manejar los síntomas del SOP?",
+        "answer": "Concéntrate en alimentos antiinflamatorios (pescado graso, verduras de hoja verde, frutos rojos, cúrcuma), carbohidratos complejos (quinoa, camote, avena), proteínas magras y grasas saludables (aguacate, aceite de oliva, frutos secos). La clave es combinar los carbohidratos con proteína y grasa para ralentizar la absorción de glucosa. Nuestros planes lo hacen automáticamente en cada comida para que no tengas que pensarlo."
+      },
+      {
+        "question": "¿Debería seguir una dieta baja en carbohidratos para el SOP?",
+        "answer": "No necesariamente. Aunque reducir los carbohidratos refinados ayuda con la resistencia a la insulina, una dieta muy baja en carbohidratos puede estresar las glándulas suprarrenales y empeorar los síntomas en algunas mujeres. Las investigaciones muestran que un consumo moderado de carbohidratos (alrededor del 40% de las calorías) de fuentes integrales funciona bien para la mayoría de personas con SOP. Nuestros planes usan este enfoque equilibrado en lugar de la restricción extrema."
+      },
+      {
+        "question": "¿Puede la dieta por sí sola ayudar con el control de peso en el SOP?",
+        "answer": "La dieta es la palanca más influyente para el control de peso en el SOP. Los estudios muestran que incluso una reducción del 5-10% del peso corporal puede restaurar la ovulación y mejorar la sensibilidad a la insulina. Nuestros planes se centran en una nutrición constante y sostenible en lugar de dietas extremas, que en realidad pueden empeorar los desequilibrios hormonales del SOP."
+      },
+      {
+        "question": "¿Hay alimentos que empeoran el SOP?",
+        "answer": "Los azúcares refinados, el pan blanco, las bebidas azucaradas, los snacks procesados y el exceso de lácteos pueden empeorar la resistencia a la insulina y la inflamación. Las grasas trans y los aceites vegetales muy procesados también son inflamatorios. Nuestros planes minimizan todo esto sin dejar de incluir comidas satisfactorias: no sentirás que estás en una dieta médica restrictiva."
+      },
+      {
+        "question": "¿Cómo maneja este plan de comidas para el SOP los antojos?",
+        "answer": "Los antojos en el SOP suelen deberse a caídas de la glucosa, no a falta de fuerza de voluntad. Al mantener tu glucosa estable con comidas equilibradas y snacks estratégicos, los antojos disminuyen de forma natural. También incluimos versiones saludables de comidas reconfortantes —chocolate negro, dulces con canela y platos salados— para que no te sientas privado."
+      }
+    ]
+  },
+  "gerd-meal-plan": {
+    "title": "Plan de Comidas para el Reflujo (ERGE) - Recetas Sin Acidez",
+    "metaDescription": "Obtén un plan de comidas semanal personalizado para la ERGE y el reflujo ácido, con recetas sin desencadenantes y listas de compras. Come bien sin ardor. Vista previa gratis hoy.",
+    "h1": "Un plan de comidas para el reflujo ácido que no sabe a castigo",
+    "intro": "Cuando tienes ERGE, comer se convierte en un campo minado. Salsa de tomate, cítricos, café, chocolate, comida picante: de repente todo lo bueno está prohibido. El resultado es que la mayoría termina comiendo las mismas tres comidas \"seguras\" una y otra vez. Creamos planes de comidas semanales que evitan los desencadenantes comunes de la ERGE sin dejar de ofrecer comida genuinamente disfrutable, para que comas sin temer lo que viene después.",
+    "valueProps": [
+      {
+        "heading": "Sin desencadenantes por defecto",
+        "description": "Cada receta evita los grandes desencadenantes de la ERGE: tomate, cítricos, chocolate, menta, cebolla cruda, chiles picantes y exceso de grasa. En su lugar construimos sabor con hierbas, jengibre, hinojo y técnicas de asado."
+      },
+      {
+        "heading": "Comidas más pequeñas y frecuentes",
+        "description": "Las comidas grandes aumentan la presión estomacal y empeoran el reflujo. Nuestros planes distribuyen las calorías en 3 comidas y 2 snacks para mantener porciones moderadas y evitar la sensación de llenura que dispara los síntomas."
+      },
+      {
+        "heading": "Cenas pensadas para dormir",
+        "description": "Las cenas son más ligeras y bajas en grasa para reducir el reflujo nocturno. Programamos la comida más abundante al mediodía y mantenemos la cena al menos 3 horas antes de la hora habitual de dormir, porque nada arruina el sueño como el ácido subiendo a las 2 de la mañana."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Avena con Plátano y Mantequilla de Almendra",
+        "description": "Avena cremosa cubierta con plátano en rodajas, un chorrito de mantequilla de almendra y una pizca de canela. Alcalinizante, suave para el estómago y genuinamente saciante.",
+        "tags": [
+          "suave",
+          "rápido"
+        ]
+      },
+      {
+        "name": "Wrap de Pollo Asado con Yogur y Pepino",
+        "description": "Pechuga de pollo asada en rodajas en un wrap integral con lechuga rallada, pepino y una salsa de yogur y eneldo. Sin tomate, sin picante, todo sabor.",
+        "tags": [
+          "rápido",
+          "alto-en-proteína"
+        ]
+      },
+      {
+        "name": "Bacalao al Horno con Hinojo y Papas Asadas",
+        "description": "Bacalao blanco suave horneado con hinojo en rodajas, papas baby y tomillo fresco en aceite de oliva. El hinojo es un calmante digestivo natural y combina de maravilla con el pescado.",
+        "tags": [
+          "suave",
+          "una-sartén"
+        ]
+      },
+      {
+        "name": "Albóndigas de Pavo con Fideos de Calabacín y Pesto de Albahaca",
+        "description": "Albóndigas de pavo horneadas servidas sobre calabacín en espiral con un pesto de albahaca y piñones (sin salsa de tomate). Más ligero que la pasta tradicional pero igual de satisfactorio.",
+        "tags": [
+          "alto-en-proteína",
+          "bajo-en-ácido"
+        ]
+      },
+      {
+        "name": "Bowl de Melón y Requesón",
+        "description": "Cantalupo y melón verde en cubos con requesón bajo en grasa. Los melones están entre las frutas más alcalinas, y el requesón aporta proteína sin la carga de grasa.",
+        "tags": [
+          "rápido",
+          "sin-cocción"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Qué alimentos debo evitar con la ERGE?",
+        "answer": "Los desencadenantes más comunes de la ERGE son el tomate y las salsas a base de tomate, los cítricos, el chocolate, el café, las bebidas gaseosas, la menta, la cebolla cruda, la comida picante y los fritos altos en grasa. El alcohol —especialmente el vino tinto— también es un desencadenante importante. Nuestros planes excluyen todo esto por defecto y usan alternativas creativas para dar sabor."
+      },
+      {
+        "question": "¿Puedo seguir disfrutando de comida sabrosa con reflujo ácido?",
+        "answer": "Por supuesto. La cocina apta para la ERGE se apoya en hierbas (albahaca, tomillo, romero, eneldo), jengibre, hinojo, técnicas de asado y caramelizado, e ingredientes ricos en umami como los champiñones y el parmesano. Pierdes la salsa de tomate y los chiles, pero ganas todo un mundo de sabor que no te pasa factura."
+      },
+      {
+        "question": "¿Importa el horario de las comidas para la ERGE?",
+        "answer": "Sí, y mucho. Comer comidas grandes o comer dentro de las 2-3 horas antes de acostarse son dos de los mayores desencadenantes del reflujo. Nuestros planes mantienen porciones moderadas en la cena, programan la comida más calórica al mediodía e incluyen snacks estratégicos para que nunca comas una comida enorme cerca de la hora de dormir."
+      },
+      {
+        "question": "¿Ayudará a mi reflujo ácido perder peso?",
+        "answer": "Para muchas personas, sí. El exceso de peso abdominal aumenta la presión sobre el estómago y debilita el esfínter esofágico inferior. Los estudios muestran que incluso una pérdida de peso modesta de 4 a 7 kilos puede reducir significativamente los síntomas de la ERGE. Nuestros planes pueden adaptarse para la pérdida de peso sin dejar de ser aptos para la ERGE."
       }
     ]
   }

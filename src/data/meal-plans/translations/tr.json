@@ -1,7 +1,7 @@
 {
   "vegetarian": {
     "title": "Haftalık Vejetaryen Yemek Planları",
-    "metaDescription": "Alışveriş listeleriyle kişiselleştirilmiş haftalık vejetaryen yemek planları. Yüksek proteinli, dengeli etsiz yemekler. Bugün ücretsiz deneyin.",
+    "metaDescription": "Alışveriş listeleriyle kişiselleştirilmiş haftalık vejetaryen yemek planları. Yüksek proteinli, dengeli etsiz yemekler. Ücretsiz önizlemeyi görün.",
     "h1": "Sizi Gerçekten Tok Tutan Vejetaryen Yemek Planları",
     "intro": "Vejetaryen beslenme, makarna ve peynirle hayatta kalmak demek olmamalı. Asıl zorluk, protein hedeflerinize ulaşmak ve her hafta yemekleri heyecan verici tutmaktır. Biz size her hafta dengeli makrolarla, farklı mutfak kültürlerinden ilham alan ve hazır alışveriş listesiyle gelen taze bir vejetaryen yemek planı oluşturuyoruz — böylece akşam ne yiyeceğinizi asla merak etmezsiniz.",
     "valueProps": [
@@ -161,7 +161,7 @@
   },
   "gluten-free": {
     "title": "Haftalık Glutensiz Yemek Planları",
-    "metaDescription": "Çölyak ve hassasiyet ihtiyaçlarına yönelik kişiselleştirilmiş glutensiz yemek planları. Güvenli ve lezzetli haftalık yemekler. Ücretsiz deneyin.",
+    "metaDescription": "Çölyak ve hassasiyet ihtiyaçlarına yönelik kişiselleştirilmiş glutensiz yemek planları. Güvenli ve lezzetli haftalık yemekler. Ücretsiz önizlemeyi görün.",
     "h1": "Tahmin Yürütmeden Glutensiz Yemek Planları",
     "intro": "Glutensiz beslenme, ekmek ve makarnadan vazgeçmek anlamına gelmek zorunda değil — doğru planlamayla çok daha zengin bir yemek dünyası keşfedebilirsiniz. Pirinç, kinoa, patates, mısır ve sayısız doğal glutensiz malzeme ile her hafta çeşitli ve lezzetli bir yemek planı oluşturuyoruz. Gizli gluten kaynaklarını biz takip ediyoruz, böylece siz sadece yemeklerinizin tadını çıkarırsınız.",
     "valueProps": [
@@ -321,7 +321,7 @@
   },
   "keto": {
     "title": "Haftalık Keto Yemek Planları",
-    "metaDescription": "30g net karbonun altında tutan kişiselleştirilmiş haftalık keto yemek planları. Makro hesaplı yemekler ve alışveriş listeleri. Şimdi ücretsiz başlayın.",
+    "metaDescription": "30g net karbonun altında tutan kişiselleştirilmiş haftalık keto yemek planları. Makro hesaplı yemekler ve alışveriş listeleri. Ücretsiz önizlemeyi görün.",
     "h1": "Düşük Karbonhidratlı Yaşamı Kolaylaştıran Keto Yemek Planları",
     "intro": "Keto diyeti, doğru uygulandığında güçlü sonuçlar verir — ama her gün ne yiyeceğinizi planlamak yorucu olabilir. Makrolarınızı takip etmek, karbonhidratları sınırlamak ve yine de lezzetli yemekler hazırlamak kolay değildir. Biz her hafta yüksek yağlı, yeterli proteinli ve düşük karbonhidratlı bir yemek planı oluşturuyoruz — alışveriş listesiyle birlikte.",
     "valueProps": [
@@ -401,7 +401,7 @@
   },
   "low-carb": {
     "title": "Haftalık Düşük Karbonhidratlı Yemek Planları",
-    "metaDescription": "Esnek karbonhidrat hedefleri ve alışveriş listeleriyle haftalık düşük karbonhidratlı yemek planları. Keto kadar katı değil, akıllı seçimler. Ücretsiz deneyin.",
+    "metaDescription": "Esnek karbonhidrat hedefleri ve alışveriş listeleriyle haftalık düşük karbonhidratlı yemek planları. Keto kadar katı değil, akıllı seçimler. Ücretsiz önizlemeyi görün.",
     "h1": "Tam Ketoya Geçmek İstemeyenler İçin Düşük Karbonhidratlı Yemek Planları",
     "intro": "Düşük karbonhidratlı beslenme, karbonhidratı tamamen kesmek demek değildir — akıllı seçimler yapmak demektir. Beyaz ekmek ve şekerli atıştırmalıklar yerine karnabahar pirinç, kabak noodle ve protein açısından zengin yemeklerle doyurucu bir haftalık plan oluşturuyoruz. Keto kadar katı olmadan, karbonhidratınızı azaltmanın en sürdürülebilir yolu.",
     "valueProps": [
@@ -481,7 +481,7 @@
   },
   "pescatarian": {
     "title": "Haftalık Pesketaryen Yemek Planları",
-    "metaDescription": "Her hafta deniz ürünleri ve bitkisel yemeklerle kişiselleştirilmiş pesketaryen yemek planları. Omega-3 açısından zengin ve lezzetli. Ücretsiz deneyin.",
+    "metaDescription": "Her hafta deniz ürünleri ve bitkisel yemeklerle kişiselleştirilmiş pesketaryen yemek planları. Omega-3 açısından zengin ve lezzetli. Ücretsiz önizlemeyi görün.",
     "h1": "Omega-3 ve Lezzet Dolu Pesketaryen Yemek Planları",
     "intro": "Peskataryen beslenme, deniz ürünlerinin protein kaynağı olarak ön plana çıktığı esnek ve besleyici bir yeme biçimidir. Omega-3 yağ asitleri açısından zengin balık ve deniz ürünleri, sebzeler ve tahıllarla birleşerek hem kalp sağlığını destekler hem de yemek çeşitliliğini artırır. Her hafta taze balıktan sushiye, deniz mahsullerinden makarnaya kadar geniş bir yelpazede plan oluşturuyoruz.",
     "valueProps": [
@@ -561,7 +561,7 @@
   },
   "halal": {
     "title": "Haftalık Helal Yemek Planları",
-    "metaDescription": "Yalnızca helal malzemelerle kişiselleştirilmiş haftalık helal yemek planları. Uygunluk konusunda tahmin yok — lezzetli helal yemekler. Ücretsiz başlayın.",
+    "metaDescription": "Yalnızca helal malzemelerle kişiselleştirilmiş haftalık helal yemek planları. Uygunluk konusunda tahmin yok — lezzetli helal yemekler. Ücretsiz önizlemeyi görün.",
     "h1": "Helal Beslenmenin Stresini Ortadan Kaldıran Yemek Planları",
     "intro": "Helal yemek planlaması, sadece et kaynağıyla ilgili değildir — pişirme yöntemlerinden malzeme tercihlerine kadar kapsamlı bir yaklaşım gerektirir. Alkol içeren soslar, jelatin ve bazı katkı maddeleri de dikkate alınmalıdır. Planlarımız tüm bu detayları önceden halleder, böylece siz sadece lezzetli ve besleyici yemeklerinizin keyfini çıkarırsınız.",
     "valueProps": [
@@ -641,7 +641,7 @@
   },
   "kosher": {
     "title": "Haftalık Koşer Yemek Planları",
-    "metaDescription": "Kaşrut kurallarına uygun kişiselleştirilmiş haftalık koşer yemek planları. Et ve süt ayrımı dahil, düzenli alışveriş listeleri. Ücretsiz deneyin.",
+    "metaDescription": "Kaşrut kurallarına uygun kişiselleştirilmiş haftalık koşer yemek planları. Et ve süt ayrımı dahil, düzenli alışveriş listeleri. Ücretsiz önizlemeyi görün.",
     "h1": "Kaşrut'a ve Zamanınıza Saygı Duyan Koşer Yemek Planları",
     "intro": "Koşer yemek planlaması, doğru malzeme seçiminin ötesinde et ve süt ürünlerinin ayrılması, uygun hazırlık yöntemleri ve güvenilir sertifikasyon konularında dikkatli olmayı gerektirir. Planlarımız tüm bu karmaşıklığı sizin yerinize halleder — her tarif koşer kurallara uygun, dengeli beslenme sağlayan ve gerçekten lezzetli yemekler sunar.",
     "valueProps": [
@@ -1201,7 +1201,7 @@
   },
   "indian": {
     "title": "Haftalık Hint Yemek Planları",
-    "metaDescription": "Zengin köriler, kokulu dallar ve yumuşak naan ile haftalık otantik Hint yemek planları. İhtiyacınız olan her baharatla alışveriş listeleri. Ücretsiz deneyin.",
+    "metaDescription": "Zengin köriler, kokulu dallar ve yumuşak naan ile haftalık otantik Hint yemek planları. İhtiyacınız olan her baharatla alışveriş listeleri. Ücretsiz önizlemeyi görün.",
     "h1": "Baharat ve Lezzet Dolu Hint Yemek Planları",
     "intro": "Hint mutfağı, dünyanın en aromatik ve çeşitli yemek kültürlerinden biridir. Kuzey'in tandır kebaplarından Güney'in dosa ve sambarlarına, Batı'nın deniz mahsullerinden Doğu'nun tatlılarına kadar — bu mutfak sonsuz keşif sunar. Her hafta otantik Hint baharatları ve pişirme teknikleriyle dolu bir yemek planı hazırlıyoruz — garam masala'dan zerdeçala kadar her şey alışveriş listenizde.",
     "valueProps": [
@@ -3498,7 +3498,7 @@
   },
   "meal-plan-for-weight-loss": {
     "title": "Kilo Verme Yemek Planı",
-    "metaDescription": "Dengeli makrolar ve alışveriş listeleriyle kişiselleştirilmiş haftalık kilo verme yemek planı. Sürdürülebilir, doyurucu yemekler otomatik planlanır. Ücretsiz deneyin.",
+    "metaDescription": "Dengeli makrolar ve alışveriş listeleriyle kişiselleştirilmiş haftalık kilo verme yemek planı. Sürdürülebilir, doyurucu yemekler otomatik planlanır. Ücretsiz önizlemeyi görün.",
     "h1": "Diyet Gibi Hissettirmeyen Kilo Verme Yemek Planı",
     "intro": "Kilo vermek sade tavuk göğsü ve buharda brokoli yemek anlamına gelmemeli. Asıl önemli olan, asla kendinizi yoksun hissetmemeniz için gerçekten doyurucu olan kalori kontrollü öğünlerdir. Her hafta uygun porsiyonlar, dengeli besin değerleri ve motivasyonunuzu yolculuk boyunca canlı tutacak kadar çeşitliliğe sahip taze bir kilo verme yemek planı oluşturuyoruz.",
     "valueProps": [
@@ -3578,7 +3578,7 @@
   },
   "meal-plan-for-muscle-gain": {
     "title": "Kas Yapma Yemek Planı",
-    "metaDescription": "Kişiselleştirilmiş haftalık yemek planıyla kas yapın. Dengeli makrolar ve alışveriş listeleriyle yüksek proteinli tarifler. Bugün ücretsiz deneyin.",
+    "metaDescription": "Kişiselleştirilmiş haftalık yemek planıyla kas yapın. Dengeli makrolar ve alışveriş listeleriyle yüksek proteinli tarifler. Ücretsiz önizlemeyi görün.",
     "h1": "Gerçek Sonuçlar Veren Kas Yapma Yemek Planı",
     "intro": "Kas yapmak sadece spor salonuna gitmekten fazlasını gerektirir — toparlanma ve büyümeyi desteklemek için tutarlı, protein açısından zengin beslenmeye ihtiyacınız var. Sorun şu ki, hacim için yemek hazırlığı yorucu ve tekrarlayıcıdır. Her hafta taze, yüksek kalorili ve yüksek proteinli bir yemek planı oluşturuyoruz; böylece siz antrenmana odaklanın, beslenmeyi bize bırakın.",
     "valueProps": [
@@ -3662,7 +3662,7 @@
   },
   "meal-plan-for-pregnancy": {
     "title": "Hamilelik Yemek Planı",
-    "metaDescription": "Folat açısından zengin tarifler, dengeli beslenme ve alışveriş listeleriyle hamilelik güvenli haftalık yemek planı. Her trimester için planlandı. Ücretsiz deneyin.",
+    "metaDescription": "Folat açısından zengin tarifler, dengeli beslenme ve alışveriş listeleriyle hamilelik güvenli haftalık yemek planı. Her trimester için planlandı. Ücretsiz önizlemeyi görün.",
     "h1": "Sizi ve Bebeğinizi Besleyen Hamilelik Yemek Planı",
     "intro": "Hamilelikte iyi beslenmek her zamankinden önemli, ama aşermeler, yiyecek tiksintileri ve yorgunluk arasında besleyici öğünler planlamak bunaltıcı olabilir. Hamilelik yemek planlarımız temel doğum öncesi besinler göz önünde bulundurularak tasarlanmıştır — folat, demir, kalsiyum, omega-3'ler — iştahınız ne kadar öngörülemez olursa olsun yemekleri çekici tutarken.",
     "valueProps": [
@@ -3746,7 +3746,7 @@
   },
   "meal-plan-for-beginners": {
     "title": "Yeni Başlayanlar İçin Yemek Planı",
-    "metaDescription": "Kolay, yeni başlayan dostu tarifler ve haftalık alışveriş listeleriyle yemek planlamaya başlayın. Basit malzemeler, net talimatlar. Ücretsiz deneyin.",
+    "metaDescription": "Kolay, yeni başlayan dostu tarifler ve haftalık alışveriş listeleriyle yemek planlamaya başlayın. Basit malzemeler, net talimatlar. Ücretsiz önizlemeyi görün.",
     "h1": "Nereden Başlayacağını Bilmeyenler İçin Yemek Planı",
     "intro": "Yemek planlaması gözünüzü korkutuyorsa yalnız değilsiniz. Çoğu kişi bunda başarısız oluyor çünkü sıfırdan gurme seviyeye bir gecede geçmeye çalışıyor. Yeni başlayan yemek planlarımız basit teknikler, yaygın malzemeler ve kısa hazırlık süreleri kullanıyor; böylece tükenmeden alışkanlık oluşturabilirsiniz. Her tarif sıfırdan başladığınızı varsayar — şef becerileri gerekmez.",
     "valueProps": [
@@ -3826,7 +3826,7 @@
   },
   "meal-plan-for-picky-eaters": {
     "title": "Seçici Yiyiciler İçin Yemek Planı",
-    "metaDescription": "Seçici yiyiciler için tasarlanmış haftalık yemek planı. Tanıdık lezzetler, garip malzeme yok, dengeli beslenme. Kişiselleştirilmiş ve otomatik. Ücretsiz deneyin.",
+    "metaDescription": "Seçici yiyiciler için tasarlanmış haftalık yemek planı. Tanıdık lezzetler, garip malzeme yok, dengeli beslenme. Kişiselleştirilmiş ve otomatik. Ücretsiz önizlemeyi görün.",
     "h1": "Gerçekten Keyif Alacağınız Seçici Yiyiciler Yemek Planı",
     "intro": "Seçici bir damak tadına sahip olmak sonsuza dek tavuk nugget yemek zorunda olduğunuz anlamına gelmiyor. İşin sırrı tanıdık lezzetlerden başlayıp konfor alanınızı kademeli olarak genişletmek. Seçici yiyici yemek planlarımız yaklaşılabilir malzemeler, rahat dokular ve herkesin beğendiği lezzetlere odaklanırken fark bile etmeyeceğiniz şekilde dengeli beslenme sağlıyor.",
     "valueProps": [
@@ -3906,7 +3906,7 @@
   },
   "meal-plan-on-a-budget": {
     "title": "Bütçe Dostu Yemek Planı",
-    "metaDescription": "Bütçe dostu yemek planıyla az harcayıp iyi yiyin. Uygun fiyatlı tarifler, akıllı alışveriş listeleri ve sıfır israf. Ücretsiz deneyin.",
+    "metaDescription": "Bütçe dostu yemek planıyla az harcayıp iyi yiyin. Uygun fiyatlı tarifler, akıllı alışveriş listeleri ve sıfır israf. Ücretsiz önizlemeyi görün.",
     "h1": "Ucuz Görünmeyen Bütçe Dostu Yemek Planı",
     "intro": "Sıkı bütçeyle sağlıklı beslenmek mümkün — sadece bir plana ihtiyacınız var. En büyük para israfı dürtüsel market alışverişi, kullanmadan bozulan yiyecekler ve son dakika paket servistir. Bütçe yemek planlarımız uygun fiyatlı temel gıdalar kullanır, örtüşen malzemelerle israfı en aza indirir ve her kuruşun sayılmasını sağlayan akıllı alışveriş listeleri oluşturur.",
     "valueProps": [
@@ -3990,7 +3990,7 @@
   },
   "meal-plan-for-diabetes": {
     "title": "Diyabet İçin Yemek Planı",
-    "metaDescription": "Düşük glisemik tarifler, dengeli karbonhidratlar ve alışveriş listeleriyle diyabet dostu haftalık yemek planı. Kan şekerini lezzetle yönetin. Ücretsiz deneyin.",
+    "metaDescription": "Düşük glisemik tarifler, dengeli karbonhidratlar ve alışveriş listeleriyle diyabet dostu haftalık yemek planı. Kan şekerini lezzetle yönetin. Ücretsiz önizlemeyi görün.",
     "h1": "Kan Şekeri Yönetimini Kolaylaştıran Diyabet Yemek Planı",
     "intro": "Diyetle diyabet yönetimi sevdiğiniz yiyeceklerden vazgeçmek zorunda olmak anlamına gelmiyor. Asıl önemli olan gün boyunca kan şekerini dengede tutan tutarlı, dengeli öğünlerdir. Diyabete uygun planlarımız düşük glisemik karbonhidratlar, yağsız proteinler, sağlıklı yağlar ve uygun porsiyonlara odaklanıyor — yemekleri gerçekten keyifli tutarken.",
     "valueProps": [
@@ -4070,7 +4070,7 @@
   },
   "meal-plan-for-heart-health": {
     "title": "Kalp Sağlığı Yemek Planı",
-    "metaDescription": "Omega-3, lif ve yağsız proteinler açısından zengin haftalık yemek planıyla kalbinizi koruyun. Düşük sodyum, dengeli yağlar. Ücretsiz deneyin.",
+    "metaDescription": "Omega-3, lif ve yağsız proteinler açısından zengin haftalık yemek planıyla kalbinizi koruyun. Düşük sodyum, dengeli yağlar. Ücretsiz önizlemeyi görün.",
     "h1": "Tadı Sağlığı Kadar İyi Olan Kalp Sağlığı Yemek Planı",
     "intro": "Kalp dostu bir diyet uzun ömür için yapabileceğiniz en etkili şeylerden biridir ama ceza gibi hissettirmemeli. Planlarımız omega-3 yağ asitleri, çözünür lif, yağsız proteinler ve bol meyve-sebzeye önem verirken sodyumu kontrol altında tutar. Her öğün lezzetten ödün vermeden kardiyovasküler sağlığı desteklemek için tasarlanmıştır.",
     "valueProps": [
@@ -4150,7 +4150,7 @@
   },
   "high-protein-meal-plan": {
     "title": "Yüksek Proteinli Yemek Planı",
-    "metaDescription": "Günde 100g+ proteinle kişiselleştirilmiş yüksek proteinli yemek planı. Dengeli tarifler, otomatik alışveriş listeleri ve haftalık çeşitlilik. Ücretsiz deneyin.",
+    "metaDescription": "Günde 100g+ proteinle kişiselleştirilmiş yüksek proteinli yemek planı. Dengeli tarifler, otomatik alışveriş listeleri ve haftalık çeşitlilik. Ücretsiz önizlemeyi görün.",
     "h1": "Her Hedef İçin Yüksek Proteinli Yemek Planı",
     "intro": "İster kas yapıyor olun, ister kilo veriyor olun, ister öğünlerden sonra daha tok hissetmek istiyor olun — protein cevaptır. Zorluk, her gün aynı ızgara tavuk göğsü yemeden protein hedefinizi tutarlı bir şekilde tutturmaktır. Yüksek protein planlarımız günlük 100-180g proteini çeşitli, lezzetli ve asla tekrarlayıcı hissettirmeyen öğünlerle sağlar.",
     "valueProps": [
@@ -4234,7 +4234,7 @@
   },
   "anti-inflammatory-meal-plan": {
     "title": "Anti-İnflamatuar Yemek Planı",
-    "metaDescription": "Omega-3, antioksidanlar ve tam gıdalarla zengin haftalık yemek planıyla kronik iltihapla savaşın. Kişiselleştirilmiş tarifler ve alışveriş listeleri. Ücretsiz deneyin.",
+    "metaDescription": "Omega-3, antioksidanlar ve tam gıdalarla zengin haftalık yemek planıyla kronik iltihapla savaşın. Kişiselleştirilmiş tarifler ve alışveriş listeleri. Ücretsiz önizlemeyi görün.",
     "h1": "İçten Dışa İyileştiren Anti-İnflamatuar Yemek Planı",
     "intro": "Kronik iltihaplanma eklem ağrısından yorgunluğa, sindirim sorunlarından cilt problemlerine kadar pek çok sağlık sorununun sessiz itici gücüdür. Anti-enflamatuar beslenme, iltihabı azaltan yiyeceklere öncelik verirken tetikleyicileri en aza indirir. Planlarımız omega-3 açısından zengin balıklar, renkli sebzeler, tam tahıllar ve güçlü baharatlarla dolu öğünler sunuyor.",
     "valueProps": [
@@ -4394,7 +4394,7 @@
   },
   "meal-plan-for-two": {
     "title": "İki Kişilik Yemek Planı",
-    "metaDescription": "İki kişiye mükemmel porsiyonlanmış haftalık yemek planı. Dengeli tarifler, ortak alışveriş listeleri ve biriken artık yok. Ücretsiz deneyin.",
+    "metaDescription": "İki kişiye mükemmel porsiyonlanmış haftalık yemek planı. Dengeli tarifler, ortak alışveriş listeleri ve biriken artık yok. Ücretsiz önizlemeyi görün.",
     "h1": "Hafta İçi Yemek Yapmayı Kolaylaştıran İki Kişilik Yemek Planı",
     "intro": "İki kişi için yemek planlamak altın orandır — tek kişilik tariflerden daha verimli, aile boyutundan daha az artık. İster partneriniz ister ev arkadaşınızla yaşayın, iki kişilik planlarımız her iki damak tadını da tatmin eden, israfı sıfıra indiren ve pişirme işini adil paylaştıran öğünler sunar.",
     "valueProps": [
@@ -4554,7 +4554,7 @@
   },
   "meal-plan-for-family-of-6": {
     "title": "6 Kişilik Aile Yemek Planı",
-    "metaDescription": "Haftalık yemek planıyla 6 kişilik aileyi besleyin. Toplu tarifler, bütçe dostu alışveriş ve herkesin sevdiği yemekler. Ücretsiz deneyin.",
+    "metaDescription": "Haftalık yemek planıyla 6 kişilik aileyi besleyin. Toplu tarifler, bütçe dostu alışveriş ve herkesin sevdiği yemekler. Ücretsiz önizlemeyi görün.",
     "h1": "Herkesi Tok ve Mutlu Tutan 6 Kişilik Aile Yemek Planı",
     "intro": "Altı kişilik bir aile için yemek planlamak hem bütçe hem de lojistik açısından ciddi bir görevdir. Farklı yaşlardaki aile üyelerinin damak tadını tatmin ederken porsiyonların yetmesini sağlamak ve israfı en aza indirmek gerekir. Büyük aile planlarımız bol porsiyonlu, bütçe dostu ve herkesin sofrada mutlu olduğu tarifler sunuyor.",
     "valueProps": [
@@ -4634,7 +4634,7 @@
   },
   "meal-plan-for-college-students": {
     "title": "Üniversite Öğrencileri İçin Yemek Planı",
-    "metaDescription": "Üniversite hayatına uygun haftalık yemek planı. Bütçe dostu, yurt dostu tarifler, minimum ekipman ve kısa hazırlık süreleri. Ücretsiz deneyin.",
+    "metaDescription": "Üniversite hayatına uygun haftalık yemek planı. Bütçe dostu, yurt dostu tarifler, minimum ekipman ve kısa hazırlık süreleri. Ücretsiz önizlemeyi görün.",
     "h1": "Gerçek Öğrenci Bütçesine Uygun Üniversite Öğrenci Yemek Planı",
     "intro": "Üniversite hayatı sınırlı bütçe, küçük mutfak, sıfır zaman ve genellikle yalnızca mikrodalga veya mini ocak anlamına gelir. Üniversite öğrencileri için yemek planlarımız gerçekçidir: ucuz malzemeler, minimum ekipman, hızlı hazırlık süreleri ve yurt odası mutfağında bile yapılabilecek tarifler.",
     "valueProps": [
@@ -4714,7 +4714,7 @@
   },
   "quick-30-minute-meal-plan": {
     "title": "Hızlı 30 Dakikalık Yemek Planı",
-    "metaDescription": "Her tarifin 30 dakika veya daha kısa sürdüğü haftalık yemek planı. Hızlı, dengeli akşam yemekleri ve alışveriş listeleri. Ücretsiz deneyin.",
+    "metaDescription": "Her tarifin 30 dakika veya daha kısa sürdüğü haftalık yemek planı. Hızlı, dengeli akşam yemekleri ve alışveriş listeleri. Ücretsiz önizlemeyi görün.",
     "h1": "Yoğun Hafta İçi Akşamları İçin 30 Dakikalık Hızlı Yemek Planı",
     "intro": "Yemek pişirmek için saatleriniz yok — anlıyoruz. Ama bu her akşam paket servis sipariş etmeniz gerektiği anlamına gelmiyor. 30 dakikalık yemek planlarımız hazırlık, pişirme ve servis dahil yarım saatte masaya gelen lezzetli, dengeli öğünler sunuyor. Hızlı ama asla sıradan değil.",
     "valueProps": [
@@ -4874,7 +4874,7 @@
   },
   "1500-calorie-meal-plan": {
     "title": "1500 Kalorilik Yemek Planı",
-    "metaDescription": "Dengeli makrolar ve doyurucu tariflerle haftalık 1500 kalorilik yemek planı. Kısıtlayıcı hissettirmeyen sürdürülebilir açık. Ücretsiz deneyin.",
+    "metaDescription": "Dengeli makrolar ve doyurucu tariflerle haftalık 1500 kalorilik yemek planı. Kısıtlayıcı hissettirmeyen sürdürülebilir açık. Ücretsiz önizlemeyi görün.",
     "h1": "Kilo Vermeyi Sürdürülebilir Kılan 1500 Kalorilik Yemek Planı",
     "intro": "1.500 kalori, kilo verme ile sürdürülebilirlik arasındaki tatlı noktadır. Çoğu insan için yeterli enerji sağlarken ılımlı bir kalori açığı yaratır. Yoksunluk hissi olmadan kilo vermenizi sağlayan, dengeli ve tatmin edici öğünlerle dolu planlar sunuyoruz.",
     "valueProps": [
@@ -4954,7 +4954,7 @@
   },
   "1800-calorie-meal-plan": {
     "title": "1800 Kalorilik Yemek Planı",
-    "metaDescription": "Aktif yaşam tarzları için yeterli yakıtla haftalık 1800 kalorilik yemek planı. Doyurucu yemeklerle kademeli kilo verme. Ücretsiz deneyin.",
+    "metaDescription": "Aktif yaşam tarzları için yeterli yakıtla haftalık 1800 kalorilik yemek planı. Doyurucu yemeklerle kademeli kilo verme. Ücretsiz önizlemeyi görün.",
     "h1": "Gerçekten Hareket Eden İnsanlar İçin 1800 Kalorilik Yemek Planı",
     "intro": "Aktifseniz ve kilo vermek istiyorsanız, aşırı kalori kesintileri geri tepebilir. 1.800 kalorilik bir plan, antrenmanlarınızı tamamlamanız, işte zinde kalmanız ve yavaş yavaş yağ yakmanızı sağlayacak orta düzeyde bir açık oluşturmanız için yeterli yakıtı sağlar. Bunlar, enerji için yeterli karbonhidrat, toparlanma için yeterli protein ve bir planda olduğunuzu unutturacak kadar lezzetli gerçek porsiyonlu öğünlerdir.",
     "valueProps": [
@@ -5038,7 +5038,7 @@
   },
   "2000-calorie-meal-plan": {
     "title": "2000 Kalorilik Yemek Planı",
-    "metaDescription": "Dengeli, USDA uyumlu beslenmeyle haftalık 2000 kalorilik yemek planı. Üç doyurucu öğün ve atıştırmalıklar, otomatik planlanır. Ücretsiz deneyin.",
+    "metaDescription": "Dengeli, USDA uyumlu beslenmeyle haftalık 2000 kalorilik yemek planı. Üç doyurucu öğün ve atıştırmalıklar, otomatik planlanır. Ücretsiz önizlemeyi görün.",
     "h1": "Dengeli, Günlük Beslenme İçin 2000 Kalorilik Yemek Planı",
     "intro": "2.000 kalori, ortalama bir yetişkin için standart referans noktası olarak kabul edilir; ancak bir numaralı nedeni bu değil. Bu plan, dengeli öğünleri seven, çok az yiyip kendini mahrum etmeden kilo korumak isteyen veya sağlıklı beslenmeyi sürdürülebilir ve lezzetli kılmak isteyen kişilere hitap eder. İçerik yeterli karbonhidrat, yeterli protein ve sizi saat gibi işleten sağlıklı yağlardan oluşmaktadır.",
     "valueProps": [
@@ -5122,7 +5122,7 @@
   },
   "2500-calorie-meal-plan": {
     "title": "2500 Kalorilik Yemek Planı",
-    "metaDescription": "Aktif erkekler, sporcular ve kas yapma için haftalık 2500 kalorilik yemek planı. Yüksek protein, dengeli makrolar. Ücretsiz deneyin.",
+    "metaDescription": "Aktif erkekler, sporcular ve kas yapma için haftalık 2500 kalorilik yemek planı. Yüksek protein, dengeli makrolar. Ücretsiz önizlemeyi görün.",
     "h1": "Performans İçin Tasarlanmış 2500 Kalorilik Yemek Planı",
     "intro": "2.500 kalori, düzenli egzersiz yapanlar, kas kütlesi kazanmak isteyenler veya yoğun günlerin yarattığı yakıt açığını kapatmak isteyenler için ideal bir hedeftir. Bu plan; büyük, doyurucu öğünleri, güçlü protein bazını ve enerji seviyelerinizi sabit tutacak yeterli karbonhidratı bir arada sunar.",
     "valueProps": [
@@ -5207,7 +5207,7 @@
   },
   "3000-calorie-meal-plan": {
     "title": "3000 Kalorilik Yemek Planı",
-    "metaDescription": "Kas yapma ve yüksek aktiviteli yaşam tarzları için haftalık 3000 kalorilik yemek planı. Temiz, tam gıda yemekler. Ücretsiz deneyin.",
+    "metaDescription": "Kas yapma ve yüksek aktiviteli yaşam tarzları için haftalık 3000 kalorilik yemek planı. Temiz, tam gıda yemekler. Ücretsiz önizlemeyi görün.",
     "h1": "Tamamen Yakıt, Sıfır Abur Cubur 3000 Kalorilik Yemek Planı",
     "intro": "3.000 kalori, büyük kaslara ciddi yakıt sağlamak anlamına gelir. Bu plan; sporcular, fiziksel olarak yoğun işlerde çalışanlar ve metabolizması hızlı olanlar için tasarlanmıştır. Her öğün doyurucu olup protein, karbonhidrat ve yağ açısından yeterlidir; böylece yorulup tükenmeden gün boyu enerjik kalırsınız.",
     "valueProps": [
@@ -5293,7 +5293,7 @@
   },
   "3-day-meal-plan": {
     "title": "3 Günlük Yemek Planı",
-    "metaDescription": "Dengeli tarifler ve alışveriş listesiyle ücretsiz 3 günlük yemek planı deneyin. Düşük taahhüt, sıfır stres. Abone olmadan önce yemek planlamayı deneyin.",
+    "metaDescription": "Dengeli tarifler ve alışveriş listesiyle kişiselleştirilmiş yemek planınızın ücretsiz önizlemesini görün. Düşük taahhüt, sıfır stres. Abone olmadan önce yemek planlamayı deneyin.",
     "h1": "Haftanıza Hız Vermek İçin 3 Günlük Yemek Planı",
     "intro": "Bazen ihtiyacınız olan şey haftalık devasa bir plan değil, sizi doğru yola sokan üç düzgün gündür. İster yoğun bir hafta sonu için öğün hazırlığı yapıyor olun, ister yeni bir beslenme düzenini deneyip beğenip beğenmeyeceğinize bakıyor olun ya da yalnızca pazar günü alışveriş listenizi kısaltmak istiyor olun, üç günlük bir plan; bütçeyi sarsmadan, kalabalık bir buzdolabına ihtiyaç duymadan ve devasa bir taahhüt gerektirmeden işe yarar.",
     "valueProps": [
@@ -5973,7 +5973,7 @@
   },
   "meal-plan-for-ramadan": {
     "title": "Ramazan Yemek Planı",
-    "metaDescription": "Dengeli sahur ve iftar yemekleriyle haftalık Ramazan yemek planı. Oruç günleri için enerji veren, nemlendirici, helal tarifler. Ücretsiz deneyin.",
+    "metaDescription": "Dengeli sahur ve iftar yemekleriyle haftalık Ramazan yemek planı. Oruç günleri için enerji veren, nemlendirici, helal tarifler. Ücretsiz önizlemeyi görün.",
     "h1": "Ramazan Yemek Planı: Her Oruç Günü İçin Besleyici Sahur ve İftar",
     "intro": "Ramazan ayında yemek planlaması farklı bir ritim gerektirir: Uzun oruç saatlerinde vücudu besleyecek sahur ve oruç bozmanın coşkusunu yansıtan iftar. İyi bir Ramazan planı, sahurda vücudu uzun süre tok tutan, yavaş sindirilen besinlere ve iftarda hem ruhu hem bedeni besleyen geleneksel lezzetlere yer verir.",
     "valueProps": [
@@ -6229,7 +6229,7 @@
   },
   "keto-meal-plan-for-weight-loss": {
     "title": "Kilo Verme İçin Keto Yemek Planı",
-    "metaDescription": "Günde 25g net karbonun altında yüksek yağlı, düşük karbonhidratlı tariflerle haftalık keto kilo verme yemek planı. Gerçek yemek, hile yok. Ücretsiz deneyin.",
+    "metaDescription": "Günde 25g net karbonun altında yüksek yağlı, düşük karbonhidratlı tariflerle haftalık keto kilo verme yemek planı. Gerçek yemek, hile yok. Ücretsiz önizlemeyi görün.",
     "h1": "Gerçekten Lezzetli Kilo Verme Keto Yemek Planı",
     "intro": "Ketojenik diyet, karbonhidrat alımını minimuma indirerek vücudu ketozise giren ve yağ yakmayı birincil enerji kaynağı olarak kullanan bir beslenme modelidir. Kilo verme için keto planı; yüksek yağ, orta düzeyde protein ve çok az karbonhidrat içeren öğünlerle oluşturulur. Doğru yapıldığında, keto açlık hissini azaltır ve yağ kaybını hızlandırır.",
     "valueProps": [
@@ -6497,7 +6497,7 @@
   },
   "mediterranean-meal-plan-for-heart-health": {
     "title": "Kalp Sağlığı İçin Akdeniz Yemek Planı",
-    "metaDescription": "Zeytinyağı, balık ve tam tahıllarla kalp sağlığı için haftalık Akdeniz yemek planı. Araştırma destekli beslenme kalıplarına dayanır. Ücretsiz deneyin.",
+    "metaDescription": "Zeytinyağı, balık ve tam tahıllarla kalp sağlığı için haftalık Akdeniz yemek planı. Araştırma destekli beslenme kalıplarına dayanır. Ücretsiz önizlemeyi görün.",
     "h1": "Kalp Sağlığı İçin Akdeniz Yemek Planı: İyi Yiyin, Kalbinizi Koruyun",
     "intro": "Akdeniz diyeti, dünyada en çok araştırılmış beslenme modellerinden biridir ve kalp sağlığına olumlu etkisi bilimsel olarak kanıtlanmıştır. Bu plan; zeytinyağı, balık, tam tahıllar, baklagiller, bol sebze ve az miktarda kırmızı et içeren klasik Akdeniz prensiplerini takip eder. Kısıtlayıcı değil, lezzetli — gerçek Akdeniz yemeklerinin ruhu bu.",
     "valueProps": [
@@ -6675,7 +6675,7 @@
   },
   "15-minute-meal-plan": {
     "title": "15 Dakikalık Yemek Planı — Acele Etmeden Hızlı Akşam Yemekleri",
-    "metaDescription": "15 dakikalık hızlı tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık yemek planı. 15 dakikada gerçek yemekler. Ücretsiz deneyin.",
+    "metaDescription": "15 dakikalık hızlı tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık yemek planı. 15 dakikada gerçek yemekler. Ücretsiz önizlemeyi görün.",
     "h1": "15 Dakikalık Yemek Planı — Gerçek Yemek, İnanılmaz Hızlı",
     "intro": "On beş dakika yeterli. On beş dakika aktif pişirme artı yirmi dakika kaynatma değil — buzdolabını açtığınızdan tabakla oturduğunuz ana kadar toplam on beş dakika. Bunlar üzücü masa yemekleri ya da süslü atıştırmalıklar değil. Hızlı pişen proteinler, hazır malzemeler ve lezzetten ödün vermeden zaman kazandıran tekniklerle yapılmış gerçek akşam yemekleri.",
     "valueProps": [
@@ -6773,7 +6773,7 @@
   },
   "high-fiber-meal-plan": {
     "title": "Yüksek Lifli Yemek Planı — Daha İyi Sindirim, Daha Fazla Enerji",
-    "metaDescription": "Lif açısından zengin tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık yüksek lifli yemek planı. Günlük 30g+ lif. Ücretsiz deneyin.",
+    "metaDescription": "Lif açısından zengin tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık yüksek lifli yemek planı. Günlük 30g+ lif. Ücretsiz önizlemeyi görün.",
     "h1": "Yüksek Lifli Plan — Daha Tok, Daha İyi Sindirim",
     "intro": "Çoğu insan ihtiyaç duyduğu lifin yarısını alıyor. Günde önerilen 25-30 gram, tipik bir diyetin yaklaşık 15 gram sağladığını fark edene kadar makul görünür. Fark şişkinlik, enerji düşüşleri ve yemekten sonraki o tatminsiz hisle kendini gösterir. Yüksek lifli bir yemek planı, her öğünü kepekli gevreğe çevirmeden bunu çözer.",
     "valueProps": [
@@ -6875,7 +6875,7 @@
   },
   "bodybuilding-meal-plan": {
     "title": "Vücut Geliştirme Yemek Planı — Kazanımlarınızı Besleyin",
-    "metaDescription": "Yüksek proteinli tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık vücut geliştirme yemek planı. Her öğün tavuk pilav yemeden makrolarınızı tutturun. Ücretsiz deneyin.",
+    "metaDescription": "Yüksek proteinli tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık vücut geliştirme yemek planı. Her öğün tavuk pilav yemeden makrolarınızı tutturun. Ücretsiz önizlemeyi görün.",
     "h1": "Vücut Geliştirme Planı — Monotonluk Olmadan Makro Hedefi",
     "intro": "Vücut geliştirme diyetinin bir imaj sorunu var. İnsanlar tatsız tavuk göğsü, beyaz pilav ve buharda brokoli düşünüyor — günde altı kez. Bu yaklaşım işe yarar ama sefil olduğu için kimse buna devam etmez. Kas yapmak için robot gibi yemek zorunda değilsiniz. Yeterli protein, doğru kalori fazlası veya açığı ve dördüncü öğünde bırakmak istememenizi sağlayacak kadar çeşitlilik yeterli.",
     "valueProps": [
@@ -6981,7 +6981,7 @@
   },
   "pregnancy-meal-plan": {
     "title": "Hamilelik Yemek Planı — İkisini de Zahmetsizce Besle",
-    "metaDescription": "Güvenli, besin açısından zengin tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık hamilelik yemek planı. Folik asit, demir, protein dahil. Ücretsiz deneyin.",
+    "metaDescription": "Güvenli, besin açısından zengin tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık hamilelik yemek planı. Folik asit, demir, protein dahil. Ücretsiz önizlemeyi görün.",
     "h1": "Hamilelik Planı — İkisi İçin de Sağlıklı, Basitçe",
     "intro": "Hamilelikte beslenme tavsiyeleri bunaltıcıdır. Bunu yeme, bundan daha fazla ye, bu takviyeleri al. Bu arada mide bulantısı, yorgunluk var ve kulağa hoş gelen tek şey kraker ve zencefilli su. Hamilelik yemek planı, her gün net bir cevapla gürültüyü keser: bugün ne ye, neden senin ve bebeğin için iyi, 30 dakikadan kısa sürede nasıl hazırlanır.",
     "valueProps": [
@@ -7087,7 +7087,7 @@
   },
   "diabetic-meal-plan": {
     "title": "Diyabetik Yemek Planı — Lezzetli Şeker Kontrolü",
-    "metaDescription": "Düşük glisemik indeksli tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık diyabet yemek planı. Kan şekerini dengede tutan öğünler. Ücretsiz deneyin.",
+    "metaDescription": "Düşük glisemik indeksli tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık diyabet yemek planı. Kan şekerini dengede tutan öğünler. Ücretsiz önizlemeyi görün.",
     "h1": "Diyabet Planı — Dengeli Şeker, Gerçek Lezzet",
     "intro": "Diyabeti diyetle yönetmek, sevdiğiniz her şeyden vazgeçmek demek değildir. Enerjiyi yavaş salan gıdaları seçmek, karbonhidratları protein ve lifle eşleştirmek ve hangi yemeklerin kan şekerinizi dağ gibi inip çıkarmak yerine dengede tutacağını bilmek demektir. Zorluk teoriyi bilmek değil — Salı akşamı tüm gereksinimleri karşılayan ve yine de yemek isteyeceğiniz bir şey pişirmeyi bilmektir.",
     "valueProps": [
@@ -7189,7 +7189,7 @@
   },
   "clean-eating-meal-plan": {
     "title": "Temiz Beslenme Yemek Planı — Gerçek Gıdalar, Komplikasyonsuz",
-    "metaDescription": "Tam gıda tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık temiz beslenme planı. İşlenmiş gıda yok, karmaşık kurallar yok. Ücretsiz deneyin.",
+    "metaDescription": "Tam gıda tarifler ve alışveriş listesiyle kişiselleştirilmiş haftalık temiz beslenme planı. İşlenmiş gıda yok, karmaşık kurallar yok. Ücretsiz önizlemeyi görün.",
     "h1": "Temiz Beslenme Planı — Gerçek Malzemeler, Gerçek Sonuçlar",
     "intro": "Temiz yemek basittir: gıda gibi görünen gıdalar ye. Topraktan çıkmışsa, üzerinde yürümüşse veya denizde yüzmüşse, olur. Fişten daha uzun malzeme listesiyle bir fabrikada üretilmişse, olmaz. Makro saymak yok, gıda gruplarını elemek yok, özel ürünler almak yok. Sadece tam ve minimal işlenmiş malzemeler, sizi iyi hissettiren yemeklere dönüştürülmüş.",
     "valueProps": [

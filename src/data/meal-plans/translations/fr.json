@@ -81,7 +81,7 @@
   },
   "vegan": {
     "title": "Plans Repas Vegans Hebdomadaires",
-    "metaDescription": "Menus vegans personnalises avec liste de courses et repas equilibres 100% vegetaux. Planification automatique. Essai gratuit.",
+    "metaDescription": "Menus vegans personnalises avec liste de courses et repas equilibres 100% vegetaux. Planification automatique. Aperçu gratuit.",
     "h1": "Plans Repas Vegans Savoureux et Nutritifs",
     "intro": "Passer au 100 % végétal, c'est naviguer entre la B12, le fer et les protéines sans se rabattre éternellement sur les trois mêmes recettes. Planifier ses repas en tant que végane demande un vrai effort — lire les étiquettes, équilibrer les nutriments et trouver des plats qui plaisent à tout le foyer. Nous nous occupons de tout avec des menus hebdomadaires véganes à base d'aliments complets, nutritionnellement réfléchis et vraiment délicieux.",
     "valueProps": [
@@ -161,7 +161,7 @@
   },
   "gluten-free": {
     "title": "Plans Repas Sans Gluten Hebdomadaires",
-    "metaDescription": "Menus sans gluten personnalises chaque semaine. Repas delicieux sans compromettre le gout. Liste de courses incluse. Essai gratuit.",
+    "metaDescription": "Menus sans gluten personnalises chaque semaine. Repas delicieux sans compromettre le gout. Liste de courses incluse. Aperçu gratuit.",
     "h1": "Plans Repas Sans Gluten Qui Ont Vraiment du Gout",
     "intro": "Vivre sans gluten, c'est bien plus que simplement éviter le pain — c'est lire chaque étiquette, s'inquiéter du gluten caché dans les sauces et les assaisonnements, et adapter constamment ses recettes. Que vous soyez atteint de maladie cœliaque ou d'une sensibilité au gluten, la charge mentale d'une planification alimentaire sûre est épuisante. Nous générons des menus hebdomadaires entièrement sans gluten à base d'ingrédients naturellement sûrs pour que vous puissiez arrêter de stresser et vous mettre aux fourneaux.",
     "valueProps": [
@@ -241,7 +241,7 @@
   },
   "dairy-free": {
     "title": "Plans Repas Sans Produits Laitiers",
-    "metaDescription": "Menus hebdomadaires sans produits laitiers avec des alternatives delicieuses. Liste de courses et recettes automatiques. Essai gratuit.",
+    "metaDescription": "Menus hebdomadaires sans produits laitiers avec des alternatives delicieuses. Liste de courses et recettes automatiques. Aperçu gratuit.",
     "h1": "Plans Repas Sans Lait Pleins de Saveur",
     "intro": "Supprimer les produits laitiers, c'est repenser tout, du café du matin aux pâtes du soir. Le plus dur, ce n'est pas d'éviter le lait — c'est de trouver des repas qui restent riches, crémeux et satisfaisants sans fromage ni beurre comme béquille. Nos menus sans produits laitiers utilisent des substitutions astucieuses et des cuisines naturellement sans lait pour construire des semaines de repas que vous attendrez avec impatience.",
     "valueProps": [
@@ -321,7 +321,7 @@
   },
   "keto": {
     "title": "Plans Repas Keto Hebdomadaires",
-    "metaDescription": "Menus cetogenes personnalises avec macros calculees et liste de courses. Restez en cetose facilement chaque semaine. Essai gratuit.",
+    "metaDescription": "Menus cetogenes personnalises avec macros calculees et liste de courses. Restez en cetose facilement chaque semaine. Aperçu gratuit.",
     "h1": "Plans Repas Keto Pour Rester en Cetose Sans Effort",
     "intro": "Le keto semble simple — supprimer les glucides, manger plus de gras — mais en pratique, c'est un casse-tête quotidien. Compter les glucides nets, éviter les sucres cachés dans les sauces et garder des repas intéressants au-delà du bacon et des œufs demande une planification sérieuse. Nous générons des menus keto qui atteignent automatiquement vos objectifs de macros, avec une variété qui vous maintient en cétose et hors de la routine.",
     "valueProps": [
@@ -401,7 +401,7 @@
   },
   "low-carb": {
     "title": "Plans Repas Faibles en Glucides",
-    "metaDescription": "Menus pauvres en glucides personnalises chaque semaine. Repas rassasiants sans les feculents. Liste de courses incluse. Essai gratuit.",
+    "metaDescription": "Menus pauvres en glucides personnalises chaque semaine. Repas rassasiants sans les feculents. Liste de courses incluse. Aperçu gratuit.",
     "h1": "Plans Repas Faibles en Glucides Sans Privation",
     "intro": "Vous voulez réduire les glucides, mais sans renoncer aux fruits, aux patates douces ni au toast occasionnel. L'alimentation faible en glucides, c'est le juste milieu flexible — moins de glucides raffinés, plus de protéines et de bonnes graisses, sans les règles rigides du keto. Nos menus à faible teneur en glucides vous maintiennent dans la fourchette de 50 à 100 g de glucides avec des repas équilibrés et rassasiants qui ne donnent pas l'impression de se priver.",
     "valueProps": [
@@ -481,7 +481,7 @@
   },
   "pescatarian": {
     "title": "Plans Repas Pescetariens Hebdomadaires",
-    "metaDescription": "Menus pescetariens avec poissons et fruits de mer chaque semaine. Recettes saines et liste de courses automatique. Essai gratuit.",
+    "metaDescription": "Menus pescetariens avec poissons et fruits de mer chaque semaine. Recettes saines et liste de courses automatique. Aperçu gratuit.",
     "h1": "Plans Repas Pescetariens Frais et Savoureux",
     "intro": "L'alimentation pescétarienne offre le meilleur des deux mondes — la richesse nutritionnelle des fruits de mer avec la variété de la cuisine végétale. Mais sans planification, on retombe vite sur le même combo saumon-riz chaque soir ou on dépense trop en poisson frais. Nous composons des menus pescétariens hebdomadaires qui alternent fruits de mer abordables et premium avec des repas végétariens copieux, le tout avec une liste de courses qui respecte votre budget.",
     "valueProps": [
@@ -561,7 +561,7 @@
   },
   "halal": {
     "title": "Plans Repas Halal Hebdomadaires",
-    "metaDescription": "Menus halal personnalises chaque semaine avec des repas conformes et delicieux. Liste de courses incluse. Essai gratuit.",
+    "metaDescription": "Menus halal personnalises chaque semaine avec des repas conformes et delicieux. Liste de courses incluse. Aperçu gratuit.",
     "h1": "Plans Repas Halal Pour des Repas Conformes et Savoureux",
     "intro": "Planifier des repas halal va bien au-delà d'éviter le porc — c'est vérifier chaque sauce, assaisonnement et ingrédient transformé pour détecter les composants non halal cachés comme les extraits à base d'alcool ou la gélatine d'origine animale. Quand vous cuisinez pour une famille, cette vigilance constante est épuisante. Nos menus halal n'utilisent que des ingrédients permis dès le départ, pour que vous puissiez vous concentrer sur la cuisine, pas sur la lecture d'étiquettes.",
     "valueProps": [
@@ -641,7 +641,7 @@
   },
   "kosher": {
     "title": "Plans Repas Casher Hebdomadaires",
-    "metaDescription": "Menus casher personnalises avec separation viande et lait. Recettes delicieuses et liste de courses. Essai gratuit.",
+    "metaDescription": "Menus casher personnalises avec separation viande et lait. Recettes delicieuses et liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Casher Qui Simplifient la Cuisine Quotidienne",
     "intro": "Planifier des repas casher, ce n'est pas seulement une question de ce que l'on mange — c'est aussi la façon dont les ingrédients se combinent. Séparer viande et lait à chaque repas, éviter les mélanges interdits et planifier autour du Shabbat ajoutent des couches de complexité que les planificateurs de repas classiques ignorent complètement. Nos menus casher sont construits avec les règles de la cacherout comme fondation, séparant correctement les repas de viande et de lait et n'utilisant que des ingrédients permis.",
     "valueProps": [
@@ -721,7 +721,7 @@
   },
   "no-meat-fridays": {
     "title": "Plans Repas Vendredis Sans Viande",
-    "metaDescription": "Menus pour le Careme avec vendredis sans viande. Recettes a base de poisson et vegetariennes avec liste de courses. Essai gratuit.",
+    "metaDescription": "Menus pour le Careme avec vendredis sans viande. Recettes a base de poisson et vegetariennes avec liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Pour les Vendredis Sans Viande",
     "intro": "Que vous observiez le Carême, suiviez la tradition d'abstinence du vendredi toute l'année, ou souhaitiez simplement un jour structuré sans viande, planifier un dîner du vendredi satisfaisant sans viande peut sembler le repas le plus difficile de la semaine. C'est d'autant plus compliqué quand vous nourrissez une famille qui attend un « vrai repas ». Nos menus construisent votre semaine entière avec le vendredi comme ancre sans viande — fruits de mer, œufs ou entièrement végétarien — pour que cela soit un vrai choix, pas un compromis.",
     "valueProps": [
@@ -801,7 +801,7 @@
   },
   "american": {
     "title": "Plans Repas Americains Classiques",
-    "metaDescription": "Menus americains classiques revises pour la maison. Burgers, mac & cheese et BBQ avec une touche saine. Essai gratuit.",
+    "metaDescription": "Menus americains classiques revises pour la maison. Burgers, mac & cheese et BBQ avec une touche saine. Aperçu gratuit.",
     "h1": "Plans Repas Americains Classiques Faits Maison",
     "intro": "Des burgers savoureux au barbecue en passant par les gratins maison et le rôti du dimanche, la cuisine américaine est synonyme de saveurs généreuses et de portions satisfaisantes. Notre planificateur de repas par IA compose votre programme hebdomadaire de plats américains classiques, liste de courses incluse, pour que vous passiez moins de temps à réfléchir et plus de temps à cuisiner. Que vous nourrissiez une famille de quatre ou que vous prépariez vos repas en solo, ces plans rendent les dîners de semaine sans effort.",
     "valueProps": [
@@ -883,7 +883,7 @@
   },
   "italian": {
     "title": "Plans Repas Italiens Hebdomadaires",
-    "metaDescription": "Menus italiens authentiques chaque semaine. Pates, risottos et plats mijotes avec liste de courses. Essai gratuit.",
+    "metaDescription": "Menus italiens authentiques chaque semaine. Pates, risottos et plats mijotes avec liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Italiens Pour une Cuisine Authentique a la Maison",
     "intro": "La cuisine italienne repose sur la simplicité — des ingrédients de qualité, des techniques honnêtes et des repas faits pour être partagés. Nos plans de repas italiens hebdomadaires vous proposent une sélection de pâtes, risottos, viandes grillées et salades rustiques dignes d’une trattoria romaine. Chaque plan est accompagné d’une liste de courses regroupée pour attraper vos tomates San Marzano et votre basilic frais en une seule fois.",
     "valueProps": [
@@ -966,7 +966,7 @@
   },
   "mexican": {
     "title": "Plans Repas Mexicains Hebdomadaires",
-    "metaDescription": "Menus mexicains avec tacos, burritos et salsas chaque semaine. Recettes authentiques et liste de courses automatique. Essai gratuit.",
+    "metaDescription": "Menus mexicains avec tacos, burritos et salsas chaque semaine. Recettes authentiques et liste de courses automatique. Aperçu gratuit.",
     "h1": "Plans Repas Mexicains Audacieux et Savoureux",
     "intro": "La cuisine mexicaine va bien au-delà des tacos — c’est une riche tapisserie de moles, salsas, braisés et ceviches frais façonnée par des siècles de tradition. Notre planificateur de repas par IA vous livre une semaine de recettes mexicaines authentiques avec le bon équilibre entre piquant, acidité et richesse. Chaque plan comprend une liste de courses pour savoir exactement quels piments, citrons verts et épices acheter.",
     "valueProps": [
@@ -1048,7 +1048,7 @@
   },
   "asian": {
     "title": "Plans Repas Asiatiques Hebdomadaires",
-    "metaDescription": "Menus asiatiques varies avec cuisine chinoise, japonaise et thai. Recettes faciles avec liste de courses. Essai gratuit.",
+    "metaDescription": "Menus asiatiques varies avec cuisine chinoise, japonaise et thai. Recettes faciles avec liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Asiatiques Pour Explorer les Saveurs d'Orient",
     "intro": "La cuisine asiatique couvre un éventail incroyable — de l’intensité des sautés chinois au wok aux bols herbacés et fraîs du phô vietnamien. Nos plans de repas asiatiques puisent dans tout le continent pour construire une semaine de repas vibrants et équilibrés. Chaque plan inclut une liste de courses pour faire le plein de sauce soja, huile de sésame, nouilles de riz et aromates frais en une seule fois.",
     "valueProps": [
@@ -1131,7 +1131,7 @@
   },
   "mediterranean": {
     "title": "Plans Repas Mediterraneens Hebdomadaires",
-    "metaDescription": "Menus mediterraneens sains avec huile d'olive, legumes frais et proteines maigres. Liste de courses incluse. Essai gratuit.",
+    "metaDescription": "Menus mediterraneens sains avec huile d'olive, legumes frais et proteines maigres. Liste de courses incluse. Aperçu gratuit.",
     "h1": "Plans Repas Mediterraneens Pour une Vie Saine",
     "intro": "Le régime méditerranéen est régulièrement classé comme le mode d’alimentation le plus sain au monde — et pour cause. Fondé sur l’huile d’olive, les légumes frais, les céréales complètes, le poisson et les légumineuses, il est aussi délicieux que nutritif. Nos plans hebdomadaires réunissent le meilleur de la cuisine grecque, espagnole, libanaise et italienne côtière en un programme de repas pratique avec une liste de courses prête à l’emploi.",
     "valueProps": [
@@ -1212,7 +1212,7 @@
   },
   "indian": {
     "title": "Plans Repas Indiens Hebdomadaires",
-    "metaDescription": "Menus indiens epices chaque semaine. Currys, dals et biryanis avec liste de courses automatique. Essai gratuit.",
+    "metaDescription": "Menus indiens epices chaque semaine. Currys, dals et biryanis avec liste de courses automatique. Aperçu gratuit.",
     "h1": "Plans Repas Indiens Riches en Epices et en Saveurs",
     "intro": "La cuisine indienne est un univers de saveurs — du butter chicken crémeux du Pendjab aux currys au lait de coco du Kérala. Notre planificateur par IA compose une semaine équilibrée de repas indiens couvrant tout le spectre des épices, textures et traditions régionales. Chaque plan inclut une liste de courses détaillée épice par épice, que vous soyez un cuisinier aguerri ou que vous essayiez les recettes indiennes pour la première fois.",
     "valueProps": [
@@ -1296,7 +1296,7 @@
   },
   "thai": {
     "title": "Plans Repas Thailandais Hebdomadaires",
-    "metaDescription": "Menus thailandais authentiques avec pad thai, currys et soupes. Recettes equilibrees et liste de courses. Essai gratuit.",
+    "metaDescription": "Menus thailandais authentiques avec pad thai, currys et soupes. Recettes equilibrees et liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Thailandais Pour une Cuisine Vibrante a la Maison",
     "intro": "La cuisine thaïlandaise est une leçon magistrale d’équilibre — sucré, acide, salé et épicé dans chaque bouchée. Des currys verts aromatiques aux salades de som tum acidulées, c’est l’une des cuisines les plus passionnantes à reproduire chez soi. Nos plans de repas thaïlandais hebdomadaires vous guident vers des plats dignes d’un restaurant avec des instructions claires et une liste de courses couvrant tout, de la citronnelle au basilic thaï.",
     "valueProps": [
@@ -1380,7 +1380,7 @@
   },
   "japanese": {
     "title": "Plans Repas Japonais Hebdomadaires",
-    "metaDescription": "Menus japonais equilibres avec ramen, sushi bowls et teriyaki. Cuisine saine et liste de courses automatique. Essai gratuit.",
+    "metaDescription": "Menus japonais equilibres avec ramen, sushi bowls et teriyaki. Cuisine saine et liste de courses automatique. Aperçu gratuit.",
     "h1": "Plans Repas Japonais Pour une Cuisine Equilibree et Raffinee",
     "intro": "La cuisine japonaise du quotidien est bien différente de ce que la plupart imaginent — ce n’est pas que des sushis et des ramen. C’est la soupe miso au petit-déjeuner, le poisson grillé avec des légumes marinés, et le nabe mijoté les soirs froids. Nos plans de repas japonais hebdomadaires apportent cette élégante simplicité à votre cuisine avec des recettes pratiques et une liste de courses couvrant dashi, miso, mirin et tout ce dont vous avez besoin.",
     "valueProps": [
@@ -1462,7 +1462,7 @@
   },
   "french": {
     "title": "Plans Repas Francais Hebdomadaires",
-    "metaDescription": "Menus francais classiques adaptes au quotidien. Techniques accessibles et ingredients du marche. Essai gratuit.",
+    "metaDescription": "Menus francais classiques adaptes au quotidien. Techniques accessibles et ingredients du marche. Aperçu gratuit.",
     "h1": "Plans Repas Francais Pour Cuisiner Comme un Chef a la Maison",
     "intro": "La cuisine française a une réputation intimidante, mais la réalité de la cuisine quotidienne à la française est simple, de saison et profondément satisfaisante. Pensez quiches dorées, ragouts généreux et vinaigrettes parfaites — pas la complexité étoilée. Nos plans hebdomadaires apportent les repas de bistrot à votre table avec des instructions simples et une liste de courses sans prise de tête.",
     "valueProps": [
@@ -1545,7 +1545,7 @@
   },
   "middle-eastern": {
     "title": "Plans Repas Moyen-Orientaux Hebdomadaires",
-    "metaDescription": "Menus moyen-orientaux avec falafels, houmous et grillades. Recettes authentiques et liste de courses. Essai gratuit.",
+    "metaDescription": "Menus moyen-orientaux avec falafels, houmous et grillades. Recettes authentiques et liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Moyen-Orientaux Genereux et Parfumes",
     "intro": "La cuisine du Moyen-Orient est l’une des grandes traditions culinaires réconfortantes du monde — généreuse, aromatique et faite pour le partage. Des mezzés libanais aux plats de riz persans en passant par les salades israéliennes, ces saveurs sont chaleureuses, herbacées et profondément satisfaisantes. Nos plans hebdomadaires apportent cette hospitalité à votre table avec des recettes organisées et une liste de courses couvrant chaque épice, céréale et herbe fraîche dont vous aurez besoin.",
     "valueProps": [
@@ -1627,7 +1627,7 @@
   },
   "korean": {
     "title": "Plans Repas Coreens Hebdomadaires",
-    "metaDescription": "Menus coreens avec bibimbap, bulgogi et kimchi jjigae. Recettes authentiques et liste de courses. Essai gratuit.",
+    "metaDescription": "Menus coreens avec bibimbap, bulgogi et kimchi jjigae. Recettes authentiques et liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Coreens Pour une Cuisine Audacieuse a la Maison",
     "intro": "La cuisine coréenne a conquis le monde entier, et pour cause : elle est audacieuse, fermentée, épicée et irrésistible. Mais la cuisine maison coréenne, c'est bien plus que le barbecue et le poulet frit. Ce sont des tables couvertes de banchan, des ragoûts bouillonnants et des bols de riz réconfortants. Nos menus hebdomadaires apportent toute cette richesse dans votre cuisine avec des recettes allant du bibimbap express en semaine au jjigae longuement mijoté, accompagnés d'une liste de courses couvrant votre gochujang, votre huile de sésame et tout le reste.",
     "valueProps": [
@@ -1711,7 +1711,7 @@
   },
   "southern": {
     "title": "Plans Repas Cuisine du Sud Americain",
-    "metaDescription": "Menus cuisine du Sud avec poulet frit, grits et biscuits. Recettes reconfortantes avec liste de courses. Essai gratuit.",
+    "metaDescription": "Menus cuisine du Sud avec poulet frit, grits et biscuits. Recettes reconfortantes avec liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Cuisine du Sud Pour le Confort a la Maison",
     "intro": "La cuisine du Sud des États-Unis, c'est la définition même de la soul food : des plats transmis de génération en génération, construits sur le beurre, le babeurre, la fonte et le temps. Nos menus hebdomadaires respectent cet héritage tout en le rendant accessible en semaine, avec du poulet frit croustillant, des crevettes aux grits, des biscuits moelleux et des accompagnements qui sont bien plus qu'une simple garniture.",
     "valueProps": [
@@ -1794,7 +1794,7 @@
   },
   "vegan-thai": {
     "title": "Plans Repas Vegan Thailandais",
-    "metaDescription": "Menus thai vegans avec currys au lait de coco, pad thai et soupes. 100% vegetal, 100% savoureux. Essai gratuit.",
+    "metaDescription": "Menus thai vegans avec currys au lait de coco, pad thai et soupes. 100% vegetal, 100% savoureux. Aperçu gratuit.",
     "h1": "Plans Repas Vegan Thailandais Pleins de Saveurs",
     "intro": "La cuisine thaïlandaise est naturellement faite pour l'alimentation végétalienne : le lait de coco, la citronnelle, le galanga et les herbes fraîches créent des saveurs intenses sans aucun produit animal. Le seul défi, c'est la sauce de poisson omniprésente, et nos recettes la remplacent astucieusement sans rien perdre en goût.",
     "valueProps": [
@@ -1883,7 +1883,7 @@
   },
   "vegan-indian": {
     "title": "Plans Repas Vegan Indiens",
-    "metaDescription": "Menus indiens vegans avec dals, currys de legumes et chutneys. Riche en proteines vegetales. Essai gratuit.",
+    "metaDescription": "Menus indiens vegans avec dals, currys de legumes et chutneys. Riche en proteines vegetales. Aperçu gratuit.",
     "h1": "Plans Repas Vegan Indiens Riches et Parfumes",
     "intro": "La cuisine indienne possède déjà l'une des traditions végétariennes les plus riches au monde. Passer au végétalien signifie simplement remplacer le ghee et les produits laitiers — et les saveurs restent tout aussi intenses. Nos menus explorent toute la diversité régionale de l'Inde pour des repas végétaliens qui ne manquent de rien.",
     "valueProps": [
@@ -1972,7 +1972,7 @@
   },
   "vegan-mediterranean": {
     "title": "Plans Repas Vegan Mediterraneens",
-    "metaDescription": "Menus mediterraneens vegans avec houmous, legumes grilles et cereales. Sain et gourmand. Essai gratuit.",
+    "metaDescription": "Menus mediterraneens vegans avec houmous, legumes grilles et cereales. Sain et gourmand. Aperçu gratuit.",
     "h1": "Plans Repas Vegan Mediterraneens Sains et Gourmands",
     "intro": "Le régime méditerranéen est déjà reconnu comme l'un des plus sains au monde. Supprimez les produits laitiers et les œufs, et vous obtenez un mode d'alimentation végétal, gorgé d'huile d'olive, de légumineuses et de légumes de saison, qui préserve toute la richesse de cette cuisine millénaire.",
     "valueProps": [
@@ -2059,7 +2059,7 @@
   },
   "keto-mediterranean": {
     "title": "Plans Repas Keto Mediterraneens",
-    "metaDescription": "Menus cetogenes mediterraneens avec huile d'olive, poissons et legumes. Restez en cetose avec la diete med. Essai gratuit.",
+    "metaDescription": "Menus cetogenes mediterraneens avec huile d'olive, poissons et legumes. Restez en cetose avec la diete med. Aperçu gratuit.",
     "h1": "Plans Repas Keto Mediterraneens Pour Allier Sante et Cetose",
     "intro": "Le régime méditerranéen et le keto partagent un amour des bonnes graisses : huile d'olive, avocat, fruits à coque et poissons gras. En combinant les deux, on obtient la version la plus saine du keto, avec des repas frais, variés et délicieux, loin du cliché bacon-beurre.",
     "valueProps": [
@@ -2148,7 +2148,7 @@
   },
   "keto-asian": {
     "title": "Plans Repas Keto Asiatiques",
-    "metaDescription": "Menus cetogenes asiatiques sans riz ni nouilles. Saveurs asiatiques avec macros keto respectees. Essai gratuit.",
+    "metaDescription": "Menus cetogenes asiatiques sans riz ni nouilles. Saveurs asiatiques avec macros keto respectees. Aperçu gratuit.",
     "h1": "Plans Repas Keto Asiatiques Sans Compromis sur le Gout",
     "intro": "La cuisine asiatique est bâtie sur des saveurs audacieuses — soja, gingembre, ail, sésame, piment — qui fonctionnent parfaitement avec le keto. Le vrai défi, ce sont le riz et les nouilles, mais avec des substituts malins, vous profitez de toute la richesse des saveurs d'Asie sans exploser vos glucides.",
     "valueProps": [
@@ -2241,7 +2241,7 @@
   },
   "keto-mexican": {
     "title": "Plans Repas Keto Mexicains",
-    "metaDescription": "Menus cetogenes mexicains avec tacos en feuille de laitue et bols de viande. Saveurs du Mexique sans les glucides. Essai gratuit.",
+    "metaDescription": "Menus cetogenes mexicains avec tacos en feuille de laitue et bols de viande. Saveurs du Mexique sans les glucides. Aperçu gratuit.",
     "h1": "Plans Repas Keto Mexicains Gourmands et Faibles en Glucides",
     "intro": "La cuisine mexicaine apporte du piquant, de la profondeur et de l'âme à chaque repas — et l'essentiel de cette magie vient des piments, des épices et des cuissons lentes, pas des tortillas. Nos menus keto mexicains conservent toute l'authenticité des saveurs en remplaçant astucieusement les féculents.",
     "valueProps": [
@@ -2331,7 +2331,7 @@
   },
   "vegetarian-italian": {
     "title": "Plans Repas Vegetariens Italiens",
-    "metaDescription": "Menus vegetariens italiens avec pates, risottos et pizzas sans viande. Cuisine italienne authentique. Essai gratuit.",
+    "metaDescription": "Menus vegetariens italiens avec pates, risottos et pizzas sans viande. Cuisine italienne authentique. Aperçu gratuit.",
     "h1": "Plans Repas Vegetariens Italiens Authentiques et Genereux",
     "intro": "La cuisine italienne a toujours célébré les légumes, le fromage, les pâtes et l'huile d'olive. Certains des plats les plus emblématiques d'Italie sont naturellement végétariens, et nos menus explorent cette tradition séculaire avec des recettes allant du risotto crémeux aux pâtes farcies en passant par les frittatine dorées.",
     "valueProps": [
@@ -2419,7 +2419,7 @@
   },
   "vegetarian-indian": {
     "title": "Plans Repas Vegetariens Indiens",
-    "metaDescription": "Menus indiens vegetariens avec dals, paneer et legumes epices. Recettes riches en proteines vegetales. Essai gratuit.",
+    "metaDescription": "Menus indiens vegetariens avec dals, paneer et legumes epices. Recettes riches en proteines vegetales. Aperçu gratuit.",
     "h1": "Plans Repas Vegetariens Indiens Traditionnels et Nourrissants",
     "intro": "L'Inde abrite la plus grande population végétarienne au monde, et sa cuisine reflète des siècles d'inventivité sans viande. Des currys riches au paneer aux dals réconfortants en passant par les dosas croustillantes, la cuisine végétarienne indienne est l'une des plus variées et savoureuses qui soient.",
     "valueProps": [
@@ -2508,7 +2508,7 @@
   },
   "vegetarian-mediterranean": {
     "title": "Plans Repas Vegetariens Mediterraneens",
-    "metaDescription": "Menus vegetariens mediterraneens avec falafels, halloumi et legumes grilles. Sain et delicieux. Essai gratuit.",
+    "metaDescription": "Menus vegetariens mediterraneens avec falafels, halloumi et legumes grilles. Sain et delicieux. Aperçu gratuit.",
     "h1": "Plans Repas Vegetariens Mediterraneens Frais et Equilibres",
     "intro": "Le régime méditerranéen met déjà les légumes, les céréales et les légumineuses au centre de l'assiette — supprimer la viande ne fait que renforcer le rôle de ces ingrédients. Nos menus méditerranéens végétariens associent œufs, fromage et yaourt à l'huile d'olive, aux herbes fraîches et aux produits de saison qui définissent cette cuisine mondialement reconnue.",
     "valueProps": [
@@ -2594,7 +2594,7 @@
   },
   "gluten-free-asian": {
     "title": "Plans Repas Sans Gluten Asiatiques",
-    "metaDescription": "Menus asiatiques sans gluten avec nouilles de riz, sautees et currys. Toutes les saveurs sans la farine de ble. Essai gratuit.",
+    "metaDescription": "Menus asiatiques sans gluten avec nouilles de riz, sautees et currys. Toutes les saveurs sans la farine de ble. Aperçu gratuit.",
     "h1": "Plans Repas Sans Gluten Asiatiques Savoureux",
     "intro": "La cuisine asiatique offre une incroyable variété pour les personnes sans gluten : le riz est le féculent par défaut dans la majeure partie de l'Asie, et de nombreux plats sont naturellement sans blé. Le piège, c'est la sauce soja (qui contient du blé), certaines nouilles et les épaississants cachés. Nos menus asiatiques sans gluten gèrent tout cela pour que vous puissiez savourer des saveurs asiatiques intenses sans inquiétude.",
     "valueProps": [
@@ -2684,7 +2684,7 @@
   },
   "gluten-free-italian": {
     "title": "Plans Repas Sans Gluten Italiens",
-    "metaDescription": "Menus italiens sans gluten avec pates GF, risottos et grillades. La dolce vita sans le gluten. Essai gratuit.",
+    "metaDescription": "Menus italiens sans gluten avec pates GF, risottos et grillades. La dolce vita sans le gluten. Aperçu gratuit.",
     "h1": "Plans Repas Sans Gluten Italiens Qui Ont du Gout",
     "intro": "La cuisine italienne et le gluten semblent inséparables — jusqu'à ce que vous découvriez le risotto, la polenta, les pâtes sans gluten et les innombrables plats italiens qui n'ont jamais eu besoin de blé. Nos menus italiens sans gluten prouvent qu'on peut manger comme à Rome sans qu'un seul grain de blé ne touche votre assiette.",
     "valueProps": [
@@ -2771,7 +2771,7 @@
   },
   "gluten-free-mexican": {
     "title": "Plans Repas Sans Gluten Mexicains",
-    "metaDescription": "Menus mexicains sans gluten avec tortillas de mais, tacos et salsas. Cuisine mexicaine naturellement sans gluten. Essai gratuit.",
+    "metaDescription": "Menus mexicains sans gluten avec tortillas de mais, tacos et salsas. Cuisine mexicaine naturellement sans gluten. Aperçu gratuit.",
     "h1": "Plans Repas Sans Gluten Mexicains Naturels et Savoureux",
     "intro": "Bonne nouvelle : la cuisine mexicaine traditionnelle est bâtie sur le maïs, pas sur le blé. Tortillas de maïs, tamales, tostadas et sopes sont tous naturellement sans gluten. Les pièges sont les tortillas de farine de blé, les fritures en pâte à bière et certains mélanges d'épices du commerce. Nos menus s'appuient sur la cuisine mexicaine authentique à base de maïs et signalent chaque source de gluten cachée.",
     "valueProps": [
@@ -2857,7 +2857,7 @@
   },
   "halal-mediterranean": {
     "title": "Plans Repas Halal Mediterraneens",
-    "metaDescription": "Menus halal mediterraneens avec grillades, houmous et legumes frais. Conformes et delicieux. Essai gratuit.",
+    "metaDescription": "Menus halal mediterraneens avec grillades, houmous et legumes frais. Conformes et delicieux. Aperçu gratuit.",
     "h1": "Plans Repas Halal Mediterraneens Sains et Conformes",
     "intro": "Les cuisines méditerranéenne et halal partagent des racines profondes : une grande partie de la côte méditerranéenne orientale est historiquement musulmane, et des plats comme le shawarma, le fattoush et le kibbeh sont à la fois méditerranéens et halal par nature. Nos menus réunissent le meilleur des deux mondes : une alimentation méditerranéenne bonne pour le cœur, en conformité stricte avec les règles halal.",
     "valueProps": [
@@ -2943,7 +2943,7 @@
   },
   "halal-indian": {
     "title": "Plans Repas Halal Indiens",
-    "metaDescription": "Menus halal indiens avec biryanis, currys et tandooris. Viandes halal et epices authentiques. Essai gratuit.",
+    "metaDescription": "Menus halal indiens avec biryanis, currys et tandooris. Viandes halal et epices authentiques. Aperçu gratuit.",
     "h1": "Plans Repas Halal Indiens Parfumes et Authentiques",
     "intro": "L'Inde compte l'une des plus grandes populations musulmanes au monde, et sa tradition culinaire halal est extraordinaire — du biryani de Lucknow au haleem d'Hyderabad, des kebabs moghols au curry de poisson du Kerala. Nos menus indiens halal puisent dans ces riches traditions, en utilisant de la viande halal et en évitant totalement les ingrédients à base d'alcool.",
     "valueProps": [
@@ -3031,7 +3031,7 @@
   },
   "halal-middle-eastern": {
     "title": "Plans Repas Halal Moyen-Orientaux",
-    "metaDescription": "Menus halal moyen-orientaux avec kebabs, falafels et mezze. Cuisine traditionnelle conforme. Essai gratuit.",
+    "metaDescription": "Menus halal moyen-orientaux avec kebabs, falafels et mezze. Cuisine traditionnelle conforme. Aperçu gratuit.",
     "h1": "Plans Repas Halal Moyen-Orientaux Traditionnels et Genereux",
     "intro": "La cuisine moyen-orientale est halal dans son essence : ces recettes se transmettent de génération en génération dans des familles musulmanes à travers le Levant, la péninsule Arabique et l'Afrique du Nord. Nos menus apportent cet héritage dans votre cuisine avec des recettes authentiques de shawarma, mansaf, maqluba et les mezze qui font la légende de la table orientale.",
     "valueProps": [
@@ -3119,7 +3119,7 @@
   },
   "pescatarian-japanese": {
     "title": "Plans Repas Pescetariens Japonais",
-    "metaDescription": "Menus japonais pescetariens avec sushi bowls, ramen aux fruits de mer et teriyaki de poisson. Essai gratuit.",
+    "metaDescription": "Menus japonais pescetariens avec sushi bowls, ramen aux fruits de mer et teriyaki de poisson. Aperçu gratuit.",
     "h1": "Plans Repas Pescetariens Japonais Raffines et Equilibres",
     "intro": "Le Japon est un archipel, et sa cuisine le reflète : les produits de la mer et les légumes ont toujours été au cœur de la gastronomie japonaise. Un régime pescétarien japonais n'est presque pas une restriction — c'est plus proche de la façon dont la plupart des Japonais mangent réellement. Nos menus couvrent sushis, ramen, donburi et les classiques d'izakaya, tous centrés sur le poisson et les ingrédients d'origine végétale.",
     "valueProps": [
@@ -3207,7 +3207,7 @@
   },
   "pescatarian-mediterranean": {
     "title": "Plans Repas Pescetariens Mediterraneens",
-    "metaDescription": "Menus mediterraneens pescetariens avec poissons grilles, fruits de mer et legumes. Sain et delicieux. Essai gratuit.",
+    "metaDescription": "Menus mediterraneens pescetariens avec poissons grilles, fruits de mer et legumes. Sain et delicieux. Aperçu gratuit.",
     "h1": "Plans Repas Pescetariens Mediterraneens Frais et Legers",
     "intro": "Le régime méditerranéen traditionnel a toujours été un régime pescétarien : les communautés côtières de Grèce, d'Italie, d'Espagne et d'Afrique du Nord mangeaient du poisson tous les jours et de la viande rarement. Nos menus pescétariens méditerranéens reviennent à ces racines avec du poisson grillé, des ragoûts de fruits de mer, de l'huile d'olive, des légumes frais et les préparations simples qui font de ce mode alimentaire la référence en matière de santé.",
     "valueProps": [
@@ -3295,7 +3295,7 @@
   },
   "dairy-free-thai": {
     "title": "Plans Repas Thai Sans Produits Laitiers",
-    "metaDescription": "Menus thai sans produits laitiers avec lait de coco, currys et sautees. Naturellement sans lactose. Essai gratuit.",
+    "metaDescription": "Menus thai sans produits laitiers avec lait de coco, currys et sautees. Naturellement sans lactose. Aperçu gratuit.",
     "h1": "Plans Repas Thai Sans Produits Laitiers et Pleins de Saveur",
     "intro": "La cuisine thaïlandaise est l'une des cuisines les plus naturellement sans produits laitiers au monde. Le lait de coco remplace la crème, la sauce de poisson remplace le beurre, et les saveurs audacieuses de la citronnelle, du galanga et du piment font que le fromage ne vous manque pas une seconde. Nos menus thaïs sans lactose ne nécessitent quasiment aucune substitution — c'est comme ça que la cuisine thaïe a toujours été conçue.",
     "valueProps": [
@@ -3385,7 +3385,7 @@
   },
   "dairy-free-mexican": {
     "title": "Plans Repas Mexicains Sans Produits Laitiers",
-    "metaDescription": "Menus mexicains sans fromage ni creme. Tacos, salsas et grillades avec toute la saveur. Essai gratuit.",
+    "metaDescription": "Menus mexicains sans fromage ni creme. Tacos, salsas et grillades avec toute la saveur. Aperçu gratuit.",
     "h1": "Plans Repas Mexicains Sans Produits Laitiers -- Toute la Saveur Sans le Fromage",
     "intro": "La cuisine mexicaine sans produits laitiers, ça ressemble à un sacrifice — jusqu'à ce qu'on réalise que l'âme de la gastronomie mexicaine vit dans les piments, le citron vert, la coriandre, le cumin et les viandes longuement mijotées, pas dans le fromage fondu par-dessus. La cuisine mexicaine traditionnelle précoloniale était entièrement sans produits laitiers. Nos menus reviennent à ces racines tout en préservant toutes les saveurs audacieuses et réconfortantes que vous adorez.",
     "valueProps": [
@@ -3475,7 +3475,7 @@
   },
   "low-carb-southern": {
     "title": "Plans Repas Cuisine du Sud Faible en Glucides",
-    "metaDescription": "Menus cuisine du Sud americain revus en version low-carb. Poulet, legumes verts et saveurs du Sud sans les glucides. Essai gratuit.",
+    "metaDescription": "Menus cuisine du Sud americain revus en version low-carb. Poulet, legumes verts et saveurs du Sud sans les glucides. Aperçu gratuit.",
     "h1": "Plans Repas Cuisine du Sud Faibles en Glucides et Reconfortants",
     "intro": "La cuisine du Sud des États-Unis est légendaire pour ses saveurs prononcées, ses portions généreuses et son réconfort chaleureux — mais aussi pour sa grande dépendance au pain de maïs, aux biscuits, au gruau de maïs et au thé sucré. Nos menus allégés en glucides préservent l'âme de cette cuisine : viandes fumées lentement, légumes verts braisés, mélanges d'épices et techniques de cuisson au poêlon en fonte, tout en éliminant les féculents qui vous alourdissent.",
     "valueProps": [
@@ -3565,7 +3565,7 @@
   },
   "meal-plan-for-weight-loss": {
     "title": "Plans Repas Pour Perdre du Poids",
-    "metaDescription": "Plans repas personnalises pour la perte de poids avec deficit calorique modere. Repas rassasiants et liste de courses. Essai gratuit.",
+    "metaDescription": "Plans repas personnalises pour la perte de poids avec deficit calorique modere. Repas rassasiants et liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Pour Perdre du Poids Sans Se Priver",
     "intro": "Perdre du poids ne devrait pas signifier manger du poulet fade et des brocolis vapeur à répétition. La clé, ce sont des repas contrôlés en calories mais réellement satisfaisants pour ne jamais se sentir privé. Nous vous préparons un nouveau menu minceur chaque semaine avec des portions adaptées, une nutrition équilibrée et suffisamment de variété pour vous garder motivé tout au long du parcours.",
     "valueProps": [
@@ -3645,7 +3645,7 @@
   },
   "meal-plan-for-muscle-gain": {
     "title": "Plans Repas Pour la Prise de Muscle",
-    "metaDescription": "Plans repas riches en proteines pour la croissance musculaire. Macros calcules et repas adaptes a l'entrainement. Essai gratuit.",
+    "metaDescription": "Plans repas riches en proteines pour la croissance musculaire. Macros calcules et repas adaptes a l'entrainement. Aperçu gratuit.",
     "h1": "Plans Repas Pour Prendre du Muscle Efficacement",
     "intro": "Prendre du muscle exige bien plus que de simplement aller à la salle — il faut une alimentation régulière et riche en protéines pour soutenir la récupération et la croissance. Le problème, c'est que la préparation des repas pour une prise de masse est épuisante et répétitive. Nous générons un nouveau menu riche en calories et en protéines chaque semaine pour que vous puissiez vous concentrer sur l'entraînement pendant que nous gérons la nutrition.",
     "valueProps": [
@@ -3729,7 +3729,7 @@
   },
   "meal-plan-for-pregnancy": {
     "title": "Plans Repas Pour la Grossesse",
-    "metaDescription": "Plans repas equilibres pour femmes enceintes. Nutriments essentiels, folate et fer avec des repas delicieux. Essai gratuit.",
+    "metaDescription": "Plans repas equilibres pour femmes enceintes. Nutriments essentiels, folate et fer avec des repas delicieux. Aperçu gratuit.",
     "h1": "Plans Repas Pour la Grossesse Sains et Nourrissants",
     "intro": "Bien manger pendant la grossesse est plus important que jamais, mais entre les envies, les aversions et la fatigue, planifier des repas nutritifs peut sembler accablant. Nos menus de grossesse sont conçus avec les nutriments prénataux essentiels en tête — folates, fer, calcium, oméga-3 — tout en gardant les repas appétissants même quand votre appétit est imprévisible.",
     "valueProps": [
@@ -3813,7 +3813,7 @@
   },
   "meal-plan-for-beginners": {
     "title": "Plans Repas Pour Debutants",
-    "metaDescription": "Plans repas simples pour ceux qui debutent en cuisine. Recettes faciles avec peu d'ingredients et liste de courses. Essai gratuit.",
+    "metaDescription": "Plans repas simples pour ceux qui debutent en cuisine. Recettes faciles avec peu d'ingredients et liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas Pour Debutants Qui Rendent la Cuisine Facile",
     "intro": "Si la planification des repas vous semble intimidante, vous n'êtes pas seul. La plupart des gens échouent parce qu'ils essaient de passer de zéro à chef étoilé du jour au lendemain. Nos menus pour débutants utilisent des techniques simples, des ingrédients courants et des temps de préparation courts pour que vous puissiez prendre l'habitude sans vous épuiser. Chaque recette part du principe que vous débutez — aucune compétence de chef requise.",
     "valueProps": [
@@ -3893,7 +3893,7 @@
   },
   "meal-plan-for-picky-eaters": {
     "title": "Plans Repas Pour les Mangeurs Difficiles",
-    "metaDescription": "Plans repas adaptes aux gouts difficiles. Recettes familieres avec des touches nutritives cachees. Essai gratuit.",
+    "metaDescription": "Plans repas adaptes aux gouts difficiles. Recettes familieres avec des touches nutritives cachees. Aperçu gratuit.",
     "h1": "Plans Repas Pour les Mangeurs Difficiles Qui Plaisent a Tous",
     "intro": "Être difficile en matière de nourriture ne signifie pas que vous êtes condamné aux nuggets de poulet pour toujours. L'astuce est de commencer avec des saveurs familières et d'élargir progressivement votre zone de confort. Nos menus pour mangeurs difficiles misent sur des ingrédients accessibles, des textures réconfortantes et des saveurs qui plaisent à tous, tout en glissant discrètement une nutrition équilibrée.",
     "valueProps": [
@@ -3973,7 +3973,7 @@
   },
   "meal-plan-on-a-budget": {
     "title": "Plans Repas Economiques",
-    "metaDescription": "Plans repas delicieux pour petit budget. Ingredients abordables, zero gaspillage et liste de courses optimisee. Essai gratuit.",
+    "metaDescription": "Plans repas delicieux pour petit budget. Ingredients abordables, zero gaspillage et liste de courses optimisee. Aperçu gratuit.",
     "h1": "Plans Repas Economiques Pour Bien Manger Sans Se Ruiner",
     "intro": "Bien manger avec un petit budget, c'est possible — il suffit d'un plan. Les plus gros gaspillages d'argent sont les courses impulsives, les aliments qui périment avant d'être utilisés et les plats à emporter de dernière minute. Nos menus économiques utilisent des aliments de base abordables, réduisent le gaspillage grâce à des ingrédients qui se recoupent d'un repas à l'autre, et génèrent des listes de courses intelligentes pour que chaque euro compte.",
     "valueProps": [
@@ -4057,7 +4057,7 @@
   },
   "meal-plan-for-diabetes": {
     "title": "Plans Repas Pour Diabetiques",
-    "metaDescription": "Plans repas a faible indice glycemique pour la gestion du diabete. Repas equilibres qui stabilisent la glycemie. Essai gratuit.",
+    "metaDescription": "Plans repas a faible indice glycemique pour la gestion du diabete. Repas equilibres qui stabilisent la glycemie. Aperçu gratuit.",
     "h1": "Plans Repas Pour Diabetiques Qui Stabilisent la Glycemie",
     "intro": "Gérer son diabète par l'alimentation ne signifie pas renoncer aux aliments que vous aimez. La clé, ce sont des repas réguliers et équilibrés qui maintiennent la glycémie stable tout au long de la journée. Nos menus adaptés au diabète privilégient les glucides à index glycémique bas, les protéines maigres, les bonnes graisses et des portions adaptées — tout en gardant les repas réellement agréables.",
     "valueProps": [
@@ -4137,7 +4137,7 @@
   },
   "meal-plan-for-heart-health": {
     "title": "Plans Repas Pour la Sante Cardiaque",
-    "metaDescription": "Plans repas bons pour le coeur avec peu de sodium et graisses saines. Suivez les recommandations medicales avec plaisir. Essai gratuit.",
+    "metaDescription": "Plans repas bons pour le coeur avec peu de sodium et graisses saines. Suivez les recommandations medicales avec plaisir. Aperçu gratuit.",
     "h1": "Plans Repas Pour la Sante Cardiaque Savoureux et Equilibres",
     "intro": "Une alimentation bonne pour le cœur est l'une des choses les plus efficaces que vous puissiez faire pour votre longévité, mais elle ne devrait pas ressembler à une punition. Nos menus mettent l'accent sur les acides gras oméga-3, les fibres solubles, les protéines maigres et beaucoup de fruits et légumes tout en contrôlant le sodium. Chaque repas est conçu pour soutenir la santé cardiovasculaire sans sacrifier la saveur.",
     "valueProps": [
@@ -4217,7 +4217,7 @@
   },
   "high-protein-meal-plan": {
     "title": "Plans Repas Riches en Proteines",
-    "metaDescription": "Plans repas riches en proteines pour la forme et la satiete. 100g+ de proteines par jour avec des recettes delicieuses. Essai gratuit.",
+    "metaDescription": "Plans repas riches en proteines pour la forme et la satiete. 100g+ de proteines par jour avec des recettes delicieuses. Aperçu gratuit.",
     "h1": "Plans Repas Riches en Proteines Pour Rester Fort et Rassasie",
     "intro": "Que vous cherchiez à prendre du muscle, perdre du poids ou simplement vous sentir plus rassasié après les repas, les protéines sont la réponse. Le défi, c'est d'atteindre régulièrement votre objectif en protéines sans manger le même poulet grillé tous les jours. Nos menus hyperprotéinés fournissent 100 à 180 g de protéines par jour à travers des repas variés et savoureux qui ne sont jamais répétitifs.",
     "valueProps": [
@@ -4301,7 +4301,7 @@
   },
   "anti-inflammatory-meal-plan": {
     "title": "Plans Repas Anti-Inflammatoires",
-    "metaDescription": "Plans repas anti-inflammatoires avec aliments riches en antioxydants. Reduisez l'inflammation par l'alimentation. Essai gratuit.",
+    "metaDescription": "Plans repas anti-inflammatoires avec aliments riches en antioxydants. Reduisez l'inflammation par l'alimentation. Aperçu gratuit.",
     "h1": "Plans Repas Anti-Inflammatoires Qui Font du Bien au Corps",
     "intro": "L'inflammation chronique est liée à tout, des douleurs articulaires aux maladies cardiovasculaires, et ce que vous mangez joue un rôle majeur. Nos menus anti-inflammatoires sont construits autour d'aliments dont les propriétés sont scientifiquement prouvées — poissons gras, légumes verts, baies, curcuma, gingembre — tout en éliminant les déclencheurs alimentaires courants qui attisent l'inflammation.",
     "valueProps": [
@@ -4381,7 +4381,7 @@
   },
   "meal-plan-for-one": {
     "title": "Plans Repas Pour Une Personne",
-    "metaDescription": "Plans repas personnalises pour une personne. Portions adaptees, zero gaspillage et repas varies chaque semaine. Essai gratuit.",
+    "metaDescription": "Plans repas personnalises pour une personne. Portions adaptees, zero gaspillage et repas varies chaque semaine. Aperçu gratuit.",
     "h1": "Plans Repas Pour Une Personne Sans Gaspillage",
     "intro": "Cuisiner pour une personne, c'est un défi à part entière. Les recettes sont prévues pour quatre, les produits frais se gâtent avant d'être utilisés et les restes vous poursuivent pendant des jours. Nos menus pour personne seule sont calibrés pour un — des portions individuelles, zéro gaspillage, et une variété qui empêche de manger la même chose en boucle.",
     "valueProps": [
@@ -4461,7 +4461,7 @@
   },
   "meal-plan-for-two": {
     "title": "Plans Repas Pour Deux Personnes",
-    "metaDescription": "Plans repas pour couples avec portions pour deux. Repas varies et liste de courses optimisee. Essai gratuit.",
+    "metaDescription": "Plans repas pour couples avec portions pour deux. Repas varies et liste de courses optimisee. Aperçu gratuit.",
     "h1": "Plans Repas Pour Deux Qui Simplifient les Repas en Couple",
     "intro": "Cuisiner pour deux devrait être simple, mais la plupart des recettes servent quatre et vous laissent noyé sous les restes ou avec des demi-mesures hasardeuses. Nos menus pour deux sont écrits dès le départ pour deux portions — deux assiettes, une liste de courses, zéro gaspillage.",
     "valueProps": [
@@ -4541,7 +4541,7 @@
   },
   "meal-plan-for-family-of-4": {
     "title": "Plans Repas Pour Famille de 4",
-    "metaDescription": "Plans repas familiaux pour 4 personnes. Repas qui plaisent a tous avec liste de courses et budget maitrise. Essai gratuit.",
+    "metaDescription": "Plans repas familiaux pour 4 personnes. Repas qui plaisent a tous avec liste de courses et budget maitrise. Aperçu gratuit.",
     "h1": "Plans Repas Pour Famille de 4 Pratiques et Delicieux",
     "intro": "Nourrir une famille de quatre signifie jongler entre nutrition, préférences gustatives, temps et budget — à chaque repas. Nos menus familiaux éliminent ce casse-tête quotidien du « qu'est-ce qu'on mange ? » avec des repas validés par les enfants, approuvés par les parents, et prêts en 30 minutes les soirs de semaine.",
     "valueProps": [
@@ -4625,7 +4625,7 @@
   },
   "meal-plan-for-family-of-6": {
     "title": "Plans Repas Pour Famille de 6",
-    "metaDescription": "Plans repas pour grandes familles de 6 personnes. Recettes en grande quantite avec liste de courses optimisee. Essai gratuit.",
+    "metaDescription": "Plans repas pour grandes familles de 6 personnes. Recettes en grande quantite avec liste de courses optimisee. Aperçu gratuit.",
     "h1": "Plans Repas Pour Famille de 6 Genereux et Economiques",
     "intro": "Nourrir six bouches chaque jour est un exploit logistique. Les coûts s'accumulent vite, la cuisine prend une éternité, et tout le monde a des goûts différents. Nos menus pour grandes familles sont conçus autour de la cuisine en lot, d'ingrédients abordables et de plats qui plaisent à tous — parce qu'avec six personnes, chaque repas est un exercice de diplomatie culinaire.",
     "valueProps": [
@@ -4705,7 +4705,7 @@
   },
   "meal-plan-for-college-students": {
     "title": "Plans Repas Pour Etudiants",
-    "metaDescription": "Plans repas faciles et economiques pour etudiants. Recettes rapides avec peu d'ustensiles et petit budget. Essai gratuit.",
+    "metaDescription": "Plans repas faciles et economiques pour etudiants. Recettes rapides avec peu d'ustensiles et petit budget. Aperçu gratuit.",
     "h1": "Plans Repas Pour Etudiants Rapides et Pas Chers",
     "intro": "Entre les cours, les révisions et la vie sociale, cuisiner est le dernier souci de la plupart des étudiants. Mais vivre de nouilles instantanées et de snacks ne tient pas la distance. Nos menus étudiants sont conçus pour les réalités du campus : budget serré, matériel limité, et zéro envie de passer des heures en cuisine.",
     "valueProps": [
@@ -4789,7 +4789,7 @@
   },
   "quick-30-minute-meal-plan": {
     "title": "Plans Repas en 30 Minutes",
-    "metaDescription": "Plans repas ou chaque recette se prepare en 30 minutes max. Repas rapides du soir avec liste de courses. Essai gratuit.",
+    "metaDescription": "Plans repas ou chaque recette se prepare en 30 minutes max. Repas rapides du soir avec liste de courses. Aperçu gratuit.",
     "h1": "Plans Repas en 30 Minutes Pour les Soirs de Semaine",
     "intro": "Vous n'avez pas une heure à consacrer au dîner chaque soir, et ça ne devrait pas être nécessaire. Chaque recette de nos menus en 30 minutes est chronométrée de A à Z — de la sortie des ingrédients à l'assiette sur la table. Des repas complets, savoureux et nutritifs, sans y passer la soirée.",
     "valueProps": [
@@ -4869,7 +4869,7 @@
   },
   "1200-calorie-meal-plan": {
     "title": "Plan Repas 1200 Calories",
-    "metaDescription": "Plan repas a 1200 calories par jour avec des repas rassasiants. Perte de poids structuree sans avoir faim. Essai gratuit.",
+    "metaDescription": "Plan repas a 1200 calories par jour avec des repas rassasiants. Perte de poids structuree sans avoir faim. Aperçu gratuit.",
     "h1": "Plan Repas 1200 Calories Qui Ne Laisse Pas sur Sa Faim",
     "intro": "Manger 1 200 calories par jour ne signifie pas avoir faim en permanence. L'astuce, c'est de choisir des aliments si nourrissants et denses en nutriments que chaque bouchée compte. Nos menus à 1 200 calories privilégient les protéines, les fibres et les aliments à fort volume pour que vous vous sentiez rassasié avec moins de calories.",
     "valueProps": [
@@ -4953,7 +4953,7 @@
   },
   "1500-calorie-meal-plan": {
     "title": "Plan Repas 1500 Calories",
-    "metaDescription": "Plan repas a 1500 calories avec un deficit modere. Repas equilibres et portions satisfaisantes chaque jour. Essai gratuit.",
+    "metaDescription": "Plan repas a 1500 calories avec un deficit modere. Repas equilibres et portions satisfaisantes chaque jour. Aperçu gratuit.",
     "h1": "Plan Repas 1500 Calories Equilibre et Satisfaisant",
     "intro": "1 500 calories, c'est le juste milieu pour la plupart des personnes qui veulent perdre du poids sans se sentir misérables. C'est assez bas pour créer un vrai déficit, mais assez haut pour manger de vrais repas, grignoter entre les deux, et ne pas détester votre existence. Nos menus à 1 500 calories prouvent qu'on peut manger bien tout en mangeant moins.",
     "valueProps": [
@@ -5033,7 +5033,7 @@
   },
   "1800-calorie-meal-plan": {
     "title": "Plan Repas 1800 Calories",
-    "metaDescription": "Plan repas a 1800 calories pour les personnes actives. Assez d'energie pour bouger et maigrir progressivement. Essai gratuit.",
+    "metaDescription": "Plan repas a 1800 calories pour les personnes actives. Assez d'energie pour bouger et maigrir progressivement. Aperçu gratuit.",
     "h1": "Plan Repas 1800 Calories Pour Ceux Qui Bougent",
     "intro": "Si vous bougez au quotidien et cherchez a perdre du poids, les restrictions caloriques extremes sont contre-productives. Un menu a 1 800 calories vous donne assez d'energie pour tenir vos seances de sport, rester concentre au travail, et maintenir un deficit modere qui grignote la masse grasse semaine apres semaine. Ce sont de vrais repas, avec suffisamment de glucides pour l'energie, de proteines pour la recuperation, et de saveur pour oublier que vous suivez un programme.",
     "valueProps": [
@@ -5113,7 +5113,7 @@
   },
   "2000-calorie-meal-plan": {
     "title": "Plan Repas 2000 Calories",
-    "metaDescription": "Plan repas a 2000 calories pour maintenir votre poids. Repas complets et equilibres chaque jour. Essai gratuit.",
+    "metaDescription": "Plan repas a 2000 calories pour maintenir votre poids. Repas complets et equilibres chaque jour. Aperçu gratuit.",
     "h1": "Plan Repas 2000 Calories Pour un Maintien Sain",
     "intro": "2 000 calories, c'est la reference pour une bonne raison — ca fonctionne pour une grande majorite d'adultes qui veulent maintenir leur poids et bien manger. Que vous ayez fini un regime et souhaitiez stabiliser vos resultats, ou que vous vouliez simplement un cadre structure sans prise de tete, c'est votre base. Des macros equilibrees, des ingredients varies et des repas parfaitement normaux.",
     "valueProps": [
@@ -5193,7 +5193,7 @@
   },
   "2500-calorie-meal-plan": {
     "title": "Plan Repas 2500 Calories",
-    "metaDescription": "Plan repas a 2500 calories pour la prise de masse ou les personnes tres actives. Repas copieux et nutritifs. Essai gratuit.",
+    "metaDescription": "Plan repas a 2500 calories pour la prise de masse ou les personnes tres actives. Repas copieux et nutritifs. Aperçu gratuit.",
     "h1": "Plan Repas 2500 Calories Pour Prendre de la Masse",
     "intro": "Si vous vous entrainez intensement, construisez du muscle ou avez un travail physique qui brule beaucoup d'energie, 2 000 calories ne suffiront pas. Un menu a 2 500 calories vous donne l'energie pour performer, les proteines pour recuperer et les glucides pour garder vos reserves de glycogene au maximum — le tout a base de vrais aliments, pas de shakers et de barres. On planifie votre semaine avec des repas copieux et nutritifs qui soutiennent vos objectifs sans recourir a la malbouffe.",
     "valueProps": [
@@ -5277,7 +5277,7 @@
   },
   "3000-calorie-meal-plan": {
     "title": "Plan Repas 3000 Calories",
-    "metaDescription": "Plan repas a 3000 calories pour les athletes et la prise de masse intensive. Repas denses et riches en nutriments. Essai gratuit.",
+    "metaDescription": "Plan repas a 3000 calories pour les athletes et la prise de masse intensive. Repas denses et riches en nutriments. Aperçu gratuit.",
     "h1": "Plan Repas 3000 Calories Pour les Athletes et la Croissance",
     "intro": "Manger 3 000 calories propres par jour est plus difficile qu'on ne le croit. N'importe qui peut engloutir une pizza et appeler ca une prise de masse — le vrai defi, c'est d'y arriver avec des repas qui construisent reellement du muscle, soutiennent la recuperation et stabilisent l'energie. On planifie votre semaine avec de grands repas riches en nutriments, repartis sur la journee, pour que vous n'ayez jamais a vous gaver en une seule fois ni a dependre de gainers en poudre.",
     "valueProps": [
@@ -5361,9 +5361,9 @@
   },
   "3-day-meal-plan": {
     "title": "Plan Repas de 3 Jours",
-    "metaDescription": "Plan repas de 3 jours pour essayer la planification de repas. Ideal pour les debutants avec liste de courses simple. Essai gratuit.",
+    "metaDescription": "Plan repas de 3 jours pour essayer la planification de repas. Ideal pour les debutants avec liste de courses simple. Aperçu gratuit.",
     "h1": "Plan Repas de 3 Jours Pour Commencer en Douceur",
-    "intro": "Pas sur que la planification de repas soit faite pour vous ? Un menu de 3 jours est le moyen ideal de le decouvrir sans pression. Couvrez vos soirees les plus chargees avec des repas equilibres et faciles a preparer, et constatez combien de temps et d'energie mentale vous economisez. Notre essai gratuit est exactement cela — trois jours de repas planifies pour que vous puissiez mesurer la difference avant de vous engager sur une semaine complete.",
+    "intro": "Pas sur que la planification de repas soit faite pour vous ? Un menu de 3 jours est le moyen ideal de le decouvrir sans pression. Couvrez vos soirees les plus chargees avec des repas equilibres et faciles a preparer, et constatez combien de temps et d'energie mentale vous economisez. Notre aperçu gratuit fonctionne exactement ainsi — des repas personnalisés instantanés, trois jours de repas planifies pour que vous puissiez mesurer la difference avant de vous engager sur une semaine complete.",
     "valueProps": [
       {
         "heading": "Zero engagement, vrais resultats",
@@ -5375,7 +5375,7 @@
       },
       {
         "heading": "Essayez gratuitement, tout de suite",
-        "description": "Notre menu gratuit genere exactement 3 jours de repas personnalises selon vos preferences alimentaires. Pas de carte bancaire, pas de compte requis. Dites-nous ce que vous aimez et recevez votre menu."
+        "description": "Notre aperçu gratuit génère une journée de repas personnalises selon vos preferences alimentaires. Pas de carte bancaire, pas de compte requis. Dites-nous ce que vous aimez et recevez votre menu."
       }
     ],
     "sampleMeals": [
@@ -5423,15 +5423,15 @@
     "faqs": [
       {
         "question": "Est-ce que 3 jours suffisent pour voir les avantages de la planification de repas ?",
-        "answer": "Absolument. Trois jours couvrent la periode la plus chargee de la semaine pour la plupart des gens. Vous remarquerez moins de stress a l'heure du diner, moins de commandes impulsives et une liste de courses plus courte. Beaucoup de nos abonnes ont commence par le menu gratuit de 3 jours et se sont abonnes apres avoir senti la difference."
+        "answer": "Absolument. Trois jours couvrent la periode la plus chargee de la semaine pour la plupart des gens. Vous remarquerez moins de stress a l'heure du diner, moins de commandes impulsives et une liste de courses plus courte. Beaucoup de nos abonnes ont commence par l'aperçu gratuit et se sont abonnes apres avoir senti la difference."
       },
       {
-        "question": "Que comprend le menu gratuit de 3 jours ?",
+        "question": "Que comprend l'aperçu gratuit ?",
         "answer": "Vous obtenez 3 journees completes de repas — petit-dejeuner, dejeuner et diner — personnalises selon vos preferences alimentaires et la taille de votre foyer. Chaque repas comprend les ingredients, les instructions et les temps de preparation. C'est la meme qualite que nos menus abonnes, juste plus court."
       },
       {
         "question": "Peut-on repeter le menu de 3 jours chaque semaine ?",
-        "answer": "Le menu gratuit est un essai unique pour vous faire decouvrir la planification de repas. Si vous l'adorez, notre abonnement hebdomadaire genere un nouveau menu de 7 jours chaque semaine avec de nouvelles recettes, pour ne jamais manger les memes repas en boucle."
+        "answer": "L'aperçu gratuit est une démonstration unique pour vous faire decouvrir la planification de repas. Si vous l'adorez, notre abonnement hebdomadaire genere un nouveau menu de 7 jours chaque semaine avec de nouvelles recettes, pour ne jamais manger les memes repas en boucle."
       },
       {
         "question": "Comment transformer mon menu de 3 jours en semaine complete ?",
@@ -5441,7 +5441,7 @@
   },
   "5-day-meal-plan": {
     "title": "Plan Repas de 5 Jours",
-    "metaDescription": "Plan repas de 5 jours pour la semaine de travail. Repas du lundi au vendredi avec liste de courses. Essai gratuit.",
+    "metaDescription": "Plan repas de 5 jours pour la semaine de travail. Repas du lundi au vendredi avec liste de courses. Aperçu gratuit.",
     "h1": "Plan Repas de 5 Jours Pour la Semaine de Travail",
     "intro": "Vous voulez de la structure en semaine mais de la liberte le week-end. Un menu de 5 jours couvre chaque diner de semaine et chaque dejeuner de travail sans toucher a vos samedis et dimanches. Sortez au restaurant, commandez a livrer ou improvisez pendant vos jours de repos — la semaine est geree. C'est le juste milieu entre planification totale et flexibilite absolue.",
     "valueProps": [
@@ -5521,7 +5521,7 @@
   },
   "7-day-meal-plan": {
     "title": "Plan Repas de 7 Jours",
-    "metaDescription": "Plan repas complet de 7 jours avec petit-dejeuner, dejeuner et diner. Organisation complete avec liste de courses. Essai gratuit.",
+    "metaDescription": "Plan repas complet de 7 jours avec petit-dejeuner, dejeuner et diner. Organisation complete avec liste de courses. Aperçu gratuit.",
     "h1": "Plan Repas de 7 Jours Pour une Semaine Bien Organisee",
     "intro": "Un menu de 7 jours complets, c'est la reference en matiere de planification de repas. Chaque petit-dejeuner, dejeuner et diner pour la semaine entiere — planifie, portionne et liste avant lundi matin. Aucun vide, aucune improvisation, aucun gaspillage. C'est ce que nos abonnes recoivent chaque semaine : un programme complet adapte a leurs preferences, livre automatiquement.",
     "valueProps": [
@@ -5582,8 +5582,8 @@
     ],
     "faqs": [
       {
-        "question": "En quoi un menu de 7 jours differe-t-il de l'essai gratuit ?",
-        "answer": "L'essai gratuit vous donne un menu de 3 jours pour tester l'experience. Un menu de 7 jours couvre votre semaine entiere avec plus de variete et une reutilisation plus intelligente des ingredients sur 21 repas. Les abonnes beneficient aussi de menus frais chaque semaine, d'options de regeneration et de la livraison par e-mail."
+        "question": "En quoi un menu de 7 jours differe-t-il de l'aperçu gratuit ?",
+        "answer": "L'aperçu gratuit vous montre une journée de repas personnalisés pour tester l'experience. Un menu de 7 jours couvre votre semaine entiere avec plus de variete et une reutilisation plus intelligente des ingredients sur 21 repas. Les abonnes beneficient aussi de menus frais chaque semaine, d'options de regeneration et de la livraison par e-mail."
       },
       {
         "question": "Puis-je personnaliser les repas inclus ?",
@@ -5605,7 +5605,7 @@
   },
   "14-day-meal-plan": {
     "title": "Plan Repas de 14 Jours",
-    "metaDescription": "Plan repas de 2 semaines avec variete maximale. Zero repetition et liste de courses organisee. Essai gratuit.",
+    "metaDescription": "Plan repas de 2 semaines avec variete maximale. Zero repetition et liste de courses organisee. Aperçu gratuit.",
     "h1": "Plan Repas de 14 Jours Pour Deux Semaines Sans Repetition",
     "intro": "Pourquoi planifier chaque semaine quand on peut planifier toutes les deux semaines ? Un menu de 14 jours vous donne une quinzaine complete de petits-dejeuners, dejeuners et diners d'un seul coup. C'est ideal pour les grosses courses, pour diviser par deux vos seances de planification, et pour avoir assez de variete pour qu'aucun repas ne semble etre une repetition. Voyez ca comme l'equivalent du lot en cuisine — moins d'effort, de meilleurs resultats.",
     "valueProps": [
@@ -5685,7 +5685,7 @@
   },
   "21-day-meal-plan": {
     "title": "Plan Repas de 21 Jours",
-    "metaDescription": "Plan repas de 21 jours pour creer de nouvelles habitudes alimentaires. Trois semaines de repas planifies. Essai gratuit.",
+    "metaDescription": "Plan repas de 21 jours pour creer de nouvelles habitudes alimentaires. Trois semaines de repas planifies. Aperçu gratuit.",
     "h1": "Plan Repas de 21 Jours Pour Transformer Vos Habitudes",
     "intro": "Il faut environ 21 jours pour ancrer une nouvelle habitude, et la planification de repas ne fait pas exception. Un menu de 21 jours vous donne trois semaines completes de repas structures et equilibres — assez de temps pour que cuisiner a la maison devienne un reflexe plutot qu'une aspiration. Au 21e jour, vous aurez un garde-manger bien garni, une routine de courses rodee et la confiance que vous pouvez vraiment faire ca chaque semaine.",
     "valueProps": [
@@ -5769,7 +5769,7 @@
   },
   "30-day-meal-plan": {
     "title": "Plan Repas de 30 Jours",
-    "metaDescription": "Plan repas d'un mois complet avec repas varies et liste de courses hebdomadaire. Organisation totale. Essai gratuit.",
+    "metaDescription": "Plan repas d'un mois complet avec repas varies et liste de courses hebdomadaire. Organisation totale. Aperçu gratuit.",
     "h1": "Plan Repas de 30 Jours Pour un Mois de Repas Sans Stress",
     "intro": "Un menu de 30 jours, c'est une remise a zero complete. Quatre semaines de petits-dejeuners, dejeuners et diners planifies qui suppriment les devinettes pour bien manger pendant un mois entier. Que vous commenciez un nouveau regime, que vous vous releviez d'une saison de plats a emporter, ou que vous vouliez simplement vous prouver que cuisiner regulierement a la maison est possible — 30 jours vous donnent le temps et la structure pour y arriver et observer des resultats concrets.",
     "valueProps": [
@@ -5853,7 +5853,7 @@
   },
   "summer-meal-plan": {
     "title": "Plans Repas d'Ete",
-    "metaDescription": "Plans repas legers et frais pour l'ete. Salades, grillades et repas sans cuisson pour les jours chauds. Essai gratuit.",
+    "metaDescription": "Plans repas legers et frais pour l'ete. Salades, grillades et repas sans cuisson pour les jours chauds. Aperçu gratuit.",
     "h1": "Plans Repas d'Ete Legers et Rafraichissants",
     "intro": "Personne n'a envie de passer une heure devant les fourneaux quand il fait une chaleur etouffante dehors. Un bon menu d'ete mise sur les produits frais, les grillades rapides et les plats sans cuisson qui se preparent en un clin d'oeil. On vous compose un programme hebdomadaire riche en fruits de saison, salades croquantes et proteines legeres pour bien manger sans surchauffer la cuisine.",
     "valueProps": [
@@ -5936,7 +5936,7 @@
   },
   "winter-meal-plan": {
     "title": "Plans Repas d'Hiver",
-    "metaDescription": "Plans repas reconfortants pour l'hiver. Soupes, ragoouts et plats mijotes pour les soirees froides. Essai gratuit.",
+    "metaDescription": "Plans repas reconfortants pour l'hiver. Soupes, ragoouts et plats mijotes pour les soirees froides. Aperçu gratuit.",
     "h1": "Plans Repas d'Hiver Reconfortants et Chaleureux",
     "intro": "Quand les temperatures chutent, vos repas doivent etre a la hauteur. Un bon menu d'hiver, c'est rentrer chez soi pour trouver des ragouts qui mijotent, des legumes dores au four et des plats uniques qui vous rechauffent de l'interieur. On planifie votre semaine autour des produits d'hiver de saison — legumes-racines, courges et agrumes — pour que chaque repas soit reconfortant, nourrissant et qui en vaille la peine.",
     "valueProps": [
@@ -6018,7 +6018,7 @@
   },
   "meal-plan-for-ramadan": {
     "title": "Plans Repas Pour le Ramadan",
-    "metaDescription": "Plans repas pour le Ramadan avec suhoor et iftar equilibres. Repas nourrissants pour le jeune. Essai gratuit.",
+    "metaDescription": "Plans repas pour le Ramadan avec suhoor et iftar equilibres. Repas nourrissants pour le jeune. Aperçu gratuit.",
     "h1": "Plans Repas Pour le Ramadan Equilibres et Energisants",
     "intro": "Bien manger pendant le Ramadan signifie que chaque repas doit compter. Avec seulement deux fenetres alimentaires, votre suhoor doit vous soutenir toute la journee de jeune, et votre iftar doit vous reapprovisionner sans surcharger votre systeme. On compose des menus hebdomadaires pour le Ramadan avec une energie a liberation lente au suhoor, des entrees d'iftar douces et des plats principaux satisfaisants — le tout halal, pense pour l'hydratation et concu pour maintenir votre energie de l'aube au crepuscule.",
     "valueProps": [
@@ -6107,7 +6107,7 @@
   },
   "meal-plan-for-lent": {
     "title": "Plans Repas Pour le Careme",
-    "metaDescription": "Plans repas pour le Careme avec vendredis sans viande. Poisson et recettes vegetariennes savoureuses. Essai gratuit.",
+    "metaDescription": "Plans repas pour le Careme avec vendredis sans viande. Poisson et recettes vegetariennes savoureuses. Aperçu gratuit.",
     "h1": "Plans Repas Pour le Careme Simples et Savoureux",
     "intro": "Observer le Careme ne signifie pas manger des pates nature pendant 40 jours. Un menu de Careme bien pense vous propose des vendredis sans viande savoureux avec du poisson, des legumineuses et des plats riches en legumes, tout en gardant le reste de la semaine equilibre et nourrissant. On planifie en tenant compte des traditions de jeune et d'abstinence pour que vous puissiez vous concentrer sur la dimension spirituelle de cette periode sans vous soucier de quoi cuisiner.",
     "valueProps": [
@@ -6189,7 +6189,7 @@
   },
   "back-to-school-meal-plan": {
     "title": "Plans Repas Pour la Rentree",
-    "metaDescription": "Plans repas pour la rentree scolaire. Repas rapides en semaine et lunchbox equilibrees pour les enfants. Essai gratuit.",
+    "metaDescription": "Plans repas pour la rentree scolaire. Repas rapides en semaine et lunchbox equilibrees pour les enfants. Aperçu gratuit.",
     "h1": "Plans Repas Pour la Rentree Rapides et Equilibres",
     "intro": "La rentree amene son lot de levers matinaux, d'emplois du temps surcharges et de l'eternelle question : qu'est-ce qu'on met dans la boite a lunch demain ? Un menu de rentree chasse le chaos de l'alimentation familiale en vous proposant des petits-dejeuners rapides que les enfants mangent vraiment, des repas de midi qui survivent au cartable, et des diners qui plaisent a toute la tablée. Chaque recette est concue pour la rapidite, la simplicite et l'approbation reelle des enfants.",
     "valueProps": [
@@ -6274,7 +6274,7 @@
   },
   "keto-meal-plan-for-weight-loss": {
     "title": "Plan Repas Keto Pour Perdre du Poids",
-    "metaDescription": "Plan repas cetogene optimise pour la perte de poids. Broulez les graisses en cetose avec des repas savoureux. Essai gratuit.",
+    "metaDescription": "Plan repas cetogene optimise pour la perte de poids. Broulez les graisses en cetose avec des repas savoureux. Aperçu gratuit.",
     "h1": "Plan Repas Keto Pour Perdre du Poids Efficacement",
     "intro": "Le regime cetogene fonctionne pour la perte de poids parce qu'il bascule votre corps en mode bruleur de graisses — mais seulement si c'est bien fait. Un regime ceto brouillon bourre de bacon et de bombes de beurre cale vite la progression. Nos menus ceto pour la perte de poids atteignent les bons macros (70 % de lipides, 25 % de proteines, 5 % de glucides) tout en maintenant un deficit calorique tenable pour bruler du gras sans privation ni manque d'energie.",
     "valueProps": [
@@ -6358,7 +6358,7 @@
   },
   "vegan-meal-plan-for-muscle-gain": {
     "title": "Plan Repas Vegan Pour la Prise de Muscle",
-    "metaDescription": "Plan repas vegan riche en proteines pour la croissance musculaire. Proteines vegetales optimisees. Essai gratuit.",
+    "metaDescription": "Plan repas vegan riche en proteines pour la croissance musculaire. Proteines vegetales optimisees. Aperçu gratuit.",
     "h1": "Plan Repas Vegan Pour Prendre du Muscle Sans Viande",
     "intro": "Pas besoin de blanc de poulet et de shakers de whey pour construire du muscle. Un menu vegan bien concu pour la prise de masse delivre plus de 120 g de proteines par jour grace a des combinaisons intelligentes de tofu, tempeh, legumineuses, seitan et cereales completes. On planifie vos calories en leger surplus avec suffisamment de proteines a chaque repas pour maximiser la synthese proteique musculaire — tout vegetal, tout delicieux, sans pseudo-science du bodybuilding.",
     "valueProps": [
@@ -6447,7 +6447,7 @@
   },
   "gluten-free-meal-plan-for-beginners": {
     "title": "Plan Repas Sans Gluten Pour Debutants",
-    "metaDescription": "Plan repas sans gluten simple pour ceux qui debutent. Apprenez a cuisiner sans gluten facilement. Essai gratuit.",
+    "metaDescription": "Plan repas sans gluten simple pour ceux qui debutent. Apprenez a cuisiner sans gluten facilement. Aperçu gratuit.",
     "h1": "Plan Repas Sans Gluten Pour Debutants Facile et Delicieux",
     "intro": "Passer au sans gluten peut sembler accablant quand on lit chaque etiquette et qu'on doute de chaque ingredient. Le moyen le plus simple de commencer, c'est de miser sur des repas naturellement sans gluten — pas de produits specialises, pas de melanges de farines etranges, juste de vrais aliments qui se trouvent ne contenir aucun gluten. Nos menus pour debutants se concentrent sur des aliments complets que vous connaissez et aimez deja, avec des indications claires sur les pieges caches du gluten pour que vous gagniez en confiance rapidement.",
     "valueProps": [
@@ -6534,7 +6534,7 @@
   },
   "mediterranean-meal-plan-for-heart-health": {
     "title": "Plan Repas Mediterraneen Pour la Sante Cardiaque",
-    "metaDescription": "Plan repas mediterraneen bon pour le coeur. Huile d'olive, poisson et legumes pour proteger votre coeur. Essai gratuit.",
+    "metaDescription": "Plan repas mediterraneen bon pour le coeur. Huile d'olive, poisson et legumes pour proteger votre coeur. Aperçu gratuit.",
     "h1": "Plan Repas Mediterraneen Pour un Coeur en Bonne Sante",
     "intro": "Le regime mediterraneen n'est pas une mode — c'est le modele alimentaire le plus etudie au monde pour la sante cardiovasculaire, avec des decennies de recherche montrant une reduction du risque de maladie cardiaque, d'AVC et d'hypertension. Nos menus mediterraneens axes sur le coeur privilegient l'huile d'olive extra-vierge, les poissons gras, les cereales completes, les legumineuses et les legumes en abondance, tout en minimisant la viande rouge, les produits transformes et les sucres ajoutes. Ca a le gout des vacances et l'efficacite d'un medicament.",
     "valueProps": [
@@ -6623,7 +6623,7 @@
   },
   "low-carb-meal-plan-for-diabetes": {
     "title": "Plan Repas Faible en Glucides Pour le Diabete",
-    "metaDescription": "Plan repas low-carb pour la gestion du diabete. Controlez votre glycemie avec des repas delicieux. Essai gratuit.",
+    "metaDescription": "Plan repas low-carb pour la gestion du diabete. Controlez votre glycemie avec des repas delicieux. Aperçu gratuit.",
     "h1": "Plan Repas Faible en Glucides Pour Gerer le Diabete au Quotidien",
     "intro": "Gerer le diabete par l'alimentation ne signifie pas eliminer tous les glucides — c'est choisir les bons en bonne quantite. Nos menus pauvres en glucides pour le diabete maintiennent les glucides nets a un niveau modere (50 a 100 g par jour), se concentrent sur des ingredients a index glycemique bas et repartissent les glucides uniformement sur les repas pour prevenir les pics et les chutes de glycemie. Chaque recette est concue pour une energie constante, des mesures stables et une alimentation que vous appreciez vraiment au quotidien.",
     "valueProps": [
@@ -6712,7 +6712,7 @@
   },
   "15-minute-meal-plan": {
     "title": "Plan Repas 15 Minutes — Des Vrais Dîners Ultra-Rapides",
-    "metaDescription": "Plan repas hebdomadaire personnalisé en 15 minutes avec recettes rapides et liste de courses. De vrais repas en 15 minutes chrono. Essai gratuit.",
+    "metaDescription": "Plan repas hebdomadaire personnalisé en 15 minutes avec recettes rapides et liste de courses. De vrais repas en 15 minutes chrono. Aperçu gratuit.",
     "h1": "Plan Repas 15 Minutes — De Vrais Plats, Incroyablement Vite",
     "intro": "Quinze minutes suffisent. Pas quinze minutes de cuisson active plus vingt minutes de repos — quinze minutes au total, de l'ouverture du frigo au moment où vous vous asseyez. Ce ne sont ni des repas de bureau tristes ni des en-cas déguisés. Ce sont de vrais dîners construits autour de protéines à cuisson rapide, d'ingrédients prêts à l'emploi et de techniques qui font gagner du temps sans sacrifier la saveur.",
     "valueProps": [
@@ -6810,7 +6810,7 @@
   },
   "high-fiber-meal-plan": {
     "title": "Plan Repas Riche en Fibres — Meilleure Digestion, Plus d'Énergie",
-    "metaDescription": "Plan repas hebdomadaire riche en fibres avec recettes et liste de courses. 30g+ de fibres par jour pour une meilleure digestion. Essai gratuit.",
+    "metaDescription": "Plan repas hebdomadaire riche en fibres avec recettes et liste de courses. 30g+ de fibres par jour pour une meilleure digestion. Aperçu gratuit.",
     "h1": "Plan Riche en Fibres — Plus de Satiété, Meilleure Digestion",
     "intro": "La plupart des gens mangent moitié moins de fibres qu'il ne faudrait. Les 25-30 grammes recommandés semblent gérables jusqu'à ce que vous réalisiez qu'un régime typique n'en apporte que 15. Le déficit se traduit par des ballonnements, des baisses d'énergie et cette sensation de ne jamais être vraiment rassasié. Un plan riche en fibres corrige ça sans transformer chaque repas en bol de céréales au son.",
     "valueProps": [
@@ -6912,7 +6912,7 @@
   },
   "bodybuilding-meal-plan": {
     "title": "Plan Repas Musculation — Alimentez Vos Gains",
-    "metaDescription": "Plan repas musculation personnalisé avec recettes hyperprotéinées et liste de courses. Atteignez vos macros sans manger poulet-riz à chaque repas. Essai gratuit.",
+    "metaDescription": "Plan repas musculation personnalisé avec recettes hyperprotéinées et liste de courses. Atteignez vos macros sans manger poulet-riz à chaque repas. Aperçu gratuit.",
     "h1": "Plan Musculation — Atteignez Vos Macros Sans la Monotonie",
     "intro": "Le régime musculation a un problème d'image. Les gens imaginent du blanc de poulet fade, du riz nature et du brocoli vapeur six fois par jour. Cette approche fonctionne mais personne ne la tient parce que c'est l'ennui total. Vous n'avez pas besoin de manger comme un robot pour prendre du muscle. Il vous faut assez de protéines, le bon surplus ou déficit calorique, et assez de variété pour ne pas abandonner au quatrième repas.",
     "valueProps": [
@@ -7018,7 +7018,7 @@
   },
   "pregnancy-meal-plan": {
     "title": "Plan Repas Grossesse — Nourrir Deux Sans Stress",
-    "metaDescription": "Plan repas grossesse personnalisé avec recettes sûres et riches en nutriments, et liste de courses. Folate, fer, protéines couverts. Essai gratuit.",
+    "metaDescription": "Plan repas grossesse personnalisé avec recettes sûres et riches en nutriments, et liste de courses. Folate, fer, protéines couverts. Aperçu gratuit.",
     "h1": "Plan Grossesse — Bien Manger pour Deux, Simplement",
     "intro": "Les conseils nutritionnels pendant la grossesse sont accablants. Ne mange pas ci, mange plus de ça, prends ces compléments. Entre-temps, vous avez des nausées, vous êtes épuisée et la seule chose qui vous tente, ce sont des crackers et du gingembre. Un plan repas grossesse coupe court au bruit avec une réponse claire chaque jour : voici quoi manger, pourquoi c'est bon pour vous et bébé, et comment le préparer en moins de 30 minutes.",
     "valueProps": [
@@ -7124,7 +7124,7 @@
   },
   "diabetic-meal-plan": {
     "title": "Plan Repas Diabétique — Glycémie Stable, Vrai Goût",
-    "metaDescription": "Plan repas diabétique personnalisé avec recettes à faible index glycémique et liste de courses. Des repas qui stabilisent la glycémie. Essai gratuit.",
+    "metaDescription": "Plan repas diabétique personnalisé avec recettes à faible index glycémique et liste de courses. Des repas qui stabilisent la glycémie. Aperçu gratuit.",
     "h1": "Plan Diabétique — Glycémie Équilibrée, Saveurs Intactes",
     "intro": "Gérer le diabète par l'alimentation ne signifie pas renoncer à tout ce qui vous plaît. Cela signifie choisir des aliments qui libèrent l'énergie lentement, associer glucides, protéines et fibres, et savoir quels repas maintiendront votre glycémie stable. Le défi n'est pas la théorie — c'est de savoir quoi cuisiner un mardi soir qui coche toutes les cases et qui a bon goût.",
     "valueProps": [
@@ -7226,7 +7226,7 @@
   },
   "clean-eating-meal-plan": {
     "title": "Plan Alimentation Saine — Vrais Aliments, Zéro Prise de Tête",
-    "metaDescription": "Plan repas alimentation saine personnalisé avec recettes d'aliments complets et liste de courses. Sans ultra-transformé, sans règles compliquées. Essai gratuit.",
+    "metaDescription": "Plan repas alimentation saine personnalisé avec recettes d'aliments complets et liste de courses. Sans ultra-transformé, sans règles compliquées. Aperçu gratuit.",
     "h1": "Plan Alimentation Saine — Vrais Ingrédients, Vrais Résultats",
     "intro": "Manger sainement, c'est simple : manger des aliments qui ressemblent à des aliments. Si ça a poussé dans la terre, marché dessus ou nagé dans la mer, c'est dedans. Si c'est fabriqué en usine avec une liste d'ingrédients plus longue qu'un ticket de caisse, c'est dehors. Pas de comptage de macros, pas d'élimination de groupes alimentaires. Juste des ingrédients entiers et peu transformés cuisinés en repas qui vous font du bien.",
     "valueProps": [

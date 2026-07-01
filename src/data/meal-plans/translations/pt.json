@@ -1,7 +1,7 @@
 {
   "vegetarian": {
     "title": "Cardapios Vegetarianos Semanais",
-    "metaDescription": "Cardapios vegetarianos personalizados com lista de compras. Refeicoes sem carne ricas em proteina. Experimente gratis.",
+    "metaDescription": "Cardapios vegetarianos personalizados com lista de compras. Refeicoes sem carne ricas em proteina. Veja uma prévia grátis.",
     "h1": "Cardapios Vegetarianos Que Realmente Sustentam",
     "intro": "Ser vegetariano não deveria significar sobreviver de macarrão e queijo. O verdadeiro desafio é bater suas metas de proteína e manter as refeições empolgantes semana após semana sem cair na monotonia. Criamos um cardápio vegetariano novo toda semana com macros equilibrados, culinárias diversas e uma lista de compras pronta para você nunca mais se perguntar o que tem pra jantar.",
     "valueProps": [
@@ -81,7 +81,7 @@
   },
   "vegan": {
     "title": "Cardapios Veganos Semanais",
-    "metaDescription": "Cardapios veganos personalizados com refeicoes 100% vegetais equilibradas e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios veganos personalizados com refeicoes 100% vegetais equilibradas e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Veganos Saborosos e Nutritivos",
     "intro": "A alimentação vegana pode ser incrivelmente satisfatória quando bem planejada. O segredo é ir além dos substitutos de carne e explorar a riqueza natural de grãos, leguminosas, vegetais e temperos. Criamos um cardápio vegano novo toda semana com proteínas completas, refeições saborosas e uma lista de compras que torna tudo prático.",
     "valueProps": [
@@ -166,7 +166,7 @@
   },
   "gluten-free": {
     "title": "Cardapios Sem Gluten Semanais",
-    "metaDescription": "Cardapios sem gluten personalizados toda semana. Refeicoes deliciosas sem comprometer o sabor. Experimente gratis.",
+    "metaDescription": "Cardapios sem gluten personalizados toda semana. Refeicoes deliciosas sem comprometer o sabor. Veja uma prévia grátis.",
     "h1": "Cardapios Sem Gluten Com Sabor de Verdade",
     "intro": "Comer sem glúten não precisa significar restrição. O mundo está cheio de grãos, raízes e ingredientes naturalmente livres de glúten que são deliciosos por conta própria. Nossos cardápios sem glúten usam arroz, quinoa, batata, milho e outros ingredientes seguros para criar refeições completas, saborosas e variadas toda semana.",
     "valueProps": [
@@ -251,7 +251,7 @@
   },
   "dairy-free": {
     "title": "Cardapios Sem Laticinios Semanais",
-    "metaDescription": "Cardapios sem laticinios com alternativas deliciosas. Lista de compras e receitas automaticas. Experimente gratis.",
+    "metaDescription": "Cardapios sem laticinios com alternativas deliciosas. Lista de compras e receitas automaticas. Veja uma prévia grátis.",
     "h1": "Cardapios Sem Laticinios Cheios de Sabor",
     "intro": "Viver sem laticínios ficou muito mais fácil — e mais gostoso — do que nunca. Leite de coco, castanhas, abacate e azeite oferecem toda a cremosidade e riqueza que você precisa sem nenhum derivado de leite. Nossos cardápios sem laticínios provam que você não precisa abrir mão de sabor nem de nutrição.",
     "valueProps": [
@@ -336,7 +336,7 @@
   },
   "keto": {
     "title": "Cardapios Keto Semanais",
-    "metaDescription": "Cardapios cetogenicos personalizados com macros calculados e lista de compras. Mantenha a cetose facilmente. Experimente gratis.",
+    "metaDescription": "Cardapios cetogenicos personalizados com macros calculados e lista de compras. Mantenha a cetose facilmente. Veja uma prévia grátis.",
     "h1": "Cardapios Keto Para Manter a Cetose Sem Esforco",
     "intro": "A dieta keto funciona quando bem feita — mas planejar refeições com menos de 30g de carboidratos por dia sem enjoar de bacon e ovos é o verdadeiro desafio. Nossos cardápios keto são variados, saborosos e calculados para manter você em cetose com gorduras de qualidade, proteínas adequadas e zero monotonia.",
     "valueProps": [
@@ -421,7 +421,7 @@
   },
   "low-carb": {
     "title": "Cardapios Low Carb Semanais",
-    "metaDescription": "Cardapios com pouco carboidrato toda semana. Refeicoes que saciam sem os amidos. Lista de compras inclusa. Experimente gratis.",
+    "metaDescription": "Cardapios com pouco carboidrato toda semana. Refeicoes que saciam sem os amidos. Lista de compras inclusa. Veja uma prévia grátis.",
     "h1": "Cardapios Low Carb Sem Passar Vontade",
     "intro": "Low carb não precisa ser tão radical quanto keto. Se você quer reduzir carboidratos sem eliminar frutas, alguns grãos e a flexibilidade de comer com a família, nossos cardápios low carb são a escolha certa. Mantemos os carboidratos entre 50-100g por dia com refeições satisfatórias que não parecem dieta.",
     "valueProps": [
@@ -506,7 +506,7 @@
   },
   "pescatarian": {
     "title": "Cardapios Pescetarianos Semanais",
-    "metaDescription": "Cardapios pescetarianos com peixes e frutos do mar toda semana. Receitas saudaveis e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios pescetarianos com peixes e frutos do mar toda semana. Receitas saudaveis e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Pescetarianos Frescos e Saborosos",
     "intro": "O pescetarianismo combina o melhor de dois mundos: a nutrição rica em ômega-3 dos frutos do mar com a variedade e os benefícios de uma dieta rica em vegetais. Nossos cardápios pescetarianos trazem peixes, camarões e frutos do mar preparados de formas deliciosas, sem nunca repetir receitas ao longo da semana.",
     "valueProps": [
@@ -591,7 +591,7 @@
   },
   "halal": {
     "title": "Cardapios Halal Semanais",
-    "metaDescription": "Cardapios halal personalizados com refeicoes conformes e deliciosas toda semana. Lista de compras inclusa. Experimente gratis.",
+    "metaDescription": "Cardapios halal personalizados com refeicoes conformes e deliciosas toda semana. Lista de compras inclusa. Veja uma prévia grátis.",
     "h1": "Cardapios Halal Para Refeicoes Conformes e Saborosas",
     "intro": "Comer halal vai muito além de uma restrição — é uma tradição culinária rica que abrange das especiarias do Oriente Médio aos sabores complexos do subcontinente indiano. Nossos cardápios halal usam carnes certificadas, evitam álcool na cozinha e trazem receitas autênticas que honram essa herança culinária milenar.",
     "valueProps": [
@@ -676,7 +676,7 @@
   },
   "kosher": {
     "title": "Cardapios Kosher Semanais",
-    "metaDescription": "Cardapios kosher personalizados com separacao de carne e leite. Receitas deliciosas e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios kosher personalizados com separacao de carne e leite. Receitas deliciosas e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Kosher Que Simplificam o Dia a Dia",
     "intro": "Manter uma cozinha kosher exige planejamento — separar carne de laticínios, verificar certificações e respeitar as regras de preparo. Nossos cardápios kosher facilitam tudo isso com receitas que respeitam as leis da kashrut, usando ingredientes acessíveis e organizando suas refeições para que a separação entre carne e leite seja natural e prática.",
     "valueProps": [
@@ -761,7 +761,7 @@
   },
   "no-meat-fridays": {
     "title": "Cardapios Para Sextas Sem Carne",
-    "metaDescription": "Cardapios para a Quaresma com sextas sem carne. Receitas com peixe e vegetarianas com lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios para a Quaresma com sextas sem carne. Receitas com peixe e vegetarianas com lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Para Sextas Sem Carne",
     "intro": "A tradição de sextas sem carne é praticada por milhões de pessoas durante a Quaresma e ao longo do ano todo. Nossos cardápios garantem que suas sextas-feiras sejam tão deliciosas quanto qualquer outro dia, com receitas de peixe, frutos do mar e pratos vegetarianos que ninguém vai confundir com sacrifício.",
     "valueProps": [
@@ -846,7 +846,7 @@
   },
   "american": {
     "title": "Cardapios Americanos Classicos",
-    "metaDescription": "Cardapios americanos classicos feitos em casa. Burgers, mac & cheese e churrasco com toque saudavel. Experimente gratis.",
+    "metaDescription": "Cardapios americanos classicos feitos em casa. Burgers, mac & cheese e churrasco com toque saudavel. Veja uma prévia grátis.",
     "h1": "Cardapios Americanos Classicos Feitos em Casa",
     "intro": "De hambúrgueres suculentos e churrasco defumado a caçarolas aconchegantes e assados de domingo, a culinária americana é toda sobre sabores marcantes e porções generosas. Nosso planejador de refeições monta um cardápio semanal de clássicos americanos com lista de compras inclusa, seja para alimentar uma família de quatro ou preparar marmitas solo.",
     "valueProps": [
@@ -931,7 +931,7 @@
   },
   "italian": {
     "title": "Cardapios Italianos Semanais",
-    "metaDescription": "Cardapios italianos autenticos toda semana. Massas, risotos e pratos cozidos com lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios italianos autenticos toda semana. Massas, risotos e pratos cozidos com lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Italianos Para Cozinhar de Verdade em Casa",
     "intro": "A culinária italiana é uma das mais amadas do mundo por um bom motivo — ingredientes simples e de qualidade, técnicas respeitosas e sabores que confortam a alma. Nossos cardápios italianos vão muito além de pizza e macarrão, explorando risottos, carnes braseadas, antepastos e as tradições regionais que fazem da Itália o paraíso gastronômico que é.",
     "valueProps": [
@@ -1016,7 +1016,7 @@
   },
   "mexican": {
     "title": "Cardapios Mexicanos Semanais",
-    "metaDescription": "Cardapios mexicanos com tacos, burritos e salsas toda semana. Receitas autenticas e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios mexicanos com tacos, burritos e salsas toda semana. Receitas autenticas e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Mexicanos Ousados e Saborosos",
     "intro": "A culinária mexicana vai muito além de tacos e burritos. É uma tradição milenar reconhecida pela UNESCO, com moles complexos, tamales artesanais, ceviches frescos e uma variedade de salsas que transforma qualquer refeição. Nossos cardápios mexicanos trazem autenticidade e sabor com ingredientes acessíveis e receitas que funcionam no dia a dia.",
     "valueProps": [
@@ -1101,7 +1101,7 @@
   },
   "asian": {
     "title": "Cardapios Asiaticos Semanais",
-    "metaDescription": "Cardapios asiaticos variados com culinaria chinesa, japonesa e tailandesa. Receitas faceis e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios asiaticos variados com culinaria chinesa, japonesa e tailandesa. Receitas faceis e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Asiaticos Para Explorar Sabores do Oriente",
     "intro": "A culinária asiática é vasta e incrivelmente diversa — dos stir-fries chineses ao sushi japonês, dos curries tailandeses ao pho vietnamita. Nossos cardápios asiáticos exploram essa riqueza com receitas autênticas, ingredientes encontrados em supermercados comuns e técnicas que qualquer pessoa pode dominar em casa.",
     "valueProps": [
@@ -1186,7 +1186,7 @@
   },
   "mediterranean": {
     "title": "Cardapios Mediterraneos Semanais",
-    "metaDescription": "Cardapios mediterraneos saudaveis com azeite, vegetais frescos e proteinas magras. Lista de compras inclusa. Experimente gratis.",
+    "metaDescription": "Cardapios mediterraneos saudaveis com azeite, vegetais frescos e proteinas magras. Lista de compras inclusa. Veja uma prévia grátis.",
     "h1": "Cardapios Mediterraneos Para Uma Vida Saudavel",
     "intro": "A dieta mediterrânea é considerada a mais saudável do mundo por pesquisadores — e também uma das mais deliciosas. Azeite generoso, ervas frescas, peixes, grãos integrais e vegetais da estação são a base de refeições que protegem o coração e satisfazem a alma. Nossos cardápios trazem essa tradição milenar para o seu dia a dia.",
     "valueProps": [
@@ -1271,7 +1271,7 @@
   },
   "indian": {
     "title": "Cardapios Indianos Semanais",
-    "metaDescription": "Cardapios indianos temperados toda semana. Currys, dals e biryanis com lista de compras automatica. Experimente gratis.",
+    "metaDescription": "Cardapios indianos temperados toda semana. Currys, dals e biryanis com lista de compras automatica. Veja uma prévia grátis.",
     "h1": "Cardapios Indianos Ricos em Temperos e Sabores",
     "intro": "A culinária indiana é um universo de especiarias, texturas e tradições regionais que vai do dal reconfortante do norte aos curries de coco do sul. Nossos cardápios indianos trazem essa diversidade para sua cozinha com receitas autênticas que ensinam a usar especiarias de verdade — não apenas pó de curry comprado pronto.",
     "valueProps": [
@@ -1356,7 +1356,7 @@
   },
   "thai": {
     "title": "Cardapios Tailandeses Semanais",
-    "metaDescription": "Cardapios tailandeses autenticos com pad thai, currys e sopas. Receitas equilibradas e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios tailandeses autenticos com pad thai, currys e sopas. Receitas equilibradas e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Tailandeses Para Uma Culinaria Vibrante em Casa",
     "intro": "A culinária tailandesa é uma sinfonia de sabores — doce, salgado, ácido e picante em perfeito equilíbrio. Leite de coco, capim-limão, gengibre, pimenta e ervas frescas criam pratos que explodem de sabor. Nossos cardápios tailandeses trazem essa magia para sua cozinha com receitas autênticas e uma lista de compras organizada.",
     "valueProps": [
@@ -1441,7 +1441,7 @@
   },
   "japanese": {
     "title": "Cardapios Japoneses Semanais",
-    "metaDescription": "Cardapios japoneses equilibrados com ramen, sushi bowls e teriyaki. Cozinha saudavel e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios japoneses equilibrados com ramen, sushi bowls e teriyaki. Cozinha saudavel e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Japoneses Equilibrados e Refinados",
     "intro": "A culinária japonesa é uma arte de equilíbrio, sazonalidade e respeito pelos ingredientes. Do sushi perfeito ao ramen reconfortante, da tempura crocante ao donburi generoso, cada prato reflete séculos de tradição. Nossos cardápios japoneses trazem essa elegância para o dia a dia com receitas acessíveis e técnicas que qualquer pessoa pode aprender.",
     "valueProps": [
@@ -1526,7 +1526,7 @@
   },
   "french": {
     "title": "Cardapios Franceses Semanais",
-    "metaDescription": "Cardapios franceses classicos adaptados ao dia a dia. Tecnicas acessiveis e ingredientes frescos. Experimente gratis.",
+    "metaDescription": "Cardapios franceses classicos adaptados ao dia a dia. Tecnicas acessiveis e ingredientes frescos. Veja uma prévia grátis.",
     "h1": "Cardapios Franceses Para Cozinhar Como Chef em Casa",
     "intro": "A culinária francesa é a base da gastronomia ocidental — técnicas clássicas, molhos refinados e um respeito profundo pela qualidade dos ingredientes. Nossos cardápios franceses desmistificam essa tradição com receitas acessíveis que trazem a elegância da cozinha francesa para o dia a dia sem exigir diploma de chef.",
     "valueProps": [
@@ -1611,7 +1611,7 @@
   },
   "middle-eastern": {
     "title": "Cardapios do Oriente Medio Semanais",
-    "metaDescription": "Cardapios do Oriente Medio com falafels, homus e grelhados. Receitas autenticas e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios do Oriente Medio com falafels, homus e grelhados. Receitas autenticas e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios do Oriente Medio Generosos e Aromaticos",
     "intro": "A culinária do Oriente Médio é uma das mais antigas e generosas do mundo — mezze farto, carnes grelhadas perfumadas, arroz aromático e especiarias quentes que aquecem a alma. Nossos cardápios trazem essa tradição hospitaleira para sua mesa com receitas autênticas do Líbano, Turquia, Irã e todo o mundo árabe.",
     "valueProps": [
@@ -1696,7 +1696,7 @@
   },
   "korean": {
     "title": "Cardapios Coreanos Semanais",
-    "metaDescription": "Cardapios coreanos com bibimbap, bulgogi e kimchi jjigae. Receitas autenticas e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios coreanos com bibimbap, bulgogi e kimchi jjigae. Receitas autenticas e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Coreanos Para Uma Culinaria Marcante em Casa",
     "intro": "A culinária coreana conquistou o mundo, e com razão — é ousada, fermentada, picante e irresistivelmente viciante. Mas cozinhar coreano em casa vai muito além de churrasco e frango frito. São mesas cheias de banchan, ensopados borbulhantes e bowls nutritivos de arroz. Nossos cardápios trazem essa profundidade à sua cozinha, com receitas que vão do bibimbap rápido ao jjigae lentamente cozido, e uma lista de compras cobrindo gochujang, óleo de gergelim e tudo mais.",
     "valueProps": [
@@ -1781,7 +1781,7 @@
   },
   "southern": {
     "title": "Cardapios Culinaria do Sul Americano",
-    "metaDescription": "Cardapios culinaria do Sul com frango frito, grits e biscuits. Receitas confortantes com lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios culinaria do Sul com frango frito, grits e biscuits. Receitas confortantes com lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Culinaria do Sul Para o Conforto em Casa",
     "intro": "A culinária do sul dos Estados Unidos é lendária — frango frito crocante, costela defumada por horas, couve refogada e cornbread quentinho. É comida feita com alma, tradição e uma generosidade que aquece o coração. Nossos cardápios trazem esses clássicos para sua cozinha com receitas autênticas que honram essa herança culinária única.",
     "valueProps": [
@@ -1866,7 +1866,7 @@
   },
   "vegan-thai": {
     "title": "Cardapios Veganos Tailandeses",
-    "metaDescription": "Cardapios tailandeses veganos com currys de leite de coco, pad thai e sopas. 100% vegetal, 100% saboroso. Experimente gratis.",
+    "metaDescription": "Cardapios tailandeses veganos com currys de leite de coco, pad thai e sopas. 100% vegetal, 100% saboroso. Veja uma prévia grátis.",
     "h1": "Cardapios Veganos Tailandeses Cheios de Sabor",
     "intro": "A culinária tailandesa é uma aliada natural dos veganos — leite de coco substitui creme, tofu e legumes são protagonistas, e os sabores explosivos de capim-limão, gengibre e pimenta garantem que nada fique sem graça. Nossos cardápios veganos tailandeses precisam de poucas adaptações porque a cozinha tailandesa já nasce quase vegana.",
     "valueProps": [
@@ -1951,7 +1951,7 @@
   },
   "vegan-indian": {
     "title": "Cardapios Veganos Indianos",
-    "metaDescription": "Cardapios indianos veganos com dals, currys de legumes e chutneys. Ricos em proteina vegetal. Experimente gratis.",
+    "metaDescription": "Cardapios indianos veganos com dals, currys de legumes e chutneys. Ricos em proteina vegetal. Veja uma prévia grátis.",
     "h1": "Cardapios Veganos Indianos Ricos e Aromaticos",
     "intro": "A Índia é o lar da maior tradição vegetariana e vegana do mundo. Dals aromáticos, curries de grão-de-bico, vegetais masala e pães integrais criam uma culinária vegana tão rica e satisfatória que você nem percebe a ausência de produtos animais. Nossos cardápios veganos indianos exploram essa tradição milenar.",
     "valueProps": [
@@ -2036,7 +2036,7 @@
   },
   "vegan-mediterranean": {
     "title": "Cardapios Veganos Mediterraneos",
-    "metaDescription": "Cardapios mediterraneos veganos com homus, vegetais grelhados e graos. Saudavel e gostoso. Experimente gratis.",
+    "metaDescription": "Cardapios mediterraneos veganos com homus, vegetais grelhados e graos. Saudavel e gostoso. Veja uma prévia grátis.",
     "h1": "Cardapios Veganos Mediterraneos Saudaveis e Deliciosos",
     "intro": "A dieta mediterrânea já é naturalmente rica em vegetais, leguminosas e azeite — torná-la vegana é um passo natural. Nossos cardápios veganos mediterrâneos exploram homus, falafel, saladas frescas, grãos integrais e a riqueza do azeite para criar refeições que são tão saudáveis quanto deliciosas.",
     "valueProps": [
@@ -2121,7 +2121,7 @@
   },
   "keto-mediterranean": {
     "title": "Cardapios Keto Mediterraneos",
-    "metaDescription": "Cardapios cetogenicos mediterraneos com azeite, peixes e vegetais. Cetose com dieta mediterranea. Experimente gratis.",
+    "metaDescription": "Cardapios cetogenicos mediterraneos com azeite, peixes e vegetais. Cetose com dieta mediterranea. Veja uma prévia grátis.",
     "h1": "Cardapios Keto Mediterraneos Para Unir Saude e Cetose",
     "intro": "Combinar keto com mediterrâneo é uma das abordagens mais saudáveis de low carb. Em vez de depender de bacon e queijo processado, você usa azeite, peixes gordos, azeitonas, nozes e vegetais frescos como suas principais fontes de gordura. Nossos cardápios keto-mediterrâneos provam que cetose pode ser elegante e nutritiva.",
     "valueProps": [
@@ -2206,7 +2206,7 @@
   },
   "keto-asian": {
     "title": "Cardapios Keto Asiaticos",
-    "metaDescription": "Cardapios cetogenicos asiaticos sem arroz nem macarrao. Sabores asiaticos com macros keto. Experimente gratis.",
+    "metaDescription": "Cardapios cetogenicos asiaticos sem arroz nem macarrao. Sabores asiaticos com macros keto. Veja uma prévia grátis.",
     "h1": "Cardapios Keto Asiaticos Sem Abrir Mao do Sabor",
     "intro": "A culinária asiática e a keto podem parecer incompatíveis por causa do arroz e do macarrão, mas há um universo de pratos asiáticos que são naturalmente low carb. Stir-fries com legumes, carnes marinadas, sopas ricas e saladas frescas formam a base perfeita para uma keto asiática cheia de sabor e umami.",
     "valueProps": [
@@ -2291,7 +2291,7 @@
   },
   "keto-mexican": {
     "title": "Cardapios Keto Mexicanos",
-    "metaDescription": "Cardapios cetogenicos mexicanos com tacos de alface e pratos de carne. Sabor mexicano sem carboidratos. Experimente gratis.",
+    "metaDescription": "Cardapios cetogenicos mexicanos com tacos de alface e pratos de carne. Sabor mexicano sem carboidratos. Veja uma prévia grátis.",
     "h1": "Cardapios Keto Mexicanos Gostosos e Low Carb",
     "intro": "Comida mexicana sem tortilha parece impossível — até você descobrir que a carne, as salsas, o guacamole e os temperos são a alma verdadeira dessa culinária, e são todos keto. Nossos cardápios keto mexicanos mantêm todo o sabor e substituem os carboidratos por alternativas inteligentes como folhas de alface e queijo derretido.",
     "valueProps": [
@@ -2376,7 +2376,7 @@
   },
   "vegetarian-italian": {
     "title": "Cardapios Vegetarianos Italianos",
-    "metaDescription": "Cardapios vegetarianos italianos com massas, risotos e pizzas sem carne. Culinaria italiana autentica. Experimente gratis.",
+    "metaDescription": "Cardapios vegetarianos italianos com massas, risotos e pizzas sem carne. Culinaria italiana autentica. Veja uma prévia grátis.",
     "h1": "Cardapios Vegetarianos Italianos Autenticos e Generosos",
     "intro": "A Itália é um paraíso para vegetarianos. Berinjela à parmegiana, risottos de cogumelos, massas com molho de tomate fresco, sopas de feijão e pizzas de vegetais fazem parte do DNA culinário italiano. Nossos cardápios vegetarianos italianos mostram que essa culinária nunca precisou de carne para brilhar.",
     "valueProps": [
@@ -2461,7 +2461,7 @@
   },
   "vegetarian-indian": {
     "title": "Cardapios Vegetarianos Indianos",
-    "metaDescription": "Cardapios indianos vegetarianos com dals, paneer e vegetais temperados. Ricos em proteina vegetal. Experimente gratis.",
+    "metaDescription": "Cardapios indianos vegetarianos com dals, paneer e vegetais temperados. Ricos em proteina vegetal. Veja uma prévia grátis.",
     "h1": "Cardapios Vegetarianos Indianos Tradicionais e Nutritivos",
     "intro": "A Índia tem a maior população vegetariana do mundo, e sua culinária vegetariana é considerada a mais sofisticada e saborosa que existe. Dal, paneer, chana masala, aloo gobi e dezenas de outras preparações provam que proteína vegetal pode ser absolutamente extraordinária quando preparada com as especiarias certas.",
     "valueProps": [
@@ -2546,7 +2546,7 @@
   },
   "vegetarian-mediterranean": {
     "title": "Cardapios Vegetarianos Mediterraneos",
-    "metaDescription": "Cardapios vegetarianos mediterraneos com falafel, halloumi e vegetais grelhados. Saudavel e delicioso. Experimente gratis.",
+    "metaDescription": "Cardapios vegetarianos mediterraneos com falafel, halloumi e vegetais grelhados. Saudavel e delicioso. Veja uma prévia grátis.",
     "h1": "Cardapios Vegetarianos Mediterraneos Frescos e Equilibrados",
     "intro": "A dieta mediterrânea já coloca vegetais, grãos e leguminosas no centro — tirar a carne apenas traz esses ingredientes ainda mais para o holofote. Nossos cardápios vegetarianos mediterrâneos combinam ovos, queijo e iogurte com o azeite, as ervas frescas e os vegetais da estação que definem esse estilo alimentar mundialmente renomado.",
     "valueProps": [
@@ -2632,7 +2632,7 @@
   },
   "gluten-free-asian": {
     "title": "Cardapios Sem Gluten Asiaticos",
-    "metaDescription": "Cardapios asiaticos sem gluten com macarrao de arroz, salteados e currys. Todos os sabores sem trigo. Experimente gratis.",
+    "metaDescription": "Cardapios asiaticos sem gluten com macarrao de arroz, salteados e currys. Todos os sabores sem trigo. Veja uma prévia grátis.",
     "h1": "Cardapios Sem Gluten Asiaticos Cheios de Sabor",
     "intro": "A culinária asiática oferece variedade incrível para quem não come glúten — arroz é o amido padrão na maior parte da Ásia, e muitos pratos são naturalmente livres de trigo. A parte complicada é o molho de soja (que contém trigo), alguns macarrões e espessantes ocultos. Nossos cardápios asiáticos sem glúten cuidam de tudo isso para você.",
     "valueProps": [
@@ -2722,7 +2722,7 @@
   },
   "gluten-free-italian": {
     "title": "Cardapios Sem Gluten Italianos",
-    "metaDescription": "Cardapios italianos sem gluten com massas GF, risotos e grelhados. La dolce vita sem gluten. Experimente gratis.",
+    "metaDescription": "Cardapios italianos sem gluten com massas GF, risotos e grelhados. La dolce vita sem gluten. Veja uma prévia grátis.",
     "h1": "Cardapios Sem Gluten Italianos Que Tem Sabor",
     "intro": "Comida italiana e glúten parecem inseparáveis — até você descobrir risoto, polenta, massa sem glúten e os inúmeros pratos italianos que nunca precisaram de trigo. Nossos cardápios italianos sem glúten provam que dá para comer como se estivesse em Roma sem um único grão de trigo tocar seu prato.",
     "valueProps": [
@@ -2809,7 +2809,7 @@
   },
   "gluten-free-mexican": {
     "title": "Cardapios Sem Gluten Mexicanos",
-    "metaDescription": "Cardapios mexicanos sem gluten com tortilhas de milho, tacos e salsas. Culinaria mexicana naturalmente sem gluten. Experimente gratis.",
+    "metaDescription": "Cardapios mexicanos sem gluten com tortilhas de milho, tacos e salsas. Culinaria mexicana naturalmente sem gluten. Veja uma prévia grátis.",
     "h1": "Cardapios Sem Gluten Mexicanos Naturais e Saborosos",
     "intro": "A boa notícia: a culinária mexicana tradicional é construída sobre milho, não trigo. Tortilhas de milho, tamales, tostadas e sopes são todos naturalmente sem glúten. As armadilhas são tortilhas de farinha de trigo, itens empanados com cerveja e algumas misturas de tempero compradas prontas. Nossos planos mantêm a autenticidade do milho e identificam cada fonte oculta de glúten.",
     "valueProps": [
@@ -2895,7 +2895,7 @@
   },
   "halal-mediterranean": {
     "title": "Cardapios Halal Mediterraneos",
-    "metaDescription": "Cardapios halal mediterraneos com grelhados, homus e vegetais frescos. Conformes e deliciosos. Experimente gratis.",
+    "metaDescription": "Cardapios halal mediterraneos com grelhados, homus e vegetais frescos. Conformes e deliciosos. Veja uma prévia grátis.",
     "h1": "Cardapios Halal Mediterraneos Saudaveis e Conformes",
     "intro": "As culinárias mediterrânea e halal compartilham raízes profundas — grande parte da costa leste do Mediterrâneo é historicamente muçulmana, e pratos como shawarma, fattoush e kibbeh são simultaneamente mediterrâneos e halal por natureza. Nossos planos unem o melhor dos dois mundos: alimentação saudável mediterrânea com total conformidade halal.",
     "valueProps": [
@@ -2981,7 +2981,7 @@
   },
   "halal-indian": {
     "title": "Cardapios Halal Indianos",
-    "metaDescription": "Cardapios halal indianos com biryanis, currys e tandooris. Carnes halal e temperos autenticos. Experimente gratis.",
+    "metaDescription": "Cardapios halal indianos com biryanis, currys e tandooris. Carnes halal e temperos autenticos. Veja uma prévia grátis.",
     "h1": "Cardapios Halal Indianos Aromaticos e Autenticos",
     "intro": "A Índia tem uma das maiores populações muçulmanas do mundo, e sua tradição culinária halal é extraordinária — do biryani de Lucknow ao haleem de Hyderabad, dos kebabs Mughlai ao curry de peixe de Kerala. Nossos cardápios halal indianos exploram essas ricas tradições, usando carne halal e evitando totalmente ingredientes à base de álcool.",
     "valueProps": [
@@ -3069,7 +3069,7 @@
   },
   "halal-middle-eastern": {
     "title": "Cardapios Halal do Oriente Medio",
-    "metaDescription": "Cardapios halal do Oriente Medio com kebabs, falafels e mezze. Culinaria tradicional conforme. Experimente gratis.",
+    "metaDescription": "Cardapios halal do Oriente Medio com kebabs, falafels e mezze. Culinaria tradicional conforme. Veja uma prévia grátis.",
     "h1": "Cardapios Halal do Oriente Medio Tradicionais e Generosos",
     "intro": "A culinária do Oriente Médio é halal em sua essência — essas receitas foram passadas por gerações de famílias muçulmanas no Levante, Península Arábica e Norte da África. Nossos cardápios trazem essa herança para sua cozinha com receitas autênticas de shawarma, mansaf, maqluba e os spreads de mezze que tornam a gastronomia do Oriente Médio lendária.",
     "valueProps": [
@@ -3157,7 +3157,7 @@
   },
   "pescatarian-japanese": {
     "title": "Cardapios Pescetarianos Japoneses",
-    "metaDescription": "Cardapios japoneses pescetarianos com sushi bowls, ramen de frutos do mar e teriyaki de peixe. Experimente gratis.",
+    "metaDescription": "Cardapios japoneses pescetarianos com sushi bowls, ramen de frutos do mar e teriyaki de peixe. Veja uma prévia grátis.",
     "h1": "Cardapios Pescetarianos Japoneses Refinados e Equilibrados",
     "intro": "O Japão é uma nação insular, e sua culinária reflete isso — frutos do mar e vegetais sempre estiveram no coração da cozinha japonesa. Uma dieta pescetariana japonesa mal é uma restrição; é mais próxima de como a maioria dos japoneses realmente come. Nossos planos semanais cobrem sushi, ramen, donburi e favoritos de izakaya, tudo centrado em peixe e ingredientes vegetais.",
     "valueProps": [
@@ -3245,7 +3245,7 @@
   },
   "pescatarian-mediterranean": {
     "title": "Cardapios Pescetarianos Mediterraneos",
-    "metaDescription": "Cardapios mediterraneos pescetarianos com peixes grelhados, frutos do mar e vegetais. Saudavel e delicioso. Experimente gratis.",
+    "metaDescription": "Cardapios mediterraneos pescetarianos com peixes grelhados, frutos do mar e vegetais. Saudavel e delicioso. Veja uma prévia grátis.",
     "h1": "Cardapios Pescetarianos Mediterraneos Frescos e Leves",
     "intro": "A dieta mediterrânea tradicional sempre foi uma dieta pescetariana — comunidades costeiras na Grécia, Itália, Espanha e Norte da África comiam peixe diariamente e carne raramente. Nossos planos pescetarianos mediterrâneos voltam a essas raízes com peixe grelhado, ensopados de frutos do mar, azeite, vegetais frescos e os preparos simples que fazem desse estilo alimentar o padrão-ouro em saúde.",
     "valueProps": [
@@ -3333,7 +3333,7 @@
   },
   "dairy-free-thai": {
     "title": "Cardapios Tailandeses Sem Laticinios",
-    "metaDescription": "Cardapios tailandeses sem laticinios com leite de coco, currys e salteados. Naturalmente sem lactose. Experimente gratis.",
+    "metaDescription": "Cardapios tailandeses sem laticinios com leite de coco, currys e salteados. Naturalmente sem lactose. Veja uma prévia grátis.",
     "h1": "Cardapios Tailandeses Sem Laticinios e Cheios de Sabor",
     "intro": "A culinária tailandesa é uma das mais naturalmente sem laticínios do planeta. Leite de coco substitui creme, molho de peixe substitui manteiga, e os sabores marcantes de capim-limão, galanga e pimenta fazem você não sentir falta de queijo por um segundo sequer. Nossos cardápios tailandeses sem laticínios não precisam de quase nenhuma substituição — é assim que a comida tailandesa sempre deveria ser saboreada.",
     "valueProps": [
@@ -3423,7 +3423,7 @@
   },
   "dairy-free-mexican": {
     "title": "Cardapios Mexicanos Sem Laticinios",
-    "metaDescription": "Cardapios mexicanos sem queijo nem creme. Tacos, salsas e grelhados com todo o sabor. Experimente gratis.",
+    "metaDescription": "Cardapios mexicanos sem queijo nem creme. Tacos, salsas e grelhados com todo o sabor. Veja uma prévia grátis.",
     "h1": "Cardapios Mexicanos Sem Laticinios -- Todo Sabor Sem o Queijo",
     "intro": "Comida mexicana sem queijo parece um sacrifício — até você perceber que a alma da culinária mexicana vive nas pimentas, no limão, no coentro, no cominho e nas carnes cozidas lentamente, não no queijo por cima. A culinária mexicana pré-colonial era totalmente sem laticínios. Nossos planos retornam a essas raízes mantendo todos os sabores intensos e satisfatórios que você adora.",
     "valueProps": [
@@ -3513,7 +3513,7 @@
   },
   "low-carb-southern": {
     "title": "Cardapios Culinaria do Sul Low Carb",
-    "metaDescription": "Culinaria do Sul americano em versao low carb. Frango, verduras e sabores do Sul sem os carboidratos. Experimente gratis.",
+    "metaDescription": "Culinaria do Sul americano em versao low carb. Frango, verduras e sabores do Sul sem os carboidratos. Veja uma prévia grátis.",
     "h1": "Cardapios Culinaria do Sul Low Carb e Confortantes",
     "intro": "A comida do Sul dos EUA é lendária por seus sabores intensos, porções generosas e conforto acolhedor — mas também pela dependência pesada de pão de milho, biscoitos, canjica e chá doce. Nossos planos low-carb sulistas mantêm a alma da cozinha sulista intacta: carnes defumadas lentamente, folhas refogadas, temperos marcantes e técnicas de frigideira de ferro, enquanto trocamos os amidos que pesam.",
     "valueProps": [
@@ -3603,7 +3603,7 @@
   },
   "meal-plan-for-weight-loss": {
     "title": "Cardapios Para Emagrecer",
-    "metaDescription": "Cardapios personalizados para perda de peso com deficit calorico moderado. Refeicoes que saciam e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios personalizados para perda de peso com deficit calorico moderado. Refeicoes que saciam e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Para Emagrecer Sem Passar Fome",
     "intro": "Perder peso não deveria significar comer frango sem graça e brócolis no vapor no repeteco. A chave são refeições com calorias controladas que são genuinamente satisfatórias para você nunca se sentir privado. Criamos um plano alimentar fresco para emagrecimento toda semana com porções adequadas, nutrição equilibrada e variedade suficiente para manter sua motivação durante toda a jornada.",
     "valueProps": [
@@ -3683,7 +3683,7 @@
   },
   "meal-plan-for-muscle-gain": {
     "title": "Cardapios Para Ganho de Massa Muscular",
-    "metaDescription": "Cardapios ricos em proteina para crescimento muscular. Macros calculados e refeicoes para treino. Experimente gratis.",
+    "metaDescription": "Cardapios ricos em proteina para crescimento muscular. Macros calculados e refeicoes para treino. Veja uma prévia grátis.",
     "h1": "Cardapios Para Ganhar Massa Muscular de Forma Eficiente",
     "intro": "Ganhar massa muscular exige mais do que só malhar — você precisa de nutrição consistente e rica em proteína para apoiar a recuperação e o crescimento. O problema é que preparar refeições para hipertrofia é cansativo e repetitivo. Geramos um plano alimentar fresco, hipercalórico e hiperproteico toda semana para que você foque no treino enquanto cuidamos da nutrição.",
     "valueProps": [
@@ -3767,7 +3767,7 @@
   },
   "meal-plan-for-pregnancy": {
     "title": "Cardapios Para a Gravidez",
-    "metaDescription": "Cardapios equilibrados para gestantes. Nutrientes essenciais, folato e ferro com refeicoes deliciosas. Experimente gratis.",
+    "metaDescription": "Cardapios equilibrados para gestantes. Nutrientes essenciais, folato e ferro com refeicoes deliciosas. Veja uma prévia grátis.",
     "h1": "Cardapios Para a Gravidez Saudaveis e Nutritivos",
     "intro": "Comer bem durante a gravidez importa mais do que nunca, mas entre desejos, aversões e cansaço, planejar refeições nutritivas pode parecer avassalador. Nossos planos para gestantes são pensados com nutrientes pré-natais essenciais — ácido fólico, ferro, cálcio, ômega-3 — mantendo as refeições atraentes mesmo quando seu apetite é imprevisível.",
     "valueProps": [
@@ -3851,7 +3851,7 @@
   },
   "meal-plan-for-beginners": {
     "title": "Cardapios Para Iniciantes",
-    "metaDescription": "Cardapios simples para quem esta comecando a cozinhar. Receitas faceis com poucos ingredientes e lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios simples para quem esta comecando a cozinhar. Receitas faceis com poucos ingredientes e lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios Para Iniciantes Que Tornam Cozinhar Facil",
     "intro": "Se planejar refeições parece intimidador, você não está sozinho. A maioria das pessoas falha porque tenta ir do zero ao gourmet da noite pro dia. Nossos planos para iniciantes usam técnicas simples, ingredientes comuns e tempos de preparo curtos para você criar o hábito sem se esgotar. Cada receita assume que você está começando do zero — nenhuma habilidade de chef necessária.",
     "valueProps": [
@@ -3931,7 +3931,7 @@
   },
   "meal-plan-for-picky-eaters": {
     "title": "Cardapios Para Quem E Exigente",
-    "metaDescription": "Cardapios adaptados para paladares exigentes. Receitas familiares com toques nutritivos escondidos. Experimente gratis.",
+    "metaDescription": "Cardapios adaptados para paladares exigentes. Receitas familiares com toques nutritivos escondidos. Veja uma prévia grátis.",
     "h1": "Cardapios Para Quem E Exigente Que Agradam a Todos",
     "intro": "Ser exigente com comida não significa que você está condenado a comer nuggets de frango para sempre. O truque é começar com sabores familiares e gradualmente expandir sua zona de conforto. Nossos planos para pessoas exigentes focam em ingredientes acessíveis, texturas reconfortantes e sabores que agradam a todos, enquanto incluem nutrição equilibrada que você nem vai notar.",
     "valueProps": [
@@ -4011,7 +4011,7 @@
   },
   "meal-plan-on-a-budget": {
     "title": "Cardapios Economicos",
-    "metaDescription": "Cardapios deliciosos com orcamento apertado. Ingredientes acessiveis, zero desperdicio e lista otimizada. Experimente gratis.",
+    "metaDescription": "Cardapios deliciosos com orcamento apertado. Ingredientes acessiveis, zero desperdicio e lista otimizada. Veja uma prévia grátis.",
     "h1": "Cardapios Economicos Para Comer Bem Sem Gastar Muito",
     "intro": "Comer saudável com orçamento apertado é possível — você só precisa de um plano. Os maiores desperdícios de dinheiro são compras por impulso, comida que estraga antes de usar e delivery de última hora. Nossos planos econômicos usam ingredientes básicos acessíveis, minimizam desperdício com ingredientes que se sobrepõem e geram listas de compras inteligentes para cada real contar.",
     "valueProps": [
@@ -4095,7 +4095,7 @@
   },
   "meal-plan-for-diabetes": {
     "title": "Cardapios Para Diabeticos",
-    "metaDescription": "Cardapios de baixo indice glicemico para controle do diabetes. Refeicoes equilibradas que estabilizam a glicemia. Experimente gratis.",
+    "metaDescription": "Cardapios de baixo indice glicemico para controle do diabetes. Refeicoes equilibradas que estabilizam a glicemia. Veja uma prévia grátis.",
     "h1": "Cardapios Para Diabeticos Que Estabilizam a Glicemia",
     "intro": "Controlar diabetes pela alimentação não precisa significar abrir mão das comidas que você ama. A chave são refeições consistentes e equilibradas que mantêm o açúcar no sangue estável ao longo do dia. Nossos planos para diabetes focam em carboidratos de baixo índice glicêmico, proteínas magras, gorduras saudáveis e porções adequadas — tudo isso mantendo as refeições genuinamente saborosas.",
     "valueProps": [
@@ -4175,7 +4175,7 @@
   },
   "meal-plan-for-heart-health": {
     "title": "Cardapios Para Saude do Coracao",
-    "metaDescription": "Cardapios bons para o coracao com pouco sodio e gorduras saudaveis. Siga recomendacoes medicas com prazer. Experimente gratis.",
+    "metaDescription": "Cardapios bons para o coracao com pouco sodio e gorduras saudaveis. Siga recomendacoes medicas com prazer. Veja uma prévia grátis.",
     "h1": "Cardapios Para Saude do Coracao Saborosos e Equilibrados",
     "intro": "Uma dieta saudável para o coração é uma das coisas mais eficazes que você pode fazer pela longevidade, mas não deveria parecer um castigo. Nossos planos enfatizam ácidos graxos ômega-3, fibra solúvel, proteínas magras e muitas frutas e vegetais enquanto mantêm o sódio controlado. Cada refeição é pensada para apoiar a saúde cardiovascular sem sacrificar o sabor.",
     "valueProps": [
@@ -4255,7 +4255,7 @@
   },
   "high-protein-meal-plan": {
     "title": "Cardapios Ricos em Proteina",
-    "metaDescription": "Cardapios ricos em proteina para fitness e saciedade. 100g+ de proteina por dia com receitas deliciosas. Experimente gratis.",
+    "metaDescription": "Cardapios ricos em proteina para fitness e saciedade. 100g+ de proteina por dia com receitas deliciosas. Veja uma prévia grátis.",
     "h1": "Cardapios Ricos em Proteina Para Forca e Saciedade",
     "intro": "Seja para ganhar massa, emagrecer ou simplesmente se sentir mais saciado após as refeições, a proteína é a resposta. O desafio é bater sua meta de proteína consistentemente sem comer o mesmo frango grelhado todo dia. Nossos planos hiperproteicos entregam 100-180g de proteína diariamente através de refeições diversas e deliciosas que nunca parecem repetitivas.",
     "valueProps": [
@@ -4339,7 +4339,7 @@
   },
   "anti-inflammatory-meal-plan": {
     "title": "Cardapios Anti-Inflamatorios",
-    "metaDescription": "Cardapios anti-inflamatorios com alimentos ricos em antioxidantes. Reduza a inflamacao pela alimentacao. Experimente gratis.",
+    "metaDescription": "Cardapios anti-inflamatorios com alimentos ricos em antioxidantes. Reduza a inflamacao pela alimentacao. Veja uma prévia grátis.",
     "h1": "Cardapios Anti-Inflamatorios Que Fazem Bem ao Corpo",
     "intro": "A inflamação crônica está ligada a tudo, de dores articulares a doenças cardíacas, e o que você come tem um papel enorme. Nossos planos anti-inflamatórios são construídos em torno de alimentos que combatem ativamente a inflamação — peixes gordurosos, folhas verdes, frutas vermelhas, cúrcuma, azeite de oliva — enquanto eliminam os alimentos processados e açúcares refinados que pioram tudo.",
     "valueProps": [
@@ -4419,7 +4419,7 @@
   },
   "meal-plan-for-one": {
     "title": "Cardapios Para Uma Pessoa",
-    "metaDescription": "Cardapios personalizados para uma pessoa. Porcoes adaptadas, zero desperdicio e refeicoes variadas. Experimente gratis.",
+    "metaDescription": "Cardapios personalizados para uma pessoa. Porcoes adaptadas, zero desperdicio e refeicoes variadas. Veja uma prévia grátis.",
     "h1": "Cardapios Para Uma Pessoa Sem Desperdicio",
     "intro": "Cozinhar para uma pessoa é um desafio à parte. Receitas são feitas para quatro, os vegetais estragam antes de você usar e a tentação de pedir delivery é real. Nossos planos para uma pessoa resolvem tudo isso — receitas com porções adequadas, listas de compras inteligentes que minimizam desperdício e refeições que parecem um jantar de verdade mesmo quando você come sozinho.",
     "valueProps": [
@@ -4499,7 +4499,7 @@
   },
   "meal-plan-for-two": {
     "title": "Cardapios Para Duas Pessoas",
-    "metaDescription": "Cardapios para casais com porcoes para dois. Refeicoes variadas e lista de compras otimizada. Experimente gratis.",
+    "metaDescription": "Cardapios para casais com porcoes para dois. Refeicoes variadas e lista de compras otimizada. Veja uma prévia grátis.",
     "h1": "Cardapios Para Dois Que Simplificam as Refeicoes do Casal",
     "intro": "Cozinhar para dois deveria ser simples, mas a maioria das receitas serve quatro e te deixa afogado em sobras ou dividindo medidas de forma estranha. Nossos planos são feitos para exatamente duas porções — jantares dignos de encontro romântico, refeições fáceis de dia de semana e uma lista de compras dimensionada para nada ir pro lixo. Seja casal, colegas de quarto ou mãe/pai e filho, simplesmente funciona.",
     "valueProps": [
@@ -4579,7 +4579,7 @@
   },
   "meal-plan-for-family-of-4": {
     "title": "Cardapios Para Familia de 4",
-    "metaDescription": "Cardapios familiares para 4 pessoas. Refeicoes que agradam a todos com lista de compras e orcamento controlado. Experimente gratis.",
+    "metaDescription": "Cardapios familiares para 4 pessoas. Refeicoes que agradam a todos com lista de compras e orcamento controlado. Veja uma prévia grátis.",
     "h1": "Cardapios Para Familia de 4 Praticos e Deliciosos",
     "intro": "Alimentar uma família de quatro significa equilibrar nutrição, preferências, tempo e orçamento — toda noite. A carga mental de decidir o que cozinhar é exaustiva antes mesmo de começar a cozinhar. Nossos planos familiares tiram essa decisão do seu prato com refeições aprovadas pelas crianças e nutritivas que adultos também curtem, mais uma lista de compras única pra semana toda.",
     "valueProps": [
@@ -4663,7 +4663,7 @@
   },
   "meal-plan-for-family-of-6": {
     "title": "Cardapios Para Familia de 6",
-    "metaDescription": "Cardapios para familias grandes de 6 pessoas. Receitas em grande quantidade com lista otimizada. Experimente gratis.",
+    "metaDescription": "Cardapios para familias grandes de 6 pessoas. Receitas em grande quantidade com lista otimizada. Veja uma prévia grátis.",
     "h1": "Cardapios Para Familia de 6 Generosos e Economicos",
     "intro": "Alimentar seis bocas todo dia é uma proeza logística. O custo sobe rápido, cozinhar leva tempo e encontrar refeições que satisfaçam tanto criancinhas quanto adolescentes parece impossível. Nossos planos para famílias grandes são projetados para volume — receitas em lote que escalam naturalmente, ingredientes econômicos e sabores que agradam a todos e funcionam para todas as idades.",
     "valueProps": [
@@ -4743,7 +4743,7 @@
   },
   "meal-plan-for-college-students": {
     "title": "Cardapios Para Universitarios",
-    "metaDescription": "Cardapios faceis e baratos para universitarios. Receitas rapidas com poucos utensilios e orcamento apertado. Experimente gratis.",
+    "metaDescription": "Cardapios faceis e baratos para universitarios. Receitas rapidas com poucos utensilios e orcamento apertado. Veja uma prévia grátis.",
     "h1": "Cardapios Para Universitarios Rapidos e Baratos",
     "intro": "Entre aulas, estudos e vida social, cozinhar é a última coisa na cabeça da maioria dos universitários. Mas sobreviver de miojo e pizza do bandejão cansa rápido — e fica caro. Nossos planos universitários usam ingredientes baratos, equipamento mínimo e receitas curtas o suficiente pra fazer entre as aulas. Forno não necessário pra maioria.",
     "valueProps": [
@@ -4827,7 +4827,7 @@
   },
   "quick-30-minute-meal-plan": {
     "title": "Cardapios de 30 Minutos",
-    "metaDescription": "Cardapios onde cada receita fica pronta em ate 30 minutos. Jantares rapidos com lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapios onde cada receita fica pronta em ate 30 minutos. Jantares rapidos com lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapios de 30 Minutos Para as Noites Corridas",
     "intro": "Você não tem uma hora pra cozinhar o jantar toda noite, e não deveria precisar. Toda receita do nosso plano de 30 minutos vai da geladeira à mesa em meia hora ou menos — incluindo preparo. Sem truques de panela elétrica, sem avisos de 'não incluindo tempo de marinada'. Apenas refeições genuinamente rápidas, equilibradas, satisfatórias e variadas o suficiente pra manter as coisas interessantes.",
     "valueProps": [
@@ -4907,7 +4907,7 @@
   },
   "1200-calorie-meal-plan": {
     "title": "Cardapio de 1200 Calorias",
-    "metaDescription": "Cardapio de 1200 calorias por dia com refeicoes que saciam. Emagrecimento estruturado sem passar fome. Experimente gratis.",
+    "metaDescription": "Cardapio de 1200 calorias por dia com refeicoes que saciam. Emagrecimento estruturado sem passar fome. Veja uma prévia grátis.",
     "h1": "Cardapio de 1200 Calorias Que Nao Deixa Com Fome",
     "intro": "Comer 1.200 calorias por dia não precisa significar sentir fome o tempo todo. O truque é escolher alimentos que concentram máxima nutrição em cada mordida — vegetais ricos em fibra, proteínas magras e gorduras saudáveis que te mantêm saciado por horas. Criamos um plano fresco de 1.200 calorias toda semana com refeições saborosas, sustentáveis e projetadas para você nunca sentir que está passando aperto numa dieta.",
     "valueProps": [
@@ -4991,7 +4991,7 @@
   },
   "1500-calorie-meal-plan": {
     "title": "Cardapio de 1500 Calorias",
-    "metaDescription": "Cardapio de 1500 calorias com deficit moderado. Refeicoes equilibradas e porcoes satisfatorias todo dia. Experimente gratis.",
+    "metaDescription": "Cardapio de 1500 calorias com deficit moderado. Refeicoes equilibradas e porcoes satisfatorias todo dia. Veja uma prévia grátis.",
     "h1": "Cardapio de 1500 Calorias Equilibrado e Satisfatorio",
     "intro": "1.500 calorias acerta o ponto ideal para a maioria das pessoas que querem emagrecer sem sofrer. É suficiente para incluir porções reais, ingredientes diversos e até um agrado ocasional — mas ainda baixo o suficiente para criar um déficit calórico significativo. Planejamos sua semana com macros equilibrados, muito sabor e refeições de 30 minutos ou menos para o plano realmente caber na sua vida.",
     "valueProps": [
@@ -5071,7 +5071,7 @@
   },
   "1800-calorie-meal-plan": {
     "title": "Cardapio de 1800 Calorias",
-    "metaDescription": "Cardapio de 1800 calorias para pessoas ativas. Energia suficiente para se mexer e emagrecer aos poucos. Experimente gratis.",
+    "metaDescription": "Cardapio de 1800 calorias para pessoas ativas. Energia suficiente para se mexer e emagrecer aos poucos. Veja uma prévia grátis.",
     "h1": "Cardapio de 1800 Calorias Para Quem Se Mexe",
     "intro": "Se você é ativo e está tentando perder peso, cortes drásticos de calorias são contraproducentes. Um plano de 1.800 calorias fornece combustível suficiente para aguentar os treinos, manter o foco no trabalho e ainda criar um déficit moderado que elimina a gordura ao longo do tempo. São refeições de tamanho real, com carboidratos suficientes para energia, proteína suficiente para recuperação e sabor suficiente para você esquecer que está seguindo um plano.",
     "valueProps": [
@@ -5151,7 +5151,7 @@
   },
   "2000-calorie-meal-plan": {
     "title": "Cardapio de 2000 Calorias",
-    "metaDescription": "Cardapio de 2000 calorias para manter o peso. Refeicoes completas e equilibradas todo dia. Experimente gratis.",
+    "metaDescription": "Cardapio de 2000 calorias para manter o peso. Refeicoes completas e equilibradas todo dia. Veja uma prévia grátis.",
     "h1": "Cardapio de 2000 Calorias Para Manutencao Saudavel",
     "intro": "2.000 calorias é o ponto de referência padrão por uma boa razão — funciona para uma enorme variedade de adultos que desejam manter o peso e se alimentar bem. Seja porque você terminou de fazer dieta e quer manter os resultados, ou simplesmente quer um plano estruturado que mantém a nutrição em dia sem complicar demais, esta é a sua linha de base. Macros equilibrados, ingredientes variados e refeições que parecem completamente normais.",
     "valueProps": [
@@ -5231,7 +5231,7 @@
   },
   "2500-calorie-meal-plan": {
     "title": "Cardapio de 2500 Calorias",
-    "metaDescription": "Cardapio de 2500 calorias para ganho de massa ou pessoas muito ativas. Refeicoes fartas e nutritivas. Experimente gratis.",
+    "metaDescription": "Cardapio de 2500 calorias para ganho de massa ou pessoas muito ativas. Refeicoes fartas e nutritivas. Veja uma prévia grátis.",
     "h1": "Cardapio de 2500 Calorias Para Ganhar Massa",
     "intro": "Se você treina intensamente, está construindo músculo ou simplesmente tem um trabalho ativo que consome muita energia, 2.000 calorias não são suficientes. Um plano de 2.500 calorias fornece a energia para se superar, a proteína para se recuperar e os carboidratos para manter o glicogênio reposto — tudo a partir de comida de verdade, sem shakes e barrinhas. Planejamos sua semana com refeições substanciosas que apoiam seus objetivos sem recorrer a junk food.",
     "valueProps": [
@@ -5315,7 +5315,7 @@
   },
   "3000-calorie-meal-plan": {
     "title": "Cardapio de 3000 Calorias",
-    "metaDescription": "Cardapio de 3000 calorias para atletas e ganho de massa intensivo. Refeicoes densas e ricas em nutrientes. Experimente gratis.",
+    "metaDescription": "Cardapio de 3000 calorias para atletas e ganho de massa intensivo. Refeicoes densas e ricas em nutrientes. Veja uma prévia grátis.",
     "h1": "Cardapio de 3000 Calorias Para Atletas e Crescimento",
     "intro": "Comer 3.000 calorias limpas por dia é mais difícil do que parece. Qualquer um consegue devorar uma pizza e chamar isso de bulking — o desafio é chegar lá com refeições que realmente constroem músculo, apoiam a recuperação e mantêm a energia estável. Planejamos sua semana com refeições grandes e ricas em nutrientes distribuídas ao longo do dia para que você nunca precise se forçar a comer tudo de uma vez ou depender de shakes hipercalóricos.",
     "valueProps": [
@@ -5399,9 +5399,9 @@
   },
   "3-day-meal-plan": {
     "title": "Cardapio de 3 Dias",
-    "metaDescription": "Cardapio de 3 dias para experimentar o planejamento de refeicoes. Ideal para iniciantes com lista simples. Experimente gratis.",
+    "metaDescription": "Cardapio de 3 dias para experimentar o planejamento de refeicoes. Ideal para iniciantes com lista simples. Veja uma prévia grátis.",
     "h1": "Cardapio de 3 Dias Para Comecar Devagar",
-    "intro": "Não tem certeza se o planejamento de refeições é para você? Um plano de 3 dias é a maneira perfeita e sem pressão de descobrir. Cubra suas noites mais movimentadas com refeições equilibradas e fáceis de preparar e veja quanto tempo e energia mental você economiza. Nossa avaliação gratuita é exatamente isso — três dias de refeições planejadas para que você experimente a diferença antes de se comprometer com uma semana completa.",
+    "intro": "Não tem certeza se o planejamento de refeições é para você? Um plano de 3 dias é a maneira perfeita e sem pressão de descobrir. Cubra suas noites mais movimentadas com refeições equilibradas e fáceis de preparar e veja quanto tempo e energia mental você economiza. Nossa prévia gratuita é exatamente isso — três dias de refeições planejadas para que você experimente a diferença antes de se comprometer com uma semana completa.",
     "valueProps": [
       {
         "heading": "Zero compromisso, resultados reais",
@@ -5413,7 +5413,7 @@
       },
       {
         "heading": "Experimente grátis, agora mesmo",
-        "description": "Nosso plano gratuito gera exatamente 3 dias de refeições personalizadas com base nas suas preferências alimentares. Sem cartão de crédito, sem conta necessária. Apenas nos diga o que você gosta e receba seu plano."
+        "description": "Nossa prévia gratuita gera um dia de refeições personalizadas com base nas suas preferências alimentares. Sem cartão de crédito, sem conta necessária. Apenas nos diga o que você gosta e receba seu plano."
       }
     ],
     "sampleMeals": [
@@ -5461,15 +5461,15 @@
     "faqs": [
       {
         "question": "3 dias são suficientes para sentir os benefícios do planejamento de refeições?",
-        "answer": "Com certeza. Três dias cobrem o trecho mais movimentado da semana da maioria das pessoas. Você vai notar menos estresse na hora do jantar, menos pedidos impulsivos de delivery e uma lista de compras mais curta. Muitos dos nossos assinantes começaram com o plano gratuito de 3 dias e fizeram upgrade assim que sentiram a diferença."
+        "answer": "Com certeza. Três dias cobrem o trecho mais movimentado da semana da maioria das pessoas. Você vai notar menos estresse na hora do jantar, menos pedidos impulsivos de delivery e uma lista de compras mais curta. Muitos dos nossos assinantes começaram com a prévia gratuita e fizeram upgrade assim que sentiram a diferença."
       },
       {
-        "question": "O que o plano gratuito de 3 dias inclui?",
+        "question": "O que a prévia gratuita inclui?",
         "answer": "Você recebe 3 dias completos de refeições — café da manhã, almoço e jantar — personalizados de acordo com suas preferências alimentares e tamanho da família. Cada refeição vem com ingredientes, instruções e tempos de preparo. É a mesma qualidade dos nossos planos para assinantes, apenas mais curto."
       },
       {
         "question": "Posso repetir o plano de 3 dias toda semana?",
-        "answer": "O plano gratuito é uma avaliação única para ajudá-lo a experimentar o planejamento de refeições. Se você adorar, nossa assinatura semanal gera um novo plano de 7 dias toda semana com receitas novas, para que você nunca coma as mesmas refeições repetidamente."
+        "answer": "A prévia é uma amostra única para ajudá-lo a experimentar o planejamento de refeições. Se você adorar, nossa assinatura semanal gera um novo plano de 7 dias toda semana com receitas novas, para que você nunca coma as mesmas refeições repetidamente."
       },
       {
         "question": "Como transformo meu plano de 3 dias em uma semana completa?",
@@ -5479,7 +5479,7 @@
   },
   "5-day-meal-plan": {
     "title": "Cardapio de 5 Dias",
-    "metaDescription": "Cardapio de 5 dias para a semana de trabalho. Refeicoes de segunda a sexta com lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapio de 5 dias para a semana de trabalho. Refeicoes de segunda a sexta com lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapio de 5 Dias Para a Semana de Trabalho",
     "intro": "Você quer estrutura durante a semana, mas liberdade no sábado e domingo. Um plano de 5 dias cobre todos os jantares das noites de semana e almoços nos dias de trabalho sem tocar nos fins de semana. Saia para comer, peça delivery ou improvise nos seus dias livres — os dias úteis estão resolvidos. É o equilíbrio perfeito entre planejamento completo e total flexibilidade.",
     "valueProps": [
@@ -5559,7 +5559,7 @@
   },
   "7-day-meal-plan": {
     "title": "Cardapio de 7 Dias",
-    "metaDescription": "Cardapio completo de 7 dias com cafe da manha, almoco e jantar. Organizacao total com lista de compras. Experimente gratis.",
+    "metaDescription": "Cardapio completo de 7 dias com cafe da manha, almoco e jantar. Organizacao total com lista de compras. Veja uma prévia grátis.",
     "h1": "Cardapio de 7 Dias Para Uma Semana Bem Organizada",
     "intro": "Um plano de refeições completo de 7 dias é o padrão ouro do planejamento alimentar. Cada café da manhã, almoço e jantar durante toda a semana — planejados, dosados e com lista de compras pronta antes da manhã de segunda-feira. Sem lacunas, sem suposições, sem desperdício de alimentos. É isso que nossos assinantes recebem toda semana: um plano completo construído em torno das suas preferências, entregue automaticamente.",
     "valueProps": [
@@ -5620,8 +5620,8 @@
     ],
     "faqs": [
       {
-        "question": "Qual é a diferença entre um plano de 7 dias e a avaliação gratuita?",
-        "answer": "A avaliação gratuita oferece um plano de 3 dias para testar a experiência. Um plano de 7 dias cobre toda a sua semana com mais variedade e reutilização mais inteligente de ingredientes nas 21 refeições. Os assinantes também recebem planos frescos toda semana, opções de regeneração e entrega por e-mail."
+        "question": "Qual é a diferença entre um plano de 7 dias e a prévia gratuita?",
+        "answer": "A prévia gratuita oferece um plano de 3 dias para testar a experiência. Um plano de 7 dias cobre toda a sua semana com mais variedade e reutilização mais inteligente de ingredientes nas 21 refeições. Os assinantes também recebem planos frescos toda semana, opções de regeneração e entrega por e-mail."
       },
       {
         "question": "Posso personalizar quais refeições estão incluídas?",
@@ -5643,7 +5643,7 @@
   },
   "14-day-meal-plan": {
     "title": "Cardapio de 14 Dias",
-    "metaDescription": "Cardapio de 2 semanas com variedade maxima. Zero repeticao e lista de compras organizada. Experimente gratis.",
+    "metaDescription": "Cardapio de 2 semanas com variedade maxima. Zero repeticao e lista de compras organizada. Veja uma prévia grátis.",
     "h1": "Cardapio de 14 Dias Para Duas Semanas Sem Repeticao",
     "intro": "Por que planejar toda semana quando você pode planejar a cada duas? Um plano de 14 dias oferece uma quinzena completa de cafés da manhã, almoços e jantares de uma só vez. É ideal para compras em grande quantidade, reduzindo suas sessões de planejamento pela metade e obtendo variedade suficiente para que nenhuma refeição pareça uma repetição. Pense nisso como o equivalente alimentar de comprar no atacado — menos esforço, melhores resultados.",
     "valueProps": [
@@ -5723,7 +5723,7 @@
   },
   "21-day-meal-plan": {
     "title": "Cardapio de 21 Dias",
-    "metaDescription": "Cardapio de 21 dias para criar novos habitos alimentares. Tres semanas de refeicoes planejadas. Experimente gratis.",
+    "metaDescription": "Cardapio de 21 dias para criar novos habitos alimentares. Tres semanas de refeicoes planejadas. Veja uma prévia grátis.",
     "h1": "Cardapio de 21 Dias Para Transformar Seus Habitos",
     "intro": "Leva cerca de 21 dias para criar um novo hábito, e o planejamento de refeições não é exceção. Um plano de 21 dias oferece três semanas completas de refeições estruturadas e equilibradas — tempo suficiente para que cozinhar em casa pareça automático em vez de aspiracional. No dia 21, você terá uma dispensa bem abastecida, uma rotina de compras mais ágil e a confiança de que realmente consegue fazer isso toda semana.",
     "valueProps": [
@@ -5807,7 +5807,7 @@
   },
   "30-day-meal-plan": {
     "title": "Cardapio de 30 Dias",
-    "metaDescription": "Cardapio de um mes completo com refeicoes variadas e lista de compras semanal. Organizacao total. Experimente gratis.",
+    "metaDescription": "Cardapio de um mes completo com refeicoes variadas e lista de compras semanal. Organizacao total. Veja uma prévia grátis.",
     "h1": "Cardapio de 30 Dias Para Um Mes de Refeicoes Sem Estresse",
     "intro": "Um plano de refeições de 30 dias é um reset completo. Quatro semanas de cafés da manhã, almoços e jantares planejados que tiram a adivinhação de se alimentar bem por um mês inteiro. Seja para iniciar uma nova dieta, se recuperar de uma temporada de delivery ou simplesmente provar a si mesmo que cozinhar em casa de forma consistente é possível — 30 dias dá a você o tempo e a estrutura para fazer acontecer e ver resultados reais e perceptíveis.",
     "valueProps": [
@@ -5891,7 +5891,7 @@
   },
   "summer-meal-plan": {
     "title": "Cardapios de Verao",
-    "metaDescription": "Cardapios leves e frescos para o verao. Saladas, grelhados e refeicoes sem fogao para dias quentes. Experimente gratis.",
+    "metaDescription": "Cardapios leves e frescos para o verao. Saladas, grelhados e refeicoes sem fogao para dias quentes. Veja uma prévia grátis.",
     "h1": "Cardapios de Verao Leves e Refrescantes",
     "intro": "Ninguém quer passar uma hora sobre um fogão quente quando está calor lá fora. Um ótimo plano de refeições de verão aposta em produtos frescos, grelhados rápidos e opções sem cozimento que ficam prontas rapidamente. Montamos um plano semanal repleto de frutas da estação, saladas crocantes e proteínas leves para que você se alimente bem sem esquentar a casa.",
     "valueProps": [
@@ -5975,7 +5975,7 @@
   },
   "winter-meal-plan": {
     "title": "Cardapios de Inverno",
-    "metaDescription": "Cardapios confortantes para o inverno. Sopas, ensopados e pratos cozidos para noites frias. Experimente gratis.",
+    "metaDescription": "Cardapios confortantes para o inverno. Sopas, ensopados e pratos cozidos para noites frias. Veja uma prévia grátis.",
     "h1": "Cardapios de Inverno Confortantes e Acolhedores",
     "intro": "Quando a temperatura cai, suas refeições devem estar à altura. Um plano de inverno bem elaborado significa chegar em casa com ensopados cozinhando, legumes dourados assados e refeições de panela única que aquecem por dentro. Planejamos sua semana em torno de produtos típicos do inverno como legumes-raiz, abóbora e frutas cítricas para que cada refeição pareça aconchegante, nutritiva e valha o esforço.",
     "valueProps": [
@@ -6056,7 +6056,7 @@
   },
   "meal-plan-for-ramadan": {
     "title": "Cardapios Para o Ramada",
-    "metaDescription": "Cardapios para o Ramada com suhoor e iftar equilibrados. Refeicoes nutritivas para o jejum. Experimente gratis.",
+    "metaDescription": "Cardapios para o Ramada com suhoor e iftar equilibrados. Refeicoes nutritivas para o jejum. Veja uma prévia grátis.",
     "h1": "Cardapios Para o Ramada Equilibrados e Energizantes",
     "intro": "Comer bem durante o Ramadã significa aproveitar ao máximo cada refeição. Com apenas duas janelas de alimentação, seu suhoor precisa sustentá-lo durante um dia inteiro de jejum, e o iftar deve repor sem sobrecarregar seu sistema. Montamos planos semanais de Ramadã com energia de liberação lenta no suhoor, entradas suaves no iftar e refeições principais satisfatórias — tudo halal, com atenção à hidratação e projetado para manter sua energia estável do amanhecer ao anoitecer.",
     "valueProps": [
@@ -6143,7 +6143,7 @@
   },
   "meal-plan-for-lent": {
     "title": "Cardapios Para a Quaresma",
-    "metaDescription": "Cardapios para a Quaresma com sextas sem carne. Peixe e receitas vegetarianas saborosas. Experimente gratis.",
+    "metaDescription": "Cardapios para a Quaresma com sextas sem carne. Peixe e receitas vegetarianas saborosas. Veja uma prévia grátis.",
     "h1": "Cardapios Para a Quaresma Simples e Saborosos",
     "intro": "Observar a Quaresma não significa comer macarrão simples por 40 dias. Um plano de Quaresma bem pensado oferece sextas-feiras sem carne satisfatórias com peixe, leguminosas e pratos à base de vegetais, enquanto mantém o resto da semana equilibrado e nutritivo. Planejamos em torno das tradições de jejum e abstinência para que você possa focar no lado espiritual da estação sem se preocupar com o que cozinhar.",
     "valueProps": [
@@ -6225,7 +6225,7 @@
   },
   "back-to-school-meal-plan": {
     "title": "Cardapios Para a Volta as Aulas",
-    "metaDescription": "Cardapios para a volta as aulas. Jantares rapidos e lancheiras equilibradas para as criancas. Experimente gratis.",
+    "metaDescription": "Cardapios para a volta as aulas. Jantares rapidos e lancheiras equilibradas para as criancas. Veja uma prévia grátis.",
     "h1": "Cardapios Para a Volta as Aulas Rapidos e Equilibrados",
     "intro": "O ano letivo traz uma onda de manhãs cedo, agendas lotadas e a eterna questão: o que tem para o lanche de amanhã? Um plano de refeições para a volta às aulas tira o caos de alimentar sua família ao oferecer cafés da manhã rápidos que as crianças realmente comem, almoços que sobrevivem na mochila e jantares que toda a mesa aprecia. Cada receita é projetada para velocidade, simplicidade e aprovação das crianças de verdade.",
     "valueProps": [
@@ -6310,7 +6310,7 @@
   },
   "keto-meal-plan-for-weight-loss": {
     "title": "Cardapio Keto Para Emagrecer",
-    "metaDescription": "Cardapio cetogenico otimizado para perda de peso. Queime gordura em cetose com refeicoes saborosas. Experimente gratis.",
+    "metaDescription": "Cardapio cetogenico otimizado para perda de peso. Queime gordura em cetose com refeicoes saborosas. Veja uma prévia grátis.",
     "h1": "Cardapio Keto Para Emagrecer de Forma Eficiente",
     "intro": "A dieta keto funciona para perda de peso porque coloca seu corpo em modo de queima de gordura — mas somente se você fizer corretamente. Uma dieta keto desleixada cheia de bacon e bombas de manteiga trava o progresso rapidamente. Nossos planos keto para perda de peso atingem os macros certos (70% gordura, 25% proteína, 5% carboidratos) enquanto mantêm as calorias em um déficit sustentável para que você queime gordura sem se sentir privado ou rodando no vazio.",
     "valueProps": [
@@ -6395,7 +6395,7 @@
   },
   "vegan-meal-plan-for-muscle-gain": {
     "title": "Cardapio Vegano Para Ganho de Massa",
-    "metaDescription": "Cardapio vegano rico em proteina para crescimento muscular. Proteinas vegetais otimizadas. Experimente gratis.",
+    "metaDescription": "Cardapio vegano rico em proteina para crescimento muscular. Proteinas vegetais otimizadas. Veja uma prévia grátis.",
     "h1": "Cardapio Vegano Para Ganhar Massa Sem Carne",
     "intro": "Você não precisa de peito de frango e shakes de whey para ganhar músculo. Um plano vegano bem elaborado para ganho muscular fornece mais de 120g de proteína por dia por meio de combinações inteligentes de tofu, tempeh, leguminosas, seitan e grãos integrais. Planejamos suas calorias em um leve superávit com proteína suficiente em cada refeição para maximizar a síntese proteica muscular — tudo à base de plantas, tudo delicioso e sem a ciência dos bros.",
     "valueProps": [
@@ -6484,7 +6484,7 @@
   },
   "gluten-free-meal-plan-for-beginners": {
     "title": "Cardapio Sem Gluten Para Iniciantes",
-    "metaDescription": "Cardapio sem gluten simples para quem esta comecando. Aprenda a cozinhar sem gluten facilmente. Experimente gratis.",
+    "metaDescription": "Cardapio sem gluten simples para quem esta comecando. Aprenda a cozinhar sem gluten facilmente. Veja uma prévia grátis.",
     "h1": "Cardapio Sem Gluten Para Iniciantes Facil e Delicioso",
     "intro": "Adotar uma dieta sem glúten pode parecer avassalador quando você está lendo cada rótulo e questionando cada ingrediente. A maneira mais fácil de começar é com refeições naturalmente sem glúten — sem produtos especiais, sem misturas estranhas de farinha, apenas comida de verdade que por acaso não tem glúten. Nossos planos para iniciantes focam em alimentos integrais que você já conhece e ama, com orientações claras sobre as armadilhas de glúten escondido para que você ganhe confiança rapidamente.",
     "valueProps": [
@@ -6572,7 +6572,7 @@
   },
   "mediterranean-meal-plan-for-heart-health": {
     "title": "Cardapio Mediterraneo Para Saude do Coracao",
-    "metaDescription": "Cardapio mediterraneo bom para o coracao. Azeite, peixe e vegetais para proteger seu coracao. Experimente gratis.",
+    "metaDescription": "Cardapio mediterraneo bom para o coracao. Azeite, peixe e vegetais para proteger seu coracao. Veja uma prévia grátis.",
     "h1": "Cardapio Mediterraneo Para Um Coracao Saudavel",
     "intro": "A dieta mediterrânea não é uma moda — é o padrão alimentar mais estudado no mundo para a saúde cardiovascular, com décadas de pesquisa mostrando redução do risco de doenças cardíacas, derrames e pressão alta. Nossos planos mediterrâneos com foco no coração enfatizam azeite extra virgem, peixes gordurosos, grãos integrais, leguminosas e abundantes vegetais, enquanto minimizam carne vermelha, alimentos processados e açúcares adicionados. Parece férias e funciona como remédio.",
     "valueProps": [
@@ -6661,7 +6661,7 @@
   },
   "low-carb-meal-plan-for-diabetes": {
     "title": "Cardapio Low Carb Para Diabetes",
-    "metaDescription": "Cardapio low carb para controle do diabetes. Controle sua glicemia com refeicoes deliciosas. Experimente gratis.",
+    "metaDescription": "Cardapio low carb para controle do diabetes. Controle sua glicemia com refeicoes deliciosas. Veja uma prévia grátis.",
     "h1": "Cardapio Low Carb Para Controlar o Diabetes no Dia a Dia",
     "intro": "Controlar o diabetes por meio da alimentação não significa eliminar todos os carboidratos — significa escolher os certos nas quantidades certas. Nossos planos low-carb para diabetes mantêm os carboidratos líquidos moderados (50 a 100g por dia), focam em ingredientes de baixo índice glicêmico e distribuem os carboidratos uniformemente entre as refeições para evitar picos e quedas de açúcar no sangue. Cada receita é projetada para energia constante, leituras estáveis e comida que você realmente gosta de comer dia após dia.",
     "valueProps": [

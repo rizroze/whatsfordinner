@@ -1,7 +1,7 @@
 {
   "vegetarian": {
     "title": "Wochentliche Vegetarische Essensplaene",
-    "metaDescription": "Personalisierte vegetarische Essensplaene mit Einkaufsliste. Proteinreiche fleischlose Mahlzeiten automatisch geplant. Jetzt gratis testen.",
+    "metaDescription": "Personalisierte vegetarische Essensplaene mit Einkaufsliste. Proteinreiche fleischlose Mahlzeiten automatisch geplant. Gratis-Vorschau ansehen.",
     "h1": "Vegetarische Essensplaene, Die Wirklich Satt Machen",
     "intro": "Vegetarisch essen sollte nicht bedeuten, nur von Nudeln und Kaese zu leben. Die wahre Herausforderung besteht darin, deine Proteinziele zu erreichen und die Mahlzeiten Woche fuer Woche abwechslungsreich zu halten, ohne in einen Trott zu verfallen. Wir erstellen dir jede Woche einen frischen vegetarischen Ernaehrungsplan mit ausgewogenen Makros, vielfaeltigen Kuechen und einer fertigen Einkaufsliste, damit du nie wieder ueberlegen musst, was es zum Abendessen gibt.",
     "valueProps": [
@@ -81,7 +81,7 @@
   },
   "vegan": {
     "title": "Wochentliche Vegane Essensplaene",
-    "metaDescription": "Personalisierte vegane Essensplaene mit ausgewogenen pflanzlichen Mahlzeiten und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Personalisierte vegane Essensplaene mit ausgewogenen pflanzlichen Mahlzeiten und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Vegane Essensplaene Voller Geschmack und Naehrstoffe",
     "intro": "Vegan zu leben ist laengst kein Nischending mehr — aber es braucht trotzdem Planung. Ohne einen festen Plan endet man schnell bei Nudeln mit Tomatensauce auf Endlosschleife. Wir erstellen dir jede Woche einen abwechslungsreichen, rein pflanzlichen Ernaehrungsplan mit ausreichend Protein, Eisen und B12-reichen Zutaten, damit du dich grossartig fuehlst, ohne staendig nachzudenken.",
     "valueProps": [
@@ -161,7 +161,7 @@
   },
   "gluten-free": {
     "title": "Wochentliche Glutenfreie Essensplaene",
-    "metaDescription": "Personalisierte glutenfreie Essensplaene ohne Geschmacksverlust. Mit Einkaufsliste und leckeren Rezepten. Jetzt gratis testen.",
+    "metaDescription": "Personalisierte glutenfreie Essensplaene ohne Geschmacksverlust. Mit Einkaufsliste und leckeren Rezepten. Gratis-Vorschau ansehen.",
     "h1": "Glutenfreie Essensplaene, Die Richtig Gut Schmecken",
     "intro": "Glutenfrei zu essen bedeutet laengst nicht mehr Verzicht. Die groesste Herausforderung ist nicht, was du weglassen musst, sondern die Planung — denn glutenfreies Einkaufen und Kochen braucht etwas mehr Aufmerksamkeit. Wir erstellen dir jede Woche einen frischen glutenfreien Ernaehrungsplan mit abwechslungsreichen Gerichten und einer Einkaufsliste, die versteckte Glutenquellen fuer dich ausschliesst.",
     "valueProps": [
@@ -241,7 +241,7 @@
   },
   "dairy-free": {
     "title": "Wochentliche Milchfreie Essensplaene",
-    "metaDescription": "Milchfreie Essensplaene mit leckeren Alternativen. Automatische Einkaufsliste und abwechslungsreiche Rezepte. Jetzt gratis testen.",
+    "metaDescription": "Milchfreie Essensplaene mit leckeren Alternativen. Automatische Einkaufsliste und abwechslungsreiche Rezepte. Gratis-Vorschau ansehen.",
     "h1": "Milchfreie Essensplaene Voller Geschmack",
     "intro": "Milchfrei zu essen ist einfacher als je zuvor, aber einen ganzen Wochenplan ohne Milchprodukte zusammenzustellen, der trotzdem sattmacht und schmeckt? Das erfordert Planung. Wir erstellen dir jede Woche einen Ernaehrungsplan, der Butter, Kaese und Sahne durch clevere Alternativen ersetzt oder gleich auf Gerichte setzt, die nie Milchprodukte brauchten.",
     "valueProps": [
@@ -321,7 +321,7 @@
   },
   "keto": {
     "title": "Wochentliche Keto-Essensplaene",
-    "metaDescription": "Personalisierte ketogene Essensplaene mit berechneten Makros und Einkaufsliste. Ketose leicht einhalten. Jetzt gratis testen.",
+    "metaDescription": "Personalisierte ketogene Essensplaene mit berechneten Makros und Einkaufsliste. Ketose leicht einhalten. Gratis-Vorschau ansehen.",
     "h1": "Keto-Essensplaene Fuer Muhelose Ketose",
     "intro": "Die ketogene Ernaehrung funktioniert — aber nur, wenn du sie durchhaeltst. Und genau da scheitern die meisten: am taeglichen Planen, Einkaufen und Kochen mit unter 30 g Kohlenhydraten. Wir erstellen dir jede Woche einen frischen Keto-Ernaehrungsplan, der dich in der Ketose haelt, ohne dass du staendig Makros rechnen musst.",
     "valueProps": [
@@ -401,7 +401,7 @@
   },
   "low-carb": {
     "title": "Wochentliche Low-Carb-Essensplaene",
-    "metaDescription": "Kohlenhydratarme Essensplaene mit saettigenden Mahlzeiten. Automatische Einkaufsliste inklusive. Jetzt gratis testen.",
+    "metaDescription": "Kohlenhydratarme Essensplaene mit saettigenden Mahlzeiten. Automatische Einkaufsliste inklusive. Gratis-Vorschau ansehen.",
     "h1": "Low-Carb-Essensplaene Ohne Verzicht",
     "intro": "Low Carb ist flexibler als Keto und fuer viele leichter durchzuhalten. Du musst nicht jedes Gramm Kohlenhydrate zaehlen — es reicht, die grossen Kohlenhydrat-Bomben durch kluge Alternativen zu ersetzen. Wir erstellen dir jede Woche einen Ernaehrungsplan, der Kohlenhydrate reduziert, ohne auf Geschmack oder Sattheit zu verzichten.",
     "valueProps": [
@@ -481,7 +481,7 @@
   },
   "pescatarian": {
     "title": "Wochentliche Pescetarische Essensplaene",
-    "metaDescription": "Pescetarische Essensplaene mit Fisch und Meeresfruechten. Gesunde Rezepte mit automatischer Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Pescetarische Essensplaene mit Fisch und Meeresfruechten. Gesunde Rezepte mit automatischer Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Pescetarische Essensplaene Frisch und Lecker",
     "intro": "Pescetarisch zu essen bedeutet, das Beste aus zwei Welten zu verbinden: die gesundheitlichen Vorteile von Fisch und Meeresfruechten mit der Vielfalt pflanzlicher Ernaehrung. Wir erstellen dir jede Woche einen Plan, der Lachs, Garnelen, Muscheln und mehr mit frischem Gemuese, Huelsenfruechten und Vollkorn kombiniert — ohne Fleisch, aber mit vollem Geschmack.",
     "valueProps": [
@@ -561,7 +561,7 @@
   },
   "halal": {
     "title": "Wochentliche Halal-Essensplaene",
-    "metaDescription": "Personalisierte Halal-Essensplaene mit konformen und leckeren Mahlzeiten. Einkaufsliste inklusive. Jetzt gratis testen.",
+    "metaDescription": "Personalisierte Halal-Essensplaene mit konformen und leckeren Mahlzeiten. Einkaufsliste inklusive. Gratis-Vorschau ansehen.",
     "h1": "Halal-Essensplaene Fuer Konforme und Koestliche Mahlzeiten",
     "intro": "Halal zu kochen bedeutet mehr als nur die richtige Fleischquelle. Es geht um bewusste Ernaehrung mit Respekt vor den islamischen Speisevorschriften. Wir erstellen dir jede Woche einen Ernaehrungsplan, der ausschliesslich halal-konforme Zutaten verwendet — kein Schweinefleisch, kein Alkohol in Saucen, nur halal-zertifiziertes Fleisch.",
     "valueProps": [
@@ -641,7 +641,7 @@
   },
   "kosher": {
     "title": "Wochentliche Koschere Essensplaene",
-    "metaDescription": "Koschere Essensplaene mit Trennung von Fleisch und Milch. Leckere Rezepte und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Koschere Essensplaene mit Trennung von Fleisch und Milch. Leckere Rezepte und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Koschere Essensplaene, Die den Alltag Vereinfachen",
     "intro": "Koscher zu kochen erfordert Aufmerksamkeit fuer Details, die ein normaler Ernaehrungsplan nicht beruecksichtigt: die Trennung von Fleisch und Milch, koschere Fleischquellen und die Vermeidung verbotener Zutaten. Wir erstellen dir jede Woche einen Plan, der diese Regeln von Anfang an einhaelt, damit du dich aufs Kochen und Geniessen konzentrieren kannst.",
     "valueProps": [
@@ -721,7 +721,7 @@
   },
   "no-meat-fridays": {
     "title": "Essensplaene Fuer Fleischlose Freitage",
-    "metaDescription": "Essensplaene fuer die Fastenzeit mit fleischlosen Freitagen. Fisch- und vegetarische Rezepte mit Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene fuer die Fastenzeit mit fleischlosen Freitagen. Fisch- und vegetarische Rezepte mit Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Fleischlose Freitage",
     "intro": "Kein Fleisch am Freitag ist eine Tradition, die weit ueber die Fastenzeit hinausgeht — viele Katholiken halten sich das ganze Jahr daran. Aber jeden Freitag von Neuem ueberlegen, was man ohne Fleisch kochen soll, wird schnell eintoenig. Wir planen deinen fleischfreien Freitag fuer dich: mit sattmachenden Fisch-, Eier- und Gemuesegerichten, die sich nie nach Verzicht anfuehlen.",
     "valueProps": [
@@ -801,7 +801,7 @@
   },
   "american": {
     "title": "Wochentliche Amerikanische Essensplaene",
-    "metaDescription": "Klassische amerikanische Gerichte fuer zu Hause. Burger, Mac & Cheese und BBQ in gesunder Version. Jetzt gratis testen.",
+    "metaDescription": "Klassische amerikanische Gerichte fuer zu Hause. Burger, Mac & Cheese und BBQ in gesunder Version. Gratis-Vorschau ansehen.",
     "h1": "Amerikanische Essensplaene Klassisch und Selbstgemacht",
     "intro": "Von herzhaften Burgern und BBQ bis zu gemuetlichen Auflaeufen und Sonntagsbraten — amerikanische Kueche steht fuer kraeftige Aromen und satt machende Portionen. Unser KI-gestuetzter Ernaehrungsplaner stellt dir jede Woche eine Auswahl klassischer amerikanischer Gerichte zusammen, inklusive Einkaufsliste, damit du das Raten ueberspringen und direkt loskochen kannst.",
     "valueProps": [
@@ -881,7 +881,7 @@
   },
   "italian": {
     "title": "Wochentliche Italienische Essensplaene",
-    "metaDescription": "Authentische italienische Essensplaene jede Woche. Pasta, Risotto und Schmorgerichte mit Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Authentische italienische Essensplaene jede Woche. Pasta, Risotto und Schmorgerichte mit Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Italienische Essensplaene Fuer Authentische Kueche zu Hause",
     "intro": "Italienische Kueche ist zeitlos: Pasta, Risotto, Pizza und einfache Saucen, die auf wenigen, hochwertigen Zutaten basieren. Unser Planer erstellt dir jede Woche italienische Gerichte mit Einkaufsliste — von schnellen Pasta-Abenden bis zum gemuetlichen Sonntagsragu.",
     "valueProps": [
@@ -961,7 +961,7 @@
   },
   "mexican": {
     "title": "Wochentliche Mexikanische Essensplaene",
-    "metaDescription": "Mexikanische Essensplaene mit Tacos, Burritos und Salsas. Authentische Rezepte und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Mexikanische Essensplaene mit Tacos, Burritos und Salsas. Authentische Rezepte und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Mexikanische Essensplaene Wuerzig und Lecker",
     "intro": "Mexikanische Kueche ist weit mehr als Tex-Mex: Es ist eine Welt voller Chilis, Maisgerichte, langsam geschmorte Fleischstuecke und frische Salsas. Wir erstellen dir jede Woche einen mexikanischen Ernaehrungsplan, der die Tiefe und Vielfalt dieser Kueche zeigt — von Street-Tacos bis zu aufwendigen Moles.",
     "valueProps": [
@@ -1041,7 +1041,7 @@
   },
   "asian": {
     "title": "Wochentliche Asiatische Essensplaene",
-    "metaDescription": "Abwechslungsreiche asiatische Essensplaene mit chinesischer, japanischer und Thai-Kueche. Einkaufsliste inklusive. Jetzt gratis testen.",
+    "metaDescription": "Abwechslungsreiche asiatische Essensplaene mit chinesischer, japanischer und Thai-Kueche. Einkaufsliste inklusive. Gratis-Vorschau ansehen.",
     "h1": "Asiatische Essensplaene Fuer Vielfaeltige Aromen",
     "intro": "Die asiatische Kueche ist ein ganzer Kontinent voller Geschmack — von chinesischen Wok-Gerichten ueber japanisches Sushi bis zu vietnamesischem Pho. Wir erstellen dir jede Woche einen asiatischen Ernaehrungsplan, der die Vielfalt Asiens auf deinen Teller bringt, ohne dass du dafuer einen Spezialitaetenladen pluendern musst.",
     "valueProps": [
@@ -1121,7 +1121,7 @@
   },
   "mediterranean": {
     "title": "Wochentliche Mediterrane Essensplaene",
-    "metaDescription": "Gesunde mediterrane Essensplaene mit Olivenoel, frischem Gemuese und magerem Protein. Einkaufsliste inklusive. Jetzt gratis testen.",
+    "metaDescription": "Gesunde mediterrane Essensplaene mit Olivenoel, frischem Gemuese und magerem Protein. Einkaufsliste inklusive. Gratis-Vorschau ansehen.",
     "h1": "Mediterrane Essensplaene Fuer ein Gesundes Leben",
     "intro": "Die mediterrane Kueche ist nicht nur eine Ernaehrungsweise — sie ist die meisterforschte Diaet der Welt und wird regelmaessig als gesuendeste Ernaehrungsform ausgezeichnet. Olivenoel, frisches Gemuese, Fisch, Huelsenfruechte und Vollkorn bilden das Fundament. Wir erstellen dir jede Woche einen Plan, der genau diesen Prinzipien folgt.",
     "valueProps": [
@@ -1201,7 +1201,7 @@
   },
   "indian": {
     "title": "Wochentliche Indische Essensplaene",
-    "metaDescription": "Wuerzige indische Essensplaene jede Woche. Currys, Dals und Biryanis mit automatischer Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Wuerzige indische Essensplaene jede Woche. Currys, Dals und Biryanis mit automatischer Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Indische Essensplaene Reich an Gewuerzen und Geschmack",
     "intro": "Die indische Kueche ist ein Fest fuer die Sinne: hunderte Gewuerze, regionale Vielfalt von Kaschmir bis Kerala und eine der aeltesten vegetarischen Kochtraditionen der Welt. Wir erstellen dir jede Woche einen indischen Ernaehrungsplan — ob du Butter Chicken liebst oder rein vegetarisch essen moechtest.",
     "valueProps": [
@@ -1281,7 +1281,7 @@
   },
   "thai": {
     "title": "Wochentliche Thai-Essensplaene",
-    "metaDescription": "Authentische Thai-Essensplaene mit Pad Thai, Currys und Suppen. Ausgewogene Rezepte und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Authentische Thai-Essensplaene mit Pad Thai, Currys und Suppen. Ausgewogene Rezepte und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Thai-Essensplaene Fuer Lebhafte Kueche zu Hause",
     "intro": "Thailaendische Kueche ist ein Balanceakt aus suess, sauer, salzig und scharf — und wenn du dieses Gleichgewicht einmal am Gaumen hattest, willst du es nicht mehr missen. Wir erstellen dir jede Woche einen thailaendischen Ernaehrungsplan mit Currys, Pfannengerichten, Suppen und Salaten, die dieses Aromenspiel perfekt treffen.",
     "valueProps": [
@@ -1361,7 +1361,7 @@
   },
   "japanese": {
     "title": "Wochentliche Japanische Essensplaene",
-    "metaDescription": "Ausgewogene japanische Essensplaene mit Ramen, Sushi Bowls und Teriyaki. Gesund kochen mit Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Ausgewogene japanische Essensplaene mit Ramen, Sushi Bowls und Teriyaki. Gesund kochen mit Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Japanische Essensplaene Ausgewogen und Raffiniert",
     "intro": "Japanische Kueche verbindet Praezision mit Schlichtheit: wenige Zutaten, perfekt zubereitet. Von Sushi und Ramen bis zu hausgemachten Bento-Boxen — wir erstellen dir jede Woche einen japanischen Ernaehrungsplan, der die Eleganz und Balance der japanischen Kochkunst in deinen Alltag bringt.",
     "valueProps": [
@@ -1441,7 +1441,7 @@
   },
   "french": {
     "title": "Wochentliche Franzoesische Essensplaene",
-    "metaDescription": "Klassische franzoesische Essensplaene fuer den Alltag. Zugaengliche Techniken und frische Zutaten. Jetzt gratis testen.",
+    "metaDescription": "Klassische franzoesische Essensplaene fuer den Alltag. Zugaengliche Techniken und frische Zutaten. Gratis-Vorschau ansehen.",
     "h1": "Franzoesische Essensplaene Fuer Raffiniertes Kochen zu Hause",
     "intro": "Franzoesische Kueche hat den Ruf, kompliziert zu sein — dabei basieren die meisten Klassiker auf einfachen Techniken und wenigen guten Zutaten. Von Coq au Vin ueber Quiche bis zum Croissant-Fruehstueck: Wir bringen die Eleganz der franzoesischen Kochkunst in deinen Wochenplan.",
     "valueProps": [
@@ -1521,7 +1521,7 @@
   },
   "middle-eastern": {
     "title": "Wochentliche Nahoesstliche Essensplaene",
-    "metaDescription": "Nahoesstliche Essensplaene mit Falafel, Hummus und Grillgerichten. Authentische Rezepte und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Nahoesstliche Essensplaene mit Falafel, Hummus und Grillgerichten. Authentische Rezepte und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Nahoesstliche Essensplaene Grosszuegig und Aromatisch",
     "intro": "Nahöstliche Kueche ist eine der aeltesten und reichhaltigsten der Welt: Hummus, Falafel, Shawarma und Mezze-Tafeln, die zum Teilen einladen. Wir erstellen dir jede Woche einen nahöstlichen Ernaehrungsplan, der die Gastfreundschaft und Aromenvielfalt dieser Region auf deinen Tisch bringt.",
     "valueProps": [
@@ -1601,7 +1601,7 @@
   },
   "korean": {
     "title": "Wochentliche Koreanische Essensplaene",
-    "metaDescription": "Koreanische Essensplaene mit Bibimbap, Bulgogi und Kimchi Jjigae. Authentische Rezepte und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Koreanische Essensplaene mit Bibimbap, Bulgogi und Kimchi Jjigae. Authentische Rezepte und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Koreanische Essensplaene Fuer Mutige Aromen zu Hause",
     "intro": "Koreanisches Essen hat die Welt im Sturm erobert — und das aus gutem Grund: es ist wuerzig, fermentiert, feurig und macht suechtigt. Aber koreanische Hauskueche ist weit mehr als BBQ und Fried Chicken. Es sind Banchan-beladene Tafeln, blubbernde Eintöpfe und nahrhafte Reisschuesseln. Unsere Wochenplaene bringen diese Tiefe in deine Kueche — von schnellem Bibimbap unter der Woche bis zu langsam gekoechter Jjigae, plus eine Einkaufsliste fuer Gochujang, Sesamoel und alles dazwischen.",
     "valueProps": [
@@ -1681,7 +1681,7 @@
   },
   "southern": {
     "title": "Wochentliche Southern-Kueche Essensplaene",
-    "metaDescription": "Southern-Kueche Essensplaene mit Fried Chicken, Grits und Biscuits. Wohlfuehlrezepte mit Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Southern-Kueche Essensplaene mit Fried Chicken, Grits und Biscuits. Wohlfuehlrezepte mit Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Southern-Kueche Essensplaene Fuer Gemuetliches Essen",
     "intro": "Suedstaatenkueche steht fuer Seele und Herz am Tisch: BBQ, langsam gegarte Fleischgerichte, cremige Beilagen und Aromen, die nach Familie und Tradition schmecken. Wir bringen die kraeftigen Gewuerze, Raeucheraromen und Cast-Iron-Techniken des amerikanischen Suedens in deinen Wochenplan — mit Ernaehrungsplaenen, die satt machen, ohne schwer im Magen zu liegen.",
     "valueProps": [
@@ -1761,7 +1761,7 @@
   },
   "vegan-thai": {
     "title": "Vegane Thai-Essensplaene",
-    "metaDescription": "Vegane Thai-Essensplaene mit Kokosmilch-Currys, Pad Thai und Suppen. 100% pflanzlich, 100% lecker. Jetzt gratis testen.",
+    "metaDescription": "Vegane Thai-Essensplaene mit Kokosmilch-Currys, Pad Thai und Suppen. 100% pflanzlich, 100% lecker. Gratis-Vorschau ansehen.",
     "h1": "Vegane Thai-Essensplaene Voller Geschmack",
     "intro": "Die thailaendische Kueche ist ein Paradies fuer Veganer — Kokosmilch ersetzt Sahne, Tofu und Pilze liefern Protein, und die explosiven Aromen von Zitronengras, Galgant und Chili machen jede Mahlzeit zum Erlebnis. Unsere veganen Thai-Plaene erfordern kaum Anpassungen, denn diese Kueche war schon immer pflanzennah.",
     "valueProps": [
@@ -1846,7 +1846,7 @@
   },
   "vegan-indian": {
     "title": "Vegane Indische Essensplaene",
-    "metaDescription": "Vegane indische Essensplaene mit Dals, Gemuese-Currys und Chutneys. Reich an pflanzlichem Protein. Jetzt gratis testen.",
+    "metaDescription": "Vegane indische Essensplaene mit Dals, Gemuese-Currys und Chutneys. Reich an pflanzlichem Protein. Gratis-Vorschau ansehen.",
     "h1": "Vegane Indische Essensplaene Reich und Aromatisch",
     "intro": "Indien hat die groesste vegetarische Bevoelkerung der Welt, und ein grosser Teil davon isst rein pflanzlich. Vegane indische Kueche ist keine Einschraenkung — es ist eine eigenstaendige kulinarische Tradition mit hunderten Gerichten, die nie tierische Produkte brauchten. Unsere Plaene feiern diese Vielfalt: von cremigen Dals ueber wuerzige Currys bis hin zu knusprigen Dosas.",
     "valueProps": [
@@ -1931,7 +1931,7 @@
   },
   "vegan-mediterranean": {
     "title": "Vegane Mediterrane Essensplaene",
-    "metaDescription": "Vegane mediterrane Essensplaene mit Hummus, gegrilltem Gemuese und Getreide. Gesund und lecker. Jetzt gratis testen.",
+    "metaDescription": "Vegane mediterrane Essensplaene mit Hummus, gegrilltem Gemuese und Getreide. Gesund und lecker. Gratis-Vorschau ansehen.",
     "h1": "Vegane Mediterrane Essensplaene Gesund und Genussvoll",
     "intro": "Die Mittelmeer-Diaet ist bereits stark pflanzlich orientiert — die vegane Version konzentriert sich vollstaendig auf Gemuese, Huelsenfruechte, Nuesse, Olivenoel und Vollkorn. Kein Fisch, keine Eier, kein Kaese — und trotzdem eine der geschmackvollsten und gesuendesten Ernaehrungsweisen ueberhaupt.",
     "valueProps": [
@@ -2016,7 +2016,7 @@
   },
   "keto-mediterranean": {
     "title": "Keto-Mediterrane Essensplaene",
-    "metaDescription": "Ketogene mediterrane Essensplaene mit Olivenoel, Fisch und Gemuese. Ketose mit Mittelmeer-Diaet. Jetzt gratis testen.",
+    "metaDescription": "Ketogene mediterrane Essensplaene mit Olivenoel, Fisch und Gemuese. Ketose mit Mittelmeer-Diaet. Gratis-Vorschau ansehen.",
     "h1": "Keto-Mediterrane Essensplaene Fuer Gesundheit und Ketose",
     "intro": "Keto und Mittelmeer-Kueche klingen wie ein Widerspruch — aber die Kombination funktioniert ueberraschend gut. Olivenoel, fetter Fisch, Avocado und Nuesse liefern die Fette, die Keto braucht, waehrend Gemuese, Krauter und Gewuerze des Mittelmeerraums fuer Geschmack und Naehrstoffe sorgen. Wir streichen die Kohlenhydrate, behalten aber den mediterranen Genuss.",
     "valueProps": [
@@ -2101,7 +2101,7 @@
   },
   "keto-asian": {
     "title": "Keto-Asiatische Essensplaene",
-    "metaDescription": "Ketogene asiatische Essensplaene ohne Reis und Nudeln. Asiatische Aromen mit Keto-Makros. Jetzt gratis testen.",
+    "metaDescription": "Ketogene asiatische Essensplaene ohne Reis und Nudeln. Asiatische Aromen mit Keto-Makros. Gratis-Vorschau ansehen.",
     "h1": "Keto-Asiatische Essensplaene Ohne Kompromisse beim Geschmack",
     "intro": "Asiatische Kueche und Keto — das geht besser als gedacht. Zwar fallen Reis und Nudeln weg, aber die intensiven Aromen von Sojasauce, Ingwer, Knoblauch und Sesamoel bleiben. Wir ersetzen die Kohlenhydrate durch Blumenkohlreis und Gemuese und behalten die Wok-Techniken, Currys und Suppen, die asiatisches Essen so unwiderstehlich machen.",
     "valueProps": [
@@ -2186,7 +2186,7 @@
   },
   "keto-mexican": {
     "title": "Keto-Mexikanische Essensplaene",
-    "metaDescription": "Ketogene mexikanische Essensplaene mit Salat-Tacos und Fleischgerichten. Mexikanischer Geschmack ohne Kohlenhydrate. Jetzt gratis testen.",
+    "metaDescription": "Ketogene mexikanische Essensplaene mit Salat-Tacos und Fleischgerichten. Mexikanischer Geschmack ohne Kohlenhydrate. Gratis-Vorschau ansehen.",
     "h1": "Keto-Mexikanische Essensplaene Lecker und Low-Carb",
     "intro": "Mexikanisch und Keto passt erstaunlich gut zusammen: Gegrilltes Fleisch, Guacamole, scharfe Salsas und knackige Salatblatt-Wraps ersetzen die Tortillas muehelose. Die kraeftigen Aromen von Chili, Limette und Kreuzkuemmel brauchen keine Kohlenhydrate, um zu ueberzeugen.",
     "valueProps": [
@@ -2271,7 +2271,7 @@
   },
   "vegetarian-italian": {
     "title": "Vegetarisch-Italienische Essensplaene",
-    "metaDescription": "Vegetarische italienische Essensplaene mit Pasta, Risotto und Pizza ohne Fleisch. Authentisch italienisch. Jetzt gratis testen.",
+    "metaDescription": "Vegetarische italienische Essensplaene mit Pasta, Risotto und Pizza ohne Fleisch. Authentisch italienisch. Gratis-Vorschau ansehen.",
     "h1": "Vegetarisch-Italienische Essensplaene Authentisch und Grosszuegig",
     "intro": "Vegetarische italienische Kueche ist kein Kompromiss — sie ist eine eigenstaendige Tradition. Von Risotto ueber Pasta mit Gemuesesaucen bis zu Auberginen-Parmesan: Italien bietet eine Fuelle fleischloser Gerichte, die nie ein Stueck Fleisch vermissen lassen.",
     "valueProps": [
@@ -2356,7 +2356,7 @@
   },
   "vegetarian-indian": {
     "title": "Vegetarisch-Indische Essensplaene",
-    "metaDescription": "Vegetarische indische Essensplaene mit Dals, Paneer und gewuerztem Gemuese. Reich an pflanzlichem Protein. Jetzt gratis testen.",
+    "metaDescription": "Vegetarische indische Essensplaene mit Dals, Paneer und gewuerztem Gemuese. Reich an pflanzlichem Protein. Gratis-Vorschau ansehen.",
     "h1": "Vegetarisch-Indische Essensplaene Traditionell und Naehrend",
     "intro": "Vegetarische indische Kueche braucht kein Fleisch als Ersatz — sie war nie darauf angewiesen. Millionen von Indern leben vegetarisch, und ihre kulinarische Tradition umfasst hunderte einzigartige Gerichte, die vor Geschmack nur so strotzen. Unsere Plaene feiern diese Vielfalt mit Paneer-Gerichten, Dals, Chutneys und regionalen Spezialitaeten.",
     "valueProps": [
@@ -2441,7 +2441,7 @@
   },
   "vegetarian-mediterranean": {
     "title": "Vegetarisch-Mediterrane Essensplaene",
-    "metaDescription": "Vegetarische mediterrane Essensplaene mit Falafel, Halloumi und gegrilltem Gemuese. Gesund und lecker. Jetzt gratis testen.",
+    "metaDescription": "Vegetarische mediterrane Essensplaene mit Falafel, Halloumi und gegrilltem Gemuese. Gesund und lecker. Gratis-Vorschau ansehen.",
     "h1": "Vegetarisch-Mediterrane Essensplaene Frisch und Ausgewogen",
     "intro": "Die Mittelmeer-Diaet stellt bereits Gemuese, Getreide und Huelsenfruechte in den Mittelpunkt — ohne Fleisch ruecken diese Zutaten noch staerker ins Rampenlicht. Unsere vegetarischen Mittelmeer-Plaene kombinieren Eier, Kaese und Joghurt mit Olivenoel, frischen Kraeutern und saisonalem Gemuese, die diesen weltberuehmten Ernaehrungsstil ausmachen.",
     "valueProps": [
@@ -2527,7 +2527,7 @@
   },
   "gluten-free-asian": {
     "title": "Glutenfreie Asiatische Essensplaene",
-    "metaDescription": "Asiatische Essensplaene ohne Gluten mit Reisnudeln, Pfannengerichten und Currys. Alle Aromen ohne Weizen. Jetzt gratis testen.",
+    "metaDescription": "Asiatische Essensplaene ohne Gluten mit Reisnudeln, Pfannengerichten und Currys. Alle Aromen ohne Weizen. Gratis-Vorschau ansehen.",
     "h1": "Glutenfreie Asiatische Essensplaene Voller Geschmack",
     "intro": "Asiatische Kueche bietet unglaubliche Vielfalt fuer glutenfreie Esser — Reis ist in den meisten Teilen Asiens das Standard-Grundnahrungsmittel, und viele Gerichte sind von Natur aus weizenfrei. Der Knackpunkt sind Sojasauce (die Weizen enthaelt), manche Nudelsorten und versteckte Verdickungsmittel. Unsere glutenfreien Asien-Plaene kuemmern sich um all das, damit du asiatische Aromen ohne Sorgen geniessen kannst.",
     "valueProps": [
@@ -2617,7 +2617,7 @@
   },
   "gluten-free-italian": {
     "title": "Glutenfreie Italienische Essensplaene",
-    "metaDescription": "Italienische Essensplaene ohne Gluten mit GF-Pasta, Risotto und Grillgerichten. La Dolce Vita ohne Gluten. Jetzt gratis testen.",
+    "metaDescription": "Italienische Essensplaene ohne Gluten mit GF-Pasta, Risotto und Grillgerichten. La Dolce Vita ohne Gluten. Gratis-Vorschau ansehen.",
     "h1": "Glutenfreie Italienische Essensplaene Die Schmecken",
     "intro": "Italienisches Essen und Gluten scheinen untrennbar — bis man Risotto, Polenta, glutenfreie Pasta und die unzaehligen italienischen Gerichte entdeckt, die nie Weizen brauchten. Unsere glutenfreien italienischen Plaene beweisen, dass man wie in Rom essen kann, ohne ein einziges Weizenkoernchen auf dem Teller.",
     "valueProps": [
@@ -2704,7 +2704,7 @@
   },
   "gluten-free-mexican": {
     "title": "Glutenfreie Mexikanische Essensplaene",
-    "metaDescription": "Mexikanische Essensplaene ohne Gluten mit Maistortillas, Tacos und Salsas. Natuerlich glutenfrei. Jetzt gratis testen.",
+    "metaDescription": "Mexikanische Essensplaene ohne Gluten mit Maistortillas, Tacos und Salsas. Natuerlich glutenfrei. Gratis-Vorschau ansehen.",
     "h1": "Glutenfreie Mexikanische Essensplaene Natuerlich und Lecker",
     "intro": "Die gute Nachricht: Traditionelle mexikanische Kueche baut auf Mais, nicht auf Weizen auf. Maistortillas, Tamales, Tostadas und Sopes sind alle natuerlich glutenfrei. Die Stolpersteine sind Weizenmehl-Tortillas, bierteigige Gerichte und manche Fertiggewuerzmischungen. Unsere Plaene setzen auf authentische Mais-basierte mexikanische Kueche und markieren jede versteckte Glutenquelle.",
     "valueProps": [
@@ -2790,7 +2790,7 @@
   },
   "halal-mediterranean": {
     "title": "Halal-Mediterrane Essensplaene",
-    "metaDescription": "Halal-konforme mediterrane Essensplaene mit Grillgerichten, Hummus und frischem Gemuese. Jetzt gratis testen.",
+    "metaDescription": "Halal-konforme mediterrane Essensplaene mit Grillgerichten, Hummus und frischem Gemuese. Gratis-Vorschau ansehen.",
     "h1": "Halal-Mediterrane Essensplaene Gesund und Konform",
     "intro": "Mediterrane und Halal-Kueche haben tiefe gemeinsame Wurzeln — ein grosser Teil der oestlichen Mittelmeerkueste ist historisch muslimisch, und Gerichte wie Shawarma, Fattoush und Kibbeh sind gleichzeitig mediterran und halal. Unsere Plaene bringen das Beste beider Welten zusammen: herzgesunde Mittelmeer-Ernaehrung mit strikter Halal-Konformitaet.",
     "valueProps": [
@@ -2876,7 +2876,7 @@
   },
   "halal-indian": {
     "title": "Halal-Indische Essensplaene",
-    "metaDescription": "Halal-konforme indische Essensplaene mit Biryanis, Currys und Tandoori. Halal-Fleisch und authentische Gewuerze. Jetzt gratis testen.",
+    "metaDescription": "Halal-konforme indische Essensplaene mit Biryanis, Currys und Tandoori. Halal-Fleisch und authentische Gewuerze. Gratis-Vorschau ansehen.",
     "h1": "Halal-Indische Essensplaene Aromatisch und Authentisch",
     "intro": "Indien hat eine der groessten muslimischen Bevoelkerungen der Welt, und seine Halal-Kochtradition ist aussergewoehnlich — von Lucknowi-Biryani ueber Hyderabadi-Haleem bis zu Mughlai-Kebabs und Kerala-Fischcurry. Unsere Halal-indischen Ernaehrungsplaene schoepfen aus diesen reichen Traditionen, verwenden Halal-Fleisch und verzichten vollstaendig auf alkoholbasierte Zutaten.",
     "valueProps": [
@@ -2964,7 +2964,7 @@
   },
   "halal-middle-eastern": {
     "title": "Halal-Nahoesstliche Essensplaene",
-    "metaDescription": "Halal-konforme nahoesstliche Essensplaene mit Kebabs, Falafel und Mezze. Traditionelle konforme Kueche. Jetzt gratis testen.",
+    "metaDescription": "Halal-konforme nahoesstliche Essensplaene mit Kebabs, Falafel und Mezze. Traditionelle konforme Kueche. Gratis-Vorschau ansehen.",
     "h1": "Halal-Nahoesstliche Essensplaene Traditionell und Grosszuegig",
     "intro": "Nahoeostliche Kueche ist in ihrem Kern halal — diese Rezepte wurden ueber Generationen in muslimischen Familien in der Levante, auf der Arabischen Halbinsel und in Nordafrika weitergegeben. Unsere Ernaehrungsplaene bringen dieses Erbe in deine Kueche mit authentischen Rezepten fuer Shawarma, Mansaf, Maqluba und die legendaeren Mezze-Tafeln.",
     "valueProps": [
@@ -3052,7 +3052,7 @@
   },
   "pescatarian-japanese": {
     "title": "Pescetarisch-Japanische Essensplaene",
-    "metaDescription": "Japanische pescetarische Essensplaene mit Sushi Bowls, Meeresfruechte-Ramen und Fisch-Teriyaki. Jetzt gratis testen.",
+    "metaDescription": "Japanische pescetarische Essensplaene mit Sushi Bowls, Meeresfruechte-Ramen und Fisch-Teriyaki. Gratis-Vorschau ansehen.",
     "h1": "Pescetarisch-Japanische Essensplaene Raffiniert und Ausgewogen",
     "intro": "Japan ist ein Inselstaat, und seine Kueche spiegelt das wider — Meeresfruechte und Gemuese standen schon immer im Mittelpunkt japanischer Kochkunst. Eine pescetarische japanische Ernaehrung ist kaum eine Einschraenkung; sie kommt dem nahe, wie die meisten Japaner tatsaechlich essen. Unsere Wochenplaene umfassen Sushi, Ramen, Donburi und Izakaya-Favoriten, alles zentriert auf Fisch und pflanzliche Zutaten.",
     "valueProps": [
@@ -3140,7 +3140,7 @@
   },
   "pescatarian-mediterranean": {
     "title": "Pescetarisch-Mediterrane Essensplaene",
-    "metaDescription": "Mediterrane pescetarische Essensplaene mit gegrilltem Fisch, Meeresfruechten und Gemuese. Jetzt gratis testen.",
+    "metaDescription": "Mediterrane pescetarische Essensplaene mit gegrilltem Fisch, Meeresfruechten und Gemuese. Gratis-Vorschau ansehen.",
     "h1": "Pescetarisch-Mediterrane Essensplaene Frisch und Leicht",
     "intro": "Die traditionelle Mittelmeer-Diaet war schon immer eine pescetarische Diaet — Kuestengemeinden in Griechenland, Italien, Spanien und Nordafrika assen taeglich Fisch und Fleisch nur selten. Unsere pescetarisch-mediterranen Plaene kehren zu diesen Wurzeln zurueck: mit gegrilltem Fisch, Meeresfruechte-Eintoepfen, Olivenoel, frischem Gemuese und den einfachen Zubereitungen, die diesen Ernaehrungsstil zum Goldstandard fuer Gesundheit machen.",
     "valueProps": [
@@ -3228,7 +3228,7 @@
   },
   "dairy-free-thai": {
     "title": "Milchfreie Thai-Essensplaene",
-    "metaDescription": "Milchfreie Thai-Essensplaene mit Kokosmilch, Currys und Pfannengerichten. Natuerlich laktosefrei. Jetzt gratis testen.",
+    "metaDescription": "Milchfreie Thai-Essensplaene mit Kokosmilch, Currys und Pfannengerichten. Natuerlich laktosefrei. Gratis-Vorschau ansehen.",
     "h1": "Milchfreie Thai-Essensplaene Voller Geschmack",
     "intro": "Die thailaendische Kueche ist eine der natuerlichsten milchfreien Kuechen auf dem Planeten. Kokosmilch ersetzt Sahne, Fischsauce ersetzt Butter, und die kraeftigen Aromen von Zitronengras, Galgant und Chili bedeuten, dass du Kaese keine Sekunde lang vermisst. Unsere milchfreien Thai-Plaene erfordern fast null Anpassungen — so war Thai-Essen schon immer gedacht.",
     "valueProps": [
@@ -3318,7 +3318,7 @@
   },
   "dairy-free-mexican": {
     "title": "Milchfreie Mexikanische Essensplaene",
-    "metaDescription": "Mexikanische Essensplaene ohne Kaese oder Sahne. Tacos, Salsas und Grillgerichte mit vollem Geschmack. Jetzt gratis testen.",
+    "metaDescription": "Mexikanische Essensplaene ohne Kaese oder Sahne. Tacos, Salsas und Grillgerichte mit vollem Geschmack. Gratis-Vorschau ansehen.",
     "h1": "Milchfreie Mexikanische Essensplaene -- Voller Geschmack Ohne Kaese",
     "intro": "Mexikanisches Essen ohne Kaese klingt nach Verzicht — bis man merkt, dass die Seele der mexikanischen Kueche in Chilis, Limette, Koriander, Kreuzkuemmel und langsam geschmortem Fleisch steckt, nicht im Kaese obendrauf. Die traditionelle vorkoloniale mexikanische Kueche war komplett milchfrei. Unsere Plaene knuepfen an diese Wurzeln an und bewahren dabei all die kraeftigen, sattmachenden Aromen, nach denen du dich sehnst.",
     "valueProps": [
@@ -3408,7 +3408,7 @@
   },
   "low-carb-southern": {
     "title": "Low-Carb Southern-Kueche Essensplaene",
-    "metaDescription": "Southern-Kueche in Low-Carb-Version. Haehnchen, Gruenzeug und Suedstaaten-Aromen ohne Kohlenhydrate. Jetzt gratis testen.",
+    "metaDescription": "Southern-Kueche in Low-Carb-Version. Haehnchen, Gruenzeug und Suedstaaten-Aromen ohne Kohlenhydrate. Gratis-Vorschau ansehen.",
     "h1": "Low-Carb Southern-Kueche Essensplaene Gemuetlich und Kohlenhydratarm",
     "intro": "Suedstaatenkueche ist legendaer fuer ihre kraeftigen Aromen, grosszuegigen Portionen und wohliges Soulfood — aber auch fuer ihre starke Abhaengigkeit von Maisbrot, Biscuits, Grits und Suessem Eistee. Unsere Low-Carb-Suedstaaten-Plaene bewahren die Seele des Southern Cooking: langsam geraeuchertes Fleisch, geschmortes Blattgemuese, Gewuerzmischungen und Gusseisen-Techniken — und tauschen dabei die Staerke aus, die dich beschwert.",
     "valueProps": [
@@ -3498,7 +3498,7 @@
   },
   "meal-plan-for-weight-loss": {
     "title": "Essensplaene Zum Abnehmen",
-    "metaDescription": "Personalisierte Essensplaene zum Abnehmen mit moderatem Kaloriendefizit. Saettigende Mahlzeiten und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Personalisierte Essensplaene zum Abnehmen mit moderatem Kaloriendefizit. Saettigende Mahlzeiten und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Zum Abnehmen Ohne Hungern",
     "intro": "Abnehmen sollte nicht bedeuten, jeden Tag fades Haehnchen und gedaempften Brokkoli zu essen. Der Schluessel sind kalorienkontrollierte Mahlzeiten, die wirklich satt machen, sodass du dich nie eingeschraenkt fuehlst. Wir erstellen dir jede Woche einen frischen Ernaehrungsplan zum Abnehmen mit passenden Portionen, ausgewogener Naehrstoffversorgung und genug Abwechslung, um dich die ganze Zeit motiviert zu halten.",
     "valueProps": [
@@ -3578,7 +3578,7 @@
   },
   "meal-plan-for-muscle-gain": {
     "title": "Essensplaene Fuer Muskelaufbau",
-    "metaDescription": "Proteinreiche Essensplaene fuer Muskelwachstum. Berechnete Makros und trainingsgerechte Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "Proteinreiche Essensplaene fuer Muskelwachstum. Berechnete Makros und trainingsgerechte Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Effektiven Muskelaufbau",
     "intro": "Muskelaufbau erfordert mehr als nur Training — du brauchst konstante, proteinreiche Ernaehrung, um Regeneration und Wachstum zu unterstuetzen. Das Problem: Meal-Prepping fuer eine Aufbauphase ist anstrengend und eintoenig. Wir erstellen jede Woche einen frischen kalorienreichen, proteinreichen Ernaehrungsplan, damit du dich aufs Training konzentrieren kannst, waehrend wir die Ernaehrung uebernehmen.",
     "valueProps": [
@@ -3662,7 +3662,7 @@
   },
   "meal-plan-for-pregnancy": {
     "title": "Essensplaene Fuer die Schwangerschaft",
-    "metaDescription": "Ausgewogene Essensplaene fuer Schwangere. Essentielle Naehrstoffe, Folsaeure und Eisen mit leckeren Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "Ausgewogene Essensplaene fuer Schwangere. Essentielle Naehrstoffe, Folsaeure und Eisen mit leckeren Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer die Schwangerschaft Gesund und Naehrend",
     "intro": "Gute Ernaehrung waehrend der Schwangerschaft ist wichtiger denn je — aber zwischen Heisshunger, Abneigungen und Muedigkeit kann die Planung nahrhafter Mahlzeiten ueberwaeltigend wirken. Unsere Schwangerschafts-Ernaehrungsplaene sind auf wichtige praenatale Naehrstoffe ausgelegt — Folsaeure, Eisen, Kalzium, Omega-3-Fettsaeuren — und halten die Mahlzeiten dabei ansprechend, selbst wenn dein Appetit unberechenbar ist.",
     "valueProps": [
@@ -3746,7 +3746,7 @@
   },
   "meal-plan-for-beginners": {
     "title": "Essensplaene Fuer Anfaenger",
-    "metaDescription": "Einfache Essensplaene fuer Kochanfaenger. Leichte Rezepte mit wenigen Zutaten und Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Einfache Essensplaene fuer Kochanfaenger. Leichte Rezepte mit wenigen Zutaten und Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Anfaenger Die das Kochen Leicht Machen",
     "intro": "Wenn sich Ernaehrungsplanung einschuechternd anfuehlt, bist du nicht allein. Die meisten scheitern daran, weil sie versuchen, ueber Nacht vom Nullpunkt zum Gourmetkoch zu werden. Unsere Anfaenger-Ernaehrungsplaene setzen auf einfache Techniken, gaengige Zutaten und kurze Zubereitungszeiten, damit du die Gewohnheit aufbauen kannst, ohne auszubrennen. Jedes Rezept geht davon aus, dass du bei Null anfaengst — keine Kochkuenste noetig.",
     "valueProps": [
@@ -3826,7 +3826,7 @@
   },
   "meal-plan-for-picky-eaters": {
     "title": "Essensplaene Fuer Waehlerische Esser",
-    "metaDescription": "Essensplaene fuer waehlerische Esser. Vertraute Gerichte mit versteckten Naehrstoffen. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene fuer waehlerische Esser. Vertraute Gerichte mit versteckten Naehrstoffen. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Waehlerische Esser Die Allen Schmecken",
     "intro": "Ein waehlerischer Esser zu sein bedeutet nicht, dass du fuer immer Chicken Nuggets essen musst. Der Trick ist, mit vertrauten Geschmaeckern zu beginnen und schrittweise deine Komfortzone zu erweitern. Unsere Ernaehrungsplaene fuer waehlerische Esser setzen auf ansprechende Zutaten, angenehme Texturen und beliebte Aromen, waehrend ausgewogene Ernaehrung ganz nebenbei einfliessen.",
     "valueProps": [
@@ -3906,7 +3906,7 @@
   },
   "meal-plan-on-a-budget": {
     "title": "Guenstige Essensplaene",
-    "metaDescription": "Leckere Essensplaene fuer kleines Budget. Erschwingliche Zutaten, kein Abfall und optimierte Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Leckere Essensplaene fuer kleines Budget. Erschwingliche Zutaten, kein Abfall und optimierte Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Guenstige Essensplaene Fuer Gutes Essen Ohne Viel Geld",
     "intro": "Sich mit knappem Budget gesund zu ernaehren ist moeglich — du brauchst nur einen Plan. Die groessten Geldverschwender sind Impulseinkauefe, Lebensmittel die schlecht werden bevor man sie benutzt, und Last-Minute-Bestellungen. Unsere Budget-Ernaehrungsplaene setzen auf guenstige Grundzutaten, minimieren Verschwendung durch ueberlappende Zutaten und erstellen smarte Einkaufslisten, damit jeder Euro zaehlt.",
     "valueProps": [
@@ -3990,7 +3990,7 @@
   },
   "meal-plan-for-diabetes": {
     "title": "Essensplaene Fuer Diabetiker",
-    "metaDescription": "Essensplaene mit niedrigem glykaemischem Index fuer Diabetesmanagement. Blutzucker stabilisierende Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene mit niedrigem glykaemischem Index fuer Diabetesmanagement. Blutzucker stabilisierende Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Diabetiker Die den Blutzucker Stabilisieren",
     "intro": "Diabetes durch Ernaehrung zu managen muss nicht bedeuten, auf die Lieblingsspeisen zu verzichten. Der Schluessel sind gleichmaessige, ausgewogene Mahlzeiten, die den Blutzucker den ganzen Tag stabil halten. Unsere diabetesfreundlichen Plaene setzen auf Lebensmittel mit niedrigem glykaemischem Index, mageres Protein, gesunde Fette und passende Portionen — und halten die Mahlzeiten dabei wirklich lecker.",
     "valueProps": [
@@ -4070,7 +4070,7 @@
   },
   "meal-plan-for-heart-health": {
     "title": "Essensplaene Fuer die Herzgesundheit",
-    "metaDescription": "Herzgesunde Essensplaene mit wenig Natrium und gesunden Fetten. Medizinische Empfehlungen lecker umgesetzt. Jetzt gratis testen.",
+    "metaDescription": "Herzgesunde Essensplaene mit wenig Natrium und gesunden Fetten. Medizinische Empfehlungen lecker umgesetzt. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer die Herzgesundheit Lecker und Ausgewogen",
     "intro": "Eine herzgesunde Ernaehrung ist eines der wirksamsten Dinge, die du fuer ein langes Leben tun kannst — aber sie sollte sich nicht wie eine Strafe anfuehlen. Unsere Plaene betonen Omega-3-Fettsaeuren, loesliche Ballaststoffe, magere Proteine und viel Obst und Gemuese, waehrend der Natriumgehalt im Zaum gehalten wird. Jede Mahlzeit ist darauf ausgelegt, die Herzgesundheit zu foerdern, ohne auf Geschmack zu verzichten.",
     "valueProps": [
@@ -4150,7 +4150,7 @@
   },
   "high-protein-meal-plan": {
     "title": "Proteinreiche Essensplaene",
-    "metaDescription": "Proteinreiche Essensplaene fuer Fitness und Saettigung. 100g+ Protein taeglich mit leckeren Rezepten. Jetzt gratis testen.",
+    "metaDescription": "Proteinreiche Essensplaene fuer Fitness und Saettigung. 100g+ Protein taeglich mit leckeren Rezepten. Gratis-Vorschau ansehen.",
     "h1": "Proteinreiche Essensplaene Fuer Kraft und Saettigung",
     "intro": "Ob du Muskeln aufbaust, abnimmst oder einfach zufriedener nach dem Essen sein willst — Protein ist die Antwort. Die Herausforderung ist, dein Proteinziel konstant zu erreichen, ohne jeden Tag dasselbe gegrillte Haehnchen zu essen. Unsere High-Protein-Plaene liefern 100-180 g Protein taeglich durch vielfaeltige, koestliche Mahlzeiten, die sich nie wiederholen.",
     "valueProps": [
@@ -4234,7 +4234,7 @@
   },
   "anti-inflammatory-meal-plan": {
     "title": "Entzuendungshemmende Essensplaene",
-    "metaDescription": "Entzuendungshemmende Essensplaene mit antioxidantienreichen Lebensmitteln. Entzuendungen durch Ernaehrung reduzieren. Jetzt gratis testen.",
+    "metaDescription": "Entzuendungshemmende Essensplaene mit antioxidantienreichen Lebensmitteln. Entzuendungen durch Ernaehrung reduzieren. Gratis-Vorschau ansehen.",
     "h1": "Entzuendungshemmende Essensplaene Die dem Koerper Gut Tun",
     "intro": "Chronische Entzuendungen sind die stille Ursache hinter vielen Beschwerden — Gelenkschmerzen, Muedigkeit, Hautprobleme und sogar erhoehtes Krankheitsrisiko. Deine Ernaehrung ist einer der staerksten Hebel, um dagegen anzugehen. Unsere entzuendungshemmenden Plaene setzen auf Omega-3-reiche Fische, bunte Gemuese, Kurkuma und andere natuerliche Entzuendungshemmer.",
     "valueProps": [
@@ -4314,7 +4314,7 @@
   },
   "meal-plan-for-one": {
     "title": "Essensplaene Fuer Eine Person",
-    "metaDescription": "Personalisierte Essensplaene fuer Singles. Angepasste Portionen, kein Abfall und abwechslungsreiche Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "Personalisierte Essensplaene fuer Singles. Angepasste Portionen, kein Abfall und abwechslungsreiche Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Eine Person Ohne Verschwendung",
     "intro": "Fuer eine Person zu kochen kann sich einsam und verschwenderisch anfuehlen — grosse Rezeptmengen, Zutaten die verderben, und die Versuchung einfach was zu bestellen. Unsere Ernaehrungsplaene fuer Singles sind auf Einzelportionen oder clevere Resteverwertung ausgelegt, damit nichts im Muelleimer landet und du dich trotzdem jeden Abend gut und abwechslungsreich ernaehrst.",
     "valueProps": [
@@ -4394,7 +4394,7 @@
   },
   "meal-plan-for-two": {
     "title": "Essensplaene Fuer Zwei Personen",
-    "metaDescription": "Essensplaene fuer Paare mit Portionen fuer zwei. Abwechslungsreiche Mahlzeiten und optimierte Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene fuer Paare mit Portionen fuer zwei. Abwechslungsreiche Mahlzeiten und optimierte Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Zwei Die Gemeinsames Kochen Einfach Machen",
     "intro": "Zu zweit kochen ist der Sweet Spot der Kuechenplanung — genug Menge, damit sich Kochen lohnt, aber klein genug, um spontan zu bleiben. Unsere Plaene fuer Paare sind auf zwei Portionen abgestimmt: keine Berge an Resten, kein Lebensmittelmuell, und jede Woche eine Mischung aus schnellen Feierabendgerichten und gemuetlichen Dinner-Abenden.",
     "valueProps": [
@@ -4474,7 +4474,7 @@
   },
   "meal-plan-for-family-of-4": {
     "title": "Essensplaene Fuer 4-Koepfige Familien",
-    "metaDescription": "Familien-Essensplaene fuer 4 Personen. Gerichte die allen schmecken mit Einkaufsliste und Budget. Jetzt gratis testen.",
+    "metaDescription": "Familien-Essensplaene fuer 4 Personen. Gerichte die allen schmecken mit Einkaufsliste und Budget. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer 4-Koepfige Familien Praktisch und Lecker",
     "intro": "Eine vierkoepfige Familie satt zu bekommen, ohne jeden Abend eine Krise zu haben, ist der heilige Gral der Kuechenplanung. Unsere Familienplaene balancieren kindertaugliche Gerichte mit ernaehrungsbewussten Elternwuenschen und liefern wochentags schnelle Mahlzeiten plus entspannte Wochenendgerichte, an denen alle mithelfen koennen.",
     "valueProps": [
@@ -4558,7 +4558,7 @@
   },
   "meal-plan-for-family-of-6": {
     "title": "Essensplaene Fuer 6-Koepfige Familien",
-    "metaDescription": "Essensplaene fuer grosse Familien mit 6 Personen. Grossportionen-Rezepte mit optimierter Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene fuer grosse Familien mit 6 Personen. Grossportionen-Rezepte mit optimierter Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer 6-Koepfige Familien Grosszuegig und Guenstig",
     "intro": "Eine sechskoepfige Familie zu bekochen bedeutet: grosse Mengen, enge Budgets und unterschiedliche Geschmaecker unter einen Hut bringen. Unsere Plaene setzen auf Batch-Cooking, Grossmengen-Rezepte und clevere Resteverwertung, damit du effizient kochst und trotzdem jeden Tag Abwechslung auf den Tisch bringst — ohne das Budget zu sprengen.",
     "valueProps": [
@@ -4638,7 +4638,7 @@
   },
   "meal-plan-for-college-students": {
     "title": "Essensplaene Fuer Studenten",
-    "metaDescription": "Einfache und guenstige Essensplaene fuer Studenten. Schnelle Rezepte mit wenig Ausruestung und kleinem Budget. Jetzt gratis testen.",
+    "metaDescription": "Einfache und guenstige Essensplaene fuer Studenten. Schnelle Rezepte mit wenig Ausruestung und kleinem Budget. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer Studenten Schnell und Guenstig",
     "intro": "Studenten haben wenig Zeit, wenig Geld, oft nur eine Mikrowelle und null Motivation, aufwaendig zu kochen. Unsere Studentenplaene sind auf Wohnheimkuechen, Minibudgets und unkomplizierte Rezepte zugeschnitten — echtes Essen, das dich durch Vorlesungen und Lernmarathons bringt, ohne pleite zu gehen.",
     "valueProps": [
@@ -4722,7 +4722,7 @@
   },
   "quick-30-minute-meal-plan": {
     "title": "30-Minuten-Essensplaene",
-    "metaDescription": "Essensplaene mit Rezepten in maximal 30 Minuten. Schnelle Abendessen unter der Woche mit Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene mit Rezepten in maximal 30 Minuten. Schnelle Abendessen unter der Woche mit Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "30-Minuten-Essensplaene Fuer Stressfreie Abende",
     "intro": "Zwischen Arbeit, Familie und dem Rest des Lebens bleibt oft wenig Zeit zum Kochen. Unsere 30-Minuten-Plaene beweisen, dass schnell nicht gleich ungesund bedeutet. Jedes Rezept ist von der Vorbereitung bis zum fertigen Teller in maximal 30 Minuten machbar — viele sogar in 15-20. Echtes, frisches Essen fuer Menschen mit echten Terminkalendern.",
     "valueProps": [
@@ -4802,7 +4802,7 @@
   },
   "1200-calorie-meal-plan": {
     "title": "1200-Kalorien-Essensplan",
-    "metaDescription": "1200-Kalorien-Essensplan mit saettigenden Mahlzeiten. Strukturiertes Abnehmen ohne Hunger. Jetzt gratis testen.",
+    "metaDescription": "1200-Kalorien-Essensplan mit saettigenden Mahlzeiten. Strukturiertes Abnehmen ohne Hunger. Gratis-Vorschau ansehen.",
     "h1": "1200-Kalorien-Essensplan Der Nicht Hungrig Laesst",
     "intro": "Ein 1.200-Kalorien-Plan ist der niedrigste Bereich, in dem man sich noch ausgewogen ernaehren kann — und genau deshalb muss jede einzelne Kalorie zaehlen. Kein Platz fuer leere Kalorien: Jede Mahlzeit ist auf maximale Saettigung bei minimalem Energiegehalt optimiert. Protein, Ballaststoffe und Volumen sind die drei Saulen, auf denen dieser Plan steht — damit du abnimmst, ohne staendig ans Essen zu denken.",
     "valueProps": [
@@ -4886,7 +4886,7 @@
   },
   "1500-calorie-meal-plan": {
     "title": "1500-Kalorien-Essensplan",
-    "metaDescription": "1500-Kalorien-Essensplan mit moderatem Defizit. Ausgewogene Mahlzeiten und zufriedenstellende Portionen. Jetzt gratis testen.",
+    "metaDescription": "1500-Kalorien-Essensplan mit moderatem Defizit. Ausgewogene Mahlzeiten und zufriedenstellende Portionen. Gratis-Vorschau ansehen.",
     "h1": "1500-Kalorien-Essensplan Ausgewogen und Zufriedenstellend",
     "intro": "1.500 Kalorien sind fuer die meisten Menschen der Sweet Spot zum Abnehmen: genug Energie, um den Alltag zu meistern und leichtes Training zu unterstuetzen, aber mit ausreichend Defizit fuer stetigen Fortschritt. Unsere Plaene sind so gestaltet, dass sich 1.500 Kalorien nicht nach Diaet anfuehlen — mit sattmachenden Mahlzeiten, die auf Teller statt in Schuesseln passen.",
     "valueProps": [
@@ -4966,7 +4966,7 @@
   },
   "1800-calorie-meal-plan": {
     "title": "1800-Kalorien-Essensplan",
-    "metaDescription": "1800-Kalorien-Essensplan fuer aktive Menschen. Genug Energie zum Bewegen und langsam Abnehmen. Jetzt gratis testen.",
+    "metaDescription": "1800-Kalorien-Essensplan fuer aktive Menschen. Genug Energie zum Bewegen und langsam Abnehmen. Gratis-Vorschau ansehen.",
     "h1": "1800-Kalorien-Essensplan Fuer Aktive Menschen",
     "intro": "Wer aktiv ist und abnehmen will, fuer den sind extreme Kalorienkuerzungen kontraproduktiv. Ein 1.800-Kalorien-Plan liefert genug Energie fuer Workouts, Konzentration bei der Arbeit und schafft trotzdem ein moderates Defizit, das langfristig Fett abbaut. Das sind vollwertige Mahlzeiten mit genug Kohlenhydraten fuer Energie, genug Protein fuer Erholung und genug Geschmack, dass du vergisst, dass du einem Plan folgst.",
     "valueProps": [
@@ -5046,7 +5046,7 @@
   },
   "2000-calorie-meal-plan": {
     "title": "2000-Kalorien-Essensplan",
-    "metaDescription": "2000-Kalorien-Essensplan zur Gewichtserhaltung. Vollstaendige und ausgewogene Mahlzeiten taeglich. Jetzt gratis testen.",
+    "metaDescription": "2000-Kalorien-Essensplan zur Gewichtserhaltung. Vollstaendige und ausgewogene Mahlzeiten taeglich. Gratis-Vorschau ansehen.",
     "h1": "2000-Kalorien-Essensplan Fuer Gesunde Gewichtserhaltung",
     "intro": "2.000 Kalorien sind fuer viele Menschen der Richtwert — nicht zu viel, nicht zu wenig. Ob du dein Gewicht halten, sanft abnehmen oder einfach strukturiert essen moechtest: Ein 2.000-Kalorien-Plan gibt dir den Rahmen fuer drei vollwertige Mahlzeiten und Snacks, ohne dass du staendig rechnen musst. Wir uebernehmen die Planung, du geniesst das Essen.",
     "valueProps": [
@@ -5126,7 +5126,7 @@
   },
   "2500-calorie-meal-plan": {
     "title": "2500-Kalorien-Essensplan",
-    "metaDescription": "2500-Kalorien-Essensplan fuer Muskelaufbau oder sehr aktive Menschen. Reichhaltige und nahrhafte Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "2500-Kalorien-Essensplan fuer Muskelaufbau oder sehr aktive Menschen. Reichhaltige und nahrhafte Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "2500-Kalorien-Essensplan Fuer Masseaufbau",
     "intro": "2.500 Kalorien sind die richtige Wahl fuer aktive Menschen, die Muskeln aufbauen, intensiv trainieren oder einfach einen hohen Energiebedarf haben. Bei dieser Kalorienmenge geht es darum, intelligent zu essen — nicht einfach mehr, sondern besser. Unsere Plaene fuellen 2.500 Kalorien mit naehrstoffreichem Essen, das Leistung und Erholung optimal unterstuetzt.",
     "valueProps": [
@@ -5210,7 +5210,7 @@
   },
   "3000-calorie-meal-plan": {
     "title": "3000-Kalorien-Essensplan",
-    "metaDescription": "3000-Kalorien-Essensplan fuer Sportler und intensiven Masseaufbau. Kalorienreiche und naehrstoffdichte Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "3000-Kalorien-Essensplan fuer Sportler und intensiven Masseaufbau. Kalorienreiche und naehrstoffdichte Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "3000-Kalorien-Essensplan Fuer Sportler und Wachstum",
     "intro": "3.000 Kalorien aus sauberem Essen zu schaffen ist eine echte Herausforderung — frag jeden, der es versucht hat. Zwischen Training und Alltag ist das schiere Volumen an Essen oft das groesste Hindernis. Unsere Plaene loesen das durch kalorienreiche aber naehrstoffreiche Mahlzeiten, strategische Snacks und eine Verteilung, die sich machbar anfuehlt, statt wie ein Zwangsessmarathon.",
     "valueProps": [
@@ -5294,7 +5294,7 @@
   },
   "3-day-meal-plan": {
     "title": "3-Tage-Essensplan",
-    "metaDescription": "3-Tage-Essensplan zum Ausprobieren der Mahlzeitenplanung. Ideal fuer Anfaenger mit einfacher Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "3-Tage-Essensplan zum Ausprobieren der Mahlzeitenplanung. Ideal fuer Anfaenger mit einfacher Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "3-Tage-Essensplan Zum Sanften Einstieg",
     "intro": "Drei Tage sind der perfekte Einstieg: kurz genug, um sich nicht eingeschuechert zu fuehlen, aber lang genug, um zu merken, wie viel einfacher der Alltag mit einem Plan wird. Kein monatelanges Commitment — einfach drei Tage ausprobieren, sehen wie es laeuft, und dann entscheiden, ob du weitermachst.",
     "valueProps": [
@@ -5374,7 +5374,7 @@
   },
   "5-day-meal-plan": {
     "title": "5-Tage-Essensplan",
-    "metaDescription": "5-Tage-Essensplan fuer die Arbeitswoche. Mahlzeiten von Montag bis Freitag mit Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "5-Tage-Essensplan fuer die Arbeitswoche. Mahlzeiten von Montag bis Freitag mit Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "5-Tage-Essensplan Fuer die Arbeitswoche",
     "intro": "Fuenf Tage decken die Arbeitswoche ab — genau den Zeitraum, in dem die meisten Menschen Probleme mit ihrer Ernaehrung haben. Am Wochenende kochst du spontan oder gehst essen, aber von Montag bis Freitag sorgt der Plan dafuer, dass du nicht in die Bestell-Falle tappst. Strukturiert essen, wenn es zaehlt.",
     "valueProps": [
@@ -5454,7 +5454,7 @@
   },
   "7-day-meal-plan": {
     "title": "7-Tage-Essensplan",
-    "metaDescription": "Kompletter 7-Tage-Essensplan mit Fruehstueck, Mittagessen und Abendessen. Volle Organisation mit Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Kompletter 7-Tage-Essensplan mit Fruehstueck, Mittagessen und Abendessen. Volle Organisation mit Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "7-Tage-Essensplan Fuer eine Gut Organisierte Woche",
     "intro": "Eine Woche ist der Goldstandard der Ernaehrungsplanung — lang genug fuer echte Routine, kurz genug, um jede Woche frisch und abwechslungsreich zu bleiben. Unser 7-Tage-Plan deckt jede Mahlzeit und jeden Snack ab, mit einer Einkaufsliste fuer einen einzigen Wocheneinkauf. Sieben Tage, null Raetselraten.",
     "valueProps": [
@@ -5538,7 +5538,7 @@
   },
   "14-day-meal-plan": {
     "title": "14-Tage-Essensplan",
-    "metaDescription": "14-Tage-Essensplan mit maximaler Abwechslung. Keine Wiederholungen und organisierte Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "14-Tage-Essensplan mit maximaler Abwechslung. Keine Wiederholungen und organisierte Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "14-Tage-Essensplan Fuer Zwei Wochen Ohne Wiederholung",
     "intro": "Zwei Wochen sind der Zeitraum, in dem sich neue Gewohnheiten festigen. Waehrend eine Woche ein Schnupperbesuch ist, zeigen dir 14 Tage, wie sich geplantes Essen langfristig anfuehlt: die Routine beim Einkaufen, die Zeitersparnis unter der Woche, und die ueberraschende Kreativitaet, die entsteht, wenn du nicht mehr ueber jede Mahlzeit nachdenken musst.",
     "valueProps": [
@@ -5618,7 +5618,7 @@
   },
   "21-day-meal-plan": {
     "title": "21-Tage-Essensplan",
-    "metaDescription": "21-Tage-Essensplan fuer neue Ernaehrungsgewohnheiten. Drei Wochen geplante Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "21-Tage-Essensplan fuer neue Ernaehrungsgewohnheiten. Drei Wochen geplante Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "21-Tage-Essensplan Zur Verwandlung Ihrer Gewohnheiten",
     "intro": "Drei Wochen sind der Wendepunkt: Lang genug, um eine echte Transformation zu spueren — mehr Energie, bessere Verdauung, weniger Stress ums Essen — aber noch ueberschaubar genug, um dich nicht zu ueberfordern. Unser 21-Tage-Plan ist fuer Menschen, die es ernst meinen mit einer Ernaehrungsumstellung und den Beweis wollen, dass geplantes Essen ihr Leben verbessert.",
     "valueProps": [
@@ -5702,7 +5702,7 @@
   },
   "30-day-meal-plan": {
     "title": "30-Tage-Essensplan",
-    "metaDescription": "Kompletter Monats-Essensplan mit abwechslungsreichen Mahlzeiten und woechentlicher Einkaufsliste. Jetzt gratis testen.",
+    "metaDescription": "Kompletter Monats-Essensplan mit abwechslungsreichen Mahlzeiten und woechentlicher Einkaufsliste. Gratis-Vorschau ansehen.",
     "h1": "30-Tage-Essensplan Fuer Einen Stressfreien Monat",
     "intro": "Ein Monat geplantes Essen veraendert alles — dein Verhaeltnis zum Kochen, dein Budget, deine Gesundheit und deinen Stresslevel. Wer 30 Tage durchhaelt, geht selten zurueck zum planlosen Essen. Unser 30-Tage-Plan ist die volle Erfahrung: vier Wochen mit steigender Vielfalt, optimierten Einkaufslisten und der Gewissheit, dass jede Mahlzeit durchdacht ist.",
     "valueProps": [
@@ -5786,7 +5786,7 @@
   },
   "summer-meal-plan": {
     "title": "Sommer-Essensplaene",
-    "metaDescription": "Leichte und frische Sommer-Essensplaene. Salate, Grillgerichte und kochfreie Mahlzeiten fuer heisse Tage. Jetzt gratis testen.",
+    "metaDescription": "Leichte und frische Sommer-Essensplaene. Salate, Grillgerichte und kochfreie Mahlzeiten fuer heisse Tage. Gratis-Vorschau ansehen.",
     "h1": "Sommer-Essensplaene Leicht und Erfrischend",
     "intro": "Niemand will bei bruetender Hitze eine Stunde am heissen Herd stehen. Ein guter Sommer-Ernaehrungsplan setzt auf frisches Gemuese, schnelles Grillen und Gerichte, die ganz ohne Kochen auskommen. Wir erstellen dir einen Wochenplan voller saisonaler Fruechte, knackiger Salate und leichter Proteine — damit du gut isst, ohne die Kueche aufzuheizen.",
     "valueProps": [
@@ -5869,7 +5869,7 @@
   },
   "winter-meal-plan": {
     "title": "Winter-Essensplaene",
-    "metaDescription": "Wohlige Winter-Essensplaene. Suppen, Eintoepfe und Schmorgerichte fuer kalte Abende. Jetzt gratis testen.",
+    "metaDescription": "Wohlige Winter-Essensplaene. Suppen, Eintoepfe und Schmorgerichte fuer kalte Abende. Gratis-Vorschau ansehen.",
     "h1": "Winter-Essensplaene Wohlig und Waermend",
     "intro": "Wenn es draussen kalt und dunkel ist, sehnt sich der Koerper nach waermendem, gehaltvollen Essen. Unser Winter-Ernaehrungsplan setzt auf Schmorgerichte, Suppen, Auflaeufe und Ofengerichte, die das Haus mit wunderbaren Dueften fuellen und dich von innen waermen. Saisonales Wintergemuese wie Kuerbis, Kohl und Wurzelgemuese stehen im Mittelpunkt.",
     "valueProps": [
@@ -5951,7 +5951,7 @@
   },
   "meal-plan-for-ramadan": {
     "title": "Essensplaene Fuer den Ramadan",
-    "metaDescription": "Ramadan-Essensplaene mit ausgewogenem Suhoor und Iftar. Nahrhafte Mahlzeiten fuer die Fastenzeit. Jetzt gratis testen.",
+    "metaDescription": "Ramadan-Essensplaene mit ausgewogenem Suhoor und Iftar. Nahrhafte Mahlzeiten fuer die Fastenzeit. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer den Ramadan Ausgewogen und Energiereich",
     "intro": "Ramadan stellt besondere Anforderungen an die Ernaehrung: lange Fastenstunden, fruehe Suhur-Mahlzeiten und nahrhafte Iftar-Gerichte, die den Koerper schonend wieder mit Energie versorgen. Unsere Ramadan-Plaene sind auf den Fastenrhythmus abgestimmt — mit langanhaltend saettigenden Suhur-Mahlzeiten, schonenden Iftar-Einstiegen und naehrstoffreichen Hauptgerichten fuer den Abend.",
     "valueProps": [
@@ -6040,7 +6040,7 @@
   },
   "meal-plan-for-lent": {
     "title": "Essensplaene Fuer die Fastenzeit",
-    "metaDescription": "Essensplaene fuer die Fastenzeit mit fleischlosen Freitagen. Fisch- und vegetarische Rezepte. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene fuer die Fastenzeit mit fleischlosen Freitagen. Fisch- und vegetarische Rezepte. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer die Fastenzeit Einfach und Lecker",
     "intro": "Die Fastenzeit stellt besondere Anforderungen: Freitags kein Fleisch, manche verzichten zusaetzlich auf bestimmte Lebensmittel oder reduzieren Portionen. Unser Fastenzeit-Ernaehrungsplan haelt sich an die traditionellen Regeln und sorgt trotzdem fuer abwechslungsreiche, saettigende Mahlzeiten — damit Fasten sich nach bewusstem Genuss anfuehlt, nicht nach Entbehrung.",
     "valueProps": [
@@ -6122,7 +6122,7 @@
   },
   "back-to-school-meal-plan": {
     "title": "Essensplaene Fuer den Schulanfang",
-    "metaDescription": "Essensplaene fuer den Schulanfang. Schnelle Abendessen und ausgewogene Lunchboxen fuer Kinder. Jetzt gratis testen.",
+    "metaDescription": "Essensplaene fuer den Schulanfang. Schnelle Abendessen und ausgewogene Lunchboxen fuer Kinder. Gratis-Vorschau ansehen.",
     "h1": "Essensplaene Fuer den Schulanfang Schnell und Ausgewogen",
     "intro": "Der Schulstart ist jedes Jahr dasselbe Chaos: Brotdosen fuellen, Fruehstueck vor der Tuere servieren, Abendessen fuer muede Kinder und gestresste Eltern zaubern — alles in Rekordzeit. Unser Schulstart-Ernaehrungsplan nimmt dir die taegliche Gruebelei ab und liefert kindertaugliche Mahlzeiten, die schnell gehen, sich gut transportieren lassen und allen schmecken.",
     "valueProps": [
@@ -6207,7 +6207,7 @@
   },
   "keto-meal-plan-for-weight-loss": {
     "title": "Keto-Essensplan Zum Abnehmen",
-    "metaDescription": "Ketogener Essensplan optimiert fuer Gewichtsverlust. Fett verbrennen in Ketose mit leckeren Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "Ketogener Essensplan optimiert fuer Gewichtsverlust. Fett verbrennen in Ketose mit leckeren Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "Keto-Essensplan Zum Effektiven Abnehmen",
     "intro": "Die ketogene Ernaehrung setzt auf hohen Fettanteil und minimale Kohlenhydrate, um den Koerper in den Zustand der Ketose zu versetzen — wo er Fett statt Zucker als primaere Energiequelle verbrennt. Unser Keto-Abnehm-Plan haelt dich unter 30 g Netto-Kohlenhydraten pro Tag und liefert saettigende, fettreiche Mahlzeiten, die das Abnehmen erleichtern, ohne dass du hungern musst.",
     "valueProps": [
@@ -6291,7 +6291,7 @@
   },
   "vegan-meal-plan-for-muscle-gain": {
     "title": "Veganer Essensplan Fuer Muskelaufbau",
-    "metaDescription": "Veganer proteinreicher Essensplan fuer Muskelwachstum. Optimierte pflanzliche Proteine. Jetzt gratis testen.",
+    "metaDescription": "Veganer proteinreicher Essensplan fuer Muskelwachstum. Optimierte pflanzliche Proteine. Gratis-Vorschau ansehen.",
     "h1": "Veganer Essensplan Fuer Muskelaufbau Ohne Fleisch",
     "intro": "Muskeln aufbauen mit rein pflanzlicher Ernaehrung ist absolut moeglich — aber es erfordert Planung. Die Herausforderung liegt nicht im Protein allein, sondern in der richtigen Kombination pflanzlicher Quellen fuer ein vollstaendiges Aminosaeureprofil. Unsere veganen Muskelaufbau-Plaene liefern 120-160 g Protein taeglich aus Tofu, Tempeh, Seitan, Huelsenfruechten und strategisch eingesetztem Proteinpulver.",
     "valueProps": [
@@ -6380,7 +6380,7 @@
   },
   "gluten-free-meal-plan-for-beginners": {
     "title": "Glutenfreier Essensplan Fuer Anfaenger",
-    "metaDescription": "Einfacher glutenfreier Essensplan fuer Einsteiger. Lernen Sie glutenfrei kochen leicht gemacht. Jetzt gratis testen.",
+    "metaDescription": "Einfacher glutenfreier Essensplan fuer Einsteiger. Lernen Sie glutenfrei kochen leicht gemacht. Gratis-Vorschau ansehen.",
     "h1": "Glutenfreier Essensplan Fuer Anfaenger Einfach und Lecker",
     "intro": "Der Umstieg auf glutenfreie Ernaehrung kann am Anfang ueberwaeltigend sein — ploetzlich musst du jedes Etikett lesen und fragst dich, was du ueberhaupt noch essen darfst. Die gute Nachricht: Die meisten natuerlichen Lebensmittel sind von Natur aus glutenfrei. Unser Anfaenger-Plan konzentriert sich auf einfache, natuerlich glutenfreie Gerichte statt auf teure Ersatzprodukte und hilft dir, Vertrauen in deiner neuen Ernaehrung aufzubauen.",
     "valueProps": [
@@ -6467,7 +6467,7 @@
   },
   "mediterranean-meal-plan-for-heart-health": {
     "title": "Mediterraner Essensplan Fuer die Herzgesundheit",
-    "metaDescription": "Herzgesunder mediterraner Essensplan. Olivenoel, Fisch und Gemuese fuer ein gesundes Herz. Jetzt gratis testen.",
+    "metaDescription": "Herzgesunder mediterraner Essensplan. Olivenoel, Fisch und Gemuese fuer ein gesundes Herz. Gratis-Vorschau ansehen.",
     "h1": "Mediterraner Essensplan Fuer ein Gesundes Herz",
     "intro": "Die mediterrane Ernaehrung gilt als eine der herzgesundesten Ernaehrungsformen weltweit — bestaetigt durch Jahrzehnte wissenschaftlicher Forschung. Olivenoel, fetter Fisch, Huelsenfruechte, Vollkorn und reichlich Gemuese bilden die Grundlage einer Ernaehrung, die nachweislich Herzinfarkt- und Schlaganfallrisiko senkt. Unser Plan uebersetzt diese Prinzipien in konkrete, alltagstaugliche Wochenplaene.",
     "valueProps": [
@@ -6556,7 +6556,7 @@
   },
   "low-carb-meal-plan-for-diabetes": {
     "title": "Low-Carb-Essensplan Fuer Diabetes",
-    "metaDescription": "Low-Carb-Essensplan fuer Diabetesmanagement. Blutzucker kontrollieren mit leckeren Mahlzeiten. Jetzt gratis testen.",
+    "metaDescription": "Low-Carb-Essensplan fuer Diabetesmanagement. Blutzucker kontrollieren mit leckeren Mahlzeiten. Gratis-Vorschau ansehen.",
     "h1": "Low-Carb-Essensplan Fuer den Taeglichen Umgang mit Diabetes",
     "intro": "Fuer Menschen mit Diabetes ist die Kontrolle der Kohlenhydratzufuhr einer der wirksamsten Hebel zur Blutzuckerregulation. Unser Low-Carb-Diabetes-Plan haelt die Kohlenhydrate bei 60-100 g pro Tag — niedrig genug fuer eine deutlich bessere Blutzuckerkontrolle, aber hoch genug fuer Energie und Lebensqualitaet. Jede Mahlzeit ist auf gleichmaessige Kohlenhydratverteilung und niedrigen glykaemischen Index ausgelegt.",
     "valueProps": [
@@ -6645,7 +6645,7 @@
   },
   "15-minute-meal-plan": {
     "title": "15-Minuten-Ernährungsplan — Schnelle Abendessen Ohne Stress",
-    "metaDescription": "Persönlicher wöchentlicher 15-Minuten-Ernährungsplan mit Schnellrezepten und Einkaufsliste. Echte Mahlzeiten in 15 Minuten. Kostenlos testen.",
+    "metaDescription": "Persönlicher wöchentlicher 15-Minuten-Ernährungsplan mit Schnellrezepten und Einkaufsliste. Echte Mahlzeiten in 15 Minuten. Gratis-Vorschau ansehen.",
     "h1": "15-Minuten-Ernährungsplan — Echtes Essen, Unglaublich Schnell",
     "intro": "Fünfzehn Minuten genügen. Nicht fünfzehn Minuten aktives Kochen plus zwanzig Minuten Köcheln — fünfzehn Minuten insgesamt, vom Öffnen des Kühlschranks bis zum Hinsetzen mit dem Teller. Das sind keine traurigen Schreibtisch-Mahlzeiten. Es sind richtige Abendessen mit schnell garenden Proteinen, vorbereiteten Zutaten und Techniken, die Zeit sparen, ohne den Geschmack zu opfern.",
     "valueProps": [
@@ -6743,7 +6743,7 @@
   },
   "high-fiber-meal-plan": {
     "title": "Ballaststoffreicher Ernährungsplan — Bessere Verdauung, Mehr Energie",
-    "metaDescription": "Persönlicher ballaststoffreicher Ernährungsplan mit Rezepten und Einkaufsliste. 30g+ Ballaststoffe täglich für bessere Verdauung. Kostenlos testen.",
+    "metaDescription": "Persönlicher ballaststoffreicher Ernährungsplan mit Rezepten und Einkaufsliste. 30g+ Ballaststoffe täglich für bessere Verdauung. Gratis-Vorschau ansehen.",
     "h1": "Ballaststoffreicher Plan — Länger Satt, Besser Verdauen",
     "intro": "Die meisten essen halb so viele Ballaststoffe wie nötig. Die empfohlenen 25-30 Gramm pro Tag klingen machbar, bis man merkt, dass eine typische Ernährung nur etwa 15 liefert. Die Lücke zeigt sich als Blähungen, Energietiefs und dem Gefühl, nach dem Essen nie richtig satt zu sein. Ein ballaststoffreicher Plan behebt das, ohne jede Mahlzeit in eine Schüssel Kleie-Müsli zu verwandeln.",
     "valueProps": [
@@ -6845,7 +6845,7 @@
   },
   "bodybuilding-meal-plan": {
     "title": "Bodybuilding-Ernährungsplan — Kraftstoff Für Deine Gains",
-    "metaDescription": "Persönlicher Bodybuilding-Ernährungsplan mit proteinreichen Rezepten und Einkaufsliste. Deine Makros treffen ohne jeden Tag Hähnchen und Reis. Kostenlos testen.",
+    "metaDescription": "Persönlicher Bodybuilding-Ernährungsplan mit proteinreichen Rezepten und Einkaufsliste. Deine Makros treffen ohne jeden Tag Hähnchen und Reis. Gratis-Vorschau ansehen.",
     "h1": "Bodybuilding-Ernährungsplan — Makros Treffen Ohne Langeweile",
     "intro": "Die Bodybuilding-Diät hat ein Imageproblem. Menschen stellen sich fades Hähnchenbrustfilet, weißen Reis und gedämpften Brokkoli sechsmal am Tag vor. Dieser Ansatz funktioniert, aber niemand hält ihn durch, weil er elend ist. Man muss nicht wie ein Roboter essen, um Muskeln aufzubauen. Man braucht genug Protein, den richtigen Kalorienüberschuss oder -defizit und genug Abwechslung, damit Mahlzeit vier nicht zum Aufgeben verleitet.",
     "valueProps": [
@@ -6951,7 +6951,7 @@
   },
   "pregnancy-meal-plan": {
     "title": "Schwangerschaft-Ernährungsplan — Zwei Versorgen Ohne Überforderung",
-    "metaDescription": "Persönlicher Schwangerschaft-Ernährungsplan mit sicheren, nährstoffreichen Rezepten und Einkaufsliste. Folsäure, Eisen, Protein abgedeckt. Kostenlos testen.",
+    "metaDescription": "Persönlicher Schwangerschaft-Ernährungsplan mit sicheren, nährstoffreichen Rezepten und Einkaufsliste. Folsäure, Eisen, Protein abgedeckt. Gratis-Vorschau ansehen.",
     "h1": "Schwangerschaft-Ernährungsplan — Gut Essen Für Zwei",
     "intro": "Ernährungsratschläge in der Schwangerschaft sind überwältigend. Iss das nicht, iss mehr davon, nimm diese Ergänzungen. Währenddessen ist Ihnen übel, Sie sind erschöpft, und das Einzige, das gut klingt, sind Cracker und Ingwertee. Ein Schwangerschaft-Ernährungsplan schneidet durch den Lärm: Hier ist, was Sie essen sollten, warum es gut für Sie und Ihr Baby ist, und wie Sie es in unter 30 Minuten zubereiten.",
     "valueProps": [
@@ -7057,7 +7057,7 @@
   },
   "diabetic-meal-plan": {
     "title": "Diabetiker-Ernährungsplan — Stabiler Blutzucker, Voller Geschmack",
-    "metaDescription": "Persönlicher Diabetiker-Ernährungsplan mit Rezepten mit niedrigem glykämischen Index und Einkaufsliste. Mahlzeiten die den Blutzucker stabil halten. Kostenlos testen.",
+    "metaDescription": "Persönlicher Diabetiker-Ernährungsplan mit Rezepten mit niedrigem glykämischen Index und Einkaufsliste. Mahlzeiten die den Blutzucker stabil halten. Gratis-Vorschau ansehen.",
     "h1": "Diabetiker-Ernährungsplan — Stabiler Blutzucker, Echter Genuss",
     "intro": "Diabetes durch Ernährung zu managen bedeutet nicht, auf alles zu verzichten. Es bedeutet, Lebensmittel zu wählen, die Energie langsam freisetzen, Kohlenhydrate mit Protein und Ballaststoffen zu kombinieren und zu wissen, welche Mahlzeiten den Blutzucker stabil halten. Die Herausforderung ist nicht die Theorie — sondern was man dienstagabends kochen soll, das alle Kriterien erfüllt und trotzdem schmeckt.",
     "valueProps": [
@@ -7159,7 +7159,7 @@
   },
   "clean-eating-meal-plan": {
     "title": "Clean-Eating-Ernährungsplan — Echte Lebensmittel, Kein Schnickschnack",
-    "metaDescription": "Persönlicher Clean-Eating-Ernährungsplan mit Vollwert-Rezepten und Einkaufsliste. Keine verarbeiteten Produkte, keine komplizierten Regeln. Kostenlos testen.",
+    "metaDescription": "Persönlicher Clean-Eating-Ernährungsplan mit Vollwert-Rezepten und Einkaufsliste. Keine verarbeiteten Produkte, keine komplizierten Regeln. Gratis-Vorschau ansehen.",
     "h1": "Clean-Eating-Plan — Echte Zutaten, Echte Ergebnisse",
     "intro": "Clean Eating ist einfach: Essen, das wie Essen aussieht. Wenn es aus der Erde gewachsen ist, darauf gelaufen oder darin geschwommen hat, ist es drin. Wenn es in einer Fabrik hergestellt wurde mit einer Zutatenliste länger als ein Kassenbon, ist es raus. Kein Makro-Zählen, keine Lebensmittelgruppen streichen. Nur ganze, minimal verarbeitete Zutaten, gekocht zu Mahlzeiten, die gut tun.",
     "valueProps": [
