@@ -478,7 +478,7 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
     type: "cuisine",
     title: "Weekly Indian Meal Plans",
     metaDescription:
-      "Plan a week of authentic Indian meals with rich curries, fragrant dals, and fluffy naan. Auto-generated grocery lists with every spice you need. Try it free.",
+      "Plan a week of authentic Indian meals with rich curries, fragrant dals, and fluffy naan. Auto-generated grocery lists with every spice you need. Free preview.",
     h1: "Indian Meal Plans Bursting with Spice and Flavor",
     intro:
       "Indian cuisine is a universe of flavor — from the creamy butter chickens of Punjab to the coconut-laced curries of Kerala. Our AI planner builds you a balanced week of Indian meals that cover the full spectrum of spice, texture, and regional tradition. Each plan includes a spice-by-spice grocery list so you know exactly what to stock, whether you're a seasoned cook or trying Indian recipes for the first time.",
