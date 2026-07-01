@@ -2,6 +2,17 @@ import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      // Canonical host: www duplicates the whole site and splits crawl signals
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.whatsfordinner.fit" }],
+        destination: "https://whatsfordinner.fit/:path*",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
