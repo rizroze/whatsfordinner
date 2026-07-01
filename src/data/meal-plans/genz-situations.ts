@@ -100,7 +100,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan for Picky Adult Eaters",
     metaDescription:
-      "A meal plan for adults with a limited palate. No judgment, no pressure. Familiar foods with gentle upgrades that expand what you enjoy eating. Try it free.",
+      "A meal plan for adults with a limited palate. No judgment, no pressure. Familiar foods with gentle upgrades that expand what you enjoy eating. Free preview.",
     h1: "Meal Plan for Picky Adult Eaters — No Judgment, Just Good Food",
     intro:
       "You know what you like and you know what you don't. Maybe it's a texture thing. Maybe certain foods just don't work for you. Maybe people have been giving you a hard time about it your whole life. This meal plan doesn't do that. It starts with foods you probably already enjoy — chicken tenders, pasta, grilled cheese, rice — and builds meals around them. If you want to slowly try new things, we introduce them gently alongside familiar favorites. If you don't, that's fine too. The goal is eating well with your actual palate, not someone else's idea of what you should eat.",
@@ -194,7 +194,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan Without an Oven",
     metaDescription:
-      "No oven? No problem. This meal plan uses only stovetop and microwave. Perfect for apartments with broken or missing ovens. Get your free plan today.",
+      "No oven? No problem. This meal plan uses only stovetop and microwave. Perfect for apartments with broken or missing ovens. See your personalized preview today.",
     h1: "Meal Plan Without an Oven — Stovetop & Microwave Only",
     intro:
       "Your oven doesn't work. Or your apartment doesn't have one. Or it's being used as extra storage because you've never turned it on. Whatever the reason, you need a meal plan that doesn't require preheating anything to 400 degrees. Every recipe here uses a stovetop burner, a microwave, or no heat at all. Stir-fries, pan-fried everything, one-pot soups, skillet meals, and microwave mug cakes for dessert. You'll eat better than most people with working ovens because constraint breeds creativity.",
@@ -288,7 +288,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Date Night Meal Plan",
     metaDescription:
-      "Impress your date with easy dinners for two. Cooking together is the best date. Simple recipes that look and taste impressive. Get your free plan today.",
+      "Impress your date with easy dinners for two. Cooking together is the best date. Simple recipes that look and taste impressive. See your personalized preview today.",
     h1: "Date Night Meal Plan — Impressive Dinners That Are Actually Easy",
     intro:
       "Cooking for someone is one of the most attractive things you can do. It says 'I put thought into this' without saying it. But you don't need culinary school skills to pull it off — you just need recipes that look and taste way harder than they actually are. This plan is full of dinners for two that seem impressive but are secretly simple. Creamy pasta that takes 15 minutes. Pan-seared salmon that practically cooks itself. A dessert that makes people say 'you made this?' The secret ingredient is planning, and we've already done that part for you.",
@@ -476,7 +476,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan for Content Creators",
     metaDescription:
-      "Meal plan for content creators and streamers. Desk-friendly meals, camera-ready snacks, and energy for long editing sessions. Get your free plan today.",
+      "Meal plan for content creators and streamers. Desk-friendly meals, camera-ready snacks, and energy for long editing sessions. See your personalized preview today.",
     h1: "Meal Plan for Content Creators Who Live at Their Desk",
     intro:
       "Your schedule isn't 9-to-5. It's 'edit until 3am, crash, wake up and film, then edit again.' Meals happen at your desk between renders, during uploads, or not at all when you're in the zone. This plan works around creative workflows — meals you can prep during export times, snacks that look good on camera if they accidentally end up in a vlog, and food that gives you energy for marathon editing sessions without the sugar crash that ruins your focus at hour 6.",
@@ -570,7 +570,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Minimalist Meal Plan",
     metaDescription:
-      "A minimalist meal plan using only 10 core ingredients for the entire week. Zero waste, zero stress, maximum simplicity. Get your free plan today.",
+      "A minimalist meal plan using only 10 core ingredients for the entire week. Zero waste, zero stress, maximum simplicity. See your personalized preview today.",
     h1: "Minimalist Meal Plan — 10 Ingredients, Zero Waste, Full Week",
     intro:
       "You don't want 47 ingredients and a grocery list that takes an hour to shop. You want simplicity. This meal plan uses 10 core ingredients across every meal for the entire week — eggs, rice, chicken thighs, canned beans, tortillas, cheese, onions, garlic, olive oil, and frozen broccoli. That's the entire shopping list. Different combinations, different seasonings, different meals — but the same simple base. Your fridge stays clean, nothing expires before you use it, and grocery shopping takes 15 minutes.",
@@ -852,7 +852,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Lazy Meal Plan",
     metaDescription:
-      "The laziest meal plan that still counts as cooking. Maximum ease, minimum effort, zero shame. Real food without trying hard. Get your free plan today.",
+      "The laziest meal plan that still counts as cooking. Maximum ease, minimum effort, zero shame. Real food without trying hard. See your personalized preview today.",
     h1: "Lazy Meal Plan — Minimum Effort, Maximum Eating Well",
     intro:
       "You don't want to cook. That's fine. We're not going to pretend this is about 'self-care through cooking' or 'finding joy in the kitchen.' You just need to eat, you'd prefer it to be decent, and you want to spend as little time and effort as possible making it happen. This plan is shamelessly lazy. Microwaved rice. Pre-cooked proteins. Jarred sauces. Frozen vegetables that go straight from bag to pan. Assembly over cooking. The result is still real food that's cheaper than takeout and better than another bowl of cereal. No shame, no apologies, no effort.",

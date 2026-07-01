@@ -6,7 +6,7 @@ export const healthPages: MealPlanPageData[] = [
     type: "health",
     title: "IBS Meal Plan - Low FODMAP Weekly Meals",
     metaDescription:
-      "Get a personalized low FODMAP meal plan for IBS with recipes and grocery lists. Reduce bloating, cramping, and flare-ups with meals designed around trigger avoidance. Try free.",
+      "Get a personalized low FODMAP meal plan for IBS with recipes and grocery lists. Reduce bloating, cramping, and flare-ups with meals designed around trigger avoidance. Free preview.",
     h1: "A Low FODMAP Meal Plan That Takes the Guesswork Out of IBS",
     intro:
       "Living with IBS means every meal is a gamble -- will this be the one that ruins your afternoon? The low FODMAP approach is clinically proven to reduce symptoms in up to 75% of IBS sufferers, but figuring out what you can actually eat is exhausting. We build you a fresh low FODMAP meal plan every week with safe, flavorful recipes so you can eat confidently without spending hours cross-referencing ingredient lists.",
@@ -111,7 +111,7 @@ export const healthPages: MealPlanPageData[] = [
     type: "health",
     title: "PCOS Meal Plan - Anti-Inflammatory & Blood Sugar Friendly",
     metaDescription:
-      "Get a personalized weekly PCOS meal plan with anti-inflammatory recipes and grocery lists. Manage insulin resistance and hormonal balance through food. Try free.",
+      "Get a personalized weekly PCOS meal plan with anti-inflammatory recipes and grocery lists. Manage insulin resistance and hormonal balance through food. Free preview.",
     h1: "A PCOS Meal Plan Built Around Insulin Resistance, Not Just Calories",
     intro:
       "PCOS isn't just a reproductive issue -- it's a metabolic one, and what you eat has a direct impact on insulin levels, inflammation, and hormone balance. The frustrating part is that generic \"healthy eating\" advice doesn't cut it when your body processes carbs differently. We build PCOS-specific meal plans every week that prioritize blood sugar stability, anti-inflammatory ingredients, and balanced macros without making food feel like medicine.",
@@ -215,7 +215,7 @@ export const healthPages: MealPlanPageData[] = [
     type: "health",
     title: "GERD Meal Plan - Acid Reflux Friendly Recipes",
     metaDescription:
-      "Get a personalized weekly meal plan for GERD and acid reflux with trigger-free recipes and grocery lists. Eat well without the burn. Try free today.",
+      "Get a personalized weekly meal plan for GERD and acid reflux with trigger-free recipes and grocery lists. Eat well without the burn. Free preview today.",
     h1: "A Meal Plan for Acid Reflux That Doesn't Taste Like a Punishment",
     intro:
       "When you have GERD, eating becomes a minefield. Tomato sauce, citrus, coffee, chocolate, spicy food -- suddenly all the good stuff is off limits. The result is most people end up eating the same three \"safe\" meals on repeat. We build weekly meal plans that avoid common GERD triggers while still delivering genuinely enjoyable food, so you can eat without dreading what comes next.",
@@ -314,7 +314,7 @@ export const healthPages: MealPlanPageData[] = [
     type: "health",
     title: "Gut Health Meal Plan - Probiotics, Fiber & Fermented Foods",
     metaDescription:
-      "Get a personalized weekly gut health meal plan with prebiotic, probiotic, and fiber-rich recipes plus grocery lists. Build a healthier microbiome. Try free.",
+      "Get a personalized weekly gut health meal plan with prebiotic, probiotic, and fiber-rich recipes plus grocery lists. Build a healthier microbiome. Free preview.",
     h1: "A Gut Health Meal Plan That Actually Feeds Your Microbiome",
     intro:
       "Your gut microbiome influences everything from digestion and immunity to mood and energy. But \"eat more fiber\" is vague advice when you're standing in a grocery store. We build weekly meal plans specifically designed to diversify your gut bacteria -- with prebiotic fiber, fermented foods, polyphenol-rich plants, and minimal ultra-processed ingredients -- so you can stop guessing and start feeding your gut what it actually needs.",
@@ -419,7 +419,7 @@ export const healthPages: MealPlanPageData[] = [
     type: "health",
     title: "High Cholesterol Meal Plan - Heart-Healthy Recipes",
     metaDescription:
-      "Get a personalized weekly meal plan for high cholesterol with heart-healthy recipes and grocery lists. Lower LDL naturally with the right foods. Try free.",
+      "Get a personalized weekly meal plan for high cholesterol with heart-healthy recipes and grocery lists. Lower LDL naturally with the right foods. Free preview.",
     h1: "A Meal Plan for High Cholesterol That Goes Beyond \"Eat Less Fat\"",
     intro:
       "High cholesterol doesn't mean a lifetime of dry salads and tasteless food. The science is clear: specific foods can actively lower LDL cholesterol -- soluble fiber, omega-3 fatty acids, plant sterols, and nuts can reduce LDL by 20-30% when combined consistently. We build weekly meal plans that pack these cholesterol-lowering foods into every day so you're actively improving your numbers with every meal, not just avoiding the bad stuff.",
@@ -523,7 +523,7 @@ export const healthPages: MealPlanPageData[] = [
     type: "health",
     title: "Hypothyroidism Meal Plan - Thyroid-Supporting Recipes",
     metaDescription:
-      "Get a personalized weekly meal plan for hypothyroidism with selenium, iodine, and zinc-rich recipes plus grocery lists. Support thyroid function through food. Try free.",
+      "Get a personalized weekly meal plan for hypothyroidism with selenium, iodine, and zinc-rich recipes plus grocery lists. Support thyroid function through food. Free preview.",
     h1: "A Meal Plan for Hypothyroidism That Supports Your Thyroid From the Inside Out",
     intro:
       "When your thyroid is underactive, your metabolism slows and everything feels harder -- losing weight, staying warm, keeping energy up. While medication manages hormone levels, the right nutrition can support thyroid function, reduce inflammation, and address nutrient deficiencies that make symptoms worse. We build weekly meal plans rich in selenium, iodine, zinc, and anti-inflammatory foods while being mindful of goitrogens and nutrient interactions that can interfere with your medication.",

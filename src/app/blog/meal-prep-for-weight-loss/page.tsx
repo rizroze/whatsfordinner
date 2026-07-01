@@ -6,11 +6,11 @@ import { MealCardGrid } from "@/components/blog/MealCard";
 export const metadata: Metadata = {
   title: "Meal Prep for Weight Loss: 12 Meals Under 500 Calories",
   description:
-    "12 meal prep recipes under 500 calories each — 4 breakfasts, 4 lunches, 4 dinners. Plus a 2-hour Sunday prep system and common mistakes to avoid. Free meal plan included.",
+    "12 meal prep recipes under 500 calories each — 4 breakfasts, 4 lunches, 4 dinners. Plus a 2-hour Sunday prep system and common mistakes to avoid. Free preview included.",
   openGraph: {
     title: "Meal Prep for Weight Loss: 12 Meals Under 500 Calories",
     description:
-      "12 meal prep recipes under 500 calories each — 4 breakfasts, 4 lunches, 4 dinners. Plus a 2-hour Sunday prep system and common mistakes to avoid. Free meal plan included.",
+      "12 meal prep recipes under 500 calories each — 4 breakfasts, 4 lunches, 4 dinners. Plus a 2-hour Sunday prep system and common mistakes to avoid. Free preview included.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=Meal%20Prep%20for%20Weight%20Loss%3A%2012%20Meals%20Under%20500%20Calories&description=12%20meal%20prep%20recipes%20under%20500%20calories%20each%20%E2%80%94%204%20breakfasts%2C%204%20lunches%2C%204%20dinners.%20Plus%20a%202-hour%20Sunday%20prep%20system%20and%20`, width: 1200, height: 630 }],
@@ -33,7 +33,7 @@ export default function MealPrepForWeightLossArticle() {
     <>
       <ArticleJsonLd
         title="Meal Prep for Weight Loss: 12 Meals Under 500 Calories"
-        description="12 meal prep recipes under 500 calories each — 4 breakfasts, 4 lunches, 4 dinners. Plus a 2-hour Sunday prep system and common mistakes to avoid. Free meal plan included."
+        description="12 meal prep recipes under 500 calories each — 4 breakfasts, 4 lunches, 4 dinners. Plus a 2-hour Sunday prep system and common mistakes to avoid. Free preview included."
         url="https://whatsfordinner.fit/blog/meal-prep-for-weight-loss"
         datePublished="2026-03-18"
       />
@@ -187,7 +187,7 @@ export default function MealPrepForWeightLossArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try Free &rarr;
+          Free Preview &rarr;
         </Link>
       </div>
 
@@ -349,7 +349,7 @@ export default function MealPrepForWeightLossArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start Your Free Plan &rarr;
+          Preview Your Plan Free &rarr;
         </Link>
       </div>
 

@@ -410,13 +410,13 @@ export default function PaprikaAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $7.99/mo after your free trial.
+          every week. $7.99/mo, cancel anytime.
         </p>
         <Link
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 

@@ -99,7 +99,7 @@ export default function ToolsPage() {
             href="/onboarding"
             className="inline-block mt-3 text-sm font-medium text-orange-600 hover:text-orange-700 transition-colors duration-200"
           >
-            Get your free 3-day plan &rarr;
+            Preview your meal plan &rarr;
           </Link>
         </div>
       </div>

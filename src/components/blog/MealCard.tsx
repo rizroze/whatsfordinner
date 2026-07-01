@@ -61,7 +61,7 @@ function MealCardCTA() {
         <p className="text-xs text-stone-500 mt-0.5">Personalized to your diet, budget &amp; household</p>
       </div>
       <span className="text-xs font-semibold text-orange-500 group-hover:text-orange-600 transition-colors">
-        Try free &rarr;
+        Free preview &rarr;
       </span>
     </Link>
   );

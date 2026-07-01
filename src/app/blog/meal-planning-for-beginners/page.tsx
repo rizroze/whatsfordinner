@@ -72,7 +72,7 @@ export default function MealPlanningForBeginnersArticle() {
                 name: "What's the easiest way to meal plan?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The easiest way is to use an AI meal planner that generates your plan and grocery list automatically. Services like What's For Dinner create a personalized 7-day plan with recipes and a consolidated grocery list for $7.99/month — no manual planning required. You can also try a free 3-day plan with no signup.",
+                  text: "The easiest way is to use an AI meal planner that generates your plan and grocery list automatically. Services like What's For Dinner create a personalized 7-day plan with recipes and a consolidated grocery list for $7.99/month — no manual planning required. You can also preview a personalized plan free with no signup.",
                 },
               },
             ],
@@ -304,7 +304,7 @@ export default function MealPlanningForBeginnersArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try Free &rarr;
+          Free Preview &rarr;
         </Link>
       </div>
 
@@ -510,7 +510,7 @@ export default function MealPlanningForBeginnersArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start Your Free Plan &rarr;
+          Preview Your Plan Free &rarr;
         </Link>
       </div>
 

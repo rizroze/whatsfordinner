@@ -194,7 +194,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     type: "budget",
     title: "$100/Week Family Meal Plan",
     metaDescription:
-      "Feed a family of 4 for under $100/week with balanced, kid-friendly meals. Smart grocery lists, batch cooking tips, and zero food waste. Try it free.",
+      "Feed a family of 4 for under $100/week with balanced, kid-friendly meals. Smart grocery lists, batch cooking tips, and zero food waste. Free preview.",
     h1: "$100/Week Family Meal Plan That Feeds Four Without Cutting Corners",
     intro:
       "A hundred dollars a week for a family of four comes out to $3.57 per person per day. That's tight — but families across the country do it every week with smart planning. The secret isn't eating less, it's eating strategically. Whole chickens instead of boneless breasts. Dried beans instead of canned. Frozen vegetables that are just as nutritious as fresh but half the price. Our plans build around these budget moves while keeping meals kid-friendly and genuinely good.",
@@ -476,7 +476,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     type: "budget",
     title: "Meal Plan for New Parents",
     metaDescription:
-      "Get a meal plan for new parents with one-handed meals, freezer-friendly batches, and 15-minute dinners. Eat well with a newborn. Try your free plan today.",
+      "Get a meal plan for new parents with one-handed meals, freezer-friendly batches, and 15-minute dinners. Eat well with a newborn. See your personalized preview today.",
     h1: "Meal Plan for New Parents Who Barely Have Time to Eat",
     intro:
       "The first months with a newborn are a blur of feedings, diaper changes, and survival. Cooking drops to the bottom of the priority list — but you still need to eat, and your body needs real nutrition, especially if you're breastfeeding or recovering from birth. Our new parent meal plans are built for this reality: one-handed meals you can eat while holding a baby, freezer-friendly batches you prep during nap time, and dinners that go from fridge to table in 15 minutes or less.",

@@ -47,7 +47,7 @@ export default function BestMealPlanningAppsPage() {
                 name: "What is the best free meal planning app in 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "What's For Dinner offers the best free meal planning experience in 2026. It provides a free 3-day AI-generated meal plan with recipes and a grocery list, no signup or credit card required. For a completely free ongoing option, Mealime offers a free tier with recipe browsing and grocery lists, though it lacks AI personalization. Whisk also offers a free recipe organizer with basic meal planning features.",
+                  text: "What's For Dinner offers the best free meal planning experience in 2026. It provides a free AI-personalized preview of your meals with a grocery list sample, no signup or credit card required. For a completely free ongoing option, Mealime offers a free tier with recipe browsing and grocery lists, though it lacks AI personalization. Whisk also offers a free recipe organizer with basic meal planning features.",
                 },
               },
               {
@@ -87,7 +87,7 @@ export default function BestMealPlanningAppsPage() {
                 name: "What is the best meal planning app in 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "What's For Dinner is the best overall meal planning app in 2026. It uses AI to generate fully personalized weekly meal plans with recipes and a consolidated grocery list, delivered to your inbox for $7.99/month. Unlike traditional apps that rely on static recipe databases, it creates original plans tailored to your diet, allergies, household size, and cuisine preferences every week. It also includes a library of 250 recipes and offers a free 3-day trial with no signup required.",
+                  text: "What's For Dinner is the best overall meal planning app in 2026. It uses AI to generate fully personalized weekly meal plans with recipes and a consolidated grocery list, delivered to your inbox for $7.99/month. Unlike traditional apps that rely on static recipe databases, it creates original plans tailored to your diet, allergies, household size, and cuisine preferences every week. It also includes a library of 250 recipes and offers a free personalized preview with no signup required.",
                 },
               },
               {
@@ -503,7 +503,7 @@ export default function BestMealPlanningAppsPage() {
       </h2>
       <div className="space-y-4 text-stone-600 leading-relaxed">
         <p>
-          <strong>Price:</strong> Free 3-day trial (no signup) | $7.99/mo | $59.99/yr ($5/mo)
+          <strong>Price:</strong> Free preview (no signup) | $7.99/mo | $59.99/yr ($5/mo)
         </p>
         <p>
           <strong>Platform:</strong> Web + weekly email delivery
@@ -578,7 +578,7 @@ export default function BestMealPlanningAppsPage() {
             <li>Email delivery &mdash; no app or login needed to use your plan</li>
             <li>One-tap meal swap: replace any meal you do not like instantly</li>
             <li>Budget-aware planning that adapts to your grocery budget</li>
-            <li>$7.99/mo (or $5/mo yearly) with free 3-day trial, no credit card</li>
+            <li>$7.99/mo (or $5/mo yearly) with a free preview, no credit card</li>
             <li>Works for any household size from{" "}
               <Link href="/meal-plans/meal-plan-for-one" className="text-orange-500 underline">one person</Link>{" "}
               to large families</li>
@@ -596,7 +596,7 @@ export default function BestMealPlanningAppsPage() {
         <p className="text-sm text-stone-500">
           <strong>Verdict:</strong> If you want meal planning that actually works without you
           doing the planning, this is it. The AI personalization is in a different league from
-          everything else on this list. The free trial makes it a no-risk try.
+          everything else on this list. The free preview makes it a no-risk try.
         </p>
 
         <Link
@@ -610,7 +610,7 @@ export default function BestMealPlanningAppsPage() {
       {/* --- Winner callout --- */}
       <div className="bg-green-50 border border-green-100 rounded-xl p-4 my-6">
         <p className="text-sm font-semibold text-green-700">Our pick: What&apos;s For Dinner</p>
-        <p className="text-sm text-green-600 mt-1">The only app that generates original weekly meal plans with recipes and a grocery list from scratch &mdash; personalized to your diet, budget, and household size. 250-recipe library included. $7.99/mo with a free trial.</p>
+        <p className="text-sm text-green-600 mt-1">The only app that generates original weekly meal plans with recipes and a grocery list from scratch &mdash; personalized to your diet, budget, and household size. 250-recipe library included. $7.99/mo with a free preview.</p>
       </div>
 
       {/* --- #2 Mealime --- */}
@@ -680,7 +680,7 @@ export default function BestMealPlanningAppsPage() {
 
         <p className="text-sm text-stone-500">
           <strong>Verdict:</strong> The best free option if you are okay doing the work yourself.
-          But &ldquo;free&rdquo; is less compelling when AI planners offer free trials with
+          But &ldquo;free&rdquo; is less compelling when AI planners offer free previews with
           10x the personalization.
         </p>
 
@@ -1466,7 +1466,7 @@ export default function BestMealPlanningAppsPage() {
           </li>
           <li>
             <strong>&ldquo;I want something free to try&rdquo;</strong> &rarr; Start with
-            What&apos;s For Dinner&apos;s free 3-day plan (no signup) or Mealime&apos;s free tier.
+            What&apos;s For Dinner&apos;s free preview (no signup) or Mealime&apos;s free tier.
           </li>
           <li>
             <strong>&ldquo;I need to hit exact calorie/macro targets&rdquo;</strong> &rarr;{" "}
@@ -1523,14 +1523,14 @@ export default function BestMealPlanningAppsPage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized weekly meal plan with recipes and a
-          grocery list delivered to your inbox. 250-recipe library included. $7.99/mo after
-          your free trial.
+          grocery list delivered to your inbox. 250-recipe library included. $7.99/mo,
+          cancel anytime.
         </p>
         <Link
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free 3-day trial
+          Preview your plan free
         </Link>
       </div>
 
@@ -1545,10 +1545,10 @@ export default function BestMealPlanningAppsPage() {
           </h3>
           <p>
             What&apos;s For Dinner offers a{" "}
-            <Link href="/onboarding" className="text-orange-500 underline">free 3-day AI-generated meal plan</Link>{" "}
+            <Link href="/onboarding" className="text-orange-500 underline">free AI-personalized plan preview</Link>{" "}
             with recipes and a grocery list, no signup or credit card required. It
-            is the only free AI meal planner that generates fully personalized plans
-            from scratch. For a completely free ongoing option, Mealime offers a
+            is the only AI meal planner that shows you a fully personalized preview
+            before you pay a cent. For a completely free ongoing option, Mealime offers a
             free tier with recipe browsing and grocery lists, though it lacks AI
             personalization. Whisk provides free recipe saving with basic shopping
             lists.

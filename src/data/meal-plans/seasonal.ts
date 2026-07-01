@@ -206,7 +206,7 @@ export const seasonalPages: MealPlanPageData[] = [
     type: "seasonal",
     title: "Meal Plan for Ramadan",
     metaDescription:
-      "Get a weekly Ramadan meal plan with balanced suhoor and iftar meals. Energy-sustaining, hydrating, halal recipes designed for fasting days. Try it free.",
+      "Get a weekly Ramadan meal plan with balanced suhoor and iftar meals. Energy-sustaining, hydrating, halal recipes designed for fasting days. Free preview.",
     h1: "Ramadan Meal Plan: Nourishing Suhoor & Iftar for Every Day of the Fast",
     intro:
       "Eating well during Ramadan means making every meal count. With only two eating windows, your suhoor needs to sustain you through a full day of fasting, and your iftar should replenish without overwhelming your system. We build weekly Ramadan plans with slow-releasing energy at suhoor, gentle iftar starters, and satisfying main meals — all halal, hydration-conscious, and designed to keep your energy steady from dawn to dusk.",
@@ -512,7 +512,7 @@ export const seasonalPages: MealPlanPageData[] = [
     type: "seasonal",
     title: "Keto Meal Plan for Weight Loss",
     metaDescription:
-      "Get a weekly keto meal plan designed for weight loss with high-fat, low-carb recipes under 25g net carbs per day. Real food, no gimmicks. Try it free.",
+      "Get a weekly keto meal plan designed for weight loss with high-fat, low-carb recipes under 25g net carbs per day. Real food, no gimmicks. Free preview.",
     h1: "Keto Meal Plan for Weight Loss That Actually Tastes Good",
     intro:
       "Keto works for weight loss because it shifts your body into fat-burning mode — but only if you do it right. A sloppy keto diet full of bacon and butter bombs stalls progress fast. Our keto weight loss plans hit the right macros (70% fat, 25% protein, 5% carbs) while keeping calories in a sustainable deficit so you burn fat without feeling deprived or running on fumes.",
@@ -715,7 +715,7 @@ export const seasonalPages: MealPlanPageData[] = [
     type: "seasonal",
     title: "Gluten-Free Meal Plan for Beginners",
     metaDescription:
-      "Get a beginner-friendly gluten-free meal plan with naturally GF recipes and tips for avoiding hidden gluten. Simple, delicious, stress-free. Try it free.",
+      "Get a beginner-friendly gluten-free meal plan with naturally GF recipes and tips for avoiding hidden gluten. Simple, delicious, stress-free. Free preview.",
     h1: "Gluten-Free Meal Plan for Beginners: A Stress-Free Start",
     intro:
       "Going gluten-free can feel overwhelming when you're reading every label and second-guessing every ingredient. The easiest way to start is with meals that are naturally gluten-free — no specialty products, no weird flour blends, just real food that happens to have zero gluten. Our beginner plans focus on whole foods you already know and love, with clear guidance on hidden gluten traps so you build confidence fast.",
@@ -818,7 +818,7 @@ export const seasonalPages: MealPlanPageData[] = [
     type: "seasonal",
     title: "Mediterranean Meal Plan for Heart Health",
     metaDescription:
-      "Get a weekly Mediterranean meal plan for heart health with olive oil, fish, and whole grains. Based on research-backed dietary patterns. Try it free.",
+      "Get a weekly Mediterranean meal plan for heart health with olive oil, fish, and whole grains. Based on research-backed dietary patterns. Free preview.",
     h1: "Mediterranean Meal Plan for Heart Health: Eat Well, Protect Your Heart",
     intro:
       "The Mediterranean diet isn't a fad — it's the most studied dietary pattern in the world for cardiovascular health, with decades of research showing reduced risk of heart disease, stroke, and high blood pressure. Our heart-focused Mediterranean plans emphasize extra-virgin olive oil, fatty fish, whole grains, legumes, and abundant vegetables while minimizing red meat, processed foods, and added sugars. It tastes like a vacation and works like medicine.",
@@ -922,7 +922,7 @@ export const seasonalPages: MealPlanPageData[] = [
     type: "seasonal",
     title: "Low-Carb Meal Plan for Diabetes",
     metaDescription:
-      "Get a weekly low-carb meal plan for diabetes with blood sugar-friendly recipes and low glycemic ingredients. Steady energy, no spikes. Try it free.",
+      "Get a weekly low-carb meal plan for diabetes with blood sugar-friendly recipes and low glycemic ingredients. Steady energy, no spikes. Free preview.",
     h1: "Low-Carb Meal Plan for Diabetes: Steady Blood Sugar, Real Food",
     intro:
       "Managing diabetes through diet doesn't mean eliminating all carbs — it means choosing the right ones in the right amounts. Our low-carb diabetes plans keep net carbs moderate (50-100g per day), focus on low-glycemic ingredients, and distribute carbs evenly across meals to prevent blood sugar spikes and crashes. Every recipe is designed for steady energy, stable readings, and food you genuinely enjoy eating day after day.",

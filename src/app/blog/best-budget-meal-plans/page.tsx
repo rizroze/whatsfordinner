@@ -379,7 +379,7 @@ export default function BestBudgetMealPlansPage() {
         <p>
           At <strong>$7.99/month</strong> ($5/mo on the yearly plan),
           it&apos;s the most cost-effective way to get personalized meal
-          planning. The free 3-day trial requires no signup and no credit card.
+          planning. The free preview requires no signup and no credit card.
           Compare that to{" "}
           <Link href="/blog/meal-planning-vs-doordash" className="text-orange-500 hover:text-orange-600 underline">
             spending $15-25 per DoorDash order
@@ -389,7 +389,7 @@ export default function BestBudgetMealPlansPage() {
 
         <div className="my-4">
           <p className="text-sm font-medium text-stone-700 mb-2">Cost:</p>
-          <p className="text-sm text-stone-600">$7.99/month (yearly: $59.99/yr, $5/mo). Free 3-day trial.</p>
+          <p className="text-sm text-stone-600">$7.99/month (yearly: $59.99/yr, $5/mo). Free preview.</p>
         </div>
         <div className="my-4">
           <p className="text-sm font-medium text-stone-700 mb-2">What you get:</p>
@@ -959,13 +959,13 @@ export default function BestBudgetMealPlansPage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           AI-generated meal plans with recipes and a grocery list, tailored to
-          your budget and dietary needs. Keep groceries under $50/week per person. $7.99/mo after your free trial.
+          your budget and dietary needs. Keep groceries under $50/week per person. $7.99/mo, cancel anytime.
         </p>
         <Link
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 

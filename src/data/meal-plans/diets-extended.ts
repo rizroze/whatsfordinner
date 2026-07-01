@@ -6,7 +6,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "Whole30 Meal Plan",
     metaDescription:
-      "Get a personalized Whole30 meal plan with compliant recipes and a grocery list. No sugar, grains, dairy, or legumes. 30-day reset made simple. Try free.",
+      "Get a personalized Whole30 meal plan with compliant recipes and a grocery list. No sugar, grains, dairy, or legumes. 30-day reset made simple. Free preview.",
     h1: "Your Whole30 Meal Plan, Without the Meal Prep Meltdown",
     intro:
       "The Whole30 rules are simple but planning 30 days of compliant meals is anything but. No added sugar, no grains, no dairy, no legumes, no alcohol — and every ingredient needs checking. We handle the planning so you can focus on how incredible you feel by day 15. Each week brings a fresh set of recipes built around whole proteins, vegetables, healthy fats, and fruit.",
@@ -105,7 +105,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "Paleo Meal Plan",
     metaDescription:
-      "Get a personalized paleo meal plan with whole-food recipes and a grocery list. No grains, no processed foods, just real ingredients. Try free today.",
+      "Get a personalized paleo meal plan with whole-food recipes and a grocery list. No grains, no processed foods, just real ingredients. Free preview today.",
     h1: "A Paleo Meal Plan That Feels Modern, Not Caveman",
     intro:
       "Paleo isn't about gnawing on a drumstick in a loincloth — it's about eating whole, unprocessed foods that your body thrives on. Quality meats, wild-caught fish, vegetables, fruits, nuts, and seeds. We plan your paleo week with meals that are flavorful, filling, and free from grains, dairy, refined sugar, and processed oils.",
@@ -204,7 +204,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "Low FODMAP Meal Plan",
     metaDescription:
-      "Get a personalized low FODMAP meal plan with IBS-friendly recipes and a grocery list. Avoid trigger foods without sacrificing flavor. Try free today.",
+      "Get a personalized low FODMAP meal plan with IBS-friendly recipes and a grocery list. Avoid trigger foods without sacrificing flavor. Free preview today.",
     h1: "A Low FODMAP Meal Plan That Doesn't Taste Like a Restriction",
     intro:
       "If you're managing IBS or digestive sensitivity, you already know the frustration of not knowing what's safe to eat. FODMAPs — fermentable carbohydrates found in everyday foods like garlic, onions, and wheat — can wreak havoc on a sensitive gut. Our low FODMAP meal plans eliminate common triggers while keeping meals flavorful, satisfying, and nutritionally complete.",
@@ -303,7 +303,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "DASH Diet Meal Plan",
     metaDescription:
-      "Get a personalized DASH diet meal plan with heart-healthy recipes and a grocery list. Lower blood pressure with delicious, balanced meals. Try free today.",
+      "Get a personalized DASH diet meal plan with heart-healthy recipes and a grocery list. Lower blood pressure with delicious, balanced meals. Free preview today.",
     h1: "A DASH Diet Meal Plan That's Good for Your Heart and Your Taste Buds",
     intro:
       "The DASH diet (Dietary Approaches to Stop Hypertension) is one of the most doctor-recommended eating patterns in the world — and for good reason. It's rich in fruits, vegetables, whole grains, and lean protein while keeping sodium, saturated fat, and added sugar low. We turn those clinical guidelines into weekly meal plans with recipes you'll actually look forward to eating.",
@@ -402,7 +402,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "Carnivore Diet Meal Plan",
     metaDescription:
-      "Get a personalized carnivore diet meal plan with all-meat recipes and a grocery list. Beef, eggs, fish, and organs — planned for you weekly. Try free.",
+      "Get a personalized carnivore diet meal plan with all-meat recipes and a grocery list. Beef, eggs, fish, and organs — planned for you weekly. Free preview.",
     h1: "A Carnivore Meal Plan for People Who Are Done Counting Macros",
     intro:
       "The carnivore diet is the ultimate simplification: eat animal foods, skip everything else. Meat, fish, eggs, and animal fats form the foundation. No grains, no vegetables, no seed oils, no sugar. Whether you're doing carnivore for an elimination protocol, autoimmune support, or just because you feel incredible on it, we plan your week so every meal is satisfying and varied within the framework.",
@@ -501,7 +501,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "AIP Meal Plan",
     metaDescription:
-      "Get a personalized AIP (autoimmune protocol) meal plan with elimination-phase recipes and a grocery list. Reduce inflammation naturally. Try free today.",
+      "Get a personalized AIP (autoimmune protocol) meal plan with elimination-phase recipes and a grocery list. Reduce inflammation naturally. Free preview today.",
     h1: "An AIP Meal Plan That Makes the Elimination Phase Actually Doable",
     intro:
       "The Autoimmune Protocol is one of the most restrictive elimination diets out there — no grains, dairy, eggs, nuts, seeds, nightshades, legumes, or refined sugar. It's a lot to navigate alone. Our AIP meal plans take the guesswork out of the elimination phase, giving you compliant recipes that are genuinely nourishing and satisfying while your body heals.",
@@ -600,7 +600,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "Plant-Based Meal Plan",
     metaDescription:
-      "Get a personalized plant-based meal plan with whole-food recipes and a grocery list. Mostly plants, flexible approach, maximum nutrition. Try free today.",
+      "Get a personalized plant-based meal plan with whole-food recipes and a grocery list. Mostly plants, flexible approach, maximum nutrition. Free preview today.",
     h1: "A Plant-Based Meal Plan for People Who Don't Want to Be 100% Vegan",
     intro:
       "Plant-based doesn't mean you'll never see an egg again. It means plants are the star of every plate — vegetables, fruits, whole grains, legumes, nuts, and seeds — with animal products playing a supporting role when you want them. No dogma, no guilt, just a flexible way of eating that's better for your health, your wallet, and the planet.",
@@ -699,7 +699,7 @@ export const dietsExtendedPages: MealPlanPageData[] = [
     type: "diet",
     title: "Intermittent Fasting Meal Plan",
     metaDescription:
-      "Get a personalized intermittent fasting meal plan with nutrient-dense recipes and a grocery list. Optimized for 16:8 and 18:6 eating windows. Try free.",
+      "Get a personalized intermittent fasting meal plan with nutrient-dense recipes and a grocery list. Optimized for 16:8 and 18:6 eating windows. Free preview.",
     h1: "An Intermittent Fasting Meal Plan That Makes Your Eating Window Count",
     intro:
       "Intermittent fasting is about when you eat, but what you eat during your window matters just as much. With only two or three meals to work with, every plate needs to deliver real nutrition — enough protein, healthy fats, fiber, and micronutrients to fuel you through the fast. Our IF meal plans are designed to maximize satiety and nutrition within your eating window, whether that's 16:8, 18:6, or OMAD.",

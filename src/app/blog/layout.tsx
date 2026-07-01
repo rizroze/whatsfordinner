@@ -25,7 +25,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
           href="/onboarding"
           className="hidden sm:inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
         >
-          Get Your Free Meal Plan
+          Preview Your Meal Plan
         </Link>
       </nav>
 
@@ -41,7 +41,7 @@ export default function BlogLayout({ children }: { children: React.ReactNode }) 
           href="/onboarding"
           className="flex items-center justify-center w-full py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors shadow-md"
         >
-          Get your free meal plan
+          Preview your meal plan free
         </Link>
       </div>
 

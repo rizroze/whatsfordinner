@@ -106,7 +106,7 @@ export const lifestagePages: MealPlanPageData[] = [
     type: "lifestyle",
     title: "Meal Plan for Seniors (65+)",
     metaDescription:
-      "Personalized weekly meal plans for seniors with easy-to-chew meals, bone-health nutrients, and simple prep. Nutrient-dense recipes with grocery lists. Try free.",
+      "Personalized weekly meal plans for seniors with easy-to-chew meals, bone-health nutrients, and simple prep. Nutrient-dense recipes with grocery lists. Free preview.",
     h1: "Nutritious Meal Plans for Seniors That Are Easy to Prepare and Enjoy",
     intro:
       "Eating well after 65 isn't about eating less -- it's about eating smarter. Your body needs more of certain nutrients (calcium, vitamin D, B12, protein) while your appetite and ability to chew tough foods often decreases. The result? Many seniors end up under-eating or relying on the same three easy meals on rotation. Our senior meal plans solve this with nutrient-dense meals that are soft-textured when needed, simple to prepare, and genuinely enjoyable to eat -- not hospital food, not bland, not boring.",
@@ -211,7 +211,7 @@ export const lifestagePages: MealPlanPageData[] = [
     type: "lifestyle",
     title: "Postpartum Meal Plan for New Moms",
     metaDescription:
-      "Nourishing postpartum meal plans with iron-rich foods, breastfeeding support, and one-hand meals. Evidence-based recovery nutrition planned weekly. Try free.",
+      "Nourishing postpartum meal plans with iron-rich foods, breastfeeding support, and one-hand meals. Evidence-based recovery nutrition planned weekly. Free preview.",
     h1: "Postpartum Meal Plans That Nourish Recovery and Make New-Mom Life Easier",
     intro:
       "The first weeks and months after birth are a blur of feeding schedules, sleep deprivation, and forgetting to eat until you're suddenly starving at 2 PM. Your body just did something extraordinary and it needs real fuel to recover -- iron to rebuild blood stores, protein to heal tissue, healthy fats for brain health (yours and baby's if you're breastfeeding), and enough calories that you're not running on empty. Our postpartum plans are built around one-hand meals, minimal prep, and the specific nutrients that support recovery and milk production.",

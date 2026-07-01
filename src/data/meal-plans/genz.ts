@@ -382,7 +382,7 @@ export const genzPages: MealPlanPageData[] = [
     type: "genz",
     title: "TikTok Recipes Meal Plan",
     metaDescription:
-      "Trending TikTok recipes organized into a real weekly meal plan with a grocery list. All the viral hits, none of the chaos. Try your free plan today.",
+      "Trending TikTok recipes organized into a real weekly meal plan with a grocery list. All the viral hits, none of the chaos. See your personalized preview today.",
     h1: "TikTok Recipes Meal Plan — Viral Hits Organized Into a Real Week",
     intro:
       "You've saved hundreds of recipe videos on TikTok but somehow still have no idea what to eat for dinner. Sound familiar? This meal plan takes the most popular viral recipes — the ones that actually work — and organizes them into a real, balanced week with a grocery list. No more buying ingredients for one trending recipe and letting the rest rot. Every meal is something you've probably seen on your For You page, and they actually taste as good as the videos promise.",
@@ -476,7 +476,7 @@ export const genzPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan for Gym Beginners",
     metaDescription:
-      "Meal plan for gym beginners who want to build muscle and eat right. High protein, simple recipes, no confusing macros. Get your free plan today.",
+      "Meal plan for gym beginners who want to build muscle and eat right. High protein, simple recipes, no confusing macros. See your personalized preview today.",
     h1: "Meal Plan for Gym Beginners Who Have No Idea What to Eat",
     intro:
       "You started going to the gym. Nice. Now everyone is telling you to 'eat more protein' and 'hit your macros' and you have no idea what any of that actually means in terms of real food. This meal plan cuts through the fitness bro science and gives you simple, high-protein meals that support your training without requiring a food scale, a meal prep empire, or a degree in nutrition. Just eat these meals, lift your weights, and you'll see results.",
@@ -570,7 +570,7 @@ export const genzPages: MealPlanPageData[] = [
     type: "genz",
     title: "High Protein Meal Plan on a Budget",
     metaDescription:
-      "High protein meal plan that won't empty your wallet. Chicken thighs, eggs, Greek yogurt, and beans — real protein sources, real savings. Try it free.",
+      "High protein meal plan that won't empty your wallet. Chicken thighs, eggs, Greek yogurt, and beans — real protein sources, real savings. Free preview.",
     h1: "High Protein Meal Plan on a Budget — Real Gains, Real Savings",
     intro:
       "Everyone says eat more protein, but have you seen the price of chicken breast lately? You don't need expensive supplements or premium cuts to hit your protein goals. This meal plan is built around the cheapest high-protein foods that actually taste good — chicken thighs instead of breasts, eggs by the dozen, Greek yogurt on sale, canned beans, and ground turkey. You'll hit 130+ grams of protein daily while keeping groceries under $50 per week. No sad boiled chicken required.",

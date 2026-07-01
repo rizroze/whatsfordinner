@@ -6,7 +6,7 @@ export const householdPages: MealPlanPageData[] = [
     type: "household",
     title: "Meal Plan for One Person",
     metaDescription:
-      "Get a personalized weekly meal plan sized for one. No food waste, perfect portions, and easy recipes for solo cooking. Try your free meal plan today.",
+      "Get a personalized weekly meal plan sized for one. No food waste, perfect portions, and easy recipes for solo cooking. See your personalized preview today.",
     h1: "Meal Plan for One Person That Eliminates Food Waste",
     intro:
       "Cooking for one is its own challenge. Recipes are designed for four, produce goes bad before you can use it, and the temptation to just order takeout is real. Our single-serving meal plans solve all of that — properly portioned recipes, smart grocery lists that minimize waste, and meals that feel like a real dinner even when you're eating solo.",
@@ -194,7 +194,7 @@ export const householdPages: MealPlanPageData[] = [
     type: "household",
     title: "Meal Plan for a Family of 4",
     metaDescription:
-      "Get a weekly family meal plan for 4 with kid-friendly recipes, balanced nutrition, and one grocery list. End the 'what's for dinner' stress. Try it free.",
+      "Get a weekly family meal plan for 4 with kid-friendly recipes, balanced nutrition, and one grocery list. End the 'what's for dinner' stress. Free preview.",
     h1: "Meal Plan for a Family of 4 That Everyone Will Actually Eat",
     intro:
       "Feeding a family of four means balancing nutrition, taste preferences, time, and budget — every single night. The mental load of deciding what to cook is exhausting before you even start cooking. Our family meal plans take that decision off your plate with kid-approved, nutritious meals that adults enjoy too, plus a single grocery list for the whole week.",
@@ -293,7 +293,7 @@ export const householdPages: MealPlanPageData[] = [
     type: "household",
     title: "Meal Plan for a Family of 6",
     metaDescription:
-      "Feed a family of 6 with a weekly meal plan. Large-batch recipes, budget-friendly groceries, and meals everyone enjoys. Try your free plan today.",
+      "Feed a family of 6 with a weekly meal plan. Large-batch recipes, budget-friendly groceries, and meals everyone enjoys. See your personalized preview today.",
     h1: "Meal Plan for a Family of 6 That Keeps Everyone Fed and Happy",
     intro:
       "Feeding six mouths every day is a logistical feat. The cost adds up fast, the cooking takes forever, and finding meals that satisfy both toddlers and teenagers feels impossible. Our large-family meal plans are designed for volume — big-batch recipes that scale naturally, budget-conscious ingredients, and crowd-pleasing flavors that work across age groups.",
@@ -486,7 +486,7 @@ export const householdPages: MealPlanPageData[] = [
     type: "household",
     title: "Quick 30-Minute Meal Plan",
     metaDescription:
-      "Get a weekly meal plan where every recipe takes 30 minutes or less. Fast, balanced dinners with grocery lists included. Try your free plan today.",
+      "Get a weekly meal plan where every recipe takes 30 minutes or less. Fast, balanced dinners with grocery lists included. See your personalized preview today.",
     h1: "Quick 30-Minute Meal Plan for Busy Weeknights",
     intro:
       "You don't have an hour to cook dinner every night, and you shouldn't have to. Every recipe in our 30-minute meal plan is designed to go from fridge to table in half an hour or less — including prep. No slow cooker cheats, no 'not including marination time' disclaimers. Just genuinely fast meals that are balanced, satisfying, and varied enough to keep things interesting.",

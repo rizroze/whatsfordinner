@@ -616,7 +616,7 @@ export default function MealPlanningForFamiliesArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try Free &rarr;
+          Free Preview &rarr;
         </Link>
       </div>
 
@@ -687,7 +687,7 @@ export default function MealPlanningForFamiliesArticle() {
           automatically.
         </p>
         <p>
-          A free 3-day plan lets you see exactly what you&apos;d get. The full
+          A free preview lets you see exactly what you&apos;d get. The full
           weekly service is $7.99/mo, less than a single takeout order for a
           family of four.{" "}
           <Link
@@ -775,7 +775,7 @@ export default function MealPlanningForFamiliesArticle() {
               href="/onboarding"
               className="text-orange-500 underline"
             >
-              Try a free 3-day plan
+              Preview your plan free
             </Link>{" "}
             and see the difference in one week.
           </p>
@@ -796,7 +796,7 @@ export default function MealPlanningForFamiliesArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start Your Free Plan &rarr;
+          Preview Your Plan Free &rarr;
         </Link>
       </div>
 

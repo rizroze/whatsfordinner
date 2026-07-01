@@ -256,7 +256,7 @@ export default function MealPlanningAfterMovingOutArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try Free &rarr;
+          Free Preview &rarr;
         </Link>
       </div>
 
@@ -412,7 +412,7 @@ export default function MealPlanningAfterMovingOutArticle() {
             href="/onboarding"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            free 3-day plan
+            free plan preview
           </Link>
           {" "}to see if it clicks. No signup required. Set your preferences,
           get a plan, try cooking from it this week. If it saves you even one
@@ -434,7 +434,7 @@ export default function MealPlanningAfterMovingOutArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start Your Free Plan &rarr;
+          Preview Your Plan Free &rarr;
         </Link>
       </div>
 

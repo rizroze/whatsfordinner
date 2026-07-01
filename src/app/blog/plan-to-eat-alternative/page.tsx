@@ -254,7 +254,7 @@ export default function PlanToEatAlternativePage() {
           Ready to stop planning and start eating?
         </p>
         <p className="text-stone-500 text-sm mb-6">
-          Takes 2 minutes. No credit card required for your free trial.
+          Takes 2 minutes. No credit card required for the free preview.
         </p>
         <Link
           href="/onboarding"
@@ -399,13 +399,13 @@ export default function PlanToEatAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with grocery list
-          every week. $7.99/mo after your free trial.
+          every week. $7.99/mo, cancel anytime.
         </p>
         <Link
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 

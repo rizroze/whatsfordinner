@@ -54,7 +54,7 @@ export default function BestMealPlanners2026Page() {
                 name: "Is there a free meal planner app?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. Mealime offers free meal planning with grocery lists from their recipe library. Budget Bytes provides free budget-focused meal plans on their website. What's For Dinner offers a free 3-day AI-generated meal plan with no signup required. For fully free ongoing planning, Mealime is the most complete option.",
+                  text: "Yes. Mealime offers free meal planning with grocery lists from their recipe library. Budget Bytes provides free budget-focused meal plans on their website. What's For Dinner offers a free AI-personalized plan preview with no signup required. For fully free ongoing planning, Mealime is the most complete option.",
                 },
               },
               {
@@ -211,7 +211,7 @@ export default function BestMealPlanners2026Page() {
 
         <div className="my-4">
           <p className="text-sm font-medium text-stone-700 mb-2">Price:</p>
-          <p className="text-sm text-stone-600">$7.99/month or $59.99/year. Free 3-day trial, no signup.</p>
+          <p className="text-sm text-stone-600">$7.99/month or $59.99/year. Free preview, no signup.</p>
         </div>
         <div className="my-4">
           <p className="text-sm font-medium text-stone-700 mb-2">Pros:</p>
@@ -220,7 +220,7 @@ export default function BestMealPlanners2026Page() {
             <li>Personalized to diet, allergies, budget, and household size</li>
             <li>Fresh plans every week with original AI-generated recipes</li>
             <li>Grocery list organized by store section with ingredient consolidation</li>
-            <li>Free 3-day trial with no account required</li>
+            <li>Free personalized preview with no account required</li>
           </ul>
         </div>
         <div className="my-4">
@@ -662,7 +662,7 @@ export default function BestMealPlanners2026Page() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           AI-generated weekly meal plans with recipes and a grocery list,
-          tailored to your diet, budget, and household. Free 3-day trial.
+          tailored to your diet, budget, and household. Free preview.
         </p>
         <Link
           href="/onboarding"

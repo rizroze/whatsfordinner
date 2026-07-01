@@ -6,7 +6,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "Instant Pot Meal Plan — Pressure Cooker Meals in Half the Time",
     metaDescription:
-      "Get a personalized weekly Instant Pot meal plan with pressure cooker recipes and a grocery list. Hands-off cooking, faster than the oven. Try free.",
+      "Get a personalized weekly Instant Pot meal plan with pressure cooker recipes and a grocery list. Hands-off cooking, faster than the oven. Free preview.",
     h1: "Instant Pot Meal Plan — Fast, Hands-Off, Ridiculously Good",
     intro:
       "The Instant Pot turns two-hour braises into 35-minute dinners. Dried beans that normally take all day? Done in 25 minutes, no soaking. Tough cuts of meat that need low-and-slow treatment? Fork-tender in under an hour. Our Instant Pot plans are built around what pressure cooking actually excels at — speed without sacrificing the depth of flavor you get from long cooking. Set it, walk away, come back to dinner.",
@@ -100,7 +100,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "Sheet Pan Meal Plan — One Pan, Complete Dinner, Easy Cleanup",
     metaDescription:
-      "Get a personalized weekly sheet pan meal plan with one-pan dinner recipes and a grocery list. Everything roasts together on one tray. Minimal cleanup. Try free.",
+      "Get a personalized weekly sheet pan meal plan with one-pan dinner recipes and a grocery list. Everything roasts together on one tray. Minimal cleanup. Free preview.",
     h1: "Sheet Pan Meal Plan — Toss It On a Tray, Dinner's Done",
     intro:
       "A sheet pan is the most honest cooking vessel — everything goes on, everything roasts together, and you wash one thing. No juggling multiple burners, no timing four different pots. Our sheet pan plans are built for the oven's sweet spot: high heat, good seasoning, and letting the Maillard reaction do the heavy lifting. Proteins and vegetables share the pan but cook at their own pace because we tell you exactly when to add what.",
@@ -194,7 +194,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "Freezer Meal Plan — Prep Now, Eat Later, Always Ready",
     metaDescription:
-      "Get a personalized weekly freezer meal plan with make-ahead recipes and a grocery list. Prep everything on the weekend, pull and cook all week. Try free.",
+      "Get a personalized weekly freezer meal plan with make-ahead recipes and a grocery list. Prep everything on the weekend, pull and cook all week. Free preview.",
     h1: "Freezer Meal Plan — Your Future Self Will Thank You",
     intro:
       "A freezer full of prepped meals is the ultimate insurance policy against takeout. Spend a few hours on the weekend assembling dump bags and casseroles, then coast through the week pulling a meal from the freezer and cooking it fresh. These aren't sad frozen dinners — they're real recipes designed to freeze raw and cook from frozen or thawed, tasting just as good as if you'd prepped them that day.",
@@ -288,7 +288,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "5-Ingredient Meal Plan — Simple Recipes, Big Flavor",
     metaDescription:
-      "Get a personalized weekly 5-ingredient meal plan with simple recipes and a grocery list. Just 5 main ingredients per recipe — minimal shopping, maximum taste. Try free.",
+      "Get a personalized weekly 5-ingredient meal plan with simple recipes and a grocery list. Just 5 main ingredients per recipe — minimal shopping, maximum taste. Free preview.",
     h1: "5-Ingredient Meal Plan — Fewer Ingredients, Better Dinners",
     intro:
       "Five ingredients. Not five plus 'salt, pepper, oil, and whatever else you have.' Five actual ingredients total — and that includes the seasoning. These plans prove that simple cooking isn't lazy cooking. When you use fewer ingredients, each one has to pull its weight. A perfectly seared chicken thigh with lemon and capers doesn't need twelve spices. Quality ingredients, good technique, and restraint beat complexity every time.",
@@ -382,7 +382,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "20-Minute Meal Plan — Ultra-Quick Dinners, No Shortcuts on Taste",
     metaDescription:
-      "Get a personalized weekly 20-minute meal plan with ultra-quick recipes and a grocery list. Every meal from fridge to table in under 20 minutes. Try free.",
+      "Get a personalized weekly 20-minute meal plan with ultra-quick recipes and a grocery list. Every meal from fridge to table in under 20 minutes. Free preview.",
     h1: "20-Minute Meal Plan — Faster Than Delivery, Better Than Takeout",
     intro:
       "Twenty minutes. That's less time than it takes for a pizza to arrive — and you'll eat better, spend less, and actually enjoy cooking when it's this fast. Our 20-minute plans aren't about microwave shortcuts or sad sandwiches. They're built on techniques that are genuinely fast: thin-cut proteins that sear in 4 minutes, pre-cut vegetables, quick-cooking grains, and sauces that come together while the protein rests. Every recipe is timed start to finish, including prep.",
@@ -476,7 +476,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "Weekly Batch Cooking Meal Plan — Cook Once, Eat All Week",
     metaDescription:
-      "Get a personalized weekly batch cooking meal plan with big-batch recipes and a grocery list. One cooking session, zero weeknight stress. Try free.",
+      "Get a personalized weekly batch cooking meal plan with big-batch recipes and a grocery list. One cooking session, zero weeknight stress. Free preview.",
     h1: "Weekly Batch Cooking Meal Plan — One Big Cook, Zero Weeknight Stress",
     intro:
       "Batch cooking isn't meal prep's boring cousin — it's the strategy behind every restaurant kitchen. Cook large quantities of versatile bases (proteins, grains, sauces) on one day, then remix them into completely different meals throughout the week. Sunday's roasted chicken becomes Monday's grain bowl, Wednesday's soup, and Friday's tacos. You cook once but eat variety all week. The key is building modular components, not identical containers.",
@@ -570,7 +570,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "One-Pan Keto Meal Plan — Low-Carb Dinners, One Pan Cleanup",
     metaDescription:
-      "Get a personalized weekly one-pan keto meal plan with low-carb recipes and a grocery list. Stay in ketosis with minimal cooking and zero dish pileup. Try free.",
+      "Get a personalized weekly one-pan keto meal plan with low-carb recipes and a grocery list. Stay in ketosis with minimal cooking and zero dish pileup. Free preview.",
     h1: "One-Pan Keto Meal Plan — Low-Carb Meals, Even Lower Effort",
     intro:
       "Keto cooking shouldn't mean scrubbing three pans because you had to sear the protein, cook the fat-based sauce, and roast the vegetables separately. Our one-pan keto plans keep you in ketosis and keep your sink empty. High-fat proteins, low-carb vegetables, and rich sauces all cook together in a single skillet or sheet pan. The fat from the protein becomes the sauce — that's keto cooking at its most efficient.",
@@ -664,7 +664,7 @@ export const methodsExtendedPages: MealPlanPageData[] = [
     type: "method",
     title: "Instant Pot Family Meal Plan — Pressure Cooker Meals for 4+",
     metaDescription:
-      "Get a personalized weekly Instant Pot family meal plan with kid-friendly pressure cooker recipes and a grocery list. Feeds 4-6, hands-off cooking. Try free.",
+      "Get a personalized weekly Instant Pot family meal plan with kid-friendly pressure cooker recipes and a grocery list. Feeds 4-6, hands-off cooking. Free preview.",
     h1: "Instant Pot Family Meal Plan — Feed the Whole Family, Hands Off",
     intro:
       "The Instant Pot was made for families. A 6-quart pot feeds four to six people in a single batch, with no stirring, no hovering, and no timing multiple burners while a toddler grabs your leg. Dump the ingredients, lock the lid, and go handle the chaos. Our family Instant Pot plans balance kid-approved flavors (not everything is spicy) with enough depth to keep the adults happy. Big portions, real food, one pot.",

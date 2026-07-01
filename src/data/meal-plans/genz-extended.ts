@@ -6,7 +6,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Dorm Room Meal Plan",
     metaDescription:
-      "Get a weekly meal plan you can make with just a microwave and mini fridge. No kitchen needed. Real meals, real nutrition, dorm-room friendly. Try it free.",
+      "Get a weekly meal plan you can make with just a microwave and mini fridge. No kitchen needed. Real meals, real nutrition, dorm-room friendly. Free preview.",
     h1: "Dorm Room Meal Plan — No Kitchen, No Problem",
     intro:
       "Your entire kitchen is a microwave, a mini fridge, and maybe a forbidden hot plate. That doesn't mean you're stuck eating instant ramen and granola bars for four years. These meal plans are built for the reality of dorm life — every single recipe works with the equipment you actually have. No oven, no stove, no blender, no excuses.",
@@ -104,7 +104,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan for Broke College Kids",
     metaDescription:
-      "Eat real meals on under $25/week. Budget meal plans for college students with minimal ingredients and maximum flavor. No dining hall required. Try it free.",
+      "Eat real meals on under $25/week. Budget meal plans for college students with minimal ingredients and maximum flavor. No dining hall required. Free preview.",
     h1: "Meal Plan for Broke College Kids — Under $25/Week",
     intro:
       "Your bank account has $47 in it and payday is next Friday. We get it. These meal plans are built for the reality of being genuinely broke — not 'I'll skip the avocado toast' broke, but 'I'm choosing between groceries and textbooks' broke. Every meal keeps you fed, full, and functioning on under $25 a week in groceries. No fancy ingredients, no specialty stores, nothing you can't find at any grocery store or dollar store.",
@@ -301,7 +301,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Night Shift Meal Plan",
     metaDescription:
-      "Meal plan designed for night shift workers. Pre-made meals, smart energy management, and recipes that work on a flipped schedule. Try your free plan today.",
+      "Meal plan designed for night shift workers. Pre-made meals, smart energy management, and recipes that work on a flipped schedule. See your personalized preview today.",
     h1: "Night Shift Meal Plan — Eat Right When Your Schedule Is Upside Down",
     intro:
       "When you're eating dinner at 2 AM and trying to sleep when the sun is out, normal meal plans don't work. Your body doesn't know when it's hungry, the vending machine is the only thing open, and cooking at midnight feels absurd. These plans are built around shift work — pre-made meals you can grab, energy-sustaining foods that don't crash you at 4 AM, and a prep schedule that works with your actual life.",
@@ -497,7 +497,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "$5 Meal Plan",
     metaDescription:
-      "Every meal under $5 per serving. Budget meal plans with real recipes, real portions, and a grocery list that won't break the bank. Try your free plan today.",
+      "Every meal under $5 per serving. Budget meal plans with real recipes, real portions, and a grocery list that won't break the bank. See your personalized preview today.",
     h1: "$5 Meal Plan — Every Single Meal Under $5 Per Serving",
     intro:
       "Five dollars per meal. Not per ingredient, not per day — per complete, satisfying meal. That's the rule, and every recipe in this plan follows it. No tricks, no 'if you already have olive oil' asterisks. We count every ingredient, price it at standard grocery rates, and keep every serving under $5. Eating affordably doesn't mean eating badly — it means eating smart.",
@@ -595,7 +595,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Microwave Meal Plan",
     metaDescription:
-      "A full weekly meal plan where every recipe is made in the microwave. Perfect for dorms, offices, or kitchens without a stove. Try your free plan today.",
+      "A full weekly meal plan where every recipe is made in the microwave. Perfect for dorms, offices, or kitchens without a stove. See your personalized preview today.",
     h1: "Microwave Meal Plan — Every Meal, One Appliance",
     intro:
       "Whether you're in a dorm, a hotel room, an office breakroom, or a kitchen where the stove doesn't work, the microwave is your whole kitchen. Good news: it can do a lot more than reheat pizza. These plans use the microwave for everything — scrambled eggs, steamed vegetables, pasta, rice, even mug cakes. Real meals, real nutrition, one appliance.",
@@ -693,7 +693,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan for When You're Not Doing Great",
     metaDescription:
-      "Ultra-low effort meals for days when cooking feels impossible. No judgment, no complicated recipes. Just gentle, nourishing food. Try your free plan today.",
+      "Ultra-low effort meals for days when cooking feels impossible. No judgment, no complicated recipes. Just gentle, nourishing food. See your personalized preview today.",
     h1: "Meal Plan for When Cooking Feels Impossible",
     intro:
       "Some days, getting out of bed is the accomplishment. Making a meal feels like climbing a mountain. The idea of following a recipe with 12 steps and 15 ingredients is laughable when you can barely open the fridge. This plan is for those days, those weeks, those stretches. Every meal here is designed to be as low-effort as possible — assembly only, minimal dishes, things you can eat cold or standing up or back in bed. No judgment, no pep talks, no 'just try harder.' Just food that's easy enough to actually eat.",
@@ -791,7 +791,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "ADHD-Friendly Meal Plan",
     metaDescription:
-      "Meal plans for when focus is tough. Simple recipes, forgiving timing, hard to mess up, easy to remember. No 20-step recipes. Try your free plan today.",
+      "Meal plans for when focus is tough. Simple recipes, forgiving timing, hard to mess up, easy to remember. No 20-step recipes. See your personalized preview today.",
     h1: "ADHD-Friendly Meal Plan — Simple, Forgiving, Hard to Mess Up",
     intro:
       "You put water on to boil and then forgot about it for 45 minutes. You bought groceries with great intentions and found them wilted a week later. You've abandoned more half-cooked meals than you've finished. None of that is a personal failing — your brain just works differently, and most recipes aren't designed for how you actually function. These plans are. Short ingredient lists, forgiving timing (nothing burns if you walk away for a few minutes), and meals that don't require sustained attention. If you get distracted, dinner still turns out fine.",
@@ -889,7 +889,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Social Media Detox Meal Plan",
     metaDescription:
-      "Cook instead of scroll. A meal plan designed for mindful eating, phone-free dinners, and recipes that keep your hands busy. Try your free plan today.",
+      "Cook instead of scroll. A meal plan designed for mindful eating, phone-free dinners, and recipes that keep your hands busy. See your personalized preview today.",
     h1: "Social Media Detox Meal Plan — Cook Instead of Scroll",
     intro:
       "You pick up your phone to check the time and 40 minutes later you're watching a stranger make a pasta dish you'll never cook. What if you actually made that pasta instead? This meal plan is designed to replace screen time with kitchen time — hands-on recipes that keep you engaged, meals meant to be eaten at a table without a phone, and cooking projects that are more satisfying than any feed. It's not about restriction. It's about doing something real with your hands and eating the result.",

@@ -6,7 +6,7 @@ export const goalPages: MealPlanPageData[] = [
     type: "goal",
     title: "Meal Plan for Weight Loss",
     metaDescription:
-      "Get a personalized weekly meal plan for weight loss with balanced macros and grocery lists. Sustainable, satisfying meals planned automatically. Try free.",
+      "Get a personalized weekly meal plan for weight loss with balanced macros and grocery lists. Sustainable, satisfying meals planned automatically. Free preview.",
     h1: "Meal Plan for Weight Loss That Doesn't Feel Like a Diet",
     intro:
       "Losing weight shouldn't mean eating bland chicken and steamed broccoli on repeat. The key is calorie-controlled meals that are genuinely satisfying so you never feel deprived. We build you a fresh weight-loss meal plan every week with proper portions, balanced nutrition, and enough variety to keep you motivated through the entire journey.",
@@ -199,7 +199,7 @@ export const goalPages: MealPlanPageData[] = [
     type: "goal",
     title: "Meal Plan for Pregnancy",
     metaDescription:
-      "Get a pregnancy-safe weekly meal plan with folate-rich recipes, balanced nutrition, and grocery lists. Meals planned for every trimester. Try it free.",
+      "Get a pregnancy-safe weekly meal plan with folate-rich recipes, balanced nutrition, and grocery lists. Meals planned for every trimester. Free preview.",
     h1: "Meal Plan for Pregnancy That Nourishes You and Baby",
     intro:
       "Eating well during pregnancy matters more than ever, but between cravings, aversions, and fatigue, planning nutritious meals can feel overwhelming. Our pregnancy meal plans are designed with key prenatal nutrients in mind — folate, iron, calcium, omega-3s — while keeping meals appealing even when your appetite is unpredictable.",
@@ -298,7 +298,7 @@ export const goalPages: MealPlanPageData[] = [
     type: "goal",
     title: "Meal Plan for Beginners",
     metaDescription:
-      "Start meal planning with easy, beginner-friendly recipes and weekly grocery lists. Simple ingredients, clear instructions. Try your free meal plan today.",
+      "Start meal planning with easy, beginner-friendly recipes and weekly grocery lists. Simple ingredients, clear instructions. See your personalized preview today.",
     h1: "Meal Plan for Beginners Who Don't Know Where to Start",
     intro:
       "If meal planning feels intimidating, you're not alone. Most people fail at it because they try to go from zero to gourmet overnight. Our beginner meal plans use simple techniques, common ingredients, and short prep times so you can build the habit without burning out. Every recipe assumes you're starting from scratch — no chef skills required.",
@@ -392,7 +392,7 @@ export const goalPages: MealPlanPageData[] = [
     type: "goal",
     title: "Meal Plan for Picky Eaters",
     metaDescription:
-      "Get a weekly meal plan designed for picky eaters. Familiar flavors, no weird ingredients, balanced nutrition. Personalized and automatic. Try it free.",
+      "Get a weekly meal plan designed for picky eaters. Familiar flavors, no weird ingredients, balanced nutrition. Personalized and automatic. Free preview.",
     h1: "Meal Plan for Picky Eaters That You'll Actually Enjoy",
     intro:
       "Being a picky eater doesn't mean you're doomed to eat chicken nuggets forever. The trick is starting with familiar flavors and gradually expanding your comfort zone. Our picky eater meal plans focus on approachable ingredients, comforting textures, and crowd-pleasing flavors while sneaking in balanced nutrition you won't even notice.",
@@ -679,7 +679,7 @@ export const goalPages: MealPlanPageData[] = [
     type: "goal",
     title: "Heart-Healthy Meal Plan",
     metaDescription:
-      "Protect your heart with a weekly meal plan rich in omega-3s, fiber, and lean proteins. Low sodium, balanced fats, automatic grocery lists. Try it free.",
+      "Protect your heart with a weekly meal plan rich in omega-3s, fiber, and lean proteins. Low sodium, balanced fats, automatic grocery lists. Free preview.",
     h1: "Heart-Healthy Meal Plan That Tastes as Good as It Feels",
     intro:
       "A heart-healthy diet is one of the most effective things you can do for longevity, but it shouldn't feel like punishment. Our plans emphasize omega-3 fatty acids, soluble fiber, lean proteins, and plenty of fruits and vegetables while keeping sodium in check. Every meal is designed to support cardiovascular health without sacrificing flavor.",
@@ -872,7 +872,7 @@ export const goalPages: MealPlanPageData[] = [
     type: "goal",
     title: "Anti-Inflammatory Meal Plan",
     metaDescription:
-      "Fight chronic inflammation with a weekly meal plan rich in omega-3s, antioxidants, and whole foods. Personalized recipes and grocery lists. Try it free.",
+      "Fight chronic inflammation with a weekly meal plan rich in omega-3s, antioxidants, and whole foods. Personalized recipes and grocery lists. Free preview.",
     h1: "Anti-Inflammatory Meal Plan That Heals From the Inside Out",
     intro:
       "Chronic inflammation is linked to everything from joint pain to heart disease, and what you eat plays a massive role. Our anti-inflammatory plans are built around foods that actively fight inflammation — fatty fish, leafy greens, berries, turmeric, olive oil — while eliminating the processed foods and refined sugars that make it worse.",

@@ -169,7 +169,7 @@ const defaultUI: TemplateUI = {
   guides: "Helpful Guides",
   ctaTitle: "Your first week is free",
   ctaSub: "Get a personalized 3-day meal plan with recipes and a grocery list. No credit card required.",
-  ctaBtn: "Start Your Free Plan",
+  ctaBtn: "Preview Your Plan Free",
 };
 
 const uiStrings: Record<string, TemplateUI> = {

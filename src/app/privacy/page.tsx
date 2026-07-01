@@ -78,7 +78,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>Device fingerprint:</strong> A non-identifying hash used
-              solely to enforce free plan limits (one free plan per device). This
+              solely to enforce free preview and usage limits. This
               fingerprint cannot be used to identify you personally.
             </li>
           </ul>
@@ -106,7 +106,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>Prevent abuse:</strong> Device fingerprints and rate
-              limiting help prevent misuse of free plan features.
+              limiting help prevent misuse of free features.
             </li>
           </ul>
           <p>
@@ -177,8 +177,8 @@ export default function PrivacyPage() {
           <h2>4. Cookies and Local Storage</h2>
           <p>
             We use essential cookies for authentication and language preferences.
-            We also use browser local storage to cache your free meal plan for
-            immediate display. No third-party tracking cookies are used. We do
+            We also use browser local storage to save your meal preferences and
+            plan preview for immediate display. No third-party tracking cookies are used. We do
             not use advertising cookies or retargeting pixels.
           </p>
 

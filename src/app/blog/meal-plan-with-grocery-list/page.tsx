@@ -74,7 +74,7 @@ export default function MealPlanWithGroceryList() {
                 name: "Can I get a weekly meal planner with grocery list for free?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. What's For Dinner offers a free 3-day meal plan with recipes and a grocery list. No account required. The paid plan ($7.99/month) gives you a full 7-day plan regenerated every week, meal swaps, and email delivery every Sunday morning.",
+                  text: "Yes. What's For Dinner lets you preview a personalized day of meals with recipes and a grocery list sample for free. No account required. The paid plan ($7.99/month) gives you a full 7-day plan regenerated every week, meal swaps, and email delivery every Sunday morning.",
                 },
               },
               {
@@ -479,7 +479,7 @@ export default function MealPlanWithGroceryList() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start Free Trial
+          Free Preview
         </Link>
       </div>
 
@@ -629,8 +629,8 @@ export default function MealPlanWithGroceryList() {
             Can I get a weekly meal planner with grocery list for free?
           </p>
           <p>
-            Yes. What&apos;s For Dinner offers a free 3-day meal plan with
-            recipes and a grocery list, no account required. The paid plan
+            Yes. What&apos;s For Dinner lets you preview a personalized day of
+            meals with recipes and a grocery list sample free, no account required. The paid plan
             ($7.99/month) unlocks full 7-day plans regenerated every week,
             meal swaps, and Sunday email delivery.
           </p>

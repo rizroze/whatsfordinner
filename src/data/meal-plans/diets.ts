@@ -192,9 +192,9 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "gluten-free",
     type: "diet",
-    title: "Gluten-Free Meal Plan with Grocery List – Try Free",
+    title: "Gluten-Free Meal Plan with Grocery List – Free Preview",
     metaDescription:
-      "Free personalized gluten-free meal plan with recipes and grocery list. Built for celiac and gluten sensitivity. AI-generated weekly meals. No card needed.",
+      "Personalized gluten-free meal plan with recipes and grocery list. Built for celiac and gluten sensitivity. AI-generated weekly meals. No card needed.",
     h1: "Gluten-Free Meal Plans Without the Guesswork",
     intro:
       "Living gluten-free means more than just skipping bread — it's reading every label, worrying about hidden gluten in sauces and seasonings, and constantly adapting recipes. Whether you have celiac disease or gluten sensitivity, the mental load of safe meal planning is exhausting. We generate fully gluten-free weekly plans using naturally safe ingredients so you can stop stressing and start cooking.",
@@ -286,9 +286,9 @@ export const DIET_PAGES: MealPlanPageData[] = [
   {
     slug: "dairy-free",
     type: "diet",
-    title: "Dairy-Free Meal Plan with Grocery List – Free Trial",
+    title: "Dairy-Free Meal Plan with Grocery List – Free Preview",
     metaDescription:
-      "Free personalized dairy-free meal plan with recipes and grocery list. Rich, satisfying meals with zero lactose. AI-planned weekly menu. No card needed.",
+      "Personalized dairy-free meal plan with recipes and grocery list. Rich, satisfying meals with zero lactose. AI-planned weekly menu. No card needed.",
     h1: "Dairy-Free Meal Plans That Never Feel Like They're Missing Something",
     intro:
       "Cutting dairy means rethinking everything from your morning coffee to weeknight pasta. The hardest part isn't avoiding milk — it's finding meals that still feel rich, creamy, and satisfying without cheese and butter as a crutch. Our dairy-free meal plans use smart substitutions and naturally dairy-free cuisines to build weeks of meals you'll genuinely look forward to.",
@@ -570,7 +570,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     type: "diet",
     title: "Weekly Pescatarian Meal Plans",
     metaDescription:
-      "Personalized pescatarian meal plans with seafood and plant-based meals every week. Omega-3-rich, sustainable, and delicious. Try your free plan today.",
+      "Personalized pescatarian meal plans with seafood and plant-based meals every week. Omega-3-rich, sustainable, and delicious. See your personalized preview today.",
     h1: "Pescatarian Meal Plans Packed with Omega-3s and Flavor",
     intro:
       "Pescatarian eating gives you the best of both worlds — the nutrition of seafood with the variety of plant-based cooking. But without a plan, it's easy to default to the same salmon-and-rice combo every night or overspend on fresh fish. We build weekly pescatarian plans that rotate affordable and premium seafood with hearty vegetarian meals, complete with a budget-conscious grocery list.",
@@ -664,7 +664,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     type: "diet",
     title: "Weekly Halal Meal Plans",
     metaDescription:
-      "Personalized weekly halal meal plans with permissible ingredients only. No guesswork about compliance — just delicious, halal-certified meals. Start free.",
+      "Personalized weekly halal meal plans with permissible ingredients only. No guesswork about compliance — just delicious, halal-certified meals. Free preview.",
     h1: "Halal Meal Plans That Take the Stress Out of Permissible Eating",
     intro:
       "Planning halal meals goes beyond avoiding pork — it means checking every sauce, seasoning, and processed ingredient for hidden non-halal components like alcohol-based extracts or animal-derived gelatin. When you're cooking for a family, the constant vigilance is exhausting. Our halal meal plans use only permissible ingredients from the ground up, so you can focus on cooking, not label-reading.",
@@ -758,7 +758,7 @@ export const DIET_PAGES: MealPlanPageData[] = [
     type: "diet",
     title: "Weekly Kosher Meal Plans",
     metaDescription:
-      "Personalized weekly kosher meal plans that respect kashrut laws. Meat and dairy separation built in, with organized grocery lists. Try your free plan.",
+      "Personalized weekly kosher meal plans that respect kashrut laws. Meat and dairy separation built in, with organized grocery lists. Free preview, no card needed.",
     h1: "Kosher Meal Plans That Respect Kashrut and Your Time",
     intro:
       "Kosher meal planning isn't just about what you eat — it's about how ingredients combine. Keeping meat and dairy separate across meals, avoiding forbidden mixtures, and planning around Shabbat adds layers of complexity that generic meal planners completely ignore. Our kosher plans are built with kashrut rules at the foundation, properly separating meat and dairy meals and using only permissible ingredients.",

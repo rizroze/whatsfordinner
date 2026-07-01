@@ -297,7 +297,7 @@ export default function EatThisMuchAlternativePage() {
               <tr>
                 <td className="py-3 pr-4 font-medium">Free trial</td>
                 <td className="py-3 px-4">Limited single-day planner</td>
-                <td className="py-3 pl-4">Full 3-day plan, no signup required</td>
+                <td className="py-3 pl-4">Personalized free preview, no signup required</td>
               </tr>
             </tbody>
           </table>
@@ -329,7 +329,7 @@ export default function EatThisMuchAlternativePage() {
           Ready to see your first AI meal plan?
         </p>
         <p className="text-stone-500 text-sm mb-6">
-          Takes 2 minutes. No credit card required for your free trial.
+          Takes 2 minutes. No credit card required for the free preview.
         </p>
         <Link
           href="/onboarding"
@@ -461,13 +461,13 @@ export default function EatThisMuchAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          A free trial that actually lets you try it
+          A free preview that actually lets you try it
         </h3>
         <p>
           Eat This Much&apos;s free tier gives you a single day of basic
           planning with limited food options. It&apos;s barely enough to
           evaluate whether the service is worth paying for. What&apos;s For
-          Dinner gives you a full 3-day sample plan with no signup, no credit
+          Dinner gives you a personalized preview of your meals with no signup, no credit
           card, and no strings attached. You see exactly what the paid
           experience looks like before committing a single dollar.
         </p>
@@ -528,9 +528,8 @@ export default function EatThisMuchAlternativePage() {
             Is there a free meal planner better than Eat This Much?
           </h3>
           <p>
-            What&apos;s For Dinner offers a free 3-day sample plan with no signup or credit card &mdash; significantly
-            more useful than Eat This Much&apos;s limited single-day free tier. The free trial includes AI-generated
-            recipes and a grocery list so you can properly evaluate the service.
+            What&apos;s For Dinner offers a free personalized preview with no signup or credit card &mdash; significantly
+            more useful than Eat This Much&apos;s limited single-day free tier. The preview includes            recipes and a grocery list so you can properly evaluate the service.
           </p>
         </div>
       </div>
@@ -542,13 +541,13 @@ export default function EatThisMuchAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Set your preferences once. Get a personalized plan with recipes and grocery list
-          every week. $7.99/mo after your free trial.
+          every week. $7.99/mo, cancel anytime.
         </p>
         <Link
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 

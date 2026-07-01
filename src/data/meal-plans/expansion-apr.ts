@@ -6,7 +6,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     type: "practical",
     title: "15-Minute Meal Plan — Fast Dinners That Don't Feel Rushed",
     metaDescription:
-      "Get a personalized weekly 15-minute meal plan with quick recipes and a grocery list. Real dinners in 15 minutes flat, not shortcuts that taste like it. Try free.",
+      "Get a personalized weekly 15-minute meal plan with quick recipes and a grocery list. Real dinners in 15 minutes flat, not shortcuts that taste like it. Free preview.",
     h1: "15-Minute Meal Plan — Real Food, Impossibly Fast",
     intro:
       "Fifteen minutes is all it takes. Not fifteen minutes of active cooking plus twenty minutes of simmering — fifteen minutes total, from opening the fridge to sitting down with a plate. These aren't sad desk meals or glorified snacks. They're proper dinners built around fast-cooking proteins, pre-prepped ingredients, and techniques that shave time without sacrificing flavor.\n\nThe secret isn't cutting corners. It's choosing ingredients that cook fast by nature — shrimp, thin-cut chicken, eggs, canned beans — and pairing them with no-cook components like fresh greens, pickled vegetables, and store-bought sauces you're not ashamed to use. When every element is designed for speed, fifteen minutes is generous.",
@@ -118,7 +118,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     type: "health",
     title: "High-Fiber Meal Plan — Better Digestion, More Energy",
     metaDescription:
-      "Get a personalized weekly high-fiber meal plan with fiber-rich recipes and a grocery list. 30g+ fiber daily for better digestion and lasting fullness. Try free.",
+      "Get a personalized weekly high-fiber meal plan with fiber-rich recipes and a grocery list. 30g+ fiber daily for better digestion and lasting fullness. Free preview.",
     h1: "High-Fiber Meal Plan — Feel Fuller, Digest Better",
     intro:
       "Most people eat half the fiber they need. The recommended 25-30 grams per day sounds manageable until you realize a typical American diet delivers about 15. The gap shows up as bloating, energy crashes, and that unsatisfied feeling after meals where you're technically full but still want to snack.\n\nA high-fiber meal plan fixes this without turning every meal into a bowl of bran cereal. Beans, lentils, whole grains, vegetables, fruits, nuts, and seeds are naturally fiber-dense and taste good when you cook them right. Our plans hit 30-40 grams of fiber daily through actual food — not supplements, not powders, not chalky shakes.",
@@ -230,7 +230,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     type: "goal",
     title: "Bodybuilding Meal Plan — Fuel Your Gains, Simplify Your Prep",
     metaDescription:
-      "Get a personalized weekly bodybuilding meal plan with high-protein recipes and a grocery list. Hit your macros without eating chicken and rice every meal. Try free.",
+      "Get a personalized weekly bodybuilding meal plan with high-protein recipes and a grocery list. Hit your macros without eating chicken and rice every meal. Free preview.",
     h1: "Bodybuilding Meal Plan — Hit Your Macros Without the Monotony",
     intro:
       "The bodybuilding diet has a reputation problem. People picture bland chicken breast, plain rice, and steamed broccoli six times a day. That approach works — but nobody sticks with it because it's miserable. You don't need to eat like a robot to build muscle. You need enough protein, the right caloric surplus or deficit, and enough variety that meal four doesn't make you want to quit.\n\nOur bodybuilding meal plans are built around macro targets, not boredom. High-protein recipes that actually taste good, strategic carb timing around workouts, and a grocery list that doesn't read like a punishment. Whether you're bulking, cutting, or maintaining, the plan adapts to your phase.",
@@ -347,7 +347,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     type: "health",
     title: "Pregnancy Meal Plan — Nourish Two Without the Overwhelm",
     metaDescription:
-      "Get a personalized weekly pregnancy meal plan with safe, nutrient-rich recipes and a grocery list. Folate, iron, protein — covered. No guesswork. Try free.",
+      "Get a personalized weekly pregnancy meal plan with safe, nutrient-rich recipes and a grocery list. Folate, iron, protein — covered. No guesswork. Free preview.",
     h1: "Pregnancy Meal Plan — Eating Well for Two, Simply",
     intro:
       "Pregnancy nutrition advice is overwhelming. Don't eat this, eat more of that, take these supplements, avoid those fish but eat other fish. Meanwhile you're nauseous, exhausted, and the only thing that sounds appealing is crackers and ginger ale. A pregnancy meal plan cuts through the noise with one clear answer each day: here's what to eat, here's why it's good for you and your baby, and here's how to make it in under 30 minutes.\n\nOur plans are built around the nutrients that matter most during pregnancy — folate, iron, calcium, DHA, choline, and protein — while respecting the reality that some days, your appetite has a mind of its own. Every recipe is pregnancy-safe, every ingredient is screened, and the grocery list makes sure nothing falls through the cracks.",
@@ -464,7 +464,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     type: "health",
     title: "Diabetic Meal Plan — Blood Sugar-Friendly Meals That Taste Great",
     metaDescription:
-      "Get a personalized weekly diabetic meal plan with low-glycemic recipes and a grocery list. Balanced meals that keep blood sugar steady. No deprivation. Try free.",
+      "Get a personalized weekly diabetic meal plan with low-glycemic recipes and a grocery list. Balanced meals that keep blood sugar steady. No deprivation. Free preview.",
     h1: "Diabetic Meal Plan — Steady Blood Sugar, Real Flavor",
     intro:
       "Managing diabetes through diet doesn't mean giving up everything you enjoy. It means choosing foods that release energy slowly, pairing carbs with protein and fiber, and knowing which meals will keep your blood sugar stable instead of spiking and crashing. The challenge isn't knowing the theory — it's figuring out what to actually cook for dinner on a Tuesday night that checks all the boxes and still tastes like food you want to eat.\n\nOur diabetic meal plans do the planning and math so you don't have to. Every recipe is designed around low-glycemic ingredients, balanced macros, and appropriate carbohydrate portions. No banned foods, no miserable restrictions — just smart meals that work with your body instead of against it.",
@@ -576,7 +576,7 @@ export const expansionAprPages: MealPlanPageData[] = [
     type: "diet",
     title: "Clean Eating Meal Plan — Whole Foods, No Nonsense",
     metaDescription:
-      "Get a personalized weekly clean eating meal plan with whole-food recipes and a grocery list. No processed junk, no complicated rules. Just real food. Try free.",
+      "Get a personalized weekly clean eating meal plan with whole-food recipes and a grocery list. No processed junk, no complicated rules. Just real food. Free preview.",
     h1: "Clean Eating Meal Plan — Real Ingredients, Real Results",
     intro:
       "Clean eating is simple: eat food that looks like food. If it grew from the ground, walked on it, or swam in the sea, it's in. If it was manufactured in a factory with an ingredient list longer than a receipt, it's out. No counting macros, no eliminating food groups, no buying special products. Just whole, minimally processed ingredients cooked into meals that make you feel good.\n\nOur clean eating plans draw the line at processing, not at pleasure. You'll eat butter (real butter, not margarine), full-fat yogurt, whole grain bread you could make at home, and honey instead of high-fructose corn syrup. The meals are satisfying because real food is inherently more satisfying than the engineered stuff. Your body knows the difference even when marketing tries to blur it.",

@@ -66,7 +66,7 @@ export default function WeeklyMealPlanArticle() {
                 name: "How much does a weekly meal plan cost?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "A weekly meal plan for two people typically costs $60-100 in groceries, or $75-150 for a family of four. This is significantly less than unplanned shopping, which often runs 20-25% higher due to impulse buys and food waste. Creating the plan itself is free if done manually (10-15 minutes per week). AI meal planning services like What's For Dinner cost $7.99/month and generate a personalized plan with recipes and a grocery list automatically each week, with a free 3-day trial available.",
+                  text: "A weekly meal plan for two people typically costs $60-100 in groceries, or $75-150 for a family of four. This is significantly less than unplanned shopping, which often runs 20-25% higher due to impulse buys and food waste. Creating the plan itself is free if done manually (10-15 minutes per week). AI meal planning services like What's For Dinner cost $7.99/month and generate a personalized plan with recipes and a grocery list automatically each week, with a free preview available.",
                 },
               },
               {
@@ -530,7 +530,7 @@ export default function WeeklyMealPlanArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start Your Free Plan &rarr;
+          Preview Your Plan Free &rarr;
         </Link>
       </div>
 
@@ -629,7 +629,7 @@ export default function WeeklyMealPlanArticle() {
           <p>
             Grocery costs for a weekly meal plan run about $60&ndash;100 for two people and $100&ndash;150 for a{" "}
             <Link href="/meal-plans/meal-plan-for-family-of-4" className="text-orange-500 underline">family of four</Link>. That&apos;s 20&ndash;25% less than unplanned shopping thanks to fewer impulse buys and less food waste. Creating the plan itself is free if you do it manually. AI meal planning services like What&apos;s For Dinner cost $7.99/month and handle the plan, recipes, and{" "}
-            <Link href="/blog/meal-plan-with-grocery-list" className="text-orange-500 underline">grocery list</Link> automatically, with a free 3-day trial.
+            <Link href="/blog/meal-plan-with-grocery-list" className="text-orange-500 underline">grocery list</Link> automatically, with a free preview.
           </p>
         </div>
         <div>
@@ -656,7 +656,7 @@ export default function WeeklyMealPlanArticle() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try Free &rarr;
+          Free Preview &rarr;
         </Link>
       </div>
 

@@ -465,7 +465,7 @@ export default function BestMealKitAlternativesPage() {
             <li>Recipes + grocery list included every week</li>
             <li>$7.99/mo total &mdash; not per serving, not per meal</li>
             <li>Shop at any store you want (use sales, buy in bulk)</li>
-            <li>Free trial with no signup or credit card</li>
+            <li>Free preview with no signup or credit card</li>
           </ul>
         </div>
         <div className="my-4">
@@ -697,7 +697,7 @@ export default function BestMealKitAlternativesPage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Get a personalized weekly meal plan with recipes and a grocery list
-          for $7.99/month. Free trial, no credit card required.
+          for $7.99/month. Free preview, no credit card required.
         </p>
         <Link
           href="/onboarding"
@@ -831,7 +831,7 @@ export default function BestMealKitAlternativesPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 

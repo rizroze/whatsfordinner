@@ -425,7 +425,7 @@ export default function MealPlanningVsDoordashPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try your free plan
+          Preview your plan free
         </Link>
       </div>
 
@@ -592,7 +592,7 @@ export default function MealPlanningVsDoordashPage() {
         <p>
           Start with a{" "}
           <Link href="/onboarding" className="text-orange-500 hover:text-orange-600 underline">
-            free 3-day plan
+            free plan preview
           </Link>{" "}
           and cook one meal. If it works, you can cook. The rest is just repetition.
         </p>
@@ -610,7 +610,7 @@ export default function MealPlanningVsDoordashPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 
@@ -697,7 +697,7 @@ export default function MealPlanningVsDoordashPage() {
             Don&apos;t go cold turkey. Start by replacing 2 delivery nights per week with
             planned meals. Keep your favorite delivery night as a treat. A{" "}
             <Link href="/onboarding" className="text-orange-500 hover:text-orange-600 underline">
-              free 3-day plan
+              free plan preview
             </Link>{" "}
             is a low-commitment way to test it. Most people who try one week of planned
             meals naturally{" "}

@@ -14,11 +14,11 @@ for (const loc of NON_DEFAULT_LOCALES) {
 
 export const metadata: Metadata = {
   title: "Meal Plans for Every Diet and Cuisine",
-  description: "Browse personalized weekly meal plans for every diet (keto, vegan, halal, gluten-free) and cuisine (Italian, Thai, Indian, and more). Free 3-day plan included.",
+  description: "Browse personalized weekly meal plans for every diet (keto, vegan, halal, gluten-free) and cuisine (Italian, Thai, Indian, and more). Free personalized preview included.",
   alternates: { canonical: "https://whatsfordinner.fit/meal-plans", languages: hubLanguages },
   openGraph: {
     title: "Meal Plans for Every Diet and Cuisine",
-    description: "Browse personalized weekly meal plans for every diet and cuisine. Free 3-day plan included.",
+    description: "Browse personalized weekly meal plans for every diet and cuisine. Free personalized preview included.",
     url: "https://whatsfordinner.fit/meal-plans",
     siteName: "What's For Dinner",
     images: [{ url: `/api/og?title=Weekly%20Meal%20Plans%20%E2%80%94%20Personalized%20for%20Every%20Diet&description=Browse%20167%20meal%20plan%20types%3A%20keto%2C%20vegan%2C%20budget%2C%20family%2C%20and%20more.%20All%20AI-generated%20with%20recipes%20and%20grocery%20lists.`, width: 1200, height: 630 }],
@@ -145,7 +145,7 @@ export default function MealPlansIndex() {
         Personalized Meal Plans for Every Diet, Cuisine &amp; Lifestyle
       </h1>
       <p className="text-base sm:text-lg text-stone-500 mb-12 max-w-xl">
-        AI-powered weekly meal plans with recipes and grocery lists, tailored to your dietary needs, favorite flavors, and life stage. Try free.
+        AI-powered weekly meal plans with recipes and grocery lists, tailored to your dietary needs, favorite flavors, and life stage. Free preview.
       </p>
 
       {grouped.map((section) => (
@@ -258,7 +258,7 @@ export default function MealPlansIndex() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-orange-600 bg-white hover:bg-orange-50 rounded-full shadow-md transition-colors"
         >
-          Start Your Free Plan
+          Preview Your Plan Free
         </Link>
       </section>
     </div>

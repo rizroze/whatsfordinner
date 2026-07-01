@@ -6,10 +6,10 @@ export const durationPages: MealPlanPageData[] = [
     type: "duration",
     title: "3-Day Meal Plan",
     metaDescription:
-      "Try a free 3-day meal plan with balanced recipes and a grocery list. Low commitment, zero stress. See if meal planning works for you before subscribing.",
+      "Preview a personalized 3-day meal plan with balanced recipes and a grocery list. Low commitment, zero stress. See if meal planning works for you before subscribing.",
     h1: "3-Day Meal Plan to Kickstart Your Week",
     intro:
-      "Not sure if meal planning is for you? A 3-day plan is the perfect low-pressure way to find out. Cover your busiest weeknights with balanced, easy-to-cook meals and see how much time and mental energy you save. Our free trial is exactly this — three days of planned meals so you can experience the difference before committing to a full week.",
+      "Not sure if meal planning is for you? A 3-day plan is the perfect low-pressure way to find out. Cover your busiest weeknights with balanced, easy-to-cook meals and see how much time and mental energy you save. Our free preview works exactly this way — answer a few quick questions and instantly see meals personalized to you, before committing to a full week.",
     valueProps: [
       {
         heading: "Zero commitment, real results",
@@ -22,9 +22,9 @@ export const durationPages: MealPlanPageData[] = [
           "Use a Sunday afternoon to prep three days of meals. You'll breeze through Monday to Wednesday with everything already figured out — recipes, portions, and groceries.",
       },
       {
-        heading: "Try it free, right now",
+        heading: "Preview it free, right now",
         description:
-          "Our free plan generates exactly 3 days of personalized meals based on your dietary preferences. No credit card, no account required. Just tell us what you like and get your plan.",
+          "Our free preview builds a personalized day of meals from your dietary preferences. No credit card, no account required. Just tell us what you like and see your meals instantly.",
       },
     ],
     sampleMeals: [
@@ -73,17 +73,17 @@ export const durationPages: MealPlanPageData[] = [
       {
         question: "Is 3 days enough to see the benefits of meal planning?",
         answer:
-          "Absolutely. Three days covers the busiest stretch of most people's weeks. You'll notice less stress around dinnertime, fewer impulse takeout orders, and a shorter grocery list. Many of our subscribers started with the free 3-day plan and upgraded once they felt the difference.",
+          "Absolutely. Three days covers the busiest stretch of most people's weeks. You'll notice less stress around dinnertime, fewer impulse takeout orders, and a shorter grocery list. Many of our subscribers started with the free preview and upgraded once they felt the difference.",
       },
       {
-        question: "What does the free 3-day meal plan include?",
+        question: "What does the free preview include?",
         answer:
-          "You get 3 full days of meals — breakfast, lunch, and dinner — personalized to your dietary preferences and household size. Each meal comes with ingredients, instructions, and prep times. It's the same quality as our subscriber plans, just shorter.",
+          "You see a full day of meals — breakfast, lunch, and dinner — personalized to your dietary preferences and household size, with ingredients, instructions, and prep times. It's the same quality as our subscriber plans, just a taste of your week.",
       },
       {
-        question: "Can I repeat the 3-day plan every week?",
+        question: "Can I repeat a 3-day plan every week?",
         answer:
-          "The free plan is a one-time trial to help you experience meal planning. If you love it, our weekly subscription generates a fresh 7-day plan every week with new recipes, so you never eat the same meals on repeat.",
+          "The preview is a one-time taste to help you experience meal planning. If you love it, our weekly subscription generates a fresh 7-day plan every week with new recipes, so you never eat the same meals on repeat.",
       },
       {
         question: "How do I turn my 3-day plan into a full week?",
@@ -268,9 +268,9 @@ export const durationPages: MealPlanPageData[] = [
     ],
     faqs: [
       {
-        question: "How is a 7-day meal plan different from the free trial?",
+        question: "How is a 7-day meal plan different from the free preview?",
         answer:
-          "The free trial gives you a 3-day plan to test the experience. A 7-day plan covers your entire week with more variety and smarter ingredient reuse across all 21 meals. Subscribers also get fresh plans every week, regeneration options, and email delivery.",
+          "The free preview shows you a personalized day of meals to test the experience. A 7-day plan covers your entire week with more variety and smarter ingredient reuse across all 21 meals. Subscribers also get fresh plans every week, regeneration options, and email delivery.",
       },
       {
         question: "Can I customize which meals are included?",

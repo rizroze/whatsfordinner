@@ -142,7 +142,7 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
               display: "flex",
             }}
           >
-            Start Your Free Plan
+            Preview Your Plan Free
           </div>
         </div>
 

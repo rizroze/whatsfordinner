@@ -233,7 +233,7 @@ export function RecipePage({
               href={locale && locale !== "en" ? `/onboarding?lang=${locale}` : "/onboarding"}
               className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-orange-600 bg-white hover:bg-orange-50 rounded-full shadow-md transition-colors duration-200 min-h-[44px]"
             >
-              Get your free plan
+              Preview your plan free
             </Link>
           </section>
         </div>

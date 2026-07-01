@@ -24,7 +24,7 @@ export default function TermsPage() {
           Terms of Service
         </h1>
         <p className="text-sm text-stone-400 mb-10">
-          Last updated: March 2026
+          Last updated: July 2026
         </p>
 
         <div className="prose prose-stone prose-sm max-w-none space-y-6 text-stone-600 [&_h2]:text-lg [&_h2]:font-semibold [&_h2]:text-stone-800 [&_h2]:mt-8 [&_h2]:mb-3">
@@ -61,11 +61,11 @@ export default function TermsPage() {
             unauthorized use.
           </p>
 
-          <h2>4. Free Plan</h2>
+          <h2>4. Free Preview</h2>
           <p>
-            You can generate one free 3-day meal plan without creating an
-            account. No credit card is required. Free plans are limited to one
-            per user and are intended for evaluation purposes.
+            You can preview a personalized day of meals without creating an
+            account. No credit card is required. Previews are intended for
+            evaluation purposes; full weekly plans require a subscription.
           </p>
 
           <h2>5. Subscriptions and Billing</h2>
@@ -133,8 +133,8 @@ export default function TermsPage() {
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              Circumvent free plan limits through multiple accounts, device
-              manipulation, or other means.
+              Circumvent free preview or subscription limits through multiple
+              accounts, device manipulation, or other means.
             </li>
             <li>
               Use automated tools, scripts, or bots to access the Service.
@@ -204,7 +204,7 @@ export default function TermsPage() {
           <h2>13. Account Termination</h2>
           <p>
             We reserve the right to suspend or terminate accounts that violate
-            these Terms, including but not limited to: circumventing free plan
+            these Terms, including but not limited to: circumventing usage
             limits, automated scraping, or using the Service for commercial
             redistribution. We will attempt to provide reasonable notice before
             termination except in cases of severe abuse.

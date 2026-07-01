@@ -149,7 +149,7 @@ export default function BestMealDeliveryAlternativesPage() {
 
         <div className="my-4">
           <p className="text-sm font-medium text-stone-700 mb-2">Cost:</p>
-          <p className="text-sm text-stone-600">$7.99/month (yearly: $59.99/yr). Free 3-day trial.</p>
+          <p className="text-sm text-stone-600">$7.99/month (yearly: $59.99/yr). Free preview.</p>
         </div>
         <div className="my-4">
           <p className="text-sm font-medium text-stone-700 mb-2">Pros:</p>
@@ -158,7 +158,7 @@ export default function BestMealDeliveryAlternativesPage() {
             <li>Grocery list organized by store section</li>
             <li>Email delivery &mdash; no app to install</li>
             <li>98% cheaper than meal delivery services</li>
-            <li>Free trial, no credit card needed</li>
+            <li>Free preview, no credit card needed</li>
           </ul>
         </div>
         <div className="my-4">
@@ -548,13 +548,13 @@ export default function BestMealDeliveryAlternativesPage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           AI-generated meal plans with recipes and a grocery list, delivered
-          weekly. $7.99/mo after your free trial.
+          weekly. $7.99/mo, cancel anytime.
         </p>
         <Link
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 

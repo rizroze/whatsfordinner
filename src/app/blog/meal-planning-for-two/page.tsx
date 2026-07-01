@@ -172,7 +172,7 @@ export default function MealPlanningForTwo() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free plan &rarr;
+          Preview your plan free &rarr;
         </Link>
       </div>
 

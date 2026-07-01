@@ -229,7 +229,7 @@ export default function MealPlanningVsMealPrepPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try your free plan
+          Preview your plan free
         </Link>
       </div>
 
@@ -360,7 +360,7 @@ export default function MealPlanningVsMealPrepPage() {
         <p>
           Get a{" "}
           <Link href="/onboarding" className="text-orange-500 hover:text-orange-600 underline">
-            free 3-day meal plan
+            free plan preview
           </Link>{" "}
           and cook from it for one week. Don&apos;t prep anything in advance. Just
           follow the plan each evening. If it works — if dinner is less stressful,
@@ -390,7 +390,7 @@ export default function MealPlanningVsMealPrepPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Start your free trial
+          Preview your plan free
         </Link>
       </div>
 

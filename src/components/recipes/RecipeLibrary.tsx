@@ -322,7 +322,7 @@ export function RecipeLibrary({
             href="/onboarding"
             className="inline-flex items-center justify-center rounded-full bg-orange-500 px-8 py-3.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-orange-600 hover:shadow-md hover:-translate-y-0.5 min-h-[44px]"
           >
-            Get your free 3-day plan
+            Preview your meal plan free
           </Link>
         </div>
       </div>

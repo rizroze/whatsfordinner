@@ -22,7 +22,7 @@ export default async function MealPlansLocaleLayout({ children, params }: Layout
           href={`/onboarding?lang=${locale}`}
           className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
         >
-          Try Free
+          Free Preview
         </Link>
       </nav>
 

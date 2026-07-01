@@ -877,13 +877,13 @@ export default function WhatToCookPage() {
               </p>
               <p className="text-stone-500 text-sm mb-5">
                 Get a personalized meal plan with recipes and a grocery list.
-                Free 3-day plan, no credit card required.
+                Free personalized preview, no credit card required.
               </p>
               <Link
                 href="/onboarding"
                 className="inline-flex items-center justify-center px-8 py-3 bg-orange-500 hover:bg-orange-600 active:scale-[0.98] text-white font-medium rounded-full shadow-md hover:shadow-lg transition-all duration-200 min-h-[48px]"
               >
-                Get Your Free 3-Day Plan
+                Preview Your Meal Plan
               </Link>
             </div>
           </div>

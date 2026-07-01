@@ -915,7 +915,7 @@ export default function YummlyAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Personalized recipes, consolidated grocery list, delivered weekly.
-          Start with a free 3-day plan today.
+          Start with a free preview today.
         </p>
         <Link
           href="/onboarding"

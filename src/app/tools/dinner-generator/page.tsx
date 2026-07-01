@@ -339,14 +339,14 @@ export default function DinnerGeneratorPage() {
             {/* Conversion CTA */}
             <div className="border-t border-orange-100 bg-orange-50/50 px-6 py-5">
               <p className="text-sm text-stone-700 font-medium mb-3">
-                Want a full week of meals like this? Get your free meal plan with recipes and a grocery list.
+                Want a full week of meals like this? Preview your personalized meal plan with recipes and a grocery list.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   href="/onboarding"
                   className="inline-flex items-center justify-center px-6 py-2.5 bg-orange-500 hover:bg-orange-600 text-white text-sm font-medium rounded-full shadow-sm hover:shadow-md transition-all duration-200"
                 >
-                  Get Your Free Meal Plan
+                  Preview Your Meal Plan
                 </Link>
                 {cuisineMealPlanSlug && (
                   <Link
