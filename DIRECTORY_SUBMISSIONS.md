@@ -43,7 +43,7 @@ I built this because my family had the same conversation every night: "what's fo
 **Description:**
 What's For Dinner is an AI-powered meal planner that creates personalized weekly meal plans with full recipes and a consolidated grocery list. Enter your dietary preferences, household size, allergies, and budget — get a complete week of meals in seconds.
 
-Free tier includes a 3-day plan with no credit card required. Paid subscribers receive a fresh 7-day plan every Sunday delivered to their inbox.
+Free personalized preview with no credit card required. Paid subscribers receive a fresh 7-day plan every Sunday delivered to their inbox.
 
 Supports 20+ dietary preferences including keto, vegan, vegetarian, gluten-free, halal, dairy-free, and paleo. Portions auto-scale to household size.
 
@@ -96,7 +96,7 @@ Key features:
 2. Fill out the profile, then ask your first users for a review — G2 reviews are the main value here
 
 **Description for G2:**
-What's For Dinner is an AI-powered meal planning tool that generates personalized weekly meal plans with full recipes and a consolidated grocery list. Users enter their dietary preferences, allergies, budget, and household size, and the AI produces a complete week of meals in seconds. A fresh plan is delivered every Sunday for subscribers. Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, and 20+ other dietary styles. Free 3-day trial available with no credit card.
+What's For Dinner is an AI-powered meal planning tool that generates personalized weekly meal plans with full recipes and a consolidated grocery list. Users enter their dietary preferences, allergies, budget, and household size, and the AI produces a complete week of meals in seconds. A fresh plan is delivered every Sunday for subscribers. Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, and 20+ other dietary styles. Free personalized preview available with no credit card.
 
 **Category:** Meal Planning Software
 **Deployment:** Cloud, SaaS, Web-Based
@@ -116,10 +116,10 @@ AI meal planner that generates personalized weekly plans with full recipes and a
 **Full description:**
 What's For Dinner is an AI-powered meal planner designed for busy households. Users input their dietary preferences, allergies, household size, and budget, and the tool generates a complete personalized weekly meal plan — including full recipes with ingredients and cooking steps, and a single consolidated grocery list.
 
-Subscribers receive a fresh 7-day meal plan by email every Sunday. The free tier offers a full 3-day plan with no credit card required.
+Subscribers receive a fresh 7-day meal plan by email every Sunday. The free preview shows a personalized day of meals with no credit card required.
 
 Key capabilities:
-- Personalized AI meal plan generation (3-day free / 7-day paid)
+- Personalized AI meal plan generation (free preview / 7-day paid)
 - Full recipe library with ingredients, instructions, and nutrition data
 - Automatic grocery list consolidation
 - Dietary support: keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, Mediterranean, and more
@@ -128,7 +128,7 @@ Key capabilities:
 
 **Pricing Model:** Freemium
 **Starting Price:** $7.99/month or $59.99/year
-**Free Trial:** Yes (3-day plan, no card)
+**Free Trial:** Free preview (no card)
 
 ---
 
@@ -141,7 +141,7 @@ Key capabilities:
 **Description:**
 What's For Dinner is an AI meal planning tool that generates personalized weekly meal plans complete with full recipes and a consolidated grocery list. Enter your dietary preferences, household size, allergies, and budget — get a complete week of meals in under 30 seconds.
 
-Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, Mediterranean, and 20+ dietary styles. Paid subscribers receive a fresh plan by email every Sunday. Free 3-day plan available, no credit card required.
+Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, Mediterranean, and 20+ dietary styles. Paid subscribers receive a fresh plan by email every Sunday. Free preview available, no credit card required.
 
 **Pricing:** Freemium · Free · $7.99/mo · $59.99/yr
 **Tags:** meal planning, AI, recipes, grocery list, food, weekly planner
@@ -176,7 +176,7 @@ Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, Mediter
 **Description:**
 What's For Dinner is an AI-powered meal planner that generates personalized weekly meal plans with full recipes and a consolidated grocery list. It adapts to your dietary preferences, household size, allergies, and budget.
 
-Free tier: full 3-day meal plan, no sign-up required.
+Free tier: personalized plan preview, no sign-up required.
 Paid tier ($7.99/mo): 7-day plan delivered fresh every Sunday by email.
 
 Supports 20+ dietary preferences: keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, Mediterranean, and more.
@@ -202,7 +202,7 @@ It gives you:
 - Every recipe with ingredients and steps
 - One consolidated grocery list
 
-Subscribers get a fresh plan emailed every Sunday. Free 3-day plan available with no credit card.
+Subscribers get a fresh plan emailed every Sunday. Free preview available with no credit card.
 
 **Link:** https://whatsfordinner.fit
 
@@ -222,7 +222,7 @@ I built this because my family had the same "what's for dinner?" conversation ev
 
 What's For Dinner is different: you tell it your dietary preferences, household size, allergies, and budget, and it generates a complete week of meals — with full recipes and one consolidated grocery list — in about 30 seconds.
 
-Free tier: a full 3-day plan, no account needed. Paid ($7.99/mo): a fresh 7-day plan delivered to your inbox every Sunday.
+Free tier: a personalized plan preview, no account needed. Paid ($7.99/mo): a fresh 7-day plan delivered to your inbox every Sunday.
 
 Tech: Next.js, Supabase, Claude API for generation, LemonSqueezy for billing, Vercel for hosting.
 
