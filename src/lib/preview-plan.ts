@@ -27,11 +27,18 @@ export interface LockedDayPreview {
   meals: { type: Meal["type"]; name: string }[];
 }
 
+export interface PreviewDaySummary {
+  day: string;
+  meals: { name: string; type: string; calories: number; cookTime: number }[];
+}
+
 export interface PreviewPlanResult {
   monday: DayPlan;
   lockedDays: LockedDayPreview[];
   groceryPreview: string[];
   groceryItemCount: number;
+  /** Full week in nurture-email summary shape (names/calories only) */
+  weekSummary: PreviewDaySummary[];
 }
 
 const LOCKED_DAY_NAMES = ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -309,18 +316,35 @@ export function buildPreviewPlan(prefs: PreviewPrefs): PreviewPlanResult {
 
   // Days 2–7 — locked, titles only, still diet-safe
   const weekRecipes: FullRecipe[] = mondayRecipes.map(({ recipe }) => recipe);
+  const weekSummary: PreviewDaySummary[] = [
+    {
+      day: "Monday",
+      meals: mondayRecipes.map(({ slot, recipe }) => ({
+        name: recipe.name,
+        type: slot,
+        calories: recipe.nutrition.calories,
+        cookTime: recipe.cookTime,
+      })),
+    },
+  ];
   const lockedDays: LockedDayPreview[] = LOCKED_DAY_NAMES.map((day) => {
     const usedToday = new Set<string>();
-    return {
-      day,
-      meals: slots
-        .filter((slot) => slot !== "snack")
-        .map((slot) => {
-          const recipe = nextRecipe(slot, usedToday);
-          weekRecipes.push(recipe);
-          return { type: slot, name: recipe.name };
-        }),
-    };
+    const daySummary: PreviewDaySummary = { day, meals: [] };
+    const meals = slots
+      .filter((slot) => slot !== "snack")
+      .map((slot) => {
+        const recipe = nextRecipe(slot, usedToday);
+        weekRecipes.push(recipe);
+        daySummary.meals.push({
+          name: recipe.name,
+          type: slot,
+          calories: recipe.nutrition.calories,
+          cookTime: recipe.cookTime,
+        });
+        return { type: slot, name: recipe.name };
+      });
+    weekSummary.push(daySummary);
+    return { day, meals };
   });
 
   // Grocery preview: real items from Monday, count from the whole week
@@ -345,5 +369,6 @@ export function buildPreviewPlan(prefs: PreviewPrefs): PreviewPlanResult {
     lockedDays,
     groceryPreview: mondayItems.slice(0, 8),
     groceryItemCount: weekSeen.size,
+    weekSummary,
   };
 }

@@ -94,6 +94,23 @@ export async function GET(req: NextRequest) {
         }
         console.log(`Nurture cron: sending ${emailType} to ${email.replace(/(.{2}).*@/, "$1***@")} (${daysSinceCreated} days old)`);
 
+        // Lead converted to an account since capture — stop nurturing them
+        const { data: convertedUser } = await admin
+          .from("users")
+          .select("id")
+          .eq("email", email.toLowerCase())
+          .maybeSingle();
+        if (convertedUser) {
+          const cleanedPlanData: Record<string, unknown> = { ...planData };
+          delete cleanedPlanData.nurture_email;
+          await admin
+            .from("meal_plans")
+            .update({ plan_data: cleanedPlanData })
+            .eq("id", plan.id);
+          console.log(`Nurture cron: ${email.replace(/(.{2}).*@/, "$1***@")} converted — removed from nurture`);
+          continue;
+        }
+
         try {
           const meals = (planData.meals as NurtureMealSummary[] | undefined) ?? undefined;
           await sendNurtureEmail(email, emailType, meals);

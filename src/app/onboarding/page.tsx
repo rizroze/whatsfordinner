@@ -292,6 +292,19 @@ function OnboardingContent() {
 
       // Anonymous: save preferences and go to preview
       localStorage.setItem("wfd_preferences", JSON.stringify(data));
+
+      // Capture as nurture lead if they left an email — fire and forget,
+      // keepalive so the request survives the navigation
+      if (data.delivery_email && data.delivery_email.includes("@")) {
+        void fetch("/api/leads", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          keepalive: true,
+          body: JSON.stringify({ email: data.delivery_email, preferences: data }),
+        }).catch(() => {});
+        track("lead_captured");
+      }
+
       router.push("/preview");
     } catch (err) {
       if (err instanceof Error && err.message === "block") {

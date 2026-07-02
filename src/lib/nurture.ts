@@ -108,7 +108,7 @@ export function buildNurtureDay3Email(email: string, meals?: NurtureMealSummary[
       </table>`
     : `
       <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
-        You planned 3 days of meals earlier this week. How'd it go?
+        You previewed your personalized meal plan earlier this week. How'd it go?
       </p>`;
 
   const html = wrapEmail(`
@@ -149,7 +149,7 @@ export function buildNurtureDay7Email(email: string, meals?: NurtureMealSummary[
       </table>`
     : `
       <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
-        It's been a week since your free plan. Right now, you're back to &ldquo;what's for dinner?&rdquo; tonight.
+        It's been a week since you previewed your meal plan. Right now, you're back to &ldquo;what's for dinner?&rdquo; tonight.
       </p>`;
 
   const html = wrapEmail(`
@@ -484,6 +484,85 @@ export function buildReferralReminderEmail(
     ${buildFooter(email)}`);
 
   return { subject: "You have referral codes to share", html };
+}
+
+// ── Preview lead: sent immediately when an anonymous visitor finishes onboarding ──
+
+export function buildPreviewLeadEmail(
+  email: string,
+  meals: NurtureMealSummary[]
+): { subject: string; html: string } {
+  const appUrl = getAppUrl();
+  const monday = meals[0];
+  const tuesday = meals[1];
+  const hasMeals = monday && monday.meals.length > 0;
+
+  const mondaySection = hasMeals
+    ? `
+      <p style="margin:0 0 6px;font-size:12px;font-weight:700;color:#16A34A;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none;">Monday &mdash; unlocked</p>
+      <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 20px;">
+        ${monday.meals.map((m, i) => mealRow(m, i === monday.meals.length - 1)).join("")}
+      </table>`
+    : "";
+
+  const lockedSection = tuesday
+    ? `
+      <p style="margin:0 0 6px;font-size:12px;font-weight:700;color:#A8A29E;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none;">Tuesday &mdash; locked</p>
+      <p style="margin:0 0 4px;font-size:14px;color:#A8A29E;text-decoration:none;">
+        ${tuesday.meals.map((m) => escapeHtml(m.name)).join(" &middot; ")}
+      </p>
+      <p style="margin:0 0 20px;font-size:12px;color:#D6D3D1;text-decoration:none;">
+        + ${meals.length - 2} more days, full recipes, and your grocery list
+      </p>`
+    : "";
+
+  const html = wrapEmail(`
+    <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
+      <h1 style="margin:0 0 8px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
+        Monday is planned. Here&#39;s your menu.
+      </h1>
+      <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
+        Built from the preferences you just set &mdash; saved here so you don&#39;t lose it.
+      </p>
+      ${mondaySection}
+      ${lockedSection}
+      <div style="text-align:center;">
+        <a href="${appUrl}/signup?plan=monthly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+          Unlock my full week &mdash; $7.99/mo
+        </a>
+      </div>
+      <p style="margin:14px 0 0;text-align:center;font-size:12px;color:#A8A29E;text-decoration:none;">
+        Cancel anytime &middot; New plan every Sunday &middot; Grocery list included
+      </p>
+    </div>
+    ${buildFooter(email)}`);
+
+  const dinner = hasMeals
+    ? monday.meals.find((m) => m.type === "dinner") ?? monday.meals[0]
+    : null;
+  return {
+    subject: dinner ? `Your Monday menu: ${dinner.name}` : "Your meal plan preview is saved",
+    html,
+  };
+}
+
+export async function sendPreviewLeadEmail(
+  to: string,
+  meals: NurtureMealSummary[]
+): Promise<void> {
+  const { subject, html } = buildPreviewLeadEmail(to, meals);
+  const unsubUrl = generateEmailUnsubscribeUrl(to);
+
+  await getResend().emails.send({
+    from: "What's For Dinner <plans@whatsfordinner.fit>",
+    to,
+    subject,
+    html,
+    headers: {
+      "List-Unsubscribe": `<${unsubUrl}>`,
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    },
+  });
 }
 
 // ── Email type definitions ──
