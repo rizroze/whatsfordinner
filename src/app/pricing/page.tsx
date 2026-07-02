@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { SocialProofLine } from "@/components/ui/SocialProofLine";
 
 function Check({ className = "text-green-500" }: { className?: string }) {
   return (
@@ -89,6 +90,7 @@ export default function PricingPage() {
         <p className="mt-4 text-base sm:text-lg text-stone-500 max-w-lg mx-auto leading-relaxed">
           Your week of meals, planned in 30 seconds. Cancel anytime.
         </p>
+        <SocialProofLine className="mt-5" />
       </section>
 
       {/* Pricing Cards */}

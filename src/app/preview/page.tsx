@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { DayCard } from "@/components/plan/DayCard";
+import { SocialProofLine } from "@/components/ui/SocialProofLine";
 import type { PreviewPlanResult } from "@/lib/preview-plan";
 
 const MEAL_TYPE_LABELS: Record<string, string> = {
@@ -205,6 +206,7 @@ export default function PreviewPage() {
               <p className="mt-3 text-[10px] text-stone-400">
                 Create your free account first — takes 30 seconds
               </p>
+              <SocialProofLine className="mt-3" />
             </div>
           </div>
         </div>
