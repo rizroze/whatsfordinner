@@ -28,7 +28,7 @@ I built this because my family had the same conversation every night: "what's fo
 **Category:** Meal Planning
 **Alternative To:** Mealime, Eat This Much, PlateJoy, Plan to Eat
 **Tags:** Meal Planning, Grocery List, AI, Recipes, Weekly Planner
-**Description:** AI-powered meal planner that generates personalized weekly meal plans with full recipes and a consolidated grocery list. Supports all dietary needs. Free 3-day plan available.
+**Description:** AI-powered meal planner that generates personalized weekly meal plans with full recipes and a consolidated grocery list. Supports all dietary needs. Free personalized preview available.
 **Commercial:** Freemium ($7.99/mo or $59.99/yr)
 **Platform:** Web
 
@@ -47,7 +47,7 @@ Free tier includes a 3-day plan with no credit card required. Paid subscribers r
 
 Supports 20+ dietary preferences including keto, vegan, vegetarian, gluten-free, halal, dairy-free, and paleo. Portions auto-scale to household size.
 
-**Pricing:** Freemium — Free 3-day plan · $7.99/mo · $59.99/yr
+**Pricing:** Free preview · $7.99/mo · $59.99/yr
 **Alternatives:** Mealime, Eat This Much, PlateJoy, Plan to Eat
 
 ---
@@ -58,7 +58,7 @@ Supports 20+ dietary preferences including keto, vegan, vegetarian, gluten-free,
 **URL:** https://whatsfordinner.fit
 **Category:** Food & Drink / Productivity
 **Short description (tweet-length):**
-AI meal planner that builds your full week of meals + recipes + grocery list in 30 seconds. Free 3-day plan, no card needed.
+AI meal planner that builds your full week of meals + recipes + grocery list in 30 seconds. Free preview, no card needed.
 
 **Long description:**
 Stop answering "what's for dinner?" every night. What's For Dinner generates a complete personalized weekly meal plan — with recipes and a ready-to-shop grocery list — in under a minute.
@@ -83,7 +83,7 @@ Key features:
 - One consolidated grocery list for the whole week
 - 20+ dietary modes: keto, vegan, gluten-free, halal, paleo, and more
 - Fresh plan delivered every Sunday (paid tier)
-- Free 3-day plan, no credit card required
+- Free personalized preview, no credit card required
 
 **Pricing:** Free · $7.99/month · $59.99/year
 **Category:** Meal Planning, AI Tools
@@ -160,7 +160,7 @@ AI meal planner: tells you what to cook all week, gives you the recipes, and bui
 **Description:**
 What's For Dinner uses Claude AI to generate personalized weekly meal plans with full recipes and a ready-to-shop grocery list. Answer a few questions about your diet, household, allergies, and budget — get a complete week of meals in 30 seconds.
 
-Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, Mediterranean, and 20+ other dietary modes. Free 3-day plan available. Subscribers get a fresh 7-day plan delivered every Sunday by email.
+Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, Mediterranean, and 20+ other dietary modes. Free personalized preview available. Subscribers get a fresh 7-day plan delivered every Sunday by email.
 
 **Tags:** meal planning, food, recipes, grocery list, AI assistant, productivity
 
