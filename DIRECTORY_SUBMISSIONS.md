@@ -11,7 +11,7 @@ Status key: ✅ done · ⏳ pending
 **Description:**
 What's For Dinner generates personalized weekly meal plans with full recipes and a consolidated grocery list. Tell it your dietary preferences, allergies, household size, and budget — get a complete week of meals in 30 seconds.
 
-Free 3-day plan, no credit card. Subscribers get a fresh 7-day plan delivered to their inbox every Sunday.
+Free personalized preview, no account required. Subscribers get a fresh 7-day plan delivered to their inbox every Sunday.
 
 Supports keto, vegan, vegetarian, gluten-free, halal, dairy-free, paleo, and more. Portions auto-adjust to your household size.
 
