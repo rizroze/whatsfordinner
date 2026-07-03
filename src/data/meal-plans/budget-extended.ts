@@ -6,7 +6,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     type: "budget",
     title: "Meal Plan Under $30/Week",
     metaDescription:
-      "Get a weekly meal plan under $30 with filling, nutritious meals built on rice, beans, eggs, and seasonal produce. Free AI-generated plan with grocery list.",
+      "Get a weekly meal plan under $30 with filling, nutritious meals built on rice, beans, eggs, and seasonal produce. Recipes and grocery list included. Free preview.",
     h1: "Meal Plan Under $30/Week That Actually Keeps You Full",
     intro:
       "Thirty dollars a week sounds impossible until you break it down: a 5lb bag of rice ($3), a pound of dried beans ($1.50), a dozen eggs ($3), a bag of frozen vegetables ($2). That's $9.50 and you've already covered half your meals. Our ultra-budget plans build every week around these anchor ingredients and add variety with seasonal produce, canned goods, and loss-leader proteins. You'll eat three real meals a day without relying on ramen or fast food dollar menus.",
@@ -100,7 +100,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     type: "budget",
     title: "Meal Plan Under $75/Week",
     metaDescription:
-      "Get a weekly meal plan for two under $75. Balanced dinners, smart grocery lists, and no food waste. AI-personalized to your tastes. Try it free today.",
+      "Get a weekly meal plan for two under $75. Balanced dinners, smart grocery lists, and no food waste. AI-personalized to your tastes. See a free preview today.",
     h1: "Meal Plan Under $75/Week for Two People",
     intro:
       "Seventy-five dollars a week for two people works out to about $5.35 per person per day — tight but absolutely doable with the right plan. This budget gives you room for real proteins like chicken breasts, ground turkey, and salmon once a week, plus fresh produce, dairy, and pantry staples. The key is strategic ingredient overlap: the bell peppers in Monday's stir-fry show up in Wednesday's fajitas, and Sunday's roast chicken becomes Tuesday's chicken salad.",
@@ -382,7 +382,7 @@ export const budgetExtendedPages: MealPlanPageData[] = [
     type: "budget",
     title: "Meal Plan for Athletes",
     metaDescription:
-      "Get an athlete meal plan with high-protein, high-calorie recipes for training and recovery. Macro-balanced meals with grocery lists. Try it free today.",
+      "Get an athlete meal plan with high-protein, high-calorie recipes for training and recovery. Macro-balanced meals with grocery lists. See a free preview today.",
     h1: "Meal Plan for Athletes That Fuels Training and Recovery",
     intro:
       "Training hard means eating hard. An athlete's body needs 2,500-4,000+ calories a day depending on sport, body weight, and training intensity — and those calories need to come from the right sources. Our athlete meal plans are built around performance nutrition: complex carbs for sustained energy, lean proteins for muscle repair, healthy fats for joint health, and strategic timing so you're fueled before workouts and recovering after. No bro-science, no chicken-and-rice monotony — just real meals that support real training.",

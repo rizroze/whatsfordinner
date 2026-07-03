@@ -163,7 +163,7 @@ export const caloriePages: MealPlanPageData[] = [
     type: "calorie",
     title: "Simple 1500 Calorie Meal Plan — Weekly Recipes & Grocery List",
     metaDescription:
-      "Get a simple 1500 calorie meal plan with balanced recipes and a grocery list. Lose 1-1.5 lbs/week eating real food. 30-min meals, 110g+ protein daily. Free to try.",
+      "Get a simple 1500 calorie meal plan with balanced recipes and a grocery list. Lose 1-1.5 lbs/week eating real food. 30-min meals, 110g+ protein daily. Free preview.",
     h1: "1500 Calorie Meal Plan: Lose Weight Without Feeling Hungry",
     intro:
       "A 1,500 calorie meal plan is the most popular calorie target for weight loss, and for good reason. It creates a meaningful deficit for most adults (typically 500-750 calories below maintenance) while leaving enough room for satisfying portions, diverse ingredients, and even the occasional treat. Whether you are a woman looking to drop 15-20 pounds, a shorter or sedentary man targeting steady fat loss, or someone transitioning down from a higher calorie intake, 1,500 calories per day provides the structure to get results without the misery of extreme restriction. Our plans balance roughly 110g protein, 170g carbs, and 50g fat each day, spread across breakfast (350-400 cal), lunch (400-450 cal), dinner (450-500 cal), and a snack (150-200 cal). Every week you get a fresh plan with new recipes and an auto-generated grocery list, so you never have to repeat the same meals or wonder what to buy. Meals are designed to take 30 minutes or less, use common grocery store ingredients, and taste good enough that you forget you are on a diet.",
@@ -373,7 +373,7 @@ export const caloriePages: MealPlanPageData[] = [
     type: "calorie",
     title: "1800 Calorie Meal Plan with Recipes & Grocery List",
     metaDescription:
-      "Free 1800 calorie meal plan with recipes and grocery list. Enough fuel for active lifestyles, AI-planned weekly. Gradual weight loss without restriction.",
+      "1800 calorie meal plan with recipes and grocery list. Enough fuel for active lifestyles, planned weekly. Gradual weight loss without restriction.",
     h1: "An 1800 Calorie Meal Plan for People Who Actually Move",
     intro:
       "If you're active and trying to lose weight, extreme calorie cuts backfire. An 1,800-calorie plan gives you enough fuel to power through workouts, stay sharp at work, and still create a moderate deficit that chips away at fat over time. These are real-sized meals with enough carbs for energy, enough protein for recovery, and enough flavor that you forget you're on a plan.",
@@ -472,7 +472,7 @@ export const caloriePages: MealPlanPageData[] = [
     type: "calorie",
     title: "2000 Calorie Meal Plan with Recipes & Grocery List",
     metaDescription:
-      "Free 2000 calorie meal plan with recipes and grocery list. Balanced USDA-aligned nutrition, AI-personalized weekly. Three meals plus snacks. No card needed.",
+      "2000 calorie meal plan with recipes and grocery list. Balanced USDA-aligned nutrition, personalized weekly. Three meals plus snacks. Free preview included.",
     h1: "A 2000 Calorie Meal Plan for Balanced, Everyday Eating",
     intro:
       "2,000 calories is the standard benchmark for a reason — it works for a huge range of adults looking to maintain their weight and eat well. Whether you're done dieting and want to hold your results, or you just want a structured plan that keeps nutrition on track without overthinking it, this is your baseline. Balanced macros, diverse ingredients, and meals that feel completely normal.",
@@ -675,7 +675,7 @@ export const caloriePages: MealPlanPageData[] = [
     type: "calorie",
     title: "3000 Calorie Meal Plan",
     metaDescription:
-      "Get a weekly 3000 calorie meal plan for muscle gain and high-activity lifestyles. Clean, whole-food meals planned automatically. Try it free today.",
+      "Get a weekly 3000 calorie meal plan for muscle gain and high-activity lifestyles. Clean, whole-food meals planned automatically. See a free preview today.",
     h1: "A 3000 Calorie Meal Plan That's All Fuel, No Junk",
     intro:
       "Eating 3,000 clean calories a day is harder than it sounds. Anyone can demolish a pizza and call it bulking — the challenge is getting there with meals that actually build muscle, support recovery, and keep your energy stable. We plan your week with big, nutrient-dense meals spread across the day so you never have to force-feed yourself in one sitting or rely on mass gainer shakes.",

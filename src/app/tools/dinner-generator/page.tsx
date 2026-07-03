@@ -395,7 +395,7 @@ export default function DinnerGeneratorPage() {
             </Link>
           </p>
           <p className="text-xs text-stone-400 mt-3">
-            Personalized meal plans with recipes and a grocery list. Free to try.
+            Personalized meal plans with recipes and a grocery list. Free preview.
           </p>
         </div>
 

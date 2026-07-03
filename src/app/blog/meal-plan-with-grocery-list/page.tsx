@@ -5,7 +5,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 const title =
   "Meal Plan with Grocery List: The Complete Guide (2026)";
 const description =
-  "Get a personalized weekly meal planner with grocery list — see a 3-day sample plan, compare top apps, and learn why planning without a list fails. Free to try.";
+  "Get a personalized weekly meal planner with grocery list — see a 3-day sample plan, compare top apps, and learn why planning without a list fails. Free preview.";
 
 export const metadata: Metadata = {
   title,
@@ -33,7 +33,7 @@ export default function MealPlanWithGroceryList() {
     <>
       <ArticleJsonLd
         title="Meal Plan with Grocery List: The Complete Guide (2026)"
-        description="Get a personalized weekly meal planner with grocery list — see a 3-day sample plan, compare top apps, and learn why planning without a list fails. Free to try."
+        description="Get a personalized weekly meal planner with grocery list — see a 3-day sample plan, compare top apps, and learn why planning without a list fails. Free preview."
         url="https://whatsfordinner.fit/blog/meal-plan-with-grocery-list"
         datePublished="2026-02-25"
         dateModified="2026-04-01"

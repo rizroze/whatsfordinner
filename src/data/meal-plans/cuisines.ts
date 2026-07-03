@@ -4,9 +4,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "american",
     type: "cuisine",
-    title: "American Meal Plan with Grocery List – Free AI Planner",
+    title: "American Meal Plan with Grocery List — Classic Comfort Food",
     metaDescription:
-      "Free personalized American meal plan with recipes and grocery list. Classic comfort food your whole family loves, AI-planned weekly. No card needed.",
+      "Personalized American meal plan with recipes and grocery list. Classic comfort food your whole family loves, planned weekly. Free preview included.",
     h1: "Classic American Meal Plans for Busy Families",
     intro:
       "From hearty burgers and BBQ to wholesome casseroles and Sunday roasts, American cuisine is all about bold flavors and satisfying portions. Our AI-powered meal planner builds you a weekly lineup of classic American dishes, complete with a grocery list so you can skip the guesswork and get cooking. Whether you're feeding a family of four or meal-prepping solo, these plans make weeknight dinners effortless.",
@@ -98,9 +98,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "italian",
     type: "cuisine",
-    title: "Italian Meal Plan with Grocery List – Free AI Planner",
+    title: "Italian Meal Plan with Grocery List — 7 Days of Real Recipes",
     metaDescription:
-      "Free personalized Italian meal plan with recipes and grocery list. Authentic pasta, risotto, and more – AI-planned weekly. No credit card needed.",
+      "Personalized Italian meal plan with recipes and grocery list. Authentic pasta, risotto, and more, planned weekly. Free preview, no credit card.",
     h1: "Italian Meal Plans That Bring the Trattoria Home",
     intro:
       "Italian cooking is built on simplicity — great ingredients, honest technique, and meals meant to be shared. Our weekly Italian meal plans give you a curated lineup of pastas, risottos, grilled proteins, and rustic salads that taste like they came from a Roman trattoria. Every plan comes with a consolidated grocery list so you can grab your San Marzano tomatoes and fresh basil in one trip.",
@@ -192,9 +192,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "mexican",
     type: "cuisine",
-    title: "Mexican Meal Plan with Grocery List – Free AI Planner",
+    title: "Mexican Meal Plan with Grocery List — 7 Days of Easy Dinners",
     metaDescription:
-      "Free personalized Mexican meal plan with recipes and grocery list. Tacos, enchiladas, rice bowls – AI-planned weekly menus. No credit card needed.",
+      "Personalized Mexican meal plan with recipes and grocery list. Tacos, enchiladas, rice bowls — planned weekly. Free preview, no credit card.",
     h1: "Bold Mexican Meal Plans for Every Night of the Week",
     intro:
       "Mexican cuisine goes far beyond tacos — it's a rich tapestry of moles, salsas, braises, and fresh ceviches shaped by centuries of tradition. Our AI meal planner delivers a week of authentic Mexican recipes with the right balance of heat, acid, and richness. Every plan comes with a grocery list so you know exactly which chiles, limes, and spices to grab.",
@@ -286,9 +286,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "asian",
     type: "cuisine",
-    title: "Weekly Asian Meal Plans",
+    title: "Asian Meal Plan with Grocery List — Stir-Fries to Rice Bowls",
     metaDescription:
-      "Plan your week with flavorful Asian-inspired meals. Get stir-fries, noodle soups, and rice bowls with auto-generated grocery lists. Quick, healthy, and delicious.",
+      "Personalized weekly Asian meal plan — stir-fries, noodle soups, and rice bowls with an auto-generated grocery list. Free preview included.",
     h1: "Asian-Inspired Meal Plans Packed with Flavor",
     intro:
       "Asian cuisine spans an incredible range — from the wok-fired intensity of Chinese stir-fries to the clean, herbaceous bowls of Vietnamese pho. Our Asian meal plans draw from across the continent to build a week of vibrant, well-balanced meals. Each plan includes a grocery list so you can stock up on soy sauce, sesame oil, rice noodles, and fresh aromatics in a single trip.",
@@ -380,9 +380,9 @@ export const CUISINE_PAGES: MealPlanPageData[] = [
   {
     slug: "mediterranean",
     type: "cuisine",
-    title: "Mediterranean Diet Meal Plan with Grocery List – Free",
+    title: "Mediterranean Diet Meal Plan with Grocery List (7 Days)",
     metaDescription:
-      "Free personalized Mediterranean diet meal plan with recipes and grocery list. Fresh vegetables, olive oil, lean proteins – AI-planned weekly. No card needed.",
+      "Personalized Mediterranean diet meal plan with recipes and grocery list. Fresh vegetables, olive oil, lean proteins. Free preview, no card needed.",
     h1: "Mediterranean Meal Plans for a Healthier Week",
     intro:
       "The Mediterranean diet is consistently ranked as the world's healthiest way to eat — and for good reason. Built on olive oil, fresh vegetables, whole grains, fish, and legumes, it's as delicious as it is nutritious. Our weekly plans curate the best of Greek, Spanish, Lebanese, and Italian coastal cooking into a practical meal schedule with a ready-to-go grocery list.",

@@ -195,6 +195,16 @@ export const lifestagePages: MealPlanPageData[] = [
         answer:
           "Our plans use minimal added salt and avoid processed high-sodium ingredients. We rely on herbs, spices, lemon, and garlic for flavor instead. That said, if your doctor has specific sodium limits, mention it in your dietary preferences and we'll tailor the plan accordingly.",
       },
+      {
+        question: "What is the best meal plan for elderly adults?",
+        answer:
+          "The best plan for adults over 65 prioritizes protein at every meal (to counter age-related muscle loss), calcium and vitamin D for bones, B12 for energy and cognition, and textures that are comfortable to chew — all with prep simple enough to do daily without fatigue. That's exactly how our senior plans are built: nutrient-dense, soft-textured where needed, and mostly one-pot or sheet-pan recipes.",
+      },
+      {
+        question: "Is there a meal planning service for seniors that isn't food delivery?",
+        answer:
+          "Yes. What's For Dinner is a planning service, not a delivery service — you get a personalized weekly meal plan with easy recipes and an organized grocery list, then shop and cook on your own schedule (or hand the list to a family member or caregiver). It costs a fraction of prepared-meal delivery and the food is fresher because you make it.",
+      },
     ],
     relatedSlugs: [
       "meal-plan-for-heart-health",
@@ -204,7 +214,7 @@ export const lifestagePages: MealPlanPageData[] = [
       "mediterranean",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-05-13",
+    dateModified: "2026-07-03",
   },
   {
     slug: "postpartum-meal-plan",

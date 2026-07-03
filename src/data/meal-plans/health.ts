@@ -299,6 +299,16 @@ export const healthPages: MealPlanPageData[] = [
         answer:
           "For many people, yes. Excess abdominal weight increases pressure on the stomach and weakens the lower esophageal sphincter. Studies show that even modest weight loss of 10-15 pounds can significantly reduce GERD symptoms. Our plans can be tailored for weight loss while staying GERD-friendly.",
       },
+      {
+        question: "What can I eat for dinner with acid reflux?",
+        answer:
+          "Safe, satisfying reflux-friendly dinners include baked or grilled lean proteins (chicken, turkey, white fish) with rice or potatoes, non-citrus roasted vegetables like zucchini, carrots, and green beans, oven-baked salmon with fennel, turkey meatballs with basil pesto instead of tomato sauce, and gentle soups like chicken and rice. Keep portions moderate, go easy on added fat, and finish eating at least 3 hours before bed.",
+      },
+      {
+        question: "Is there an app for GERD meal planning?",
+        answer:
+          "Yes — What's For Dinner builds a personalized weekly meal plan that excludes GERD triggers (tomatoes, citrus, chocolate, mint, raw onion, spicy peppers, fried food) automatically, with recipes and a grocery list included. You can combine it with other needs like dairy-free or weight loss, and see a free preview of your plan before subscribing.",
+      },
     ],
     relatedSlugs: [
       "dairy-free",
@@ -307,7 +317,7 @@ export const healthPages: MealPlanPageData[] = [
       "gut-health-meal-plan",
     ],
     datePublished: "2026-03-11",
-    dateModified: "2026-05-13",
+    dateModified: "2026-07-03",
   },
   {
     slug: "gut-health-meal-plan",

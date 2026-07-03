@@ -4,7 +4,7 @@ export const goalPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-weight-loss",
     type: "goal",
-    title: "Meal Plan for Weight Loss",
+    title: "Weight Loss Meal Plan with Grocery List — 7 Days of Real Food",
     metaDescription:
       "Get a personalized weekly meal plan for weight loss with balanced macros and grocery lists. Sustainable, satisfying meals planned automatically. Free preview.",
     h1: "Meal Plan for Weight Loss That Doesn't Feel Like a Diet",
@@ -100,7 +100,7 @@ export const goalPages: MealPlanPageData[] = [
     type: "goal",
     title: "Meal Plan for Muscle Gain",
     metaDescription:
-      "Build muscle with a personalized weekly meal plan. High-protein recipes with balanced macros and grocery lists, planned automatically. Try it free today.",
+      "Build muscle with a personalized weekly meal plan. High-protein recipes with balanced macros and grocery lists, planned automatically. See a free preview today.",
     h1: "Meal Plan for Muscle Gain That Fuels Real Results",
     intro:
       "Building muscle requires more than just hitting the gym — you need consistent, protein-rich nutrition to support recovery and growth. The problem is that meal prepping for a bulk is exhausting and repetitive. We generate a fresh high-calorie, high-protein meal plan every week so you can focus on training while we handle the nutrition.",
@@ -484,9 +484,9 @@ export const goalPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-on-a-budget",
     type: "goal",
-    title: "Budget Meal Plan",
+    title: "Budget Meal Plan with Grocery List — Eat Well for Less",
     metaDescription:
-      "Eat well for less with a budget meal plan. Affordable recipes, smart grocery lists, and zero food waste. Personalized weekly plans. Try it free today.",
+      "Eat well for less with a budget meal plan. Affordable recipes, smart grocery lists, and zero food waste. Personalized weekly plans. See a free preview today.",
     h1: "Cheap Meal Plan on a Budget That Doesn't Taste Cheap",
     intro:
       "Eating healthy on a tight budget is possible — you just need a plan. The biggest money wasters are impulse grocery shopping, food that goes bad before you use it, and last-minute takeout. Our budget meal plans use affordable staples, minimize waste with overlapping ingredients, and generate smart grocery lists so every dollar counts.",
@@ -583,9 +583,9 @@ export const goalPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-diabetes",
     type: "goal",
-    title: "Meal Plan for Diabetes",
+    title: "Diabetes Meal Plan with Grocery List — Low-Glycemic Weeks",
     metaDescription:
-      "Get a diabetes-friendly weekly meal plan with low-glycemic recipes, balanced carbs, and grocery lists. Manage blood sugar deliciously. Try it free today.",
+      "Get a diabetes-friendly weekly meal plan with low-glycemic recipes, balanced carbs, and grocery lists. Manage blood sugar deliciously. See a free preview today.",
     h1: "Meal Plan for Diabetes That Makes Blood Sugar Management Easier",
     intro:
       "Managing diabetes through diet doesn't have to mean giving up the foods you love. The key is consistent, balanced meals that keep blood sugar stable throughout the day. Our diabetes-friendly plans focus on low-glycemic carbs, lean proteins, healthy fats, and proper portions — all while keeping meals genuinely enjoyable.",
@@ -771,9 +771,9 @@ export const goalPages: MealPlanPageData[] = [
   {
     slug: "high-protein-meal-plan",
     type: "goal",
-    title: "High Protein Meal Plan",
+    title: "High-Protein Meal Plan with Grocery List (100g+ Daily)",
     metaDescription:
-      "Get a personalized high protein meal plan with 100g+ protein daily. Balanced recipes, automatic grocery lists, and weekly variety. Try it free today.",
+      "Get a personalized high protein meal plan with 100g+ protein daily. Balanced recipes, automatic grocery lists, and weekly variety. See a free preview today.",
     h1: "High Protein Meal Plan for Every Goal",
     intro:
       "Whether you're building muscle, losing weight, or just trying to feel more satisfied after meals, protein is the answer. The challenge is consistently hitting your protein target without eating the same grilled chicken every day. Our high protein plans deliver 100-180g of protein daily through diverse, delicious meals that never feel repetitive.",

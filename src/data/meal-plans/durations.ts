@@ -201,9 +201,9 @@ export const durationPages: MealPlanPageData[] = [
   {
     slug: "7-day-meal-plan",
     type: "duration",
-    title: "7-Day Meal Plan",
+    title: "7-Day Meal Plan with Grocery List — Breakfast, Lunch & Dinner",
     metaDescription:
-      "Get a complete 7-day meal plan with breakfast, lunch, and dinner recipes plus a grocery list. Fresh plans every week, personalized to your diet. Subscribe now.",
+      "Complete 7-day meal plan with breakfast, lunch, and dinner recipes plus a grocery list. Personalized to your diet, fresh every week. Free preview.",
     h1: "7-Day Meal Plan: Your Entire Week, Sorted",
     intro:
       "A full 7-day meal plan is the gold standard of meal planning. Every breakfast, lunch, and dinner for the entire week — planned, portioned, and grocery-listed before Monday morning. No gaps, no guesswork, no wasted food. This is what our subscribers get every single week: a complete plan built around their preferences, delivered automatically.",

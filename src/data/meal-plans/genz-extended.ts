@@ -203,7 +203,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Post-Graduation Meal Plan",
     metaDescription:
-      "Just graduated? Learn to cook real meals in your first kitchen. Easy recipes for new adults with grocery lists and zero assumed skill. Try it free today.",
+      "Just graduated? Learn to cook real meals in your first kitchen. Easy recipes for new adults with grocery lists and zero assumed skill. See a free preview today.",
     h1: "Post-Graduation Meal Plan — Your First Kitchen, Your First Real Meals",
     intro:
       "You have a real kitchen for the first time. There's a stove with four burners and you've only ever used a microwave. The dining hall is gone, your parents aren't cooking for you, and suddenly 'what's for dinner' is your problem every single night. These meal plans are designed for the transition from college eating to actual adult cooking — simple recipes that teach you fundamentals while feeding you well. No culinary school required.",
@@ -399,7 +399,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
     type: "genz",
     title: "Remote Worker Meal Plan",
     metaDescription:
-      "Stop ordering UberEats for lunch. Get a WFH meal plan with quick lunches, desk-friendly snacks, and dinners that don't take all evening. Try it free today.",
+      "Stop ordering UberEats for lunch. Get a WFH meal plan with quick lunches, desk-friendly snacks, and dinners that don't take all evening. See a free preview today.",
     h1: "Remote Worker Meal Plan — Stop Ordering UberEats for Lunch",
     intro:
       "Working from home was supposed to make eating easier. Instead, you're ordering delivery for lunch because you 'don't have time to cook' even though your kitchen is ten feet away. Sound familiar? These plans give you quick WFH lunches that take less time than waiting for a delivery driver, plus dinners that don't eat into your evening. Your kitchen is right there — you might as well use it.",
@@ -679,6 +679,16 @@ export const genzExtendedPages: MealPlanPageData[] = [
         answer:
           "Absolutely. Prep ingredients on your day off — chop vegetables, portion rice, pre-cook proteins — and store in containers. During the week, assembly and microwaving takes 5-10 minutes. It's the fastest meal prep system there is.",
       },
+      {
+        question: "What does a full week of microwave meals look like?",
+        answer:
+          "A typical week: microwave scrambled eggs or overnight oats for breakfast, loaded baked potatoes and mug soups for lunch, and dinners like chicken teriyaki rice bowls, mug pasta marinara, microwave-steamed salmon with vegetables, and black bean burrito bowls. Every recipe on the plan is microwave-only, and the grocery list is built around shelf-stable and fridge-friendly staples.",
+      },
+      {
+        question: "Do microwave meal plans work for weight loss?",
+        answer:
+          "Yes — often better than regular cooking, because microwave recipes are naturally portion-controlled (you cook in a single bowl or mug) and use little to no added oil. Steamed vegetables, eggs, potatoes, rice, and lean proteins are all weight-loss-friendly foods that microwave well. Set a calorie target in your preferences and the plan adjusts automatically.",
+      },
     ],
     relatedSlugs: [
       "dorm-room-meal-plan",
@@ -686,7 +696,7 @@ export const genzExtendedPages: MealPlanPageData[] = [
       "quick-30-minute-meal-plan",
     ],
     datePublished: "2026-03-13",
-    dateModified: "2026-05-13",
+    dateModified: "2026-07-03",
   },
   {
     slug: "meal-plan-for-depression",

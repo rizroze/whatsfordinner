@@ -98,9 +98,9 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-two",
     type: "household",
-    title: "Meal Plan for Two",
+    title: "Meal Plan for Two with Grocery List — Portioned, No Waste",
     metaDescription:
-      "Get a weekly meal plan perfectly portioned for two people. Balanced recipes, shared grocery lists, and no leftovers piling up. Try it free today.",
+      "Get a weekly meal plan perfectly portioned for two people. Balanced recipes, shared grocery lists, and no leftovers piling up. See a free preview today.",
     h1: "Meal Plan for Two That Makes Weeknight Cooking Easy",
     intro:
       "Cooking for two should be simple, but most recipes serve four and leave you drowning in leftovers or halving measurements awkwardly. Our plans are built for exactly two servings — date-night-worthy dinners, easy weeknight meals, and a grocery list sized so nothing goes to waste. Whether you're a couple, roommates, or parent-and-kid, it just works.",
@@ -192,7 +192,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "meal-plan-for-family-of-4",
     type: "household",
-    title: "Meal Plan for a Family of 4",
+    title: "Family Meal Plan for 4 with Grocery List (Kid-Approved)",
     metaDescription:
       "Get a weekly family meal plan for 4 with kid-friendly recipes, balanced nutrition, and one grocery list. End the 'what's for dinner' stress. Free preview.",
     h1: "Meal Plan for a Family of 4 That Everyone Will Actually Eat",
@@ -387,7 +387,7 @@ export const householdPages: MealPlanPageData[] = [
     type: "household",
     title: "Meal Plan for College Students",
     metaDescription:
-      "Get a weekly meal plan built for college life. Budget-friendly, dorm-friendly recipes with minimal equipment and short prep times. Try it free today.",
+      "Get a weekly meal plan built for college life. Budget-friendly, dorm-friendly recipes with minimal equipment and short prep times. See a free preview today.",
     h1: "Meal Plan for College Students on a Real Student Budget",
     intro:
       "Between classes, studying, and a social life, cooking is the last thing on most college students' minds. But surviving on ramen and dining hall pizza gets old fast — and expensive. Our college meal plans use cheap ingredients, minimal equipment, and recipes short enough to cook between classes. No oven required for most meals.",
@@ -484,7 +484,7 @@ export const householdPages: MealPlanPageData[] = [
   {
     slug: "quick-30-minute-meal-plan",
     type: "household",
-    title: "Quick 30-Minute Meal Plan",
+    title: "30-Minute Meal Plan with Grocery List — Fast Weeknight Meals",
     metaDescription:
       "Get a weekly meal plan where every recipe takes 30 minutes or less. Fast, balanced dinners with grocery lists included. See your personalized preview today.",
     h1: "Quick 30-Minute Meal Plan for Busy Weeknights",

@@ -184,10 +184,20 @@ export const genzSituationPages: MealPlanPageData[] = [
         answer:
           "We include gentle suggestions each week — like trying garlic bread instead of plain toast, or adding a mild cheese sauce to broccoli. The key word is gentle. No one expands their palate by being forced to eat something they hate. Small, low-stakes experiments alongside familiar foods is how it actually works.",
       },
+      {
+        question: "Is there a meal planning app for picky adult eaters?",
+        answer:
+          "Yes — What's For Dinner lets you list foods you never want to see, then builds a weekly plan with recipes and a grocery list entirely from foods you actually eat. No hidden vegetables, no 'just try it' meals unless you opt in. You can see a free preview of your plan before subscribing.",
+      },
+      {
+        question: "What should a picky adult eat in a week?",
+        answer:
+          "A realistic week built on safe foods: eggs and toast or plain yogurt for breakfasts, grilled cheese, chicken sandwiches, and buttered noodles for lunches, and dinners like baked chicken tenders, burgers, spaghetti with mild meat sauce, breakfast-for-dinner, and homemade pizza with your exact toppings. That rotation covers protein, carbs, and enough variety to not get bored — with zero foods off your safe list.",
+      },
     ],
     relatedSlugs: ["meal-plan-for-picky-eaters", "meal-plan-for-beginners", "meal-plan-no-cooking-experience"],
     datePublished: "2026-03-13",
-    dateModified: "2026-05-13",
+    dateModified: "2026-07-03",
   },
   {
     slug: "meal-plan-no-oven",
@@ -382,7 +392,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Gamer Meal Plan",
     metaDescription:
-      "A meal plan for gamers: one-handed snacks, quick between-match meals, and real energy without energy drinks. Fuel your sessions. Try it free today.",
+      "A meal plan for gamers: one-handed snacks, quick between-match meals, and real energy without energy drinks. Fuel your sessions. See a free preview today.",
     h1: "Gamer Meal Plan — Fuel Your Sessions Without Leaving the Chair",
     intro:
       "You need food that works around your schedule, not the other way around. That means meals you can eat between matches, snacks you can grab with one hand without getting your controller greasy, and energy that doesn't come from your fourth Red Bull. This plan is designed around how gamers actually eat — quick prep before a session, easy snacks during, and a real meal after. No grease on your peripherals, no sugar crashes mid-raid, and no pausing at a bad time because you forgot to eat for six hours.",
@@ -664,7 +674,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Anti-Diet Meal Plan",
     metaDescription:
-      "An anti-diet meal plan built around intuitive eating. No calorie counting, no restrictions, no guilt. Balanced meals without the stress. Try it free today.",
+      "An anti-diet meal plan built around intuitive eating. No calorie counting, no restrictions, no guilt. Balanced meals without the stress. See a free preview today.",
     h1: "Anti-Diet Meal Plan — Eat Well Without Counting Anything",
     intro:
       "You're tired of food being a math problem. Calories, macros, points, good foods, bad foods, cheat days — it's exhausting and it hasn't made you healthier or happier. This meal plan takes a different approach. There are no forbidden foods, no calorie counts, and no guilt trips. Just balanced, satisfying meals that include carbs because your brain needs them, fat because food should taste good, and dessert because you're a human being. The goal isn't weight loss or muscle gain — it's eating well without the mental gymnastics.",
@@ -758,7 +768,7 @@ export const genzSituationPages: MealPlanPageData[] = [
     type: "genz",
     title: "Shift Worker Meal Plan",
     metaDescription:
-      "Meal plan for shift workers with irregular hours. Pre-made, reheat-friendly, pack-and-go meals that work at 6am, 2pm, or midnight. Try it free today.",
+      "Meal plan for shift workers with irregular hours. Pre-made, reheat-friendly, pack-and-go meals that work at 6am, 2pm, or midnight. See a free preview today.",
     h1: "Shift Worker Meal Plan — Real Meals for Irregular Hours",
     intro:
       "Your 'dinner' might be at 2am. Your 'breakfast' could be at 4pm. Normal meal plans don't work when your schedule rotates between days, evenings, and nights. This plan is built for people who work shifts — nurses, retail workers, factory workers, security, warehouse crews, anyone whose clock doesn't match the rest of the world's. Every meal is pre-made and reheat-friendly, packable in a container, and designed to keep you energized whether you're eating in a break room at midnight or grabbing something between back-to-back shifts.",
