@@ -563,8 +563,8 @@ export default function BestMealPlanningAppsPage() {
         </p>
         <p>
           At <strong>$7.99/month</strong> (or $5/month on the yearly plan), it is
-          one of the most affordable serious options on this list. There is a free
-          3-day trial that requires no signup and no credit card &mdash; you can
+          one of the most affordable serious options on this list. There is a free preview
+          that requires no signup and no credit card &mdash; you can
           see exactly what you get before committing.
         </p>
 
@@ -603,7 +603,7 @@ export default function BestMealPlanningAppsPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try What&apos;s For Dinner free
+          Try What&apos;s For Dinner
         </Link>
       </div>
 

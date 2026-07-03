@@ -435,11 +435,11 @@ export default function FoodBudgetInYour20sArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your budget and preferences in two minutes. Get a personalized
-          meal plan with recipes and a grocery list by email. No credit card
+          meal plan with recipes and a grocery list. No credit card
           required.
         </p>
         <Link

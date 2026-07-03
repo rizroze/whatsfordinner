@@ -167,8 +167,8 @@ const defaultUI: TemplateUI = {
   faq: "Frequently Asked Questions",
   related: "Related Meal Plans",
   guides: "Helpful Guides",
-  ctaTitle: "Your first week is free",
-  ctaSub: "Get a personalized 3-day meal plan with recipes and a grocery list. No credit card required.",
+  ctaTitle: "Start with a free preview",
+  ctaSub: "See a personalized preview of your meal plan with recipes and a grocery list. No credit card required.",
   ctaBtn: "Preview Your Plan Free",
 };
 
@@ -184,7 +184,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "Por Qué Elegir Este Plan", sampleMeals: "Comidas de Ejemplo", faq: "Preguntas Frecuentes",
     related: "Planes de Comida Relacionados",
     guides: "Guías Útiles",
-    ctaTitle: "Tu primera semana es gratis", ctaSub: "Obtén un plan de comida personalizado de 3 días con recetas y lista de compras. Sin tarjeta de crédito.", ctaBtn: "Comienza Tu Plan Gratis",
+    ctaTitle: "Empieza con una vista previa gratis", ctaSub: "Mira una vista previa personalizada de tu plan de comidas con recetas y lista de compras. Sin tarjeta de crédito.", ctaBtn: "Ver Vista Previa Gratis",
   },
   fr: {
     home: "Accueil", mealPlans: "Plans Repas", howItWorks: "Comment Ça Marche",
@@ -196,7 +196,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "Pourquoi Choisir Ce Plan", sampleMeals: "Exemples de Repas", faq: "Questions Fréquentes",
     related: "Plans Repas Associés",
     guides: "Guides Utiles",
-    ctaTitle: "Votre première semaine est gratuite", ctaSub: "Recevez un plan repas personnalisé de 3 jours avec recettes et liste de courses. Sans carte de crédit.", ctaBtn: "Commencez Votre Plan Gratuit",
+    ctaTitle: "Commencez avec un aperçu gratuit", ctaSub: "Découvrez un aperçu personnalisé de votre plan repas avec recettes et liste de courses. Sans carte de crédit.", ctaBtn: "Voir l'Aperçu Gratuit",
   },
   de: {
     home: "Startseite", mealPlans: "Essenspläne", howItWorks: "So Funktioniert's",
@@ -208,7 +208,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "Warum Diesen Plan Wählen", sampleMeals: "Beispielgerichte", faq: "Häufig Gestellte Fragen",
     related: "Verwandte Essenspläne",
     guides: "Hilfreiche Ratgeber",
-    ctaTitle: "Ihre erste Woche ist kostenlos", ctaSub: "Erhalten Sie einen personalisierten 3-Tage-Essensplan mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.", ctaBtn: "Starten Sie Ihren Kostenlosen Plan",
+    ctaTitle: "Starten Sie mit einer kostenlosen Vorschau", ctaSub: "Sehen Sie eine personalisierte Vorschau Ihres Essensplans mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.", ctaBtn: "Kostenlose Vorschau Ansehen",
   },
   pt: {
     home: "Início", mealPlans: "Planos de Refeição", howItWorks: "Como Funciona",
@@ -220,7 +220,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "Por Que Escolher Este Plano", sampleMeals: "Refeições Exemplo", faq: "Perguntas Frequentes",
     related: "Planos de Refeição Relacionados",
     guides: "Guias Úteis",
-    ctaTitle: "Sua primeira semana é grátis", ctaSub: "Receba um plano de refeição personalizado de 3 dias com receitas e lista de compras. Sem cartão de crédito.", ctaBtn: "Comece Seu Plano Grátis",
+    ctaTitle: "Comece com uma prévia grátis", ctaSub: "Veja uma prévia personalizada do seu plano de refeições com receitas e lista de compras. Sem cartão de crédito.", ctaBtn: "Ver Prévia Grátis",
   },
   ja: {
     home: "ホーム", mealPlans: "食事プラン", howItWorks: "使い方",
@@ -232,7 +232,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "このプランを選ぶ理由", sampleMeals: "サンプルメニュー", faq: "よくある質問",
     related: "関連する食事プラン",
     guides: "お役立ちガイド",
-    ctaTitle: "最初の1週間は無料", ctaSub: "レシピと買い物リスト付きのパーソナライズされた3日間食事プランを入手。クレジットカード不要。", ctaBtn: "無料プランを始める",
+    ctaTitle: "まずは無料プレビュー", ctaSub: "レシピと買い物リスト付きのパーソナライズされた食事プランのプレビューを無料で確認。クレジットカード不要。", ctaBtn: "無料プレビューを見る",
   },
   ko: {
     home: "홈", mealPlans: "식사 계획", howItWorks: "이용 방법",
@@ -244,7 +244,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "이 플랜을 선택하는 이유", sampleMeals: "샘플 식사", faq: "자주 묻는 질문",
     related: "관련 식사 계획",
     guides: "유용한 가이드",
-    ctaTitle: "첫 주는 무료입니다", ctaSub: "레시피와 장보기 목록이 포함된 개인 맞춤 3일 식사 계획을 받으세요. 신용카드 필요 없음.", ctaBtn: "무료 플랜 시작하기",
+    ctaTitle: "무료 미리보기로 시작하세요", ctaSub: "레시피와 장보기 목록이 포함된 맞춤형 식단 미리보기를 확인하세요. 신용카드 필요 없음.", ctaBtn: "무료 미리보기 보기",
   },
   zh: {
     home: "首页", mealPlans: "膳食计划", howItWorks: "如何使用",
@@ -256,7 +256,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "为什么选择此计划", sampleMeals: "示例餐点", faq: "常见问题",
     related: "相关膳食计划",
     guides: "实用指南",
-    ctaTitle: "第一周免费", ctaSub: "获取包含食谱和购物清单的个性化3天膳食计划。无需信用卡。", ctaBtn: "开始免费计划",
+    ctaTitle: "从免费预览开始", ctaSub: "免费预览包含食谱和购物清单的个性化膳食计划。无需信用卡。", ctaBtn: "查看免费预览",
   },
   ar: {
     home: "الرئيسية", mealPlans: "خطط الوجبات", howItWorks: "كيف يعمل",
@@ -268,7 +268,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "لماذا تختار هذه الخطة", sampleMeals: "وجبات نموذجية", faq: "الأسئلة الشائعة",
     related: "خطط وجبات ذات صلة",
     guides: "أدلة مفيدة",
-    ctaTitle: "أسبوعك الأول مجاني", ctaSub: "احصل على خطة وجبات مخصصة لمدة 3 أيام مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.", ctaBtn: "ابدأ خطتك المجانية",
+    ctaTitle: "ابدأ بمعاينة مجانية", ctaSub: "شاهد معاينة مخصصة لخطة وجباتك مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.", ctaBtn: "شاهد المعاينة المجانية",
   },
   tr: {
     home: "Ana Sayfa", mealPlans: "Yemek Planları", howItWorks: "Nasıl Çalışır",
@@ -280,7 +280,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "Bu Planı Neden Seçmelisiniz", sampleMeals: "Örnek Yemekler", faq: "Sık Sorulan Sorular",
     related: "İlgili Yemek Planları",
     guides: "Faydalı Rehberler",
-    ctaTitle: "İlk haftanız ücretsiz", ctaSub: "Tarifler ve alışveriş listesi ile kişiselleştirilmiş 3 günlük yemek planı alın. Kredi kartı gerekmez.", ctaBtn: "Ücretsiz Planınızı Başlatın",
+    ctaTitle: "Ücretsiz önizleme ile başlayın", ctaSub: "Tarifler ve alışveriş listesi ile kişiselleştirilmiş yemek planınızın önizlemesini görün. Kredi kartı gerekmez.", ctaBtn: "Ücretsiz Önizlemeyi Gör",
   },
   hi: {
     home: "होम", mealPlans: "भोजन योजनाएं", howItWorks: "कैसे काम करता है",
@@ -292,7 +292,7 @@ const uiStrings: Record<string, TemplateUI> = {
     whyChoose: "यह योजना क्यों चुनें", sampleMeals: "नमूना भोजन", faq: "अक्सर पूछे जाने वाले प्रश्न",
     related: "संबंधित भोजन योजनाएं",
     guides: "उपयोगी गाइड",
-    ctaTitle: "आपका पहला सप्ताह मुफ्त है", ctaSub: "व्यंजनों और किराने की सूची के साथ व्यक्तिगत 3-दिन की भोजन योजना प्राप्त करें। क्रेडिट कार्ड की आवश्यकता नहीं।", ctaBtn: "अपनी मुफ्त योजना शुरू करें",
+    ctaTitle: "मुफ्त पूर्वावलोकन से शुरू करें", ctaSub: "व्यंजनों और किराने की सूची के साथ अपनी व्यक्तिगत भोजन योजना का पूर्वावलोकन देखें। क्रेडिट कार्ड की आवश्यकता नहीं।", ctaBtn: "मुफ्त पूर्वावलोकन देखें",
   },
 };
 

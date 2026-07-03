@@ -6,11 +6,11 @@ import { MealCardGrid, WeekPreviewCTA } from "@/components/blog/MealCard";
 export const metadata: Metadata = {
   title: "The Only Grocery List Template You Need (+ Free Generator)",
   description:
-    "Stop writing random grocery lists. This store-section template matches your meals to your list automatically. Free weekly grocery list generator included.",
+    "Stop writing random grocery lists. This store-section template matches your meals to your list automatically. Free preview included.",
   openGraph: {
     title: "The Only Grocery List Template You Need (+ Free Generator)",
     description:
-      "Stop writing random grocery lists. This store-section template matches your meals to your list automatically. Free weekly grocery list generator included.",
+      "Stop writing random grocery lists. This store-section template matches your meals to your list automatically. Free preview included.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=The%20Only%20Grocery%20List%20Template%20You%20Need%20(%2B%20Free%20Generator)&description=Stop%20writing%20random%20grocery%20lists.%20This%20store-section%20template%20matches%20your%20meals%20to%20your%20list%20automatically.%20Free%20weekl`, width: 1200, height: 630 }],
@@ -33,7 +33,7 @@ export default function GroceryListTemplateArticle() {
     <>
       <ArticleJsonLd
         title="The Only Grocery List Template You Need (+ Free Generator)"
-        description="Stop writing random grocery lists. This store-section template matches your meals to your list automatically. Free weekly grocery list generator included."
+        description="Stop writing random grocery lists. This store-section template matches your meals to your list automatically. Free preview included."
         url="https://whatsfordinner.fit/blog/grocery-list-template"
         datePublished="2026-03-18"
       />
@@ -73,7 +73,7 @@ export default function GroceryListTemplateArticle() {
                 name: "Is there a free grocery list generator?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. What's For Dinner generates a personalized grocery list automatically when it creates your weekly meal plan. You tell it your dietary preferences, household size, and budget. It generates a full week of meals with recipes, then builds a matching grocery list organized by store section. The first plan is free.",
+                  text: "Yes. What's For Dinner generates a personalized grocery list automatically when it creates your weekly meal plan. You tell it your dietary preferences, household size, and budget. It generates a full week of meals with recipes, then builds a matching grocery list organized by store section. A free preview is available.",
                 },
               },
             ],
@@ -368,12 +368,12 @@ export default function GroceryListTemplateArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your preferences. Get a personalized meal plan with recipes
           and an auto-generated grocery list &mdash; organized by store
-          section with exact quantities. $7.99/mo after your trial.
+          section with exact quantities. $7.99/mo for the full plan.
         </p>
         <Link
           href="/onboarding"

@@ -330,11 +330,11 @@ export default function HealthyMealPlanForTheWeekArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your goals and preferences. Get a personalized healthy meal plan with
-          recipes and a grocery list. $7.99/mo after your trial.
+          recipes and a grocery list. $7.99/mo for the full plan.
         </p>
         <Link
           href="/onboarding"

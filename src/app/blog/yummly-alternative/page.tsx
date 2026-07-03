@@ -5,7 +5,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 export const metadata: Metadata = {
   title: "Best Yummly Alternative in 2026 (After Shutdown)",
   description:
-    "Yummly shut down in December 2024 and isn't coming back. Here's the best replacement: AI-powered meal plans with recipes and a grocery list, personalized weekly for $7.99/mo. Free trial, no app needed.",
+    "Yummly shut down in December 2024 and isn't coming back. Here's the best replacement: AI-powered meal plans with recipes and a grocery list, personalized weekly for $7.99/mo. Free preview, no app needed.",
   openGraph: {
     title: "Best Yummly Alternative in 2026 (After Shutdown)",
     description:
@@ -79,7 +79,7 @@ export default function YummlyAlternativePage() {
                 name: "How much does a Yummly alternative cost?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "What's For Dinner costs $7.99/month or $59.99/year ($5/month effective). You can try it free with a 3-day sample plan before subscribing. Unlike Yummly, which was free but funded by Whirlpool's hardware business (and shut down when that strategy changed), What's For Dinner is independently funded by subscriptions.",
+                  text: "What's For Dinner costs $7.99/month or $59.99/year ($5/month effective). You can see a free preview before subscribing. Unlike Yummly, which was free but funded by Whirlpool's hardware business (and shut down when that strategy changed), What's For Dinner is independently funded by subscriptions.",
                 },
               },
               {
@@ -103,7 +103,7 @@ export default function YummlyAlternativePage() {
                 name: "Is there a free Yummly alternative?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "What's For Dinner offers a free 3-day sample plan with recipes and a grocery list, no account or credit card needed. Mealime has a free tier with limited dietary filters. For free recipe browsing, What's For Dinner maintains a library of 250 curated recipes at whatsfordinner.fit/recipes. The USDA MyPlate program also offers free basic meal plans.",
+                  text: "What's For Dinner offers a free preview with recipes and a grocery list, no account or credit card needed. Mealime has a free tier with limited dietary filters. For free recipe browsing, What's For Dinner maintains a library of 250 curated recipes at whatsfordinner.fit/recipes. The USDA MyPlate program also offers free basic meal plans.",
                 },
               },
             ],
@@ -484,7 +484,7 @@ export default function YummlyAlternativePage() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Get a personalized meal plan with recipes and a grocery list delivered to your inbox
-          every week. Your first 3 days are free.
+          every week. Start with a free preview.
         </p>
         <Link
           href="/onboarding"
@@ -670,7 +670,7 @@ export default function YummlyAlternativePage() {
           shopping.
         </p>
         <p>
-          As soon as you finish, you&apos;ll get a free 3-day sample plan
+          As soon as you finish, you&apos;ll see a free preview of your plan
           instantly -- complete with recipes and a grocery list. No credit
           card required to see what you&apos;re getting.
         </p>
@@ -738,8 +738,8 @@ export default function YummlyAlternativePage() {
           <p>
             Yummly was free but ad-supported and ultimately shut down when
             Whirlpool changed strategy. What&apos;s For Dinner costs $7.99/month
-            or $59.99/year ($5/month effective). You can try it free with a
-            3-day sample plan before subscribing. The subscription model means
+            or $59.99/year ($5/month effective). You can see a free preview
+            before subscribing. The subscription model means
             the product is funded by users, not a parent company&apos;s hardware
             ambitions.
           </p>
@@ -793,7 +793,7 @@ export default function YummlyAlternativePage() {
               href="/onboarding"
               className="text-orange-500 hover:text-orange-600 underline"
             >
-              free 3-day sample plan
+              free preview
             </Link>{" "}
             with recipes and a grocery list, no account or credit card needed.
             You can also browse our{" "}

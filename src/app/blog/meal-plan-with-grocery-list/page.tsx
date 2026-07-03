@@ -58,7 +58,7 @@ export default function MealPlanWithGroceryList() {
                 name: "How do I create a meal plan and grocery list for the week?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Set your dietary preferences, household size, and budget during a 2-minute onboarding. The AI generates a full 7-day meal plan with recipes and a consolidated grocery list grouped by store section. Duplicates across recipes are merged automatically so you buy exactly what you need. Your first plan is free with no signup required.",
+                  text: "Set your dietary preferences, household size, and budget during a 2-minute onboarding. The AI generates a full 7-day meal plan with recipes and a consolidated grocery list grouped by store section. Duplicates across recipes are merged automatically so you buy exactly what you need. A free preview is available with no signup required.",
                 },
               },
               {
@@ -620,7 +620,7 @@ export default function MealPlanWithGroceryList() {
             The AI generates a full 7-day meal plan with recipes and a
             consolidated grocery list grouped by store section. Duplicates
             across recipes are merged automatically so you buy exactly what
-            you need. Your first plan is free.
+            you need. Start with a free preview.
           </p>
         </div>
 

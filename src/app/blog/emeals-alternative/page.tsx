@@ -258,7 +258,7 @@ export default function EMealsAlternativePage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free
+          See a free preview
         </Link>
       </div>
 
@@ -377,7 +377,7 @@ export default function EMealsAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          More value per dollar &mdash; and a free trial with no signup
+          More value per dollar &mdash; and a free preview with no signup
         </h3>
         <p>
           At <strong>$7.99/month</strong>, What&apos;s For Dinner costs a couple

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "Best Eat This Much Alternative 2026 (Cheaper + Better Variety)",
   description:
-    "Eat This Much costs $8.99/mo for recycled database meals. What's For Dinner uses AI to generate original meal plans with recipes and a grocery list every week for $7.99/mo. Free 3-day trial, no signup.",
+    "Eat This Much costs $8.99/mo for recycled database meals. What's For Dinner uses AI to generate original meal plans with recipes and a grocery list every week for $7.99/mo. Free preview, no signup.",
   openGraph: {
     title:
       "Best Eat This Much Alternative 2026 (Cheaper + Better Variety)",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title:
       "Best Eat This Much Alternative 2026 (Cheaper + Better Variety)",
     description:
-      "Eat This Much costs $8.99/mo for recycled database meals. AI-generated meal plans with recipes and grocery list for $7.99/mo. Free trial.",
+      "Eat This Much costs $8.99/mo for recycled database meals. AI-generated meal plans with recipes and grocery list for $7.99/mo. Free preview.",
     images: ["/api/og?title=Best%20Eat%20This%20Much%20Alternative%202026%20(Cheaper%20%2B%20Better%20Variety)&description=Eat%20This%20Much%20costs%20%248.99%2Fmo%20for%20recycled%20database%20meals.%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20original%20meal%20plans%20with"],
   },
 };
@@ -81,7 +81,7 @@ export default function EatThisMuchAlternativePage() {
                 name: "Is there a free meal planner better than Eat This Much?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "What's For Dinner offers a free 3-day sample plan with no signup or credit card required — significantly more useful than Eat This Much's limited free tier. The free trial includes full AI-generated recipes and a grocery list, so you can evaluate the service before paying anything.",
+                  text: "What's For Dinner offers a free preview with no signup or credit card required — significantly more useful than Eat This Much's limited free tier. The preview shows AI-generated recipes and a grocery list, so you can evaluate the service before paying anything.",
                 },
               },
             ],
@@ -335,7 +335,7 @@ export default function EatThisMuchAlternativePage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free
+          See a free preview
         </Link>
       </div>
 

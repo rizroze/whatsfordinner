@@ -343,12 +343,12 @@ export default function HowToStopOrderingTakeoutArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your preferences in two minutes. Get a personalized meal plan
           with recipes and a grocery list &mdash; no more deciding what&apos;s
-          for dinner. $7.99/mo after your trial.
+          for dinner. $7.99/mo for the full plan.
         </p>
         <Link
           href="/onboarding"

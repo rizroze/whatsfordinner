@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Prepear Alternative 2026 | AI Meal Plans",
   description:
-    "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free trial, no signup required.",
+    "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free preview, no signup required.",
   openGraph: {
     title:
       "Best Prepear Alternative (2026)",
     description:
-      "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free trial, no signup required.",
+      "Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free preview, no signup required.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=Best%20Prepear%20Alternative%20(2026)&description=Looking%20for%20a%20Prepear%20alternative%3F%20What's%20For%20Dinner%20uses%20AI%20to%20generate%20personalized%20meal%20plans%20tailored%20to%20your%20diet%2C%20`, width: 1200, height: 630 }],
@@ -33,7 +33,7 @@ export default function PrepearAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Prepear Alternative in 2026"
-        description="Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free trial, no signup required."
+        description="Looking for a Prepear alternative? What's For Dinner uses AI to generate personalized meal plans tailored to your diet, allergies, and budget — $7.99/mo with a free preview, no signup required."
         url="https://whatsfordinner.fit/blog/prepear-alternative"
         datePublished="2026-03-07"
       />
@@ -258,7 +258,7 @@ export default function PrepearAlternativePage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free
+          See a free preview
         </Link>
       </div>
 

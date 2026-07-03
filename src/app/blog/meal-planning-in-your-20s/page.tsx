@@ -355,12 +355,12 @@ export default function MealPlanningInYour20sArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your budget, dietary preferences, and cooking skill level.
           Get a personalized 7-day meal plan with recipes and a grocery list
-          &mdash; delivered to your inbox. $7.99/mo after your trial.
+          &mdash; delivered to your inbox. $7.99/mo for the full plan.
         </p>
         <Link
           href="/onboarding"

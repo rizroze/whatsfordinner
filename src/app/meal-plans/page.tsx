@@ -249,10 +249,10 @@ export default function MealPlansIndex() {
       {/* CTA */}
       <section className="rounded-2xl bg-orange-500 p-8 sm:p-12 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-          Your first week is free
+          Start with a free preview
         </h2>
         <p className="text-orange-100 text-sm sm:text-base mb-6 max-w-md mx-auto">
-          Get a personalized 3-day meal plan with recipes and a grocery list. No credit card required.
+          See a personalized preview of your meal plan with recipes and a grocery list. No credit card required.
         </p>
         <Link
           href="/onboarding"

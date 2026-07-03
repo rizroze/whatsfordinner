@@ -367,11 +367,11 @@ export default function SplittingGroceriesWithRoommatesArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Get a personalized meal plan with recipes and a grocery list.
-          Share it with your roommates. $7.99/mo after your trial &mdash;
+          Share it with your roommates. $7.99/mo for the full plan &mdash;
           cheaper than one argument about missing eggs.
         </p>
         <Link

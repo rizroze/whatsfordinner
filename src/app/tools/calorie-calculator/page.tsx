@@ -534,7 +534,7 @@ export default function CalorieCalculatorPage() {
                 href="/onboarding"
                 className="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white font-medium py-3 px-8 rounded-full shadow-sm hover:shadow-md transition-all duration-200 text-sm"
               >
-                Try It Free — No Credit Card
+                See a Free Preview — No Credit Card
               </Link>
             </div>
           </div>

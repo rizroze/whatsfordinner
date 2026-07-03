@@ -6,11 +6,11 @@ import { MealCardGrid, WeekPreviewCTA } from "@/components/blog/MealCard";
 export const metadata: Metadata = {
   title: "Family Meal Planning: Feed 4 for Under $50–$100/Week (2026 Guide)",
   description:
-    "How to feed a family of 4 for $50–$100/week with real meals kids will eat. Sample 5-day plan, budget breakdowns, picky-eater strategies, and batch cooking tips. Free personalized plan included.",
+    "How to feed a family of 4 for $50–$100/week with real meals kids will eat. Sample 5-day plan, budget breakdowns, picky-eater strategies, and batch cooking tips. Free personalized preview included.",
   openGraph: {
     title: "Family Meal Planning: Feed 4 for Under $50–$100/Week (2026 Guide)",
     description:
-      "How to feed a family of 4 for $50–$100/week with real meals kids will eat. Sample 5-day plan, budget breakdowns, picky-eater strategies, and batch cooking tips. Free personalized plan included.",
+      "How to feed a family of 4 for $50–$100/week with real meals kids will eat. Sample 5-day plan, budget breakdowns, picky-eater strategies, and batch cooking tips. Free personalized preview included.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=Meal%20Planning%20for%20Families%3A%20Feed%20a%20Family%20of%204%20for%20Under%20%24100%2FWeek&description=Family%20meal%20planning%20made%20practical.%20Sample%205-day%20plan%20with%20kid-friendly%20dinners%2C%20weekly%20grocery%20costs%20for%20families%20of%202`, width: 1200, height: 630 }],
@@ -33,7 +33,7 @@ export default function MealPlanningForFamiliesArticle() {
     <>
       <ArticleJsonLd
         title="Meal Planning for Families: Feed a Family of 4 for Under $100/Week"
-        description="Family meal planning made practical. Sample 5-day plan with kid-friendly dinners, weekly grocery costs for families of 2, 4, and 6, picky-eater strategies, and batch cooking tips. Free personalized plan included."
+        description="Family meal planning made practical. Sample 5-day plan with kid-friendly dinners, weekly grocery costs for families of 2, 4, and 6, picky-eater strategies, and batch cooking tips. Free personalized preview included."
         url="https://whatsfordinner.fit/blog/meal-planning-for-families"
         datePublished="2026-03-13"
       />
@@ -694,7 +694,7 @@ export default function MealPlanningForFamiliesArticle() {
             href="/onboarding"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            Try it free
+            See a free preview
           </Link>
           .
         </p>
@@ -785,12 +785,12 @@ export default function MealPlanningForFamiliesArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first family meal plan is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your family&apos;s preferences in two minutes. Get a personalized
           meal plan with recipes and a grocery list by email, built for your
-          household. $7.99/mo after your trial.
+          household. $7.99/mo for the full plan.
         </p>
         <Link
           href="/onboarding"

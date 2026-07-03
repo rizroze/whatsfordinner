@@ -6,11 +6,11 @@ import { MealCardGrid } from "@/components/blog/MealCard";
 export const metadata: Metadata = {
   title: "20 Easy 30-Minute Dinners (That Don't Taste Like Shortcuts)",
   description:
-    "20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor. Plus a free weekly meal plan.",
+    "20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor. Plus a free meal plan preview.",
   openGraph: {
     title: "20 Easy 30-Minute Dinners (That Don't Taste Like Shortcuts)",
     description:
-      "20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor. Plus a free weekly meal plan.",
+      "20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor. Plus a free meal plan preview.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=20%20Easy%2030-Minute%20Dinners%20(That%20Don't%20Taste%20Like%20Shortcuts)&description=20%20fast%20dinner%20recipes%20that%20are%20legitimately%20done%20in%2030%20minutes%20or%20less.%20One-pan%20meals%2C%20quick%20pastas%2C%20sheet%20pan%20dinners%2C`, width: 1200, height: 630 }],
@@ -33,7 +33,7 @@ export default function ThirtyMinuteDinnersArticle() {
     <>
       <ArticleJsonLd
         title="20 Easy 30-Minute Dinners (That Don't Taste Like Shortcuts)"
-        description="20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor. Plus a free weekly meal plan."
+        description="20 fast dinner recipes that are legitimately done in 30 minutes or less. One-pan meals, quick pastas, sheet pan dinners, and stir-fries with real flavor. Plus a free meal plan preview."
         url="https://whatsfordinner.fit/blog/30-minute-dinners"
         datePublished="2026-03-18"
       />
@@ -316,12 +316,12 @@ export default function ThirtyMinuteDinnersArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your preferences and time constraints. Get a personalized meal
           plan with recipes and a grocery list &mdash; every meal done in 30
-          minutes or less. $7.99/mo after your trial.
+          minutes or less. $7.99/mo for the full plan.
         </p>
         <Link
           href="/onboarding"

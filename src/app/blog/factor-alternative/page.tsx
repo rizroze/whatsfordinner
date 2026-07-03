@@ -361,7 +361,7 @@ export default function FactorAlternativePage() {
               <tr>
                 <td className="py-3 pr-4 font-medium">Free trial</td>
                 <td className="py-3 px-4">No (commitment required)</td>
-                <td className="py-3 pl-4">3-day plan, no signup needed</td>
+                <td className="py-3 pl-4">Free preview, no signup needed</td>
               </tr>
             </tbody>
           </table>
@@ -550,7 +550,7 @@ export default function FactorAlternativePage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free for 7 days
+          See a free preview
         </Link>
       </div>
 

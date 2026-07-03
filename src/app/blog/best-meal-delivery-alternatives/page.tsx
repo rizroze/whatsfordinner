@@ -143,8 +143,8 @@ export default function BestMealDeliveryAlternativesPage() {
         <p>
           At <strong>$7.99/month</strong>, it replaces the two most painful parts
           of cooking (deciding what to make and writing a grocery list) for less
-          than the cost of a single HelloFresh serving. There&apos;s a free
-          3-day trial with no signup required.
+          than the cost of a single HelloFresh serving. There&apos;s a free preview
+          with no signup required.
         </p>
 
         <div className="my-4">
@@ -174,7 +174,7 @@ export default function BestMealDeliveryAlternativesPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try What&apos;s For Dinner free
+          Try What&apos;s For Dinner
         </Link>
       </div>
 

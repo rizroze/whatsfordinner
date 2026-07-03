@@ -391,12 +391,12 @@ export default function HowToMealPrepArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your preferences in two minutes. Get a personalized 7-day meal
-          plan with a grocery list by email &mdash; no app required. $7.99/mo after
-          your trial.
+          plan with a grocery list by email &mdash; no app required. $7.99/mo for
+          the full plan.
         </p>
         <Link
           href="/onboarding"

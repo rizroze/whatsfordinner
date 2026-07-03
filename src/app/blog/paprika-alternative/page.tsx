@@ -261,13 +261,13 @@ export default function PaprikaAlternativePage() {
           Ready to stop hunting for recipes?
         </p>
         <p className="text-stone-500 text-sm mb-6">
-          Get a full AI meal plan in 2 minutes. No credit card, no app download.
+          Preview your AI meal plan in 2 minutes. No credit card, no app download.
         </p>
         <Link
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free
+          See a free preview
         </Link>
       </div>
 

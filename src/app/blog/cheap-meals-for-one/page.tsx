@@ -6,11 +6,11 @@ import { MealCardGrid, WeekPreviewCTA } from "@/components/blog/MealCard";
 export const metadata: Metadata = {
   title: "Cheap Meals for One: 15 Dinners Under $3/Serving",
   description:
-    "Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good. Plus a free weekly meal plan.",
+    "Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good. Plus a free meal plan preview.",
   openGraph: {
     title: "Cheap Meals for One: 15 Dinners Under $3/Serving",
     description:
-      "Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good. Plus a free weekly meal plan.",
+      "Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good. Plus a free meal plan preview.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=Cheap%20Meals%20for%20One%3A%2015%20Dinners%20Under%20%243%2FServing&description=Eating%20alone%20doesn't%20mean%20eating%20sad.%20These%2015%20cheap%20dinner%20ideas%20cost%20under%20%243%2Fserving%2C%20take%20under%2030%20minutes%2C%20and%20actu`, width: 1200, height: 630 }],
@@ -33,7 +33,7 @@ export default function CheapMealsForOneArticle() {
     <>
       <ArticleJsonLd
         title="Cheap Meals for One: 15 Dinners Under $3/Serving"
-        description="Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good. Plus a free weekly meal plan."
+        description="Eating alone doesn't mean eating sad. These 15 cheap dinner ideas cost under $3/serving, take under 30 minutes, and actually taste good. Plus a free meal plan preview."
         url="https://whatsfordinner.fit/blog/cheap-meals-for-one"
         datePublished="2026-03-13"
       />
@@ -346,12 +346,12 @@ export default function CheapMealsForOneArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your budget and preferences. Get a personalized meal plan with
-          recipes and a grocery list &mdash; portioned for one. $7.99/mo after
-          your trial.
+          recipes and a grocery list &mdash; portioned for one. $7.99/mo for
+          the full plan.
         </p>
         <Link
           href="/onboarding"

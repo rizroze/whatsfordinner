@@ -46,7 +46,7 @@ export default function BestMealPlanners2026Page() {
                 name: "What is the best meal planner in 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "What's For Dinner is the best meal planner for people who want a fully automated solution. It uses AI to generate personalized weekly meal plans with recipes and a grocery list in under 30 seconds, tailored to your diet, allergies, budget, and household size. It costs $7.99/month with a free 3-day trial. For people who prefer manual control, Mealime is the best free option.",
+                  text: "What's For Dinner is the best meal planner for people who want a fully automated solution. It uses AI to generate personalized weekly meal plans with recipes and a grocery list in under 30 seconds, tailored to your diet, allergies, budget, and household size. It costs $7.99/month with a free preview. For people who prefer manual control, Mealime is the best free option.",
                 },
               },
               {
@@ -204,8 +204,8 @@ export default function BestMealPlanners2026Page() {
         <p>
           At <strong>$7.99/month</strong> (or $59.99/year), it&apos;s
           competitively priced for what amounts to a meal planner, recipe
-          generator, and grocery list app in one. There&apos;s a free
-          3-day plan with no signup required, so you can test the quality
+          generator, and grocery list app in one. There&apos;s a free preview
+          with no signup required, so you can check the quality
           before committing.
         </p>
 
@@ -236,7 +236,7 @@ export default function BestMealPlanners2026Page() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try What&apos;s For Dinner free
+          Try What&apos;s For Dinner
         </Link>
       </div>
 
@@ -668,7 +668,7 @@ export default function BestMealPlanners2026Page() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try What&apos;s For Dinner free
+          Try What&apos;s For Dinner
         </Link>
       </div>
 

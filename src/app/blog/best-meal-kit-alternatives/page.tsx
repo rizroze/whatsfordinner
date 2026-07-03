@@ -480,7 +480,7 @@ export default function BestMealKitAlternativesPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try What&apos;s For Dinner free
+          Try What&apos;s For Dinner
         </Link>
       </div>
 
@@ -703,7 +703,7 @@ export default function BestMealKitAlternativesPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free
+          See a free preview
         </Link>
       </div>
 

@@ -421,7 +421,7 @@ export default function MealPlanningForCollegeArticle() {
             href="/onboarding"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            try a free plan
+            see a free preview
           </Link>{" "}
           right now &mdash; no credit card, no commitment. See if it&apos;s
           better than whatever your dining hall is serving tonight.

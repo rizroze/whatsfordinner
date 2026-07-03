@@ -54,7 +54,7 @@ export default function BestGroceryListAppsPage() {
                 name: "Is there a free grocery list app?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. OurGroceries, Apple Reminders, and Google Keep all work as free grocery list apps. Mealime generates free grocery lists from selected recipes. For a free trial of an AI-generated grocery list paired with a meal plan, What's For Dinner offers a 3-day free plan with no signup required.",
+                  text: "Yes. OurGroceries, Apple Reminders, and Google Keep all work as free grocery list apps. Mealime generates free grocery lists from selected recipes. For an AI-generated grocery list paired with a meal plan, What's For Dinner offers a free preview with no signup required.",
                 },
               },
               {
@@ -171,7 +171,7 @@ export default function BestGroceryListAppsPage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try What&apos;s For Dinner free
+          Try What&apos;s For Dinner
         </Link>
       </div>
 

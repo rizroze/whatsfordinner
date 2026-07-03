@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best PlateJoy Alternative 2026 | AI Meal Plans + Recipes + Grocery List",
   description:
-    "PlateJoy shut down in 2025. Compare the best alternatives: What's For Dinner gives you AI meal plans with recipes and grocery lists from $7.99/mo. Free trial.",
+    "PlateJoy shut down in 2025. Compare the best alternatives: What's For Dinner gives you AI meal plans with recipes and grocery lists from $7.99/mo. Free preview.",
   openGraph: {
     title:
       "Best PlateJoy Alternative in 2026 (Compared)",
     description:
-      "PlateJoy shut down in 2025. Compare the best alternatives: What's For Dinner gives you AI meal plans with recipes and grocery lists from $7.99/mo. Free trial.",
+      "PlateJoy shut down in 2025. Compare the best alternatives: What's For Dinner gives you AI meal plans with recipes and grocery lists from $7.99/mo. Free preview.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=Best%20PlateJoy%20Alternative%20in%202026%20(Compared)&description=PlateJoy%20shut%20down%20in%202025.%20Compare%20the%20best%20alternatives%3A%20What's%20For%20Dinner%20gives%20you%20AI%20meal%20plans%20with%20recipes%20and%20gr`, width: 1200, height: 630 }],
@@ -301,7 +301,7 @@ export default function PlateJoyAlternativePage() {
               <tr>
                 <td className="py-3 pr-4 font-medium">Free trial</td>
                 <td className="py-3 px-4">No</td>
-                <td className="py-3 pl-4">Yes (3-day plan, no signup)</td>
+                <td className="py-3 pl-4">Free preview (no signup)</td>
               </tr>
             </tbody>
           </table>
@@ -340,7 +340,7 @@ export default function PlateJoyAlternativePage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free
+          See a free preview
         </Link>
       </div>
 
@@ -580,12 +580,12 @@ export default function PlateJoyAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          Free 3-day trial with no signup
+          Free preview with no signup
         </h3>
         <p>
           PlateJoy required payment upfront. We think you should see what
-          you&apos;re getting before you pay for it. Enter your preferences, get
-          a full sample plan with recipes immediately &mdash; no credit card, no account
+          you&apos;re getting before you pay for it. Enter your preferences, see
+          a preview of your plan with recipes immediately &mdash; no credit card, no account
           creation. If it&apos;s not for you, you haven&apos;t spent a cent or
           handed over your email.
         </p>
@@ -632,7 +632,7 @@ export default function PlateJoyAlternativePage() {
             >
               whatsfordinner.fit/onboarding
             </Link></strong>{" "}
-            (no account creation needed for the free trial)
+            (no account creation needed for the free preview)
           </li>
           <li>
             <strong>Enter your household size</strong> &mdash; the same info

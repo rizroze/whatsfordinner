@@ -253,7 +253,7 @@ export default function MealPlanningForTwo() {
         </p>
         <p className="text-stone-500 text-sm mb-6">
           Personalized meal plans, right-sized grocery lists, and no more
-          &quot;what do you want to eat?&quot; arguments. Try it free.
+          &quot;what do you want to eat?&quot; arguments. See a free preview.
         </p>
         <Link
           href="/onboarding"

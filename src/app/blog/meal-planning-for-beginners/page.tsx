@@ -5,11 +5,11 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/seo/ArticleJsonLd"
 export const metadata: Metadata = {
   title: "Meal Planning for Beginners: 5-Step Guide (2026)",
   description:
-    "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free printable plan included.",
+    "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free preview included.",
   openGraph: {
     title: "Meal Planning for Beginners: 5-Step Guide (2026)",
     description:
-      "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free printable plan included.",
+      "Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free preview included.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=Meal%20Planning%20for%20Beginners%3A%205-Step%20Guide%20(2026)&description=Start%20meal%20planning%20this%20week%20with%20a%20simple%205-step%20method.%20Save%202.5%20hours%20and%20%2450-100%20per%20week%20%E2%80%94%20no%20cooking%20skills%20requi`, width: 1200, height: 630 }],
@@ -32,7 +32,7 @@ export default function MealPlanningForBeginnersArticle() {
     <>
       <ArticleJsonLd
         title="Meal Planning for Beginners: 5-Step Guide (2026)"
-        description="Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free printable plan included."
+        description="Start meal planning this week with a simple 5-step method. Save 2.5 hours and $50-100 per week — no cooking skills required. Free preview included."
         url="https://whatsfordinner.fit/blog/meal-planning-for-beginners"
         datePublished="2026-03-07"
       />
@@ -499,12 +499,12 @@ export default function MealPlanningForBeginnersArticle() {
       {/* Bottom CTA */}
       <div className="bg-orange-50 border border-orange-100 rounded-2xl p-8 text-center my-10">
         <p className="text-lg font-semibold text-stone-800 mb-2">
-          Your first week is free
+          Start with a free preview
         </p>
         <p className="text-stone-500 text-sm mb-5">
           Set your preferences in two minutes. Get a personalized 7-day meal
-          plan with a grocery list by email &mdash; no app required. $7.99/mo after
-          your trial.
+          plan with a grocery list by email &mdash; no app required. $7.99/mo for
+          the full plan.
         </p>
         <Link
           href="/onboarding"

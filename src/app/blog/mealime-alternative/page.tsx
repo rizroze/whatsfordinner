@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title:
     "Best Mealime Alternative in 2026 | AI-Powered Meal Plans + Grocery List",
   description:
-    "Tired of Mealime's recycled recipes? Get unique AI-generated meal plans with recipes and a grocery list every week. Free trial – no card or app needed.",
+    "Tired of Mealime's recycled recipes? Get unique AI-generated meal plans with recipes and a grocery list every week. Free preview – no card or app needed.",
   openGraph: {
     title:
       "Best Mealime Alternative in 2026",
     description:
-      "Tired of Mealime's recycled recipes? Get unique AI-generated meal plans with recipes and a grocery list every week. Free trial – no card or app needed.",
+      "Tired of Mealime's recycled recipes? Get unique AI-generated meal plans with recipes and a grocery list every week. Free preview – no card or app needed.",
     siteName: "What's For Dinner",
     type: "article",
     images: [{ url: `/api/og?title=Best%20Mealime%20Alternative%20in%202026&description=Tired%20of%20Mealime's%20recycled%20recipes%3F%20Get%20unique%20AI-generated%20meal%20plans%20with%20recipes%20and%20a%20grocery%20list%20every%20week.%20Free`, width: 1200, height: 630 }],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title:
       "Best Mealime Alternative in 2026",
     description:
-      "Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free trial, no signup.",
+      "Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free preview, no signup.",
     images: ["/api/og?title=Best%20Mealime%20Alternative%20in%202026&description=Tired%20of%20Mealime's%20recycled%20recipes%3F%20Get%20unique%20AI-generated%20meal%20plans%20with%20recipes%20and%20a%20grocery%20list%20every%20week.%20Free"],
   },
 };
@@ -33,7 +33,7 @@ export default function MealimeAlternativePage() {
     <>
       <ArticleJsonLd
         title="The Best Mealime Alternative in 2026"
-        description="Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free trial, no signup. See the full comparison."
+        description="Tired of Mealime's recycled recipes? What's For Dinner generates unique AI meal plans with recipes and a grocery list every week. Free preview, no signup. See the full comparison."
         url="https://whatsfordinner.fit/blog/mealime-alternative"
         datePublished="2026-03-07"
         dateModified="2026-04-15"
@@ -81,7 +81,7 @@ export default function MealimeAlternativePage() {
                 name: "Can I try What's For Dinner before paying?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. What's For Dinner offers a completely free AI-generated meal plan with recipes and a grocery list. No account creation, no credit card, and no email required. You see exactly what subscribers get before deciding.",
+                  text: "Yes. What's For Dinner offers a free preview of your AI-generated meal plan with recipes and a grocery list. No credit card required. You see what subscribers get before deciding.",
                 },
               },
               {
@@ -97,7 +97,7 @@ export default function MealimeAlternativePage() {
                 name: "Can I use Mealime for free in 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, Mealime still offers a free tier, but it's limited to basic dietary filters. Keto, paleo, Whole30, and other popular diets are locked behind Mealime Pro at $5.99/month. What's For Dinner includes all dietary restrictions on every plan, and you can try it free with a 3-day AI-generated meal plan before subscribing.",
+                  text: "Yes, Mealime still offers a free tier, but it's limited to basic dietary filters. Keto, paleo, Whole30, and other popular diets are locked behind Mealime Pro at $5.99/month. What's For Dinner includes all dietary restrictions on every plan, and you can see a free preview before subscribing.",
                 },
               },
               {
@@ -526,7 +526,7 @@ export default function MealimeAlternativePage() {
           href="/onboarding"
           className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
         >
-          Try it free
+          See a free preview
         </Link>
       </div>
 
@@ -718,12 +718,12 @@ export default function MealimeAlternativePage() {
         </p>
 
         <h3 className="text-base font-semibold text-stone-700 mt-6">
-          A real free trial, not a limited free tier
+          A real free preview, not a limited free tier
         </h3>
         <p>
           Mealime&apos;s free tier gives you a taste but holds back the good
-          stuff. Our free trial gives you a{" "}
-          <strong>full AI-generated meal plan with recipes and a grocery list</strong>
+          stuff. Our free preview shows you a{" "}
+          <strong>personalized AI-generated meal plan with recipes and a grocery list</strong>
           . No account creation, no credit card, no email required. You
           see exactly what subscribers get before you decide. If it works for
           you, subscribe. If not, you haven&apos;t given us a thing.
@@ -846,9 +846,9 @@ export default function MealimeAlternativePage() {
               href="/onboarding"
               className="text-orange-500 hover:text-orange-600 underline"
             >
-              free 3-day trial
+              free preview
             </Link>{" "}
-            gives you a complete AI-generated plan with no limitations.
+            lets you preview an AI-generated plan before you pay.
           </p>
         </div>
         <div>
