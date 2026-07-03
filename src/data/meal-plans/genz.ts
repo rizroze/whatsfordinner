@@ -6,7 +6,7 @@ export const genzPages: MealPlanPageData[] = [
     type: "genz",
     title: "First Apartment Meal Plan",
     metaDescription:
-      "Your first apartment meal plan with easy recipes for a basic kitchen. No fancy gear needed — just a pan, a pot, and a grocery list. Try it free today.",
+      "Your first apartment meal plan with easy recipes for a basic kitchen. No fancy gear needed — just a pan, a pot, and a grocery list. See a free preview today.",
     h1: "First Apartment Meal Plan for When You Finally Have a Kitchen",
     intro:
       "You have your own kitchen for the first time. Maybe it came with a dented pan and a spatula that's seen better days. You're not sure what spices to buy, your cutting board is still in the Amazon box, and you've been eating cereal for dinner more than you'd like to admit. This meal plan is built for exactly where you are — basic equipment, basic skills, big flavor. Every recipe assumes you own almost nothing and know almost nothing, and somehow you'll still eat really well.",
@@ -288,7 +288,7 @@ export const genzPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan for Busy Students",
     metaDescription:
-      "Meal plan for students who are too busy to cook. Dorm-friendly, ultra-cheap, and ready in 15 minutes or less. Stop skipping meals. Try it free today.",
+      "Meal plan for students who are too busy to cook. Dorm-friendly, ultra-cheap, and ready in 15 minutes or less. Stop skipping meals. See a free preview today.",
     h1: "Meal Plan for Busy Students Who Don't Have Time to Cook",
     intro:
       "You're juggling classes, assignments, a part-time job, and some version of a social life. Cooking a real meal feels like a luxury you can't afford — in time or money. But skipping meals and living on energy drinks isn't working either. This plan is built around your actual schedule: meals you can prep Sunday and grab all week, 10-minute dinners for study breaks, and snacks that keep your brain working during late-night cram sessions. Everything is cheap, fast, and doesn't require a real kitchen.",
@@ -664,7 +664,7 @@ export const genzPages: MealPlanPageData[] = [
     type: "genz",
     title: "Meal Plan to Stop Ordering Takeout",
     metaDescription:
-      "A meal plan designed to replace DoorDash. Homemade versions of your favorite takeout that are faster, cheaper, and just as satisfying. Try it free today.",
+      "A meal plan designed to replace DoorDash. Homemade versions of your favorite takeout that are faster, cheaper, and just as satisfying. See a free preview today.",
     h1: "Meal Plan to Stop Ordering Takeout (Your Wallet Will Thank You)",
     intro:
       "You open DoorDash, scroll for 20 minutes, pay $25 for a $12 meal after fees and tip, and eat it in 7 minutes. Then you do it again tomorrow. This meal plan is your intervention. Every recipe is a homemade version of something you'd normally order — chicken teriyaki, pad thai, burrito bowls, pizza — and they're all ready faster than delivery would arrive. We're not going to lecture you about cooking being a 'life skill.' We're just going to make cooking easier than ordering, and the savings will speak for themselves.",

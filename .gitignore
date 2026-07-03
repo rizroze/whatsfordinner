@@ -42,3 +42,7 @@ next-env.d.ts
 .env*.local
 
 # sitemap is committed as static file (public/sitemap.xml)
+
+# scratch/debug scripts and working data (not app code)
+/scripts/_*
+/bing-*.txt

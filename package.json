@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.78.0",
     "@lemonsqueezy/lemonsqueezy.js": "^4.0.0",
     "@sentry/nextjs": "^10.42.0",
     "@supabase/ssr": "^0.8.0",
@@ -26,6 +25,7 @@
     "zustand": "^5.0.11"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.109.0",
     "@fontsource/inter": "^5.2.8",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

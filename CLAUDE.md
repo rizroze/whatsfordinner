@@ -4,14 +4,15 @@
 AI meal planner that generates personalized weekly **meal plans with recipes and a grocery list**.
 Always mention all three: meal plans + recipes + grocery list. Never just "meal plans and grocery lists."
 
-Free tier: 3-day plan (anonymous, not stored in DB).
+Paid-only (since late June 2026): $7.99/mo or $59.99/yr via LemonSqueezy. Flow is
+onboarding → `/preview` (personalized, rule-based, zero tokens) → signup → pay.
 Paid tier: 7-day weekly plan, regenerated every Sunday via cron, stored in DB.
 
 ## Stack
 - **Next.js 16** (App Router), React 19, TypeScript
 - **Tailwind 4** — CSS-only animations, no GSAP, no Framer Motion
 - **Supabase** — Auth (email + Google OAuth) + Postgres DB
-- **Claude API** — meal plan + recipe generation (claude-sonnet-4-6)
+- **Claude API** — meal plan + recipe generation (claude-haiku-4-5)
 - **Resend** — transactional emails + Supabase auth SMTP
 - **LemonSqueezy** — payments (monthly + yearly plans)
 - **Vercel** — auto-deploys on push to main
