@@ -45,10 +45,10 @@ const hubStrings: Record<
     h1: "Biblioteca de Recetas Gratis",
     subtitle:
       "Explora recetas con ingredientes completos e instrucciones paso a paso. Encuentra tu proxima comida favorita.",
-    ctaTitle: "Tu primera semana es gratis",
+    ctaTitle: "Empieza con una vista previa gratis",
     ctaSubtitle:
-      "Obtene un plan de comida personalizado con recetas y lista de compras. Sin tarjeta de credito.",
-    ctaButton: "Comenza Tu Plan Gratis",
+      "Mira una vista previa personalizada de tu plan de comidas con recetas y lista de compras. Sin tarjeta de credito.",
+    ctaButton: "Ver Vista Previa Gratis",
     prepTimeLabel: "min",
     servingsLabel: "porciones",
   },
@@ -59,10 +59,10 @@ const hubStrings: Record<
     h1: "Bibliotheque de Recettes Gratuite",
     subtitle:
       "Parcourez les recettes avec ingredients complets et instructions etape par etape. Trouvez votre prochain repas prefere.",
-    ctaTitle: "Votre premiere semaine est gratuite",
+    ctaTitle: "Commencez avec un apercu gratuit",
     ctaSubtitle:
-      "Recevez un plan repas personnalise avec recettes et liste de courses. Sans carte de credit.",
-    ctaButton: "Commencez Votre Plan Gratuit",
+      "Decouvrez un apercu personnalise de votre plan repas avec recettes et liste de courses. Sans carte de credit.",
+    ctaButton: "Voir l'Apercu Gratuit",
     prepTimeLabel: "min",
     servingsLabel: "portions",
   },
@@ -73,10 +73,10 @@ const hubStrings: Record<
     h1: "Kostenlose Rezeptbibliothek",
     subtitle:
       "Durchsuchen Sie Rezepte mit vollstandigen Zutaten und Schritt-fur-Schritt-Anleitungen. Finden Sie Ihr nachstes Lieblingsessen.",
-    ctaTitle: "Ihre erste Woche ist kostenlos",
+    ctaTitle: "Starten Sie mit einer kostenlosen Vorschau",
     ctaSubtitle:
-      "Erhalten Sie einen personalisierten Essensplan mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.",
-    ctaButton: "Starten Sie Ihren Kostenlosen Plan",
+      "Sehen Sie eine personalisierte Vorschau Ihres Essensplans mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.",
+    ctaButton: "Kostenlose Vorschau Ansehen",
     prepTimeLabel: "Min",
     servingsLabel: "Portionen",
   },
@@ -87,10 +87,10 @@ const hubStrings: Record<
     h1: "Biblioteca de Receitas Gratis",
     subtitle:
       "Explore receitas com ingredientes completos e instrucoes passo a passo. Encontre sua proxima refeicao favorita.",
-    ctaTitle: "Sua primeira semana e gratis",
+    ctaTitle: "Comece com uma previa gratis",
     ctaSubtitle:
-      "Receba um plano de refeicao personalizado com receitas e lista de compras. Sem cartao de credito.",
-    ctaButton: "Comece Seu Plano Gratis",
+      "Veja uma previa personalizada do seu plano de refeicoes com receitas e lista de compras. Sem cartao de credito.",
+    ctaButton: "Ver Previa Gratis",
     prepTimeLabel: "min",
     servingsLabel: "porcoes",
   },
@@ -101,10 +101,10 @@ const hubStrings: Record<
     h1: "無料レシピライブラリ",
     subtitle:
       "完全な材料リストとステップバイステップの手順でレシピを閲覧。次のお気に入りの食事を見つけましょう。",
-    ctaTitle: "最初の1週間は無料",
+    ctaTitle: "まずは無料プレビュー",
     ctaSubtitle:
-      "レシピと買い物リスト付きのパーソナライズされた食事プランを入手。クレジットカード不要。",
-    ctaButton: "無料プランを始める",
+      "レシピと買い物リスト付きのパーソナライズされた食事プランのプレビューを無料で確認。クレジットカード不要。",
+    ctaButton: "無料プレビューを見る",
     prepTimeLabel: "分",
     servingsLabel: "人前",
   },
@@ -115,10 +115,10 @@ const hubStrings: Record<
     h1: "무료 레시피 라이브러리",
     subtitle:
       "완전한 재료 목록과 단계별 설명이 포함된 레시피를 둘러보세요. 다음 좋아하는 식사를 찾아보세요.",
-    ctaTitle: "첫 주는 무료입니다",
+    ctaTitle: "무료 미리보기로 시작하세요",
     ctaSubtitle:
-      "레시피와 장보기 목록이 포함된 개인 맞춤 식사 계획을 받으세요. 신용카드 필요 없음.",
-    ctaButton: "무료 플랜 시작하기",
+      "레시피와 장보기 목록이 포함된 맞춤형 식단 미리보기를 확인하세요. 신용카드 필요 없음.",
+    ctaButton: "무료 미리보기 보기",
     prepTimeLabel: "분",
     servingsLabel: "인분",
   },
@@ -129,10 +129,10 @@ const hubStrings: Record<
     h1: "免费食谱库",
     subtitle:
       "浏览包含完整食材清单和分步说明的食谱。找到你下一个最爱的美食。",
-    ctaTitle: "第一周免费",
+    ctaTitle: "从免费预览开始",
     ctaSubtitle:
-      "获取包含食谱和购物清单的个性化膳食计划。无需信用卡。",
-    ctaButton: "开始免费计划",
+      "免费预览包含食谱和购物清单的个性化膳食计划。无需信用卡。",
+    ctaButton: "查看免费预览",
     prepTimeLabel: "分钟",
     servingsLabel: "份",
   },
@@ -143,10 +143,10 @@ const hubStrings: Record<
     h1: "مكتبة الوصفات المجانية",
     subtitle:
       "تصفح الوصفات مع قائمة المكونات الكاملة والتعليمات خطوة بخطوة. اعثر على وجبتك المفضلة القادمة.",
-    ctaTitle: "أسبوعك الأول مجاني",
+    ctaTitle: "ابدأ بمعاينة مجانية",
     ctaSubtitle:
-      "احصل على خطة وجبات مخصصة مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.",
-    ctaButton: "ابدأ خطتك المجانية",
+      "شاهد معاينة مخصصة لخطة وجباتك مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.",
+    ctaButton: "شاهد المعاينة المجانية",
     prepTimeLabel: "دقيقة",
     servingsLabel: "حصص",
   },
@@ -157,10 +157,10 @@ const hubStrings: Record<
     h1: "Ucretsiz Tarif Kutuphanesi",
     subtitle:
       "Tam malzeme listesi ve adim adim talimatlarla tarifleri kesfedin. Bir sonraki favori yemeginizi bulun.",
-    ctaTitle: "Ilk haftaniz ucretsiz",
+    ctaTitle: "Ucretsiz onizleme ile baslayin",
     ctaSubtitle:
-      "Tarifler ve alisveris listesi ile kisisellestirilmis yemek plani alin. Kredi karti gerekmez.",
-    ctaButton: "Ucretsiz Planinizi Baslatin",
+      "Tarifler ve alisveris listesi ile kisisellestirilmis yemek planinizin onizlemesini gorun. Kredi karti gerekmez.",
+    ctaButton: "Ucretsiz Onizlemeyi Gorun",
     prepTimeLabel: "dk",
     servingsLabel: "porsiyon",
   },
@@ -171,10 +171,10 @@ const hubStrings: Record<
     h1: "मुफ्त रेसिपी लाइब्रेरी",
     subtitle:
       "पूर्ण सामग्री सूची और चरण-दर-चरण निर्देशों के साथ रेसिपी ब्राउज़ करें। अपना अगला पसंदीदा भोजन खोजें।",
-    ctaTitle: "आपका पहला सप्ताह मुफ्त है",
+    ctaTitle: "मुफ्त पूर्वावलोकन से शुरू करें",
     ctaSubtitle:
-      "व्यंजनों और किराने की सूची के साथ व्यक्तिगत भोजन योजना प्राप्त करें। क्रेडिट कार्ड की आवश्यकता नहीं।",
-    ctaButton: "अपनी मुफ्त योजना शुरू करें",
+      "व्यंजनों और किराने की सूची के साथ अपनी व्यक्तिगत भोजन योजना का पूर्वावलोकन देखें। क्रेडिट कार्ड की आवश्यकता नहीं।",
+    ctaButton: "मुफ्त पूर्वावलोकन देखें",
     prepTimeLabel: "मिनट",
     servingsLabel: "सर्विंग्स",
   },

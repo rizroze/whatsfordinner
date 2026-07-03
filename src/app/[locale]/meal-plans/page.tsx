@@ -42,33 +42,33 @@ const hubStrings: Record<
   es: {
     title: "Planes de comida para cada dieta y cocina",
     metaDescription:
-      "Explora planes de comida semanales personalizados para cada dieta y cocina. Plan gratuito de 3 dias incluido.",
+      "Explora planes de comida semanales personalizados para cada dieta y cocina. Vista previa gratis incluida.",
     h1: "Planes de Comida Personalizados para Cada Dieta y Cocina",
     subtitle:
-      "Planes de comida semanales con recetas y listas de compras, adaptados a tus necesidades alimentarias y sabores favoritos. Prueba gratis.",
+      "Planes de comida semanales con recetas y listas de compras, adaptados a tus necesidades alimentarias y sabores favoritos. Vista previa gratis.",
     byDiet: "Por Dieta",
     byCuisine: "Por Cocina",
     popularCombos: "Combinaciones Populares",
-    ctaTitle: "Tu primera semana es gratis",
+    ctaTitle: "Empieza con una vista previa gratis",
     ctaSubtitle:
-      "Obtene un plan de comida personalizado de 3 dias con recetas y lista de compras. Sin tarjeta de credito.",
-    ctaButton: "Comenza Tu Plan Gratis",
+      "Mira una vista previa personalizada de tu plan de comidas con recetas y lista de compras. Sin tarjeta de credito.",
+    ctaButton: "Ver Vista Previa Gratis",
     typeLabels: { diet: "Dieta", cuisine: "Cocina", combo: "Dieta + Cocina" },
   },
   fr: {
     title: "Plans repas pour chaque regime et cuisine",
     metaDescription:
-      "Decouvrez des plans repas hebdomadaires personnalises pour chaque regime et cuisine. Plan gratuit de 3 jours inclus.",
+      "Decouvrez des plans repas hebdomadaires personnalises pour chaque regime et cuisine. Apercu gratuit inclus.",
     h1: "Plans Repas Personnalises pour Chaque Regime et Cuisine",
     subtitle:
-      "Plans repas hebdomadaires avec recettes et listes de courses, adaptes a vos besoins alimentaires et saveurs preferees. Essayez gratuitement.",
+      "Plans repas hebdomadaires avec recettes et listes de courses, adaptes a vos besoins alimentaires et saveurs preferees. Apercu gratuit.",
     byDiet: "Par Regime",
     byCuisine: "Par Cuisine",
     popularCombos: "Combinaisons Populaires",
-    ctaTitle: "Votre premiere semaine est gratuite",
+    ctaTitle: "Commencez avec un apercu gratuit",
     ctaSubtitle:
-      "Recevez un plan repas personnalise de 3 jours avec recettes et liste de courses. Sans carte de credit.",
-    ctaButton: "Commencez Votre Plan Gratuit",
+      "Decouvrez un apercu personnalise de votre plan repas avec recettes et liste de courses. Sans carte de credit.",
+    ctaButton: "Voir l'Apercu Gratuit",
     typeLabels: {
       diet: "Regime",
       cuisine: "Cuisine",
@@ -78,33 +78,33 @@ const hubStrings: Record<
   de: {
     title: "Essensplane fur jede Diat und Kuche",
     metaDescription:
-      "Entdecken Sie personalisierte wochentliche Essensplane fur jede Diat und Kuche. Kostenloser 3-Tage-Plan inklusive.",
+      "Entdecken Sie personalisierte wochentliche Essensplane fur jede Diat und Kuche. Kostenlose Vorschau inklusive.",
     h1: "Personalisierte Essensplane fur Jede Diat und Kuche",
     subtitle:
-      "Wochentliche Essensplane mit Rezepten und Einkaufslisten, auf Ihre Ernahrungsbedurfnisse und Lieblingsgeschmacker abgestimmt. Kostenlos testen.",
+      "Wochentliche Essensplane mit Rezepten und Einkaufslisten, auf Ihre Ernahrungsbedurfnisse und Lieblingsgeschmacker abgestimmt. Kostenlose Vorschau ansehen.",
     byDiet: "Nach Diat",
     byCuisine: "Nach Kuche",
     popularCombos: "Beliebte Kombinationen",
-    ctaTitle: "Ihre erste Woche ist kostenlos",
+    ctaTitle: "Starten Sie mit einer kostenlosen Vorschau",
     ctaSubtitle:
-      "Erhalten Sie einen personalisierten 3-Tage-Essensplan mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.",
-    ctaButton: "Starten Sie Ihren Kostenlosen Plan",
+      "Sehen Sie eine personalisierte Vorschau Ihres Essensplans mit Rezepten und Einkaufsliste. Keine Kreditkarte erforderlich.",
+    ctaButton: "Kostenlose Vorschau Ansehen",
     typeLabels: { diet: "Diat", cuisine: "Kuche", combo: "Diat + Kuche" },
   },
   pt: {
     title: "Planos de refeicao para cada dieta e culinaria",
     metaDescription:
-      "Explore planos de refeicao semanais personalizados para cada dieta e culinaria. Plano gratuito de 3 dias incluido.",
+      "Explore planos de refeicao semanais personalizados para cada dieta e culinaria. Previa gratis incluida.",
     h1: "Planos de Refeicao Personalizados para Cada Dieta e Culinaria",
     subtitle:
-      "Planos de refeicao semanais com receitas e listas de compras, adaptados as suas necessidades alimentares e sabores favoritos. Experimente gratis.",
+      "Planos de refeicao semanais com receitas e listas de compras, adaptados as suas necessidades alimentares e sabores favoritos. Veja uma previa gratis.",
     byDiet: "Por Dieta",
     byCuisine: "Por Culinaria",
     popularCombos: "Combinacoes Populares",
-    ctaTitle: "Sua primeira semana e gratis",
+    ctaTitle: "Comece com uma previa gratis",
     ctaSubtitle:
-      "Receba um plano de refeicao personalizado de 3 dias com receitas e lista de compras. Sem cartao de credito.",
-    ctaButton: "Comece Seu Plano Gratis",
+      "Veja uma previa personalizada do seu plano de refeicoes com receitas e lista de compras. Sem cartao de credito.",
+    ctaButton: "Ver Previa Gratis",
     typeLabels: {
       diet: "Dieta",
       cuisine: "Culinaria",
@@ -114,17 +114,17 @@ const hubStrings: Record<
   ja: {
     title: "あらゆる食事法と料理のための食事プラン",
     metaDescription:
-      "あらゆる食事法と料理に対応したパーソナライズされた週間食事プランをご覧ください。無料3日間プラン付き。",
+      "あらゆる食事法と料理に対応したパーソナライズされた週間食事プランをご覧ください。無料プレビュー付き。",
     h1: "あらゆる食事法と料理のパーソナライズ食事プラン",
     subtitle:
-      "レシピと買い物リスト付きの週間食事プラン。食事のニーズとお気に入りの味に合わせてカスタマイズ。無料でお試しください。",
+      "レシピと買い物リスト付きの週間食事プラン。食事のニーズとお気に入りの味に合わせてカスタマイズ。無料プレビューをご覧ください。",
     byDiet: "食事法別",
     byCuisine: "料理別",
     popularCombos: "人気の組み合わせ",
-    ctaTitle: "最初の1週間は無料",
+    ctaTitle: "まずは無料プレビュー",
     ctaSubtitle:
-      "レシピと買い物リスト付きのパーソナライズされた3日間食事プランを入手。クレジットカード不要。",
-    ctaButton: "無料プランを始める",
+      "レシピと買い物リスト付きのパーソナライズされた食事プランのプレビューを無料で確認。クレジットカード不要。",
+    ctaButton: "無料プレビューを見る",
     typeLabels: {
       diet: "食事法",
       cuisine: "料理",
@@ -134,49 +134,49 @@ const hubStrings: Record<
   ko: {
     title: "모든 식단과 요리를 위한 식사 계획",
     metaDescription:
-      "모든 식단과 요리에 맞는 개인 맞춤 주간 식사 계획을 탐색하세요. 무료 3일 계획 포함.",
+      "모든 식단과 요리에 맞는 개인 맞춤 주간 식사 계획을 탐색하세요. 무료 미리보기 포함.",
     h1: "모든 식단과 요리를 위한 맞춤 식사 계획",
     subtitle:
-      "레시피와 장보기 목록이 포함된 주간 식사 계획, 식이 요구 사항과 좋아하는 맛에 맞춤. 무료로 사용해 보세요.",
+      "레시피와 장보기 목록이 포함된 주간 식사 계획, 식이 요구 사항과 좋아하는 맛에 맞춤. 무료 미리보기를 확인하세요.",
     byDiet: "식단별",
     byCuisine: "요리별",
     popularCombos: "인기 조합",
-    ctaTitle: "첫 주는 무료입니다",
+    ctaTitle: "무료 미리보기로 시작하세요",
     ctaSubtitle:
-      "레시피와 장보기 목록이 포함된 개인 맞춤 3일 식사 계획을 받으세요. 신용카드 필요 없음.",
-    ctaButton: "무료 플랜 시작하기",
+      "레시피와 장보기 목록이 포함된 맞춤형 식단 미리보기를 확인하세요. 신용카드 필요 없음.",
+    ctaButton: "무료 미리보기 보기",
     typeLabels: { diet: "식단", cuisine: "요리", combo: "식단 + 요리" },
   },
   zh: {
     title: "适合每种饮食和烹饪的膳食计划",
     metaDescription:
-      "浏览适合每种饮食和烹饪的个性化每周膳食计划。包含免费3天计划。",
+      "浏览适合每种饮食和烹饪的个性化每周膳食计划。包含免费预览。",
     h1: "适合每种饮食和烹饪的个性化膳食计划",
     subtitle:
-      "包含食谱和购物清单的每周膳食计划，根据您的饮食需求和喜好口味量身定制。免费试用。",
+      "包含食谱和购物清单的每周膳食计划，根据您的饮食需求和喜好口味量身定制。免费预览。",
     byDiet: "按饮食",
     byCuisine: "按烹饪",
     popularCombos: "热门组合",
-    ctaTitle: "第一周免费",
+    ctaTitle: "从免费预览开始",
     ctaSubtitle:
-      "获取包含食谱和购物清单的个性化3天膳食计划。无需信用卡。",
-    ctaButton: "开始免费计划",
+      "免费预览包含食谱和购物清单的个性化膳食计划。无需信用卡。",
+    ctaButton: "查看免费预览",
     typeLabels: { diet: "饮食", cuisine: "烹饪", combo: "饮食 + 烹饪" },
   },
   ar: {
     title: "خطط وجبات لكل نظام غذائي ومطبخ",
     metaDescription:
-      "استعرض خطط وجبات أسبوعية مخصصة لكل نظام غذائي ومطبخ. خطة مجانية لمدة 3 أيام مضمنة.",
+      "استعرض خطط وجبات أسبوعية مخصصة لكل نظام غذائي ومطبخ. معاينة مجانية مضمنة.",
     h1: "خطط وجبات مخصصة لكل نظام غذائي ومطبخ",
     subtitle:
-      "خطط وجبات أسبوعية مع وصفات وقوائم تسوق، مصممة حسب احتياجاتك الغذائية ونكهاتك المفضلة. جرب مجاناً.",
+      "خطط وجبات أسبوعية مع وصفات وقوائم تسوق، مصممة حسب احتياجاتك الغذائية ونكهاتك المفضلة. شاهد معاينة مجانية.",
     byDiet: "حسب النظام الغذائي",
     byCuisine: "حسب المطبخ",
     popularCombos: "تركيبات شائعة",
-    ctaTitle: "أسبوعك الأول مجاني",
+    ctaTitle: "ابدأ بمعاينة مجانية",
     ctaSubtitle:
-      "احصل على خطة وجبات مخصصة لمدة 3 أيام مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.",
-    ctaButton: "ابدأ خطتك المجانية",
+      "شاهد معاينة مخصصة لخطة وجباتك مع وصفات وقائمة تسوق. لا حاجة لبطاقة ائتمان.",
+    ctaButton: "شاهد المعاينة المجانية",
     typeLabels: {
       diet: "نظام غذائي",
       cuisine: "مطبخ",
@@ -186,17 +186,17 @@ const hubStrings: Record<
   tr: {
     title: "Her diyet ve mutfak icin yemek planlari",
     metaDescription:
-      "Her diyet ve mutfak icin kisisellestirilmis haftalik yemek planlarini kesfedin. Ucretsiz 3 gunluk plan dahil.",
+      "Her diyet ve mutfak icin kisisellestirilmis haftalik yemek planlarini kesfedin. Ucretsiz onizleme dahil.",
     h1: "Her Diyet ve Mutfak Icin Kisisellestirilmis Yemek Planlari",
     subtitle:
-      "Tarifler ve alisveris listeleriyle haftalik yemek planlari, beslenme ihtiyaclariniza ve favori tatlariniza gore uyarlanmis. Ucretsiz deneyin.",
+      "Tarifler ve alisveris listeleriyle haftalik yemek planlari, beslenme ihtiyaclariniza ve favori tatlariniza gore uyarlanmis. Ucretsiz onizlemeyi gorun.",
     byDiet: "Diyete Gore",
     byCuisine: "Mutfaga Gore",
     popularCombos: "Populer Kombinasyonlar",
-    ctaTitle: "Ilk haftaniz ucretsiz",
+    ctaTitle: "Ucretsiz onizleme ile baslayin",
     ctaSubtitle:
-      "Tarifler ve alisveris listesi ile kisisellestirilmis 3 gunluk yemek plani alin. Kredi karti gerekmez.",
-    ctaButton: "Ucretsiz Planinizi Baslatin",
+      "Tarifler ve alisveris listesi ile kisisellestirilmis yemek planinizin onizlemesini gorun. Kredi karti gerekmez.",
+    ctaButton: "Ucretsiz Onizlemeyi Gorun",
     typeLabels: {
       diet: "Diyet",
       cuisine: "Mutfak",
@@ -206,17 +206,17 @@ const hubStrings: Record<
   hi: {
     title: "हर आहार और व्यंजन के लिए भोजन योजनाएं",
     metaDescription:
-      "हर आहार और व्यंजन के लिए व्यक्तिगत साप्ताहिक भोजन योजनाएं खोजें। मुफ्त 3-दिन की योजना शामिल।",
+      "हर आहार और व्यंजन के लिए व्यक्तिगत साप्ताहिक भोजन योजनाएं खोजें। मुफ्त पूर्वावलोकन शामिल।",
     h1: "हर आहार और व्यंजन के लिए व्यक्तिगत भोजन योजनाएं",
     subtitle:
-      "व्यंजनों और किराने की सूची के साथ साप्ताहिक भोजन योजनाएं, आपकी आहार संबंधी जरूरतों और पसंदीदा स्वाद के अनुसार तैयार। मुफ्त में आजमाएं।",
+      "व्यंजनों और किराने की सूची के साथ साप्ताहिक भोजन योजनाएं, आपकी आहार संबंधी जरूरतों और पसंदीदा स्वाद के अनुसार तैयार। मुफ्त पूर्वावलोकन देखें।",
     byDiet: "आहार के अनुसार",
     byCuisine: "व्यंजन के अनुसार",
     popularCombos: "लोकप्रिय संयोजन",
-    ctaTitle: "आपका पहला सप्ताह मुफ्त है",
+    ctaTitle: "मुफ्त पूर्वावलोकन से शुरू करें",
     ctaSubtitle:
-      "व्यंजनों और किराने की सूची के साथ व्यक्तिगत 3-दिन की भोजन योजना प्राप्त करें। क्रेडिट कार्ड की आवश्यकता नहीं।",
-    ctaButton: "अपनी मुफ्त योजना शुरू करें",
+      "व्यंजनों और किराने की सूची के साथ अपनी व्यक्तिगत भोजन योजना का पूर्वावलोकन देखें। क्रेडिट कार्ड की आवश्यकता नहीं।",
+    ctaButton: "मुफ्त पूर्वावलोकन देखें",
     typeLabels: { diet: "आहार", cuisine: "व्यंजन", combo: "आहार + व्यंजन" },
   },
 };

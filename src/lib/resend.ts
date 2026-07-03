@@ -183,101 +183,6 @@ function buildSubscriberEmail(weekOf: string, plan: MealPlanData, weekNumber: nu
   `;
 }
 
-// --- Free user email (conversion-focused) ---
-
-function buildFreeEmail(weekOf: string, plan: MealPlanData): string {
-  const appUrl = getAppUrl();
-  const weekLabel = formatWeekOf(weekOf);
-  const { totalMeals, totalCalories, totalCookTime, groceryCount } = computeStats(plan);
-  const daysSummary = buildDaysSummary(plan);
-  const days = plan.days.length;
-
-  const minutesSaved = days * 25;
-  const hoursSavedYearly = 150;
-  const mealsPerYear = Math.round(totalMeals / days * 365);
-
-  return `
-    <!DOCTYPE html>
-    <html>
-    <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light only"><style>:root{color-scheme:light only;}</style></head>
-    <body style="margin:0;padding:0;background:#FFFBF5;font-family:Inter,system-ui,sans-serif;">
-      <div style="max-width:600px;margin:0 auto;padding:32px 24px;">
-
-        <!-- Header -->
-        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:16px;"><tr>
-          <td style="vertical-align:middle;width:32px;">
-            <img src="${appUrl}/favicon.png" width="32" height="32" alt="What's For Dinner" style="display:block;border-radius:8px;" />
-          </td>
-          <td style="vertical-align:middle;padding-left:10px;">
-            <p style="margin:0;font-size:13px;font-weight:600;color:#1C1917;">What's For Dinner</p>
-            <p style="margin:0;color:#78716C;font-size:12px;">Your free ${days}-day plan &middot; ${weekLabel}</p>
-          </td>
-        </tr></table>
-
-        <!-- Hero -->
-        <div style="background:#FFF7ED;border-radius:16px;padding:28px 24px;margin-bottom:24px;">
-          <h1 style="margin:0 0 8px;font-size:26px;font-weight:800;color:#1C1917;line-height:1.25;">
-            just saved <span style="color:#F97316;">${minutesSaved} minutes</span><br>
-            not thinking about what to eat
-          </h1>
-          <p style="margin:0 0 16px;font-size:14px;color:#57534E;line-height:1.5;">
-            That's just ${days} days. Subscribe and save <strong style="color:#1C1917;">${hoursSavedYearly}+ hours/yr</strong> across <strong style="color:#1C1917;">${mealsPerYear.toLocaleString()} meals</strong>.
-          </p>
-          ${buildStatsPills(totalMeals, groceryCount, totalCalories, plan.estimatedWeeklyCost ?? "")}
-        </div>
-
-        <!-- Meals intro -->
-        <p style="margin:0 0 12px;font-size:15px;font-weight:600;color:#1C1917;">
-          Here's your ${days}-day plan &mdash; enjoy!
-        </p>
-
-        <!-- Meals -->
-        <div style="background:#FFFFFF;border-radius:16px;padding:20px;border:1px solid #E7E5E4;">
-          ${daysSummary}
-        </div>
-
-        <!-- Grocery summary -->
-        <div style="margin-top:20px;background:#FFF7ED;border-radius:12px;padding:16px;text-align:center;">
-          <p style="margin:0 0 2px;font-size:15px;font-weight:700;color:#1C1917;">Grocery List</p>
-          <p style="margin:0;font-size:13px;color:#57534E;">${groceryCount} items &middot; Est. ${plan.estimatedWeeklyCost}</p>
-        </div>
-
-        <!-- CTA -->
-        <div style="text-align:center;margin-top:28px;">
-          <a href="${appUrl}/preview?weekOf=${weekOf}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:14px 36px;border-radius:9999px;font-weight:700;font-size:16px;">
-            View Full Plan & Recipes
-          </a>
-          <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;">Includes step-by-step recipes & printable grocery list</p>
-        </div>
-
-        <!-- Upgrade nudge -->
-        <div style="background:#FFFFFF;border:2px solid #F97316;border-radius:16px;padding:24px;text-align:center;margin-top:24px;">
-          <p style="margin:0 0 4px;font-size:17px;font-weight:700;color:#1C1917;">
-            Imagine this every week.
-          </p>
-          <p style="margin:0 0 16px;font-size:14px;color:#57534E;">
-            Full 7-day plans &middot; every Sunday in your inbox &middot; $7.99/mo
-          </p>
-          <a href="${appUrl}/signup?plan=yearly" style="display:inline-block;background:#1C1917;color:#FFFFFF;text-decoration:none;padding:10px 28px;border-radius:9999px;font-weight:600;font-size:14px;">
-            Subscribe &mdash; $5/mo yearly ($59.99/yr)
-          </a>
-        </div>
-
-        <!-- Footer -->
-        <div style="text-align:center;margin-top:32px;padding-top:20px;border-top:1px solid #E7E5E4;">
-          <p style="margin:0;font-size:11px;color:#D6D3D1;">
-            What's For Dinner &middot; whatsfordinner.fit
-          </p>
-          <p style="margin:6px 0 0;font-size:11px;color:#D6D3D1;">
-            This is a one-time email for your free plan. No spam, ever.
-          </p>
-        </div>
-      </div>
-    </body>
-    </html>
-  `;
-}
-
 // --- Subject lines ---
 
 function getSubjectLine(weekOf: string, weekNumber: number): string {
@@ -385,20 +290,5 @@ export async function sendMealPlanEmail(
       "List-Unsubscribe": `<${unsubscribeUrl}>`,
       "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
     },
-  });
-}
-
-export async function sendFreePlanEmail(
-  to: string,
-  weekOf: string,
-  plan: MealPlanData
-): Promise<void> {
-  const html = buildFreeEmail(weekOf, plan);
-
-  await getResend().emails.send({
-    from: "What's For Dinner <plans@whatsfordinner.fit>",
-    to,
-    subject: `Your free meal plan is ready!`,
-    html,
   });
 }

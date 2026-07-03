@@ -5412,7 +5412,7 @@
         "description": "Use uma tarde de domingo para preparar três dias de refeições. Você vai passar pela segunda, terça e quarta com tudo já resolvido — receitas, porções e compras."
       },
       {
-        "heading": "Experimente grátis, agora mesmo",
+        "heading": "Prévia grátis, agora mesmo",
         "description": "Nossa prévia gratuita gera um dia de refeições personalizadas com base nas suas preferências alimentares. Sem cartão de crédito, sem conta necessária. Apenas nos diga o que você gosta e receba seu plano."
       }
     ],
@@ -6750,7 +6750,7 @@
   },
   "15-minute-meal-plan": {
     "title": "Cardapio de 15 Minutos — Jantares Rapidos Sem Correria",
-    "metaDescription": "Cardapio semanal personalizado de 15 minutos com receitas rapidas e lista de compras. Refeicoes de verdade em 15 minutos. Teste gratis.",
+    "metaDescription": "Cardapio semanal personalizado de 15 minutos com receitas rapidas e lista de compras. Refeicoes de verdade em 15 minutos. Previa gratis.",
     "h1": "Cardapio de 15 Minutos — Comida de Verdade, Incrivelmente Rapida",
     "intro": "Quinze minutos e tudo o que voce precisa. Nao sao quinze minutos de preparo ativo mais vinte de cozimento — sao quinze minutos no total, de abrir a geladeira ate sentar com o prato. Nao sao refeicoes tristes de escritorio. Sao jantares de verdade com proteinas de cozimento rapido, ingredientes prontos e tecnicas que economizam tempo sem sacrificar sabor.",
     "valueProps": [
@@ -6848,7 +6848,7 @@
   },
   "high-fiber-meal-plan": {
     "title": "Cardapio Rico em Fibras — Melhor Digestao, Mais Energia",
-    "metaDescription": "Cardapio semanal personalizado rico em fibras com receitas e lista de compras. 30g+ de fibra diaria para melhor digestao. Teste gratis.",
+    "metaDescription": "Cardapio semanal personalizado rico em fibras com receitas e lista de compras. 30g+ de fibra diaria para melhor digestao. Previa gratis.",
     "h1": "Cardapio Rico em Fibras — Mais Saciedade, Melhor Digestao",
     "intro": "A maioria das pessoas come metade da fibra necessaria. Os 25-30 gramas diarios recomendados parecem atingiveis ate voce perceber que a dieta tipica fornece apenas 15. A diferenca aparece como inchaco, queda de energia e aquela sensacao de nunca estar realmente satisfeito. Um cardapio rico em fibras resolve isso sem transformar cada refeicao em uma tigela de cereal com farelo.",
     "valueProps": [
@@ -6950,7 +6950,7 @@
   },
   "bodybuilding-meal-plan": {
     "title": "Cardapio para Musculacao — Combustivel Para Seus Ganhos",
-    "metaDescription": "Cardapio semanal para musculacao com receitas ricas em proteina e lista de compras. Bata seus macros sem comer frango com arroz todo dia. Teste gratis.",
+    "metaDescription": "Cardapio semanal para musculacao com receitas ricas em proteina e lista de compras. Bata seus macros sem comer frango com arroz todo dia. Previa gratis.",
     "h1": "Cardapio para Musculacao — Bata Seus Macros Sem Monotonia",
     "intro": "A dieta de musculacao tem um problema de imagem. As pessoas imaginam peito de frango sem gosto, arroz branco e brocolis no vapor seis vezes ao dia. Essa abordagem funciona, mas ninguem aguenta porque e miseravel. Voce nao precisa comer como um robo para ganhar musculo. Precisa de proteina suficiente, o superavit ou deficit calorico certo, e variedade suficiente para nao desistir na quarta refeicao.",
     "valueProps": [
@@ -7056,7 +7056,7 @@
   },
   "pregnancy-meal-plan": {
     "title": "Cardapio para Gestantes — Nutrir Dois Sem Complicacao",
-    "metaDescription": "Cardapio semanal para gestantes com receitas seguras e nutritivas e lista de compras. Acido folico, ferro, proteina cobertos. Teste gratis.",
+    "metaDescription": "Cardapio semanal para gestantes com receitas seguras e nutritivas e lista de compras. Acido folico, ferro, proteina cobertos. Previa gratis.",
     "h1": "Cardapio para Gestantes — Comer Bem por Dois, Com Simplicidade",
     "intro": "Conselhos de nutricao na gravidez sao esmagadores. Nao coma isso, coma mais daquilo, tome esses suplementos. Enquanto isso voce esta com enjoo, exausta, e a unica coisa que parece boa sao biscoitos e cha de gengibre. Um cardapio para gestantes corta o ruido com uma resposta clara: o que comer, por que e bom para voce e o bebe, e como preparar em menos de 30 minutos.",
     "valueProps": [
@@ -7162,7 +7162,7 @@
   },
   "diabetic-meal-plan": {
     "title": "Cardapio para Diabeticos — Acucar Controlado com Sabor",
-    "metaDescription": "Cardapio semanal para diabeticos com receitas de baixo indice glicemico e lista de compras. Refeicoes que estabilizam o acucar no sangue. Teste gratis.",
+    "metaDescription": "Cardapio semanal para diabeticos com receitas de baixo indice glicemico e lista de compras. Refeicoes que estabilizam o acucar no sangue. Previa gratis.",
     "h1": "Cardapio para Diabeticos — Glicemia Estavel, Sabor de Verdade",
     "intro": "Gerenciar diabetes pela alimentacao nao significa abrir mao de tudo. Significa escolher alimentos que liberam energia lentamente, combinar carboidratos com proteina e fibra, e saber quais refeicoes manterao seu acucar estavel. O desafio nao e a teoria — e descobrir o que cozinhar numa terca a noite que preencha todos os requisitos e ainda tenha gosto de comida que voce quer comer.",
     "valueProps": [
@@ -7264,7 +7264,7 @@
   },
   "clean-eating-meal-plan": {
     "title": "Cardapio de Alimentacao Limpa — Comida de Verdade, Sem Complicacao",
-    "metaDescription": "Cardapio semanal de alimentacao limpa com receitas de alimentos integrais e lista de compras. Sem processados, sem regras complicadas. Teste gratis.",
+    "metaDescription": "Cardapio semanal de alimentacao limpa com receitas de alimentos integrais e lista de compras. Sem processados, sem regras complicadas. Previa gratis.",
     "h1": "Alimentacao Limpa — Ingredientes Reais, Resultados Reais",
     "intro": "Alimentacao limpa e simples: comer comida que parece comida. Se cresceu na terra, andou sobre ela ou nadou no mar, entra. Se foi fabricado numa industria com uma lista de ingredientes maior que um cupom fiscal, nao entra. Sem contar macros, sem eliminar grupos alimentares. So ingredientes inteiros e minimamente processados cozidos em refeicoes que fazem voce se sentir bem.",
     "valueProps": [

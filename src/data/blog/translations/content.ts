@@ -103,7 +103,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Las 10 mejores apps de planificación de comidas en 2026",
       description:
         "Probamos todas las apps de planificación de comidas en 2026 y clasificamos las mejores. Compara planificadores con IA, opciones gratuitas y organizadores de recetas con precios, pros, contras y para quién es mejor cada una.",
-      ctaText: "Obtén tu plan de comidas gratis",
+      ctaText: "Mira una vista previa gratis",
       readMoreText: "Leer el artículo completo en inglés",
       faqs: [
         {
@@ -114,7 +114,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "¿Existen apps gratuitas de planificación de comidas?",
           answer:
-            "Sí, What's For Dinner ofrece un plan de 3 días completamente gratis, sin necesidad de tarjeta de crédito. Incluye recetas personalizadas y una lista de compras.",
+            "Sí, What's For Dinner ofrece una vista previa gratis sin tarjeta de crédito, con comidas personalizadas y una muestra de lista de compras. El plan completo cuesta $7.99/mes.",
         },
         {
           question: "¿Cómo funcionan los planificadores de comidas con IA?",
@@ -127,7 +127,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Plan de comidas con lista de compras: tu guía semanal completa",
       description:
         "Aprende cómo un plan de comidas semanal con lista de compras incluida puede ahorrarte tiempo y dinero. Descubre la forma más fácil de planificar tus comidas con recetas y compras organizadas.",
-      ctaText: "Obtén tu plan de comidas gratis",
+      ctaText: "Mira una vista previa gratis",
       readMoreText: "Leer el artículo completo en inglés",
       faqs: [
         {
@@ -146,7 +146,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "La mejor alternativa a Yummly en 2026",
       description:
         "¿Buscas una alternativa a Yummly? What's For Dinner genera planes de comidas personalizados con IA, incluyendo recetas y lista de compras, todo por un precio más accesible.",
-      ctaText: "Prueba gratis la alternativa a Yummly",
+      ctaText: "Descubre la alternativa a Yummly",
       readMoreText: "Leer el artículo completo en inglés",
       faqs: [
         {
@@ -165,7 +165,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Cómo comer saludable con poco presupuesto en 2026",
       description:
         "Guía práctica para comer saludable sin gastar de más. Aprende estrategias de planificación de comidas, recetas económicas y cómo reducir el desperdicio de alimentos con un presupuesto ajustado.",
-      ctaText: "Obtén tu plan de comidas económico gratis",
+      ctaText: "Obtén tu plan de comidas económico",
       readMoreText: "Leer el artículo completo en inglés",
       faqs: [
         {
@@ -184,7 +184,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "La mejor alternativa a Mealime en 2026",
       description:
         "Compara What's For Dinner vs Mealime. Descubre por qué un planificador de comidas con IA supera a Mealime en personalización, recetas y facilidad de uso.",
-      ctaText: "Prueba gratis la alternativa a Mealime",
+      ctaText: "Descubre la alternativa a Mealime",
       readMoreText: "Leer el artículo completo en inglés",
       faqs: [
         {
@@ -207,7 +207,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Les 10 meilleures applications de planification de repas en 2026",
       description:
         "Nous avons testé toutes les applications de planification de repas en 2026. Comparez les planificateurs IA, les options gratuites et les organisateurs de recettes avec prix, avantages et inconvénients.",
-      ctaText: "Obtenez votre plan de repas gratuit",
+      ctaText: "Découvrez un aperçu gratuit",
       readMoreText: "Lire l'article complet en anglais",
       faqs: [
         {
@@ -218,7 +218,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "Existe-t-il des applications gratuites de planification de repas?",
           answer:
-            "Oui, What's For Dinner propose un plan de 3 jours entièrement gratuit, sans carte de crédit requise, avec recettes personnalisées et liste de courses.",
+            "Oui, What's For Dinner propose un aperçu gratuit sans carte de crédit, avec repas personnalisés et un exemple de liste de courses. Le plan complet coûte 7,99 $/mois.",
         },
         {
           question: "Comment fonctionnent les planificateurs de repas IA?",
@@ -231,7 +231,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Plan de repas avec liste de courses: votre guide hebdomadaire complet",
       description:
         "Découvrez comment un plan de repas hebdomadaire avec liste de courses peut vous faire gagner du temps et de l'argent. La façon la plus simple de planifier vos repas avec recettes organisées.",
-      ctaText: "Obtenez votre plan de repas gratuit",
+      ctaText: "Découvrez un aperçu gratuit",
       readMoreText: "Lire l'article complet en anglais",
       faqs: [
         {
@@ -250,7 +250,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "La meilleure alternative à Yummly en 2026",
       description:
         "Vous cherchez une alternative à Yummly? What's For Dinner génère des plans de repas personnalisés par IA avec recettes et liste de courses, à un prix plus accessible.",
-      ctaText: "Essayez gratuitement l'alternative à Yummly",
+      ctaText: "Découvrez l'alternative à Yummly",
       readMoreText: "Lire l'article complet en anglais",
       faqs: [
         {
@@ -269,7 +269,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Comment manger sainement avec un petit budget en 2026",
       description:
         "Guide pratique pour manger sainement sans se ruiner. Stratégies de planification de repas, recettes économiques et astuces pour réduire le gaspillage alimentaire.",
-      ctaText: "Obtenez votre plan de repas économique gratuit",
+      ctaText: "Obtenez votre plan de repas économique",
       readMoreText: "Lire l'article complet en anglais",
       faqs: [
         {
@@ -288,7 +288,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "La meilleure alternative à Mealime en 2026",
       description:
         "Comparez What's For Dinner et Mealime. Découvrez pourquoi un planificateur de repas IA surpasse Mealime en personnalisation et facilité d'utilisation.",
-      ctaText: "Essayez gratuitement l'alternative à Mealime",
+      ctaText: "Découvrez l'alternative à Mealime",
       readMoreText: "Lire l'article complet en anglais",
       faqs: [
         {
@@ -311,7 +311,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Die 10 besten Essensplanungs-Apps 2026 (getestet & bewertet)",
       description:
         "Wir haben alle Essensplanungs-Apps 2026 getestet und die besten bewertet. Vergleichen Sie KI-Planer, kostenlose Optionen und Rezeptorganizer mit Preisen, Vor- und Nachteilen.",
-      ctaText: "Holen Sie sich Ihren kostenlosen Essensplan",
+      ctaText: "Kostenlose Vorschau ansehen",
       readMoreText: "Vollständigen Artikel auf Englisch lesen",
       faqs: [
         {
@@ -322,7 +322,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "Gibt es kostenlose Essensplanungs-Apps?",
           answer:
-            "Ja, What's For Dinner bietet einen völlig kostenlosen 3-Tage-Plan ohne Kreditkarte, mit personalisierten Rezepten und Einkaufsliste.",
+            "Ja, What's For Dinner bietet eine kostenlose Vorschau ohne Kreditkarte, mit personalisierten Mahlzeiten und einer Beispiel-Einkaufsliste. Der vollständige Plan kostet 7,99 $/Monat.",
         },
         {
           question: "Wie funktionieren KI-Essensplaner?",
@@ -335,7 +335,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Essensplan mit Einkaufsliste: Ihr kompletter Wochenguide",
       description:
         "Erfahren Sie, wie ein wöchentlicher Essensplan mit Einkaufsliste Ihnen Zeit und Geld spart. Der einfachste Weg, Mahlzeiten mit Rezepten und organisierten Einkäufen zu planen.",
-      ctaText: "Holen Sie sich Ihren kostenlosen Essensplan",
+      ctaText: "Kostenlose Vorschau ansehen",
       readMoreText: "Vollständigen Artikel auf Englisch lesen",
       faqs: [
         {
@@ -354,7 +354,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Die beste Alternative zu Yummly 2026",
       description:
         "Suchen Sie eine Yummly-Alternative? What's For Dinner erstellt mit KI personalisierte Essenspläne mit Rezepten und Einkaufsliste zu einem günstigeren Preis.",
-      ctaText: "Testen Sie die Yummly-Alternative kostenlos",
+      ctaText: "Entdecken Sie die Yummly-Alternative",
       readMoreText: "Vollständigen Artikel auf Englisch lesen",
       faqs: [
         {
@@ -373,7 +373,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Gesund essen mit kleinem Budget 2026",
       description:
         "Praktischer Leitfaden für gesundes Essen ohne hohe Kosten. Essensplanungsstrategien, günstige Rezepte und Tipps zur Reduzierung von Lebensmittelverschwendung.",
-      ctaText: "Holen Sie sich Ihren kostenlosen Budget-Essensplan",
+      ctaText: "Holen Sie sich Ihren Budget-Essensplan",
       readMoreText: "Vollständigen Artikel auf Englisch lesen",
       faqs: [
         {
@@ -392,7 +392,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Die beste Alternative zu Mealime 2026",
       description:
         "Vergleichen Sie What's For Dinner mit Mealime. Erfahren Sie, warum ein KI-Essensplaner Mealime bei Personalisierung und Benutzerfreundlichkeit übertrifft.",
-      ctaText: "Testen Sie die Mealime-Alternative kostenlos",
+      ctaText: "Entdecken Sie die Mealime-Alternative",
       readMoreText: "Vollständigen Artikel auf Englisch lesen",
       faqs: [
         {
@@ -415,7 +415,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Os 10 melhores apps de planejamento de refeições em 2026",
       description:
         "Testamos todos os apps de planejamento de refeições em 2026 e classificamos os melhores. Compare planejadores com IA, opções gratuitas e organizadores de receitas.",
-      ctaText: "Obtenha seu plano de refeições grátis",
+      ctaText: "Veja uma prévia grátis",
       readMoreText: "Ler o artigo completo em inglês",
       faqs: [
         {
@@ -426,7 +426,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "Existem apps gratuitos de planejamento de refeições?",
           answer:
-            "Sim, What's For Dinner oferece um plano de 3 dias totalmente grátis, sem cartão de crédito, com receitas personalizadas e lista de compras.",
+            "Sim, What's For Dinner oferece uma prévia grátis sem cartão de crédito, com refeições personalizadas e uma amostra de lista de compras. O plano completo custa $7.99/mês.",
         },
         {
           question: "Como funcionam os planejadores de refeições com IA?",
@@ -439,7 +439,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Plano de refeições com lista de compras: seu guia semanal completo",
       description:
         "Descubra como um plano semanal de refeições com lista de compras pode economizar seu tempo e dinheiro. A forma mais fácil de planejar refeições com receitas organizadas.",
-      ctaText: "Obtenha seu plano de refeições grátis",
+      ctaText: "Veja uma prévia grátis",
       readMoreText: "Ler o artigo completo em inglês",
       faqs: [
         {
@@ -458,7 +458,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "A melhor alternativa ao Yummly em 2026",
       description:
         "Procurando uma alternativa ao Yummly? What's For Dinner gera planos personalizados com IA, incluindo receitas e lista de compras, por um preço mais acessível.",
-      ctaText: "Experimente grátis a alternativa ao Yummly",
+      ctaText: "Conheça a alternativa ao Yummly",
       readMoreText: "Ler o artigo completo em inglês",
       faqs: [
         {
@@ -477,7 +477,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Como comer saudável gastando pouco em 2026",
       description:
         "Guia prático para comer saudável sem gastar muito. Estratégias de planejamento de refeições, receitas econômicas e dicas para reduzir o desperdício de alimentos.",
-      ctaText: "Obtenha seu plano econômico grátis",
+      ctaText: "Obtenha seu plano econômico",
       readMoreText: "Ler o artigo completo em inglês",
       faqs: [
         {
@@ -496,7 +496,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "A melhor alternativa ao Mealime em 2026",
       description:
         "Compare What's For Dinner com Mealime. Descubra por que um planejador com IA supera o Mealime em personalização e praticidade.",
-      ctaText: "Experimente grátis a alternativa ao Mealime",
+      ctaText: "Conheça a alternativa ao Mealime",
       readMoreText: "Ler o artigo completo em inglês",
       faqs: [
         {
@@ -519,7 +519,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年おすすめ食事計画アプリ10選（実際にテスト済み）",
       description:
         "2026年の食事計画アプリを全てテストし、ベストをランキング。AI献立プランナー、無料オプション、レシピ管理アプリを価格・長所・短所で比較。",
-      ctaText: "無料の食事プランを取得",
+      ctaText: "無料プレビューを見る",
       readMoreText: "英語で全文を読む",
       faqs: [
         {
@@ -530,7 +530,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "無料の食事計画アプリはありますか？",
           answer:
-            "はい、What's For Dinnerはクレジットカード不要で完全無料の3日間プランを提供しています。パーソナライズされたレシピと買い物リスト付きです。",
+            "はい、What's For Dinnerはクレジットカード不要の無料プレビューを提供しています。パーソナライズされた食事と買い物リストのサンプル付きです。フルプランは月額$7.99です。",
         },
         {
           question: "AI食事プランナーはどのように機能しますか？",
@@ -543,7 +543,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "買い物リスト付き食事プラン：完全週間ガイド",
       description:
         "買い物リスト付きの週間食事プランで時間とお金を節約する方法。レシピと整理された買い物で食事を計画する最も簡単な方法をご紹介。",
-      ctaText: "無料の食事プランを取得",
+      ctaText: "無料プレビューを見る",
       readMoreText: "英語で全文を読む",
       faqs: [
         {
@@ -562,7 +562,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年Yummlyの最良の代替アプリ",
       description:
         "Yummlyの代替をお探しですか？What's For DinnerはAIでレシピと買い物リスト付きのパーソナライズされた食事プランを生成します。",
-      ctaText: "Yummlyの代替を無料で試す",
+      ctaText: "Yummlyの代替をチェック",
       readMoreText: "英語で全文を読む",
       faqs: [
         {
@@ -581,7 +581,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年　予算内で健康的に食べる方法",
       description:
         "お金をかけずに健康的に食べるための実践ガイド。食事計画戦略、節約レシピ、食品ロス削減のコツをご紹介。",
-      ctaText: "無料の節約食事プランを取得",
+      ctaText: "節約食事プランを取得",
       readMoreText: "英語で全文を読む",
       faqs: [
         {
@@ -600,7 +600,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年Mealimeの最良の代替アプリ",
       description:
         "What's For DinnerとMealimeを比較。AI食事プランナーがパーソナライズと使いやすさでMealimeを上回る理由を発見。",
-      ctaText: "Mealimeの代替を無料で試す",
+      ctaText: "Mealimeの代替をチェック",
       readMoreText: "英語で全文を読む",
       faqs: [
         {
@@ -623,7 +623,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026년 최고의 식단 계획 앱 10선 (테스트 및 순위)",
       description:
         "2026년 모든 식단 계획 앱을 테스트하고 최고를 선정했습니다. AI 식단 플래너, 무료 옵션, 레시피 관리 앱을 가격, 장단점으로 비교하세요.",
-      ctaText: "무료 식단 계획 받기",
+      ctaText: "무료 미리보기 보기",
       readMoreText: "영어로 전체 기사 읽기",
       faqs: [
         {
@@ -634,7 +634,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "무료 식단 계획 앱이 있나요?",
           answer:
-            "네, What's For Dinner는 신용카드 없이 완전 무료 3일 플랜을 제공합니다. 맞춤 레시피와 장보기 목록이 포함됩니다.",
+            "네, What's For Dinner는 신용카드 없이 무료 미리보기를 제공합니다. 맞춤 식사와 장보기 목록 샘플이 포함됩니다. 전체 플랜은 월 $7.99입니다.",
         },
         {
           question: "AI 식단 플래너는 어떻게 작동하나요?",
@@ -647,7 +647,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "장보기 목록이 포함된 식단 계획: 완전한 주간 가이드",
       description:
         "장보기 목록이 포함된 주간 식단 계획으로 시간과 돈을 절약하는 방법을 알아보세요. 레시피와 체계적인 장보기로 식사를 계획하는 가장 쉬운 방법.",
-      ctaText: "무료 식단 계획 받기",
+      ctaText: "무료 미리보기 보기",
       readMoreText: "영어로 전체 기사 읽기",
       faqs: [
         {
@@ -666,7 +666,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026년 최고의 Yummly 대안",
       description:
         "Yummly 대안을 찾고 계신가요? What's For Dinner는 AI로 레시피와 장보기 목록이 포함된 맞춤형 식단을 생성합니다.",
-      ctaText: "Yummly 대안 무료 체험",
+      ctaText: "Yummly 대안 살펴보기",
       readMoreText: "영어로 전체 기사 읽기",
       faqs: [
         {
@@ -685,7 +685,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026년 적은 예산으로 건강하게 먹는 법",
       description:
         "돈을 많이 쓰지 않고 건강하게 먹는 실용 가이드. 식단 계획 전략, 절약 레시피, 음식물 쓰레기 줄이기 팁.",
-      ctaText: "무료 절약 식단 계획 받기",
+      ctaText: "절약 식단 계획 받기",
       readMoreText: "영어로 전체 기사 읽기",
       faqs: [
         {
@@ -704,7 +704,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026년 최고의 Mealime 대안",
       description:
         "What's For Dinner와 Mealime을 비교하세요. AI 식단 플래너가 개인화와 사용 편의성에서 Mealime을 능가하는 이유를 알아보세요.",
-      ctaText: "Mealime 대안 무료 체험",
+      ctaText: "Mealime 대안 살펴보기",
       readMoreText: "영어로 전체 기사 읽기",
       faqs: [
         {
@@ -727,7 +727,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年10款最佳膳食计划应用（实测排名）",
       description:
         "我们测试了2026年所有膳食计划应用并进行了排名。比较AI膳食规划器、免费选项和食谱管理器的价格、优缺点。",
-      ctaText: "获取免费膳食计划",
+      ctaText: "查看免费预览",
       readMoreText: "阅读英文完整文章",
       faqs: [
         {
@@ -738,7 +738,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "有免费的膳食计划应用吗？",
           answer:
-            "有，What's For Dinner提供完全免费的3天计划，无需信用卡，包含个性化食谱和购物清单。",
+            "有，What's For Dinner提供免费预览，无需信用卡，包含个性化餐食和购物清单示例。完整计划每月$7.99。",
         },
         {
           question: "AI膳食规划器如何工作？",
@@ -751,7 +751,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "带购物清单的膳食计划：完整的每周指南",
       description:
         "了解带购物清单的每周膳食计划如何帮您节省时间和金钱。用食谱和有组织的购物来规划膳食的最简单方法。",
-      ctaText: "获取免费膳食计划",
+      ctaText: "查看免费预览",
       readMoreText: "阅读英文完整文章",
       faqs: [
         {
@@ -770,7 +770,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年最佳Yummly替代品",
       description:
         "正在寻找Yummly的替代品？What's For Dinner用AI生成包含食谱和购物清单的个性化膳食计划，价格更实惠。",
-      ctaText: "免费试用Yummly替代品",
+      ctaText: "了解Yummly替代品",
       readMoreText: "阅读英文完整文章",
       faqs: [
         {
@@ -789,7 +789,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年如何在有限预算内健康饮食",
       description:
         "不花大钱也能健康饮食的实用指南。膳食计划策略、经济实惠的食谱以及减少食物浪费的技巧。",
-      ctaText: "获取免费经济膳食计划",
+      ctaText: "获取经济膳食计划",
       readMoreText: "阅读英文完整文章",
       faqs: [
         {
@@ -808,7 +808,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026年最佳Mealime替代品",
       description:
         "比较What's For Dinner和Mealime。了解AI膳食规划器在个性化和易用性方面为何超越Mealime。",
-      ctaText: "免费试用Mealime替代品",
+      ctaText: "了解Mealime替代品",
       readMoreText: "阅读英文完整文章",
       faqs: [
         {
@@ -831,7 +831,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "أفضل 10 تطبيقات لتخطيط الوجبات في 2026 (مجربة ومصنفة)",
       description:
         "اختبرنا جميع تطبيقات تخطيط الوجبات في 2026 وصنفنا الأفضل. قارن مخططات الذكاء الاصطناعي والخيارات المجانية ومنظمات الوصفات مع الأسعار والإيجابيات والسلبيات.",
-      ctaText: "احصل على خطة وجباتك المجانية",
+      ctaText: "شاهد معاينة مجانية",
       readMoreText: "اقرأ المقال الكامل بالإنجليزية",
       faqs: [
         {
@@ -842,7 +842,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "هل توجد تطبيقات مجانية لتخطيط الوجبات؟",
           answer:
-            "نعم، يقدم What's For Dinner خطة مجانية لمدة 3 أيام بدون بطاقة ائتمان، مع وصفات مخصصة وقائمة تسوق.",
+            "نعم، يقدم What's For Dinner معاينة مجانية بدون بطاقة ائتمان، مع وجبات مخصصة ونموذج قائمة تسوق. الخطة الكاملة بسعر $7.99 شهريًا.",
         },
         {
           question: "كيف تعمل مخططات الوجبات بالذكاء الاصطناعي؟",
@@ -855,7 +855,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "خطة وجبات مع قائمة تسوق: دليلك الأسبوعي الكامل",
       description:
         "اكتشف كيف يمكن لخطة وجبات أسبوعية مع قائمة تسوق أن توفر لك الوقت والمال. أسهل طريقة لتخطيط وجباتك مع وصفات منظمة.",
-      ctaText: "احصل على خطة وجباتك المجانية",
+      ctaText: "شاهد معاينة مجانية",
       readMoreText: "اقرأ المقال الكامل بالإنجليزية",
       faqs: [
         {
@@ -893,7 +893,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "كيف تأكل صحياً بميزانية محدودة في 2026",
       description:
         "دليل عملي للأكل الصحي دون إنفاق الكثير. استراتيجيات تخطيط الوجبات ووصفات اقتصادية ونصائح لتقليل هدر الطعام.",
-      ctaText: "احصل على خطة وجبات اقتصادية مجانية",
+      ctaText: "احصل على خطة وجبات اقتصادية",
       readMoreText: "اقرأ المقال الكامل بالإنجليزية",
       faqs: [
         {
@@ -935,7 +935,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026'nın En İyi 10 Yemek Planlama Uygulaması (Test Edildi)",
       description:
         "2026'daki tüm yemek planlama uygulamalarını test ettik ve en iyilerini sıraladık. Yapay zeka planlayıcıları, ücretsiz seçenekler ve tarif düzenleyicileri fiyat, artı ve eksileriyle karşılaştırın.",
-      ctaText: "Ücretsiz yemek planınızı alın",
+      ctaText: "Ücretsiz önizlemeyi görün",
       readMoreText: "Makalenin tamamını İngilizce okuyun",
       faqs: [
         {
@@ -946,7 +946,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
         {
           question: "Ücretsiz yemek planlama uygulaması var mı?",
           answer:
-            "Evet, What's For Dinner kredi kartı gerektirmeden tamamen ücretsiz 3 günlük plan sunuyor. Kişiselleştirilmiş tarifler ve alışveriş listesi dahil.",
+            "Evet, What's For Dinner kredi kartı gerektirmeden ücretsiz önizleme sunuyor. Kişiselleştirilmiş yemekler ve örnek alışveriş listesi dahil. Tam plan ayda $7.99.",
         },
         {
           question: "Yapay zeka yemek planlayıcıları nasıl çalışır?",
@@ -959,7 +959,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "Alışveriş Listeli Yemek Planı: Eksiksiz Haftalık Rehberiniz",
       description:
         "Alışveriş listeli haftalık yemek planının size nasıl zaman ve para kazandıracağını öğrenin. Tarifler ve düzenli alışverişle yemek planlamanın en kolay yolu.",
-      ctaText: "Ücretsiz yemek planınızı alın",
+      ctaText: "Ücretsiz önizlemeyi görün",
       readMoreText: "Makalenin tamamını İngilizce okuyun",
       faqs: [
         {
@@ -978,7 +978,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026'da En İyi Yummly Alternatifi",
       description:
         "Yummly alternatifi mi arıyorsunuz? What's For Dinner yapay zeka ile tarifler ve alışveriş listesi dahil kişiselleştirilmiş yemek planları oluşturur.",
-      ctaText: "Yummly alternatifini ücretsiz deneyin",
+      ctaText: "Yummly alternatifini keşfedin",
       readMoreText: "Makalenin tamamını İngilizce okuyun",
       faqs: [
         {
@@ -997,7 +997,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026'da Bütçeyle Sağlıklı Beslenme",
       description:
         "Fazla harcamadan sağlıklı yemek yemek için pratik rehber. Yemek planlama stratejileri, ekonomik tarifler ve gıda israfını azaltma ipuçları.",
-      ctaText: "Ücretsiz bütçe dostu yemek planınızı alın",
+      ctaText: "Bütçe dostu yemek planınızı alın",
       readMoreText: "Makalenin tamamını İngilizce okuyun",
       faqs: [
         {
@@ -1016,7 +1016,7 @@ const BLOG_CONTENT: Record<string, LocaleBlogContentMap> = {
       title: "2026'da En İyi Mealime Alternatifi",
       description:
         "What's For Dinner ile Mealime'ı karşılaştırın. Yapay zeka yemek planlayıcısının kişiselleştirme ve kullanım kolaylığında Mealime'ı neden geçtiğini keşfedin.",
-      ctaText: "Mealime alternatifini ücretsiz deneyin",
+      ctaText: "Mealime alternatifini keşfedin",
       readMoreText: "Makalenin tamamını İngilizce okuyun",
       faqs: [
         {
