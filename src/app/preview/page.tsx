@@ -5,19 +5,27 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { DayCard } from "@/components/plan/DayCard";
 import { SocialProofLine } from "@/components/ui/SocialProofLine";
+import { useT } from "@/lib/i18n/context";
 import type { PreviewPlanResult } from "@/lib/preview-plan";
-
-const MEAL_TYPE_LABELS: Record<string, string> = {
-  breakfast: "Breakfast",
-  lunch: "Lunch",
-  dinner: "Dinner",
-  snack: "Snack",
-};
 
 export default function PreviewPage() {
   const router = useRouter();
+  const { t, locale } = useT();
   const [prefs, setPrefs] = useState<Record<string, unknown> | null>(null);
   const [plan, setPlan] = useState<PreviewPlanResult | null>(null);
+
+  const MEAL_TYPE_LABELS: Record<string, string> = {
+    breakfast: t("mealTypes.breakfast"),
+    lunch: t("mealTypes.lunch"),
+    dinner: t("mealTypes.dinner"),
+    snack: t("mealTypes.snack"),
+  };
+
+  // Day names come back from the API in English (Monday, Tuesday, ...);
+  // translate for display without touching the underlying data.
+  function dayLabel(day: string): string {
+    return t(`preview.days.${day.toLowerCase()}`);
+  }
 
   useEffect(() => {
     let stored: Record<string, unknown> = {};
@@ -30,7 +38,7 @@ export default function PreviewPage() {
     fetch("/api/preview-plan", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(stored),
+      body: JSON.stringify({ ...stored, locale }),
     })
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
@@ -41,10 +49,11 @@ export default function PreviewPage() {
         // leave skeleton; CTA still works
         setPrefs(stored);
       });
-  }, []);
+  }, [locale]);
 
   function handleCTA() {
-    router.push("/signup?redirect=/setup");
+    const redirect = locale !== "en" ? `/signup?redirect=/setup&lang=${locale}` : "/signup?redirect=/setup";
+    router.push(redirect);
   }
 
   // Build a short personalization label from stored prefs
@@ -55,10 +64,10 @@ export default function PreviewPage() {
       personalizationBits.push(restrictions.slice(0, 2).join(", "));
     }
     const size = prefs.household_size as number | undefined;
-    if (size && size > 1) personalizationBits.push(`for ${size}`);
+    if (size && size > 1) personalizationBits.push(t("preview.forHousehold", { size }));
     const budget = prefs.weekly_budget as string | undefined;
-    if (budget === "budget") personalizationBits.push("budget-friendly");
-    else if (budget === "generous") personalizationBits.push("generous budget");
+    if (budget === "budget") personalizationBits.push(t("preview.budgetFriendly"));
+    else if (budget === "generous") personalizationBits.push(t("preview.generousBudget"));
   }
   const personalizationLabel = personalizationBits.length
     ? personalizationBits.join(" · ")
@@ -70,13 +79,13 @@ export default function PreviewPage() {
       <header className="border-b border-stone-100 bg-white/80 backdrop-blur-sm sticky top-0 z-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
           <Link href="/" className="text-sm font-semibold text-stone-700 hover:text-orange-500 transition-colors">
-            What&apos;s For Dinner
+            {t("landing.footer.brand")}
           </Link>
           <Link
             href="/login"
             className="text-sm text-stone-400 hover:text-orange-500 transition-colors"
           >
-            Sign in
+            {t("common.signIn")}
           </Link>
         </div>
       </header>
@@ -86,13 +95,13 @@ export default function PreviewPage() {
         <div className="text-center mb-8 sm:mb-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-50 border border-orange-100 text-xs font-medium text-orange-600 mb-4">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-            Your personalized plan is ready
+            {t("preview.heroBadge")}
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-stone-900 tracking-tight mb-2">
-            Here&apos;s a taste of your week
+            {t("preview.heroTitle")}
           </h1>
           <p className="text-stone-500 text-sm sm:text-base">
-            Monday is unlocked. Subscribe to get all 7 days + recipes + grocery list.
+            {t("preview.heroSubtitle")}
           </p>
           {personalizationLabel && (
             <div className="mt-3 inline-flex items-center px-3 py-1 rounded-full bg-stone-100 text-xs text-stone-500 font-medium">
@@ -104,11 +113,11 @@ export default function PreviewPage() {
         {/* Monday — fully visible */}
         <div className="mb-4">
           <div className="flex items-center gap-2 mb-2">
-            <span className="text-xs font-semibold text-green-600 uppercase tracking-wider">Unlocked</span>
+            <span className="text-xs font-semibold text-green-600 uppercase tracking-wider">{t("preview.unlockedLabel")}</span>
             <div className="flex-1 h-px bg-stone-100" />
           </div>
           {plan ? (
-            <DayCard day={plan.monday} defaultOpen={true} />
+            <DayCard day={{ ...plan.monday, day: dayLabel(plan.monday.day) }} defaultOpen={true} />
           ) : (
             <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-5 animate-pulse">
               <div className="h-5 w-28 bg-stone-100 rounded mb-4" />
@@ -125,7 +134,7 @@ export default function PreviewPage() {
         <div className="relative">
           <div className="flex items-center gap-2 mb-3">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-stone-400"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-            <span className="text-xs font-semibold text-stone-400 uppercase tracking-wider">Locked — 6 more days</span>
+            <span className="text-xs font-semibold text-stone-400 uppercase tracking-wider">{t("preview.lockedLabel", { n: 6 })}</span>
             <div className="flex-1 h-px bg-stone-100" />
           </div>
 
@@ -137,8 +146,8 @@ export default function PreviewPage() {
                 className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-5 blur-[3px] opacity-70"
               >
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-base font-semibold text-stone-800">{day.day}</span>
-                  <span className="text-xs text-stone-400">{day.meals.length} meals</span>
+                  <span className="text-base font-semibold text-stone-800">{dayLabel(day.day)}</span>
+                  <span className="text-xs text-stone-400">{t("dashboard.mealsCount", { count: day.meals.length })}</span>
                 </div>
                 <div className="space-y-2">
                   {day.meals.map((meal, i) => (
@@ -157,9 +166,9 @@ export default function PreviewPage() {
             {plan && (
               <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-5 blur-[3px] opacity-70">
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-base font-semibold text-stone-800">Grocery List</span>
+                  <span className="text-base font-semibold text-stone-800">{t("preview.groceryListTitle")}</span>
                   <span className="text-xs bg-orange-100 text-orange-600 font-medium px-2 py-0.5 rounded-full">
-                    ~{plan.groceryItemCount} items
+                    {t("preview.itemsCount", { count: plan.groceryItemCount })}
                   </span>
                 </div>
                 <div className="grid grid-cols-2 gap-1.5">
@@ -184,27 +193,27 @@ export default function PreviewPage() {
                 </svg>
               </div>
               <h2 className="text-lg font-bold text-stone-900 mb-1">
-                6 more days waiting for you
+                {t("preview.moreDaysWaiting", { n: 6 })}
               </h2>
               <p className="text-sm text-stone-500 mb-5">
-                Full recipes, grocery list, and a new plan every week.
+                {t("preview.moreDaysDesc")}
               </p>
               <div className="space-y-2.5">
                 <button
                   onClick={handleCTA}
                   className="w-full py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md shadow-orange-500/20 transition-all duration-200"
                 >
-                  Unlock my full plan — $7.99/mo
+                  {t("preview.unlockCta")}
                 </button>
                 <button
                   onClick={handleCTA}
                   className="w-full py-2 text-xs text-stone-400 hover:text-orange-500 transition-colors"
                 >
-                  Or $5/mo billed yearly (save 37%)
+                  {t("preview.yearlyCta")}
                 </button>
               </div>
               <p className="mt-3 text-[10px] text-stone-400">
-                Create your free account first — takes 30 seconds
+                {t("preview.createAccountNote")}
               </p>
               <SocialProofLine className="mt-3" />
             </div>
@@ -216,19 +225,19 @@ export default function PreviewPage() {
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs text-stone-400">
             <span className="flex items-center gap-1.5">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Cancel anytime
+              {t("preview.cancelAnytime")}
             </span>
             <span className="flex items-center gap-1.5">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              New plan every Sunday
+              {t("preview.newPlanSunday")}
             </span>
             <span className="flex items-center gap-1.5">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Grocery list included
+              {t("preview.groceryIncluded")}
             </span>
             <span className="flex items-center gap-1.5">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-              Personalized to your preferences
+              {t("preview.personalizedTrust")}
             </span>
           </div>
         </div>
@@ -240,7 +249,7 @@ export default function PreviewPage() {
           onClick={handleCTA}
           className="w-full py-3.5 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg transition-colors"
         >
-          Unlock my full 7-day plan
+          {t("preview.mobileCta")}
         </button>
       </div>
     </div>

@@ -7334,5 +7334,775 @@
         "answer": "Choisissez des restaurants qui cuisinent maison. Protéines grillées, légumes en accompagnement, préparations simples. L'objectif n'est pas la perfection, mais de faire de bons choix la plupart du temps."
       }
     ]
+  },
+  "1200-calorie-meal-plan-for-women": {
+    "title": "Plan Repas 1200 Calories pour Femmes — Recettes et Liste de Courses",
+    "metaDescription": "Plan repas personnalisé de 1200 calories pour femmes avec recettes et liste de courses. Repas rassasiants et nutritifs riches en fer, calcium et protéines. Aperçu gratuit.",
+    "h1": "Un Plan Repas de 1200 Calories Pensé pour les Femmes",
+    "intro": "La plupart des plans à 1 200 calories se contentent de réduire les portions d'une alimentation générique — c'est pour ça qu'ils échouent. Les femmes qui visent 1 200 calories ont des besoins nutritionnels précis : du fer (surtout avec les règles), du calcium et de la vitamine D pour la densité osseuse, assez de protéines pour protéger la masse musculaire pendant un déficit, et des fibres pour vraiment tenir jusqu'au repas suivant. Nos plans sont conçus autour de ces priorités, pas autour du principe « manger moins de tout ». Attendez-vous à des repas volumineux et denses en nutriments : bols de yaourt grec aux fruits rouges, grandes salades avec poulet grillé et pois chiches, saumon avec légumes rôtis, et des collations réellement protéinées. Un déficit modéré que vous pouvez tenir bat toujours un déficit agressif abandonné dès jeudi.",
+    "valueProps": [
+      {
+        "heading": "Les nutriments dont les femmes ont vraiment besoin en déficit",
+        "description": "Chaque semaine inclut des aliments riches en fer (lentilles, épinards, bœuf maigre), des sources de calcium (yaourt, laits enrichis, légumes verts feuillus) et 80 à 100 g de protéines par jour pour préserver votre masse musculaire pendant la perte de graisse. Un plan à 1 200 calories ne fonctionne que si ces bases sont couvertes — sinon vous êtes juste fatiguée et affamée."
+      },
+      {
+        "heading": "Manger en volume, pas réduire les portions",
+        "description": "Nous remplissons votre assiette avec des ingrédients volumineux et peu caloriques — légumes crucifères, légumes verts feuillus, fruits rouges, soupes à base de bouillon — pour que les repas aient l'air et le goût normaux. Vous devriez terminer le dîner rassasiée, pas en train de compter les heures jusqu'à la prochaine collation."
+      },
+      {
+        "heading": "Personnalisé selon votre vie, pas un modèle générique",
+        "description": "Indiquez-nous vos restrictions alimentaires, allergies, temps de cuisine et taille du foyer. Le plan s'adapte — y compris pour cuisiner pour une famille tout en restant à 1 200 calories, avec des repas partagés dont votre portion est calculée différemment."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Bol de Yaourt Grec aux Fruits Rouges et Amandes",
+        "description": "Yaourt grec 0% avec fraises, myrtilles, une cuillère à soupe d'amandes effilées et de la cannelle. Environ 280 calories avec plus de 20 g de protéines et une bonne dose de calcium pour bien commencer la journée.",
+        "tags": [
+          "riche-en-protéines",
+          "sans-cuisson",
+          "riche-en-calcium"
+        ]
+      },
+      {
+        "name": "Salade Complète au Poulet et Pois Chiches",
+        "description": "Blanc de poulet grillé sur mesclun avec pois chiches, concombre, tomates cerises, oignon rouge et vinaigrette citron-huile d'olive. Environ 340 calories, riche en fibres et en fer grâce aux pois chiches et aux légumes verts.",
+        "tags": [
+          "riche-en-protéines",
+          "riche-en-fer",
+          "à-préparer"
+        ]
+      },
+      {
+        "name": "Saumon Rôti au Brocoli et Patate Douce",
+        "description": "Un filet de saumon taille paume avec une grande plaque de brocoli rôti et une demi-patate douce. Environ 400 calories avec des oméga-3, de la vitamine D et assez de volume pour ressembler à un vrai dîner.",
+        "tags": [
+          "oméga-3",
+          "cuisson-sur-plaque",
+          "sans-gluten"
+        ]
+      },
+      {
+        "name": "Fromage Blanc au Concombre et Assaisonnement Bagel",
+        "description": "Une demi-tasse de fromage blanc allégé avec des tranches de concombre et un mélange d'épices façon bagel. Environ 110 calories et 12 g de protéines — la collation qui tient vraiment jusqu'au dîner.",
+        "tags": [
+          "riche-en-protéines",
+          "sans-cuisson",
+          "rapide"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "1 200 calories, est-ce sûr pour les femmes ?",
+        "answer": "Cela dépend de votre gabarit et de votre niveau d'activité. Pour une femme de petite taille et sédentaire, 1 200 calories peuvent constituer un déficit modéré approprié. Pour une femme plus grande ou active, c'est généralement trop bas — vous seriez probablement mieux entre 1 400 et 1 600 calories. En règle générale, 1 200 est considéré comme le plancher pour couvrir les besoins en micronutriments, c'est pourquoi nos plans misent autant sur la densité nutritionnelle. Si vous avez des antécédents de troubles alimentaires, êtes enceinte, allaitez ou avez une condition médicale, parlez-en à votre médecin avant de commencer un plan restrictif."
+      },
+      {
+        "question": "Combien de protéines les femmes devraient-elles manger avec 1 200 calories ?",
+        "answer": "Visez 80 à 100 g par jour — soit 27 à 33 % de vos calories. Les protéines protègent la masse musculaire pendant un déficit, vous rassasient plus longtemps entre les repas, et ont un effet thermique plus élevé que les glucides ou les lipides. Nos plans à 1 200 calories atteignent cette fourchette grâce à la volaille maigre, au poisson, au yaourt grec, au fromage blanc, aux œufs, au tofu et aux légumineuses répartis sur tous les repas et collations."
+      },
+      {
+        "question": "Pourquoi je ne perds pas de poids avec 1 200 calories ?",
+        "answer": "Les causes les plus fréquentes : des extras non comptabilisés (huiles, sauces, grignotages en cuisinant) qui font grimper l'apport réel, une rétention d'eau qui masque la perte de graisse sur la balance (surtout autour du cycle), ou un métabolisme adapté à un régime prolongé. Laissez à n'importe quel plan 3 à 4 semaines et jugez sur la tendance, pas sur les pesées quotidiennes. Si rien ne bouge après un mois de suivi rigoureux, il vaut la peine de consulter un médecin."
+      },
+      {
+        "question": "Puis-je suivre un plan à 1 200 calories tout en cuisinant pour ma famille ?",
+        "answer": "Oui — c'est exactement à cela que sert la personnalisation. Indiquez-nous la taille de votre foyer et le plan construit des dîners partagés où votre portion est calibrée sur vos calories pendant que le reste de la famille mange des portions normales. Pas besoin de cuisiner deux repas séparés, ni de manger du poulet nature pendant que la famille a des pâtes."
+      },
+      {
+        "question": "À quoi ressemble une journée type à 1 200 calories ?",
+        "answer": "En gros : un petit-déjeuner à 280 calories, un déjeuner à 340 calories, un dîner à 400 calories, et une ou deux collations totalisant 150 à 200 calories. Nous privilégions légèrement le dîner car c'est le moment où la plupart des gens luttent le plus contre la faim. Vous pouvez aussi demander au plan de supprimer les collations pour reporter ces calories sur des repas plus copieux."
+      }
+    ]
+  },
+  "ibs-meal-plan": {
+    "title": "Plan Repas SII - Menus Hebdomadaires Pauvres en FODMAP",
+    "metaDescription": "Obtenez un plan repas personnalisé pauvre en FODMAP pour le syndrome de l'intestin irritable, avec recettes et listes de courses. Réduisez ballonnements, crampes et crises. Aperçu gratuit.",
+    "h1": "Un Plan Repas Pauvre en FODMAP Qui Enlève la Devinette au SII",
+    "intro": "Vivre avec le syndrome de l'intestin irritable (SII), c'est jouer à la roulette à chaque repas — celui-ci va-t-il gâcher votre après-midi ? L'approche pauvre en FODMAP est cliniquement prouvée pour réduire les symptômes chez jusqu'à 75 % des personnes atteintes de SII, mais comprendre ce qu'on peut réellement manger est épuisant. Nous vous préparons un menu pauvre en FODMAP chaque semaine, avec des recettes sûres et savoureuses, pour que vous puissiez manger en toute confiance sans passer des heures à vérifier des listes d'ingrédients.",
+    "valueProps": [
+      {
+        "heading": "Pauvre en FODMAP par défaut",
+        "description": "Chaque recette évite les déclencheurs riches en FODMAP comme l'ail, l'oignon, le blé et l'excès de lactose. Nous utilisons de l'huile aromatisée à l'ail, le vert des oignons nouveaux et d'autres substituts pauvres en FODMAP pour garder la saveur sans la douleur."
+      },
+      {
+        "heading": "Conçu pour la phase d'élimination",
+        "description": "Nos plans de base suivent les directives strictes de la phase d'élimination. Au fur et à mesure que vous identifiez vos déclencheurs personnels, vous pouvez mettre à jour vos préférences et nous ajusterons vos repas selon votre progression de réintroduction."
+      },
+      {
+        "heading": "Bon pour l'intestin sans être ennuyeux",
+        "description": "Pauvre en FODMAP ne veut pas dire poulet nature et riz tous les soirs. Nous utilisons des herbes, des agrumes, du gingembre, du sirop d'érable et d'autres exhausteurs de saveur sûrs pour garder les repas intéressants et satisfaisants."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Overnight Oats aux Myrtilles et Érable",
+        "description": "Flocons d'avoine trempés dans du lait sans lactose avec graines de chia, myrtilles fraîches et un filet de sirop d'érable. Doux pour l'intestin, prêt dès le réveil.",
+        "tags": [
+          "pauvre-en-fodmap",
+          "sans-cuisson"
+        ]
+      },
+      {
+        "name": "Rouleaux de Printemps au Poulet et Sauce Cacahuète",
+        "description": "Rouleaux de papier de riz frais garnis de poulet poché, carottes, concombre et menthe, servis avec une sauce cacahuète-gingembre sans ail ni oignon.",
+        "tags": [
+          "pauvre-en-fodmap",
+          "sans-cuisson"
+        ]
+      },
+      {
+        "name": "Saumon Poêlé aux Pommes de Terre Citron-Aneth",
+        "description": "Filet de saumon avec peau et pommes de terre grelots rôties dans de l'huile d'olive infusée à l'ail, aneth frais et zeste de citron. Servi avec des haricots verts vapeur.",
+        "tags": [
+          "pauvre-en-fodmap",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Sauté de Poulet Gingembre-Soja au Pak-Choï",
+        "description": "Émincé de blanc de poulet sauté avec du pak-choï, des poivrons et des pousses de soja dans une sauce gingembre-soja-sésame sur riz jasmin. Sans oignon, sans ail.",
+        "tags": [
+          "pauvre-en-fodmap",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Galettes de Riz au Beurre de Cacahuète et Banane",
+        "description": "Deux galettes de riz nature garnies de beurre de cacahuète naturel et de tranches de banane ferme (1/3 d'une banane moyenne, dans les limites FODMAP). Croquant, satisfaisant et sûr.",
+        "tags": [
+          "pauvre-en-fodmap",
+          "rapide"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quels aliments dois-je éviter dans un plan repas pauvre en FODMAP ?",
+        "answer": "Les aliments riches en FODMAP incluent l'ail, l'oignon, le blé, le seigle, les pommes, les poires, la pastèque, le miel, le lait, le yaourt, les légumineuses et le chou-fleur. Nos plans repas les excluent automatiquement et utilisent des substituts pauvres en FODMAP — comme l'huile infusée à l'ail au lieu de gousses d'ail, ou la banane ferme au lieu de mûre — pour que vous n'ayez pas à mémoriser les listes."
+      },
+      {
+        "question": "Combien de temps dois-je suivre un régime pauvre en FODMAP pour le SII ?",
+        "answer": "La phase d'élimination stricte dure généralement 2 à 6 semaines, suivie d'une phase de réintroduction structurée où vous testez un groupe de FODMAP à la fois. Nos plans commencent par une élimination stricte. La plupart des gens découvrent qu'ils n'ont besoin d'éviter que 1 ou 2 groupes de FODMAP spécifiques sur le long terme, pas tous."
+      },
+      {
+        "question": "Un régime pauvre en FODMAP peut-il vraiment réduire les symptômes du SII ?",
+        "answer": "Oui. Les recherches de l'Université Monash montrent qu'un régime pauvre en FODMAP réduit des symptômes comme les ballonnements, les gaz, les crampes et la diarrhée chez environ 75 % des personnes atteintes de SII. C'est actuellement l'approche alimentaire la plus scientifiquement validée pour la gestion du SII, recommandée par la plupart des gastro-entérologues."
+      },
+      {
+        "question": "Vais-je avoir assez de fibres avec un plan pauvre en FODMAP ?",
+        "answer": "Absolument. De nombreux aliments pauvres en FODMAP sont d'excellentes sources de fibres : l'avoine, le quinoa, les graines de chia, les oranges, les fraises, les carottes et le chou frisé sont tous sûrs et riches en fibres. Nos plans sont conçus pour inclure suffisamment de fibres, car la gestion du SII ne devrait pas se faire au détriment de la santé intestinale globale."
+      },
+      {
+        "question": "Puis-je suivre un plan pauvre en FODMAP si je suis végétarien ou végane ?",
+        "answer": "Oui, même si cela demande un peu plus de planification puisque de nombreuses protéines végétales (lentilles, pois chiches, haricots rouges) sont riches en FODMAP. Nous utilisons des lentilles en conserve rincées en petites portions, du tofu ferme (pauvre en FODMAP), du tempeh et des noix pour atteindre vos objectifs de protéines. Indiquez vos préférences alimentaires et nous construirons des plans qui respectent les deux contraintes."
+      }
+    ]
+  },
+  "pcos-meal-plan": {
+    "title": "Plan Repas SOPK - Anti-Inflammatoire et Adapté à la Glycémie",
+    "metaDescription": "Obtenez un plan repas hebdomadaire personnalisé pour le SOPK avec recettes anti-inflammatoires et listes de courses. Gérez la résistance à l'insuline et l'équilibre hormonal par l'alimentation. Aperçu gratuit.",
+    "h1": "Un Plan Repas SOPK Construit Autour de la Résistance à l'Insuline, Pas Seulement des Calories",
+    "intro": "Le SOPK n'est pas seulement un problème reproductif — c'est aussi un problème métabolique, et ce que vous mangez a un impact direct sur les niveaux d'insuline, l'inflammation et l'équilibre hormonal. Le plus frustrant, c'est que les conseils génériques de « bien manger » ne suffisent pas quand votre corps traite les glucides différemment. Nous construisons chaque semaine des plans repas spécifiques au SOPK qui privilégient la stabilité de la glycémie, les ingrédients anti-inflammatoires et des macronutriments équilibrés, sans faire de la nourriture un médicament.",
+    "valueProps": [
+      {
+        "heading": "Stabilité glycémique à chaque repas",
+        "description": "Chaque repas associe des glucides complexes à des protéines et des bonnes graisses pour éviter les pics d'insuline. Nous utilisons des céréales à index glycémique bas, limitons les sucres raffinés, et répartissons stratégiquement les glucides pour que votre glycémie reste stable toute la journée."
+      },
+      {
+        "heading": "Anti-inflammatoire par conception",
+        "description": "L'inflammation chronique de bas grade alimente les symptômes du SOPK. Nos plans privilégient les poissons riches en oméga-3, le curcuma, les légumes verts feuillus, les fruits rouges et l'huile d'olive extra vierge, tout en limitant les aliments transformés, les huiles raffinées et l'excès de sucre."
+      },
+      {
+        "heading": "Durable, pas restrictif",
+        "description": "Nous ne vous imposons pas un régime choc à 1 200 calories. Le SOPK répond mieux à une nutrition adéquate avec les bons macronutriments qu'à la restriction. Nos plans sont copieux, variés et conçus pour une adhésion sur le long terme."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Muffins aux Œufs, Épinards et Feta",
+        "description": "Cupcakes salés cuits au four avec épinards frais, feta émiettée et tomates séchées. Riches en protéines, à index glycémique bas, et faciles à préparer à l'avance pour les matins chargés.",
+        "tags": [
+          "riche-en-protéines",
+          "à-préparer"
+        ]
+      },
+      {
+        "name": "Bol de Saumon et Quinoa à l'Avocat",
+        "description": "Saumon sauvage sur quinoa avec avocat en tranches, concombre, edamame et une vinaigrette curcuma-tahini. Oméga-3 et épices anti-inflammatoires dans un même bol.",
+        "tags": [
+          "anti-inflammatoire",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Poivrons Farcis à la Dinde et aux Lentilles",
+        "description": "Poivrons farcis de dinde hachée, lentilles vertes, tomates concassées et cumin, gratinés avec un peu de cheddar. Protéines équilibrées et glucides à digestion lente.",
+        "tags": [
+          "riche-en-protéines",
+          "riche-en-fibres"
+        ]
+      },
+      {
+        "name": "Poulet au Curcuma, Brocoli et Patate Douce Rôtis",
+        "description": "Cuisses de poulet frottées au curcuma, poivre noir et huile d'olive, rôties avec des bouquets de brocoli et des quartiers de patate douce. Anti-inflammatoire et profondément rassasiant.",
+        "tags": [
+          "anti-inflammatoire",
+          "cuisson-sur-plaque"
+        ]
+      },
+      {
+        "name": "Bouchées Énergétiques Amande-Cannelle",
+        "description": "Bouchées sans cuisson à base de beurre d'amande, flocons d'avoine, graines de lin, cannelle et une touche de chocolat noir. La cannelle aide à la sensibilité à l'insuline et ces bouchées calment les envies de sucré.",
+        "tags": [
+          "sans-cuisson",
+          "à-préparer"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Que dois-je manger pour gérer les symptômes du SOPK ?",
+        "answer": "Concentrez-vous sur les aliments anti-inflammatoires (poissons gras, légumes verts feuillus, fruits rouges, curcuma), les glucides complexes (quinoa, patates douces, avoine), les protéines maigres et les bonnes graisses (avocat, huile d'olive, noix). La clé est d'associer glucides, protéines et graisses pour ralentir l'absorption du glucose. Nos plans le font automatiquement à chaque repas pour que vous n'ayez pas à y penser."
+      },
+      {
+        "question": "Devrais-je adopter un régime pauvre en glucides pour le SOPK ?",
+        "answer": "Pas forcément. Réduire les glucides raffinés aide la résistance à l'insuline, mais un régime très pauvre en glucides peut stresser les glandes surrénales et aggraver les symptômes chez certaines femmes. Les recherches montrent qu'un apport modéré en glucides (environ 40 % des calories) provenant d'aliments complets fonctionne bien pour la plupart des personnes atteintes de SOPK. Nos plans adoptent cette approche équilibrée plutôt qu'une restriction extrême."
+      },
+      {
+        "question": "L'alimentation seule peut-elle aider à gérer le poids avec le SOPK ?",
+        "answer": "L'alimentation est le levier le plus efficace pour la gestion du poids dans le SOPK. Des études montrent qu'une réduction de seulement 5 à 10 % du poids corporel peut restaurer l'ovulation et améliorer la sensibilité à l'insuline. Nos plans misent sur une nutrition stable et durable plutôt que sur un régime choc, qui peut en réalité aggraver les déséquilibres hormonaux du SOPK."
+      },
+      {
+        "question": "Y a-t-il des aliments qui aggravent le SOPK ?",
+        "answer": "Les sucres raffinés, le pain blanc, les boissons sucrées, les collations transformées et les excès de produits laitiers peuvent aggraver la résistance à l'insuline et l'inflammation. Les gras trans et les huiles végétales très transformées sont également inflammatoires. Nos plans limitent tout cela tout en incluant des repas satisfaisants — vous n'aurez pas l'impression de suivre un régime médical restrictif."
+      },
+      {
+        "question": "Comment ce plan repas SOPK gère-t-il les envies de sucré ?",
+        "answer": "Les envies de sucré dans le SOPK sont souvent causées par des chutes de glycémie, pas par un manque de volonté. En maintenant votre glycémie stable grâce à des repas équilibrés et des collations stratégiques, les envies diminuent naturellement. Nous incluons aussi des versions saines de plats réconfortants — chocolat noir, douceurs à la cannelle et plats salés — pour que vous ne vous sentiez jamais privée."
+      }
+    ]
+  },
+  "gerd-meal-plan": {
+    "title": "Plan Repas RGO - Recettes Adaptées au Reflux Acide",
+    "metaDescription": "Obtenez un plan repas hebdomadaire personnalisé pour le RGO et le reflux acide, avec recettes sans déclencheurs et listes de courses. Bien manger sans les brûlures. Aperçu gratuit dès aujourd'hui.",
+    "h1": "Un Plan Repas pour le Reflux Acide Qui N'a Pas le Goût d'une Punition",
+    "intro": "Quand on a un RGO, manger devient un champ de mines. Sauce tomate, agrumes, café, chocolat, plats épicés — soudain, tout ce qui est bon devient interdit. Résultat : la plupart des gens finissent par manger en boucle les trois mêmes repas « sûrs ». Nous construisons des plans repas hebdomadaires qui évitent les déclencheurs courants du RGO tout en offrant des plats réellement agréables, pour que vous puissiez manger sans redouter la suite.",
+    "valueProps": [
+      {
+        "heading": "Sans déclencheurs par défaut",
+        "description": "Chaque recette évite les grands déclencheurs du RGO : tomates, agrumes, chocolat, menthe, oignon cru, piments forts et excès de matières grasses. Nous construisons la saveur avec des herbes, du gingembre, du fenouil et des techniques de rôtissage à la place."
+      },
+      {
+        "heading": "Des repas plus petits et plus fréquents",
+        "description": "Les gros repas augmentent la pression dans l'estomac et aggravent le reflux. Nos plans répartissent les calories sur 3 repas et 2 collations pour garder des portions modérées et éviter la sensation de trop-plein qui déclenche les symptômes."
+      },
+      {
+        "heading": "Des dîners pensés pour le sommeil",
+        "description": "Les dîners sont plus légers et moins gras pour réduire le reflux nocturne. Nous programmons le repas le plus copieux au déjeuner et gardons le dîner au moins 3 heures avant le coucher habituel, parce que rien ne gâche le sommeil comme des remontées acides à 2h du matin."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Porridge à la Banane et Beurre d'Amande",
+        "description": "Flocons d'avoine crémeux garnis de banane en tranches, d'un filet de beurre d'amande et d'une pincée de cannelle. Alcalinisant, doux pour l'estomac et vraiment rassasiant.",
+        "tags": [
+          "doux",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Wrap au Poulet Rôti aux Herbes et Yaourt-Concombre",
+        "description": "Blanc de poulet rôti en tranches dans un wrap complet avec laitue émincée, concombre et une sauce yaourt-aneth. Sans tomate, sans épices, tout en saveur.",
+        "tags": [
+          "rapide",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Cabillaud au Four, Fenouil et Pommes de Terre Rôties",
+        "description": "Cabillaud blanc doux cuit au four avec du fenouil en tranches, des pommes de terre grenailles et du thym frais dans l'huile d'olive. Le fenouil apaise naturellement la digestion et se marie parfaitement avec le poisson.",
+        "tags": [
+          "doux",
+          "cuisson-sur-plaque"
+        ]
+      },
+      {
+        "name": "Boulettes de Dinde aux Nouilles de Courgette et Pesto de Basilic",
+        "description": "Boulettes de dinde cuites au four servies sur des courgettes en spirales avec un pesto basilic-pignons (sans sauce tomate). Plus léger que des pâtes classiques mais tout aussi satisfaisant.",
+        "tags": [
+          "riche-en-protéines",
+          "faible-en-acidité"
+        ]
+      },
+      {
+        "name": "Bol de Melon et Fromage Blanc",
+        "description": "Cubes de cantaloup et de melon miel avec du fromage blanc allégé. Les melons comptent parmi les fruits les plus alcalins, et le fromage blanc ajoute des protéines sans excès de graisse.",
+        "tags": [
+          "rapide",
+          "sans-cuisson"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quels aliments dois-je éviter avec le RGO ?",
+        "answer": "Les déclencheurs les plus courants du RGO sont les tomates et sauces à base de tomate, les agrumes, le chocolat, le café, les boissons gazeuses, la menthe, les oignons crus, les plats épicés et les fritures grasses. L'alcool — surtout le vin rouge — est aussi un déclencheur majeur. Nos plans repas excluent tout cela par défaut et utilisent des alternatives créatives pour la saveur."
+      },
+      {
+        "question": "Puis-je encore profiter de plats savoureux avec le reflux acide ?",
+        "answer": "Absolument. La cuisine adaptée au RGO repose sur les herbes (basilic, thym, romarin, aneth), le gingembre, le fenouil, les techniques de rôtissage et de caramélisation, et les ingrédients riches en umami comme les champignons et le parmesan. Vous perdez la sauce tomate et les piments forts, mais gagnez tout un monde de saveurs qui ne vous le fera pas payer."
+      },
+      {
+        "question": "Le moment des repas a-t-il une importance pour le RGO ?",
+        "answer": "Oui, énormément. Manger de gros repas ou manger dans les 2 à 3 heures avant de vous allonger sont deux des principaux déclencheurs de reflux. Nos plans gardent des portions de dîner modérées, programment le repas le plus calorique au déjeuner, et incluent des collations stratégiques pour que vous ne mangiez jamais un gros repas juste avant le coucher."
+      },
+      {
+        "question": "Perdre du poids aidera-t-il mon reflux acide ?",
+        "answer": "Pour beaucoup de gens, oui. L'excès de poids abdominal augmente la pression sur l'estomac et affaiblit le sphincter œsophagien inférieur. Des études montrent qu'une perte de poids modeste de 5 à 7 kg peut réduire significativement les symptômes de RGO. Nos plans peuvent être adaptés pour la perte de poids tout en restant compatibles avec le RGO."
+      },
+      {
+        "question": "Que puis-je manger au dîner avec le reflux acide ?",
+        "answer": "Des dîners sûrs et satisfaisants pour le reflux incluent des protéines maigres cuites au four ou grillées (poulet, dinde, poisson blanc) avec du riz ou des pommes de terre, des légumes rôtis sans agrumes comme la courgette, la carotte et les haricots verts, du saumon au four avec du fenouil, des boulettes de dinde au pesto de basilic plutôt qu'à la sauce tomate, et des soupes douces comme le poulet-riz. Gardez des portions modérées, allez-y doucement sur les matières grasses ajoutées, et terminez de manger au moins 3 heures avant le coucher."
+      },
+      {
+        "question": "Existe-t-il une application pour planifier des repas adaptés au RGO ?",
+        "answer": "Oui — What's For Dinner construit un plan repas hebdomadaire personnalisé qui exclut automatiquement les déclencheurs du RGO (tomates, agrumes, chocolat, menthe, oignon cru, piments forts, fritures), avec recettes et liste de courses incluses. Vous pouvez le combiner avec d'autres besoins comme sans lactose ou perte de poids, et voir un aperçu gratuit de votre plan avant de vous abonner."
+      }
+    ]
+  },
+  "gut-health-meal-plan": {
+    "title": "Plan Repas Santé Intestinale - Probiotiques, Fibres et Aliments Fermentés",
+    "metaDescription": "Obtenez un plan repas hebdomadaire personnalisé pour la santé intestinale avec recettes prébiotiques, probiotiques et riches en fibres, plus listes de courses. Construisez un microbiote plus sain. Aperçu gratuit.",
+    "h1": "Un Plan Repas Santé Intestinale Qui Nourrit Vraiment Votre Microbiote",
+    "intro": "Votre microbiote intestinal influence tout, de la digestion et l'immunité à l'humeur et l'énergie. Mais « mangez plus de fibres » reste un conseil vague quand on est planté devant les rayons du supermarché. Nous construisons des plans repas hebdomadaires spécifiquement conçus pour diversifier votre flore intestinale — avec des fibres prébiotiques, des aliments fermentés, des plantes riches en polyphénols et un minimum d'ingrédients ultra-transformés — pour que vous arrêtiez de deviner et commenciez à nourrir votre intestin comme il faut.",
+    "valueProps": [
+      {
+        "heading": "30+ aliments végétaux par semaine",
+        "description": "Les recherches de l'American Gut Project montrent que manger plus de 30 aliments végétaux différents par semaine produit le microbiote le plus diversifié. Nos plans sont volontairement variés, alternant entre différents légumes, fruits, céréales, légumineuses, noix et graines chaque semaine."
+      },
+      {
+        "heading": "Des aliments fermentés à chaque occasion",
+        "description": "Le kimchi, la choucroute, le yaourt, le kéfir, le miso et le tempeh s'intègrent naturellement dans les repas — pas comme des ajouts après coup. Ces aliments à cultures vivantes apportent directement des bactéries bénéfiques et rendent les repas plus intéressants."
+      },
+      {
+        "heading": "Des fibres prébiotiques intégrées",
+        "description": "Les prébiotiques nourrissent les bonnes bactéries déjà présentes dans votre intestin. Nous incluons ail, oignons, poireaux, asperges, bananes, avoine et graines de lin tout au long de la semaine pour maintenir votre microbiote existant en pleine forme."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Bol Smoothie au Kéfir, Fruits Rouges et Graines de Lin",
+        "description": "Kéfir épais mixé avec des fruits rouges congelés et garni de graines de lin moulues, d'amandes effilées et de miel brut. Probiotiques, prébiotiques et polyphénols dans un même bol.",
+        "tags": [
+          "probiotique",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Bol de Saumon au Miso et Légumes Marinés",
+        "description": "Saumon au four glacé au miso sur riz complet avec radis marinés minute, concombre, edamame et un filet sésame-gingembre. Le miso fermenté ajoute umami et cultures bénéfiques.",
+        "tags": [
+          "probiotique",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Bol de Lentilles et Légumes Rôtis à la Choucroute",
+        "description": "Lentilles vertes du Puy avec patate douce rôtie, betterave et chou frisé, garnies d'une généreuse cuillère de choucroute crue et d'une vinaigrette au tahini. Fibres prébiotiques et cultures vivantes réunies.",
+        "tags": [
+          "riche-en-fibres",
+          "probiotique"
+        ]
+      },
+      {
+        "name": "Riz Sauté au Poulet et Kimchi",
+        "description": "Riz complet de la veille sauté avec du poulet effiloché, du kimchi, de l'ail, du gingembre et un œuf au plat sur le dessus. Un plat réconfortant qui se trouve aussi être excellent pour la santé intestinale.",
+        "tags": [
+          "probiotique",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Tranches de Pomme au Beurre d'Amande et Graines de Chia",
+        "description": "Tranches de pomme croquantes avec beurre d'amande et un peu de graines de chia. Les pommes apportent de la pectine (une fibre prébiotique) et les graines de chia ajoutent des oméga-3 et des fibres solubles.",
+        "tags": [
+          "prébiotique",
+          "sans-cuisson"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Combien de temps faut-il pour améliorer la santé intestinale par l'alimentation ?",
+        "answer": "Votre microbiote intestinal commence à changer dans les 24 heures suivant un changement alimentaire, mais des changements significatifs et durables prennent 2 à 4 semaines d'alimentation constante. Des études montrent des augmentations significatives de la diversité microbienne après 30 jours d'un régime riche en fibres et diversifié en plantes. Nos plans hebdomadaires sont conçus pour une amélioration durable, pas une solution d'une semaine."
+      },
+      {
+        "question": "Dois-je prendre des probiotiques si je mange des aliments fermentés ?",
+        "answer": "Pour la plupart des gens, une alimentation riche en aliments fermentés variés apporte une gamme plus large de bactéries bénéfiques qu'un simple complément probiotique. Nos plans incluent différents aliments fermentés tout au long de la semaine — yaourt, kéfir, kimchi, choucroute, miso, tempeh — qui, ensemble, fournissent des souches plus diversifiées qu'une gélule. Les compléments peuvent aider pour des conditions spécifiques, mais l'alimentation d'abord reste la meilleure stratégie à long terme."
+      },
+      {
+        "question": "Quelle est la différence entre probiotiques et prébiotiques ?",
+        "answer": "Les probiotiques sont des bactéries bénéfiques vivantes (présentes dans les aliments fermentés comme le yaourt et le kimchi). Les prébiotiques sont des types de fibres qui nourrissent ces bactéries (présentes dans l'ail, les oignons, l'avoine, les bananes et les asperges). Vous avez besoin des deux pour un intestin sain. Nos plans incluent des quantités généreuses de chacun pour que votre microbiote reçoive à la fois de nouveaux résidents et de quoi les nourrir."
+      },
+      {
+        "question": "Améliorer la santé intestinale peut-il aider avec les ballonnements et les problèmes digestifs ?",
+        "answer": "Oui. Un microbiote diversifié et bien nourri produit des enzymes qui facilitent la digestion et réduit la fermentation productrice de gaz responsable des ballonnements. Cependant, si vous n'êtes pas habitué aux aliments riches en fibres, augmenter trop vite peut temporairement aggraver les ballonnements. Nos plans augmentent les fibres progressivement et les associent à des aliments fermentés pour faciliter la transition."
+      },
+      {
+        "question": "Un plan repas santé intestinale est-il bon pour l'immunité ?",
+        "answer": "Environ 70 % de votre système immunitaire réside dans votre intestin. Un microbiote diversifié aide à réguler les réponses immunitaires, réduire l'inflammation et protéger contre les pathogènes. Les fibres, les aliments fermentés et les plantes riches en polyphénols de nos plans soutiennent tous la fonction immunitaire via l'axe intestin-immunité."
+      }
+    ]
+  },
+  "high-cholesterol-meal-plan": {
+    "title": "Plan Repas Cholestérol Élevé - Recettes Bonnes pour le Cœur",
+    "metaDescription": "Obtenez un plan repas hebdomadaire personnalisé pour le cholestérol élevé avec recettes bonnes pour le cœur et listes de courses. Réduisez naturellement le LDL avec les bons aliments. Aperçu gratuit.",
+    "h1": "Un Plan Repas pour le Cholestérol Élevé Qui Va Plus Loin que « Mangez Moins Gras »",
+    "intro": "Un cholestérol élevé ne signifie pas une vie entière de salades sèches et de plats fades. La science est claire : certains aliments peuvent activement réduire le cholestérol LDL — les fibres solubles, les acides gras oméga-3, les stérols végétaux et les noix peuvent réduire le LDL de 20 à 30 % lorsqu'ils sont combinés avec constance. Nous construisons des plans repas hebdomadaires qui intègrent ces aliments anti-cholestérol chaque jour, pour que vous amélioriez activement vos résultats à chaque repas, pas seulement en évitant les mauvais aliments.",
+    "valueProps": [
+      {
+        "heading": "Des fibres solubles à chaque repas",
+        "description": "L'avoine, les haricots, les lentilles, les pommes et les graines de lin sont des alliés puissants contre le cholestérol. Nos plans incluent 10 à 25 g de fibres solubles par jour — la fourchette qui a démontré une réduction significative du LDL — répartis sur les repas pour que ce soit facile à atteindre sans compléments."
+      },
+      {
+        "heading": "Des bonnes graisses, pas moins de graisses",
+        "description": "Réduire toutes les matières grasses n'est pas la solution. Nous remplaçons les graisses saturées par des graisses monoinsaturées provenant de l'huile d'olive, de l'avocat et des amandes, et incluons du poisson riche en oméga-3 2 à 3 fois par semaine. Cette approche réduit le LDL tout en augmentant le HDL protecteur."
+      },
+      {
+        "heading": "Basé sur le régime Portfolio",
+        "description": "Nos plans intègrent des éléments du régime Portfolio — l'approche alimentaire la plus scientifiquement validée pour réduire le cholestérol — combinant protéines végétales, fibres visqueuses, noix et stérols végétaux d'une manière réellement agréable à manger au quotidien."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Flocons d'Avoine Complets aux Noix et Myrtilles",
+        "description": "Flocons d'avoine complets (la forme la plus riche en fibres solubles) garnis de noix, de myrtilles fraîches et d'un filet de miel. 6 g de fibres solubles avant même de sortir de chez vous.",
+        "tags": [
+          "bon-pour-le-cœur",
+          "riche-en-fibres"
+        ]
+      },
+      {
+        "name": "Salade Méditerranéenne de Haricots Blancs et Thon",
+        "description": "Haricots cannellini avec thon blanc, concombre, oignon rouge, olives kalamata et une vinaigrette citron-huile d'olive sur mesclun. Fibres des haricots, oméga-3 du thon.",
+        "tags": [
+          "bon-pour-le-cœur",
+          "sans-cuisson"
+        ]
+      },
+      {
+        "name": "Saumon Rôti aux Lentilles et Betteraves Rôties",
+        "description": "Filet de saumon riche en oméga-3 sur lentilles vertes du Puy avec betteraves rôties, roquette et vinaigrette à la moutarde. Chaque élément de cette assiette combat activement le cholestérol élevé.",
+        "tags": [
+          "bon-pour-le-cœur",
+          "riche-en-fibres"
+        ]
+      },
+      {
+        "name": "Soupe au Poulet et Haricots Noirs",
+        "description": "Soupe copieuse avec poulet effiloché, haricots noirs, maïs, cumin et coriandre. Les haricots noirs apportent 4 g de fibres solubles par portion et rendent cette soupe incroyablement rassasiante.",
+        "tags": [
+          "riche-en-fibres",
+          "à-préparer"
+        ]
+      },
+      {
+        "name": "Poignée d'Amandes et une Pomme",
+        "description": "Une portion de 30 g d'amandes brutes avec une pomme moyenne. Des études montrent que 30 g d'amandes par jour peuvent réduire le LDL de 3 à 5 %, et les pommes ajoutent de la pectine — une fibre soluble qui capte le cholestérol.",
+        "tags": [
+          "bon-pour-le-cœur",
+          "sans-cuisson"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "L'alimentation seule peut-elle réduire un cholestérol élevé ?",
+        "answer": "Pour beaucoup de gens, oui. Le régime Portfolio a démontré une réduction du cholestérol LDL de 20 à 30 % — comparable aux statines pour certains patients. La clé, c'est la constance : manger régulièrement des fibres solubles, des protéines végétales, des noix et des aliments riches en oméga-3. Nos plans facilitent cela en intégrant ces aliments chaque jour sans que vous ayez rien à suivre."
+      },
+      {
+        "question": "Quels sont les meilleurs aliments pour réduire le LDL ?",
+        "answer": "Les preuves les plus solides soutiennent : l'avoine et l'orge (fibres bêta-glucane), les haricots et lentilles (fibres solubles), les amandes et noix (stérols végétaux et bonnes graisses), les poissons gras comme le saumon et le maquereau (oméga-3), l'huile d'olive (graisse monoinsaturée) et les protéines de soja. Nos plans repas intègrent tout cela au fil de la semaine."
+      },
+      {
+        "question": "Devrais-je éviter toutes les graisses saturées avec un cholestérol élevé ?",
+        "answer": "Vous n'avez pas besoin d'éliminer totalement les graisses saturées, mais les réduire fait une vraie différence. Les plus grosses sources à couper sont les charcuteries, le fromage entier, le beurre et les fritures. Nos plans utilisent de l'huile d'olive à la place du beurre, de la volaille maigre à la place de la viande rouge, et des portions modérées de fromage quand il est inclus. De petits ajustements font une grande différence sur votre bilan lipidique."
+      },
+      {
+        "question": "À quelle vitesse les changements alimentaires peuvent-ils améliorer le cholestérol ?",
+        "answer": "Les changements alimentaires peuvent commencer à réduire le cholestérol LDL en 2 à 3 semaines, avec des améliorations significatives généralement observées vers 6 à 8 semaines. C'est pourquoi la plupart des médecins recommandent d'essayer les changements alimentaires et de mode de vie pendant 3 mois avant d'envisager un traitement médicamenteux. Nos plans hebdomadaires vous offrent une approche structurée et constante pour cette fenêtre critique."
+      },
+      {
+        "question": "Les œufs sont-ils mauvais en cas de cholestérol élevé ?",
+        "answer": "Les recherches actuelles montrent que le cholestérol alimentaire des œufs a un impact bien plus faible sur le cholestérol sanguin que les graisses saturées. La plupart des organisations de santé estiment qu'un œuf par jour convient à la plupart des gens, même avec un cholestérol élevé. Nos plans incluent des œufs avec modération, en se concentrant davantage sur la réduction des graisses saturées et l'augmentation des fibres solubles, qui ont un effet bien plus important sur vos résultats."
+      }
+    ]
+  },
+  "hypothyroid-meal-plan": {
+    "title": "Plan Repas Hypothyroïdie - Recettes Qui Soutiennent la Thyroïde",
+    "metaDescription": "Obtenez un plan repas hebdomadaire personnalisé pour l'hypothyroïdie avec recettes riches en sélénium, iode et zinc, plus listes de courses. Soutenez la fonction thyroïdienne par l'alimentation. Aperçu gratuit.",
+    "h1": "Un Plan Repas pour l'Hypothyroïdie Qui Soutient Votre Thyroïde de l'Intérieur",
+    "intro": "Quand votre thyroïde fonctionne au ralenti, votre métabolisme ralentit et tout devient plus difficile — perdre du poids, garder chaud, maintenir son énergie. Si le traitement médicamenteux gère les niveaux hormonaux, la bonne alimentation peut soutenir la fonction thyroïdienne, réduire l'inflammation et corriger les carences nutritionnelles qui aggravent les symptômes. Nous construisons des plans repas hebdomadaires riches en sélénium, iode, zinc et aliments anti-inflammatoires, tout en restant attentifs aux goitrogènes et aux interactions nutritionnelles qui peuvent interférer avec votre traitement.",
+    "valueProps": [
+      {
+        "heading": "Des nutriments essentiels à la thyroïde à chaque repas",
+        "description": "Le sélénium (noix du Brésil, poisson, œufs), l'iode (fruits de mer, produits laitiers, algues) et le zinc (viande, graines de courge, pois chiches) sont essentiels à la production d'hormones thyroïdiennes. Nos plans veillent à ce que vous atteigniez des niveaux optimaux des trois sans avoir à suivre les micronutriments."
+      },
+      {
+        "heading": "Intelligent avec les goitrogènes",
+        "description": "Les légumes crucifères crus (brocoli, chou frisé, chou-fleur) peuvent interférer avec l'absorption de l'iode en grande quantité. Nous n'éliminons pas ces aliments riches en nutriments — nous les cuisons plutôt, ce qui réduit considérablement les composés goitrogènes tout en préservant leurs bienfaits."
+      },
+      {
+        "heading": "Favorable au métabolisme, pas un régime choc",
+        "description": "L'hypothyroïdie ralentit déjà votre métabolisme. Une restriction calorique sévère l'aggrave. Nos plans fournissent des calories suffisantes avec des nutriments qui soutiennent le métabolisme, pour que votre corps ait ce dont il a besoin pour produire et convertir les hormones thyroïdiennes efficacement."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Œufs Brouillés au Saumon Fumé et Pain au Levain",
+        "description": "Deux œufs brouillés avec des flocons de saumon fumé sur du pain au levain grillé. Les œufs apportent sélénium et iode, le saumon ajoute des oméga-3, et cette combinaison soutient la conversion des hormones thyroïdiennes le matin.",
+        "tags": [
+          "soutien-thyroïdien",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Bol de Céréales aux Crevettes et Avocat",
+        "description": "Crevettes sautées (riches en iode et sélénium) sur farro avec avocat, patate douce rôtie, épinards et vinaigrette citron-herbes. Dense en nutriments et rassasiant.",
+        "tags": [
+          "soutien-thyroïdien",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Poulet en Croûte d'Herbes, Brocoli Rôti et Quinoa",
+        "description": "Blanc de poulet en croûte de persil-noix, servi avec du brocoli rôti (la cuisson neutralise les goitrogènes) et du quinoa moelleux. Zinc du poulet, sélénium des noix.",
+        "tags": [
+          "soutien-thyroïdien",
+          "riche-en-protéines"
+        ]
+      },
+      {
+        "name": "Ragoût de Bœuf et Champignons aux Légumes Racines",
+        "description": "Bœuf braisé longuement mijoté avec champignons de Paris, carottes, panais et thym. Le bœuf est l'une des sources les plus riches en zinc, et les champignons ajoutent du sélénium et de la vitamine D.",
+        "tags": [
+          "soutien-thyroïdien",
+          "à-préparer"
+        ]
+      },
+      {
+        "name": "Noix du Brésil et Chocolat Noir",
+        "description": "Deux noix du Brésil (couvrant tout votre besoin quotidien en sélénium) avec deux carrés de chocolat noir. La collation la plus simple qui soutient la thyroïde.",
+        "tags": [
+          "soutien-thyroïdien",
+          "sans-cuisson"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quels sont les nutriments les plus importants pour l'hypothyroïdie ?",
+        "answer": "Le sélénium, l'iode et le zinc sont les trois nutriments les plus critiques pour la fonction thyroïdienne. Le sélénium est nécessaire pour convertir la T4 en T3 active (l'hormone utilisée par vos cellules). L'iode est un composant de base des hormones thyroïdiennes. Le zinc soutient la production de TSH. Nos plans sont conçus pour fournir des quantités optimales des trois grâce à des sources alimentaires comme les noix du Brésil, les fruits de mer, les œufs et les viandes maigres."
+      },
+      {
+        "question": "Devrais-je éviter le brocoli et le chou frisé en cas d'hypothyroïdie ?",
+        "answer": "Non — c'est l'un des mythes les plus courants. Les légumes crucifères contiennent des goitrogènes qui peuvent théoriquement interférer avec l'absorption de l'iode, mais cela n'importe que si vous en mangez de très grandes quantités crues ET que vous avez une carence en iode. Cuire ces légumes réduit les composés goitrogènes de 80 à 90 %. Nos plans cuisent toujours les légumes crucifères et les associent à des aliments riches en iode, pour que vous profitiez des bienfaits en fibres et nutriments en toute sécurité."
+      },
+      {
+        "question": "Pourquoi est-il si difficile de perdre du poids avec une hypothyroïdie ?",
+        "answer": "L'hypothyroïdie ralentit votre métabolisme de base, ce qui signifie que vous brûlez moins de calories au repos. Elle peut aussi causer de la rétention d'eau et de la fatigue qui réduisent le niveau d'activité. La solution n'est pas une restriction calorique extrême (qui ralentit encore plus le métabolisme), mais plutôt une nutrition adéquate avec des nutriments qui soutiennent la thyroïde, un apport constant en protéines et des aliments anti-inflammatoires. Nos plans visent un déficit modéré et durable si la perte de poids est votre objectif."
+      },
+      {
+        "question": "Certains aliments peuvent-ils interférer avec le traitement thyroïdien ?",
+        "answer": "Oui. Prenez la lévothyroxine à jeun, 30 à 60 minutes avant de manger. Les aliments riches en calcium, les produits à base de soja, les aliments riches en fibres et le café peuvent tous réduire l'absorption du médicament s'ils sont consommés trop près de votre prise. Nos plans repas sont conçus en tenant compte du timing du petit-déjeuner — pas de petits-déjeuners riches en calcium ou à base de soja qui interféreraient avec le traitement du matin."
+      },
+      {
+        "question": "Le soja est-il mauvais pour la fonction thyroïdienne ?",
+        "answer": "Une consommation modérée de soja convient à la plupart des personnes atteintes d'hypothyroïdie, surtout si vos niveaux d'iode sont adéquats. Le risque est que les isoflavones de soja puissent interférer avec la production d'hormones thyroïdiennes et l'absorption du médicament en grande quantité. Nos plans utilisent le soja avec modération (edamame, tofu occasionnel) plutôt que comme source principale de protéines, et jamais au petit-déjeuner quand vous prendriez votre médicament."
+      }
+    ]
+  },
+  "meal-plan-for-toddlers": {
+    "title": "Plan Repas pour Tout-Petits (1-3 ans)",
+    "metaDescription": "Obtenez un plan repas personnalisé pour tout-petits avec finger foods, légumes cachés et stratégies anti-enfant-difficile. Portions adaptées à l'âge et nutrition équilibrée, planifiées chaque semaine.",
+    "h1": "Des Plans Repas pour Tout-Petits Que Même les Plus Difficiles Mangeront Vraiment",
+    "intro": "Nourrir un tout-petit est un exercice de patience, de créativité, et d'acceptation du fait que le plat préféré d'hier est l'ennemi juré d'aujourd'hui. L'astuce n'est pas de forcer la variété — c'est d'offrir le bon mélange de favoris familiers et de nouvelles découvertes en douceur, pour qu'ils développent un palais varié au fil du temps, pas en un seul dîner plein de crises. Nos plans repas pour tout-petits misent sur les finger foods moelleux, les stratégies de légumes cachés et des portions adaptées à l'âge qui répondent aux besoins nutritionnels de ces petits corps pleins d'énergie, sans transformer chaque repas en négociation.",
+    "valueProps": [
+      {
+        "heading": "Priorité aux finger foods",
+        "description": "La plupart des repas sont conçus pour être mangés avec de petites mains. Des cubes moelleux, des mini-muffins, des lamelles à tremper et des morceaux à bouchées qui développent l'autonomie et la motricité fine tout en faisant vraiment entrer la nourriture dans leur bouche."
+      },
+      {
+        "heading": "Légumes cachés, zéro drame",
+        "description": "Du chou-fleur mixé dans les macaronis au fromage. Des épinards glissés dans les pancakes à la banane. De la patate douce mélangée à la sauce des pâtes. Chaque plan inclut au moins un repas « légume furtif » par jour pour qu'ils atteignent leurs apports même les jours difficiles."
+      },
+      {
+        "heading": "Attentif aux allergènes et adapté à l'âge",
+        "description": "Pas de noix entières, pas de miel pour les moins d'un an, pas de risques d'étouffement. Chaque repas est dimensionné et texturé pour la sécurité des tout-petits, avec les allergènes courants clairement signalés pour que vous puissiez les introduire à votre rythme."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Pancakes Banane-Avoine avec Trempette aux Myrtilles",
+        "description": "Petits pancakes format pièce de monnaie faits avec banane écrasée, avoine et un œuf. Servis avec une trempette au yaourt et myrtilles écrasables. Les épinards se cachent dans la pâte — ils ne le sauront jamais.",
+        "tags": [
+          "finger-food",
+          "légumes-cachés",
+          "adapté-congélation"
+        ]
+      },
+      {
+        "name": "Mini Boulettes de Dinde et Purée de Patate Douce",
+        "description": "Boulettes de dinde moelleuses avec courgette râpée incorporée, servies avec une purée de patate douce crémeuse. Facile à piquer à la fourchette ou à prendre à la main. Fait d'excellents restes pour demain.",
+        "tags": [
+          "riche-en-fer",
+          "légumes-cachés",
+          "cuisson-en-lot"
+        ]
+      },
+      {
+        "name": "Bouchées de Brocoli au Fromage",
+        "description": "Petites bouchées cuites au four de brocoli, cheddar et chapelure que les tout-petits peuvent attraper par poignées. Croustillant à l'extérieur, moelleux à l'intérieur. Le brocoli est finement râpé pour que les enfants sensibles aux textures ne le remarquent pas.",
+        "tags": [
+          "finger-food",
+          "légumes-cachés",
+          "adapté-congélation"
+        ]
+      },
+      {
+        "name": "Roulés Banane-Beurre de Cacahuète",
+        "description": "Tortilla complète tartinée finement de beurre de cacahuète, roulée autour de tranches de banane, et coupée en rondelles. Riche en protéines et parfait pour grignoter en déplacement.",
+        "tags": [
+          "sans-cuisson",
+          "riche-en-protéines",
+          "finger-food"
+        ]
+      },
+      {
+        "name": "Soupe au Poulet et Petites Étoiles en Une Casserole",
+        "description": "Une soupe douce au poulet avec de minuscules pâtes en forme d'étoile, des carottes en dés et du poulet effiloché dans un bouillon faible en sodium. Assez moelleuse pour les nouvelles dents, assez savoureuse pour que les parents en mangent aussi.",
+        "tags": [
+          "une-casserole",
+          "texture-moelleuse",
+          "pour-toute-la-famille"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Combien un tout-petit devrait-il manger par repas ?",
+        "answer": "Les tout-petits ont besoin d'environ 1 000 à 1 400 calories par jour, réparties sur 3 repas et 2 à 3 collations. Une bonne règle de base est 1 cuillère à soupe de chaque aliment par année d'âge — donc un enfant de 2 ans reçoit environ 2 cuillères à soupe de poulet, 2 de légumes, etc. Nos plans dosent tout de façon appropriée pour que vous n'ayez pas besoin de mesurer."
+      },
+      {
+        "question": "Mon enfant refuse les légumes. Ce plan peut-il aider ?",
+        "answer": "Oui — c'est exactement à cela que sert la stratégie des légumes cachés. Au lieu de se battre autour d'une assiette de brocoli nature, nous mixons les légumes dans les sauces, pancakes, muffins et boulettes. Avec le temps, l'exposition répétée et sans pression à des légumes visibles en parallèle des cachés développe l'acceptation. La recherche montre qu'il peut falloir 10 à 15 expositions avant qu'un tout-petit accepte un nouvel aliment."
+      },
+      {
+        "question": "Ces repas sont-ils sûrs pour un enfant de 12 mois ?",
+        "answer": "Nos plans pour tout-petits sont conçus pour les 1 à 3 ans. Tous les repas évitent les risques d'étouffement (raisins entiers, carottes crues, pop-corn, noix entières) et utilisent des textures moelleuses et faciles à écraser. Pour les enfants de 12 mois spécifiquement, vous voudrez peut-être écraser ou couper les aliments un peu plus petit. Aucun miel n'est inclus dans les repas."
+      },
+      {
+        "question": "Toute la famille peut-elle manger ces repas ?",
+        "answer": "Absolument. La plupart des dîners sont conçus pour que les parents puissent manger le même repas de base en ajoutant leur propre assaisonnement par-dessus. Les boulettes de dinde, la soupe au poulet et les plats de pâtes sont tous adaptés à toute la famille — il vous suffira d'ajouter du sel et des épices à votre propre portion."
+      }
+    ]
+  },
+  "meal-plan-for-seniors": {
+    "title": "Plan Repas pour Seniors (65+)",
+    "metaDescription": "Plans repas hebdomadaires personnalisés pour seniors avec repas faciles à mâcher, nutriments pour la santé osseuse et préparation simple. Recettes riches en nutriments avec listes de courses. Aperçu gratuit.",
+    "h1": "Des Plans Repas Nutritifs pour Seniors, Faciles à Préparer et à Savourer",
+    "intro": "Bien manger après 65 ans, ce n'est pas manger moins — c'est manger plus intelligemment. Votre corps a besoin de plus de certains nutriments (calcium, vitamine D, B12, protéines) tandis que l'appétit et la capacité à mâcher des aliments durs diminuent souvent. Résultat ? Beaucoup de seniors finissent par sous-manger ou se rabattre sur les trois mêmes repas faciles en boucle. Nos plans repas pour seniors résolvent cela avec des repas denses en nutriments, à texture moelleuse quand nécessaire, simples à préparer et réellement agréables à manger — pas de la nourriture d'hôpital, pas fade, pas ennuyeux.",
+    "valueProps": [
+      {
+        "heading": "Adapté aux textures sans être fade",
+        "description": "Des viandes braisées tendres, du poisson qui s'effeuille, des céréales bien cuites et des légumes rôtis moelleux. Chaque repas prend en compte le confort dentaire et la facilité digestive sans sacrifier les saveurs qui font du repas un plaisir."
+      },
+      {
+        "heading": "Des nutriments pour les os et le cerveau intégrés",
+        "description": "Les aliments riches en calcium, les sources de vitamine D, les acides gras oméga-3 et la B12 sont tissés dans les repas de chaque jour. Nous privilégions les nutriments qui comptent le plus pour la densité osseuse, la santé cognitive et l'énergie après 65 ans."
+      },
+      {
+        "heading": "Préparation simple, minimum de temps debout",
+        "description": "La plupart des repas se préparent en moins de 30 minutes avec peu de découpe. Nous privilégions les recettes en une seule casserole, les dîners sur plaque et les plats à la mijoteuse qui n'exigent pas de longues périodes debout devant le plan de travail."
+      }
+    ],
+    "sampleMeals": [
+      {
+        "name": "Œufs Brouillés Moelleux au Saumon Fumé et Toast",
+        "description": "Œufs brouillés crémeux et moelleux garnis de flocons de saumon fumé sur du pain complet grillé. Riche en oméga-3, en protéines et en B12. Assez moelleux pour les dents sensibles, assez rassasiant pour bien démarrer la matinée.",
+        "tags": [
+          "riche-en-protéines",
+          "oméga-3",
+          "rapide"
+        ]
+      },
+      {
+        "name": "Ragoût de Poulet et Haricots Blancs à la Mijoteuse",
+        "description": "Cuisses de poulet fondantes avec haricots cannellini, carottes et romarin dans un bouillon savoureux. Mettez tout dans la mijoteuse le matin, mangez à midi. Riche en protéines et en fibres, sans aucune texture difficile.",
+        "tags": [
+          "mijoteuse",
+          "riche-en-protéines",
+          "cuisson-en-lot"
+        ]
+      },
+      {
+        "name": "Cabillaud au Four, Beurre Citronné et Purée de Chou-Fleur",
+        "description": "Cabillaud blanc qui s'effeuille dans une simple sauce citron-beurre avec une purée de chou-fleur crémeuse et des haricots verts vapeur. Léger pour l'estomac, riche en protéines et en vitamine D. Une seule plaque, nettoyage minimal.",
+        "tags": [
+          "cuisson-sur-plaque",
+          "vitamine-D",
+          "facile-à-mâcher"
+        ]
+      },
+      {
+        "name": "Yaourt Grec aux Pruneaux Mijotés et Noix",
+        "description": "Yaourt grec épais garni de pruneaux mijotés tièdes et de noix concassées. Excellent pour la digestion, la santé osseuse (calcium + vitamine K) et le maintien d'une énergie stable entre les repas.",
+        "tags": [
+          "riche-en-calcium",
+          "santé-digestive",
+          "sans-cuisson"
+        ]
+      },
+      {
+        "name": "Soupe Crémeuse à la Tomate et Mouillettes au Fromage Fondu",
+        "description": "Soupe à la tomate veloutée (sans morceaux) servie avec de fines mouillettes de fromage fondu à tremper. Un classique réconfortant, facile à manger, riche en lycopène, avec cette touche nostalgique satisfaisante.",
+        "tags": [
+          "plat-réconfort",
+          "facile-à-manger",
+          "riche-en-calcium"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Combien de calories les seniors ont-ils besoin par jour ?",
+        "answer": "La plupart des adultes de plus de 65 ans ont besoin de 1 600 à 2 200 calories par jour selon leur niveau d'activité et leur sexe. Nos plans se règlent par défaut autour de 1 800 calories avec des macronutriments équilibrés, mais vous pouvez ajuster vos préférences pour correspondre aux recommandations de votre médecin. L'accent est mis sur la densité nutritionnelle — tirer le maximum de nutrition de chaque calorie."
+      },
+      {
+        "question": "J'ai des difficultés à mâcher. Ces repas sont-ils assez moelleux ?",
+        "answer": "Oui. Nous privilégions les protéines tendres (braisées, mijotées, ou poisson qui s'effeuille), les légumes bien cuits et les céréales moelleuses. Vous ne trouverez pas de carottes crues, de steaks durs ou de pain croustillant dans ces plans. Si vous avez besoin d'une texture encore plus douce, la plupart des repas peuvent être écrasés ou mixés davantage."
+      },
+      {
+        "question": "Ces repas prennent-ils en compte la santé osseuse ?",
+        "answer": "Absolument. Chaque jour inclut des aliments riches en calcium (yaourt, légumes verts feuillus, poisson en conserve avec arêtes, aliments enrichis) et des sources de vitamine D (poissons gras, œufs, produits laitiers enrichis). Nous incluons aussi de la vitamine K provenant des légumes verts feuillus, qui aide à l'absorption du calcium. Ces plans complètent — sans les remplacer — les compléments prescrits par votre médecin."
+      },
+      {
+        "question": "Puis-je cuisiner ces repas si je vis seul(e) ?",
+        "answer": "Ces plans sont pensés pour la vie en solo. Les portions sont adaptées pour une ou deux personnes, la préparation est minimale, et nous privilégions les recettes qui se conservent bien en restes. Beaucoup de repas utilisent une mijoteuse ou une seule plaque de four pour que vous ne jongliez pas avec plusieurs casseroles. La liste de courses garde des quantités raisonnables pour éviter le gaspillage."
+      },
+      {
+        "question": "Je suis sous traitement pour la tension artérielle. Ces repas sont-ils pauvres en sodium ?",
+        "answer": "Nos plans utilisent un minimum de sel ajouté et évitent les ingrédients transformés riches en sodium. Nous misons sur les herbes, les épices, le citron et l'ail pour la saveur à la place. Cela dit, si votre médecin vous a fixé des limites de sodium spécifiques, mentionnez-le dans vos préférences alimentaires et nous adapterons le plan en conséquence."
+      },
+      {
+        "question": "Quel est le meilleur plan repas pour les personnes âgées ?",
+        "answer": "Le meilleur plan pour les adultes de plus de 65 ans privilégie les protéines à chaque repas (pour contrer la perte musculaire liée à l'âge), le calcium et la vitamine D pour les os, la B12 pour l'énergie et la cognition, et des textures confortables à mâcher — le tout avec une préparation assez simple pour être faite quotidiennement sans fatigue. C'est exactement ainsi que sont construits nos plans seniors : denses en nutriments, à texture moelleuse quand nécessaire, et principalement en une casserole ou sur plaque."
+      },
+      {
+        "question": "Existe-t-il un service de planification de repas pour seniors qui ne soit pas de la livraison de nourriture ?",
+        "answer": "Oui. What's For Dinner est un service de planification, pas de livraison — vous recevez un plan repas hebdomadaire personnalisé avec des recettes faciles et une liste de courses organisée, puis vous faites vos courses et cuisinez à votre rythme (ou confiez la liste à un membre de la famille ou à un aidant). Cela coûte une fraction du prix de la livraison de repas préparés, et la nourriture est plus fraîche puisque c'est vous qui la préparez."
+      }
+    ]
   }
 }

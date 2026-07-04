@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+import { useT } from "@/lib/i18n/context";
+import { getLocalePath, getRecipesPath } from "@/lib/i18n/locales";
 
 const tools = [
   {
@@ -100,12 +104,15 @@ const tools = [
     title: "Recipe Library",
     description:
       "Browse 800+ recipes. Filter by meal type, diet, and tags.",
-    href: "/recipes",
+    href: "__RECIPES__",
     cta: "Browse Recipes",
   },
 ];
 
 export function FreeTools() {
+  const { locale } = useT();
+  const recipesHref = getLocalePath(locale, getRecipesPath(locale));
+
   return (
     <section className="max-w-4xl mx-auto px-6 py-16">
       <div className="text-center mb-10">
@@ -118,24 +125,27 @@ export function FreeTools() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {tools.map((tool) => (
-          <Link
-            key={tool.href}
-            href={tool.href}
-            className="bg-white rounded-2xl border border-stone-100 p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex flex-col"
-          >
-            <div className="mb-4">{tool.icon}</div>
-            <h3 className="text-lg font-semibold text-stone-900 mb-1">
-              {tool.title}
-            </h3>
-            <p className="text-sm text-stone-500 mb-5 flex-1">
-              {tool.description}
-            </p>
-            <span className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-white bg-orange-500 rounded-full w-fit">
-              {tool.cta} &rarr;
-            </span>
-          </Link>
-        ))}
+        {tools.map((tool) => {
+          const href = tool.href === "__RECIPES__" ? recipesHref : tool.href;
+          return (
+            <Link
+              key={tool.href}
+              href={href}
+              className="bg-white rounded-2xl border border-stone-100 p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex flex-col"
+            >
+              <div className="mb-4">{tool.icon}</div>
+              <h3 className="text-lg font-semibold text-stone-900 mb-1">
+                {tool.title}
+              </h3>
+              <p className="text-sm text-stone-500 mb-5 flex-1">
+                {tool.description}
+              </p>
+              <span className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-white bg-orange-500 rounded-full w-fit">
+                {tool.cta} &rarr;
+              </span>
+            </Link>
+          );
+        })}
       </div>
     </section>
   );

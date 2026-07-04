@@ -319,7 +319,33 @@
     "keepPlanSuffix": "して保存しましょう。",
     "savedToAccount": "このプランはアカウントに保存されています。",
     "goToDashboard": "ダッシュボードへ",
-    "stickWithIt": "毎週2.5時間の節約 — 続ければの話ですが。"
+    "stickWithIt": "毎週2.5時間の節約 — 続ければの話ですが。",
+    "heroBadge": "あなた専用のプランができました",
+    "heroTitle": "今週のプランをちょっとだけご紹介",
+    "heroSubtitle": "月曜日はロック解除済み。購読すると7日分すべて+レシピ+買い物リストが手に入ります。",
+    "forHousehold": "{size}人分",
+    "budgetFriendly": "節約向け",
+    "generousBudget": "余裕のある予算",
+    "unlockedLabel": "ロック解除済み",
+    "lockedLabel": "ロック中 — あと{n}日",
+    "groceryListTitle": "買い物リスト",
+    "itemsCount": "約{count}点",
+    "moreDaysWaiting": "あと{n}日分が待っています",
+    "moreDaysDesc": "完全なレシピ、買い物リスト、そして毎週新しいプラン。",
+    "unlockCta": "フルプランをロック解除 — 月額$7.99",
+    "yearlyCta": "または年払いで月額$5(37%お得)",
+    "createAccountNote": "まず無料アカウントを作成 — 30秒で完了",
+    "personalizedTrust": "あなたの好みに合わせてパーソナライズ",
+    "mobileCta": "7日間フルプランをロック解除",
+    "days": {
+      "monday": "月曜日",
+      "tuesday": "火曜日",
+      "wednesday": "水曜日",
+      "thursday": "木曜日",
+      "friday": "金曜日",
+      "saturday": "土曜日",
+      "sunday": "日曜日"
+    }
   },
   "dashboard": {
     "title": "ダッシュボード",
@@ -487,5 +513,14 @@
     "cta": "無料プレビューを見る →",
     "reassurance": "クレジットカード不要。迷惑メールなし。届くのはメニュープランだけ。",
     "dismiss": "いいえ、自分で晩ごはん考えます"
+  },
+  "checkout": {
+    "srTitle": "お支払い – What's For Dinner",
+    "redirecting": "お支払いページへ移動しています...",
+    "settingUp": "決済システムを準備中です。移動しています...",
+    "error": "問題が発生しました。移動しています..."
+  },
+  "setup": {
+    "settingUp": "アカウントを設定しています..."
   }
 }

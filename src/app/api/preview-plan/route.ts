@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { buildPreviewPlan, type PreviewPrefs } from "@/lib/preview-plan";
+import { isValidLocale } from "@/lib/i18n/locales";
 
 // Assembles a personalized preview from the built-in recipe library.
 // Pure CPU — no LLM calls, no DB writes, safe for anonymous visitors.
@@ -30,5 +31,7 @@ export async function POST(req: NextRequest) {
     include_snacks: typeof body.include_snacks === "boolean" ? body.include_snacks : undefined,
   };
 
-  return NextResponse.json(buildPreviewPlan(prefs));
+  const locale = typeof body.locale === "string" && isValidLocale(body.locale) ? body.locale : "en";
+
+  return NextResponse.json(buildPreviewPlan(prefs, locale));
 }

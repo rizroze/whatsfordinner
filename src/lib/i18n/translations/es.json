@@ -319,7 +319,33 @@
     "keepPlanSuffix": "para guardarlo.",
     "savedToAccount": "Este plan está guardado en tu cuenta.",
     "goToDashboard": "Ir al Panel de Control",
-    "stickWithIt": "Son 2.5 horas recuperadas cada semana — si lo mantienes."
+    "stickWithIt": "Son 2.5 horas recuperadas cada semana — si lo mantienes.",
+    "heroBadge": "Tu plan personalizado está listo",
+    "heroTitle": "Aquí tienes un adelanto de tu semana",
+    "heroSubtitle": "El lunes está desbloqueado. Suscríbete para obtener los 7 días + recetas + lista de compras.",
+    "forHousehold": "para {size}",
+    "budgetFriendly": "económico",
+    "generousBudget": "presupuesto generoso",
+    "unlockedLabel": "Desbloqueado",
+    "lockedLabel": "Bloqueado — {n} días más",
+    "groceryListTitle": "Lista de Compras",
+    "itemsCount": "~{count} artículos",
+    "moreDaysWaiting": "{n} días más esperándote",
+    "moreDaysDesc": "Recetas completas, lista de compras, y un plan nuevo cada semana.",
+    "unlockCta": "Desbloquea mi plan completo — $7.99/mes",
+    "yearlyCta": "O $5/mes facturado anual (ahorra 37%)",
+    "createAccountNote": "Crea tu cuenta gratis primero — toma 30 segundos",
+    "personalizedTrust": "Personalizado a tus preferencias",
+    "mobileCta": "Desbloquea mi plan completo de 7 días",
+    "days": {
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles",
+      "thursday": "Jueves",
+      "friday": "Viernes",
+      "saturday": "Sábado",
+      "sunday": "Domingo"
+    }
   },
   "dashboard": {
     "title": "Panel de Control",
@@ -487,5 +513,14 @@
     "cta": "Ver Mi Vista Previa →",
     "reassurance": "Sin tarjeta de crédito. Sin spam. Solo un plan de comidas.",
     "dismiss": "No gracias, ya me las arreglo yo con la cena"
+  },
+  "checkout": {
+    "srTitle": "Pago – What's For Dinner",
+    "redirecting": "Redirigiendo al pago...",
+    "settingUp": "El sistema de pago se está configurando. Redirigiendo...",
+    "error": "Algo salió mal. Redirigiendo..."
+  },
+  "setup": {
+    "settingUp": "Configurando tu cuenta..."
   }
 }

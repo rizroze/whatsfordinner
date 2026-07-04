@@ -319,7 +319,33 @@
     "keepPlanSuffix": "pour le sauvegarder.",
     "savedToAccount": "Ce plan est sauvegardé dans votre compte.",
     "goToDashboard": "Aller au tableau de bord",
-    "stickWithIt": "Ce sont 2,5 heures récupérées chaque semaine — si vous persévérez."
+    "stickWithIt": "Ce sont 2,5 heures récupérées chaque semaine — si vous persévérez.",
+    "heroBadge": "Votre plan personnalisé est prêt",
+    "heroTitle": "Voici un avant-goût de votre semaine",
+    "heroSubtitle": "Le lundi est débloqué. Abonnez-vous pour obtenir les 7 jours + recettes + liste de courses.",
+    "forHousehold": "pour {size}",
+    "budgetFriendly": "économique",
+    "generousBudget": "budget généreux",
+    "unlockedLabel": "Débloqué",
+    "lockedLabel": "Verrouillé — {n} jours de plus",
+    "groceryListTitle": "Liste de Courses",
+    "itemsCount": "~{count} articles",
+    "moreDaysWaiting": "{n} jours de plus vous attendent",
+    "moreDaysDesc": "Recettes complètes, liste de courses, et un nouveau plan chaque semaine.",
+    "unlockCta": "Débloquer mon plan complet — 7,99 $/mois",
+    "yearlyCta": "Ou 5 $/mois facturé annuellement (économisez 37%)",
+    "createAccountNote": "Créez d'abord votre compte gratuit — 30 secondes suffisent",
+    "personalizedTrust": "Personnalisé selon vos préférences",
+    "mobileCta": "Débloquer mon plan complet de 7 jours",
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    }
   },
   "dashboard": {
     "title": "Tableau de bord",
@@ -487,5 +513,14 @@
     "cta": "Voir Mon Aperçu Gratuit →",
     "reassurance": "Sans carte de crédit. Sans spam. Juste un plan de repas.",
     "dismiss": "Non merci, je me débrouillerai pour le dîner"
+  },
+  "checkout": {
+    "srTitle": "Paiement – What's For Dinner",
+    "redirecting": "Redirection vers le paiement...",
+    "settingUp": "Le système de paiement est en cours de configuration. Redirection...",
+    "error": "Une erreur s'est produite. Redirection..."
+  },
+  "setup": {
+    "settingUp": "Configuration de votre compte..."
   }
 }

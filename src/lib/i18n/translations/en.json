@@ -157,6 +157,8 @@
       "brand": "What's For Dinner",
       "blog": "Blog",
       "mealPlans": "Meal Plans",
+      "recipes": "Recipes",
+      "freeTools": "Free Tools",
       "privacy": "Privacy",
       "terms": "Terms",
       "contact": "Contact",
@@ -324,7 +326,39 @@
     "keepPlanSuffix": "to save it.",
     "savedToAccount": "This plan is saved to your account.",
     "goToDashboard": "Go to Dashboard",
-    "stickWithIt": "That's 2.5 hours back every week, if you stick with it."
+    "stickWithIt": "That's 2.5 hours back every week, if you stick with it.",
+    "heroBadge": "Your personalized plan is ready",
+    "heroTitle": "Here's a taste of your week",
+    "heroSubtitle": "Monday is unlocked. Subscribe to get all 7 days + recipes + grocery list.",
+    "forHousehold": "for {size}",
+    "budgetFriendly": "budget-friendly",
+    "generousBudget": "generous budget",
+    "unlockedLabel": "Unlocked",
+    "lockedLabel": "Locked — {n} more days",
+    "groceryListTitle": "Grocery List",
+    "itemsCount": "~{count} items",
+    "moreDaysWaiting": "{n} more days waiting for you",
+    "moreDaysDesc": "Full recipes, grocery list, and a new plan every week.",
+    "unlockCta": "Unlock my full plan — $7.99/mo",
+    "yearlyCta": "Or $5/mo billed yearly (save 37%)",
+    "createAccountNote": "Create your free account first — takes 30 seconds",
+    "personalizedTrust": "Personalized to your preferences",
+    "mobileCta": "Unlock my full 7-day plan",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    }
+  },
+  "checkout": {
+    "srTitle": "Checkout – What's For Dinner",
+    "redirecting": "Redirecting to payment...",
+    "settingUp": "Payment system is being set up. Redirecting...",
+    "error": "Something went wrong. Redirecting..."
   },
   "dashboard": {
     "title": "Dashboard",
@@ -492,5 +526,8 @@
     "cta": "See My Free Preview →",
     "reassurance": "From $7.99/mo. Cancel anytime.",
     "dismiss": "No thanks, I'll figure out dinner myself"
+  },
+  "setup": {
+    "settingUp": "Setting up your account..."
   }
 }

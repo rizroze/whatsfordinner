@@ -319,7 +319,33 @@
     "keepPlanSuffix": "저장하세요.",
     "savedToAccount": "이 식단은 계정에 저장되었습니다.",
     "goToDashboard": "대시보드로 이동",
-    "stickWithIt": "매주 2.5시간을 돌려받는 거예요 — 꾸준히 하면요."
+    "stickWithIt": "매주 2.5시간을 돌려받는 거예요 — 꾸준히 하면요.",
+    "heroBadge": "맞춤 플랜이 준비되었습니다",
+    "heroTitle": "이번 주 플랜을 미리 확인해보세요",
+    "heroSubtitle": "월요일이 잠금 해제되었습니다. 구독하면 7일 전체 + 레시피 + 장보기 목록을 받을 수 있어요.",
+    "forHousehold": "{size}인 기준",
+    "budgetFriendly": "알뜰한",
+    "generousBudget": "넉넉한 예산",
+    "unlockedLabel": "잠금 해제됨",
+    "lockedLabel": "잠김 — {n}일 더",
+    "groceryListTitle": "장보기 목록",
+    "itemsCount": "약 {count}개 품목",
+    "moreDaysWaiting": "{n}일이 더 기다리고 있어요",
+    "moreDaysDesc": "전체 레시피, 장보기 목록, 그리고 매주 새로운 플랜.",
+    "unlockCta": "전체 플랜 잠금 해제 — 월 $7.99",
+    "yearlyCta": "또는 연간 결제 시 월 $5 (37% 절약)",
+    "createAccountNote": "먼저 무료 계정을 만드세요 — 30초면 충분해요",
+    "personalizedTrust": "당신의 취향에 맞춰 맞춤화",
+    "mobileCta": "7일 전체 플랜 잠금 해제",
+    "days": {
+      "monday": "월요일",
+      "tuesday": "화요일",
+      "wednesday": "수요일",
+      "thursday": "목요일",
+      "friday": "금요일",
+      "saturday": "토요일",
+      "sunday": "일요일"
+    }
   },
   "dashboard": {
     "title": "대시보드",
@@ -487,5 +513,14 @@
     "cta": "무료 미리보기 보기 →",
     "reassurance": "신용카드 없이. 스팸 없이. 식단만 보내드려요.",
     "dismiss": "괜찮아요, 저녁은 알아서 할게요"
+  },
+  "checkout": {
+    "srTitle": "결제 – What's For Dinner",
+    "redirecting": "결제 페이지로 이동 중...",
+    "settingUp": "결제 시스템을 준비 중입니다. 이동 중...",
+    "error": "문제가 발생했습니다. 이동 중..."
+  },
+  "setup": {
+    "settingUp": "계정을 설정하는 중입니다..."
   }
 }

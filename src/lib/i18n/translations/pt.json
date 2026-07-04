@@ -319,7 +319,33 @@
     "keepPlanSuffix": "para salvá-lo.",
     "savedToAccount": "Este plano está salvo na sua conta.",
     "goToDashboard": "Ir para o Painel",
-    "stickWithIt": "São 2,5 horas de volta toda semana — se você continuar."
+    "stickWithIt": "São 2,5 horas de volta toda semana — se você continuar.",
+    "heroBadge": "Seu plano personalizado está pronto",
+    "heroTitle": "Aqui está uma prévia da sua semana",
+    "heroSubtitle": "Segunda-feira está desbloqueada. Assine para obter os 7 dias + receitas + lista de compras.",
+    "forHousehold": "para {size}",
+    "budgetFriendly": "econômico",
+    "generousBudget": "orçamento generoso",
+    "unlockedLabel": "Desbloqueado",
+    "lockedLabel": "Bloqueado — mais {n} dias",
+    "groceryListTitle": "Lista de Compras",
+    "itemsCount": "~{count} itens",
+    "moreDaysWaiting": "Mais {n} dias esperando por você",
+    "moreDaysDesc": "Receitas completas, lista de compras, e um novo plano toda semana.",
+    "unlockCta": "Desbloquear meu plano completo — $7,99/mês",
+    "yearlyCta": "Ou $5/mês cobrado anualmente (economize 37%)",
+    "createAccountNote": "Crie sua conta grátis primeiro — leva 30 segundos",
+    "personalizedTrust": "Personalizado para suas preferências",
+    "mobileCta": "Desbloquear meu plano completo de 7 dias",
+    "days": {
+      "monday": "Segunda-feira",
+      "tuesday": "Terça-feira",
+      "wednesday": "Quarta-feira",
+      "thursday": "Quinta-feira",
+      "friday": "Sexta-feira",
+      "saturday": "Sábado",
+      "sunday": "Domingo"
+    }
   },
   "dashboard": {
     "title": "Painel de Controle",
@@ -487,5 +513,14 @@
     "cta": "Ver Minha Prévia Grátis →",
     "reassurance": "Sem cartão de crédito. Sem spam. Só um plano de refeições.",
     "dismiss": "Não, obrigado, eu me viro com o jantar"
+  },
+  "checkout": {
+    "srTitle": "Checkout – What's For Dinner",
+    "redirecting": "Redirecionando para o pagamento...",
+    "settingUp": "O sistema de pagamento está sendo configurado. Redirecionando...",
+    "error": "Algo deu errado. Redirecionando..."
+  },
+  "setup": {
+    "settingUp": "Configurando sua conta..."
   }
 }

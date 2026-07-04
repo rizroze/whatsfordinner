@@ -1,7 +1,38 @@
 "use client";
 
 import Link from "next/link";
-import { useT } from "@/lib/i18n/context";
+import { useT, type Locale } from "@/lib/i18n/context";
+import { getLocalePath, getMealPlansPath } from "@/lib/i18n/locales";
+import esSlugs from "@/data/meal-plans/translations/slugs/es.json";
+import frSlugs from "@/data/meal-plans/translations/slugs/fr.json";
+import deSlugs from "@/data/meal-plans/translations/slugs/de.json";
+import ptSlugs from "@/data/meal-plans/translations/slugs/pt.json";
+import jaSlugs from "@/data/meal-plans/translations/slugs/ja.json";
+import koSlugs from "@/data/meal-plans/translations/slugs/ko.json";
+import zhSlugs from "@/data/meal-plans/translations/slugs/zh.json";
+import arSlugs from "@/data/meal-plans/translations/slugs/ar.json";
+import trSlugs from "@/data/meal-plans/translations/slugs/tr.json";
+import hiSlugs from "@/data/meal-plans/translations/slugs/hi.json";
+
+// Client-safe slug maps (the shared translations/index.ts helper uses
+// fs.readFileSync and can't be bundled into client components)
+const SLUG_MAPS: Partial<Record<Locale, Record<string, string>>> = {
+  es: esSlugs,
+  fr: frSlugs,
+  de: deSlugs,
+  pt: ptSlugs,
+  ja: jaSlugs,
+  ko: koSlugs,
+  zh: zhSlugs,
+  ar: arSlugs,
+  tr: trSlugs,
+  hi: hiSlugs,
+};
+
+function slugForLocale(englishSlug: string, locale: Locale): string {
+  if (locale === "en") return englishSlug;
+  return SLUG_MAPS[locale]?.[englishSlug] ?? englishSlug;
+}
 
 const POPULAR_PLANS = [
   { slug: "keto", labelKey: "landing.popularPlans.keto", emoji: "🥑" },
@@ -16,7 +47,8 @@ const POPULAR_PLANS = [
 ];
 
 export function PopularMealPlans() {
-  const { t } = useT();
+  const { t, locale } = useT();
+  const mealPlansPath = getMealPlansPath(locale);
 
   return (
     <section className="py-24 sm:py-32 border-t border-stone-100">
@@ -32,7 +64,10 @@ export function PopularMealPlans() {
           {POPULAR_PLANS.map((plan) => (
             <Link
               key={plan.slug}
-              href={`/meal-plans/${plan.slug}`}
+              href={getLocalePath(
+                locale,
+                `${mealPlansPath}/${slugForLocale(plan.slug, locale)}`
+              )}
               className="group flex items-center gap-3 px-5 py-4 rounded-2xl bg-white border border-stone-100 hover:border-orange-200 hover:shadow-md transition-all duration-200"
             >
               <span className="text-2xl shrink-0">{plan.emoji}</span>
@@ -45,7 +80,7 @@ export function PopularMealPlans() {
 
         <div className="mt-8 text-center">
           <Link
-            href="/meal-plans"
+            href={getLocalePath(locale, mealPlansPath)}
             className="inline-flex items-center gap-1 text-sm font-medium text-orange-600 hover:text-orange-700 transition-colors"
           >
             {t("landing.popularPlans.seeAll")}

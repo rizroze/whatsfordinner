@@ -319,7 +319,33 @@
     "keepPlanSuffix": "um ihn zu speichern.",
     "savedToAccount": "Dieser Plan ist in Deinem Konto gespeichert.",
     "goToDashboard": "Zum Dashboard",
-    "stickWithIt": "Das sind 2,5 Stunden zurück jede Woche — wenn Du dranbleibst."
+    "stickWithIt": "Das sind 2,5 Stunden zurück jede Woche — wenn Du dranbleibst.",
+    "heroBadge": "Dein personalisierter Plan ist fertig",
+    "heroTitle": "Hier ist ein Vorgeschmack auf deine Woche",
+    "heroSubtitle": "Montag ist freigeschaltet. Abonniere, um alle 7 Tage + Rezepte + Einkaufsliste zu erhalten.",
+    "forHousehold": "für {size}",
+    "budgetFriendly": "günstig",
+    "generousBudget": "großzügiges Budget",
+    "unlockedLabel": "Freigeschaltet",
+    "lockedLabel": "Gesperrt — noch {n} Tage",
+    "groceryListTitle": "Einkaufsliste",
+    "itemsCount": "~{count} Artikel",
+    "moreDaysWaiting": "Noch {n} Tage warten auf dich",
+    "moreDaysDesc": "Vollständige Rezepte, Einkaufsliste und jede Woche ein neuer Plan.",
+    "unlockCta": "Meinen vollständigen Plan freischalten — 7,99 $/Monat",
+    "yearlyCta": "Oder 5 $/Monat jährlich abgerechnet (37% sparen)",
+    "createAccountNote": "Erstelle zuerst dein kostenloses Konto — dauert 30 Sekunden",
+    "personalizedTrust": "Auf deine Vorlieben abgestimmt",
+    "mobileCta": "Meinen vollständigen 7-Tage-Plan freischalten",
+    "days": {
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag"
+    }
   },
   "dashboard": {
     "title": "Dashboard",
@@ -487,5 +513,14 @@
     "cta": "Meine Gratis-Vorschau Ansehen →",
     "reassurance": "Keine Kreditkarte. Kein Spam. Einfach ein Essensplan.",
     "dismiss": "Nein danke, ich kümmere mich selbst ums Abendessen"
+  },
+  "checkout": {
+    "srTitle": "Kasse – What's For Dinner",
+    "redirecting": "Weiterleitung zur Zahlung...",
+    "settingUp": "Das Zahlungssystem wird eingerichtet. Weiterleitung...",
+    "error": "Etwas ist schiefgelaufen. Weiterleitung..."
+  },
+  "setup": {
+    "settingUp": "Dein Konto wird eingerichtet..."
   }
 }

@@ -319,7 +319,33 @@
     "keepPlanSuffix": "kaydetmek için.",
     "savedToAccount": "Bu plan hesabınıza kaydedildi.",
     "goToDashboard": "Panoya Git",
-    "stickWithIt": "Bu haftada 2,5 saat geri demek — devam ederseniz."
+    "stickWithIt": "Bu haftada 2,5 saat geri demek — devam ederseniz.",
+    "heroBadge": "Kişiye özel planın hazır",
+    "heroTitle": "İşte haftandan bir tat",
+    "heroSubtitle": "Pazartesi kilidi açık. Tüm 7 günü + tarifleri + market listesini almak için abone ol.",
+    "forHousehold": "{size} kişi için",
+    "budgetFriendly": "ekonomik",
+    "generousBudget": "geniş bütçe",
+    "unlockedLabel": "Kilidi Açık",
+    "lockedLabel": "Kilitli — {n} gün daha",
+    "groceryListTitle": "Market Listesi",
+    "itemsCount": "~{count} ürün",
+    "moreDaysWaiting": "{n} gün daha seni bekliyor",
+    "moreDaysDesc": "Tam tarifler, market listesi, ve her hafta yeni bir plan.",
+    "unlockCta": "Tam planımın kilidini aç — ayda $7.99",
+    "yearlyCta": "Ya da yıllık faturalandırmada ayda $5 (%37 tasarruf)",
+    "createAccountNote": "Önce ücretsiz hesabını oluştur — 30 saniye sürer",
+    "personalizedTrust": "Tercihlerine göre kişiselleştirildi",
+    "mobileCta": "Tam 7 günlük planımın kilidini aç",
+    "days": {
+      "monday": "Pazartesi",
+      "tuesday": "Salı",
+      "wednesday": "Çarşamba",
+      "thursday": "Perşembe",
+      "friday": "Cuma",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar"
+    }
   },
   "dashboard": {
     "title": "Pano",
@@ -487,5 +513,14 @@
     "cta": "Ücretsiz Önizlememi Gör →",
     "reassurance": "Kredi kartı yok. Spam yok. Sadece bir öğün planı.",
     "dismiss": "Hayır teşekkürler, akşam yemeğini kendim hallederim"
+  },
+  "checkout": {
+    "srTitle": "Ödeme – What's For Dinner",
+    "redirecting": "Ödeme sayfasına yönlendiriliyorsun...",
+    "settingUp": "Ödeme sistemi kuruluyor. Yönlendiriliyorsun...",
+    "error": "Bir şeyler ters gitti. Yönlendiriliyorsun..."
+  },
+  "setup": {
+    "settingUp": "Hesabın ayarlanıyor..."
   }
 }

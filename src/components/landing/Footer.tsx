@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
+import { getLocalePath, getMealPlansPath, getRecipesPath } from "@/lib/i18n/locales";
 
 export function Footer() {
-  const { t } = useT();
+  const { t, locale } = useT();
 
   return (
     <footer className="border-t border-stone-100 py-12">
@@ -15,28 +16,28 @@ export function Footer() {
 
         <nav className="flex items-center gap-6">
           <Link
-            href="/blog"
+            href={getLocalePath(locale, "blog")}
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >
             {t("landing.footer.blog")}
           </Link>
           <Link
-            href="/meal-plans"
+            href={getLocalePath(locale, getMealPlansPath(locale))}
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >
             {t("landing.footer.mealPlans")}
           </Link>
           <Link
-            href="/recipes"
+            href={getLocalePath(locale, getRecipesPath(locale))}
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >
-            Recipes
+            {t("landing.footer.recipes")}
           </Link>
           <Link
             href="/tools"
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"
           >
-            Free Tools
+            {t("landing.footer.freeTools")}
           </Link>
           <Link
             href="/privacy"

@@ -1,6 +1,7 @@
 import { getAllRecipes } from "@/data/recipes";
 import type { FullRecipe } from "@/data/recipes/types";
 import type { DayPlan, Meal } from "@/types/meal-plan";
+import { getTranslatedRecipe } from "@/data/recipes/translations";
 
 /**
  * Rule-based preview plan assembly from the recipe library.
@@ -253,8 +254,15 @@ function toMeal(recipe: FullRecipe, slot: Meal["type"]): Meal {
   };
 }
 
-export function buildPreviewPlan(prefs: PreviewPrefs): PreviewPlanResult {
+export function buildPreviewPlan(prefs: PreviewPrefs, locale: string = "en"): PreviewPlanResult {
   const all = getAllRecipes();
+
+  // Matching/scoring/dedup always runs against the English recipe data
+  // (ingredient-term matching relies on English words). Translation is
+  // applied only at the very end, for display — slug/nutrition/times are
+  // preserved by getTranslatedRecipe, so this is safe to swap in late.
+  const display = (r: FullRecipe): FullRecipe =>
+    locale === "en" ? r : getTranslatedRecipe(r.slug, locale) ?? r;
   const seed = seedFromString(
     JSON.stringify([
       prefs.dietary_restrictions ?? [],
@@ -310,7 +318,7 @@ export function buildPreviewPlan(prefs: PreviewPrefs): PreviewPlanResult {
   const mondayRecipes = slots.map((slot) => ({ slot, recipe: nextRecipe(slot, mondayUsed) }));
   const monday: DayPlan = {
     day: "Monday",
-    meals: mondayRecipes.map(({ slot, recipe }) => toMeal(recipe, slot)),
+    meals: mondayRecipes.map(({ slot, recipe }) => toMeal(display(recipe), slot)),
     totalCalories: mondayRecipes.reduce((sum, { recipe }) => sum + recipe.nutrition.calories, 0),
   };
 
@@ -320,7 +328,7 @@ export function buildPreviewPlan(prefs: PreviewPrefs): PreviewPlanResult {
     {
       day: "Monday",
       meals: mondayRecipes.map(({ slot, recipe }) => ({
-        name: recipe.name,
+        name: display(recipe).name,
         type: slot,
         calories: recipe.nutrition.calories,
         cookTime: recipe.cookTime,
@@ -335,13 +343,14 @@ export function buildPreviewPlan(prefs: PreviewPrefs): PreviewPlanResult {
       .map((slot) => {
         const recipe = nextRecipe(slot, usedToday);
         weekRecipes.push(recipe);
+        const displayName = display(recipe).name;
         daySummary.meals.push({
-          name: recipe.name,
+          name: displayName,
           type: slot,
           calories: recipe.nutrition.calories,
           cookTime: recipe.cookTime,
         });
-        return { type: slot, name: recipe.name };
+        return { type: slot, name: displayName };
       });
     weekSummary.push(daySummary);
     return { day, meals };
@@ -351,7 +360,7 @@ export function buildPreviewPlan(prefs: PreviewPrefs): PreviewPlanResult {
   const mondayItems: string[] = [];
   const seen = new Set<string>();
   for (const { recipe } of mondayRecipes) {
-    for (const ing of recipe.ingredients) {
+    for (const ing of display(recipe).ingredients) {
       const key = ing.name.toLowerCase();
       if (!seen.has(key)) {
         seen.add(key);

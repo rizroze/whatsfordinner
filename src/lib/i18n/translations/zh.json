@@ -319,7 +319,33 @@
     "keepPlanSuffix": "来保存它。",
     "savedToAccount": "此计划已保存到你的账户。",
     "goToDashboard": "前往仪表板",
-    "stickWithIt": "每周省回2.5小时——如果你坚持的话。"
+    "stickWithIt": "每周省回2.5小时——如果你坚持的话。",
+    "heroBadge": "您的专属计划已准备就绪",
+    "heroTitle": "先来看看这周的安排",
+    "heroSubtitle": "周一已解锁。订阅即可获得完整7天 + 食谱 + 购物清单。",
+    "forHousehold": "{size}人份",
+    "budgetFriendly": "经济实惠",
+    "generousBudget": "预算充裕",
+    "unlockedLabel": "已解锁",
+    "lockedLabel": "已锁定 — 还有{n}天",
+    "groceryListTitle": "购物清单",
+    "itemsCount": "约{count}件",
+    "moreDaysWaiting": "还有{n}天等着您",
+    "moreDaysDesc": "完整食谱、购物清单，每周都有新计划。",
+    "unlockCta": "解锁完整计划 — 每月$7.99",
+    "yearlyCta": "或按年付费每月$5(节省37%)",
+    "createAccountNote": "先创建免费账户 — 只需30秒",
+    "personalizedTrust": "根据您的偏好个性化定制",
+    "mobileCta": "解锁完整7天计划",
+    "days": {
+      "monday": "星期一",
+      "tuesday": "星期二",
+      "wednesday": "星期三",
+      "thursday": "星期四",
+      "friday": "星期五",
+      "saturday": "星期六",
+      "sunday": "星期日"
+    }
   },
   "dashboard": {
     "title": "仪表板",
@@ -487,5 +513,14 @@
     "cta": "查看我的免费预览 →",
     "reassurance": "无需信用卡。没有垃圾邮件。只有一份餐饮计划。",
     "dismiss": "不用了，我自己想办法解决晚饭"
+  },
+  "checkout": {
+    "srTitle": "结账 – What's For Dinner",
+    "redirecting": "正在跳转到支付页面...",
+    "settingUp": "支付系统正在设置中，正在跳转...",
+    "error": "出了点问题，正在跳转..."
+  },
+  "setup": {
+    "settingUp": "正在设置您的账户..."
   }
 }

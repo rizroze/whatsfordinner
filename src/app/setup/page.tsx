@@ -3,12 +3,14 @@
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import { useT } from "@/lib/i18n/context";
 
 // Runs after email confirmation when coming from the onboarding → preview → signup flow.
 // Reads saved preferences from localStorage, writes them to the DB profile,
 // then sends the user to /pricing so checkout has their supabase_user_id.
 export default function SetupPage() {
   const router = useRouter();
+  const { t } = useT();
   const ranRef = useRef(false);
 
   useEffect(() => {
@@ -53,7 +55,7 @@ export default function SetupPage() {
   return (
     <div className="min-h-screen bg-[#FFFBF5] flex flex-col items-center justify-center gap-4">
       <div className="w-6 h-6 border-2 border-orange-300 border-t-orange-500 rounded-full animate-spin" />
-      <p className="text-sm text-stone-400">Setting up your account...</p>
+      <p className="text-sm text-stone-400">{t("setup.settingUp")}</p>
     </div>
   );
 }
