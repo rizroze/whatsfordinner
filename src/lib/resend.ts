@@ -259,12 +259,18 @@ function buildWelcomeEmail(firstName: string): string {
 
 export async function sendWelcomeEmail(to: string, firstName?: string): Promise<void> {
   const html = buildWelcomeEmail(firstName ?? "");
-  await getResend().emails.send({
+  const { error } = await getResend().emails.send({
     from: "What's For Dinner <plans@whatsfordinner.fit>",
     to,
     subject: "You're in — your first meal plan is generating",
     html,
   });
+  // Resend's SDK resolves normally (does not throw) on API-level failures —
+  // it returns { data: null, error } instead. Without this check, quota/
+  // validation/suppression failures were silently swallowed everywhere.
+  if (error) {
+    throw new Error(`Resend send failed (welcome email): ${JSON.stringify(error)}`);
+  }
 }
 
 // --- Exports ---
@@ -281,7 +287,7 @@ export async function sendMealPlanEmail(
     : `${getAppUrl()}/dashboard`;
   const html = buildSubscriberEmail(weekOf, plan, weekNumber, unsubscribeUrl);
 
-  await getResend().emails.send({
+  const { error } = await getResend().emails.send({
     from: "What's For Dinner <plans@whatsfordinner.fit>",
     to,
     subject: getSubjectLine(weekOf, weekNumber),
@@ -291,4 +297,7 @@ export async function sendMealPlanEmail(
       "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
     },
   });
+  if (error) {
+    throw new Error(`Resend send failed (weekly meal plan email): ${JSON.stringify(error)}`);
+  }
 }

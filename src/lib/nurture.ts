@@ -553,7 +553,10 @@ export async function sendPreviewLeadEmail(
   const { subject, html } = buildPreviewLeadEmail(to, meals);
   const unsubUrl = generateEmailUnsubscribeUrl(to);
 
-  await getResend().emails.send({
+  // Resend's SDK resolves normally (does not throw) on API-level failures —
+  // it returns { data: null, error } instead of rejecting. Without this
+  // check, quota/validation/suppression failures were silently swallowed.
+  const { error } = await getResend().emails.send({
     from: "What's For Dinner <plans@whatsfordinner.fit>",
     to,
     subject,
@@ -563,6 +566,9 @@ export async function sendPreviewLeadEmail(
       "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
     },
   });
+  if (error) {
+    throw new Error(`Resend send failed (preview lead email): ${JSON.stringify(error)}`);
+  }
 }
 
 // ── Email type definitions ──
@@ -592,7 +598,7 @@ export async function sendNurtureEmail(
 
   const unsubUrl = generateEmailUnsubscribeUrl(to);
 
-  await getResend().emails.send({
+  const { error } = await getResend().emails.send({
     from: "What's For Dinner <plans@whatsfordinner.fit>",
     to,
     subject,
@@ -602,6 +608,9 @@ export async function sendNurtureEmail(
       "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
     },
   });
+  if (error) {
+    throw new Error(`Resend send failed (nurture ${type} email): ${JSON.stringify(error)}`);
+  }
 }
 
 export async function sendReferralReminderEmail(
@@ -610,10 +619,13 @@ export async function sendReferralReminderEmail(
 ): Promise<void> {
   const { subject, html } = buildReferralReminderEmail(to, referralCodes);
 
-  await getResend().emails.send({
+  const { error } = await getResend().emails.send({
     from: "What's For Dinner <plans@whatsfordinner.fit>",
     to,
     subject,
     html,
   });
+  if (error) {
+    throw new Error(`Resend send failed (referral reminder email): ${JSON.stringify(error)}`);
+  }
 }
