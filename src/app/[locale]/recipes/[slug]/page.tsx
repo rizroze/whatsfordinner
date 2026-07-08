@@ -18,6 +18,19 @@ import {
 
 export const dynamicParams = false;
 
+const HOME_LABELS: Record<string, string> = {
+  es: "Inicio",
+  fr: "Accueil",
+  de: "Startseite",
+  pt: "Início",
+  ja: "ホーム",
+  ko: "홈",
+  zh: "首页",
+  ar: "الرئيسية",
+  tr: "Ana Sayfa",
+  hi: "होम",
+};
+
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
 }
@@ -134,7 +147,7 @@ export default async function LocaleRecipePage({ params }: PageProps) {
       <RecipeJsonLd recipe={recipe} />
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", url: `https://whatsfordinner.fit/${locale}` },
+          { name: HOME_LABELS[locale] ?? "Home", url: `https://whatsfordinner.fit/${locale}` },
           {
             name: recipe.name,
             url,
