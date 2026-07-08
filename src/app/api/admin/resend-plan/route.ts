@@ -7,13 +7,13 @@ import { sendMealPlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import type { MealPlanData, UserProfile } from "@/types/meal-plan";
 
-const ADMIN_USER_ID = process.env.ADMIN_USER_ID;
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
 
 async function isAdmin(): Promise<string | null> {
-  if (!ADMIN_USER_ID) return null;
+  if (!ADMIN_EMAIL) return null;
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
-  if (!user || user.id !== ADMIN_USER_ID) return null;
+  if (!user || user.email !== ADMIN_EMAIL) return null;
   return user.id;
 }
 
