@@ -248,7 +248,7 @@ export default async function AdminPage() {
                   none: "bg-stone-100 text-stone-500",
                 };
                 const statusLabel: Record<string, string> = {
-                  sent: "Sent ✓",
+                  sent: "Sent (DB says — not verified in Resend)",
                   ready: "Generated, not sent",
                   generating: "Generating…",
                   failed: "Failed",
@@ -264,7 +264,11 @@ export default async function AdminPage() {
                       <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${statusStyle[u.weekStatus] ?? statusStyle.none}`}>
                         {statusLabel[u.weekStatus] ?? u.weekStatus}
                       </span>
-                      {u.weekStatus !== "sent" && <ResendPlanButton userId={u.id} />}
+                      {/* Always shown, not just when status != "sent" — the DB's
+                          "sent" status was proven unreliable during the July
+                          2026 silent-email-failure incident, so it's never
+                          trusted as a reason to hide the manual resend option. */}
+                      <ResendPlanButton userId={u.id} />
                     </div>
                   </div>
                 );
