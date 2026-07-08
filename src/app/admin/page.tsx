@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getWeekOf } from "@/lib/utils";
+import { ResendPlanButton } from "@/components/admin/ResendPlanButton";
 
 export const dynamic = "force-dynamic";
 
@@ -39,12 +40,13 @@ export default async function AdminPage() {
     cancelledResult,
     totalUsersResult,
     onboardedResult,
-    freeGenResult,
     cancelReasonsResult,
     recentSignupsResult,
     plansWeekResult,
     newThisMonthResult,
     cancelledThisMonthResult,
+    activeUsersResult,
+    leadsResult,
   ] = await Promise.all([
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "active"),
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "active").eq("plan_interval", "monthly"),
@@ -52,15 +54,24 @@ export default async function AdminPage() {
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "cancelled"),
     admin.from("users").select("*", { count: "exact", head: true }),
     admin.from("profiles").select("*", { count: "exact", head: true }).eq("onboarding_completed", true),
-    admin.from("free_generations").select("*", { count: "exact", head: true }),
     admin.from("users").select("cancel_reason").not("cancel_reason", "is", null),
     admin.from("users")
       .select("email, created_at, subscription_status, plan_interval, subscription_source")
       .order("created_at", { ascending: false })
       .limit(10),
-    admin.from("meal_plans").select("status").eq("week_of", weekOf),
+    admin.from("meal_plans").select("status").eq("week_of", weekOf).not("user_id", "is", null),
     admin.from("users").select("*", { count: "exact", head: true }).gte("created_at", monthStart.toISOString()),
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "cancelled").gte("updated_at", monthStart.toISOString()),
+    // Active subscribers — for the per-user "did this week's email go out" table
+    admin.from("users").select("id, email, plan_interval").eq("subscription_status", "active"),
+    // Onboarded-but-never-paid leads: anonymous meal_plans rows captured at
+    // the end of onboarding (see /api/leads) that never converted to an account
+    admin.from("meal_plans")
+      .select("created_at, plan_data")
+      .is("user_id", null)
+      .eq("plan_data->>source", "preview_lead")
+      .order("created_at", { ascending: false })
+      .limit(20),
   ]);
 
   const active = activeResult.count ?? 0;
@@ -69,9 +80,26 @@ export default async function AdminPage() {
   const cancelled = cancelledResult.count ?? 0;
   const totalUsers = totalUsersResult.count ?? 0;
   const onboarded = onboardedResult.count ?? 0;
-  const freePlans = freeGenResult.count ?? 0;
   const newThisMonth = newThisMonthResult.count ?? 0;
   const cancelledThisMonth = cancelledThisMonthResult.count ?? 0;
+
+  // This week's send status per active subscriber
+  const activeUsers = activeUsersResult.data ?? [];
+  const { data: thisWeeksPlansRaw } = await admin
+    .from("meal_plans")
+    .select("user_id, status")
+    .eq("week_of", weekOf)
+    .in("user_id", activeUsers.map((u) => u.id).length ? activeUsers.map((u) => u.id) : ["00000000-0000-0000-0000-000000000000"]);
+  const planStatusByUser = new Map((thisWeeksPlansRaw ?? []).map((p) => [p.user_id as string, p.status as string]));
+  const subscribersWithStatus = activeUsers.map((u) => ({
+    ...u,
+    weekStatus: planStatusByUser.get(u.id) ?? "none",
+  }));
+
+  const leads = (leadsResult.data ?? []).map((r) => ({
+    email: (r.plan_data as Record<string, unknown>)?.nurture_email as string | undefined,
+    created_at: r.created_at as string,
+  })).filter((l) => l.email);
 
   const mrr = (monthly * MONTHLY_PRICE) + (yearly * (YEARLY_PRICE / 12));
   const arr = mrr * 12;
@@ -118,10 +146,9 @@ export default async function AdminPage() {
           <StatCard label="Churned this month" value={String(cancelledThisMonth)} sub={`${cancelled} total cancelled`} warn={cancelledThisMonth > 0} />
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           <StatCard label="Total signups" value={String(totalUsers)} sub="all time" />
           <StatCard label="Onboarded" value={String(onboarded)} sub="completed setup" />
-          <StatCard label="Free plans" value={String(freePlans)} sub="generated" />
           <StatCard label="Conversion" value={`${conversionRate}%`} sub="onboarded → paid" />
         </div>
 
@@ -200,6 +227,73 @@ export default async function AdminPage() {
             <PipelineCard label="Generating" value={planGenerating} color="orange" />
             <PipelineCard label="Failed" value={planFailed} color="red" />
           </div>
+        </div>
+
+        {/* Active subscribers — did this week's email actually go out? */}
+        <div className="bg-white rounded-2xl border border-stone-100 p-5">
+          <h2 className="text-sm font-semibold text-stone-700 mb-4">
+            Active subscribers
+            <span className="ml-2 text-xs font-normal text-stone-400">{subscribersWithStatus.length} paying · week of {weekOf}</span>
+          </h2>
+          {subscribersWithStatus.length === 0 ? (
+            <p className="text-sm text-stone-400">No active subscribers.</p>
+          ) : (
+            <div className="space-y-2">
+              {subscribersWithStatus.map((u) => {
+                const statusStyle: Record<string, string> = {
+                  sent: "bg-green-50 text-green-700",
+                  ready: "bg-blue-50 text-blue-700",
+                  generating: "bg-orange-50 text-orange-700",
+                  failed: "bg-red-50 text-red-600",
+                  none: "bg-stone-100 text-stone-500",
+                };
+                const statusLabel: Record<string, string> = {
+                  sent: "Sent ✓",
+                  ready: "Generated, not sent",
+                  generating: "Generating…",
+                  failed: "Failed",
+                  none: "No plan yet",
+                };
+                return (
+                  <div key={u.id} className="flex items-center justify-between py-2 border-b border-stone-50 last:border-0 gap-3">
+                    <div className="min-w-0">
+                      <p className="text-xs font-medium text-stone-700 truncate">{u.email}</p>
+                      <p className="text-[10px] text-stone-400">{u.plan_interval ?? "paid"}</p>
+                    </div>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${statusStyle[u.weekStatus] ?? statusStyle.none}`}>
+                        {statusLabel[u.weekStatus] ?? u.weekStatus}
+                      </span>
+                      {u.weekStatus !== "sent" && <ResendPlanButton userId={u.id} />}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        {/* Onboarded but never paid — leads captured from /api/leads */}
+        <div className="bg-white rounded-2xl border border-stone-100 p-5">
+          <h2 className="text-sm font-semibold text-stone-700 mb-4">
+            Onboarded, didn&apos;t pay
+            <span className="ml-2 text-xs font-normal text-stone-400">{leads.length} leads · covered by nurture emails</span>
+          </h2>
+          {leads.length === 0 ? (
+            <p className="text-sm text-stone-400">No leads yet.</p>
+          ) : (
+            <div className="space-y-2 max-h-96 overflow-y-auto">
+              {leads.map((l) => {
+                const date = new Date(l.created_at).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+                return (
+                  <div key={l.email} className="flex items-center justify-between py-1.5 border-b border-stone-50 last:border-0">
+                    <p className="text-xs font-medium text-stone-700 truncate max-w-[220px]">{l.email}</p>
+                    <p className="text-[10px] text-stone-400">{date}</p>
+                  </div>
+                );
+              })}
+            </div>
+          )}
         </div>
 
       </div>
