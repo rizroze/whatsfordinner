@@ -553,24 +553,6 @@ export async function sendPreviewLeadEmail(
   const { subject, html } = buildPreviewLeadEmail(to, meals);
   const unsubUrl = generateEmailUnsubscribeUrl(to);
 
-  // TEMPORARY: pinpoint which field carries a stray CR/LF/null character.
-  const fieldsToCheck: Record<string, string> = {
-    from: "What's For Dinner <plans@whatsfordinner.fit>",
-    to,
-    subject,
-    unsubUrl,
-    listUnsubscribeHeader: `<${unsubUrl}>`,
-  };
-  const dirty: Record<string, string> = {};
-  for (const [name, val] of Object.entries(fieldsToCheck)) {
-    if (/[\r\n\0]/.test(val)) {
-      dirty[name] = JSON.stringify(val);
-    }
-  }
-  if (Object.keys(dirty).length > 0) {
-    throw new Error(`DEBUG dirty fields: ${JSON.stringify(dirty)}`);
-  }
-
   // Resend's SDK resolves normally (does not throw) on API-level failures —
   // it returns { data: null, error } instead of rejecting. Without this
   // check, quota/validation/suppression failures were silently swallowed.

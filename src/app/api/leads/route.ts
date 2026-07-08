@@ -89,16 +89,12 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Something went wrong." }, { status: 500 });
   }
 
-  let debugEmailError: string | null = null;
   try {
     await sendPreviewLeadEmail(email, weekSummary);
   } catch (err) {
     // Lead is stored; the nurture cron still covers them
     console.error("Preview lead email failed:", err);
-    debugEmailError = err instanceof Error ? err.message : String(err);
   }
 
-  // TEMPORARY: surfacing the real send error in the response body to
-  // diagnose a production-only silent-failure incident. Remove once resolved.
-  return NextResponse.json({ ok: true, debugEmailError });
+  return NextResponse.json({ ok: true });
 }
