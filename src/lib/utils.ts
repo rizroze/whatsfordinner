@@ -22,5 +22,10 @@ export function formatWeekOf(weekOf: string): string {
 }
 
 export function getAppUrl(): string {
-  return process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+  // .trim() guards against a stray trailing newline/whitespace in the env
+  // var value (this exact class of bug already broke NEXT_PUBLIC_SUPABASE_URL
+  // once) — an untrimmed URL here silently corrupts the List-Unsubscribe
+  // header on every outbound email, and Resend rejects the whole send with
+  // a 422 validation error since headers can't contain CR/LF characters.
+  return (process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000").trim();
 }
