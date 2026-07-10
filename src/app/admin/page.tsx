@@ -1,13 +1,14 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
-import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { requireAdmin } from "@/lib/admin-auth";
 import { getWeekOf } from "@/lib/utils";
-import { ResendPlanButton } from "@/components/admin/ResendPlanButton";
 
 export const dynamic = "force-dynamic";
 
 const MONTHLY_PRICE = 7.99;
 const YEARLY_PRICE = 59.99;
+const PAGE_SIZE = 20;
 
 const REASON_LABELS: Record<string, string> = {
   price: "Too expensive",
@@ -18,20 +19,40 @@ const REASON_LABELS: Record<string, string> = {
   other: "Other",
 };
 
-export default async function AdminPage() {
-  const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+const STATUS_FILTERS = ["all", "active", "inactive", "past_due", "cancelled"] as const;
 
-  if (!user) redirect("/login");
+const STATUS_STYLE: Record<string, string> = {
+  active: "bg-green-50 text-green-700",
+  inactive: "bg-stone-100 text-stone-500",
+  past_due: "bg-amber-50 text-amber-700",
+  cancelled: "bg-red-50 text-red-600",
+};
 
-  const adminEmail = process.env.ADMIN_EMAIL;
-  if (!adminEmail || user.email !== adminEmail) redirect("/dashboard");
+interface PageProps {
+  searchParams: Promise<{ q?: string; status?: string; page?: string }>;
+}
+
+export default async function AdminPage({ searchParams }: PageProps) {
+  const adminId = await requireAdmin();
+  if (!adminId) redirect("/dashboard");
+
+  const { q = "", status = "all", page: pageParam } = await searchParams;
+  const page = Math.max(1, parseInt(pageParam ?? "1", 10) || 1);
 
   const admin = createAdminClient();
   const weekOf = getWeekOf();
   const monthStart = new Date();
   monthStart.setDate(1);
   monthStart.setHours(0, 0, 0, 0);
+
+  // Build the filtered/searched user query
+  let userQuery = admin
+    .from("users")
+    .select("id, email, subscription_status, subscription_source, plan_interval, created_at", { count: "exact" });
+  if (q.trim()) userQuery = userQuery.ilike("email", `%${q.trim()}%`);
+  if (status !== "all") userQuery = userQuery.eq("subscription_status", status);
+  const offset = (page - 1) * PAGE_SIZE;
+  userQuery = userQuery.order("created_at", { ascending: false }).range(offset, offset + PAGE_SIZE - 1);
 
   const [
     activeResult,
@@ -41,11 +62,10 @@ export default async function AdminPage() {
     totalUsersResult,
     onboardedResult,
     cancelReasonsResult,
-    recentSignupsResult,
     plansWeekResult,
     newThisMonthResult,
     cancelledThisMonthResult,
-    activeUsersResult,
+    userListResult,
     leadsResult,
   ] = await Promise.all([
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "active"),
@@ -55,15 +75,10 @@ export default async function AdminPage() {
     admin.from("users").select("*", { count: "exact", head: true }),
     admin.from("profiles").select("*", { count: "exact", head: true }).eq("onboarding_completed", true),
     admin.from("users").select("cancel_reason").not("cancel_reason", "is", null),
-    admin.from("users")
-      .select("email, created_at, subscription_status, plan_interval, subscription_source")
-      .order("created_at", { ascending: false })
-      .limit(10),
     admin.from("meal_plans").select("status").eq("week_of", weekOf).not("user_id", "is", null),
     admin.from("users").select("*", { count: "exact", head: true }).gte("created_at", monthStart.toISOString()),
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "cancelled").gte("updated_at", monthStart.toISOString()),
-    // Active subscribers — for the per-user "did this week's email go out" table
-    admin.from("users").select("id, email, plan_interval").eq("subscription_status", "active"),
+    userQuery,
     // Onboarded-but-never-paid leads: anonymous meal_plans rows captured at
     // the end of onboarding (see /api/leads) that never converted to an account
     admin.from("meal_plans")
@@ -83,18 +98,9 @@ export default async function AdminPage() {
   const newThisMonth = newThisMonthResult.count ?? 0;
   const cancelledThisMonth = cancelledThisMonthResult.count ?? 0;
 
-  // This week's send status per active subscriber
-  const activeUsers = activeUsersResult.data ?? [];
-  const { data: thisWeeksPlansRaw } = await admin
-    .from("meal_plans")
-    .select("user_id, status")
-    .eq("week_of", weekOf)
-    .in("user_id", activeUsers.map((u) => u.id).length ? activeUsers.map((u) => u.id) : ["00000000-0000-0000-0000-000000000000"]);
-  const planStatusByUser = new Map((thisWeeksPlansRaw ?? []).map((p) => [p.user_id as string, p.status as string]));
-  const subscribersWithStatus = activeUsers.map((u) => ({
-    ...u,
-    weekStatus: planStatusByUser.get(u.id) ?? "none",
-  }));
+  const users = userListResult.data ?? [];
+  const totalMatching = userListResult.count ?? 0;
+  const totalPages = Math.max(1, Math.ceil(totalMatching / PAGE_SIZE));
 
   const leads = (leadsResult.data ?? []).map((r) => ({
     email: (r.plan_data as Record<string, unknown>)?.nurture_email as string | undefined,
@@ -121,11 +127,18 @@ export default async function AdminPage() {
   const planFailed = plans.filter(p => p.status === "failed").length;
   const planGenerating = plans.filter(p => p.status === "generating").length;
 
-  const recentSignups = recentSignupsResult.data ?? [];
+  function pageHref(targetPage: number) {
+    const params = new URLSearchParams();
+    if (q.trim()) params.set("q", q.trim());
+    if (status !== "all") params.set("status", status);
+    if (targetPage > 1) params.set("page", String(targetPage));
+    const qs = params.toString();
+    return qs ? `/admin?${qs}` : "/admin";
+  }
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
-      <div className="max-w-5xl mx-auto px-4 py-10 space-y-8">
+      <div className="max-w-6xl mx-auto px-4 py-10 space-y-8">
 
         {/* Header */}
         <div className="flex items-center justify-between">
@@ -152,10 +165,9 @@ export default async function AdminPage() {
           <StatCard label="Conversion" value={`${conversionRate}%`} sub="onboarded → paid" />
         </div>
 
-        {/* Cancellation reasons + Recent signups */}
+        {/* Cancellation reasons + Plan pipeline */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
-          {/* Cancel reasons */}
           <div className="bg-white rounded-2xl border border-stone-100 p-5">
             <h2 className="text-sm font-semibold text-stone-700 mb-4">
               Why people cancel
@@ -186,93 +198,106 @@ export default async function AdminPage() {
             )}
           </div>
 
-          {/* Recent signups */}
           <div className="bg-white rounded-2xl border border-stone-100 p-5">
-            <h2 className="text-sm font-semibold text-stone-700 mb-4">Recent signups</h2>
-            <div className="space-y-2">
-              {recentSignups.map((u) => {
-                const isActive = u.subscription_status === "active";
-                const date = new Date(u.created_at).toLocaleDateString("en-US", { month: "short", day: "numeric" });
-                return (
-                  <div key={u.email} className="flex items-center justify-between py-1.5 border-b border-stone-50 last:border-0">
-                    <div>
-                      <p className="text-xs font-medium text-stone-700 truncate max-w-[180px]">{u.email}</p>
-                      <p className="text-[10px] text-stone-400">{date}</p>
-                    </div>
-                    <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${
-                      isActive
-                        ? "bg-green-50 text-green-700"
-                        : u.subscription_status === "cancelled"
-                        ? "bg-red-50 text-red-600"
-                        : "bg-stone-100 text-stone-500"
-                    }`}>
-                      {isActive ? (u.plan_interval ?? "paid") : u.subscription_status}
-                    </span>
-                  </div>
-                );
-              })}
+            <h2 className="text-sm font-semibold text-stone-700 mb-4">
+              Plan pipeline
+              <span className="ml-2 text-xs font-normal text-stone-400">week of {weekOf}</span>
+            </h2>
+            <div className="grid grid-cols-4 gap-3">
+              <PipelineCard label="Sent" value={planSent} color="green" />
+              <PipelineCard label="Ready" value={planReady} color="blue" />
+              <PipelineCard label="Generating" value={planGenerating} color="orange" />
+              <PipelineCard label="Failed" value={planFailed} color="red" />
             </div>
           </div>
         </div>
 
-        {/* This week's plan pipeline */}
+        {/* Full user directory — search + filter + pagination */}
         <div className="bg-white rounded-2xl border border-stone-100 p-5">
-          <h2 className="text-sm font-semibold text-stone-700 mb-4">
-            Plan pipeline
-            <span className="ml-2 text-xs font-normal text-stone-400">week of {weekOf}</span>
-          </h2>
-          <div className="grid grid-cols-4 gap-3">
-            <PipelineCard label="Sent" value={planSent} color="green" />
-            <PipelineCard label="Ready" value={planReady} color="blue" />
-            <PipelineCard label="Generating" value={planGenerating} color="orange" />
-            <PipelineCard label="Failed" value={planFailed} color="red" />
+          <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
+            <h2 className="text-sm font-semibold text-stone-700">
+              All users
+              <span className="ml-2 text-xs font-normal text-stone-400">{totalMatching} matching</span>
+            </h2>
           </div>
-        </div>
 
-        {/* Active subscribers — did this week's email actually go out? */}
-        <div className="bg-white rounded-2xl border border-stone-100 p-5">
-          <h2 className="text-sm font-semibold text-stone-700 mb-4">
-            Active subscribers
-            <span className="ml-2 text-xs font-normal text-stone-400">{subscribersWithStatus.length} paying · week of {weekOf}</span>
-          </h2>
-          {subscribersWithStatus.length === 0 ? (
-            <p className="text-sm text-stone-400">No active subscribers.</p>
+          <form method="get" className="flex flex-wrap items-center gap-2 mb-4">
+            <input
+              type="text"
+              name="q"
+              defaultValue={q}
+              placeholder="Search by email…"
+              className="flex-1 min-w-[180px] text-sm px-3 py-2 rounded-full border border-stone-200 focus:outline-none focus:ring-2 focus:ring-orange-300"
+            />
+            <select
+              name="status"
+              defaultValue={status}
+              className="text-sm px-3 py-2 rounded-full border border-stone-200 bg-white focus:outline-none focus:ring-2 focus:ring-orange-300"
+            >
+              {STATUS_FILTERS.map((s) => (
+                <option key={s} value={s}>{s === "all" ? "All statuses" : s.replace("_", " ")}</option>
+              ))}
+            </select>
+            <button
+              type="submit"
+              className="text-sm font-semibold px-4 py-2 rounded-full bg-orange-500 text-white hover:bg-orange-600 transition-colors"
+            >
+              Search
+            </button>
+            {(q || status !== "all") && (
+              <Link href="/admin" className="text-xs text-stone-400 hover:text-stone-600 px-2">
+                Clear
+              </Link>
+            )}
+          </form>
+
+          {users.length === 0 ? (
+            <p className="text-sm text-stone-400">No users match this search.</p>
           ) : (
-            <div className="space-y-2">
-              {subscribersWithStatus.map((u) => {
-                const statusStyle: Record<string, string> = {
-                  sent: "bg-green-50 text-green-700",
-                  ready: "bg-blue-50 text-blue-700",
-                  generating: "bg-orange-50 text-orange-700",
-                  failed: "bg-red-50 text-red-600",
-                  none: "bg-stone-100 text-stone-500",
-                };
-                const statusLabel: Record<string, string> = {
-                  sent: "Sent (DB says — not verified in Resend)",
-                  ready: "Generated, not sent",
-                  generating: "Generating…",
-                  failed: "Failed",
-                  none: "No plan yet",
-                };
+            <div className="space-y-1">
+              {users.map((u) => {
+                const dateStr = new Date(u.created_at).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
                 return (
-                  <div key={u.id} className="flex items-center justify-between py-2 border-b border-stone-50 last:border-0 gap-3">
+                  <Link
+                    key={u.id}
+                    href={`/admin/users/${u.id}`}
+                    className="flex items-center justify-between py-2.5 px-2 -mx-2 rounded-lg border-b border-stone-50 last:border-0 hover:bg-stone-50 transition-colors"
+                  >
                     <div className="min-w-0">
-                      <p className="text-xs font-medium text-stone-700 truncate">{u.email}</p>
-                      <p className="text-[10px] text-stone-400">{u.plan_interval ?? "paid"}</p>
+                      <p className="text-sm font-medium text-stone-700 truncate">{u.email}</p>
+                      <p className="text-[10px] text-stone-400">{dateStr} · {u.subscription_source ?? "none"}</p>
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
-                      <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${statusStyle[u.weekStatus] ?? statusStyle.none}`}>
-                        {statusLabel[u.weekStatus] ?? u.weekStatus}
+                      {u.plan_interval && (
+                        <span className="text-[10px] text-stone-400">{u.plan_interval}</span>
+                      )}
+                      <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${STATUS_STYLE[u.subscription_status] ?? STATUS_STYLE.inactive}`}>
+                        {u.subscription_status}
                       </span>
-                      {/* Always shown, not just when status != "sent" — the DB's
-                          "sent" status was proven unreliable during the July
-                          2026 silent-email-failure incident, so it's never
-                          trusted as a reason to hide the manual resend option. */}
-                      <ResendPlanButton userId={u.id} />
                     </div>
-                  </div>
+                  </Link>
                 );
               })}
+            </div>
+          )}
+
+          {totalPages > 1 && (
+            <div className="flex items-center justify-between mt-4 pt-4 border-t border-stone-50">
+              <Link
+                href={page > 1 ? pageHref(page - 1) : "#"}
+                aria-disabled={page <= 1}
+                className={`text-xs font-medium px-3 py-1.5 rounded-full border border-stone-200 ${page <= 1 ? "pointer-events-none opacity-40" : "hover:bg-stone-50"}`}
+              >
+                ← Prev
+              </Link>
+              <span className="text-xs text-stone-400">Page {page} of {totalPages}</span>
+              <Link
+                href={page < totalPages ? pageHref(page + 1) : "#"}
+                aria-disabled={page >= totalPages}
+                className={`text-xs font-medium px-3 py-1.5 rounded-full border border-stone-200 ${page >= totalPages ? "pointer-events-none opacity-40" : "hover:bg-stone-50"}`}
+              >
+                Next →
+              </Link>
             </div>
           )}
         </div>

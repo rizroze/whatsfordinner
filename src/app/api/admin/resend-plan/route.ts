@@ -1,21 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { requireAdmin } from "@/lib/admin-auth";
 import { rateLimit } from "@/lib/rate-limit";
 import { generateMealPlan } from "@/lib/anthropic";
 import { sendMealPlanEmail } from "@/lib/resend";
 import { getWeekOf } from "@/lib/utils";
 import type { MealPlanData, UserProfile } from "@/types/meal-plan";
-
-const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
-
-async function isAdmin(): Promise<string | null> {
-  if (!ADMIN_EMAIL) return null;
-  const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
-  if (!user || user.email !== ADMIN_EMAIL) return null;
-  return user.id;
-}
 
 // POST /api/admin/resend-plan — ensure the given user has a meal plan for
 // the current week and email it to them. If a plan already exists for the
@@ -26,7 +16,7 @@ export async function POST(req: NextRequest) {
   const limited = rateLimit(req, "admin-resend-plan", 10, 60_000);
   if (limited) return limited;
 
-  const adminId = await isAdmin();
+  const adminId = await requireAdmin();
   if (!adminId) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 403 });
   }
