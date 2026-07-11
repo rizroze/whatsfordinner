@@ -80,13 +80,14 @@ export default async function AdminPage({ searchParams }: PageProps) {
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "cancelled").gte("updated_at", monthStart.toISOString()),
     userQuery,
     // Onboarded-but-never-paid leads: anonymous meal_plans rows captured at
-    // the end of onboarding (see /api/leads) that never converted to an account
+    // the end of onboarding (see /api/leads) that never converted to an account.
+    // No limit — Zen wants to see every lead, not just the most recent 20.
     admin.from("meal_plans")
       .select("created_at, plan_data")
       .is("user_id", null)
       .eq("plan_data->>source", "preview_lead")
       .order("created_at", { ascending: false })
-      .limit(20),
+      .limit(1000),
   ]);
 
   const active = activeResult.count ?? 0;
