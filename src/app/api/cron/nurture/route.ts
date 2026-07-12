@@ -4,7 +4,18 @@ import { sendNurtureEmail, sendReferralReminderEmail } from "@/lib/nurture";
 import type { NurtureEmailType, NurtureMealSummary } from "@/lib/nurture";
 import crypto from "crypto";
 
+export const maxDuration = 60;
+
 const CRON_SECRET = process.env.CRON_SECRET?.trim();
+
+// Debugging sessions have repeatedly left behind zenblocker+<alias>@gmail.com
+// test leads (verify*, debugpoll*, finalcheck*, pinpoint*, etc.) that later
+// surface as real nurture email floods once they cross the day3/day7/day14
+// thresholds. These addresses never represent real customers — hard-block
+// them here so a forgotten cleanup can never trigger a send again.
+function isTestAlias(email: string): boolean {
+  return email.toLowerCase().startsWith("zenblocker+");
+}
 
 function verifyCronSecret(authHeader: string | null): boolean {
   if (!CRON_SECRET || !authHeader) return false;
@@ -58,6 +69,10 @@ export async function GET(req: NextRequest) {
         withEmail++;
 
         const email = planData.nurture_email as string;
+        if (isTestAlias(email)) {
+          console.log(`Nurture cron: skipping test alias ${email}`);
+          continue;
+        }
         const nurtureSent = (planData.nurture_sent as string[]) || [];
         const createdAt = new Date(plan.created_at);
         const daysSinceCreated = Math.floor(
