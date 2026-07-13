@@ -11,6 +11,13 @@ import { generateFingerprint } from "@/lib/fingerprint";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@vercel/analytics";
 import {
+  OrangeCharacter,
+  AvocadoCharacter,
+  StrawberryCharacter,
+  BroccoliCharacter,
+  CarrotCharacter,
+} from "@/components/ui/FoodCharacters";
+import {
   StepHousehold,
   type OnboardingFormData,
 } from "@/components/onboarding/StepHousehold";
@@ -25,6 +32,15 @@ const STEP_KEYS = [
   "onboarding.steps.dietary",
   "onboarding.steps.preferences",
   "onboarding.steps.delivery",
+];
+
+// One friendly mascot per step (ETM-style cheerleaders, our own artwork)
+const STEP_CHARACTERS = [
+  OrangeCharacter,
+  AvocadoCharacter,
+  StrawberryCharacter,
+  BroccoliCharacter,
+  CarrotCharacter,
 ];
 
 const INITIAL_DATA: OnboardingFormData = {
@@ -83,6 +99,7 @@ function OnboardingContent() {
   const [blocked, setBlocked] = useState(false);
   const [subscribing, setSubscribing] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isSubscribed, setIsSubscribed] = useState(false);
   const [profileLoading, setProfileLoading] = useState(isEdit);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startedAtRef = useRef(Date.now());
@@ -94,6 +111,12 @@ function OnboardingContent() {
       const hasPromoCode = !!localStorage.getItem("wfd_promo_code");
       if (!user) return;
       setIsAuthenticated(true);
+      // Subscription state decides the last-step button: subscribers generate
+      // their plan right away, everyone else continues to the paywall.
+      void fetch("/api/subscription-status")
+        .then((r) => r.json())
+        .then(({ status }) => setIsSubscribed(status === "active"))
+        .catch(() => {});
       // Pre-fill email from auth
       if (user.email) {
         setData((prev) => ({ ...prev, delivery_email: prev.delivery_email || user.email! }));
@@ -271,6 +294,23 @@ function OnboardingContent() {
           }
         }
 
+        // ETM-order funnel: signup → onboarding → paywall LAST. Profile is
+        // saved above; non-subscribers go to pricing now and their first week
+        // generates right after payment (checkout/return → dashboard auto-gen).
+        let subscribed = false;
+        try {
+          const subRes = await fetch("/api/subscription-status");
+          const { status } = await subRes.json();
+          subscribed = status === "active";
+        } catch {
+          // treat as not subscribed — pricing page is a safe landing either way
+        }
+
+        if (!subscribed) {
+          router.push("/pricing");
+          return;
+        }
+
         const controller = new AbortController();
         const timeout = setTimeout(() => controller.abort(), 120_000);
 
@@ -408,6 +448,12 @@ function OnboardingContent() {
           ))}
         </div>
 
+        {/* Step mascot — peeks over the card */}
+        {!profileLoading && !blocked && (() => {
+          const StepCharacter = STEP_CHARACTERS[currentStep];
+          return <StepCharacter className="mx-auto -mb-2 w-16 sm:w-20 relative z-10" />;
+        })()}
+
         {/* Step content */}
         <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-8 mb-4 sm:mb-6">
           {profileLoading ? (
@@ -521,7 +567,7 @@ function OnboardingContent() {
                     <span>.</span><span>.</span><span>.</span>
                   </span>
                 </span>
-                : isEdit ? t("common.save") : isAuthenticated ? t("onboarding.generate") : "Create Account & Get My Plan"
+                : isEdit ? t("common.save") : isAuthenticated ? (isSubscribed ? t("onboarding.generate") : t("common.next")) : "Create Account & Get My Plan"
               : t("common.next")}
           </Button>
         </div>

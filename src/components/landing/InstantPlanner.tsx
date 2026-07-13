@@ -4,10 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 import { track } from "@vercel/analytics";
+import { CarrotCharacter } from "@/components/ui/FoodCharacters";
 
 // ETM-style instant generator: a real 1-day plan in one click, no signup.
 // Rule-based from the recipe library (zero AI tokens) — the paid product
-// (personalized 7-day AI plan) is what the upsell below the result sells.
+// (personalized 7-day AI plan) is what the upsell rail beside the result
+// sells. CTA goes to account creation; the paywall comes after onboarding.
 
 type InstantSlot = "breakfast" | "lunch" | "dinner" | "snack";
 
@@ -32,9 +34,15 @@ const DIETS = [
   { value: "anything", emoji: "🍳", key: "instant.diet.anything" },
   { value: "vegetarian", emoji: "🥗", key: "instant.diet.vegetarian" },
   { value: "vegan", emoji: "🌱", key: "instant.diet.vegan" },
+  { value: "pescatarian", emoji: "🐟", key: "instant.diet.pescatarian" },
   { value: "keto", emoji: "🥑", key: "instant.diet.keto" },
+  { value: "low-carb", emoji: "🥩", key: "instant.diet.lowCarb" },
   { value: "gluten-free", emoji: "🌾", key: "instant.diet.glutenFree" },
+  { value: "dairy-free", emoji: "🥥", key: "instant.diet.dairyFree" },
   { value: "mediterranean", emoji: "🫒", key: "instant.diet.mediterranean" },
+  { value: "halal", emoji: "☪️", key: "instant.diet.halal" },
+  { value: "kosher", emoji: "✡️", key: "instant.diet.kosher" },
+  { value: "high-protein", emoji: "🍗", key: "instant.diet.highProtein" },
 ] as const;
 
 const SLOT_COLORS: Record<InstantSlot, string> = {
@@ -106,7 +114,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const busy = loading || swappingSlot !== null;
 
   return (
-    <div id="instant-planner" className="mt-10 sm:mt-12 max-w-3xl mx-auto text-left scroll-mt-24">
+    <div id="instant-planner" className="mt-10 sm:mt-12 max-w-4xl mx-auto text-left scroll-mt-24">
       <div className="bg-white rounded-3xl border border-stone-100 shadow-lg p-6 sm:p-9">
         {/* Diet tiles */}
         <p className="text-sm sm:text-base font-medium text-stone-600 mb-3">{t("instant.dietLabel")}</p>
@@ -208,105 +216,108 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
           <p className="mt-3 text-center text-sm text-red-500">{t("instant.error")}</p>
         )}
 
-        {/* Result */}
+        {/* Result: meals on the left, upsell rail on the right */}
         {plan && (
-          <div className="mt-7 space-y-2.5">
-            {plan.meals.map((m) => (
-              <div
-                key={m.slot}
-                className={`flex items-center gap-3.5 rounded-2xl border border-stone-100 bg-[#FFFBF5] px-4 py-3.5 transition-opacity duration-200 ${
-                  swappingSlot === m.slot ? "opacity-40" : "opacity-100"
-                }`}
-              >
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-stone-100 text-2xl">
-                  {m.emoji}
-                </span>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-2">
-                    <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${SLOT_COLORS[m.slot]}`}>
-                      {t(`mealTypes.${m.slot}`)}
-                    </span>
-                    {m.servings > 1 && (
-                      <span className="shrink-0 rounded-full bg-orange-100 px-2.5 py-0.5 text-xs font-semibold text-orange-700">
-                        ×{m.servings}
-                      </span>
-                    )}
-                  </div>
-                  <Link
-                    href={m.url}
-                    className="mt-1 block truncate text-base sm:text-lg font-semibold text-stone-800 transition-colors hover:text-orange-600"
-                    onClick={() => track("instant_plan_recipe_click", { slug: m.slug })}
-                  >
-                    {m.name}
-                  </Link>
-                  <p className="text-sm text-stone-400">
-                    {m.calories} {t("instant.cal")} · {m.totalTime} {t("plan.min")}
-                  </p>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => handleSwap(m.slot)}
-                  disabled={busy}
-                  aria-label={t("instant.swap")}
-                  title={t("instant.swap")}
-                  className="shrink-0 rounded-full border border-stone-200 bg-white p-2.5 text-stone-400 transition-all duration-200 hover:border-orange-300 hover:text-orange-500 hover:shadow-sm active:scale-95 disabled:opacity-50"
+          <div className="mt-7 grid gap-5 lg:grid-cols-[1fr_290px] items-start">
+            <div className="space-y-2.5">
+              {plan.meals.map((m) => (
+                <div
+                  key={m.slot}
+                  className={`flex items-center gap-3.5 rounded-2xl border border-stone-100 bg-[#FFFBF5] px-4 py-3.5 transition-opacity duration-200 ${
+                    swappingSlot === m.slot ? "opacity-40" : "opacity-100"
+                  }`}
                 >
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className={swappingSlot === m.slot ? "animate-spin" : ""}
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-stone-100 text-2xl">
+                    {m.emoji}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${SLOT_COLORS[m.slot]}`}>
+                        {t(`mealTypes.${m.slot}`)}
+                      </span>
+                      {m.servings > 1 && (
+                        <span className="shrink-0 rounded-full bg-orange-100 px-2.5 py-0.5 text-xs font-semibold text-orange-700">
+                          ×{m.servings}
+                        </span>
+                      )}
+                    </div>
+                    <Link
+                      href={m.url}
+                      className="mt-1 block truncate text-base sm:text-lg font-semibold text-stone-800 transition-colors hover:text-orange-600"
+                      onClick={() => track("instant_plan_recipe_click", { slug: m.slug })}
+                    >
+                      {m.name}
+                    </Link>
+                    <p className="text-sm text-stone-400">
+                      {m.calories} {t("instant.cal")} · {m.totalTime} {t("plan.min")}
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => handleSwap(m.slot)}
+                    disabled={busy}
+                    aria-label={t("instant.swap")}
+                    title={t("instant.swap")}
+                    className="shrink-0 rounded-full border border-stone-200 bg-white p-2.5 text-stone-400 transition-all duration-200 hover:border-orange-300 hover:text-orange-500 hover:shadow-sm active:scale-95 disabled:opacity-50"
                   >
-                    <polyline points="23 4 23 10 17 10" />
-                    <polyline points="1 20 1 14 7 14" />
-                    <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15" />
-                  </svg>
-                </button>
-              </div>
-            ))}
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className={swappingSlot === m.slot ? "animate-spin" : ""}
+                    >
+                      <polyline points="23 4 23 10 17 10" />
+                      <polyline points="1 20 1 14 7 14" />
+                      <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15" />
+                    </svg>
+                  </button>
+                </div>
+              ))}
 
-            {/* Total vs target */}
-            <div className="flex items-center justify-between rounded-2xl bg-stone-50 px-4 py-3">
-              <span className="text-sm font-medium text-stone-500">{t("instant.totalLabel")}</span>
-              <span className="text-base font-semibold text-stone-800 tabular-nums">
-                {plan.totalCalories.toLocaleString()}{" "}
-                <span className="text-sm font-normal text-stone-400">
-                  / {plan.targetCalories.toLocaleString()} {t("instant.cal")}
+              {/* Total vs target */}
+              <div className="flex items-center justify-between rounded-2xl bg-stone-50 px-4 py-3">
+                <span className="text-sm font-medium text-stone-500">{t("instant.totalLabel")}</span>
+                <span className="text-base font-semibold text-stone-800 tabular-nums">
+                  {plan.totalCalories.toLocaleString()}{" "}
+                  <span className="text-sm font-normal text-stone-400">
+                    / {plan.targetCalories.toLocaleString()} {t("instant.cal")}
+                  </span>
                 </span>
-              </span>
+              </div>
             </div>
+
+            {/* Upsell rail — the "Ready for more?" moment, right beside the result */}
+            <aside className="rounded-2xl border border-orange-200 bg-orange-50 p-5 sm:p-6 text-center lg:sticky lg:top-4">
+              <CarrotCharacter className="mx-auto w-20 sm:w-24" />
+              <p className="mt-2 text-lg sm:text-xl font-bold text-stone-900 leading-snug">
+                {t("instant.upsellTitle")}
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-stone-600">
+                {t("instant.upsellBody")}
+              </p>
+              <Link
+                href={isSignedIn ? "/dashboard" : "/signup?redirect=/onboarding"}
+                onClick={() => track("instant_plan_upsell_click", { signedIn: !!isSignedIn })}
+                className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full bg-orange-500 px-6 py-3.5 text-base font-semibold text-white shadow-md transition-all duration-200 hover:bg-orange-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
+              >
+                {isSignedIn ? t("instant.upsellCtaSignedIn") : t("instant.upsellCta")}
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </Link>
+              {!isSignedIn && (
+                <p className="mt-2.5 text-xs text-stone-400">{t("instant.upsellNote")}</p>
+              )}
+            </aside>
           </div>
         )}
       </div>
-
-      {/* Upsell — only after they've tasted the value */}
-      {plan && (
-        <div className="mt-5 rounded-3xl border border-orange-200 bg-orange-50 p-6 sm:p-8 text-center">
-          <p className="text-xl sm:text-2xl font-bold text-stone-900">{t("instant.upsellTitle")}</p>
-          <p className="mx-auto mt-2 max-w-lg text-sm sm:text-base leading-relaxed text-stone-600">
-            {t("instant.upsellBody")}
-          </p>
-          <a
-            href={isSignedIn ? "/dashboard" : "#pricing"}
-            onClick={() => track("instant_plan_upsell_click", { signedIn: !!isSignedIn })}
-            className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-9 py-3.5 text-base font-semibold text-white shadow-md transition-all duration-200 hover:bg-orange-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
-          >
-            {isSignedIn ? t("instant.upsellCtaSignedIn") : t("instant.upsellCta")}
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </a>
-          {!isSignedIn && (
-            <p className="mt-2.5 text-sm text-stone-400">{t("instant.upsellNote")}</p>
-          )}
-        </div>
-      )}
     </div>
   );
 }

@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { SocialProofLine } from "@/components/ui/SocialProofLine";
+import { createClient } from "@/lib/supabase/client";
 
 function Check({ className = "text-green-500" }: { className?: string }) {
   return (
@@ -59,6 +60,17 @@ const faqs = [
 
 export default function PricingPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [isSignedIn, setIsSignedIn] = useState(false);
+
+  // Signed-in users must go straight to checkout — middleware bounces them
+  // off /signup, which used to dead-end the paywall for authenticated users.
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data: { user } }) => setIsSignedIn(!!user));
+  }, []);
+
+  const checkoutHref = (plan: "monthly" | "yearly") =>
+    isSignedIn ? `/checkout?plan=${plan}` : `/signup?plan=${plan}`;
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
@@ -124,7 +136,7 @@ export default function PricingPage() {
             </ul>
 
             <Link
-              href="/signup?plan=monthly"
+              href={checkoutHref("monthly")}
               className="mt-6 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
             >
               Subscribe Now — $7.99/mo
@@ -174,7 +186,7 @@ export default function PricingPage() {
             </ul>
 
             <Link
-              href="/signup?plan=yearly"
+              href={checkoutHref("yearly")}
               className="mt-6 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg shadow-orange-500/20 transition-all duration-200"
             >
               Subscribe Now — $5/mo

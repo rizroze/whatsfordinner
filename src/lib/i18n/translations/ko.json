@@ -534,7 +534,13 @@
       "vegan": "비건",
       "keto": "키토",
       "glutenFree": "글루텐프리",
-      "mediterranean": "지중해식"
+      "mediterranean": "지중해식",
+      "pescatarian": "페스코",
+      "lowCarb": "저탄수화물",
+      "dairyFree": "유제품 없음",
+      "halal": "할랄",
+      "kosher": "코셔",
+      "highProtein": "고단백"
     },
     "caloriesLabel": "하루 목표",
     "caloriesUnit": "kcal",

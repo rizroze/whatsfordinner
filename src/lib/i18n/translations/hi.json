@@ -534,7 +534,13 @@
       "vegan": "वीगन",
       "keto": "कीटो",
       "glutenFree": "ग्लूटेन-मुक्त",
-      "mediterranean": "भूमध्यसागरीय"
+      "mediterranean": "भूमध्यसागरीय",
+      "pescatarian": "पेस्केटेरियन",
+      "lowCarb": "कम कार्ब",
+      "dairyFree": "डेयरी-मुक्त",
+      "halal": "हलाल",
+      "kosher": "कोषेर",
+      "highProtein": "उच्च प्रोटीन"
     },
     "caloriesLabel": "मुझे रोज़",
     "caloriesUnit": "कैलोरी चाहिए",

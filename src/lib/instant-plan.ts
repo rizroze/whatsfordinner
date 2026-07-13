@@ -22,9 +22,15 @@ export const INSTANT_DIETS = [
   "anything",
   "vegetarian",
   "vegan",
+  "pescatarian",
   "keto",
+  "low-carb",
   "gluten-free",
+  "dairy-free",
   "mediterranean",
+  "halal",
+  "kosher",
+  "high-protein",
 ] as const;
 export type InstantDiet = (typeof INSTANT_DIETS)[number];
 
@@ -88,15 +94,27 @@ function passesDiet(recipe: FullRecipe, diet: InstantDiet): boolean {
       return passesRestriction(recipe, "Vegetarian");
     case "vegan":
       return passesRestriction(recipe, "Vegan");
+    case "pescatarian":
+      return passesRestriction(recipe, "Pescatarian");
     case "keto":
       return passesRestriction(recipe, "Keto");
+    case "low-carb":
+      return passesRestriction(recipe, "Low-Carb");
     case "gluten-free":
       return passesRestriction(recipe, "Gluten-Free");
+    case "dairy-free":
+      return passesRestriction(recipe, "Dairy-Free");
     case "mediterranean":
       return (
         recipe.tags.includes("mediterranean") ||
         (CUISINE_MAP.Mediterranean ?? []).includes(recipe.cuisine)
       );
+    case "halal":
+      return passesRestriction(recipe, "Halal");
+    case "kosher":
+      return passesRestriction(recipe, "Kosher");
+    case "high-protein":
+      return recipe.tags.includes("high-protein");
   }
 }
 

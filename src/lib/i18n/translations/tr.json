@@ -534,7 +534,13 @@
       "vegan": "Vegan",
       "keto": "Keto",
       "glutenFree": "Glutensiz",
-      "mediterranean": "Akdeniz"
+      "mediterranean": "Akdeniz",
+      "pescatarian": "Pesketaryen",
+      "lowCarb": "Düşük karbonhidrat",
+      "dairyFree": "Sütsüz",
+      "halal": "Helal",
+      "kosher": "Koşer",
+      "highProtein": "Yüksek protein"
     },
     "caloriesLabel": "Günde",
     "caloriesUnit": "kalori yemek istiyorum",

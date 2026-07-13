@@ -534,7 +534,13 @@
       "vegan": "Végan",
       "keto": "Kéto",
       "glutenFree": "Sans gluten",
-      "mediterranean": "Méditerranéen"
+      "mediterranean": "Méditerranéen",
+      "pescatarian": "Pescétarien",
+      "lowCarb": "Pauvre en glucides",
+      "dairyFree": "Sans lactose",
+      "halal": "Halal",
+      "kosher": "Casher",
+      "highProtein": "Riche en protéines"
     },
     "caloriesLabel": "Je veux manger",
     "caloriesUnit": "calories par jour",

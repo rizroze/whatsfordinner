@@ -534,7 +534,13 @@
       "vegan": "纯素",
       "keto": "生酮",
       "glutenFree": "无麸质",
-      "mediterranean": "地中海"
+      "mediterranean": "地中海",
+      "pescatarian": "鱼素",
+      "lowCarb": "低碳水",
+      "dairyFree": "无乳制品",
+      "halal": "清真",
+      "kosher": "犹太洁食",
+      "highProtein": "高蛋白"
     },
     "caloriesLabel": "每天想摄入",
     "caloriesUnit": "千卡",

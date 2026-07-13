@@ -534,7 +534,13 @@
       "vegan": "نباتي صرف",
       "keto": "كيتو",
       "glutenFree": "خالٍ من الغلوتين",
-      "mediterranean": "متوسطي"
+      "mediterranean": "متوسطي",
+      "pescatarian": "نباتي مع سمك",
+      "lowCarb": "قليل الكربوهيدرات",
+      "dairyFree": "خالٍ من الألبان",
+      "halal": "حلال",
+      "kosher": "كوشر",
+      "highProtein": "عالي البروتين"
     },
     "caloriesLabel": "أريد أن آكل",
     "caloriesUnit": "سعرة حرارية يوميًا",

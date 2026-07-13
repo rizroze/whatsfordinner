@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useT } from "@/lib/i18n/context";
 import { InstantPlanner } from "@/components/landing/InstantPlanner";
+import { AvocadoCharacter, WatermelonCharacter } from "@/components/ui/FoodCharacters";
 
 // Slow count-up with ease-out deceleration (slot machine settling effect)
 function useCountUp(target: number, duration = 4000): number {
@@ -56,8 +57,13 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           {t("landing.hero.subtitle")}
         </p>
 
-        {/* Instant generator — the ETM-style "try it right here" hero */}
-        <InstantPlanner isSignedIn={isSignedIn} />
+        {/* Instant generator — the ETM-style "try it right here" hero,
+            with mascots peeking around the card on desktop */}
+        <div className="relative">
+          <AvocadoCharacter className="hidden lg:block absolute -top-14 -right-4 w-24 rotate-6" />
+          <WatermelonCharacter className="hidden lg:block absolute -bottom-8 -left-10 w-24 -rotate-6" />
+          <InstantPlanner isSignedIn={isSignedIn} />
+        </div>
 
         {/* Supporting copy lives below the generator so the widget is the star */}
         <div className="mt-8 flex flex-col items-center gap-3">

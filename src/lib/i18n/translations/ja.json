@@ -534,7 +534,13 @@
       "vegan": "ヴィーガン",
       "keto": "ケト",
       "glutenFree": "グルテンフリー",
-      "mediterranean": "地中海式"
+      "mediterranean": "地中海式",
+      "pescatarian": "ペスカタリアン",
+      "lowCarb": "低糖質",
+      "dairyFree": "乳製品不使用",
+      "halal": "ハラール",
+      "kosher": "コーシャ",
+      "highProtein": "高タンパク"
     },
     "caloriesLabel": "1日の目標",
     "caloriesUnit": "kcal",

@@ -541,7 +541,13 @@
       "vegan": "Vegan",
       "keto": "Keto",
       "glutenFree": "Gluten-free",
-      "mediterranean": "Mediterranean"
+      "mediterranean": "Mediterranean",
+      "pescatarian": "Pescatarian",
+      "lowCarb": "Low-carb",
+      "dairyFree": "Dairy-free",
+      "halal": "Halal",
+      "kosher": "Kosher",
+      "highProtein": "High-protein"
     },
     "caloriesLabel": "I want to eat",
     "caloriesUnit": "calories a day",
