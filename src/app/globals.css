@@ -45,6 +45,8 @@ body {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  /* Global type scale bump: rem-based Tailwind sizes all grow ~6% */
+  font-size: 17px;
 }
 
 /* Selection color */
