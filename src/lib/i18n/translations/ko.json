@@ -561,6 +561,16 @@
     "upsellBody": "구독하시면 가구 구성, 알레르기, 예산에 맞춘 7일 맞춤 식단 플랜을 전체 레시피와 장보기 목록과 함께 매주 일요일에 받아보실 수 있어요.",
     "upsellCta": "일주일 플랜 받기",
     "upsellCtaSignedIn": "대시보드로 가기",
-    "upsellNote": "월 $7.99 또는 연 $59.99 · 언제든 해지 가능"
+    "upsellNote": "월 $7.99 또는 연 $59.99 · 언제든 해지 가능",
+    "cuisineLabel": "요리:",
+    "cuisine": {
+      "any": "상관없음",
+      "american": "아메리칸",
+      "italian": "이탈리안",
+      "mexican": "멕시칸",
+      "asian": "아시안",
+      "mediterranean": "지중해",
+      "indian": "인도"
+    }
   }
 }

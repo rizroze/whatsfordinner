@@ -568,6 +568,16 @@
     "upsellBody": "Subscribers get a personalized 7-day meal plan with full recipes and a grocery list — tailored to your household, allergies, and budget, delivered every Sunday.",
     "upsellCta": "Get my full week",
     "upsellCtaSignedIn": "Go to my dashboard",
-    "upsellNote": "$7.99/mo or $59.99/yr · Cancel anytime"
+    "upsellNote": "$7.99/mo or $59.99/yr · Cancel anytime",
+    "cuisineLabel": "Cuisine:",
+    "cuisine": {
+      "any": "Any",
+      "american": "American",
+      "italian": "Italian",
+      "mexican": "Mexican",
+      "asian": "Asian",
+      "mediterranean": "Mediterranean",
+      "indian": "Indian"
+    }
   }
 }

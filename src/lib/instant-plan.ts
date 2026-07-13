@@ -36,8 +36,22 @@ export type InstantDiet = (typeof INSTANT_DIETS)[number];
 
 export type InstantSlot = "breakfast" | "lunch" | "dinner" | "snack";
 
+// Broad cuisine groups the recipe library can actually serve (via CUISINE_MAP)
+export const INSTANT_CUISINES = [
+  "any",
+  "American",
+  "Italian",
+  "Mexican",
+  "Asian",
+  "Mediterranean",
+  "Indian",
+] as const;
+export type InstantCuisine = (typeof INSTANT_CUISINES)[number];
+
 export interface InstantPlanRequest {
   diet: InstantDiet;
+  /** Broad cuisine preference — soft filter, relaxed when a slot runs dry */
+  cuisine?: InstantCuisine;
   calories: number;
   /** 2 = lunch + dinner, 3 = breakfast/lunch/dinner, 4 = three meals + snack */
   meals: 2 | 3 | 4;
@@ -118,10 +132,27 @@ function passesDiet(recipe: FullRecipe, diet: InstantDiet): boolean {
   }
 }
 
-// Diet is a hard filter; when a slot runs dry we borrow diet-safe recipes
-// from other main-meal slots rather than violate it (same ladder as preview).
-function buildSlotPool(all: FullRecipe[], slot: InstantSlot, diet: InstantDiet): FullRecipe[] {
-  let pool = all.filter((r) => r.mealType === slot && passesDiet(r, diet));
+function matchesCuisine(recipe: FullRecipe, cuisine?: InstantCuisine): boolean {
+  if (!cuisine || cuisine === "any") return true;
+  if (cuisine === "Mediterranean" && recipe.tags.includes("mediterranean")) return true;
+  return (CUISINE_MAP[cuisine] ?? [cuisine]).includes(recipe.cuisine);
+}
+
+// Diet is a hard filter; cuisine is soft (dropped first when a slot runs dry —
+// e.g. there are few Italian breakfasts). When even that fails we borrow
+// diet-safe recipes from other main-meal slots rather than violate the diet.
+function buildSlotPool(
+  all: FullRecipe[],
+  slot: InstantSlot,
+  diet: InstantDiet,
+  cuisine?: InstantCuisine,
+): FullRecipe[] {
+  let pool = all.filter(
+    (r) => r.mealType === slot && passesDiet(r, diet) && matchesCuisine(r, cuisine),
+  );
+  if (pool.length < 3) {
+    pool = all.filter((r) => r.mealType === slot && passesDiet(r, diet));
+  }
   if (pool.length < 3 && slot !== "snack") {
     pool = all.filter((r) => r.mealType !== "snack" && passesDiet(r, diet));
   }
@@ -160,7 +191,9 @@ export function buildInstantPlan(req: InstantPlanRequest): InstantPlanResult {
   );
   const slots = SLOT_BUDGETS[req.meals] ?? SLOT_BUDGETS[3];
   const rand = mulberry32(
-    seedFromString(JSON.stringify([req.diet, target, req.meals, req.nonce >>> 0])),
+    seedFromString(
+      JSON.stringify([req.diet, req.cuisine ?? "any", target, req.meals, req.nonce >>> 0]),
+    ),
   );
 
   const used = new Set<string>();
@@ -168,7 +201,7 @@ export function buildInstantPlan(req: InstantPlanRequest): InstantPlanResult {
 
   for (const [slot, share] of slots) {
     const budget = target * share;
-    const pool = buildSlotPool(all, slot, req.diet);
+    const pool = buildSlotPool(all, slot, req.diet, req.cuisine);
     const ranked = pool
       .map((r) => bestCandidate(r, budget, slot !== "snack"))
       .sort((a, b) => a.fit - b.fit)

@@ -58,10 +58,12 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
         </p>
 
         {/* Instant generator — the ETM-style "try it right here" hero,
-            with mascots peeking around the card on desktop */}
-        <div className="relative">
-          <AvocadoCharacter className="hidden lg:block absolute -top-14 -right-4 w-24 rotate-6" />
-          <WatermelonCharacter className="hidden lg:block absolute -bottom-8 -left-10 w-24 -rotate-6" />
+            with mascots peeking around the card corners on desktop.
+            Wrapper matches the widget width so the characters anchor to
+            the card, not the page edge. */}
+        <div className="relative max-w-4xl mx-auto">
+          <AvocadoCharacter className="hidden lg:block absolute -top-12 -right-6 w-24 rotate-6" />
+          <WatermelonCharacter className="hidden lg:block absolute -bottom-9 -left-8 w-24 -rotate-6" />
           <InstantPlanner isSignedIn={isSignedIn} />
         </div>
 

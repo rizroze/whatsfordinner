@@ -561,6 +561,16 @@
     "upsellBody": "订阅用户每周日都会收到为家庭人数、过敏情况和预算量身定制的7天餐食计划，包含完整食谱和购物清单。",
     "upsellCta": "获取整周计划",
     "upsellCtaSignedIn": "前往我的面板",
-    "upsellNote": "每月$7.99或每年$59.99 · 随时取消"
+    "upsellNote": "每月$7.99或每年$59.99 · 随时取消",
+    "cuisineLabel": "菜系:",
+    "cuisine": {
+      "any": "不限",
+      "american": "美式",
+      "italian": "意式",
+      "mexican": "墨西哥",
+      "asian": "亚洲",
+      "mediterranean": "地中海",
+      "indian": "印度"
+    }
   }
 }

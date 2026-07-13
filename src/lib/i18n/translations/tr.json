@@ -561,6 +561,16 @@
     "upsellBody": "Aboneler; eve, alerjilere ve bütçeye göre kişiselleştirilmiş 7 günlük yemek planını, tam tarifler ve market listesiyle birlikte her pazar e-postayla alır.",
     "upsellCta": "Tam haftamı istiyorum",
     "upsellCtaSignedIn": "Panele git",
-    "upsellNote": "Aylık $7.99 veya yıllık $59.99 · İstediğin zaman iptal et"
+    "upsellNote": "Aylık $7.99 veya yıllık $59.99 · İstediğin zaman iptal et",
+    "cuisineLabel": "Mutfak:",
+    "cuisine": {
+      "any": "Fark etmez",
+      "american": "Amerikan",
+      "italian": "İtalyan",
+      "mexican": "Meksika",
+      "asian": "Asya",
+      "mediterranean": "Akdeniz",
+      "indian": "Hint"
+    }
   }
 }

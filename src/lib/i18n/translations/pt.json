@@ -561,6 +561,16 @@
     "upsellBody": "Assinantes recebem um plano de refeições personalizado de 7 dias com receitas completas e lista de compras — adaptado à sua casa, alergias e orçamento, entregue todo domingo.",
     "upsellCta": "Quero minha semana completa",
     "upsellCtaSignedIn": "Ir para meu painel",
-    "upsellNote": "US$ 7,99/mês ou US$ 59,99/ano · Cancele quando quiser"
+    "upsellNote": "US$ 7,99/mês ou US$ 59,99/ano · Cancele quando quiser",
+    "cuisineLabel": "Cozinha:",
+    "cuisine": {
+      "any": "Qualquer",
+      "american": "Americana",
+      "italian": "Italiana",
+      "mexican": "Mexicana",
+      "asian": "Asiática",
+      "mediterranean": "Mediterrânea",
+      "indian": "Indiana"
+    }
   }
 }

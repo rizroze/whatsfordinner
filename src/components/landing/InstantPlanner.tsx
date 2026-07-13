@@ -45,6 +45,17 @@ const DIETS = [
   { value: "high-protein", emoji: "🍗", key: "instant.diet.highProtein" },
 ] as const;
 
+// Small sub-option row between the diet tiles and the calorie line
+const CUISINES = [
+  { value: "any", key: "instant.cuisine.any" },
+  { value: "American", key: "instant.cuisine.american" },
+  { value: "Italian", key: "instant.cuisine.italian" },
+  { value: "Mexican", key: "instant.cuisine.mexican" },
+  { value: "Asian", key: "instant.cuisine.asian" },
+  { value: "Mediterranean", key: "instant.cuisine.mediterranean" },
+  { value: "Indian", key: "instant.cuisine.indian" },
+] as const;
+
 const SLOT_COLORS: Record<InstantSlot, string> = {
   breakfast: "bg-amber-50 text-amber-700",
   lunch: "bg-sky-50 text-sky-700",
@@ -56,6 +67,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t, locale } = useT();
 
   const [diet, setDiet] = useState<(typeof DIETS)[number]["value"]>("anything");
+  const [cuisine, setCuisine] = useState<(typeof CUISINES)[number]["value"]>("any");
   const [calories, setCalories] = useState("1800");
   const [meals, setMeals] = useState<2 | 3 | 4>(3);
   const [plan, setPlan] = useState<InstantPlan | null>(null);
@@ -79,6 +91,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           diet,
+          cuisine,
           calories: Number(calories) || 1800,
           meals,
           nonce: nextNonce,
@@ -138,6 +151,25 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
               >
                 {t(d.key)}
               </span>
+            </button>
+          ))}
+        </div>
+
+        {/* Cuisine — small sub-option row */}
+        <div className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-2">
+          <span className="text-sm text-stone-500 mr-1">{t("instant.cuisineLabel")}</span>
+          {CUISINES.map((c) => (
+            <button
+              key={c.value}
+              type="button"
+              onClick={() => setCuisine(c.value)}
+              className={`rounded-full px-3 py-1.5 text-xs sm:text-sm font-medium transition-all duration-200 ${
+                cuisine === c.value
+                  ? "bg-stone-800 text-white shadow-sm"
+                  : "bg-stone-100 text-stone-500 hover:bg-stone-200"
+              }`}
+            >
+              {t(c.key)}
             </button>
           ))}
         </div>

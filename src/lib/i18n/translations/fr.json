@@ -561,6 +561,16 @@
     "upsellBody": "Les abonnés reçoivent un plan de repas personnalisé sur 7 jours avec recettes complètes et liste de courses — adapté à votre foyer, vos allergies et votre budget, livré chaque dimanche.",
     "upsellCta": "Obtenir ma semaine complète",
     "upsellCtaSignedIn": "Accéder à mon tableau de bord",
-    "upsellNote": "7,99 $/mois ou 59,99 $/an · Annulable à tout moment"
+    "upsellNote": "7,99 $/mois ou 59,99 $/an · Annulable à tout moment",
+    "cuisineLabel": "Cuisine :",
+    "cuisine": {
+      "any": "Toutes",
+      "american": "Américaine",
+      "italian": "Italienne",
+      "mexican": "Mexicaine",
+      "asian": "Asiatique",
+      "mediterranean": "Méditerranéenne",
+      "indian": "Indienne"
+    }
   }
 }

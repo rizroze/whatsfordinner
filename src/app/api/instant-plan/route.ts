@@ -3,7 +3,9 @@ import { rateLimit } from "@/lib/rate-limit";
 import {
   buildInstantPlan,
   INSTANT_DIETS,
+  INSTANT_CUISINES,
   type InstantDiet,
+  type InstantCuisine,
   type InstantSlot,
   type InstantPlanRequest,
 } from "@/lib/instant-plan";
@@ -32,6 +34,9 @@ export async function POST(req: NextRequest) {
   const diet: InstantDiet = INSTANT_DIETS.includes(body.diet as InstantDiet)
     ? (body.diet as InstantDiet)
     : "anything";
+  const cuisine: InstantCuisine = INSTANT_CUISINES.includes(body.cuisine as InstantCuisine)
+    ? (body.cuisine as InstantCuisine)
+    : "any";
   const calories = Number.isFinite(Number(body.calories)) ? Number(body.calories) : 1800;
   const meals: InstantPlanRequest["meals"] =
     body.meals === 2 || body.meals === 4 ? body.meals : 3;
@@ -47,7 +52,7 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  const plan = buildInstantPlan({ diet, calories, meals, nonce, variants });
+  const plan = buildInstantPlan({ diet, cuisine, calories, meals, nonce, variants });
 
   // Localize names + link each meal to its recipe page (locale page when the
   // translation exists, English page otherwise — never a guessed URL).
