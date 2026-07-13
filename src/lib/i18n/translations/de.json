@@ -525,5 +525,36 @@
   },
   "setup": {
     "settingUp": "Dein Konto wird eingerichtet..."
+  },
+  "instant": {
+    "dietLabel": "Was isst du?",
+    "diet": {
+      "anything": "Alles",
+      "vegetarian": "Vegetarisch",
+      "vegan": "Vegan",
+      "keto": "Keto",
+      "glutenFree": "Glutenfrei",
+      "mediterranean": "Mediterran"
+    },
+    "caloriesLabel": "Mein Tagesziel:",
+    "caloriesUnit": "Kalorien",
+    "meals2": "2 Mahlzeiten",
+    "meals3": "3 Mahlzeiten",
+    "meals4": "3 Mahlzeiten + Snack",
+    "caloriesHelp": "Unsicher, wie viele Kalorien?",
+    "caloriesHelpLink": "Probiere unseren kostenlosen Kalorienrechner",
+    "generate": "Meinen Tag generieren",
+    "regenerate": "Neuen Tag generieren",
+    "generating": "Dein Tag wird zubereitet...",
+    "free": "Kostenlos — ohne Anmeldung, ohne Kreditkarte",
+    "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+    "cal": "kcal",
+    "totalLabel": "Tagessumme",
+    "swap": "Gericht tauschen",
+    "upsellTitle": "Das war ein Tag. Stell dir deine ganze Woche vor.",
+    "upsellBody": "Abonnenten erhalten einen persönlichen 7-Tage-Essensplan mit vollständigen Rezepten und Einkaufsliste — abgestimmt auf Haushalt, Allergien und Budget, jeden Sonntag frisch geliefert.",
+    "upsellCta": "Meine ganze Woche holen",
+    "upsellCtaSignedIn": "Zu meinem Dashboard",
+    "upsellNote": "7,99 $/Monat oder 59,99 $/Jahr · Jederzeit kündbar"
   }
 }

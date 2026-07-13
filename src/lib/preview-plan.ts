@@ -89,7 +89,7 @@ function hasAnyTerm(recipe: FullRecipe, terms: string[]): boolean {
 }
 
 // --- Dietary restriction predicates (hard filters, never relaxed) ---
-function passesRestriction(recipe: FullRecipe, restriction: string): boolean {
+export function passesRestriction(recipe: FullRecipe, restriction: string): boolean {
   switch (restriction) {
     case "Vegetarian":
       return (
@@ -146,7 +146,7 @@ function passesAllergies(recipe: FullRecipe, allergies: string[]): boolean {
 }
 
 // --- Cuisine preference → recipe cuisine mapping ---
-const CUISINE_MAP: Record<string, string[]> = {
+export const CUISINE_MAP: Record<string, string[]> = {
   American: ["American", "Tex-Mex", "Italian-American", "Chinese-American", "Hawaiian"],
   Italian: ["Italian", "Italian-American"],
   Mexican: ["Mexican", "Tex-Mex"],
@@ -170,7 +170,7 @@ function matchesCuisinePrefs(recipe: FullRecipe, prefs: string[]): boolean {
 }
 
 // --- Deterministic seeded PRNG (fnv1a hash + mulberry32) ---
-function seedFromString(s: string): number {
+export function seedFromString(s: string): number {
   let h = 0x811c9dc5;
   for (let i = 0; i < s.length; i++) {
     h ^= s.charCodeAt(i);
@@ -179,7 +179,7 @@ function seedFromString(s: string): number {
   return h >>> 0;
 }
 
-function mulberry32(seed: number): () => number {
+export function mulberry32(seed: number): () => number {
   let a = seed;
   return () => {
     a |= 0;
@@ -190,7 +190,7 @@ function mulberry32(seed: number): () => number {
   };
 }
 
-function seededShuffle<T>(items: T[], rand: () => number): T[] {
+export function seededShuffle<T>(items: T[], rand: () => number): T[] {
   const arr = [...items];
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(rand() * (i + 1));

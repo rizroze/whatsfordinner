@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/Button";
 import { useT } from "@/lib/i18n/context";
+import { InstantPlanner } from "@/components/landing/InstantPlanner";
 
 // Slow count-up with ease-out deceleration (slot machine settling effect)
 function useCountUp(target: number, duration = 4000): number {
@@ -94,7 +94,7 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
       <div className="absolute bottom-10 -right-24 w-80 h-80 bg-orange-100/40 rounded-full blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
-      <div className="relative max-w-4xl mx-auto px-6 py-24 sm:py-40 text-center">
+      <div className="relative max-w-4xl mx-auto px-6 py-16 sm:py-24 text-center">
         {/* Floating meal suggestion — desktop: top right, mobile: below hero text */}
         <Link
           href={isSignedIn ? "/dashboard" : "/onboarding"}
@@ -125,18 +125,10 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           {t("landing.hero.description")}
         </p>
 
-        <div className="mt-8 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4">
-          <Link
-            href={isSignedIn ? "/dashboard" : "/onboarding"}
-            className="inline-flex items-center justify-center gap-2 px-10 py-4 text-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
-          >
-            {isSignedIn ? t("landing.hero.ctaLoggedIn") : t("landing.hero.cta")}
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </Link>
+        {/* Instant generator — the ETM-style "try it right here" hero */}
+        <InstantPlanner isSignedIn={isSignedIn} />
 
+        <div className="mt-6 flex flex-col items-center gap-2">
           {!isSignedIn && (
             <p className="text-xs sm:text-sm text-stone-500">
               {t("landing.hero.subtext")}

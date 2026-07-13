@@ -32,6 +32,22 @@ export default function CheckoutReturnPage() {
         if (status === "active") {
           clearInterval(poll);
           clearInterval(msgInterval);
+          // Pay-first funnel: new subscribers pick their personalization
+          // criteria AFTER paying — onboarding saves the profile, generates
+          // their first week, and lands them on the dashboard. Returning
+          // subscribers with a completed profile skip straight there.
+          try {
+            const profRes = await fetch("/api/profile");
+            if (profRes.ok) {
+              const { profile } = await profRes.json();
+              if (!profile?.onboarding_completed) {
+                router.replace("/onboarding");
+                return;
+              }
+            }
+          } catch {
+            // fall through to dashboard — its setup card covers this case
+          }
           router.replace("/dashboard");
           return;
         }

@@ -525,5 +525,36 @@
   },
   "setup": {
     "settingUp": "계정을 설정하는 중입니다..."
+  },
+  "instant": {
+    "dietLabel": "어떤 음식을 드시나요?",
+    "diet": {
+      "anything": "다 잘 먹어요",
+      "vegetarian": "베지테리언",
+      "vegan": "비건",
+      "keto": "키토",
+      "glutenFree": "글루텐프리",
+      "mediterranean": "지중해식"
+    },
+    "caloriesLabel": "하루 목표",
+    "caloriesUnit": "kcal",
+    "meals2": "2끼",
+    "meals3": "3끼",
+    "meals4": "3끼 + 간식",
+    "caloriesHelp": "칼로리를 잘 모르시겠나요?",
+    "caloriesHelpLink": "무료 칼로리 계산기 사용해 보기",
+    "generate": "오늘의 식단 만들기",
+    "regenerate": "다른 식단 만들기",
+    "generating": "식단을 준비하는 중...",
+    "free": "무료 — 가입도 카드도 필요 없어요",
+    "error": "문제가 발생했습니다. 다시 시도해 주세요.",
+    "cal": "kcal",
+    "totalLabel": "하루 합계",
+    "swap": "이 메뉴 바꾸기",
+    "upsellTitle": "이건 하루치일 뿐이에요. 일주일 전체를 상상해 보세요.",
+    "upsellBody": "구독하시면 가구 구성, 알레르기, 예산에 맞춘 7일 맞춤 식단 플랜을 전체 레시피와 장보기 목록과 함께 매주 일요일에 받아보실 수 있어요.",
+    "upsellCta": "일주일 플랜 받기",
+    "upsellCtaSignedIn": "대시보드로 가기",
+    "upsellNote": "월 $7.99 또는 연 $59.99 · 언제든 해지 가능"
   }
 }

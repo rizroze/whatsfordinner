@@ -525,5 +525,36 @@
   },
   "setup": {
     "settingUp": "正在设置您的账户..."
+  },
+  "instant": {
+    "dietLabel": "你平时吃什么？",
+    "diet": {
+      "anything": "不挑食",
+      "vegetarian": "素食",
+      "vegan": "纯素",
+      "keto": "生酮",
+      "glutenFree": "无麸质",
+      "mediterranean": "地中海"
+    },
+    "caloriesLabel": "每天想摄入",
+    "caloriesUnit": "千卡",
+    "meals2": "2餐",
+    "meals3": "3餐",
+    "meals4": "3餐＋加餐",
+    "caloriesHelp": "不确定需要多少热量？",
+    "caloriesHelpLink": "试试我们的免费热量计算器",
+    "generate": "生成我的一日食谱",
+    "regenerate": "换一天的食谱",
+    "generating": "正在准备你的食谱...",
+    "free": "免费 — 无需注册，无需信用卡",
+    "error": "出错了，请重试。",
+    "cal": "千卡",
+    "totalLabel": "全天合计",
+    "swap": "换掉这道菜",
+    "upsellTitle": "这只是一天。想象一整周的安排。",
+    "upsellBody": "订阅用户每周日都会收到为家庭人数、过敏情况和预算量身定制的7天餐食计划，包含完整食谱和购物清单。",
+    "upsellCta": "获取整周计划",
+    "upsellCtaSignedIn": "前往我的面板",
+    "upsellNote": "每月$7.99或每年$59.99 · 随时取消"
   }
 }

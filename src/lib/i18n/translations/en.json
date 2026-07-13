@@ -532,5 +532,36 @@
   },
   "setup": {
     "settingUp": "Setting up your account..."
+  },
+  "instant": {
+    "dietLabel": "What do you eat?",
+    "diet": {
+      "anything": "Anything",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "keto": "Keto",
+      "glutenFree": "Gluten-free",
+      "mediterranean": "Mediterranean"
+    },
+    "caloriesLabel": "I want to eat",
+    "caloriesUnit": "calories a day",
+    "meals2": "2 meals",
+    "meals3": "3 meals",
+    "meals4": "3 meals + snack",
+    "caloriesHelp": "Not sure how many calories?",
+    "caloriesHelpLink": "Try our free calorie calculator",
+    "generate": "Generate my day",
+    "regenerate": "Generate a new day",
+    "generating": "Cooking up your day...",
+    "free": "Free — no signup, no credit card",
+    "error": "Something went wrong. Please try again.",
+    "cal": "cal",
+    "totalLabel": "Day total",
+    "swap": "Swap this meal",
+    "upsellTitle": "That's one day. Imagine your whole week.",
+    "upsellBody": "Subscribers get a personalized 7-day meal plan with full recipes and a grocery list — tailored to your household, allergies, and budget, delivered every Sunday.",
+    "upsellCta": "Get my full week",
+    "upsellCtaSignedIn": "Go to my dashboard",
+    "upsellNote": "$7.99/mo or $59.99/yr · Cancel anytime"
   }
 }

@@ -525,5 +525,36 @@
   },
   "setup": {
     "settingUp": "Configurando tu cuenta..."
+  },
+  "instant": {
+    "dietLabel": "¿Qué comes?",
+    "diet": {
+      "anything": "De todo",
+      "vegetarian": "Vegetariano",
+      "vegan": "Vegano",
+      "keto": "Keto",
+      "glutenFree": "Sin gluten",
+      "mediterranean": "Mediterránea"
+    },
+    "caloriesLabel": "Quiero comer",
+    "caloriesUnit": "calorías al día",
+    "meals2": "2 comidas",
+    "meals3": "3 comidas",
+    "meals4": "3 comidas + snack",
+    "caloriesHelp": "¿No sabes cuántas calorías?",
+    "caloriesHelpLink": "Prueba nuestra calculadora de calorías gratis",
+    "generate": "Generar mi día",
+    "regenerate": "Generar otro día",
+    "generating": "Preparando tu día...",
+    "free": "Gratis — sin registro ni tarjeta",
+    "error": "Algo salió mal. Inténtalo de nuevo.",
+    "cal": "kcal",
+    "totalLabel": "Total del día",
+    "swap": "Cambiar este plato",
+    "upsellTitle": "Eso es un día. Imagina tu semana entera.",
+    "upsellBody": "Los suscriptores reciben un plan de comidas de 7 días personalizado con recetas completas y lista de compras — adaptado a tu hogar, alergias y presupuesto, entregado cada domingo.",
+    "upsellCta": "Quiero mi semana completa",
+    "upsellCtaSignedIn": "Ir a mi panel",
+    "upsellNote": "$7.99/mes o $59.99/año · Cancela cuando quieras"
   }
 }

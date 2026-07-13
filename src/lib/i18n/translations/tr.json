@@ -525,5 +525,36 @@
   },
   "setup": {
     "settingUp": "Hesabın ayarlanıyor..."
+  },
+  "instant": {
+    "dietLabel": "Ne yersin?",
+    "diet": {
+      "anything": "Her şey",
+      "vegetarian": "Vejetaryen",
+      "vegan": "Vegan",
+      "keto": "Keto",
+      "glutenFree": "Glutensiz",
+      "mediterranean": "Akdeniz"
+    },
+    "caloriesLabel": "Günde",
+    "caloriesUnit": "kalori yemek istiyorum",
+    "meals2": "2 öğün",
+    "meals3": "3 öğün",
+    "meals4": "3 öğün + atıştırmalık",
+    "caloriesHelp": "Kaç kalori olduğundan emin değil misin?",
+    "caloriesHelpLink": "Ücretsiz kalori hesaplayıcımızı dene",
+    "generate": "Günümü oluştur",
+    "regenerate": "Yeni bir gün oluştur",
+    "generating": "Günün hazırlanıyor...",
+    "free": "Ücretsiz — kayıt yok, kart yok",
+    "error": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+    "cal": "kcal",
+    "totalLabel": "Gün toplamı",
+    "swap": "Bu yemeği değiştir",
+    "upsellTitle": "Bu sadece bir gündü. Bütün haftanı hayal et.",
+    "upsellBody": "Aboneler; eve, alerjilere ve bütçeye göre kişiselleştirilmiş 7 günlük yemek planını, tam tarifler ve market listesiyle birlikte her pazar e-postayla alır.",
+    "upsellCta": "Tam haftamı istiyorum",
+    "upsellCtaSignedIn": "Panele git",
+    "upsellNote": "Aylık $7.99 veya yıllık $59.99 · İstediğin zaman iptal et"
   }
 }

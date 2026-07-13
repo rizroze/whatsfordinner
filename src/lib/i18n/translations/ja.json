@@ -525,5 +525,36 @@
   },
   "setup": {
     "settingUp": "アカウントを設定しています..."
+  },
+  "instant": {
+    "dietLabel": "食事のスタイルは？",
+    "diet": {
+      "anything": "なんでも",
+      "vegetarian": "ベジタリアン",
+      "vegan": "ヴィーガン",
+      "keto": "ケト",
+      "glutenFree": "グルテンフリー",
+      "mediterranean": "地中海式"
+    },
+    "caloriesLabel": "1日の目標",
+    "caloriesUnit": "kcal",
+    "meals2": "2食",
+    "meals3": "3食",
+    "meals4": "3食＋間食",
+    "caloriesHelp": "カロリーの目安がわからない？",
+    "caloriesHelpLink": "無料カロリー計算ツールを試す",
+    "generate": "今日の献立を作成",
+    "regenerate": "別の献立を作成",
+    "generating": "献立を準備中...",
+    "free": "無料 — 登録もカードも不要",
+    "error": "エラーが発生しました。もう一度お試しください。",
+    "cal": "kcal",
+    "totalLabel": "1日の合計",
+    "swap": "この料理を変更",
+    "upsellTitle": "これはたった1日分。1週間分を想像してみてください。",
+    "upsellBody": "有料プランでは、家族構成・アレルギー・予算に合わせてパーソナライズされた7日間の献立プランを、完全なレシピと買い物リスト付きで毎週日曜日にお届けします。",
+    "upsellCta": "1週間分のプランを入手",
+    "upsellCtaSignedIn": "ダッシュボードへ",
+    "upsellNote": "月額$7.99または年額$59.99 · いつでもキャンセル可能"
   }
 }

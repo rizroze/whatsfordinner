@@ -58,9 +58,10 @@ export function LandingPage() {
           )}
           {!isSignedIn && (
             <Button asChild size="sm" className="whitespace-nowrap">
-              <Link href="/onboarding">
+              {/* The generator IS the free trial now — jump to it instead of onboarding */}
+              <a href="#instant-planner">
                 {t("common.tryFree")}
-              </Link>
+              </a>
             </Button>
           )}
         </div>

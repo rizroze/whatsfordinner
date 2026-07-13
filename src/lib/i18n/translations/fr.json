@@ -525,5 +525,36 @@
   },
   "setup": {
     "settingUp": "Configuration de votre compte..."
+  },
+  "instant": {
+    "dietLabel": "Que mangez-vous ?",
+    "diet": {
+      "anything": "De tout",
+      "vegetarian": "Végétarien",
+      "vegan": "Végan",
+      "keto": "Kéto",
+      "glutenFree": "Sans gluten",
+      "mediterranean": "Méditerranéen"
+    },
+    "caloriesLabel": "Je veux manger",
+    "caloriesUnit": "calories par jour",
+    "meals2": "2 repas",
+    "meals3": "3 repas",
+    "meals4": "3 repas + collation",
+    "caloriesHelp": "Pas sûr du nombre de calories ?",
+    "caloriesHelpLink": "Essayez notre calculateur de calories gratuit",
+    "generate": "Générer ma journée",
+    "regenerate": "Générer une nouvelle journée",
+    "generating": "Préparation de votre journée...",
+    "free": "Gratuit — sans inscription ni carte bancaire",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "cal": "kcal",
+    "totalLabel": "Total du jour",
+    "swap": "Changer ce plat",
+    "upsellTitle": "Ça, c'est une journée. Imaginez votre semaine entière.",
+    "upsellBody": "Les abonnés reçoivent un plan de repas personnalisé sur 7 jours avec recettes complètes et liste de courses — adapté à votre foyer, vos allergies et votre budget, livré chaque dimanche.",
+    "upsellCta": "Obtenir ma semaine complète",
+    "upsellCtaSignedIn": "Accéder à mon tableau de bord",
+    "upsellNote": "7,99 $/mois ou 59,99 $/an · Annulable à tout moment"
   }
 }

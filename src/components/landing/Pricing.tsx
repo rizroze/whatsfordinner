@@ -47,7 +47,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
   ];
 
   return (
-    <section className="py-24 sm:py-32 border-t border-stone-100">
+    <section id="pricing" className="py-24 sm:py-32 border-t border-stone-100 scroll-mt-16">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
           {t("landing.pricing.title")}
