@@ -55,6 +55,10 @@ export default async function DashboardPage() {
   const pastPlans = plans.filter((p) => p.week_of !== currentWeek);
   const isSubscribed = userRecord?.subscription_status === "active";
   const freeUsed = userRecord?.free_plan_used ?? false;
+  // First-ever plan = the onboarding moment. Only then should the dashboard
+  // auto-generate + email. Returning subscribers just view their Sunday plan;
+  // if this week's is missing they get a manual button, never a surprise send.
+  const isFirstPlan = plans.length === 0;
 
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
@@ -91,7 +95,7 @@ export default async function DashboardPage() {
             {hasProfile && (
               <>
                 <section>
-                  <CurrentPlan plan={currentPlan} isSubscribed={isSubscribed} />
+                  <CurrentPlan plan={currentPlan} isSubscribed={isSubscribed} isFirstPlan={isFirstPlan} />
                 </section>
 
                 {pastPlans.length > 0 && (

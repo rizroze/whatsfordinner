@@ -451,7 +451,10 @@
     "statusFailed": "Failed",
     "pantryTitle": "My Pantry",
     "pantrySubtitle": "Items you always have at home. Dimmed on your grocery list.",
-    "pantrySaved": "Saved"
+    "pantrySaved": "Saved",
+    "weekPending": "This week's plan isn't ready yet",
+    "weekPendingDesc": "Your weekly plan arrives by email every Sunday. You can generate it now if you'd rather not wait.",
+    "generateThisWeek": "Generate this week's plan"
   },
   "mealTypes": {
     "breakfast": "Breakfast",

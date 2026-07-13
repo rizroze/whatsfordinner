@@ -8,6 +8,12 @@ import type { UserProfile, MealPlanData } from "@/types/meal-plan";
 
 import crypto from "crypto";
 
+// The cron generates each subscriber's plan sequentially via Claude (~30-60s
+// each). Without this, the function hit the default timeout after ~2 users and
+// silently dropped everyone after them (the last subscriber never got a Sunday
+// plan, so their dashboard re-ran the onboarding auto-generate every week).
+export const maxDuration = 300;
+
 const CRON_SECRET = process.env.CRON_SECRET?.trim();
 
 function verifyCronSecret(authHeader: string | null): boolean {

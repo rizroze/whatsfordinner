@@ -438,7 +438,10 @@
     "statusFailed": "실패",
     "pantryTitle": "나의 식료품 저장고",
     "pantrySubtitle": "항상 집에 있는 것들 — 장보기 목록에서 흐리게 표시됩니다",
-    "pantrySaved": "저장됨"
+    "pantrySaved": "저장됨",
+    "weekPending": "이번 주 플랜이 아직 준비되지 않았습니다",
+    "weekPendingDesc": "주간 플랜은 매주 일요일 이메일로 전송됩니다. 기다리지 않으시려면 지금 생성할 수 있습니다.",
+    "generateThisWeek": "이번 주 플랜 생성"
   },
   "mealTypes": {
     "breakfast": "아침",

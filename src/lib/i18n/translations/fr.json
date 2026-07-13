@@ -438,7 +438,10 @@
     "statusFailed": "Échoué",
     "pantryTitle": "Mon Garde-manger",
     "pantrySubtitle": "Ce que vous avez toujours chez vous — grisé sur votre liste",
-    "pantrySaved": "Enregistré"
+    "pantrySaved": "Enregistré",
+    "weekPending": "Le plan de cette semaine n'est pas encore prêt",
+    "weekPendingDesc": "Votre plan hebdomadaire arrive par e-mail chaque dimanche. Vous pouvez le générer maintenant si vous ne voulez pas attendre.",
+    "generateThisWeek": "Générer le plan de cette semaine"
   },
   "mealTypes": {
     "breakfast": "Petit-déjeuner",

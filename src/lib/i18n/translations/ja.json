@@ -438,7 +438,10 @@
     "statusFailed": "失敗",
     "pantryTitle": "マイパントリー",
     "pantrySubtitle": "いつも家にあるもの — 買い物リストでは薄く表示されます",
-    "pantrySaved": "保存しました"
+    "pantrySaved": "保存しました",
+    "weekPending": "今週のプランはまだ準備できていません",
+    "weekPendingDesc": "毎週日曜日に週間プランがメールで届きます。お待ちになりたくない場合は今すぐ作成できます。",
+    "generateThisWeek": "今週のプランを作成"
   },
   "mealTypes": {
     "breakfast": "朝食",

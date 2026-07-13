@@ -438,7 +438,10 @@
     "statusFailed": "失败",
     "pantryTitle": "我的储藏室",
     "pantrySubtitle": "家里常备的东西 — 会在购物清单中淡化显示",
-    "pantrySaved": "已保存"
+    "pantrySaved": "已保存",
+    "weekPending": "本周的计划尚未准备好",
+    "weekPendingDesc": "您的每周计划会在每周日通过电子邮件发送。如果不想等待，可以立即生成。",
+    "generateThisWeek": "生成本周计划"
   },
   "mealTypes": {
     "breakfast": "早餐",

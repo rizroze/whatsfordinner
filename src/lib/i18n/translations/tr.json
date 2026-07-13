@@ -438,7 +438,10 @@
     "statusFailed": "Başarısız",
     "pantryTitle": "Kilerim",
     "pantrySubtitle": "Her zaman evinizde olan malzemeler — listenizde soluk görünür",
-    "pantrySaved": "Kaydedildi"
+    "pantrySaved": "Kaydedildi",
+    "weekPending": "Bu haftanın planı henüz hazır değil",
+    "weekPendingDesc": "Haftalık planınız her Pazar e-posta ile gelir. Beklemek istemiyorsanız şimdi oluşturabilirsiniz.",
+    "generateThisWeek": "Bu haftanın planını oluştur"
   },
   "mealTypes": {
     "breakfast": "Kahvaltı",

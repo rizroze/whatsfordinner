@@ -137,8 +137,17 @@ export async function POST(req: NextRequest) {
       planId = newPlan.id;
       isNewPlan = true;
 
-      // Fire welcome email non-blocking — arrives while plan is generating
-      if (isSubscribed && !profile.email_opted_out) {
+      // Fire the welcome email non-blocking — but ONLY on the user's very first
+      // plan (the onboarding moment). A returning subscriber generating a missed
+      // week should not receive a stray "welcome" email. The row we just inserted
+      // is counted, so first-ever means the count is 1.
+      const { count: totalPlanCount } = await admin
+        .from("meal_plans")
+        .select("id", { count: "exact", head: true })
+        .eq("user_id", user.id);
+      const isFirstEverPlan = (totalPlanCount ?? 1) <= 1;
+
+      if (isSubscribed && isFirstEverPlan && !profile.email_opted_out) {
         const deliveryEmail = profile.delivery_email || user.email!;
         const firstName = user.user_metadata?.full_name?.split(" ")[0] ?? user.user_metadata?.name?.split(" ")[0] ?? "";
         void sendWelcomeEmail(deliveryEmail, firstName).catch(() => {});

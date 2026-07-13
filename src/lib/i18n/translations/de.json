@@ -438,7 +438,10 @@
     "statusFailed": "Fehlgeschlagen",
     "pantryTitle": "Meine Vorratskammer",
     "pantrySubtitle": "Was du immer zu Hause hast — wird auf deiner Liste abgeblendet",
-    "pantrySaved": "Gespeichert"
+    "pantrySaved": "Gespeichert",
+    "weekPending": "Der Plan für diese Woche ist noch nicht fertig",
+    "weekPendingDesc": "Dein Wochenplan kommt jeden Sonntag per E-Mail. Du kannst ihn jetzt erstellen, wenn du nicht warten möchtest.",
+    "generateThisWeek": "Plan für diese Woche erstellen"
   },
   "mealTypes": {
     "breakfast": "Frühstück",

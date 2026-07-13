@@ -13,6 +13,9 @@ import type { MealPlanRecord } from "@/types/meal-plan";
 interface CurrentPlanProps {
   plan: MealPlanRecord | null;
   isSubscribed?: boolean;
+  /** True only when the user has never had any plan — the onboarding moment.
+   *  Auto-generate + email fires only then; returning subscribers never do. */
+  isFirstPlan?: boolean;
 }
 
 const typeDots: Record<string, string> = {
@@ -26,7 +29,7 @@ function getTodayName(): string {
   return new Date().toLocaleDateString("en-US", { weekday: "long" });
 }
 
-export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
+export function CurrentPlan({ plan, isSubscribed = true, isFirstPlan = false }: CurrentPlanProps) {
   const { t } = useT();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -52,9 +55,12 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
     }
   }
 
-  // Auto-generate for subscribers who don't have a plan yet (e.g. before cron fires)
+  // Auto-generate ONLY for a brand-new subscriber's first-ever plan — the
+  // onboarding trick (land on dashboard → instant plan + welcome/plan email).
+  // Returning subscribers must NOT auto-generate; they view their Sunday plan,
+  // and if this week's is missing they get a manual button below instead.
   useEffect(() => {
-    if (!currentPlan && isSubscribed && !autoGenerateTriggered.current) {
+    if (!currentPlan && isSubscribed && isFirstPlan && !autoGenerateTriggered.current) {
       autoGenerateTriggered.current = true;
       handleGenerate();
     }
@@ -63,8 +69,9 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
 
   // No plan exists yet
   if (!currentPlan) {
-    // Subscribers: show generating state (auto-triggered above)
-    if (isSubscribed) {
+    // Brand-new subscriber (first-ever plan): auto-generate was triggered above,
+    // show the generating/spinner state.
+    if (isSubscribed && isFirstPlan) {
       return (
         <Card>
           <CardContent className="py-12 text-center">
@@ -86,6 +93,30 @@ export function CurrentPlan({ plan, isSubscribed = true }: CurrentPlanProps) {
                 </Button>
               </>
             ) : null}
+          </CardContent>
+        </Card>
+      );
+    }
+
+    // Returning subscriber whose plan for this week hasn't landed (e.g. the
+    // Sunday cron hasn't run yet). Do NOT auto-generate + email — offer a
+    // manual button so it's their choice, not a surprise send.
+    if (isSubscribed) {
+      return (
+        <Card>
+          <CardContent className="py-12 text-center">
+            <h3 className="text-lg font-semibold text-stone-700 mb-2">
+              {t("dashboard.weekPending")}
+            </h3>
+            <p className="text-sm text-stone-500 mb-6 max-w-xs mx-auto">
+              {t("dashboard.weekPendingDesc")}
+            </p>
+            {error && (
+              <p className="text-sm text-red-500 mb-4">{error}</p>
+            )}
+            <Button size="lg" loading={loading} onClick={handleGenerate}>
+              {t("dashboard.generateThisWeek")}
+            </Button>
           </CardContent>
         </Card>
       );

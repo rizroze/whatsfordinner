@@ -438,7 +438,10 @@
     "statusFailed": "Falhou",
     "pantryTitle": "Minha Despensa",
     "pantrySubtitle": "O que você sempre tem em casa — aparece esmaecido na lista",
-    "pantrySaved": "Salvo"
+    "pantrySaved": "Salvo",
+    "weekPending": "O plano desta semana ainda não está pronto",
+    "weekPendingDesc": "Seu plano semanal chega por e-mail todo domingo. Você pode gerá-lo agora se não quiser esperar.",
+    "generateThisWeek": "Gerar o plano desta semana"
   },
   "mealTypes": {
     "breakfast": "Café da Manhã",
