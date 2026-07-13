@@ -42,25 +42,28 @@ export const LOCALE_CONFIG: Record<Locale, LocaleConfig> = {
     name: "Espa\u00f1ol",
     dir: "ltr",
     hreflang: "es",
-    pathSegments: { "meal-plans": "planes-de-comida", blog: "blog", recipes: "recetas" },
+    // NOTE: values must match the real App Router segments (/[locale]/recipes/…,
+    // /[locale]/meal-plans/…). Localized segments were never implemented as routes —
+    // using them here shipped canonicals/hreflang/footer links that 404'd for months.
+    pathSegments: { "meal-plans": "meal-plans", blog: "blog", recipes: "recipes" },
   },
   fr: {
     name: "Fran\u00e7ais",
     dir: "ltr",
     hreflang: "fr",
-    pathSegments: { "meal-plans": "plans-de-repas", blog: "blog", recipes: "recettes" },
+    pathSegments: { "meal-plans": "meal-plans", blog: "blog", recipes: "recipes" },
   },
   de: {
     name: "Deutsch",
     dir: "ltr",
     hreflang: "de",
-    pathSegments: { "meal-plans": "essensplaene", blog: "blog", recipes: "rezepte" },
+    pathSegments: { "meal-plans": "meal-plans", blog: "blog", recipes: "recipes" },
   },
   pt: {
     name: "Portugu\u00eas",
     dir: "ltr",
     hreflang: "pt",
-    pathSegments: { "meal-plans": "planos-de-refeicao", blog: "blog", recipes: "receitas" },
+    pathSegments: { "meal-plans": "meal-plans", blog: "blog", recipes: "recipes" },
   },
   ja: {
     name: "\u65e5\u672c\u8a9e",
@@ -84,19 +87,19 @@ export const LOCALE_CONFIG: Record<Locale, LocaleConfig> = {
     name: "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
     dir: "rtl",
     hreflang: "ar",
-    pathSegments: { "meal-plans": "khutat-wajabat", blog: "blog", recipes: "wasafat" },
+    pathSegments: { "meal-plans": "meal-plans", blog: "blog", recipes: "recipes" },
   },
   tr: {
     name: "T\u00fcrk\u00e7e",
     dir: "ltr",
     hreflang: "tr",
-    pathSegments: { "meal-plans": "yemek-planlari", blog: "blog", recipes: "tarifler" },
+    pathSegments: { "meal-plans": "meal-plans", blog: "blog", recipes: "recipes" },
   },
   hi: {
     name: "\u0939\u093f\u0928\u094d\u0926\u0940",
     dir: "ltr",
     hreflang: "hi",
-    pathSegments: { "meal-plans": "bhojan-yojana", blog: "blog", recipes: "vyanjan" },
+    pathSegments: { "meal-plans": "meal-plans", blog: "blog", recipes: "recipes" },
   },
 };
 
