@@ -82,15 +82,15 @@ export function MealCard({ meal, defaultExpanded = false, feedback, onFeedback, 
             </button>
           )}
           <svg
-            width="14"
-            height="14"
+            width="16"
+            height="16"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="1.5"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className={`text-stone-300 transition-transform duration-200 shrink-0 mt-0.5 ${
+            className={`text-stone-500 group-hover:text-orange-500 transition-all duration-200 shrink-0 mt-0.5 ${
               expanded ? "rotate-180" : ""
             }`}
           >

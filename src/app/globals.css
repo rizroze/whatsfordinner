@@ -47,6 +47,9 @@ html {
   scroll-behavior: smooth;
   /* Global type scale bump: rem-based Tailwind sizes all grow ~6% */
   font-size: 17px;
+  /* Scroll anchoring drags the viewport down whenever async content
+     (instant-planner results, dashboard plans) grows above the anchor */
+  overflow-anchor: none;
 }
 
 /* Staggered reveal for instant-planner results (pair with animation-delay) */

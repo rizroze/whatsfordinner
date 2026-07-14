@@ -6,6 +6,7 @@ import Link from "next/link";
 import { DayCard } from "@/components/plan/DayCard";
 import { SocialProofLine } from "@/components/ui/SocialProofLine";
 import { useT } from "@/lib/i18n/context";
+import { createClient } from "@/lib/supabase/client";
 import type { PreviewPlanResult } from "@/lib/preview-plan";
 
 export default function PreviewPage() {
@@ -13,6 +14,14 @@ export default function PreviewPage() {
   const { t, locale } = useT();
   const [prefs, setPrefs] = useState<Record<string, unknown> | null>(null);
   const [plan, setPlan] = useState<PreviewPlanResult | null>(null);
+  const [isSignedIn, setIsSignedIn] = useState(false);
+
+  // Signed-in users land here from /pricing ("See an Example Plan") —
+  // the header and CTAs must not dead-end them at /signup or /login.
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data: { user } }) => setIsSignedIn(!!user));
+  }, []);
 
   const MEAL_TYPE_LABELS: Record<string, string> = {
     breakfast: t("mealTypes.breakfast"),
@@ -51,7 +60,11 @@ export default function PreviewPage() {
       });
   }, [locale]);
 
-  function handleCTA() {
+  function handleCTA(planType: "monthly" | "yearly" = "monthly") {
+    if (isSignedIn) {
+      router.push(`/checkout?plan=${planType}`);
+      return;
+    }
     const redirect = locale !== "en" ? `/signup?redirect=/setup&lang=${locale}` : "/signup?redirect=/setup";
     router.push(redirect);
   }
@@ -81,12 +94,25 @@ export default function PreviewPage() {
           <Link href="/" className="text-sm font-semibold text-stone-700 hover:text-orange-500 transition-colors">
             {t("landing.footer.brand")}
           </Link>
-          <Link
-            href="/login"
-            className="text-sm text-stone-400 hover:text-orange-500 transition-colors"
-          >
-            {t("common.signIn")}
-          </Link>
+          {isSignedIn ? (
+            <Link
+              href="/pricing"
+              className="inline-flex items-center gap-1 text-sm text-stone-400 hover:text-orange-500 transition-colors"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12" />
+                <polyline points="12 19 5 12 12 5" />
+              </svg>
+              {t("common.back")}
+            </Link>
+          ) : (
+            <Link
+              href="/login"
+              className="text-sm text-stone-400 hover:text-orange-500 transition-colors"
+            >
+              {t("common.signIn")}
+            </Link>
+          )}
         </div>
       </header>
 
@@ -200,13 +226,13 @@ export default function PreviewPage() {
               </p>
               <div className="space-y-2.5">
                 <button
-                  onClick={handleCTA}
+                  onClick={() => handleCTA("monthly")}
                   className="w-full py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md shadow-orange-500/20 transition-all duration-200"
                 >
                   {t("preview.unlockCta")}
                 </button>
                 <button
-                  onClick={handleCTA}
+                  onClick={() => handleCTA("yearly")}
                   className="w-full py-2 text-xs text-stone-400 hover:text-orange-500 transition-colors"
                 >
                   {t("preview.yearlyCta")}
@@ -246,7 +272,7 @@ export default function PreviewPage() {
       {/* Sticky mobile CTA */}
       <div className="fixed bottom-0 left-0 right-0 z-40 p-3 bg-[#FFFBF5]/95 backdrop-blur-xl border-t border-stone-100 sm:hidden">
         <button
-          onClick={handleCTA}
+          onClick={() => handleCTA("monthly")}
           className="w-full py-3.5 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg transition-colors"
         >
           {t("preview.mobileCta")}

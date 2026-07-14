@@ -95,6 +95,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const [nonce, setNonce] = useState(0);
   const [variants, setVariants] = useState<Partial<Record<InstantSlot, number>>>({});
   const resultsRef = useRef<HTMLDivElement | null>(null);
+  const cardRef = useRef<HTMLDivElement | null>(null);
 
   async function fetchPlan(
     nextNonce: number,
@@ -136,9 +137,14 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
     setVariants({});
     track("instant_plan_generated", { diet, calories: Number(calories) || 1800, meals });
     void fetchPlan(freshNonce, {});
-    // Ease the (skeleton) results into view while they "cook"
+    // Ease the results into view while they "cook": on desktop pin the whole
+    // card to the top so form + meals share the screen; on mobile the form is
+    // too tall for that, so lead with the (skeleton) results instead.
     setTimeout(() => {
-      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      const target = window.matchMedia("(min-width: 1024px)").matches
+        ? cardRef.current
+        : resultsRef.current;
+      target?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 120);
   }
 
@@ -152,7 +158,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const busy = loading || swappingSlot !== null;
 
   return (
-    <div id="instant-planner" className="mt-10 sm:mt-12 max-w-4xl mx-auto text-left scroll-mt-24">
+    <div ref={cardRef} id="instant-planner" className="mt-10 sm:mt-12 max-w-4xl mx-auto text-left scroll-mt-24">
       <div className="bg-white rounded-3xl border border-stone-100 shadow-lg p-6 sm:p-9">
         {/* Diet tiles */}
         <p className="text-sm sm:text-base font-medium text-stone-600 mb-3">{t("instant.dietLabel")}</p>

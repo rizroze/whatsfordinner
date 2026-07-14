@@ -21,17 +21,18 @@ const TASTE_PILL_VALUES = [
   "Try anything",
 ];
 
-const DIETARY_OPTIONS = [
-  "Vegetarian",
-  "Vegan",
-  "Gluten-Free",
-  "Dairy-Free",
-  "Keto",
-  "Low-Carb",
-  "Pescatarian",
-  "Halal",
-  "Kosher",
-  "No Meat on Fridays",
+// Emojis match the landing-page diet tiles where the options overlap
+const DIETARY_OPTIONS: { value: string; emoji: string }[] = [
+  { value: "Vegetarian", emoji: "🥗" },
+  { value: "Vegan", emoji: "🌱" },
+  { value: "Gluten-Free", emoji: "🌾" },
+  { value: "Dairy-Free", emoji: "🥛" },
+  { value: "Keto", emoji: "🥑" },
+  { value: "Low-Carb", emoji: "🥩" },
+  { value: "Pescatarian", emoji: "🐟" },
+  { value: "Halal", emoji: "☪️" },
+  { value: "Kosher", emoji: "✡️" },
+  { value: "No Meat on Fridays", emoji: "✝️" },
 ];
 
 export function StepDietary({ data, onChange }: StepProps) {
@@ -68,18 +69,18 @@ export function StepDietary({ data, onChange }: StepProps) {
     },
   ];
 
-  const TASTE_PILLS: { value: string; label: string }[] = [
-    { value: "Spicy lover", label: t("onboarding.dietary.spicyLover") },
-    { value: "Comfort food", label: t("onboarding.dietary.comfortFood") },
-    { value: "Sweet tooth", label: t("onboarding.dietary.sweetTooth") },
-    { value: "Love carbs", label: t("onboarding.dietary.loveCarbs") },
-    { value: "Protein heavy", label: t("onboarding.dietary.proteinHeavy") },
-    { value: "Fresh & light", label: t("onboarding.dietary.freshLight") },
-    { value: "Quick & easy", label: t("onboarding.dietary.quickEasy") },
-    { value: "One-pot meals", label: t("onboarding.dietary.onePot") },
-    { value: "Meal prep", label: t("onboarding.dietary.mealPrep") },
-    { value: "Picky eater", label: t("onboarding.dietary.pickyEater") },
-    { value: "Try anything", label: t("onboarding.dietary.tryAnything") },
+  const TASTE_PILLS: { value: string; label: string; emoji: string }[] = [
+    { value: "Spicy lover", label: t("onboarding.dietary.spicyLover"), emoji: "🌶️" },
+    { value: "Comfort food", label: t("onboarding.dietary.comfortFood"), emoji: "🍲" },
+    { value: "Sweet tooth", label: t("onboarding.dietary.sweetTooth"), emoji: "🍰" },
+    { value: "Love carbs", label: t("onboarding.dietary.loveCarbs"), emoji: "🍝" },
+    { value: "Protein heavy", label: t("onboarding.dietary.proteinHeavy"), emoji: "🍗" },
+    { value: "Fresh & light", label: t("onboarding.dietary.freshLight"), emoji: "🥒" },
+    { value: "Quick & easy", label: t("onboarding.dietary.quickEasy"), emoji: "⚡" },
+    { value: "One-pot meals", label: t("onboarding.dietary.onePot"), emoji: "🥘" },
+    { value: "Meal prep", label: t("onboarding.dietary.mealPrep"), emoji: "🍱" },
+    { value: "Picky eater", label: t("onboarding.dietary.pickyEater"), emoji: "🧐" },
+    { value: "Try anything", label: t("onboarding.dietary.tryAnything"), emoji: "🎲" },
   ];
 
   // Parse personal_note as pill selections + freetext
@@ -224,6 +225,7 @@ export function StepDietary({ data, onChange }: StepProps) {
                     : "border-stone-200 bg-white text-stone-500 hover:border-orange-300",
                 )}
               >
+                <span className="mr-1" aria-hidden>{pill.emoji}</span>
                 {pill.label}
               </button>
             );
@@ -246,12 +248,12 @@ export function StepDietary({ data, onChange }: StepProps) {
         </label>
         <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-1.5">
           {DIETARY_OPTIONS.map((opt) => {
-            const on = data.dietary_restrictions.includes(opt);
+            const on = data.dietary_restrictions.includes(opt.value);
             return (
               <button
-                key={opt}
+                key={opt.value}
                 type="button"
-                onClick={() => toggleRestriction(opt)}
+                onClick={() => toggleRestriction(opt.value)}
                 className={cn(
                   "px-2 py-1.5 sm:px-2.5 rounded-full border text-[11px] sm:text-xs font-medium transition-all text-center",
                   on
@@ -259,7 +261,8 @@ export function StepDietary({ data, onChange }: StepProps) {
                     : "border-stone-200 bg-white text-stone-500 hover:border-orange-300",
                 )}
               >
-                {opt}
+                <span className="mr-1" aria-hidden>{opt.emoji}</span>
+                {opt.value}
               </button>
             );
           })}

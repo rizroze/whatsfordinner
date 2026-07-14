@@ -41,10 +41,10 @@ export function DayCard({ day, defaultOpen = false, feedbackMap, onFeedback, onS
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="1.5"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className={`text-stone-400 transition-transform duration-200 ${open ? "rotate-180" : ""
+            className={`text-stone-500 group-hover:text-orange-500 transition-all duration-200 ${open ? "rotate-180" : ""
               }`}
           >
             <polyline points="6 9 12 15 18 9" />

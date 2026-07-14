@@ -25,10 +25,11 @@ export async function POST(req: NextRequest) {
 
     const admin = createAdminClient();
 
-    // Check subscription or free plan eligibility
+    // Paid-only: AI generation burns real tokens, subscribers (incl. promo) only.
+    // Non-subscribers get the zero-token instant plan on their dashboard instead.
     const { data: dbUser } = await admin
       .from("users")
-      .select("subscription_status, free_plan_used")
+      .select("subscription_status")
       .eq("id", user.id)
       .single();
 
@@ -37,11 +38,10 @@ export async function POST(req: NextRequest) {
     }
 
     const isSubscribed = dbUser.subscription_status === "active";
-    const canUseFree = !dbUser.free_plan_used;
 
-    if (!isSubscribed && !canUseFree) {
+    if (!isSubscribed) {
       return NextResponse.json(
-        { error: "Subscribe to generate more meal plans" },
+        { error: "Subscribe to generate meal plans" },
         { status: 403 }
       );
     }
@@ -78,19 +78,12 @@ export async function POST(req: NextRequest) {
       .single();
 
     let planId: string;
-    let isNewPlan = false;
 
     if (existingPlan) {
-      // Free users can't regenerate
-      const regenLimit = isSubscribed ? 2 : 0;
-      if (existingPlan.regeneration_count >= regenLimit) {
+      if (existingPlan.regeneration_count >= 2) {
         return NextResponse.json(
-          {
-            error: isSubscribed
-              ? "Maximum regenerations reached for this week (2)"
-              : "Subscribe to regenerate meal plans",
-          },
-          { status: isSubscribed ? 429 : 403 }
+          { error: "Maximum regenerations reached for this week (2)" },
+          { status: 429 }
         );
       }
 
@@ -135,7 +128,6 @@ export async function POST(req: NextRequest) {
       }
 
       planId = newPlan.id;
-      isNewPlan = true;
 
       // Fire the welcome email non-blocking — but ONLY on the user's very first
       // plan (the onboarding moment). A returning subscriber generating a missed
@@ -147,7 +139,7 @@ export async function POST(req: NextRequest) {
         .eq("user_id", user.id);
       const isFirstEverPlan = (totalPlanCount ?? 1) <= 1;
 
-      if (isSubscribed && isFirstEverPlan && !profile.email_opted_out) {
+      if (isFirstEverPlan && !profile.email_opted_out) {
         const deliveryEmail = profile.delivery_email || user.email!;
         const firstName = user.user_metadata?.full_name?.split(" ")[0] ?? user.user_metadata?.name?.split(" ")[0] ?? "";
         void sendWelcomeEmail(deliveryEmail, firstName).catch(() => {});
@@ -155,8 +147,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Generate the meal plan with one retry on failure
-    // Subscribers get 7 days, free users get 1 day
-    const days = isSubscribed ? 7 : 1;
+    const days = 7;
     let planData;
 
     // Dev mode: use mock plan without burning tokens
@@ -208,8 +199,8 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Send email for subscribers on every generation (new plans + regenerations)
-    if (isSubscribed && !profile.email_opted_out) {
+    // Send email on every generation (new plans + regenerations)
+    if (!profile.email_opted_out) {
       try {
         const deliveryEmail = profile.delivery_email || user.email!;
 
@@ -246,14 +237,6 @@ export async function POST(req: NextRequest) {
         // Don't fail the whole request if email fails — plan is still saved
         console.error("Failed to send meal plan email:", emailError);
       }
-    }
-
-    // Mark free plan as used for non-subscribers
-    if (!isSubscribed && canUseFree) {
-      await admin
-        .from("users")
-        .update({ free_plan_used: true })
-        .eq("id", user.id);
     }
 
     return NextResponse.json({ plan: updatedPlan });

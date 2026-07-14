@@ -122,40 +122,9 @@ export function CurrentPlan({ plan, isSubscribed = true, isFirstPlan = false }: 
       );
     }
 
-    // Free users: show the manual generate button
-    return (
-      <Card className="border-dashed border-2 border-stone-200 bg-[#FFFBF5]">
-        <CardContent className="py-12 text-center">
-          <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-orange-50 flex items-center justify-center">
-            <svg
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="text-orange-400"
-            >
-              <path d="M12 5v14M5 12h14" />
-            </svg>
-          </div>
-          <h3 className="text-lg font-semibold text-stone-700 mb-2">
-            {t("dashboard.noPlan")}
-          </h3>
-          <p className="text-sm text-stone-500 mb-6 max-w-xs mx-auto">
-            {t("dashboard.noPlanDesc")}
-          </p>
-          {error && (
-            <p className="text-sm text-red-500 mb-4">{error}</p>
-          )}
-          <Button size="lg" loading={loading} onClick={handleGenerate}>
-            {t("dashboard.generateFirst")}
-          </Button>
-        </CardContent>
-      </Card>
-    );
+    // Non-subscribers never reach here — the dashboard renders FreeToday
+    // (zero-token instant day + upsell) for them instead.
+    return null;
   }
 
   // Generating

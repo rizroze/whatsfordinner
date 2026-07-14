@@ -2,6 +2,13 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { getWeekOf } from "@/lib/utils";
 import { CurrentPlan } from "@/components/dashboard/CurrentPlan";
+import { FreeToday } from "@/components/dashboard/FreeToday";
+import {
+  INSTANT_DIETS,
+  INSTANT_CUISINES,
+  type InstantDiet,
+  type InstantCuisine,
+} from "@/lib/instant-plan";
 import { PastPlans } from "@/components/dashboard/PastPlans";
 import { SubscriptionStatus } from "@/components/dashboard/SubscriptionStatus";
 import { FreePlanBanner } from "@/components/dashboard/FreePlanBanner";
@@ -12,7 +19,6 @@ import { DashboardHero } from "@/components/dashboard/DashboardHero";
 import {
   DashboardHeader,
   DashboardHomeLink,
-  UpgradeBanner,
   PastPlansHeading,
   SetupCard,
   SettingsCard,
@@ -60,6 +66,20 @@ export default async function DashboardPage() {
   // if this week's is missing they get a manual button, never a surprise send.
   const isFirstPlan = plans.length === 0;
 
+  // Map the onboarding profile onto the zero-token instant generator for the
+  // free dashboard's "Today" — real personalized meals without AI spend.
+  const instantDiet = ((profile?.dietary_restrictions ?? []) as string[])
+    .map((r) => r.toLowerCase())
+    .find((r): r is InstantDiet => (INSTANT_DIETS as readonly string[]).includes(r)) ?? "anything";
+  const instantCuisine =
+    ((profile?.cuisine_preferences ?? []) as string[]).find(
+      (c): c is InstantCuisine => (INSTANT_CUISINES as readonly string[]).includes(c),
+    ) ?? "any";
+  const instantCalories =
+    profile?.nutrition_goal === "lose" ? 1500 : profile?.nutrition_goal === "bulk" ? 2400 : 1800;
+  const instantMeals: 2 | 3 | 4 =
+    profile?.meals_per_day === 2 ? 2 : profile?.include_snacks ? 4 : 3;
+
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
       {/* Header */}
@@ -84,18 +104,22 @@ export default async function DashboardPage() {
         {/* Free plan from localStorage — client component */}
         <FreePlanBanner hasDbPlan={!!currentPlan} hasProfile={hasProfile} />
 
-        {/* Upgrade banner for free users without the hero */}
-        {!isSubscribed && freeUsed && !currentPlan?.plan_data && (
-          <UpgradeBanner />
-        )}
-
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main content — 2/3 */}
           <div className="lg:col-span-2 space-y-8">
             {hasProfile && (
               <>
                 <section>
-                  <CurrentPlan plan={currentPlan} isSubscribed={isSubscribed} isFirstPlan={isFirstPlan} />
+                  {isSubscribed ? (
+                    <CurrentPlan plan={currentPlan} isSubscribed={isSubscribed} isFirstPlan={isFirstPlan} />
+                  ) : (
+                    <FreeToday
+                      diet={instantDiet}
+                      cuisine={instantCuisine}
+                      calories={instantCalories}
+                      meals={instantMeals}
+                    />
+                  )}
                 </section>
 
                 {pastPlans.length > 0 && (

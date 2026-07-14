@@ -86,12 +86,25 @@ export default function PricingPage() {
           <span className="text-stone-300">/</span>
           <span className="text-sm text-stone-400">Pricing</span>
         </div>
-        <Link
-          href="/onboarding"
-          className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
-        >
-          Build My Meal Plan
-        </Link>
+        {isSignedIn ? (
+          <Link
+            href="/dashboard"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-stone-500 bg-white border border-stone-200 hover:border-orange-300 hover:text-orange-600 rounded-full transition-colors"
+          >
+            Skip for now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </Link>
+        ) : (
+          <Link
+            href="/onboarding"
+            className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 hover:bg-orange-600 rounded-full transition-colors"
+          >
+            Build My Meal Plan
+          </Link>
+        )}
       </nav>
 
       {/* Hero */}
