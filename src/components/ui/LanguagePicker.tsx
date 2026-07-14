@@ -20,7 +20,7 @@ const LANG_FLAGS: Record<Locale, string> = {
 };
 
 export function LanguagePicker() {
-  const { locale } = useT();
+  const { locale, setLocale } = useT();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -63,9 +63,19 @@ export function LanguagePicker() {
               onClick={() => {
                 setOpen(false);
                 if (code === locale) return;
-                // Save preference and hard navigate
                 localStorage.setItem("wfd_lang", code);
-                window.location.href = code === "en" ? "/" : `/${code}`;
+                // Locale-prefixed content routes (/, /es, /es/recipes/…) are
+                // separate static pages — switching means navigating. App pages
+                // (/onboarding, /dashboard, /pricing…) translate in place so
+                // the user never loses form progress mid-flow.
+                const seg = window.location.pathname.split("/").filter(Boolean)[0];
+                const onLocaleContent =
+                  window.location.pathname === "/" || (seg && seg in LANGUAGES);
+                if (onLocaleContent) {
+                  window.location.href = code === "en" ? "/" : `/${code}`;
+                } else {
+                  setLocale(code);
+                }
               }}
               className={cn(
                 "w-full text-left px-3 py-1.5 text-xs transition-colors",
