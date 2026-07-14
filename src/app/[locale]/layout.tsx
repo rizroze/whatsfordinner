@@ -5,6 +5,7 @@ import {
   isValidLocale,
   getLocaleConfig,
 } from "@/lib/i18n/locales";
+import { I18nProvider, type Locale } from "@/lib/i18n/context";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -47,9 +48,15 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
 
   const config = getLocaleConfig(locale);
 
+  // Load the locale dict server-side so the static HTML for /es, /ja, … is
+  // fully translated (crawlers previously saw English until hydration).
+  const dict = (await import(`@/lib/i18n/translations/${locale}.json`)).default;
+
   return (
-    <div dir={config.dir} lang={locale} className="min-h-screen bg-[#FFFBF5]">
-      {children}
-    </div>
+    <I18nProvider initialLocale={locale as Locale} initialDict={dict}>
+      <div dir={config.dir} lang={locale} className="min-h-screen bg-[#FFFBF5]">
+        {children}
+      </div>
+    </I18nProvider>
   );
 }

@@ -109,10 +109,26 @@ const I18nContext = createContext<I18nContextType>({
   ready: false,
 });
 
-export function I18nProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>("en");
-  const [dict, setDict] = useState<TranslationDict>(enFlat);
-  const [ready, setReady] = useState(false);
+interface I18nProviderProps {
+  children: ReactNode;
+  /** Server-provided locale + nested dict: makes the FIRST render (including
+   *  SSR/SSG HTML) fully localized instead of English-until-hydration.
+   *  The [locale] layout nests a seeded provider around its subtree. */
+  initialLocale?: Locale;
+  initialDict?: Record<string, unknown>;
+}
+
+export function I18nProvider({ children, initialLocale, initialDict }: I18nProviderProps) {
+  const [locale, setLocaleState] = useState<Locale>(initialLocale ?? "en");
+  const [dict, setDict] = useState<TranslationDict>(() => {
+    if (initialLocale && initialDict) {
+      const flat = flatten(initialDict);
+      translationCache[initialLocale] = flat;
+      return flat;
+    }
+    return enFlat;
+  });
+  const [ready, setReady] = useState(!!initialLocale);
   const pathname = usePathname();
 
   // Detect locale on mount and when pathname changes (e.g. navigating /tr → /es)
