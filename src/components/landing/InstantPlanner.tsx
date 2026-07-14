@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 import { track } from "@vercel/analytics";
@@ -30,18 +30,15 @@ interface InstantPlan {
   targetCalories: number;
 }
 
+// 6 broad eating habits — cuisines live in the sub-row below, so
+// Mediterranean isn't duplicated here. The engine still supports the
+// long tail (halal, kosher, dairy-free…) via onboarding later.
 const DIETS = [
   { value: "anything", emoji: "🍳", key: "instant.diet.anything" },
   { value: "vegetarian", emoji: "🥗", key: "instant.diet.vegetarian" },
   { value: "vegan", emoji: "🌱", key: "instant.diet.vegan" },
-  { value: "pescatarian", emoji: "🐟", key: "instant.diet.pescatarian" },
   { value: "keto", emoji: "🥑", key: "instant.diet.keto" },
-  { value: "low-carb", emoji: "🥩", key: "instant.diet.lowCarb" },
   { value: "gluten-free", emoji: "🌾", key: "instant.diet.glutenFree" },
-  { value: "dairy-free", emoji: "🥥", key: "instant.diet.dairyFree" },
-  { value: "mediterranean", emoji: "🫒", key: "instant.diet.mediterranean" },
-  { value: "halal", emoji: "☪️", key: "instant.diet.halal" },
-  { value: "kosher", emoji: "✡️", key: "instant.diet.kosher" },
   { value: "high-protein", emoji: "🍗", key: "instant.diet.highProtein" },
 ] as const;
 
@@ -63,6 +60,27 @@ const SLOT_COLORS: Record<InstantSlot, string> = {
   snack: "bg-emerald-50 text-emerald-700",
 };
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+// The rule-based API answers in ~100ms, which reads as fake. A minimum
+// "cooking" duration makes the result feel earned.
+const GENERATE_MIN_MS = 1100;
+const SWAP_MIN_MS = 650;
+
+function SkeletonRow() {
+  return (
+    <div className="flex items-center gap-3.5 rounded-2xl border border-stone-100 bg-[#FFFBF5] px-4 py-3.5 animate-pulse">
+      <span className="h-12 w-12 shrink-0 rounded-full bg-stone-100" />
+      <div className="min-w-0 flex-1 space-y-2">
+        <div className="h-3 w-16 rounded-full bg-stone-100" />
+        <div className="h-4 w-2/3 rounded-full bg-stone-100" />
+        <div className="h-3 w-24 rounded-full bg-stone-100" />
+      </div>
+      <span className="h-9 w-9 shrink-0 rounded-full bg-stone-100" />
+    </div>
+  );
+}
+
 export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t, locale } = useT();
 
@@ -76,6 +94,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const [error, setError] = useState(false);
   const [nonce, setNonce] = useState(0);
   const [variants, setVariants] = useState<Partial<Record<InstantSlot, number>>>({});
+  const resultsRef = useRef<HTMLDivElement | null>(null);
 
   async function fetchPlan(
     nextNonce: number,
@@ -86,7 +105,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
     if (slot) setSwappingSlot(slot);
     else setLoading(true);
     try {
-      const res = await fetch("/api/instant-plan", {
+      const request = fetch("/api/instant-plan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -99,6 +118,8 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
           locale,
         }),
       });
+      // Hold the loading state long enough to feel like real work
+      const [res] = await Promise.all([request, sleep(slot ? SWAP_MIN_MS : GENERATE_MIN_MS)]);
       if (!res.ok) throw new Error("failed");
       setPlan(await res.json());
     } catch {
@@ -115,6 +136,10 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
     setVariants({});
     track("instant_plan_generated", { diet, calories: Number(calories) || 1800, meals });
     void fetchPlan(freshNonce, {});
+    // Ease the (skeleton) results into view while they "cook"
+    setTimeout(() => {
+      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }, 120);
   }
 
   function handleSwap(slot: InstantSlot) {
@@ -165,8 +190,8 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
               onClick={() => setCuisine(c.value)}
               className={`rounded-full px-3 py-1.5 text-xs sm:text-sm font-medium transition-all duration-200 ${
                 cuisine === c.value
-                  ? "bg-stone-800 text-white shadow-sm"
-                  : "bg-stone-100 text-stone-500 hover:bg-stone-200"
+                  ? "bg-orange-500 text-white shadow-sm"
+                  : "bg-stone-100 text-stone-500 hover:bg-orange-100 hover:text-orange-700"
               }`}
             >
               {t(c.key)}
@@ -248,15 +273,21 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
           <p className="mt-3 text-center text-sm text-red-500">{t("instant.error")}</p>
         )}
 
-        {/* Result: meals on the left, upsell rail on the right */}
-        {plan && (
-          <div className="mt-7 grid gap-5 lg:grid-cols-[1fr_290px] items-start">
-            <div className="space-y-2.5">
-              {plan.meals.map((m) => (
+        {/* Result: meals on the left, upsell rail on the right.
+            Skeletons cook while loading; meals reveal with a stagger. */}
+        {(plan || loading) && (
+          <div ref={resultsRef} className="mt-7 grid gap-5 lg:grid-cols-[1fr_290px] items-start scroll-mt-28">
+            <div key={loading ? "cooking" : `plan-${nonce}`} className="space-y-2.5">
+              {loading &&
+                Array.from({ length: meals === 4 ? 4 : meals }).map((_, i) => (
+                  <SkeletonRow key={i} />
+                ))}
+              {!loading && plan && plan.meals.map((m, i) => (
                 <div
-                  key={m.slot}
-                  className={`flex items-center gap-3.5 rounded-2xl border border-stone-100 bg-[#FFFBF5] px-4 py-3.5 transition-opacity duration-200 ${
-                    swappingSlot === m.slot ? "opacity-40" : "opacity-100"
+                  key={`${m.slot}-${m.slug}`}
+                  style={{ animationDelay: `${i * 90}ms` }}
+                  className={`fade-up flex items-center gap-3.5 rounded-2xl border border-stone-100 bg-[#FFFBF5] px-4 py-3.5 transition-opacity duration-200 ${
+                    swappingSlot === m.slot ? "opacity-40 animate-pulse" : "opacity-100"
                   }`}
                 >
                   <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-stone-100 text-2xl">
@@ -312,19 +343,30 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
               ))}
 
               {/* Total vs target */}
-              <div className="flex items-center justify-between rounded-2xl bg-stone-50 px-4 py-3">
-                <span className="text-sm font-medium text-stone-500">{t("instant.totalLabel")}</span>
-                <span className="text-base font-semibold text-stone-800 tabular-nums">
-                  {plan.totalCalories.toLocaleString()}{" "}
-                  <span className="text-sm font-normal text-stone-400">
-                    / {plan.targetCalories.toLocaleString()} {t("instant.cal")}
+              {!loading && plan && (
+                <div
+                  style={{ animationDelay: `${plan.meals.length * 90}ms` }}
+                  className="fade-up flex items-center justify-between rounded-2xl bg-stone-50 px-4 py-3"
+                >
+                  <span className="text-sm font-medium text-stone-500">{t("instant.totalLabel")}</span>
+                  <span className="text-base font-semibold text-stone-800 tabular-nums">
+                    {plan.totalCalories.toLocaleString()}{" "}
+                    <span className="text-sm font-normal text-stone-400">
+                      / {plan.targetCalories.toLocaleString()} {t("instant.cal")}
+                    </span>
                   </span>
-                </span>
-              </div>
+                </div>
+              )}
             </div>
 
             {/* Upsell rail — the "Ready for more?" moment, right beside the result */}
-            <aside className="rounded-2xl border border-orange-200 bg-orange-50 p-5 sm:p-6 text-center lg:sticky lg:top-4">
+            {loading && !plan ? (
+              <aside className="hidden lg:block rounded-2xl border border-orange-100 bg-orange-50/60 h-72 animate-pulse" />
+            ) : plan && (
+            <aside
+              style={{ animationDelay: `${(plan.meals.length + 1) * 90}ms` }}
+              className="fade-up rounded-2xl border border-orange-200 bg-orange-50 p-5 sm:p-6 text-center lg:sticky lg:top-4"
+            >
               <CarrotCharacter className="mx-auto w-20 sm:w-24" />
               <p className="mt-2 text-lg sm:text-xl font-bold text-stone-900 leading-snug">
                 {t("instant.upsellTitle")}
@@ -347,6 +389,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
                 <p className="mt-2.5 text-xs text-stone-400">{t("instant.upsellNote")}</p>
               )}
             </aside>
+            )}
           </div>
         )}
       </div>

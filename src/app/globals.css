@@ -49,6 +49,21 @@ html {
   font-size: 17px;
 }
 
+/* Staggered reveal for instant-planner results (pair with animation-delay) */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fade-up {
+  animation: fade-up 0.35s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
 /* Selection color */
 ::selection {
   background: rgba(249, 115, 22, 0.15);

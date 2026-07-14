@@ -49,13 +49,10 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
       <div className="absolute bottom-10 -right-24 w-80 h-80 bg-orange-100/40 rounded-full blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
-      <div className="relative max-w-5xl mx-auto px-6 py-14 sm:py-20 text-center">
+      <div className="relative max-w-5xl mx-auto px-6 py-10 sm:py-14 text-center">
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1] whitespace-pre-line">
           {t("landing.hero.title")}
         </h1>
-        <p className="mt-3 sm:mt-5 text-xl sm:text-2xl font-semibold text-orange-500 max-w-2xl mx-auto">
-          {t("landing.hero.subtitle")}
-        </p>
 
         {/* Instant generator — the ETM-style "try it right here" hero,
             with mascots peeking around the card corners on desktop.
@@ -69,6 +66,9 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
 
         {/* Supporting copy lives below the generator so the widget is the star */}
         <div className="mt-8 flex flex-col items-center gap-3">
+          <p className="text-lg sm:text-xl font-semibold text-orange-500 max-w-2xl mx-auto">
+            {t("landing.hero.subtitle")}
+          </p>
           <p className="text-base sm:text-lg text-stone-600 max-w-xl mx-auto leading-relaxed whitespace-pre-line">
             {t("landing.hero.description")}
           </p>
