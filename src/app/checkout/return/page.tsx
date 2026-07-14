@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const MESSAGES = [
   "Confirming your payment...",
@@ -80,14 +81,14 @@ export default function CheckoutReturnPage() {
           </div>
           <h1 className="text-xl font-bold text-stone-800">Taking longer than expected</h1>
           <p className="text-sm text-stone-500">
-            Your payment was likely successful. Head to your dashboard — if your plan isn't there yet, it'll appear within a minute.
+            Your payment was likely successful. Head to your dashboard &mdash; if your plan isn&apos;t there yet, it&apos;ll appear within a minute.
           </p>
-          <a
+          <Link
             href="/dashboard"
             className="inline-block bg-orange-500 text-white font-semibold px-8 py-3 rounded-full text-sm hover:bg-orange-600 transition-colors"
           >
             Go to Dashboard
-          </a>
+          </Link>
         </div>
       </div>
     );
@@ -103,7 +104,7 @@ export default function CheckoutReturnPage() {
 
         <div className="space-y-2">
           <h1 className="text-xl font-bold text-stone-800">{MESSAGES[msgIndex]}</h1>
-          <p className="text-sm text-stone-400">Don't close this tab</p>
+          <p className="text-sm text-stone-400">Don&apos;t close this tab</p>
         </div>
 
         {/* Progress dots */}
