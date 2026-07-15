@@ -226,6 +226,22 @@ function OnboardingContent() {
     }
   }
 
+  // Enroll a completed onboarding into the welcome + nurture track. Fires for
+  // anonymous visitors and signed-in free users alike — the paywall is at the
+  // end of the funnel now, so an account no longer means converted. The API
+  // skips active subscribers and anyone opted out. Fire and forget, keepalive
+  // so the request survives the navigation that follows.
+  function captureLead(prefs: typeof data) {
+    if (!prefs.delivery_email || !prefs.delivery_email.includes("@")) return;
+    void fetch("/api/leads", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({ email: prefs.delivery_email, preferences: prefs }),
+    }).catch(() => {});
+    track("lead_captured");
+  }
+
   async function handleSubmit() {
     setLoading(true);
     setError(null);
@@ -307,6 +323,7 @@ function OnboardingContent() {
         }
 
         if (!subscribed) {
+          captureLead(data);
           router.push("/pricing");
           return;
         }
@@ -333,17 +350,7 @@ function OnboardingContent() {
       // Anonymous: save preferences and go to preview
       localStorage.setItem("wfd_preferences", JSON.stringify(data));
 
-      // Capture as nurture lead if they left an email — fire and forget,
-      // keepalive so the request survives the navigation
-      if (data.delivery_email && data.delivery_email.includes("@")) {
-        void fetch("/api/leads", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          keepalive: true,
-          body: JSON.stringify({ email: data.delivery_email, preferences: data }),
-        }).catch(() => {});
-        track("lead_captured");
-      }
+      captureLead(data);
 
       router.push("/preview");
     } catch (err) {

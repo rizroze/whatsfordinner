@@ -44,6 +44,18 @@ function buildFooter(email: string): string {
     </div>`;
 }
 
+// ── Upgrade CTA target ──
+
+// Email HTML is static, so the link cannot branch on auth state at click time —
+// the sender knows who the recipient is, so the choice is made at send time.
+// Middleware bounces authenticated users off /signup to /dashboard and drops the
+// ?plan intent with them, so anyone who already has an account must be pointed
+// straight at checkout. Same split as src/app/pricing/page.tsx.
+function upgradeUrl(plan: "monthly" | "yearly", hasAccount: boolean): string {
+  const appUrl = getAppUrl();
+  return hasAccount ? `${appUrl}/checkout?plan=${plan}` : `${appUrl}/signup?plan=${plan}`;
+}
+
 // ── Meal type badge colors ──
 
 function mealBadge(type: string): string {
@@ -93,9 +105,11 @@ function mealRow(meal: { name: string; type: string; calories: number; cookTime:
 
 // ── Day 3: Show Day 1 meals — "Don't forget to cook these" ──
 
-export function buildNurtureDay3Email(email: string, meals?: NurtureMealSummary[]): { subject: string; html: string } {
-  const appUrl = getAppUrl();
-
+export function buildNurtureDay3Email(
+  email: string,
+  meals?: NurtureMealSummary[],
+  hasAccount = false
+): { subject: string; html: string } {
   // Get Day 1 meals if available
   const day1 = meals?.[0];
   const hasMeals = day1 && day1.meals.length > 0;
@@ -121,7 +135,7 @@ export function buildNurtureDay3Email(email: string, meals?: NurtureMealSummary[
         ${hasMeals ? "Loved your plan?" : "If you loved it,"} Imagine having <strong style="color:#1C1917;">every single day planned like this</strong> &mdash; breakfast, lunch, and dinner with recipes, a grocery list, and calorie counts.
       </p>
       <div style="text-align:center;">
-        <a href="${appUrl}/signup?plan=monthly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+        <a href="${upgradeUrl("monthly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           Get 7 days every week &mdash; $7.99/mo
         </a>
       </div>
@@ -133,9 +147,11 @@ export function buildNurtureDay3Email(email: string, meals?: NurtureMealSummary[
 
 // ── Day 7: Show last day's full meals — "Your plan has expired" ──
 
-export function buildNurtureDay7Email(email: string, meals?: NurtureMealSummary[]): { subject: string; html: string } {
-  const appUrl = getAppUrl();
-
+export function buildNurtureDay7Email(
+  email: string,
+  meals?: NurtureMealSummary[],
+  hasAccount = false
+): { subject: string; html: string } {
   const hasMeals = meals && meals.length > 0;
 
   // Get the last day with all its meals
@@ -162,7 +178,7 @@ export function buildNurtureDay7Email(email: string, meals?: NurtureMealSummary[
         That was <strong style="color:#1C1917;">one day</strong>. Breakfast, lunch, and dinner &mdash; decided for you. Subscribers get this <strong style="color:#1C1917;">every day, every week</strong>. Fresh plan every Sunday, recipes included, grocery list ready.
       </p>
       <div style="text-align:center;">
-        <a href="${appUrl}/signup?plan=yearly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+        <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           Go weekly &mdash; $5/mo ($59.99/yr)
         </a>
         <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">That's less than a single takeout coffee.</p>
@@ -175,9 +191,11 @@ export function buildNurtureDay7Email(email: string, meals?: NurtureMealSummary[
 
 // ── Day 14: Show their plan + blurred 4th day + feature highlights ──
 
-export function buildNurtureDay14Email(email: string, meals?: NurtureMealSummary[]): { subject: string; html: string } {
-  const appUrl = getAppUrl();
-
+export function buildNurtureDay14Email(
+  email: string,
+  meals?: NurtureMealSummary[],
+  hasAccount = false
+): { subject: string; html: string } {
   const hasMeals = meals && meals.length > 0;
 
   // Build plan rows: Day 1 = all meals, Day 2-3 = dinner only, then blurred teaser
@@ -291,7 +309,7 @@ export function buildNurtureDay14Email(email: string, meals?: NurtureMealSummary
       </h1>
       ${planSection}
       <div style="text-align:center;">
-        <a href="${appUrl}/signup?plan=yearly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+        <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           Get your weekly plan &mdash; $5/mo
         </a>
         <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">Save 37% with yearly ($59.99/yr)</p>
@@ -393,9 +411,9 @@ const WEEKLY_THEMES = [
 
 function buildWeeklyInspirationEmail(
   email: string,
-  weekIndex: number
+  weekIndex: number,
+  hasAccount = false
 ): { subject: string; html: string } {
-  const appUrl = getAppUrl();
   const theme = WEEKLY_THEMES[weekIndex % WEEKLY_THEMES.length];
 
   const mealRows = theme.meals
@@ -427,7 +445,7 @@ function buildWeeklyInspirationEmail(
         Want a full week of meals like these &mdash; with recipes, grocery list, and calorie counts &mdash; personalized to <em>your</em> preferences?
       </p>
       <div style="text-align:center;">
-        <a href="${appUrl}/signup?plan=yearly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+        <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           Get your weekly plan &mdash; $5/mo
         </a>
         <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">Cancel anytime. Plans start instantly.</p>
@@ -486,30 +504,33 @@ export function buildReferralReminderEmail(
   return { subject: "You have referral codes to share", html };
 }
 
-// ── Preview lead: sent immediately when an anonymous visitor finishes onboarding ──
+// ── Welcome: sent immediately when anyone finishes onboarding ──
+//
+// Fires for anonymous visitors and signed-in free users alike. Distinct from
+// sendWelcomeEmail in lib/resend.ts, which confirms a completed payment.
 
 export function buildPreviewLeadEmail(
   email: string,
-  meals: NurtureMealSummary[]
+  meals: NurtureMealSummary[],
+  hasAccount = false
 ): { subject: string; html: string } {
-  const appUrl = getAppUrl();
-  const monday = meals[0];
-  const tuesday = meals[1];
-  const hasMeals = monday && monday.meals.length > 0;
+  const day1 = meals[0];
+  const day2 = meals[1];
+  const hasMeals = day1 && day1.meals.length > 0;
 
-  const mondaySection = hasMeals
+  const day1Section = hasMeals
     ? `
-      <p style="margin:0 0 6px;font-size:12px;font-weight:700;color:#16A34A;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none;">Monday &mdash; unlocked</p>
+      <p style="margin:0 0 6px;font-size:12px;font-weight:700;color:#16A34A;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none;">Day 1 &mdash; unlocked</p>
       <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 20px;">
-        ${monday.meals.map((m, i) => mealRow(m, i === monday.meals.length - 1)).join("")}
+        ${day1.meals.map((m, i) => mealRow(m, i === day1.meals.length - 1)).join("")}
       </table>`
     : "";
 
-  const lockedSection = tuesday
+  const lockedSection = day2
     ? `
-      <p style="margin:0 0 6px;font-size:12px;font-weight:700;color:#A8A29E;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none;">Tuesday &mdash; locked</p>
+      <p style="margin:0 0 6px;font-size:12px;font-weight:700;color:#A8A29E;text-transform:uppercase;letter-spacing:0.05em;text-decoration:none;">Day 2 &mdash; locked</p>
       <p style="margin:0 0 4px;font-size:14px;color:#A8A29E;text-decoration:none;">
-        ${tuesday.meals.map((m) => escapeHtml(m.name)).join(" &middot; ")}
+        ${day2.meals.map((m) => escapeHtml(m.name)).join(" &middot; ")}
       </p>
       <p style="margin:0 0 20px;font-size:12px;color:#D6D3D1;text-decoration:none;">
         + ${meals.length - 2} more days, full recipes, and your grocery list
@@ -519,15 +540,15 @@ export function buildPreviewLeadEmail(
   const html = wrapEmail(`
     <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
       <h1 style="margin:0 0 8px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
-        Monday is planned. Here&#39;s your menu.
+        Welcome to What&#39;s For Dinner. Here&#39;s your day 1.
       </h1>
       <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
         Built from the preferences you just set &mdash; saved here so you don&#39;t lose it.
       </p>
-      ${mondaySection}
+      ${day1Section}
       ${lockedSection}
       <div style="text-align:center;">
-        <a href="${appUrl}/signup?plan=monthly" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+        <a href="${upgradeUrl("monthly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           Unlock my full week &mdash; $7.99/mo
         </a>
       </div>
@@ -538,19 +559,22 @@ export function buildPreviewLeadEmail(
     ${buildFooter(email)}`);
 
   const dinner = hasMeals
-    ? monday.meals.find((m) => m.type === "dinner") ?? monday.meals[0]
+    ? day1.meals.find((m) => m.type === "dinner") ?? day1.meals[0]
     : null;
   return {
-    subject: dinner ? `Your Monday menu: ${dinner.name}` : "Your meal plan preview is saved",
+    subject: dinner
+      ? `Welcome to What's For Dinner — day 1: ${dinner.name}`
+      : "Welcome to What's For Dinner — your day 1 is ready",
     html,
   };
 }
 
 export async function sendPreviewLeadEmail(
   to: string,
-  meals: NurtureMealSummary[]
+  meals: NurtureMealSummary[],
+  hasAccount = false
 ): Promise<void> {
-  const { subject, html } = buildPreviewLeadEmail(to, meals);
+  const { subject, html } = buildPreviewLeadEmail(to, meals, hasAccount);
   const unsubUrl = generateEmailUnsubscribeUrl(to);
 
   // Resend's SDK resolves normally (does not throw) on API-level failures —
@@ -578,20 +602,21 @@ export type NurtureEmailType = "day3" | "day7" | "day14" | `weekly_${number}`;
 export async function sendNurtureEmail(
   to: string,
   type: NurtureEmailType,
-  meals?: NurtureMealSummary[]
+  meals?: NurtureMealSummary[],
+  hasAccount = false
 ): Promise<void> {
   let subject: string;
   let html: string;
 
   if (type === "day3") {
-    ({ subject, html } = buildNurtureDay3Email(to, meals));
+    ({ subject, html } = buildNurtureDay3Email(to, meals, hasAccount));
   } else if (type === "day7") {
-    ({ subject, html } = buildNurtureDay7Email(to, meals));
+    ({ subject, html } = buildNurtureDay7Email(to, meals, hasAccount));
   } else if (type === "day14") {
-    ({ subject, html } = buildNurtureDay14Email(to, meals));
+    ({ subject, html } = buildNurtureDay14Email(to, meals, hasAccount));
   } else if (type.startsWith("weekly_")) {
     const weekIndex = parseInt(type.split("_")[1], 10);
-    ({ subject, html } = buildWeeklyInspirationEmail(to, weekIndex));
+    ({ subject, html } = buildWeeklyInspirationEmail(to, weekIndex, hasAccount));
   } else {
     return;
   }

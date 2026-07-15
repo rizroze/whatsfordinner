@@ -109,26 +109,43 @@ export async function GET(req: NextRequest) {
         }
         console.log(`Nurture cron: sending ${emailType} to ${email.replace(/(.{2}).*@/, "$1***@")} (${daysSinceCreated} days old)`);
 
-        // Lead converted to an account since capture — stop nurturing them
-        const { data: convertedUser } = await admin
+        // Conversion means paid, not signed-up. The paywall sits at the end of
+        // the funnel, so a lead with an account is still a free user and still
+        // belongs in nurture. Checking at send time also means anyone who pays
+        // between runs gets dropped here rather than emailed.
+        const { data: leadUser } = await admin
           .from("users")
-          .select("id")
+          .select("id, subscription_status")
           .eq("email", email.toLowerCase())
           .maybeSingle();
-        if (convertedUser) {
+        if (leadUser?.subscription_status === "active") {
           const cleanedPlanData: Record<string, unknown> = { ...planData };
           delete cleanedPlanData.nurture_email;
           await admin
             .from("meal_plans")
             .update({ plan_data: cleanedPlanData })
             .eq("id", plan.id);
-          console.log(`Nurture cron: ${email.replace(/(.{2}).*@/, "$1***@")} converted — removed from nurture`);
+          console.log(`Nurture cron: ${email.replace(/(.{2}).*@/, "$1***@")} subscribed — removed from nurture`);
           continue;
+        }
+
+        // Free account-holders can opt out from inside the app, which only sets
+        // this flag — it never touches the lead row.
+        if (leadUser) {
+          const { data: leadProfile } = await admin
+            .from("profiles")
+            .select("email_opted_out")
+            .eq("user_id", leadUser.id)
+            .maybeSingle();
+          if (leadProfile?.email_opted_out) {
+            console.log(`Nurture cron: ${email.replace(/(.{2}).*@/, "$1***@")} opted out — skipping`);
+            continue;
+          }
         }
 
         try {
           const meals = (planData.meals as NurtureMealSummary[] | undefined) ?? undefined;
-          await sendNurtureEmail(email, emailType, meals);
+          await sendNurtureEmail(email, emailType, meals, Boolean(leadUser));
 
           const updatedSent = [...nurtureSent, emailType];
           const updatedPlanData: Record<string, unknown> = {

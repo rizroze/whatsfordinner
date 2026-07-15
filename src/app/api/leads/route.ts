@@ -49,14 +49,30 @@ export async function POST(req: NextRequest) {
 
   const admin = createAdminClient();
 
-  // Existing subscribers/accounts don't need nurture
+  // Paying subscribers don't need nurture — but merely having an account is not
+  // conversion any more. Since the paywall moved to the end of the funnel,
+  // signed-in free users are exactly who this track exists for.
   const { data: existingUser } = await admin
     .from("users")
-    .select("id")
+    .select("id, subscription_status")
     .eq("email", email)
     .maybeSingle();
-  if (existingUser) {
+  if (existingUser?.subscription_status === "active") {
     return NextResponse.json({ ok: true });
+  }
+
+  // Account-level opt-out. The type=email unsubscribe path wipes plan_data on
+  // the lead row, but unsubscribing while signed in only flips this flag, which
+  // would otherwise be invisible to a lead row keyed by email alone.
+  if (existingUser) {
+    const { data: profile } = await admin
+      .from("profiles")
+      .select("email_opted_out")
+      .eq("user_id", existingUser.id)
+      .maybeSingle();
+    if (profile?.email_opted_out) {
+      return NextResponse.json({ ok: true });
+    }
   }
 
   // One lead row per email — don't reset the nurture clock on repeat visits
@@ -90,7 +106,7 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    await sendPreviewLeadEmail(email, weekSummary);
+    await sendPreviewLeadEmail(email, weekSummary, Boolean(existingUser));
   } catch (err) {
     // Lead is stored; the nurture cron still covers them
     console.error("Preview lead email failed:", err);
