@@ -30,10 +30,10 @@ const BLANK =
  * `sizes` must track the rendered width at each breakpoint.
  */
 const RESPONSIVE: Partial<Record<CharacterName, { small: number; large: number; sizes: string }>> = {
-  cart: { small: 640, large: 1200, sizes: "(min-width: 640px) 42rem, 100vw" },
+  cart: { small: 600, large: 1000, sizes: "(min-width: 640px) 42rem, 100vw" },
   bench: { small: 640, large: 1200, sizes: "(min-width: 768px) 48rem, 100vw" },
-  phone: { small: 400, large: 640, sizes: "(min-width: 640px) 16rem, 12rem" },
-  row: { small: 640, large: 1200, sizes: "(min-width: 640px) 32rem, 100vw" },
+  phone: { small: 360, large: 512, sizes: "(min-width: 640px) 16rem, 12rem" },
+  row: { small: 560, large: 880, sizes: "(min-width: 640px) 32rem, 100vw" },
 };
 
 interface FoodCharacterProps {
