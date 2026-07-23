@@ -171,7 +171,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
               key={d.value}
               type="button"
               onClick={() => setDiet(d.value)}
-              className={`flex flex-col items-center gap-1 sm:gap-1.5 rounded-2xl border px-1 py-2 sm:px-2 sm:py-4 w-[5.2rem] shrink-0 snap-start sm:w-auto sm:shrink transition-all duration-200 ${
+              className={`flex flex-col items-center justify-center gap-1.5 rounded-2xl border px-1 py-3 sm:px-2 sm:py-4 w-[5.6rem] shrink-0 snap-start sm:w-auto sm:shrink transition-all duration-200 ${
                 diet === d.value
                   ? "border-orange-400 bg-orange-50 shadow-sm"
                   : "border-stone-200 bg-white hover:border-orange-200 hover:bg-orange-50/40"
@@ -179,7 +179,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
             >
               <span className="text-2xl sm:text-3xl leading-none">{d.emoji}</span>
               <span
-                className={`text-[0.7rem] sm:text-sm font-medium leading-tight text-center ${
+                className={`text-xs sm:text-sm font-medium leading-tight text-center ${
                   diet === d.value ? "text-orange-700" : "text-stone-500"
                 }`}
               >
@@ -191,15 +191,18 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
 
         {/* Cuisine — small sub-option row */}
         {/* Cuisine pills: same swipeable-row treatment — wrapping spilled
-            them onto three rows at 390px */}
-        <div className="mt-4 sm:mt-5 flex items-center overflow-x-auto no-scrollbar snap-x -mx-4 px-4 gap-1.5 sm:flex-wrap sm:overflow-visible sm:mx-0 sm:px-0 sm:gap-x-2 sm:gap-y-2">
-          <span className="text-xs sm:text-sm text-stone-500 mr-0.5 sm:mr-1 shrink-0">{t("instant.cuisineLabel")}</span>
+            them onto three rows at 390px. On phones the label sits above the
+            row (mirroring "What do you eat?") — inline, it scrolled away with
+            the pills on the first swipe. */}
+        <p className="mt-4 mb-2 text-sm font-medium text-stone-600 sm:hidden">{t("instant.cuisineLabel")}</p>
+        <div className="sm:mt-5 flex items-center overflow-x-auto no-scrollbar snap-x -mx-4 px-4 gap-2 sm:flex-wrap sm:overflow-visible sm:mx-0 sm:px-0 sm:gap-x-2 sm:gap-y-2">
+          <span className="hidden sm:inline text-sm text-stone-500 mr-1 shrink-0">{t("instant.cuisineLabel")}</span>
           {CUISINES.map((c) => (
             <button
               key={c.value}
               type="button"
               onClick={() => setCuisine(c.value)}
-              className={`rounded-full px-2.5 py-1 sm:px-3 sm:py-1.5 text-xs sm:text-sm font-medium whitespace-nowrap shrink-0 snap-start sm:shrink transition-all duration-200 ${
+              className={`rounded-full px-3 py-1.5 sm:py-1.5 text-xs sm:text-sm font-medium whitespace-nowrap shrink-0 snap-start sm:shrink transition-all duration-200 ${
                 cuisine === c.value
                   ? "bg-orange-500 text-white shadow-sm"
                   : "bg-stone-100 text-stone-500 hover:bg-orange-100 hover:text-orange-700"
@@ -247,18 +250,6 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
             ))}
           </div>
         </div>
-
-        {/* On phones the intro phrase wrapped this to two lines right above
-            the CTA — the link alone carries the meaning there. */}
-        <p className="mt-2.5 sm:mt-3 text-xs sm:text-sm text-stone-400">
-          <span className="hidden sm:inline">{t("instant.caloriesHelp")} </span>
-          <Link
-            href="/tools/calorie-calculator"
-            className="text-orange-500 hover:text-orange-600 underline underline-offset-2 transition-colors"
-          >
-            {t("instant.caloriesHelpLink")}
-          </Link>
-        </p>
 
         {/* Generate */}
         <button

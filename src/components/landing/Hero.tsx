@@ -74,11 +74,13 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
         </div>
 
         {/* Supporting copy lives below the generator so the widget is the star */}
-        <div className="mt-6 sm:mt-8 flex flex-col items-center gap-2.5 sm:gap-3">
-          <p className="text-base sm:text-xl font-semibold text-orange-500 max-w-2xl mx-auto">
+        <div className="mt-6 sm:mt-8 flex flex-col items-center gap-2 sm:gap-3">
+          {/* Quieter on phones — this copy was competing with the widget for
+              the space right under the fold */}
+          <p className="text-sm sm:text-xl font-semibold text-orange-500 max-w-xs sm:max-w-2xl mx-auto">
             {t("landing.hero.subtitle")}
           </p>
-          <p className="text-sm sm:text-lg text-stone-600 max-w-xl mx-auto leading-relaxed whitespace-pre-line">
+          <p className="text-xs sm:text-lg text-stone-600 max-w-xs sm:max-w-xl mx-auto leading-relaxed whitespace-pre-line">
             {t("landing.hero.description")}
           </p>
 
