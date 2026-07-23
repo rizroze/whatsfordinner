@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { WatermelonCharacter } from "@/components/ui/FoodCharacters";
+import { FoodCharacter } from "@/components/ui/FoodCharacter";
 import { useT } from "@/lib/i18n/context";
 import { track } from "@vercel/analytics";
 import { cn } from "@/lib/utils";
@@ -326,7 +326,7 @@ export function FreeToday({ diet, cuisine, calories, meals }: FreeTodayProps) {
               </Link>
               <p className="mt-2.5 text-xs text-stone-400">{t("instant.upsellNote")}</p>
             </div>
-            <WatermelonCharacter className="hidden sm:block w-24 shrink-0" />
+            <FoodCharacter name="bag" className="hidden sm:block w-24 shrink-0" />
           </div>
         </CardContent>
       </Card>

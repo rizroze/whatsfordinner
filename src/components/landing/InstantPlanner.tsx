@@ -4,7 +4,7 @@ import { useState, useRef } from "react";
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 import { track } from "@vercel/analytics";
-import { CarrotCharacter } from "@/components/ui/FoodCharacters";
+import { FoodCharacter } from "@/components/ui/FoodCharacter";
 
 // ETM-style instant generator: a real 1-day plan in one click, no signup.
 // Rule-based from the recipe library (zero AI tokens) — the paid product
@@ -373,7 +373,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
               style={{ animationDelay: `${(plan.meals.length + 1) * 90}ms` }}
               className="fade-up rounded-2xl border border-orange-200 bg-orange-50 p-5 sm:p-6 text-center lg:sticky lg:top-4"
             >
-              <CarrotCharacter className="mx-auto w-20 sm:w-24" />
+              <FoodCharacter name="pasta" className="mx-auto w-20 sm:w-24" />
               <p className="mt-2 text-lg sm:text-xl font-bold text-stone-900 leading-snug">
                 {t("instant.upsellTitle")}
               </p>

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useT } from "@/lib/i18n/context";
 import { InstantPlanner } from "@/components/landing/InstantPlanner";
-import { AvocadoCharacter, WatermelonCharacter } from "@/components/ui/FoodCharacters";
+import { HeroCharacterRow } from "@/components/ui/FoodCharacter";
 
 // Slow count-up with ease-out deceleration (slot machine settling effect)
 function useCountUp(target: number, duration = 4000): number {
@@ -54,13 +54,13 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           {t("landing.hero.title")}
         </h1>
 
-        {/* Instant generator — the ETM-style "try it right here" hero,
-            with mascots peeking around the card corners on desktop.
-            Wrapper matches the widget width so the characters anchor to
-            the card, not the page edge. */}
-        <div className="relative max-w-4xl mx-auto">
-          <AvocadoCharacter className="hidden lg:block absolute -top-12 -right-6 w-24 rotate-6" />
-          <WatermelonCharacter className="hidden lg:block absolute -bottom-9 -left-8 w-24 -rotate-6" />
+        {/* Instant generator — the ETM-style "try it right here" hero. The
+            mascot row is cropped at its seat line and pinned to the top of the
+            card, so it reads as the four of them perched on the widget. The
+            row sits behind the card (-z-10) so their lower halves tuck under
+            the card's top edge instead of floating over it. */}
+        <div className="relative max-w-4xl mx-auto lg:mt-24">
+          <HeroCharacterRow className="hidden lg:block absolute -z-10 bottom-full left-1/2 -translate-x-1/2 translate-y-5 w-[30rem] max-w-full" />
           <InstantPlanner isSignedIn={isSignedIn} />
         </div>
 

@@ -10,13 +10,7 @@ import { useT, LANGUAGES, type Locale } from "@/lib/i18n/context";
 import { generateFingerprint } from "@/lib/fingerprint";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@vercel/analytics";
-import {
-  OrangeCharacter,
-  AvocadoCharacter,
-  StrawberryCharacter,
-  BroccoliCharacter,
-  CarrotCharacter,
-} from "@/components/ui/FoodCharacters";
+import { FoodCharacter, type CharacterName } from "@/components/ui/FoodCharacter";
 import {
   StepHousehold,
   type OnboardingFormData,
@@ -34,13 +28,15 @@ const STEP_KEYS = [
   "onboarding.steps.delivery",
 ];
 
-// One friendly mascot per step (ETM-style cheerleaders, our own artwork)
-const STEP_CHARACTERS = [
-  OrangeCharacter,
-  AvocadoCharacter,
-  StrawberryCharacter,
-  BroccoliCharacter,
-  CarrotCharacter,
+// One mascot per step, matched to what the step asks for: a shared bowl for
+// the household, the grocery bag for budget, plain produce for dietary needs,
+// a taco for cuisine taste, and an envelope for where we deliver the plan.
+const STEP_CHARACTERS: CharacterName[] = [
+  "pasta",
+  "bag",
+  "tomato",
+  "taco",
+  "envelope",
 ];
 
 const INITIAL_DATA: OnboardingFormData = {
@@ -456,10 +452,13 @@ function OnboardingContent() {
         </div>
 
         {/* Step mascot — peeks over the card */}
-        {!profileLoading && !blocked && (() => {
-          const StepCharacter = STEP_CHARACTERS[currentStep];
-          return <StepCharacter className="mx-auto -mb-2 w-16 sm:w-20 relative z-10" />;
-        })()}
+        {!profileLoading && !blocked && (
+          <FoodCharacter
+            name={STEP_CHARACTERS[currentStep]}
+            priority
+            className="mx-auto -mb-2 w-16 sm:w-20 relative z-10"
+          />
+        )}
 
         {/* Step content */}
         <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 sm:p-8 mb-4 sm:mb-6">
