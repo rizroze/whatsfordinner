@@ -132,13 +132,15 @@ export default async function OGImage() {
           </div>
         </div>
 
-        {/* The cast, sitting along the bottom */}
+        {/* The cast along the bottom. Dimensions track the art's 2.47:1 ratio —
+            satori does not infer intrinsic size, so a mismatch silently
+            stretches it. */}
         <img
           src={castSrc}
           alt=""
-          width={700}
-          height={238}
-          style={{ display: "flex", marginLeft: 250, marginBottom: 34 }}
+          width={660}
+          height={267}
+          style={{ display: "flex", marginLeft: 270, marginBottom: 26 }}
         />
 
         {/* Bottom bar */}
