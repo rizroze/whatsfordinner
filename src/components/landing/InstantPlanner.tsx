@@ -165,7 +165,11 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
             effective fold once browser chrome is subtracted. -mx/px let the
             row bleed to the card edge so a cut-off tile signals swipeability. */}
         <p className="text-sm sm:text-base font-medium text-stone-600 mb-3">{t("instant.dietLabel")}</p>
-        <div className="flex overflow-x-auto no-scrollbar snap-x -mx-4 px-4 gap-2 sm:grid sm:grid-cols-6 sm:overflow-visible sm:mx-0 sm:px-0 sm:gap-2.5">
+        {/* Bleed lives on this wrapper, not the scrolling row, so the fade
+            overlay below can sit flush at the card edge instead of scrolling
+            away with the tiles — a hard clip with no fade read as broken. */}
+        <div className="relative -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div className="flex overflow-x-auto no-scrollbar snap-x gap-2 sm:grid sm:grid-cols-6 sm:overflow-visible sm:gap-2.5">
           {DIETS.map((d) => (
             <button
               key={d.value}
@@ -188,6 +192,11 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
             </button>
           ))}
         </div>
+        {/* Static fade, not scroll-linked — simplest version that still
+            fixes the "looks broken" read. Only ever the trailing edge since
+            the row starts fully scrolled-left with nothing hidden there. */}
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-white to-transparent sm:hidden" />
+        </div>
 
         {/* Cuisine — small sub-option row */}
         {/* Cuisine pills: same swipeable-row treatment — wrapping spilled
@@ -195,7 +204,8 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
             row (mirroring "What do you eat?") — inline, it scrolled away with
             the pills on the first swipe. */}
         <p className="mt-4 mb-2 text-sm font-medium text-stone-600 sm:hidden">{t("instant.cuisineLabel")}</p>
-        <div className="sm:mt-5 flex items-center overflow-x-auto no-scrollbar snap-x -mx-4 px-4 gap-2 sm:flex-wrap sm:overflow-visible sm:mx-0 sm:px-0 sm:gap-x-2 sm:gap-y-2">
+        <div className="relative -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div className="sm:mt-5 flex items-center overflow-x-auto no-scrollbar snap-x gap-2 sm:flex-wrap sm:overflow-visible sm:gap-x-2 sm:gap-y-2">
           <span className="hidden sm:inline text-sm text-stone-500 mr-1 shrink-0">{t("instant.cuisineLabel")}</span>
           {CUISINES.map((c) => (
             <button
@@ -211,6 +221,8 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
               {t(c.key)}
             </button>
           ))}
+        </div>
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-white to-transparent sm:hidden" />
         </div>
 
         {/* Calories + meals */}
