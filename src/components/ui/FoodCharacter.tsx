@@ -93,6 +93,39 @@ export function FoodCharacter({
 }
 
 /**
+ * Footer band. Two different crops, not two sizes of one: the wide art puts
+ * the crew at one end of a bench that runs the full viewport width, which
+ * only reads as intentional edge to edge. At phone widths that same crop
+ * would shrink each character to ~44px, so small screens get the tight
+ * centered version instead.
+ */
+export function FooterBench() {
+  return (
+    <>
+      <FoodCharacter
+        name="bench"
+        className="sm:hidden w-full max-w-[20rem] mx-auto px-6 mb-8"
+      />
+      <picture className="hidden sm:block">
+        <source
+          srcSet="/characters/bench-wide-1200.webp 1200w, /characters/bench-wide.webp 1920w"
+          sizes="100vw"
+        />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/characters/bench-wide.webp"
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          className="w-full mb-10"
+        />
+      </picture>
+    </>
+  );
+}
+
+/**
  * A stack of mascots where only the active one is visible, cross-fading on
  * change. Every frame is in the DOM from first paint, so stepping forward
  * swaps instantly instead of waiting on a fetch — the reason the plain
