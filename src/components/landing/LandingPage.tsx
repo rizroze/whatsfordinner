@@ -58,10 +58,12 @@ export function LandingPage() {
           )}
           {!isSignedIn && (
             <Button asChild size="sm" className="whitespace-nowrap">
-              {/* The generator IS the free trial now — jump to it instead of onboarding */}
-              <a href="#instant-planner">
+              {/* Straight into onboarding, matching the secondary CTA on the
+                  pricing cards. Previously this only scrolled to the hero
+                  widget, which the visitor is already looking at. */}
+              <Link href="/onboarding">
                 {t("common.tryFree")}
-              </a>
+              </Link>
             </Button>
           )}
         </div>
