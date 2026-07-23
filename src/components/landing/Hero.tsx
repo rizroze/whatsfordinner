@@ -59,8 +59,8 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
             card, so it reads as the four of them perched on the widget. The
             row sits behind the card (-z-10) so their lower halves tuck under
             the card's top edge instead of floating over it. */}
-        <div className="relative max-w-4xl mx-auto lg:mt-24">
-          <HeroCharacterRow className="hidden lg:block absolute -z-10 bottom-full left-1/2 -translate-x-1/2 translate-y-5 w-[30rem] max-w-full" />
+        <div className="relative max-w-4xl mx-auto lg:mt-40">
+          <HeroCharacterRow className="hidden lg:block absolute -z-10 bottom-full left-1/2 -translate-x-1/2 translate-y-1 w-[38rem] max-w-full" />
           <InstantPlanner isSignedIn={isSignedIn} />
         </div>
 

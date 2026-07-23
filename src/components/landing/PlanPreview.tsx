@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
+import { FoodCharacter } from "@/components/ui/FoodCharacter";
 
 const SAMPLE_DAYS_DATA = [
   {
@@ -58,6 +59,10 @@ export function PlanPreview({ isSignedIn }: { isSignedIn?: boolean }) {
   return (
     <section className="py-24 sm:py-32 border-t border-stone-100">
       <div className="max-w-5xl mx-auto px-6">
+        {/* This section shows the week you actually receive — the bowl climbing
+            out of a phone is the "it lands on your device" beat. */}
+        <FoodCharacter name="phone" className="w-48 sm:w-64 mx-auto mb-2" />
+
         <h2 className="text-3xl sm:text-4xl font-bold text-stone-900 text-center tracking-tight">
           {t("landing.preview.title")}
         </h2>

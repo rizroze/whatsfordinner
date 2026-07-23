@@ -1,6 +1,7 @@
 "use client";
 
 import { useT } from "@/lib/i18n/context";
+import { FoodCharacter } from "@/components/ui/FoodCharacter";
 
 export function HowItWorks() {
   const { t } = useT();
@@ -83,7 +84,13 @@ export function HowItWorks() {
           {t("landing.howItWorks.subtitle")}
         </p>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+        {/* The crew doing the shopping — this section is literally about
+            gathering the week's groceries, so the cart art belongs here. */}
+        {/* Tight margins on purpose: the render carries its own transparent
+            glow padding, so normal section spacing reads as a dead gap. */}
+        <FoodCharacter name="cart" className="mt-2 w-full max-w-2xl mx-auto" />
+
+        <div className="mt-2 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
           {steps.map((step) => (
             <div key={step.number} className="flex flex-col items-center text-center">
               {/* Number + Icon */}

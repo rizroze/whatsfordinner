@@ -10,7 +10,7 @@ import { useT, LANGUAGES, type Locale } from "@/lib/i18n/context";
 import { generateFingerprint } from "@/lib/fingerprint";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@vercel/analytics";
-import { FoodCharacter, type CharacterName } from "@/components/ui/FoodCharacter";
+import { CharacterStack, type CharacterName } from "@/components/ui/FoodCharacter";
 import {
   StepHousehold,
   type OnboardingFormData,
@@ -453,10 +453,10 @@ function OnboardingContent() {
 
         {/* Step mascot — peeks over the card */}
         {!profileLoading && !blocked && (
-          <FoodCharacter
-            name={STEP_CHARACTERS[currentStep]}
-            priority
-            className="mx-auto -mb-2 w-16 sm:w-20 relative z-10"
+          <CharacterStack
+            names={STEP_CHARACTERS}
+            activeIndex={currentStep}
+            className="mx-auto -mb-2 w-16 sm:w-20 z-10"
           />
         )}
 

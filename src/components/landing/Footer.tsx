@@ -3,12 +3,16 @@
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 import { getLocalePath, getMealPlansPath, getRecipesPath } from "@/lib/i18n/locales";
+import { FoodCharacter } from "@/components/ui/FoodCharacter";
 
 export function Footer() {
   const { t, locale } = useT();
 
   return (
-    <footer className="border-t border-stone-100 py-12">
+    <footer className="border-t border-stone-100 pt-12 pb-12">
+      {/* The crew signing off on their bench — a closing beat above the links. */}
+      <FoodCharacter name="bench" className="w-full max-w-3xl mx-auto px-6 mb-10" />
+
       <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="text-sm font-semibold text-stone-800 tracking-tight">
           {t("landing.footer.brand")}
