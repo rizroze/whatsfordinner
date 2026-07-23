@@ -193,3 +193,32 @@ export function HeroCharacterRow({ className }: { className?: string }) {
     </picture>
   );
 }
+
+/**
+ * Test variant: same four mascots, but posed gripping an unseen ledge and
+ * cropped at their paws instead of a seat line. Meant to render IN FRONT of
+ * the card (unlike HeroCharacterRow, which sits behind it) with the paws
+ * dipping slightly into the card's top edge, like they're climbing over it.
+ * pointer-events-none is load-bearing here: once art sits in front of the
+ * card, its rectangular hit box would otherwise swallow clicks on whatever
+ * card content it visually overlaps, even over transparent pixels.
+ */
+export function HeroClimbRow({ className }: { className?: string }) {
+  return (
+    <picture>
+      <source media="(max-width: 1023px)" srcSet={BLANK} />
+      <source
+        srcSet="/characters/hero-climb-800.webp 800w, /characters/hero-climb.webp 1574w"
+        sizes="38rem"
+      />
+      <img
+        src="/characters/hero-climb.webp"
+        alt=""
+        aria-hidden="true"
+        loading="eager"
+        decoding="async"
+        className={`pointer-events-none ${className ?? ""}`}
+      />
+    </picture>
+  );
+}

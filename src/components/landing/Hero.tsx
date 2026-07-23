@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useT } from "@/lib/i18n/context";
 import { InstantPlanner } from "@/components/landing/InstantPlanner";
-import { HeroCharacterRow } from "@/components/ui/FoodCharacter";
+import { HeroClimbRow } from "@/components/ui/FoodCharacter";
 
 // Slow count-up with ease-out deceleration (slot machine settling effect)
 function useCountUp(target: number, duration = 4000): number {
@@ -56,18 +56,13 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
           {t("landing.hero.title")}
         </h1>
 
-        {/* Instant generator — the ETM-style "try it right here" hero. The
-            mascot row is cropped at its seat line and pinned to the top of the
-            card, so it reads as the four of them perched on the widget. The
-            row sits behind the card (-z-10) so their lower halves tuck under
-            the card's top edge instead of floating over it. */}
+        {/* Instant generator — the ETM-style "try it right here" hero.
+            Test: mascots climbing over the card's top edge, in front of it
+            instead of behind — z-20 beats the card's z-10, and translate-y
+            is deep enough that the paws visibly rest on the card surface
+            rather than just touching its border. */}
         <div className="relative max-w-4xl mx-auto lg:mt-40">
-          {/* No negative z-index here: this wrapper sets no z-index of its own,
-              so a -z-10 child escapes to the section's stacking context and
-              lands *behind* the decorative blur circles above — which washed
-              the characters out. Painting order alone puts the row under the
-              card, since the card is explicitly raised. */}
-          <HeroCharacterRow className="hidden lg:block absolute bottom-full left-1/2 -translate-x-1/2 translate-y-1 w-[38rem] max-w-full" />
+          <HeroClimbRow className="hidden lg:block absolute bottom-full z-20 left-1/2 -translate-x-1/2 translate-y-8 w-[38rem] max-w-full" />
           <div className="relative z-10">
             <InstantPlanner isSignedIn={isSignedIn} />
           </div>
