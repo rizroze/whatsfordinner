@@ -111,7 +111,6 @@ export function FooterBench() {
           srcSet="/characters/bench-wide-1200.webp 1200w, /characters/bench-wide.webp 1920w"
           sizes="100vw"
         />
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/characters/bench-wide.webp"
           alt=""
