@@ -33,6 +33,7 @@ const RESPONSIVE: Partial<Record<CharacterName, { small: number; large: number; 
   cart: { small: 640, large: 1200, sizes: "(min-width: 640px) 42rem, 100vw" },
   bench: { small: 640, large: 1200, sizes: "(min-width: 768px) 48rem, 100vw" },
   phone: { small: 400, large: 640, sizes: "(min-width: 640px) 16rem, 12rem" },
+  row: { small: 640, large: 1200, sizes: "(min-width: 640px) 32rem, 100vw" },
 };
 
 interface FoodCharacterProps {

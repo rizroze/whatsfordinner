@@ -10,6 +10,10 @@ export default async function OGImage() {
   const interExtraBold = await readFile(join(process.cwd(), "public", "Inter-ExtraBold.woff"));
   const iconData = await readFile(join(process.cwd(), "public", "favicon.png"));
   const iconSrc = `data:image/png;base64,${iconData.toString("base64")}`;
+  // JPEG, pre-flattened onto the card background: satori rasterizes PNG/JPEG
+  // reliably but not WebP, and flattening keeps it off the alpha path.
+  const castData = await readFile(join(process.cwd(), "public", "og-characters.jpg"));
+  const castSrc = `data:image/jpeg;base64,${castData.toString("base64")}`;
 
   return new ImageResponse(
     (
@@ -76,14 +80,14 @@ export default async function OGImage() {
             alignItems: "center",
             justifyContent: "center",
             flex: 1,
-            padding: "0 100px",
+            padding: "70px 100px 0",
           }}
         >
           {/* Headline */}
           <div
             style={{
               fontFamily: "Inter",
-              fontSize: 86,
+              fontSize: 76,
               fontWeight: 800,
               color: "#0C0A09",
               textAlign: "center",
@@ -97,7 +101,7 @@ export default async function OGImage() {
           <div
             style={{
               fontFamily: "Inter",
-              fontSize: 86,
+              fontSize: 76,
               fontWeight: 800,
               color: "#0C0A09",
               textAlign: "center",
@@ -109,51 +113,33 @@ export default async function OGImage() {
             planned in 30 seconds
           </div>
 
-          {/* Subheadline */}
+          {/* Subheadline. The "Get Started" pill and the third text line that
+              used to sit here are gone: nothing in a preview card is
+              clickable, and the art says more at thumbnail size than a
+              fourth line of copy. */}
           <div
             style={{
               fontFamily: "Inter",
-              fontSize: 28,
+              fontSize: 26,
               fontWeight: 800,
               color: "#F97316",
-              marginTop: 20,
+              marginTop: 18,
               textAlign: "center",
               display: "flex",
             }}
           >
             Personalized meal plans, recipes and a grocery list.
           </div>
-
-          {/* Subtitle */}
-          <div
-            style={{
-              fontSize: 18,
-              fontWeight: 400,
-              color: "#A8A29E",
-              marginTop: 16,
-              textAlign: "center",
-              display: "flex",
-            }}
-          >
-            Delivered to your inbox every Sunday. Every week, automatically.
-          </div>
-
-          {/* CTA pill */}
-          <div
-            style={{
-              marginTop: 28,
-              background: "#F97316",
-              color: "white",
-              fontSize: 20,
-              fontWeight: 700,
-              padding: "12px 36px",
-              borderRadius: 50,
-              display: "flex",
-            }}
-          >
-            Get Started
-          </div>
         </div>
+
+        {/* The cast, sitting along the bottom */}
+        <img
+          src={castSrc}
+          alt=""
+          width={700}
+          height={238}
+          style={{ display: "flex", marginLeft: 250, marginBottom: 34 }}
+        />
 
         {/* Bottom bar */}
         <div

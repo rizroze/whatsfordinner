@@ -60,8 +60,15 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
             row sits behind the card (-z-10) so their lower halves tuck under
             the card's top edge instead of floating over it. */}
         <div className="relative max-w-4xl mx-auto lg:mt-40">
-          <HeroCharacterRow className="hidden lg:block absolute -z-10 bottom-full left-1/2 -translate-x-1/2 translate-y-1 w-[38rem] max-w-full" />
-          <InstantPlanner isSignedIn={isSignedIn} />
+          {/* No negative z-index here: this wrapper sets no z-index of its own,
+              so a -z-10 child escapes to the section's stacking context and
+              lands *behind* the decorative blur circles above — which washed
+              the characters out. Painting order alone puts the row under the
+              card, since the card is explicitly raised. */}
+          <HeroCharacterRow className="hidden lg:block absolute bottom-full left-1/2 -translate-x-1/2 translate-y-1 w-[38rem] max-w-full" />
+          <div className="relative z-10">
+            <InstantPlanner isSignedIn={isSignedIn} />
+          </div>
         </div>
 
         {/* Supporting copy lives below the generator so the widget is the star */}

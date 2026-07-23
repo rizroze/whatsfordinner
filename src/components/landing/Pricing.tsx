@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 
 import { useT } from "@/lib/i18n/context";
+import { FoodCharacter } from "@/components/ui/FoodCharacter";
 
 function Check() {
   return (
@@ -56,8 +57,13 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
           {t("landing.pricing.subtitle")}
         </p>
 
+        {/* The whole cast lined up at the decision moment — warmth where the
+            page asks for money. Tight margins: the render carries its own
+            transparent padding. */}
+        <FoodCharacter name="row" className="mt-2 w-full max-w-lg mx-auto" />
+
         {/* Cards */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto">
+        <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto">
           {/* Monthly */}
           <div className="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col">
             <div className="flex items-center justify-between">
