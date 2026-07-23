@@ -60,7 +60,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
         {/* The whole cast lined up at the decision moment — warmth where the
             page asks for money. Tight margins: the render carries its own
             transparent padding. */}
-        <FoodCharacter name="row" className="mt-2 w-full max-w-lg mx-auto" />
+        <FoodCharacter name="row" className="mt-2 w-full max-w-[16rem] sm:max-w-lg mx-auto" />
 
         {/* Cards */}
         <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl mx-auto">

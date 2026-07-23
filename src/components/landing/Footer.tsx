@@ -11,14 +11,16 @@ export function Footer() {
   return (
     <footer className="border-t border-stone-100 pt-12 pb-12">
       {/* The crew signing off on their bench — a closing beat above the links. */}
-      <FoodCharacter name="bench" className="w-full max-w-3xl mx-auto px-6 mb-10" />
+      <FoodCharacter name="bench" className="w-full max-w-[20rem] sm:max-w-3xl mx-auto px-6 mb-8 sm:mb-10" />
 
       <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="text-sm font-semibold text-stone-800 tracking-tight">
           {t("landing.footer.brand")}
         </div>
 
-        <nav className="flex items-center gap-6">
+        {/* Wraps on phones — seven links at gap-6 overflowed 390px and pushed
+            the last one past the right edge. */}
+        <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 sm:gap-6">
           <Link
             href={getLocalePath(locale, "blog")}
             className="text-sm text-stone-400 hover:text-orange-600 transition-colors duration-200"

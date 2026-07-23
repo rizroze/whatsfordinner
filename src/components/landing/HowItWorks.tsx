@@ -88,7 +88,7 @@ export function HowItWorks() {
             gathering the week's groceries, so the cart art belongs here. */}
         {/* Tight margins on purpose: the render carries its own transparent
             glow padding, so normal section spacing reads as a dead gap. */}
-        <FoodCharacter name="cart" className="mt-2 w-full max-w-2xl mx-auto" />
+        <FoodCharacter name="cart" className="mt-2 w-full max-w-[18rem] sm:max-w-2xl mx-auto" />
 
         <div className="mt-2 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
           {steps.map((step) => (

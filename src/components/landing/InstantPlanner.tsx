@@ -159,24 +159,26 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
 
   return (
     <div ref={cardRef} id="instant-planner" className="mt-10 sm:mt-12 max-w-4xl mx-auto text-left scroll-mt-24">
-      <div className="bg-white rounded-3xl border border-stone-100 shadow-lg p-6 sm:p-9">
-        {/* Diet tiles */}
+      <div className="bg-white rounded-3xl border border-stone-100 shadow-lg p-4 sm:p-9">
+        {/* Diet tiles. Sized down hard on phones: at 390px these are ~105px
+            wide, so desktop padding and a 30px emoji made them tall blocks
+            with labels wrapping onto two lines. */}
         <p className="text-sm sm:text-base font-medium text-stone-600 mb-3">{t("instant.dietLabel")}</p>
-        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2.5">
+        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 sm:gap-2.5">
           {DIETS.map((d) => (
             <button
               key={d.value}
               type="button"
               onClick={() => setDiet(d.value)}
-              className={`flex flex-col items-center gap-1.5 rounded-2xl border px-2 py-4 transition-all duration-200 ${
+              className={`flex flex-col items-center gap-1 sm:gap-1.5 rounded-2xl border px-1 py-2.5 sm:px-2 sm:py-4 transition-all duration-200 ${
                 diet === d.value
                   ? "border-orange-400 bg-orange-50 shadow-sm"
                   : "border-stone-200 bg-white hover:border-orange-200 hover:bg-orange-50/40"
               }`}
             >
-              <span className="text-3xl leading-none">{d.emoji}</span>
+              <span className="text-2xl sm:text-3xl leading-none">{d.emoji}</span>
               <span
-                className={`text-xs sm:text-sm font-medium leading-tight text-center ${
+                className={`text-[0.7rem] sm:text-sm font-medium leading-tight text-center ${
                   diet === d.value ? "text-orange-700" : "text-stone-500"
                 }`}
               >
@@ -187,14 +189,14 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
         </div>
 
         {/* Cuisine — small sub-option row */}
-        <div className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-2">
-          <span className="text-sm text-stone-500 mr-1">{t("instant.cuisineLabel")}</span>
+        <div className="mt-4 sm:mt-5 flex flex-wrap items-center gap-x-1.5 gap-y-1.5 sm:gap-x-2 sm:gap-y-2">
+          <span className="text-xs sm:text-sm text-stone-500 mr-0.5 sm:mr-1">{t("instant.cuisineLabel")}</span>
           {CUISINES.map((c) => (
             <button
               key={c.value}
               type="button"
               onClick={() => setCuisine(c.value)}
-              className={`rounded-full px-3 py-1.5 text-xs sm:text-sm font-medium transition-all duration-200 ${
+              className={`rounded-full px-2.5 py-1 sm:px-3 sm:py-1.5 text-xs sm:text-sm font-medium whitespace-nowrap transition-all duration-200 ${
                 cuisine === c.value
                   ? "bg-orange-500 text-white shadow-sm"
                   : "bg-stone-100 text-stone-500 hover:bg-orange-100 hover:text-orange-700"
@@ -206,9 +208,12 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
         </div>
 
         {/* Calories + meals */}
-        <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-7">
-          <div className="flex items-center gap-2.5">
-            <span className="text-base text-stone-600">{t("instant.caloriesLabel")}</span>
+        {/* The label + input + unit did not fit on one 390px line and broke
+            across three, so both bits of text shrink and the row is allowed
+            to wrap as a unit rather than mid-phrase. */}
+        <div className="mt-5 sm:mt-6 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-7">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
+            <span className="text-sm sm:text-base text-stone-600 whitespace-nowrap">{t("instant.caloriesLabel")}</span>
             <input
               type="number"
               inputMode="numeric"
@@ -217,9 +222,9 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
               step={50}
               value={calories}
               onChange={(e) => setCalories(e.target.value)}
-              className="w-24 rounded-xl border border-stone-200 px-2 py-2 text-center text-lg font-semibold text-stone-800 focus:border-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-100 transition-all duration-200"
+              className="w-20 sm:w-24 rounded-xl border border-stone-200 px-2 py-1.5 sm:py-2 text-center text-base sm:text-lg font-semibold text-stone-800 focus:border-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-100 transition-all duration-200"
             />
-            <span className="text-base text-stone-600">{t("instant.caloriesUnit")}</span>
+            <span className="text-sm sm:text-base text-stone-600 whitespace-nowrap">{t("instant.caloriesUnit")}</span>
           </div>
 
           <div className="flex items-center gap-2">
@@ -228,7 +233,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
                 key={m}
                 type="button"
                 onClick={() => setMeals(m)}
-                className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 ${
+                className={`rounded-full px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium whitespace-nowrap transition-all duration-200 ${
                   meals === m
                     ? "bg-orange-500 text-white shadow-sm"
                     : "bg-stone-100 text-stone-500 hover:bg-orange-100 hover:text-orange-700"
@@ -255,7 +260,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
           type="button"
           onClick={handleGenerate}
           disabled={busy}
-          className="mt-6 w-full inline-flex items-center justify-center gap-2.5 rounded-full bg-orange-500 px-8 py-4 text-lg font-semibold text-white shadow-md transition-all duration-200 hover:bg-orange-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 active:bg-orange-700 disabled:opacity-60 disabled:hover:translate-y-0"
+          className="mt-5 sm:mt-6 w-full inline-flex items-center justify-center gap-2.5 rounded-full bg-orange-500 px-6 sm:px-8 py-3.5 sm:py-4 text-base sm:text-lg font-semibold text-white shadow-md transition-all duration-200 hover:bg-orange-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 active:bg-orange-700 disabled:opacity-60 disabled:hover:translate-y-0"
         >
           {loading ? (
             <>
