@@ -33,10 +33,10 @@ export function LandingPage() {
   return (
     <main>
       {/* Site header */}
-      <nav className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <Link href="/" className="shrink-0 inline-flex items-center justify-center w-12 h-12 bg-orange-500 rounded-full">
-            <img src="/logo-white.svg" alt="What's For Dinner" className="w-7 h-7" />
+      <nav className="max-w-6xl mx-auto px-4 sm:px-6 py-3.5 sm:py-6 flex items-center justify-between">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <Link href="/" className="shrink-0 inline-flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 bg-orange-500 rounded-full">
+            <img src="/logo-white.svg" alt="What's For Dinner" className="w-6 h-6 sm:w-7 sm:h-7" />
           </Link>
           <LanguagePicker />
         </div>

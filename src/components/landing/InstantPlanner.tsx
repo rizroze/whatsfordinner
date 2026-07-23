@@ -158,19 +158,20 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const busy = loading || swappingSlot !== null;
 
   return (
-    <div ref={cardRef} id="instant-planner" className="mt-10 sm:mt-12 max-w-4xl mx-auto text-left scroll-mt-24">
+    <div ref={cardRef} id="instant-planner" className="mt-6 sm:mt-12 max-w-4xl mx-auto text-left scroll-mt-24">
       <div className="bg-white rounded-3xl border border-stone-100 shadow-lg p-4 sm:p-9">
-        {/* Diet tiles. Sized down hard on phones: at 390px these are ~105px
-            wide, so desktop padding and a 30px emoji made them tall blocks
-            with labels wrapping onto two lines. */}
+        {/* Diet tiles. On phones this is one horizontally swipeable row —
+            two stacked grid rows pushed the Generate button below the
+            effective fold once browser chrome is subtracted. -mx/px let the
+            row bleed to the card edge so a cut-off tile signals swipeability. */}
         <p className="text-sm sm:text-base font-medium text-stone-600 mb-3">{t("instant.dietLabel")}</p>
-        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 sm:gap-2.5">
+        <div className="flex overflow-x-auto no-scrollbar snap-x -mx-4 px-4 gap-2 sm:grid sm:grid-cols-6 sm:overflow-visible sm:mx-0 sm:px-0 sm:gap-2.5">
           {DIETS.map((d) => (
             <button
               key={d.value}
               type="button"
               onClick={() => setDiet(d.value)}
-              className={`flex flex-col items-center gap-1 sm:gap-1.5 rounded-2xl border px-1 py-2.5 sm:px-2 sm:py-4 transition-all duration-200 ${
+              className={`flex flex-col items-center gap-1 sm:gap-1.5 rounded-2xl border px-1 py-2 sm:px-2 sm:py-4 w-[5.2rem] shrink-0 snap-start sm:w-auto sm:shrink transition-all duration-200 ${
                 diet === d.value
                   ? "border-orange-400 bg-orange-50 shadow-sm"
                   : "border-stone-200 bg-white hover:border-orange-200 hover:bg-orange-50/40"
@@ -189,14 +190,16 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
         </div>
 
         {/* Cuisine — small sub-option row */}
-        <div className="mt-4 sm:mt-5 flex flex-wrap items-center gap-x-1.5 gap-y-1.5 sm:gap-x-2 sm:gap-y-2">
-          <span className="text-xs sm:text-sm text-stone-500 mr-0.5 sm:mr-1">{t("instant.cuisineLabel")}</span>
+        {/* Cuisine pills: same swipeable-row treatment — wrapping spilled
+            them onto three rows at 390px */}
+        <div className="mt-4 sm:mt-5 flex items-center overflow-x-auto no-scrollbar snap-x -mx-4 px-4 gap-1.5 sm:flex-wrap sm:overflow-visible sm:mx-0 sm:px-0 sm:gap-x-2 sm:gap-y-2">
+          <span className="text-xs sm:text-sm text-stone-500 mr-0.5 sm:mr-1 shrink-0">{t("instant.cuisineLabel")}</span>
           {CUISINES.map((c) => (
             <button
               key={c.value}
               type="button"
               onClick={() => setCuisine(c.value)}
-              className={`rounded-full px-2.5 py-1 sm:px-3 sm:py-1.5 text-xs sm:text-sm font-medium whitespace-nowrap transition-all duration-200 ${
+              className={`rounded-full px-2.5 py-1 sm:px-3 sm:py-1.5 text-xs sm:text-sm font-medium whitespace-nowrap shrink-0 snap-start sm:shrink transition-all duration-200 ${
                 cuisine === c.value
                   ? "bg-orange-500 text-white shadow-sm"
                   : "bg-stone-100 text-stone-500 hover:bg-orange-100 hover:text-orange-700"
@@ -245,8 +248,10 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
           </div>
         </div>
 
-        <p className="mt-3 text-sm text-stone-400">
-          {t("instant.caloriesHelp")}{" "}
+        {/* On phones the intro phrase wrapped this to two lines right above
+            the CTA — the link alone carries the meaning there. */}
+        <p className="mt-2.5 sm:mt-3 text-xs sm:text-sm text-stone-400">
+          <span className="hidden sm:inline">{t("instant.caloriesHelp")} </span>
           <Link
             href="/tools/calorie-calculator"
             className="text-orange-500 hover:text-orange-600 underline underline-offset-2 transition-colors"

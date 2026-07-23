@@ -52,6 +52,16 @@ html {
   overflow-anchor: none;
 }
 
+/* Horizontal chip rows on mobile (instant-planner tiles/pills): scrollable
+   but without a visible scrollbar, which reads as clutter under a chip row */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* Staggered reveal for instant-planner results (pair with animation-delay) */
 @keyframes fade-up {
   from {

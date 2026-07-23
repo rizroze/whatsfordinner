@@ -131,16 +131,21 @@ export function FreeTools() {
             <Link
               key={tool.href}
               href={href}
-              className="bg-white rounded-2xl border border-stone-100 p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex flex-col"
+              className="bg-white rounded-2xl border border-stone-100 p-5 sm:p-6 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex flex-col"
             >
-              <div className="mb-4">{tool.icon}</div>
-              <h3 className="text-lg font-semibold text-stone-900 mb-1">
-                {tool.title}
-              </h3>
-              <p className="text-sm text-stone-500 mb-5 flex-1">
+              {/* On phones the icon rides the title row and the button spans
+                  the card — a lone icon floating over a left-aligned pile in
+                  a full-width card read as misaligned. */}
+              <div className="flex items-center gap-3 mb-2 sm:block sm:mb-1">
+                <div className="shrink-0 sm:mb-4">{tool.icon}</div>
+                <h3 className="text-lg font-semibold text-stone-900">
+                  {tool.title}
+                </h3>
+              </div>
+              <p className="text-sm text-stone-500 mb-4 sm:mb-5 flex-1">
                 {tool.description}
               </p>
-              <span className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-white bg-orange-500 rounded-full w-fit">
+              <span className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-white bg-orange-500 rounded-full w-full sm:w-fit">
                 {tool.cta} &rarr;
               </span>
             </Link>

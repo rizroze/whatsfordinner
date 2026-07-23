@@ -49,7 +49,7 @@ export function Hero({ isSignedIn }: { isSignedIn?: boolean }) {
       <div className="absolute bottom-10 -right-24 w-80 h-80 bg-orange-100/40 rounded-full blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-orange-50/50 rounded-full blur-3xl" />
 
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-14 text-center">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 py-4 sm:py-14 text-center">
         {/* text-4xl pushed this to four lines at 390px and ate the whole first
             screen before the widget appeared. */}
         <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold text-stone-900 tracking-tight leading-[1.1] whitespace-pre-line">

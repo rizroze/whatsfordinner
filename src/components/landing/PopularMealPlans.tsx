@@ -60,7 +60,10 @@ export function PopularMealPlans() {
           {t("landing.popularPlans.subtitle")}
         </p>
 
-        <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-4">
+        {/* Single column on phones: two columns at 390px forced multi-word
+            labels ("1,500 Calorie Plan") onto three lines while short ones
+            stayed on one, so row heights came out ragged. */}
+        <div className="mt-8 sm:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-4">
           {POPULAR_PLANS.map((plan) => (
             <Link
               key={plan.slug}
@@ -68,9 +71,9 @@ export function PopularMealPlans() {
                 locale,
                 `${mealPlansPath}/${slugForLocale(plan.slug, locale)}`
               )}
-              className="group flex items-center gap-3 px-5 py-4 rounded-2xl bg-white border border-stone-100 hover:border-orange-200 hover:shadow-md transition-all duration-200"
+              className="group flex items-center gap-3 px-4 py-3 sm:px-5 sm:py-4 rounded-2xl bg-white border border-stone-100 hover:border-orange-200 hover:shadow-md transition-all duration-200"
             >
-              <span className="text-2xl shrink-0">{plan.emoji}</span>
+              <span className="text-2xl leading-none shrink-0">{plan.emoji}</span>
               <span className="text-sm font-medium text-stone-700 group-hover:text-orange-600 transition-colors">
                 {t(plan.labelKey)}
               </span>

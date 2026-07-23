@@ -30,9 +30,11 @@ export function GuidesAndTips() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group flex items-start gap-3 px-5 py-4 rounded-2xl bg-white border border-stone-100 hover:border-orange-200 hover:shadow-md transition-all duration-200"
+              className="group flex items-center gap-3 px-4 py-3.5 sm:px-5 sm:py-4 rounded-2xl bg-white border border-stone-100 hover:border-orange-200 hover:shadow-md transition-all duration-200"
             >
-              <span className="text-xl shrink-0 mt-0.5">{post.emoji}</span>
+              {/* items-center + leading-none: with items-start the emoji sat
+                  visibly above the optical center of a single-line title */}
+              <span className="text-xl leading-none shrink-0">{post.emoji}</span>
               <span className="text-sm font-medium text-stone-700 group-hover:text-orange-600 transition-colors leading-snug">
                 {t(post.titleKey)}
               </span>
