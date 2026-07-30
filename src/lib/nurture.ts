@@ -78,24 +78,44 @@ export interface NurtureMealSummary {
     type: string;
     calories: number;
     cookTime: number;
+    emoji: string;
   }>;
 }
 
 // ── Helper: render a single meal row ──
 
-function mealRow(meal: { name: string; type: string; calories: number; cookTime: number }, isLast = false): string {
-  const borderStyle = isLast ? "" : "border-bottom:1px solid #F5F5F4;";
+// Emoji glyphs render with their own native color regardless of surrounding
+// CSS — `color:` has no effect on them — so this circle is safe to reuse
+// anywhere without worrying about it clashing with faded/muted text nearby.
+function emojiCircle(emoji: string, size = 44): string {
+  return `
+    <table cellpadding="0" cellspacing="0" style="width:${size}px;">
+      <tr><td align="center" valign="middle" style="width:${size}px;height:${size}px;background:#FFFFFF;border:1px solid #F5F5F4;border-radius:9999px;font-size:${Math.round(size * 0.45)}px;line-height:${size}px;text-align:center;">${emoji}</td></tr>
+    </table>`;
+}
+
+function mealRow(meal: { name: string; type: string; calories: number; cookTime: number; emoji: string }, isLast = false): string {
+  const spacerStyle = isLast ? "padding:0;" : "padding:0 0 8px;";
   return `
     <tr>
-      <td style="padding:10px 0;${borderStyle}">
-        <table width="100%" cellpadding="0" cellspacing="0">
+      <td style="${spacerStyle}">
+        <table width="100%" cellpadding="0" cellspacing="0" style="background:#FFFBF5;border:1px solid #F5F5F4;border-radius:16px;">
           <tr>
-            <td style="vertical-align:middle;">
-              <p style="margin:0 0 3px;font-size:15px;font-weight:600;color:#1C1917;text-decoration:none;">${escapeHtml(meal.name)}</p>
-              <p style="margin:0;font-size:12px;color:#A8A29E;text-decoration:none;">${meal.cookTime} min &middot; ${meal.calories} cal</p>
+            <td style="padding:12px;width:44px;vertical-align:middle;">
+              ${emojiCircle(meal.emoji)}
             </td>
-            <td style="vertical-align:middle;text-align:right;width:1px;white-space:nowrap;">
-              ${mealBadge(meal.type)}
+            <td style="padding:12px 12px 12px 0;vertical-align:middle;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="vertical-align:middle;">
+                    <p style="margin:0 0 3px;font-size:15px;font-weight:600;color:#1C1917;text-decoration:none;">${escapeHtml(meal.name)}</p>
+                    <p style="margin:0;font-size:12px;color:#A8A29E;text-decoration:none;">${meal.cookTime} min &middot; ${meal.calories} cal</p>
+                  </td>
+                  <td style="vertical-align:middle;text-align:right;width:1px;white-space:nowrap;">
+                    ${mealBadge(meal.type)}
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
         </table>
@@ -215,6 +235,9 @@ export function buildNurtureDay14Email(
         <td style="padding:6px 0 6px 16px;${i < day1.meals.length - 1 ? "border-bottom:1px solid #FAFAF9;" : "border-bottom:1px solid #F5F5F4;"}">
           <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
+              <td style="vertical-align:middle;width:36px;padding-right:10px;">
+                ${emojiCircle(m.emoji, 36)}
+              </td>
               <td style="vertical-align:middle;">
                 <p style="margin:0;font-size:14px;font-weight:600;color:#1C1917;text-decoration:none;">${escapeHtml(m.name)}</p>
                 <p style="margin:2px 0 0;font-size:11px;color:#A8A29E;text-decoration:none;">${m.cookTime} min &middot; ${m.calories} cal</p>
@@ -228,8 +251,12 @@ export function buildNurtureDay14Email(
       </tr>`;
     });
 
-    // Day 2-3: dinner only
-    for (let i = 1; i < meals.length; i++) {
+    // Day 2-3: dinner only. Capped at 3 real days total (this loop only runs
+    // for i=1,2) so the fixed "+N more days" line below stays accurate —
+    // letting this run to meals.length showed every remaining day as real,
+    // unlocked content, which then contradicted the hardcoded "still locked"
+    // teaser rows for those same days right after.
+    for (let i = 1; i < Math.min(3, meals.length); i++) {
       const day = meals[i];
       const dinner = day.meals.find((m) => m.type === "dinner") || day.meals[day.meals.length - 1];
       planRows += `
@@ -237,8 +264,11 @@ export function buildNurtureDay14Email(
         <td style="padding:10px 0;border-bottom:1px solid #F5F5F4;">
           <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
-              <td style="vertical-align:middle;width:1px;white-space:nowrap;padding-right:12px;">
+              <td style="vertical-align:middle;width:1px;white-space:nowrap;padding-right:10px;">
                 <span style="display:inline-block;background:#F5F5F4;color:#57534E;font-size:11px;font-weight:700;padding:2px 8px;border-radius:9999px;text-decoration:none;">${escapeHtml(day.day)}</span>
+              </td>
+              <td style="vertical-align:middle;width:36px;padding-right:10px;">
+                ${emojiCircle(dinner.emoji, 36)}
               </td>
               <td style="vertical-align:middle;">
                 <p style="margin:0;font-size:14px;font-weight:600;color:#1C1917;text-decoration:none;">${escapeHtml(dinner.name)}</p>
@@ -254,39 +284,12 @@ export function buildNurtureDay14Email(
       </tr>`;
     }
 
-    // Blurred teaser rows
-    planRows += `
-      <tr>
-        <td style="padding:10px 0;border-bottom:1px solid #F5F5F4;">
-          <table width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-              <td style="vertical-align:middle;width:1px;white-space:nowrap;padding-right:12px;">
-                <span style="display:inline-block;background:#F5F5F4;color:#E7E5E4;font-size:11px;font-weight:700;padding:2px 8px;border-radius:9999px;text-decoration:none;">Thursday</span>
-              </td>
-              <td style="vertical-align:middle;">
-                <p style="margin:0;font-size:14px;font-weight:600;color:#E7E5E4;text-decoration:none;">Honey Glazed Chicken Bowl</p>
-                <p style="margin:2px 0 0;font-size:11px;color:#F5F5F4;text-decoration:none;">30 min &middot; 490 cal</p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td style="padding:10px 0;">
-          <table width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-              <td style="vertical-align:middle;width:1px;white-space:nowrap;padding-right:12px;">
-                <span style="display:inline-block;background:#FAFAF9;color:#F5F5F4;font-size:11px;font-weight:700;padding:2px 8px;border-radius:9999px;text-decoration:none;">Friday</span>
-              </td>
-              <td style="vertical-align:middle;">
-                <p style="margin:0;font-size:14px;font-weight:600;color:#F5F5F4;text-decoration:none;">Crispy Tofu Stir-Fry</p>
-                <p style="margin:2px 0 0;font-size:11px;color:#FAFAF9;text-decoration:none;">25 min &middot; 420 cal</p>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>`;
   }
+
+  // 3 real days shown above (day1 full + 2 dinner-only), so whatever's left
+  // in the real week is what's still locked — computed, not hardcoded, so
+  // this can't drift out of sync with the loop above again.
+  const lockedDayCount = hasMeals ? Math.max(0, meals.length - 3) : 0;
 
   const planSection = hasMeals
     ? `
@@ -295,7 +298,7 @@ export function buildNurtureDay14Email(
         ${planRows}
       </table>
       <p style="margin:0 0 20px;font-size:13px;font-weight:600;color:#F97316;text-align:center;text-decoration:none;">
-        + 4 more days with a subscription
+        + ${lockedDayCount} more days with a subscription
       </p>`
     : `
       <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
@@ -332,9 +335,9 @@ const WEEKLY_THEMES = [
     title: "Quick wins for busy nights",
     intro: "Short on time? These crowd favorites come together fast &mdash; no shortcuts on flavor.",
     meals: [
-      { name: "Garlic Butter Shrimp with Rice", time: "20 min", tag: "Seafood" },
-      { name: "Black Bean Quesadillas", time: "15 min", tag: "Vegetarian" },
-      { name: "Lemon Herb Chicken Thighs", time: "25 min", tag: "High Protein" },
+      { name: "Garlic Butter Shrimp with Rice", time: "20 min", tag: "Seafood", emoji: "🍤" },
+      { name: "Black Bean Quesadillas", time: "15 min", tag: "Vegetarian", emoji: "🫓" },
+      { name: "Lemon Herb Chicken Thighs", time: "25 min", tag: "High Protein", emoji: "🍗" },
     ],
   },
   {
@@ -342,9 +345,9 @@ const WEEKLY_THEMES = [
     title: "Eat well, spend less",
     intro: "Proof that budget-friendly doesn't mean boring. These cost less than a coffee per plate.",
     meals: [
-      { name: "Chickpea Coconut Curry", time: "25 min", tag: "Vegan" },
-      { name: "Egg Fried Rice with Veggies", time: "15 min", tag: "Budget" },
-      { name: "Baked Pasta with Spinach", time: "30 min", tag: "Family" },
+      { name: "Chickpea Coconut Curry", time: "25 min", tag: "Vegan", emoji: "🍛" },
+      { name: "Egg Fried Rice with Veggies", time: "15 min", tag: "Budget", emoji: "🍚" },
+      { name: "Baked Pasta with Spinach", time: "30 min", tag: "Family", emoji: "🍝" },
     ],
   },
   {
@@ -352,9 +355,9 @@ const WEEKLY_THEMES = [
     title: "Cook once, wash once",
     intro: "Everything goes in one pot. Dinner's done and cleanup takes two minutes.",
     meals: [
-      { name: "One-Pot Chicken Alfredo", time: "25 min", tag: "Comfort" },
-      { name: "Tomato Basil Soup with Grilled Cheese Dippers", time: "20 min", tag: "Classic" },
-      { name: "Thai Peanut Noodles", time: "20 min", tag: "Asian" },
+      { name: "One-Pot Chicken Alfredo", time: "25 min", tag: "Comfort", emoji: "🍝" },
+      { name: "Tomato Basil Soup with Grilled Cheese Dippers", time: "20 min", tag: "Classic", emoji: "🍲" },
+      { name: "Thai Peanut Noodles", time: "20 min", tag: "Asian", emoji: "🍜" },
     ],
   },
   {
@@ -362,9 +365,9 @@ const WEEKLY_THEMES = [
     title: "Protein without the boredom",
     intro: "Skip the plain chicken and broccoli. These pack 30g+ protein and real flavor.",
     meals: [
-      { name: "Turkey Taco Bowls", time: "20 min", tag: "30g protein" },
-      { name: "Salmon with Roasted Sweet Potato", time: "30 min", tag: "35g protein" },
-      { name: "Greek Chicken Grain Bowl", time: "25 min", tag: "32g protein" },
+      { name: "Turkey Taco Bowls", time: "20 min", tag: "30g protein", emoji: "🌮" },
+      { name: "Salmon with Roasted Sweet Potato", time: "30 min", tag: "35g protein", emoji: "🐟" },
+      { name: "Greek Chicken Grain Bowl", time: "25 min", tag: "32g protein", emoji: "🥙" },
     ],
   },
   {
@@ -372,9 +375,9 @@ const WEEKLY_THEMES = [
     title: "Family-tested, parent-approved",
     intro: "No more cooking two separate dinners. These are simple enough for picky eaters and satisfying for adults.",
     meals: [
-      { name: "Homemade Chicken Tenders", time: "25 min", tag: "Kid Fave" },
-      { name: "Mini Pizza Bagels with Hidden Veggies", time: "15 min", tag: "Sneaky" },
-      { name: "Teriyaki Beef Stir-Fry", time: "20 min", tag: "Sweet" },
+      { name: "Homemade Chicken Tenders", time: "25 min", tag: "Kid Fave", emoji: "🍗" },
+      { name: "Mini Pizza Bagels with Hidden Veggies", time: "15 min", tag: "Sneaky", emoji: "🍕" },
+      { name: "Teriyaki Beef Stir-Fry", time: "20 min", tag: "Sweet", emoji: "🥢" },
     ],
   },
   {
@@ -382,9 +385,9 @@ const WEEKLY_THEMES = [
     title: "Skip the delivery app tonight",
     intro: "Save $15&ndash;25 per meal and eat better. These taste like restaurant food made at home.",
     meals: [
-      { name: "Crispy Orange Chicken", time: "30 min", tag: "Chinese" },
-      { name: "Smash Burgers with Special Sauce", time: "20 min", tag: "American" },
-      { name: "Creamy Tuscan Chicken Pasta", time: "25 min", tag: "Italian" },
+      { name: "Crispy Orange Chicken", time: "30 min", tag: "Chinese", emoji: "🍊" },
+      { name: "Smash Burgers with Special Sauce", time: "20 min", tag: "American", emoji: "🍔" },
+      { name: "Creamy Tuscan Chicken Pasta", time: "25 min", tag: "Italian", emoji: "🍝" },
     ],
   },
   {
@@ -392,9 +395,9 @@ const WEEKLY_THEMES = [
     title: "Clean eating, zero sadness",
     intro: "Nutritious food shouldn't feel like punishment. These are genuinely delicious.",
     meals: [
-      { name: "Cauliflower Mac &amp; Cheese", time: "25 min", tag: "Comfort" },
-      { name: "Honey Garlic Salmon", time: "20 min", tag: "Omega-3" },
-      { name: "Stuffed Bell Peppers", time: "35 min", tag: "Balanced" },
+      { name: "Cauliflower Mac &amp; Cheese", time: "25 min", tag: "Comfort", emoji: "🥦" },
+      { name: "Honey Garlic Salmon", time: "20 min", tag: "Omega-3", emoji: "🐟" },
+      { name: "Stuffed Bell Peppers", time: "35 min", tag: "Balanced", emoji: "🫑" },
     ],
   },
   {
@@ -402,9 +405,9 @@ const WEEKLY_THEMES = [
     title: "Cook Sunday, eat all week",
     intro: "Make once, portion out, reheat all week. Your future self will thank you.",
     meals: [
-      { name: "Chicken Burrito Bowls", time: "30 min", tag: "Prep Fave" },
-      { name: "Beef &amp; Broccoli", time: "25 min", tag: "Reheats Well" },
-      { name: "Mediterranean Quinoa Salad", time: "20 min", tag: "No Reheat" },
+      { name: "Chicken Burrito Bowls", time: "30 min", tag: "Prep Fave", emoji: "🌯" },
+      { name: "Beef &amp; Broccoli", time: "25 min", tag: "Reheats Well", emoji: "🥦" },
+      { name: "Mediterranean Quinoa Salad", time: "20 min", tag: "No Reheat", emoji: "🥗" },
     ],
   },
 ];
@@ -420,9 +423,18 @@ function buildWeeklyInspirationEmail(
     .map(
       (meal, i) => `
         <tr>
-          <td style="padding:10px 0;${i < theme.meals.length - 1 ? "border-bottom:1px solid #F5F5F4;" : ""}">
-            <p style="margin:0 0 2px;font-size:15px;font-weight:600;color:#1C1917;text-decoration:none;">${escapeHtml(meal.name)}</p>
-            <p style="margin:0;font-size:12px;color:#A8A29E;text-decoration:none;">${escapeHtml(meal.time)} &middot; ${escapeHtml(meal.tag)}</p>
+          <td style="${i < theme.meals.length - 1 ? "padding:0 0 8px;" : "padding:0;"}">
+            <table width="100%" cellpadding="0" cellspacing="0" style="background:#FFFBF5;border:1px solid #F5F5F4;border-radius:16px;">
+              <tr>
+                <td style="padding:12px;width:44px;vertical-align:middle;">
+                  ${emojiCircle(meal.emoji)}
+                </td>
+                <td style="padding:12px 12px 12px 0;vertical-align:middle;">
+                  <p style="margin:0 0 3px;font-size:15px;font-weight:600;color:#1C1917;text-decoration:none;">${escapeHtml(meal.name)}</p>
+                  <p style="margin:0;font-size:12px;color:#A8A29E;text-decoration:none;">${escapeHtml(meal.time)} &middot; ${escapeHtml(meal.tag)}</p>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>`
     )

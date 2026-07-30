@@ -30,7 +30,7 @@ export interface LockedDayPreview {
 
 export interface PreviewDaySummary {
   day: string;
-  meals: { name: string; type: string; calories: number; cookTime: number }[];
+  meals: { name: string; type: string; calories: number; cookTime: number; emoji: string }[];
 }
 
 export interface PreviewPlanResult {
@@ -332,6 +332,7 @@ export function buildPreviewPlan(prefs: PreviewPrefs, locale: string = "en"): Pr
         type: slot,
         calories: recipe.nutrition.calories,
         cookTime: recipe.cookTime,
+        emoji: recipe.emoji,
       })),
     },
   ];
@@ -349,6 +350,7 @@ export function buildPreviewPlan(prefs: PreviewPrefs, locale: string = "en"): Pr
           type: slot,
           calories: recipe.nutrition.calories,
           cookTime: recipe.cookTime,
+          emoji: recipe.emoji,
         });
         return { type: slot, name: displayName };
       });
