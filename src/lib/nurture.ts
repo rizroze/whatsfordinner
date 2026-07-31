@@ -147,7 +147,10 @@ export function buildNurtureDay3Email(
 
   const html = wrapEmail(`
     <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
-      <h1 style="margin:0 0 16px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
+      <div style="text-align:center;margin:0 0 12px;">
+        <img src="${getAppUrl()}/characters/email/pasta.png" width="88" height="66" alt="" style="display:inline-block;width:88px;height:66px;">
+      </div>
+      <h1 style="margin:0 0 16px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
         Don't forget to cook these
       </h1>
       ${mealSection}
@@ -190,7 +193,10 @@ export function buildNurtureDay7Email(
 
   const html = wrapEmail(`
     <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
-      <h1 style="margin:0 0 16px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
+      <div style="text-align:center;margin:0 0 12px;">
+        <img src="${getAppUrl()}/characters/email/pasta.png" width="88" height="66" alt="" style="display:inline-block;width:88px;height:66px;">
+      </div>
+      <h1 style="margin:0 0 16px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
         Your plan has expired
       </h1>
       ${mealSection}
@@ -307,7 +313,10 @@ export function buildNurtureDay14Email(
 
   const html = wrapEmail(`
     <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
-      <h1 style="margin:0 0 16px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
+      <div style="text-align:center;margin:0 0 12px;">
+        <img src="${getAppUrl()}/characters/email/bag.png" width="66" height="88" alt="" style="display:inline-block;width:66px;height:88px;">
+      </div>
+      <h1 style="margin:0 0 16px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
         What you're missing every week
       </h1>
       ${planSection}
@@ -442,10 +451,13 @@ function buildWeeklyInspirationEmail(
 
   const html = wrapEmail(`
     <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
-      <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
+      <div style="text-align:center;margin:0 0 12px;">
+        <img src="${getAppUrl()}/characters/email/bag.png" width="66" height="88" alt="" style="display:inline-block;width:66px;height:88px;">
+      </div>
+      <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
         ${escapeHtml(theme.title)}
       </h1>
-      <p style="margin:0 0 16px;font-size:14px;color:#57534E;line-height:1.6;">
+      <p style="margin:0 0 16px;font-size:14px;color:#57534E;line-height:1.6;text-align:center;">
         ${theme.intro}
       </p>
 
@@ -551,10 +563,13 @@ export function buildPreviewLeadEmail(
 
   const html = wrapEmail(`
     <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
-      <h1 style="margin:0 0 8px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
+      <div style="text-align:center;margin:0 0 12px;">
+        <img src="${getAppUrl()}/characters/email/envelope.png" width="88" height="86" alt="" style="display:inline-block;width:88px;height:86px;">
+      </div>
+      <h1 style="margin:0 0 8px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
         Welcome to What&#39;s For Dinner. Here&#39;s your day 1.
       </h1>
-      <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
+      <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;text-align:center;">
         Built from the preferences you just set &mdash; saved here so you don&#39;t lose it.
       </p>
       ${day1Section}
