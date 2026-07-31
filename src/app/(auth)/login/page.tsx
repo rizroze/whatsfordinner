@@ -6,6 +6,7 @@ import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { getAppUrl } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
+import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/Card";
 import { Input } from "@/components/ui/Input";
 import { Button } from "@/components/ui/Button";
@@ -58,7 +59,7 @@ function LoginForm() {
         setGoogleLoading(false);
       }
     } catch {
-      setError("Something went wrong. Please try again.");
+      setError(t("auth.genericError"));
       setGoogleLoading(false);
     }
   }
@@ -88,7 +89,7 @@ function LoginForm() {
         : "/dashboard";
       router.push(safeTarget);
     } catch {
-      setError("Something went wrong. Please try again.");
+      setError(t("auth.genericError"));
       setLoading(false);
     }
   }
@@ -105,6 +106,10 @@ function LoginForm() {
         </svg>
         {t("dashboard.home")}
       </Link>
+
+      <div className="absolute top-4 right-4 sm:top-6 sm:right-6">
+        <LanguagePicker />
+      </div>
 
       <div className="w-full max-w-md">
         <div className="text-center mb-8">

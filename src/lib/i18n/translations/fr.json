@@ -486,7 +486,16 @@
     "checkEmail": "Vérifiez votre email",
     "confirmSent": "Nous avons envoyé un lien de confirmation à {email}. Cliquez dessus pour activer votre compte.",
     "confirmSentPromo": "Nous avons envoyé un lien de confirmation à {email}. Cliquez dessus pour activer votre compte et réclamer votre cadeau.",
-    "checkSpam": "Vous ne le trouvez pas ? Vérifiez votre dossier spam."
+    "checkSpam": "Vous ne le trouvez pas ? Vérifiez votre dossier spam.",
+    "signupValueYearly": "Vous vous inscrivez à des plans de repas hebdomadaires avec recettes et liste de courses — 5 $/mois (facturé annuellement, économisez 37%)",
+    "signupValueMonthly": "Vous vous inscrivez à des plans de repas hebdomadaires avec recettes et liste de courses — 7,99 $/mois",
+    "signupValueDefault": "Créez votre compte pour recevoir des plans de repas personnalisés avec recettes et liste de courses",
+    "signupValueYearlyTrial": "Gratuit pendant {days} jours, puis 5 $/mois facturé annuellement. Annulez avant la fin et vous ne payez rien.",
+    "signupValueMonthlyTrial": "Gratuit pendant {days} jours, puis 7,99 $/mois. Annulez avant la fin et vous ne payez rien.",
+    "signupValueDefaultTrial": "Créez votre compte pour démarrer votre essai gratuit de {days} jours — plans de repas, recettes et liste de courses.",
+    "trustPersonalized": "Adapté à votre régime",
+    "trustWeekly": "Nouveau plan chaque semaine",
+    "trustCancel": "Annulez à tout moment"
   },
   "plan": {
     "backToDashboard": "Retour au tableau de bord",

@@ -486,7 +486,16 @@
     "checkEmail": "Verifique seu email",
     "confirmSent": "Enviamos um link de confirmação para {email}. Clique nele para ativar sua conta.",
     "confirmSentPromo": "Enviamos um link de confirmação para {email}. Clique nele para ativar sua conta e resgatar seu presente.",
-    "checkSpam": "Não encontrou? Verifique sua pasta de spam."
+    "checkSpam": "Não encontrou? Verifique sua pasta de spam.",
+    "signupValueYearly": "Você está assinando planos de refeições semanais com receitas e lista de compras — $5/mês (cobrado anualmente, economize 37%)",
+    "signupValueMonthly": "Você está assinando planos de refeições semanais com receitas e lista de compras — $7.99/mês",
+    "signupValueDefault": "Crie sua conta para receber planos de refeições personalizados com receitas e lista de compras",
+    "signupValueYearlyTrial": "Grátis por {days} dias, depois $5/mês cobrado anualmente. Cancele antes do fim e não paga nada.",
+    "signupValueMonthlyTrial": "Grátis por {days} dias, depois $7.99/mês. Cancele antes do fim e não paga nada.",
+    "signupValueDefaultTrial": "Crie sua conta para começar seu teste grátis de {days} dias — planos de refeições, receitas e lista de compras.",
+    "trustPersonalized": "Personalizado para sua dieta",
+    "trustWeekly": "Plano novo toda semana",
+    "trustCancel": "Cancele quando quiser"
   },
   "plan": {
     "backToDashboard": "Voltar ao Painel de Controle",

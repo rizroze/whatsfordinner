@@ -486,7 +486,16 @@
     "checkEmail": "Überprüfe Deine E-Mail",
     "confirmSent": "Wir haben einen Bestätigungslink an {email} gesendet. Klicke darauf, um Dein Konto zu aktivieren.",
     "confirmSentPromo": "Wir haben einen Bestätigungslink an {email} gesendet. Klicke darauf, um Dein Konto zu aktivieren und Dein Geschenk einzulösen.",
-    "checkSpam": "Nicht gefunden? Überprüfe Deinen Spam-Ordner."
+    "checkSpam": "Nicht gefunden? Überprüfe Deinen Spam-Ordner.",
+    "signupValueYearly": "Du meldest dich für wöchentliche Essenspläne mit Rezepten und Einkaufsliste an — 5 $/Monat (jährlich abgerechnet, 37% sparen)",
+    "signupValueMonthly": "Du meldest dich für wöchentliche Essenspläne mit Rezepten und Einkaufsliste an — 7,99 $/Monat",
+    "signupValueDefault": "Erstelle dein Konto für persönliche Essenspläne mit Rezepten und Einkaufsliste",
+    "signupValueYearlyTrial": "{days} Tage kostenlos, danach 5 $/Monat jährlich abgerechnet. Kündige vorher und du zahlst nichts.",
+    "signupValueMonthlyTrial": "{days} Tage kostenlos, danach 7,99 $/Monat. Kündige vorher und du zahlst nichts.",
+    "signupValueDefaultTrial": "Erstelle dein Konto und starte deine {days}-tägige kostenlose Testphase — Essenspläne, Rezepte und Einkaufsliste.",
+    "trustPersonalized": "Auf deine Ernährung abgestimmt",
+    "trustWeekly": "Jede Woche ein neuer Plan",
+    "trustCancel": "Jederzeit kündbar"
   },
   "plan": {
     "backToDashboard": "Zurück zum Dashboard",

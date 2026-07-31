@@ -7,6 +7,9 @@ export interface Ingredient {
 export interface Meal {
   name: string;
   type: "breakfast" | "lunch" | "dinner" | "snack";
+  /** Set for recipe-library meals; AI-generated plans fall back to
+   *  keyword matching in lib/meal-emoji.ts. */
+  emoji?: string;
   prepTime: number; // minutes
   cookTime: number; // minutes
   calories: number;

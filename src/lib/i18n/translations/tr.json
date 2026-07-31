@@ -486,7 +486,16 @@
     "checkEmail": "E-postanızı kontrol edin",
     "confirmSent": "{email} adresine bir doğrulama bağlantısı gönderdik. Hesabınızı etkinleştirmek için tıklayın.",
     "confirmSentPromo": "{email} adresine bir doğrulama bağlantısı gönderdik. Hesabınızı etkinleştirmek ve hediyenizi almak için tıklayın.",
-    "checkSpam": "Göremiyor musunuz? Spam klasörünüzü kontrol edin."
+    "checkSpam": "Göremiyor musunuz? Spam klasörünüzü kontrol edin.",
+    "signupValueYearly": "Tarifler ve market listesiyle haftalık yemek planlarına abone oluyorsun — ayda $5 (yıllık faturalandırılır, %37 tasarruf)",
+    "signupValueMonthly": "Tarifler ve market listesiyle haftalık yemek planlarına abone oluyorsun — ayda $7.99",
+    "signupValueDefault": "Tarifler ve market listesiyle kişiselleştirilmiş yemek planları için hesabını oluştur",
+    "signupValueYearlyTrial": "{days} gün ücretsiz, sonra yıllık faturalandırmayla ayda $5. Bitmeden iptal edersen hiçbir şey ödemezsin.",
+    "signupValueMonthlyTrial": "{days} gün ücretsiz, sonra ayda $7.99. Bitmeden iptal edersen hiçbir şey ödemezsin.",
+    "signupValueDefaultTrial": "{days} günlük ücretsiz denemeni başlatmak için hesabını oluştur — yemek planları, tarifler ve market listesi.",
+    "trustPersonalized": "Diyetine göre kişiselleştirilmiş",
+    "trustWeekly": "Her hafta yeni plan",
+    "trustCancel": "İstediğin zaman iptal"
   },
   "plan": {
     "backToDashboard": "Panoya Dön",

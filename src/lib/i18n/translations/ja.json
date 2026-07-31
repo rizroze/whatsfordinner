@@ -486,7 +486,16 @@
     "checkEmail": "メールを確認してください",
     "confirmSent": "{email} に確認リンクを送信しました。クリックしてアカウントを有効化してください。",
     "confirmSentPromo": "{email} に確認リンクを送信しました。クリックしてアカウントを有効化し、ギフトを受け取ってください。",
-    "checkSpam": "見つかりませんか？迷惑メールフォルダを確認してください。"
+    "checkSpam": "見つかりませんか？迷惑メールフォルダを確認してください。",
+    "signupValueYearly": "レシピと買い物リスト付きの週間献立プランに登録します — 月あたり$5（年払い、37%お得）",
+    "signupValueMonthly": "レシピと買い物リスト付きの週間献立プランに登録します — 月額$7.99",
+    "signupValueDefault": "アカウントを作成して、レシピと買い物リスト付きのパーソナライズされた献立プランを受け取りましょう",
+    "signupValueYearlyTrial": "{days}日間無料、その後は年払いで月あたり$5。終了前にキャンセルすれば料金はかかりません。",
+    "signupValueMonthlyTrial": "{days}日間無料、その後は月額$7.99。終了前にキャンセルすれば料金はかかりません。",
+    "signupValueDefaultTrial": "アカウントを作成して{days}日間の無料トライアルを始めましょう — 献立プラン、レシピ、買い物リスト。",
+    "trustPersonalized": "あなたの食事に合わせて",
+    "trustWeekly": "毎週新しいプラン",
+    "trustCancel": "いつでもキャンセル可能"
   },
   "plan": {
     "backToDashboard": "ダッシュボードに戻る",

@@ -244,6 +244,7 @@ function toMeal(recipe: FullRecipe, slot: Meal["type"]): Meal {
   return {
     name: recipe.name,
     type: slot,
+    emoji: recipe.emoji,
     prepTime: recipe.prepTime,
     cookTime: recipe.cookTime,
     calories: recipe.nutrition.calories,

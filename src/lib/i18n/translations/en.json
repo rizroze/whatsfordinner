@@ -499,7 +499,16 @@
     "checkEmail": "Check your email",
     "confirmSent": "We sent a confirmation link to {email}. Click it to activate your account.",
     "confirmSentPromo": "We sent a confirmation link to {email}. Click it to activate your account and claim your gift.",
-    "checkSpam": "Don't see it? Check your spam folder."
+    "checkSpam": "Don't see it? Check your spam folder.",
+    "signupValueYearly": "You're signing up for weekly meal plans with recipes and a grocery list — $5/mo (billed yearly, save 37%)",
+    "signupValueMonthly": "You're signing up for weekly meal plans with recipes and a grocery list — $7.99/mo",
+    "signupValueDefault": "Create your account to get personalized meal plans with recipes and a grocery list",
+    "signupValueYearlyTrial": "Free for {days} days, then $5/mo billed yearly. Cancel before it ends and you pay nothing.",
+    "signupValueMonthlyTrial": "Free for {days} days, then $7.99/mo. Cancel before it ends and you pay nothing.",
+    "signupValueDefaultTrial": "Create your account to start your {days}-day free trial — meal plans, recipes, and a grocery list.",
+    "trustPersonalized": "Personalized to your diet",
+    "trustWeekly": "New plan every week",
+    "trustCancel": "Cancel anytime"
   },
   "plan": {
     "backToDashboard": "Back to Dashboard",

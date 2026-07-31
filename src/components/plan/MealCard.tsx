@@ -4,6 +4,7 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
 import type { Meal } from "@/types/meal-plan";
+import { mealEmoji } from "@/lib/meal-emoji";
 
 interface MealCardProps {
   meal: Meal;
@@ -37,6 +38,12 @@ export function MealCard({ meal, defaultExpanded = false, feedback, onFeedback, 
       >
         {/* Top row: type badge + meal name */}
         <div className="flex items-start gap-2.5">
+          <span
+            aria-hidden="true"
+            className="shrink-0 text-base leading-none mt-0.5 select-none"
+          >
+            {mealEmoji(meal.name, meal.type, meal.emoji)}
+          </span>
           <span
             className={cn(
               "text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full shrink-0 mt-0.5",

@@ -486,7 +486,16 @@
     "checkEmail": "查看你的邮箱",
     "confirmSent": "我们已向 {email} 发送了确认链接。点击它来激活你的账户。",
     "confirmSentPromo": "我们已向 {email} 发送了确认链接。点击它来激活你的账户并领取礼物。",
-    "checkSpam": "没看到？检查你的垃圾邮件文件夹。"
+    "checkSpam": "没看到？检查你的垃圾邮件文件夹。",
+    "signupValueYearly": "你正在订阅包含食谱和购物清单的每周餐食计划 — 每月$5(按年计费,省37%)",
+    "signupValueMonthly": "你正在订阅包含食谱和购物清单的每周餐食计划 — 每月$7.99",
+    "signupValueDefault": "创建账户,获取包含食谱和购物清单的个性化餐食计划",
+    "signupValueYearlyTrial": "免费{days}天,之后按年计费每月$5。结束前取消,不收任何费用。",
+    "signupValueMonthlyTrial": "免费{days}天,之后每月$7.99。结束前取消,不收任何费用。",
+    "signupValueDefaultTrial": "创建账户,开始{days}天免费试用 — 餐食计划、食谱和购物清单。",
+    "trustPersonalized": "按你的饮食定制",
+    "trustWeekly": "每周更新计划",
+    "trustCancel": "随时可取消"
   },
   "plan": {
     "backToDashboard": "返回仪表板",

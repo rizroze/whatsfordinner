@@ -6,6 +6,8 @@ import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { getAppUrl } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
+import { LanguagePicker } from "@/components/ui/LanguagePicker";
+import { getTrialDays } from "@/lib/trial";
 import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/Card";
 import { Input } from "@/components/ui/Input";
 import { Button } from "@/components/ui/Button";
@@ -20,6 +22,7 @@ export default function SignUpPage() {
 
 function SignUpForm() {
   const { t } = useT();
+  const trialDays = getTrialDays();
   const router = useRouter();
   const searchParams = useSearchParams();
   const planParam = searchParams.get("plan");
@@ -173,14 +176,18 @@ function SignUpForm() {
     <div className="min-h-screen bg-[#FFFBF5] flex items-center justify-center px-4 py-12 relative">
       {/* Home button */}
       <Link
-        href="/"
+        href={redirectParam === "/setup" ? "/preview" : "/"}
         className="absolute top-4 left-4 sm:top-6 sm:left-6 text-sm text-stone-400 hover:text-orange-500 transition-colors flex items-center gap-1.5"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M15 18l-6-6 6-6" />
         </svg>
-        {t("dashboard.home")}
+        {redirectParam === "/setup" ? t("common.back") : t("dashboard.home")}
       </Link>
+
+      <div className="absolute top-4 right-4 sm:top-6 sm:right-6">
+        <LanguagePicker />
+      </div>
 
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
@@ -198,23 +205,29 @@ function SignUpForm() {
         <div className="mb-6">
           <p className="text-sm text-stone-600 text-center leading-relaxed">
             {planParam === "yearly"
-              ? "You\u2019re signing up for weekly meal plans with recipes and a grocery list \u2014 $5/mo (billed yearly, save 37%)"
+              ? trialDays
+                ? t("auth.signupValueYearlyTrial", { days: trialDays })
+                : t("auth.signupValueYearly")
               : planParam === "monthly"
-                ? "You\u2019re signing up for weekly meal plans with recipes and a grocery list \u2014 $7.99/mo"
-                : "Create your account to get personalized meal plans with recipes and a grocery list"}
+                ? trialDays
+                  ? t("auth.signupValueMonthlyTrial", { days: trialDays })
+                  : t("auth.signupValueMonthly")
+                : trialDays
+                  ? t("auth.signupValueDefaultTrial", { days: trialDays })
+                  : t("auth.signupValueDefault")}
           </p>
-          <div className="flex items-center justify-center gap-4 mt-3">
-            <span className="text-xs text-stone-400 flex items-center gap-1">
+          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 mt-3">
+            <span className="text-xs text-stone-400 flex items-center gap-1 whitespace-nowrap">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              Personalized to your diet
+              {t("auth.trustPersonalized")}
             </span>
-            <span className="text-xs text-stone-400 flex items-center gap-1">
+            <span className="text-xs text-stone-400 flex items-center gap-1 whitespace-nowrap">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              New plan every week
+              {t("auth.trustWeekly")}
             </span>
-            <span className="text-xs text-stone-400 flex items-center gap-1">
+            <span className="text-xs text-stone-400 flex items-center gap-1 whitespace-nowrap">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F97316" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-              Cancel anytime
+              {t("auth.trustCancel")}
             </span>
           </div>
         </div>

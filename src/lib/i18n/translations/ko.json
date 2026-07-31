@@ -486,7 +486,16 @@
     "checkEmail": "이메일을 확인하세요",
     "confirmSent": "{email}로 확인 링크를 보냈어요. 클릭하여 계정을 활성화하세요.",
     "confirmSentPromo": "{email}로 확인 링크를 보냈어요. 클릭하여 계정을 활성화하고 선물을 받으세요.",
-    "checkSpam": "보이지 않나요? 스팸 폴더를 확인하세요."
+    "checkSpam": "보이지 않나요? 스팸 폴더를 확인하세요.",
+    "signupValueYearly": "레시피와 장보기 목록이 포함된 주간 식단 플랜을 구독합니다 — 월 $5 (연간 결제, 37% 할인)",
+    "signupValueMonthly": "레시피와 장보기 목록이 포함된 주간 식단 플랜을 구독합니다 — 월 $7.99",
+    "signupValueDefault": "계정을 만들고 레시피와 장보기 목록이 포함된 맞춤 식단 플랜을 받아보세요",
+    "signupValueYearlyTrial": "{days}일 무료, 이후 연간 결제로 월 $5. 종료 전에 취소하면 요금이 청구되지 않아요.",
+    "signupValueMonthlyTrial": "{days}일 무료, 이후 월 $7.99. 종료 전에 취소하면 요금이 청구되지 않아요.",
+    "signupValueDefaultTrial": "계정을 만들고 {days}일 무료 체험을 시작하세요 — 식단 플랜, 레시피, 장보기 목록.",
+    "trustPersonalized": "내 식단에 맞춤",
+    "trustWeekly": "매주 새로운 플랜",
+    "trustCancel": "언제든 취소 가능"
   },
   "plan": {
     "backToDashboard": "대시보드로 돌아가기",
