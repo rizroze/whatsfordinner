@@ -25,6 +25,7 @@ What's For Dinner is a meal planning app at whatsfordinner.fit. You tell it what
 ## Pricing
 
 - Free preview: a personalized day of meals with recipes and a grocery list sample (no account required)
+- 10-day free trial: full product access — weekly plans, recipes, grocery lists — cancel before it ends and pay nothing
 - Monthly: $7.99/month for weekly 7-day plans, regenerations, and email delivery
 - Yearly: $59.99/year (save 37%)
 
