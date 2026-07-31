@@ -34,7 +34,13 @@
       "quote2": "El domingo era mi día de planificar comidas. Ahora solo abro mi bandeja de entrada.",
       "quote2Author": "Carlos, papá ocupado",
       "quote3": "Mis hijos se comen las comidas. Esa es la verdadera victoria.",
-      "quote3Author": "Ana, mamá de 2"
+      "quote3Author": "Ana, mamá de 2",
+      "proofRecipesValue": "250 recetas",
+      "proofRecipesLabel": "Cada una con instrucciones completas, nutrición y lista de compras",
+      "proofLanguagesValue": "11 idiomas",
+      "proofLanguagesLabel": "Planes, recetas y listas de compras, totalmente traducidos",
+      "proofSpeedValue": "30 segundos",
+      "proofSpeedLabel": "De tus preferencias a una semana completa de cenas"
     },
     "howItWorks": {
       "title": "Tu semana, resuelta.",

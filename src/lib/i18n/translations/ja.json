@@ -34,7 +34,13 @@
       "quote2": "日曜日は献立を考える日だった。今は受信箱を開くだけ。",
       "quote2Author": "健太、忙しいパパ",
       "quote3": "子どもたちが実際にごはんを食べてくれる。それが本当のありがたさ。",
-      "quote3Author": "さくら、2児の母"
+      "quote3Author": "さくら、2児の母",
+      "proofRecipesValue": "250のレシピ",
+      "proofRecipesLabel": "すべてに詳しい手順、栄養情報、買い物リスト付き",
+      "proofLanguagesValue": "11の言語",
+      "proofLanguagesLabel": "献立、レシピ、買い物リストを完全翻訳",
+      "proofSpeedValue": "30秒",
+      "proofSpeedLabel": "あなたの好みから1週間分の夕食まで"
     },
     "howItWorks": {
       "title": "あなたの1週間、おまかせ。",

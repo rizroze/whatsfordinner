@@ -34,7 +34,13 @@
       "quote2": "يوم الأحد كان يوم تخطيط الوجبات. الحين بس أفتح بريدي.",
       "quote2Author": "أحمد، أب مشغول",
       "quote3": "أطفالي فعلاً يأكلون الأكل. هذا هو الإنجاز الحقيقي.",
-      "quote3Author": "نور، أم لطفلين"
+      "quote3Author": "نور، أم لطفلين",
+      "proofRecipesValue": "250 وصفة",
+      "proofRecipesLabel": "كل واحدة مع تعليمات كاملة وقيم غذائية وقائمة تسوق",
+      "proofLanguagesValue": "11 لغة",
+      "proofLanguagesLabel": "الخطط والوصفات وقوائم التسوق مترجمة بالكامل",
+      "proofSpeedValue": "30 ثانية",
+      "proofSpeedLabel": "من تفضيلاتك إلى أسبوع كامل من العشاء"
     },
     "howItWorks": {
       "title": "أسبوعك، مرتّب.",
