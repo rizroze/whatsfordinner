@@ -116,6 +116,26 @@ export async function GET(req: NextRequest) {
           continue;
         }
 
+        // Skip anyone whose latest plan is under 72h old. A Friday or
+        // Saturday joiner gets their first full week on signup; replacing it
+        // 1-2 days later reads as a bug, not a feature — they catch the next
+        // Sunday instead (day 8-9, still inside a 10-day trial window).
+        // 72h (not 4 days) so a Thursday joiner still regenerates on day 3.
+        const { data: latestPlan } = await admin
+          .from("meal_plans")
+          .select("created_at")
+          .eq("user_id", profile.user_id)
+          .order("created_at", { ascending: false })
+          .limit(1)
+          .maybeSingle();
+        if (
+          latestPlan &&
+          Date.now() - new Date(latestPlan.created_at).getTime() < 72 * 60 * 60 * 1000
+        ) {
+          success++;
+          continue;
+        }
+
         // Create plan record
         const { data: planRecord, error: insertError } = await admin
           .from("meal_plans")

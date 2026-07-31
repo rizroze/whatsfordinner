@@ -394,7 +394,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
                 {t("instant.upsellBody")}
               </p>
               <Link
-                href={isSignedIn ? "/dashboard" : "/signup?redirect=/onboarding"}
+                href={isSignedIn ? "/dashboard" : "/onboarding"}
                 onClick={() => track("instant_plan_upsell_click", { signedIn: !!isSignedIn })}
                 className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full bg-orange-500 px-6 py-3.5 text-base font-semibold text-white shadow-md transition-all duration-200 hover:bg-orange-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
               >
