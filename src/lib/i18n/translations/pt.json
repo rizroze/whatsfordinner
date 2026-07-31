@@ -94,7 +94,13 @@
         "bestValue": "Economize $36/ano vs mensal",
         "inviteFriends": "Dê 1 mês grátis pra 3 amigos",
         "prioritySupport": "Suporte prioritário por email"
-      }
+      },
+      "subscribeMonthlyCta": "Assinar — $7.99/mês",
+      "subscribeMonthlyCtaTrial": "Começar meu teste grátis de {days} dias",
+      "subscribeYearlyCta": "Assinar — $5/mês",
+      "subscribeYearlyCtaTrial": "Começar meu teste grátis de {days} dias",
+      "billedMonthlyTrial": "Teste grátis de {days} dias, depois $7.99/mês",
+      "billedYearlyTrial": "Teste grátis de {days} dias, depois $59.99/ano"
     },
     "faq": {
       "title": "Ainda pensando?",
@@ -112,7 +118,8 @@
       "q6": "Que tipo de refeições estão incluídas?",
       "a6": "Comida de verdade que você realmente faria — jantares de 15 minutos pra noites corridas, projetos de fim de semana, cafés da manhã que não são só cereal. Ingredientes comuns que você acha em qualquer lugar. Nada que exija uma ida a loja especializada.",
       "q7": "Isso é apenas para uma pessoa?",
-      "a7": "Funciona pra um, funciona pra seis. Você define o tamanho da família e a gente ajusta tudo — porções, quantidades de compras, o plano inteiro. Casais, famílias, quem mora sozinho — tudo coberto."
+      "a7": "Funciona pra um, funciona pra seis. Você define o tamanho da família e a gente ajusta tudo — porções, quantidades de compras, o plano inteiro. Casais, famílias, quem mora sozinho — tudo coberto.",
+      "a2Trial": "Comece com um teste grátis de {days} dias — produto completo, cancele antes do fim e não paga nada. Depois custa $7.99/mês ou $59.99/ano (cerca de $5/mês) por um plano personalizado de 7 dias com receitas completas e lista de compras toda semana."
     },
     "popularPlans": {
       "title": "Planos de Refeições Populares",
@@ -191,7 +198,8 @@
       "alreadyCreatedTitle": "Você já criou seu plano de refeições",
       "alreadyCreatedSubtitle": "Seu plano de refeições está esperando por você no seu painel.",
       "viewPlan": "Ver seu plano de refeições",
-      "alreadyGenerated": "Já gerou um plano?"
+      "alreadyGenerated": "Já gerou um plano?",
+      "monthlyTrial": "Começar meu teste grátis de {days} dias"
     },
     "household": {
       "title": "Quem vai comer?",
@@ -345,7 +353,11 @@
       "friday": "Sexta-feira",
       "saturday": "Sábado",
       "sunday": "Domingo"
-    }
+    },
+    "heroSubtitleTrial": "Segunda está desbloqueada. Comece seu teste grátis para ver os 7 dias + receitas + lista de compras.",
+    "unlockCtaTrial": "Começar meu teste grátis de {days} dias",
+    "yearlyCtaTrial": "Grátis por {days} dias, depois $7.99/mês — ou $5/mês na cobrança anual",
+    "mobileCtaTrial": "Teste grátis por {days} dias"
   },
   "dashboard": {
     "title": "Painel de Controle",
@@ -441,7 +453,11 @@
     "pantrySaved": "Salvo",
     "weekPending": "O plano desta semana ainda não está pronto",
     "weekPendingDesc": "Seu plano semanal chega por e-mail todo domingo. Você pode gerá-lo agora se não quiser esperar.",
-    "generateThisWeek": "Gerar o plano desta semana"
+    "generateThisWeek": "Gerar o plano desta semana",
+    "subscribeCtaTrial": "Começar meu teste grátis de {days} dias",
+    "heroEveryWeekTrial": "Receba isto toda semana — grátis por {days} dias",
+    "trialBannerTitle": "Teste grátis",
+    "trialBannerBody": "Termina em {date} — depois {price}. Cancele quando quiser em Gerenciar assinatura."
   },
   "mealTypes": {
     "breakfast": "Café da Manhã",
@@ -515,7 +531,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "Ver Minha Prévia Grátis →",
     "reassurance": "Sem cartão de crédito. Sem spam. Só um plano de refeições.",
-    "dismiss": "Não, obrigado, eu me viro com o jantar"
+    "dismiss": "Não, obrigado, eu me viro com o jantar",
+    "reassuranceTrial": "Teste grátis de {days} dias. Depois a partir de $7.99/mês. Cancele quando quiser."
   },
   "checkout": {
     "srTitle": "Checkout – What's For Dinner",
@@ -571,6 +588,7 @@
       "asian": "Asiática",
       "mediterranean": "Mediterrânea",
       "indian": "Indiana"
-    }
+    },
+    "upsellNoteTrial": "Teste grátis de {days} dias · depois $7.99/mês · Cancele quando quiser"
   }
 }

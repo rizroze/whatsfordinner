@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useT } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 
 interface SubscribeButtonProps {
   label?: string;
@@ -17,7 +18,12 @@ export function SubscribeButton({
   className = "",
 }: SubscribeButtonProps) {
   const { t } = useT();
-  const resolvedLabel = label ?? t("dashboard.heroEveryWeek");
+  const trialDays = getTrialDays();
+  const resolvedLabel =
+    label ??
+    (trialDays
+      ? t("dashboard.heroEveryWeekTrial", { days: trialDays })
+      : t("dashboard.heroEveryWeek"));
   const [loading, setLoading] = useState(false);
 
   async function handleClick() {

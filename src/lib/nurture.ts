@@ -1,6 +1,7 @@
 import { Resend } from "resend";
 import { getAppUrl } from "@/lib/utils";
 import { generateEmailUnsubscribeUrl } from "@/lib/unsubscribe";
+import { getTrialDays } from "@/lib/trial";
 
 function getResend() {
   return new Resend(process.env.RESEND_API_KEY!);
@@ -54,6 +55,15 @@ function buildFooter(email: string): string {
 function upgradeUrl(plan: "monthly" | "yearly", hasAccount: boolean): string {
   const appUrl = getAppUrl();
   return hasAccount ? `${appUrl}/checkout?plan=${plan}` : `${appUrl}/signup?plan=${plan}`;
+}
+
+// CTA label for upgrade buttons: trial-first when the trial flag is on,
+// the given price-forward fallback otherwise. Evaluated at send time, so
+// flipping NEXT_PUBLIC_TRIAL_DAYS changes future emails without a deploy
+// of anything email-specific.
+function upgradeCtaLabel(fallback: string): string {
+  const days = getTrialDays();
+  return days ? `Start my ${days}-day free trial` : fallback;
 }
 
 // ── Meal type badge colors ──
@@ -159,7 +169,7 @@ export function buildNurtureDay3Email(
       </p>
       <div style="text-align:center;">
         <a href="${upgradeUrl("monthly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
-          Get 7 days every week &mdash; $7.99/mo
+          ${upgradeCtaLabel("Get 7 days every week &mdash; $7.99/mo")}
         </a>
       </div>
     </div>
@@ -205,7 +215,7 @@ export function buildNurtureDay7Email(
       </p>
       <div style="text-align:center;">
         <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
-          Go weekly &mdash; $5/mo ($59.99/yr)
+          ${upgradeCtaLabel("Go weekly &mdash; $5/mo ($59.99/yr)")}
         </a>
         <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">That's less than a single takeout coffee.</p>
       </div>
@@ -322,7 +332,7 @@ export function buildNurtureDay14Email(
       ${planSection}
       <div style="text-align:center;">
         <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
-          Get your weekly plan &mdash; $5/mo
+          ${upgradeCtaLabel("Get your weekly plan &mdash; $5/mo")}
         </a>
         <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">Save 37% with yearly ($59.99/yr)</p>
       </div>
@@ -470,7 +480,7 @@ function buildWeeklyInspirationEmail(
       </p>
       <div style="text-align:center;">
         <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
-          Get your weekly plan &mdash; $5/mo
+          ${upgradeCtaLabel("Get your weekly plan &mdash; $5/mo")}
         </a>
         <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">Cancel anytime. Plans start instantly.</p>
       </div>
@@ -576,7 +586,7 @@ export function buildPreviewLeadEmail(
       ${lockedSection}
       <div style="text-align:center;">
         <a href="${upgradeUrl("monthly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
-          Unlock my full week &mdash; $7.99/mo
+          ${upgradeCtaLabel("Unlock my full week &mdash; $7.99/mo")}
         </a>
       </div>
       <p style="margin:14px 0 0;text-align:center;font-size:12px;color:#A8A29E;text-decoration:none;">

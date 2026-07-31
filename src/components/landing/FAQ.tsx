@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { useT } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 
 function FAQItem({
   question,
@@ -62,10 +63,11 @@ function FAQItem({
 export function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const { t } = useT();
+  const trialDays = getTrialDays();
 
   const faqs = [
     { question: t("landing.faq.q1"), answer: t("landing.faq.a1") },
-    { question: t("landing.faq.q2"), answer: t("landing.faq.a2") },
+    { question: t("landing.faq.q2"), answer: trialDays ? t("landing.faq.a2Trial", { days: trialDays }) : t("landing.faq.a2") },
     { question: t("landing.faq.q3"), answer: t("landing.faq.a3") },
     { question: t("landing.faq.q4"), answer: t("landing.faq.a4") },
     { question: t("landing.faq.q5"), answer: t("landing.faq.a5") },

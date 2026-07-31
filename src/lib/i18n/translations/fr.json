@@ -94,7 +94,13 @@
         "bestValue": "Économisez $36/an vs mensuel",
         "inviteFriends": "Offrez 1 mois gratuit à 3 amis",
         "prioritySupport": "Support email prioritaire"
-      }
+      },
+      "subscribeMonthlyCta": "S'abonner — 7,99 $/mois",
+      "subscribeMonthlyCtaTrial": "Commencer mon essai gratuit de {days} jours",
+      "subscribeYearlyCta": "S'abonner — 5 $/mois",
+      "subscribeYearlyCtaTrial": "Commencer mon essai gratuit de {days} jours",
+      "billedMonthlyTrial": "Essai gratuit de {days} jours, puis 7,99 $/mois",
+      "billedYearlyTrial": "Essai gratuit de {days} jours, puis 59,99 $/an"
     },
     "faq": {
       "title": "Vous hésitez encore ?",
@@ -112,7 +118,8 @@
       "q6": "Quel type de repas est inclus ?",
       "a6": "De la vraie cuisine que vous auriez envie de préparer — des dîners de 15 minutes en semaine, des projets plus ambitieux le week-end, des petits-déjeuners qui ne se résument pas à des céréales. Des ingrédients courants que vous trouverez partout. Rien qui nécessite un détour par une épicerie spécialisée.",
       "q7": "C'est seulement pour une personne ?",
-      "a7": "Ça marche pour un, ça marche pour six. Vous indiquez la taille de votre foyer et on ajuste tout — les portions, les quantités de courses, tout le plan. Couples, familles, cuisiniers solo — tout est couvert."
+      "a7": "Ça marche pour un, ça marche pour six. Vous indiquez la taille de votre foyer et on ajuste tout — les portions, les quantités de courses, tout le plan. Couples, familles, cuisiniers solo — tout est couvert.",
+      "a2Trial": "Commencez par un essai gratuit de {days} jours — produit complet, annulez avant la fin et vous ne payez rien. Ensuite c'est 7,99 $/mois ou 59,99 $/an (environ 5 $/mois) pour un plan personnalisé de 7 jours avec recettes complètes et liste de courses chaque semaine."
     },
     "popularPlans": {
       "title": "Plans de Repas Populaires",
@@ -191,7 +198,8 @@
       "alreadyCreatedTitle": "Vous avez déjà créé votre plan repas",
       "alreadyCreatedSubtitle": "Votre plan repas vous attend sur votre tableau de bord.",
       "viewPlan": "Voir votre plan de repas",
-      "alreadyGenerated": "Vous avez déjà généré un plan ?"
+      "alreadyGenerated": "Vous avez déjà généré un plan ?",
+      "monthlyTrial": "Commencer mon essai gratuit de {days} jours"
     },
     "household": {
       "title": "Qui mange ?",
@@ -345,7 +353,11 @@
       "friday": "Vendredi",
       "saturday": "Samedi",
       "sunday": "Dimanche"
-    }
+    },
+    "heroSubtitleTrial": "Lundi est débloqué. Commencez votre essai gratuit pour les 7 jours + recettes + liste de courses.",
+    "unlockCtaTrial": "Commencer mon essai gratuit de {days} jours",
+    "yearlyCtaTrial": "Gratuit {days} jours, puis 7,99 $/mois — ou 5 $/mois en facturation annuelle",
+    "mobileCtaTrial": "Essai gratuit de {days} jours"
   },
   "dashboard": {
     "title": "Tableau de bord",
@@ -441,7 +453,11 @@
     "pantrySaved": "Enregistré",
     "weekPending": "Le plan de cette semaine n'est pas encore prêt",
     "weekPendingDesc": "Votre plan hebdomadaire arrive par e-mail chaque dimanche. Vous pouvez le générer maintenant si vous ne voulez pas attendre.",
-    "generateThisWeek": "Générer le plan de cette semaine"
+    "generateThisWeek": "Générer le plan de cette semaine",
+    "subscribeCtaTrial": "Commencer mon essai gratuit de {days} jours",
+    "heroEveryWeekTrial": "Recevez ceci chaque semaine — gratuit pendant {days} jours",
+    "trialBannerTitle": "Essai gratuit",
+    "trialBannerBody": "Se termine le {date} — puis {price}. Annulez à tout moment depuis Gérer l'abonnement."
   },
   "mealTypes": {
     "breakfast": "Petit-déjeuner",
@@ -515,7 +531,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "Voir Mon Aperçu Gratuit →",
     "reassurance": "Sans carte de crédit. Sans spam. Juste un plan de repas.",
-    "dismiss": "Non merci, je me débrouillerai pour le dîner"
+    "dismiss": "Non merci, je me débrouillerai pour le dîner",
+    "reassuranceTrial": "Essai gratuit de {days} jours. Ensuite à partir de 7,99 $/mois. Annulez à tout moment."
   },
   "checkout": {
     "srTitle": "Paiement – What's For Dinner",
@@ -571,6 +588,7 @@
       "asian": "Asiatique",
       "mediterranean": "Méditerranéenne",
       "indian": "Indienne"
-    }
+    },
+    "upsellNoteTrial": "Essai gratuit de {days} jours · puis 7,99 $/mois · Annulez à tout moment"
   }
 }

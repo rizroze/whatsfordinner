@@ -3,11 +3,13 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { useT } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 
 const STORAGE_KEY = "wfd_exit_shown";
 
 export function ExitIntentPopup({ isSignedIn }: { isSignedIn: boolean }) {
   const { t } = useT();
+  const trialDays = getTrialDays();
   const router = useRouter();
   const [show, setShow] = useState(false);
   const [email, setEmail] = useState("");
@@ -115,7 +117,7 @@ export function ExitIntentPopup({ isSignedIn }: { isSignedIn: boolean }) {
         </form>
 
         <p className="mt-4 text-xs text-stone-400">
-          {t("exitIntent.reassurance")}
+          {trialDays ? t("exitIntent.reassuranceTrial", { days: trialDays }) : t("exitIntent.reassurance")}
         </p>
 
         <button

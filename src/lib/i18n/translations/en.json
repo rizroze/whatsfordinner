@@ -94,7 +94,13 @@
         "bestValue": "Save $36/year vs monthly",
         "inviteFriends": "Give 3 friends a free month",
         "prioritySupport": "Priority email support"
-      }
+      },
+      "subscribeMonthlyCta": "Subscribe Now — $7.99/mo",
+      "subscribeMonthlyCtaTrial": "Start my {days}-day free trial",
+      "subscribeYearlyCta": "Subscribe Now — $5/mo",
+      "subscribeYearlyCtaTrial": "Start my {days}-day free trial",
+      "billedMonthlyTrial": "{days}-day free trial, then $7.99/mo",
+      "billedYearlyTrial": "{days}-day free trial, then $59.99/yr"
     },
     "faq": {
       "title": "Still thinking about it?",
@@ -112,7 +118,8 @@
       "q6": "What kind of meals are included?",
       "a6": "Real food you'd actually make. 15-minute weeknight dinners, weekend projects, breakfasts that aren't just cereal. Common ingredients you can find anywhere.",
       "q7": "Is this just for one person?",
-      "a7": "Works for one, works for six. You set your household size and we adjust portions, grocery quantities, the whole plan. Couples, families, solo cooks, all covered."
+      "a7": "Works for one, works for six. You set your household size and we adjust portions, grocery quantities, the whole plan. Couples, families, solo cooks, all covered.",
+      "a2Trial": "Start with a {days}-day free trial — full product, cancel before it ends and you pay nothing. After that it's $7.99/month or $59.99/year (about $5/month) for a personalized 7-day plan with full recipes and a grocery list every week."
     },
     "suggestion": {
       "breakfast": "Breakfast idea",
@@ -198,7 +205,8 @@
       "alreadyCreatedTitle": "You already created your meal plan",
       "alreadyCreatedSubtitle": "Your meal plan is waiting for you on your dashboard.",
       "viewPlan": "View your meal plan",
-      "alreadyGenerated": "Already generated a plan?"
+      "alreadyGenerated": "Already generated a plan?",
+      "monthlyTrial": "Start my {days}-day free trial"
     },
     "household": {
       "title": "Who's eating?",
@@ -352,7 +360,11 @@
       "friday": "Friday",
       "saturday": "Saturday",
       "sunday": "Sunday"
-    }
+    },
+    "heroSubtitleTrial": "Monday is unlocked. Start your free trial to get all 7 days + recipes + grocery list.",
+    "unlockCtaTrial": "Start my {days}-day free trial",
+    "yearlyCtaTrial": "Free for {days} days, then $7.99/mo — or $5/mo billed yearly",
+    "mobileCtaTrial": "Try free for {days} days"
   },
   "checkout": {
     "srTitle": "Checkout – What's For Dinner",
@@ -454,7 +466,11 @@
     "pantrySaved": "Saved",
     "weekPending": "This week's plan isn't ready yet",
     "weekPendingDesc": "Your weekly plan arrives by email every Sunday. You can generate it now if you'd rather not wait.",
-    "generateThisWeek": "Generate this week's plan"
+    "generateThisWeek": "Generate this week's plan",
+    "subscribeCtaTrial": "Start my {days}-day free trial",
+    "heroEveryWeekTrial": "Get this every week — free for {days} days",
+    "trialBannerTitle": "Free trial",
+    "trialBannerBody": "Ends {date} — then {price}. Cancel anytime from Manage subscription."
   },
   "mealTypes": {
     "breakfast": "Breakfast",
@@ -528,7 +544,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "See My Free Preview →",
     "reassurance": "From $7.99/mo. Cancel anytime.",
-    "dismiss": "No thanks, I'll figure out dinner myself"
+    "dismiss": "No thanks, I'll figure out dinner myself",
+    "reassuranceTrial": "{days}-day free trial. From $7.99/mo after. Cancel anytime."
   },
   "setup": {
     "settingUp": "Setting up your account..."
@@ -578,6 +595,7 @@
       "asian": "Asian",
       "mediterranean": "Mediterranean",
       "indian": "Indian"
-    }
+    },
+    "upsellNoteTrial": "{days}-day free trial · then $7.99/mo · Cancel anytime"
   }
 }

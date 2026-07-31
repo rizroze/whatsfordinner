@@ -12,6 +12,7 @@ import {
 import { PastPlans } from "@/components/dashboard/PastPlans";
 import { SubscriptionStatus } from "@/components/dashboard/SubscriptionStatus";
 import { FreePlanBanner } from "@/components/dashboard/FreePlanBanner";
+import { TrialBanner } from "@/components/dashboard/TrialBanner";
 import { LogoutButton } from "@/components/dashboard/LogoutButton";
 import { PromoCodeInput } from "@/components/dashboard/PromoCodeInput";
 import { ReferralCodes } from "@/components/dashboard/ReferralCodes";
@@ -103,6 +104,11 @@ export default async function DashboardPage() {
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
         {/* Free plan from localStorage — client component */}
         <FreePlanBanner hasDbPlan={!!currentPlan} hasProfile={hasProfile} />
+
+        <TrialBanner
+          trialEndsAt={userRecord?.trial_ends_at ?? null}
+          planInterval={userRecord?.plan_interval ?? null}
+        />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main content — 2/3 */}

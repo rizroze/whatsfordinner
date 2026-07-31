@@ -8,10 +8,12 @@ import { SocialProofLine } from "@/components/ui/SocialProofLine";
 import { useT } from "@/lib/i18n/context";
 import { createClient } from "@/lib/supabase/client";
 import type { PreviewPlanResult } from "@/lib/preview-plan";
+import { getTrialDays } from "@/lib/trial";
 
 export default function PreviewPage() {
   const router = useRouter();
   const { t, locale } = useT();
+  const trialDays = getTrialDays();
   const [prefs, setPrefs] = useState<Record<string, unknown> | null>(null);
   const [plan, setPlan] = useState<PreviewPlanResult | null>(null);
   const [isSignedIn, setIsSignedIn] = useState(false);
@@ -127,7 +129,7 @@ export default function PreviewPage() {
             {t("preview.heroTitle")}
           </h1>
           <p className="text-stone-500 text-sm sm:text-base">
-            {t("preview.heroSubtitle")}
+            {trialDays ? t("preview.heroSubtitleTrial") : t("preview.heroSubtitle")}
           </p>
           {personalizationLabel && (
             <div className="mt-3 inline-flex items-center px-3 py-1 rounded-full bg-stone-100 text-xs text-stone-500 font-medium">
@@ -229,13 +231,13 @@ export default function PreviewPage() {
                   onClick={() => handleCTA("monthly")}
                   className="w-full py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 active:bg-orange-700 rounded-full shadow-md shadow-orange-500/20 transition-all duration-200"
                 >
-                  {t("preview.unlockCta")}
+                  {trialDays ? t("preview.unlockCtaTrial", { days: trialDays }) : t("preview.unlockCta")}
                 </button>
                 <button
                   onClick={() => handleCTA("yearly")}
                   className="w-full py-2 text-xs text-stone-400 hover:text-orange-500 transition-colors"
                 >
-                  {t("preview.yearlyCta")}
+                  {trialDays ? t("preview.yearlyCtaTrial", { days: trialDays }) : t("preview.yearlyCta")}
                 </button>
               </div>
               <p className="mt-3 text-[10px] text-stone-400">
@@ -275,7 +277,7 @@ export default function PreviewPage() {
           onClick={() => handleCTA("monthly")}
           className="w-full py-3.5 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg transition-colors"
         >
-          {t("preview.mobileCta")}
+          {trialDays ? t("preview.mobileCtaTrial", { days: trialDays }) : t("preview.mobileCta")}
         </button>
       </div>
     </div>

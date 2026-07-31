@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { useT } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 
 interface SubscriptionStatusProps {
   status: "active" | "inactive" | "past_due" | "cancelled";
@@ -25,6 +26,7 @@ const statusConfig: Record<
 
 export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planInterval }: SubscriptionStatusProps) {
   const { t } = useT();
+  const trialDays = getTrialDays();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const config = statusConfig[status];
@@ -173,7 +175,11 @@ export function SubscriptionStatus({ status, freeUsed, hasBilling = true, planIn
             onClick={handleSubscribe}
             className="w-full"
           >
-            {status === "cancelled" ? t("dashboard.resubscribe") : t("dashboard.subscribeCta")}
+            {status === "cancelled"
+              ? t("dashboard.resubscribe")
+              : trialDays
+                ? t("dashboard.subscribeCtaTrial", { days: trialDays })
+                : t("dashboard.subscribeCta")}
           </Button>
         )}
 

@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { FoodCharacter } from "@/components/ui/FoodCharacter";
 import { useT } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 import { track } from "@vercel/analytics";
 import { cn } from "@/lib/utils";
 import type { InstantDiet, InstantCuisine, InstantSlot } from "@/lib/instant-plan";
@@ -55,6 +56,7 @@ const UPSELL_FEATURES = [
 
 export function FreeToday({ diet, cuisine, calories, meals }: FreeTodayProps) {
   const { t, locale } = useT();
+  const trialDays = getTrialDays();
   const [plan, setPlan] = useState<InstantPlan | null>(null);
   const [loading, setLoading] = useState(true);
   const [swappingSlot, setSwappingSlot] = useState<InstantSlot | null>(null);
@@ -309,7 +311,7 @@ export function FreeToday({ diet, cuisine, calories, meals }: FreeTodayProps) {
                 onClick={() => track("free_dashboard_upsell_click")}
                 className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:bg-orange-600 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
               >
-                {t("dashboard.subscribeCta")}
+                {trialDays ? t("dashboard.subscribeCtaTrial", { days: trialDays }) : t("dashboard.subscribeCta")}
                 <svg
                   width="15"
                   height="15"
@@ -324,7 +326,7 @@ export function FreeToday({ diet, cuisine, calories, meals }: FreeTodayProps) {
                   <polyline points="12 5 19 12 12 19" />
                 </svg>
               </Link>
-              <p className="mt-2.5 text-xs text-stone-400">{t("instant.upsellNote")}</p>
+              <p className="mt-2.5 text-xs text-stone-400">{trialDays ? t("instant.upsellNoteTrial", { days: trialDays }) : t("instant.upsellNote")}</p>
             </div>
             <FoodCharacter name="bag" className="hidden sm:block w-24 shrink-0" />
           </div>

@@ -94,7 +94,13 @@
         "bestValue": "比月付每年省 $36",
         "inviteFriends": "送 3 个朋友各一个月免费",
         "prioritySupport": "优先邮件支持"
-      }
+      },
+      "subscribeMonthlyCta": "立即订阅 — 每月$7.99",
+      "subscribeMonthlyCtaTrial": "开始{days}天免费试用",
+      "subscribeYearlyCta": "立即订阅 — 每月$5",
+      "subscribeYearlyCtaTrial": "开始{days}天免费试用",
+      "billedMonthlyTrial": "{days}天免费试用,之后每月$7.99",
+      "billedYearlyTrial": "{days}天免费试用,之后每年$59.99"
     },
     "faq": {
       "title": "还在犹豫？",
@@ -112,7 +118,8 @@
       "q6": "都有什么样的菜？",
       "a6": "真正你会做的家常菜——15 分钟的工作日快手晚餐、周末稍微花心思的菜、不只是麦片的早餐。用的都是超市常见食材，不需要跑特色店。",
       "q7": "只能一个人用吗？",
-      "a7": "一个人能用，六个人也能用。设置家庭人数后，份量、购物数量、整个计划都会自动调整。情侣、家庭、独居——全都覆盖。"
+      "a7": "一个人能用，六个人也能用。设置家庭人数后，份量、购物数量、整个计划都会自动调整。情侣、家庭、独居——全都覆盖。",
+      "a2Trial": "从{days}天免费试用开始 — 完整产品,试用期内取消不收任何费用。之后每月$7.99或每年$59.99(约合每月$5),每周获得包含完整食谱和购物清单的个性化7天计划。"
     },
     "popularPlans": {
       "title": "热门餐饮计划",
@@ -191,7 +198,8 @@
       "alreadyCreatedTitle": "你已经创建了餐饮计划",
       "alreadyCreatedSubtitle": "你的餐饮计划正在仪表板上等你查看。",
       "viewPlan": "查看你的餐饮计划",
-      "alreadyGenerated": "已经生成过计划了？"
+      "alreadyGenerated": "已经生成过计划了？",
+      "monthlyTrial": "开始{days}天免费试用"
     },
     "household": {
       "title": "谁会吃饭？",
@@ -345,7 +353,11 @@
       "friday": "星期五",
       "saturday": "星期六",
       "sunday": "星期日"
-    }
+    },
+    "heroSubtitleTrial": "周一已解锁。开始免费试用,获取完整7天计划 + 食谱 + 购物清单。",
+    "unlockCtaTrial": "开始{days}天免费试用",
+    "yearlyCtaTrial": "免费{days}天,之后每月$7.99 — 按年付费每月仅$5",
+    "mobileCtaTrial": "免费试用{days}天"
   },
   "dashboard": {
     "title": "仪表板",
@@ -441,7 +453,11 @@
     "pantrySaved": "已保存",
     "weekPending": "本周的计划尚未准备好",
     "weekPendingDesc": "您的每周计划会在每周日通过电子邮件发送。如果不想等待，可以立即生成。",
-    "generateThisWeek": "生成本周计划"
+    "generateThisWeek": "生成本周计划",
+    "subscribeCtaTrial": "开始{days}天免费试用",
+    "heroEveryWeekTrial": "每周获取 — 免费{days}天",
+    "trialBannerTitle": "免费试用",
+    "trialBannerBody": "{date}结束 — 之后{price}。可随时在管理订阅中取消。"
   },
   "mealTypes": {
     "breakfast": "早餐",
@@ -515,7 +531,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "查看我的免费预览 →",
     "reassurance": "无需信用卡。没有垃圾邮件。只有一份餐饮计划。",
-    "dismiss": "不用了，我自己想办法解决晚饭"
+    "dismiss": "不用了，我自己想办法解决晚饭",
+    "reassuranceTrial": "{days}天免费试用。之后每月$7.99起。随时可取消。"
   },
   "checkout": {
     "srTitle": "结账 – What's For Dinner",
@@ -571,6 +588,7 @@
       "asian": "亚洲",
       "mediterranean": "地中海",
       "indian": "印度"
-    }
+    },
+    "upsellNoteTrial": "{days}天免费试用 · 之后每月$7.99 · 随时可取消"
   }
 }

@@ -49,6 +49,8 @@ export default async function AdminUserDetailPage({ params }: PageProps) {
   const pantryItems = pantryResult.data ?? [];
   const feedback = feedbackResult.data ?? [];
 
+  // eslint-disable-next-line react-hooks/purity -- server component; one render per request
+  const now = Date.now();
   return (
     <div className="min-h-screen bg-[#FFFBF5]">
       <div className="max-w-4xl mx-auto px-4 py-10 space-y-6">
@@ -68,6 +70,11 @@ export default async function AdminUserDetailPage({ params }: PageProps) {
               <span className={`text-xs font-semibold px-3 py-1 rounded-full ${STATUS_STYLE[u.subscription_status] ?? STATUS_STYLE.inactive}`}>
                 {u.subscription_status}
               </span>
+              {u.trial_ends_at && new Date(u.trial_ends_at).getTime() > now && (
+                <span className="text-xs font-semibold px-3 py-1 rounded-full bg-amber-100 text-amber-700">
+                  trial until {new Date(u.trial_ends_at).toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+                </span>
+              )}
               {profile && <ResendPlanButton userId={u.id} />}
             </div>
           </div>

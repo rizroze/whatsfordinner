@@ -94,7 +94,13 @@
         "bestValue": "Aylığa göre yılda $36 tasarruf",
         "inviteFriends": "3 arkadaşına 1 ay ücretsiz hediye et",
         "prioritySupport": "Öncelikli e-posta desteği"
-      }
+      },
+      "subscribeMonthlyCta": "Abone Ol — ayda $7.99",
+      "subscribeMonthlyCtaTrial": "{days} günlük ücretsiz denememi başlat",
+      "subscribeYearlyCta": "Abone Ol — ayda $5",
+      "subscribeYearlyCtaTrial": "{days} günlük ücretsiz denememi başlat",
+      "billedMonthlyTrial": "{days} gün ücretsiz deneme, sonra ayda $7.99",
+      "billedYearlyTrial": "{days} gün ücretsiz deneme, sonra yılda $59.99"
     },
     "faq": {
       "title": "Hâlâ düşünüyor musunuz?",
@@ -112,7 +118,8 @@
       "q6": "Ne tür yemekler var?",
       "a6": "Gerçekten yapacağınız yemekler — 15 dakikalık hafta içi akşam yemekleri, hafta sonu projeleri, sadece gevrek olmayan kahvaltılar. Her yerde bulabileceğiniz sıradan malzemeler. Özel market gezisi gerektiren hiçbir şey yok.",
       "q7": "Bu sadece tek kişi için mi?",
-      "a7": "Bir kişi için de çalışır, altı kişi için de. Hane büyüklüğünüzü siz belirlersiniz, biz her şeyi ayarlarız — porsiyonlar, alışveriş miktarları, tüm plan. Çiftler, aileler, tek başına pişirenler — hepsi dahil."
+      "a7": "Bir kişi için de çalışır, altı kişi için de. Hane büyüklüğünüzü siz belirlersiniz, biz her şeyi ayarlarız — porsiyonlar, alışveriş miktarları, tüm plan. Çiftler, aileler, tek başına pişirenler — hepsi dahil.",
+      "a2Trial": "{days} günlük ücretsiz denemeyle başla — ürünün tamamı, bitmeden iptal edersen hiçbir şey ödemezsin. Sonrasında her hafta tam tarifler ve market listesiyle kişiselleştirilmiş 7 günlük plan için ayda $7.99 veya yılda $59.99 (ayda yaklaşık $5)."
     },
     "popularPlans": {
       "title": "Popüler Öğün Planları",
@@ -191,7 +198,8 @@
       "alreadyCreatedTitle": "Yemek planınızı zaten oluşturdunuz",
       "alreadyCreatedSubtitle": "Yemek planınız panoda sizi bekliyor.",
       "viewPlan": "Öğün planınızı görüntüleyin",
-      "alreadyGenerated": "Zaten bir plan oluşturdunuz mu?"
+      "alreadyGenerated": "Zaten bir plan oluşturdunuz mu?",
+      "monthlyTrial": "{days} günlük ücretsiz denememi başlat"
     },
     "household": {
       "title": "Kim yiyor?",
@@ -345,7 +353,11 @@
       "friday": "Cuma",
       "saturday": "Cumartesi",
       "sunday": "Pazar"
-    }
+    },
+    "heroSubtitleTrial": "Pazartesi açık. 7 günün tamamı + tarifler + market listesi için ücretsiz denemeni başlat.",
+    "unlockCtaTrial": "{days} günlük ücretsiz denememi başlat",
+    "yearlyCtaTrial": "{days} gün ücretsiz, sonra ayda $7.99 — veya yıllık ödemeyle ayda $5",
+    "mobileCtaTrial": "{days} gün ücretsiz dene"
   },
   "dashboard": {
     "title": "Pano",
@@ -441,7 +453,11 @@
     "pantrySaved": "Kaydedildi",
     "weekPending": "Bu haftanın planı henüz hazır değil",
     "weekPendingDesc": "Haftalık planınız her Pazar e-posta ile gelir. Beklemek istemiyorsanız şimdi oluşturabilirsiniz.",
-    "generateThisWeek": "Bu haftanın planını oluştur"
+    "generateThisWeek": "Bu haftanın planını oluştur",
+    "subscribeCtaTrial": "{days} günlük ücretsiz denememi başlat",
+    "heroEveryWeekTrial": "Bunu her hafta al — {days} gün ücretsiz",
+    "trialBannerTitle": "Ücretsiz deneme",
+    "trialBannerBody": "{date} tarihinde bitiyor — sonrası {price}. Abonelik yönetiminden istediğin zaman iptal edebilirsin."
   },
   "mealTypes": {
     "breakfast": "Kahvaltı",
@@ -515,7 +531,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "Ücretsiz Önizlememi Gör →",
     "reassurance": "Kredi kartı yok. Spam yok. Sadece bir öğün planı.",
-    "dismiss": "Hayır teşekkürler, akşam yemeğini kendim hallederim"
+    "dismiss": "Hayır teşekkürler, akşam yemeğini kendim hallederim",
+    "reassuranceTrial": "{days} günlük ücretsiz deneme. Sonrası ayda $7.99'dan başlar. İstediğin zaman iptal et."
   },
   "checkout": {
     "srTitle": "Ödeme – What's For Dinner",
@@ -571,6 +588,7 @@
       "asian": "Asya",
       "mediterranean": "Akdeniz",
       "indian": "Hint"
-    }
+    },
+    "upsellNoteTrial": "{days} günlük ücretsiz deneme · sonra ayda $7.99 · İstediğin zaman iptal"
   }
 }

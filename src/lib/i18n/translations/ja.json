@@ -94,7 +94,13 @@
         "bestValue": "月額より年間$36節約",
         "inviteFriends": "友達3人に1ヶ月無料プレゼント",
         "prioritySupport": "優先メールサポート"
-      }
+      },
+      "subscribeMonthlyCta": "登録する — 月額$7.99",
+      "subscribeMonthlyCtaTrial": "{days}日間の無料トライアルを始める",
+      "subscribeYearlyCta": "登録する — 月あたり$5",
+      "subscribeYearlyCtaTrial": "{days}日間の無料トライアルを始める",
+      "billedMonthlyTrial": "{days}日間無料、その後月額$7.99",
+      "billedYearlyTrial": "{days}日間無料、その後年額$59.99"
     },
     "faq": {
       "title": "まだ迷ってますか？",
@@ -112,7 +118,8 @@
       "q6": "どんな料理が出てくるの？",
       "a6": "本当に作りたくなる料理 — 15分の平日ディナー、週末のちょっと凝ったレシピ、シリアルじゃない朝食。どこでも買える食材で、専門店に行く必要なし。",
       "q7": "1人暮らしでも使える？",
-      "a7": "1人でも6人でも。家族の人数を設定すれば、分量も買い物の量も全部調整します。一人暮らし、カップル、ファミリー — 全部カバー。"
+      "a7": "1人でも6人でも。家族の人数を設定すれば、分量も買い物の量も全部調整します。一人暮らし、カップル、ファミリー — 全部カバー。",
+      "a2Trial": "{days}日間の無料トライアルから始められます — 全機能が使えて、期間内にキャンセルすれば料金はかかりません。その後は月額$7.99または年額$59.99(月あたり約$5)で、完全なレシピと買い物リスト付きのパーソナライズされた7日間プランを毎週お届けします。"
     },
     "popularPlans": {
       "title": "人気のメニュープラン",
@@ -191,7 +198,8 @@
       "alreadyCreatedTitle": "献立プランはすでに作成済みです",
       "alreadyCreatedSubtitle": "献立プランがダッシュボードでお待ちしています。",
       "viewPlan": "メニュープランを見る",
-      "alreadyGenerated": "すでにプランを作成しましたか？"
+      "alreadyGenerated": "すでにプランを作成しましたか？",
+      "monthlyTrial": "{days}日間の無料トライアルを始める"
     },
     "household": {
       "title": "誰が食べますか？",
@@ -345,7 +353,11 @@
       "friday": "金曜日",
       "saturday": "土曜日",
       "sunday": "日曜日"
-    }
+    },
+    "heroSubtitleTrial": "月曜日はロック解除済み。無料トライアルを始めて7日分すべて + レシピ + 買い物リストを手に入れよう。",
+    "unlockCtaTrial": "{days}日間の無料トライアルを始める",
+    "yearlyCtaTrial": "{days}日間無料、その後は月額$7.99 — 年払いなら月あたり$5",
+    "mobileCtaTrial": "{days}日間無料で試す"
   },
   "dashboard": {
     "title": "ダッシュボード",
@@ -441,7 +453,11 @@
     "pantrySaved": "保存しました",
     "weekPending": "今週のプランはまだ準備できていません",
     "weekPendingDesc": "毎週日曜日に週間プランがメールで届きます。お待ちになりたくない場合は今すぐ作成できます。",
-    "generateThisWeek": "今週のプランを作成"
+    "generateThisWeek": "今週のプランを作成",
+    "subscribeCtaTrial": "{days}日間の無料トライアルを始める",
+    "heroEveryWeekTrial": "これを毎週お届け — {days}日間無料",
+    "trialBannerTitle": "無料トライアル",
+    "trialBannerBody": "{date}に終了 — その後は{price}。サブスクリプション管理からいつでもキャンセルできます。"
   },
   "mealTypes": {
     "breakfast": "朝食",
@@ -515,7 +531,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "無料プレビューを見る →",
     "reassurance": "クレジットカード不要。迷惑メールなし。届くのはメニュープランだけ。",
-    "dismiss": "いいえ、自分で晩ごはん考えます"
+    "dismiss": "いいえ、自分で晩ごはん考えます",
+    "reassuranceTrial": "{days}日間の無料トライアル。その後は月額$7.99から。いつでもキャンセル可能。"
   },
   "checkout": {
     "srTitle": "お支払い – What's For Dinner",
@@ -571,6 +588,7 @@
       "asian": "アジア",
       "mediterranean": "地中海",
       "indian": "インド"
-    }
+    },
+    "upsellNoteTrial": "{days}日間無料トライアル · その後月額$7.99 · いつでもキャンセル可能"
   }
 }

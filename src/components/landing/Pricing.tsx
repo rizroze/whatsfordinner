@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 
 import { useT } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 import { FoodCharacter } from "@/components/ui/FoodCharacter";
 
 function Check() {
@@ -26,6 +27,7 @@ function Check() {
 
 export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t } = useT();
+  const trialDays = getTrialDays();
 
   const monthlyFeatures = [
     t("landing.pricing.features.sevenDayPlans"),
@@ -76,7 +78,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
               <span className="text-stone-400 text-sm">{t("landing.pricing.perMonth")}</span>
             </div>
             <p className="mt-1 text-xs text-stone-400">
-              {t("landing.pricing.billedMonthly")}
+              {trialDays ? t("landing.pricing.billedMonthlyTrial", { days: trialDays }) : t("landing.pricing.billedMonthly")}
             </p>
 
             <ul className="mt-5 space-y-2.5 flex-1">
@@ -90,7 +92,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
 
             <Button asChild variant="primary" className="mt-6 w-full">
               <Link href="/signup?plan=monthly">
-                Subscribe Now — $7.99/mo
+                {trialDays ? t("landing.pricing.subscribeMonthlyCtaTrial", { days: trialDays }) : t("landing.pricing.subscribeMonthlyCta")}
               </Link>
             </Button>
             <Button asChild variant="secondary" className="mt-2 w-full">
@@ -115,7 +117,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
               <span className="text-stone-400 text-sm">{t("landing.pricing.perMonth")}</span>
             </div>
             <p className="mt-1 text-xs text-stone-400">
-              {t("landing.pricing.billedYearly")}
+              {trialDays ? t("landing.pricing.billedYearlyTrial", { days: trialDays }) : t("landing.pricing.billedYearly")}
             </p>
 
             <ul className="mt-5 space-y-2.5 flex-1">
@@ -129,7 +131,7 @@ export function Pricing({ isSignedIn }: { isSignedIn?: boolean }) {
 
             <Button asChild variant="primary" className="mt-6 w-full">
               <Link href="/signup?plan=yearly">
-                Subscribe Now — $5/mo
+                {trialDays ? t("landing.pricing.subscribeYearlyCtaTrial", { days: trialDays }) : t("landing.pricing.subscribeYearlyCta")}
               </Link>
             </Button>
             <Button asChild variant="secondary" className="mt-2 w-full">

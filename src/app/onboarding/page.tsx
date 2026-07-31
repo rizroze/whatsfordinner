@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { LanguagePicker } from "@/components/ui/LanguagePicker";
 import { cn } from "@/lib/utils";
 import { useT, LANGUAGES, type Locale } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 import { generateFingerprint } from "@/lib/fingerprint";
 import { createClient } from "@/lib/supabase/client";
 import { track } from "@vercel/analytics";
@@ -73,6 +74,7 @@ function OnboardingContent() {
   const searchParams = useSearchParams();
   const isEdit = searchParams.get("edit") === "1";
   const { t, setLocale } = useT();
+  const trialDays = getTrialDays();
 
   // Apply language from URL param (e.g. /onboarding?lang=tr from pSEO pages)
   const langParam = searchParams.get("lang");
@@ -528,7 +530,7 @@ function OnboardingContent() {
                       setSubscribing(false);
                     }}
                   >
-                    {t("onboarding.blocked.monthly")}
+                    {trialDays ? t("onboarding.blocked.monthlyTrial", { days: trialDays }) : t("onboarding.blocked.monthly")}
                   </Button>
                 </div>
               </>

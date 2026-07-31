@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
 import { track } from "@vercel/analytics";
 import { FoodCharacter } from "@/components/ui/FoodCharacter";
+import { getTrialDays } from "@/lib/trial";
 
 // ETM-style instant generator: a real 1-day plan in one click, no signup.
 // Rule-based from the recipe library (zero AI tokens) — the paid product
@@ -83,6 +84,7 @@ function SkeletonRow() {
 
 export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
   const { t, locale } = useT();
+  const trialDays = getTrialDays();
 
   const [diet, setDiet] = useState<(typeof DIETS)[number]["value"]>("anything");
   const [cuisine, setCuisine] = useState<(typeof CUISINES)[number]["value"]>("any");
@@ -405,7 +407,7 @@ export function InstantPlanner({ isSignedIn }: { isSignedIn?: boolean }) {
                 </svg>
               </Link>
               {!isSignedIn && (
-                <p className="mt-2.5 text-xs text-stone-400">{t("instant.upsellNote")}</p>
+                <p className="mt-2.5 text-xs text-stone-400">{trialDays ? t("instant.upsellNoteTrial", { days: trialDays }) : t("instant.upsellNote")}</p>
               )}
             </aside>
             )}

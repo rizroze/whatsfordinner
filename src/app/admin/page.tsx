@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { requireAdmin } from "@/lib/admin-auth";
 import { getWeekOf } from "@/lib/utils";
+import { getTrialDays } from "@/lib/trial";
 
 export const dynamic = "force-dynamic";
 
@@ -46,9 +47,14 @@ export default async function AdminPage({ searchParams }: PageProps) {
   monthStart.setHours(0, 0, 0, 0);
 
   // Build the filtered/searched user query
+  const trialOn = getTrialDays() !== null;
   let userQuery = admin
     .from("users")
-    .select("id, email, subscription_status, subscription_source, plan_interval, created_at", { count: "exact" });
+    .select(
+      "id, email, subscription_status, subscription_source, plan_interval, created_at" +
+        (trialOn ? ", trial_ends_at" : ""),
+      { count: "exact" }
+    );
   if (q.trim()) userQuery = userQuery.ilike("email", `%${q.trim()}%`);
   if (status !== "all") userQuery = userQuery.eq("subscription_status", status);
   const offset = (page - 1) * PAGE_SIZE;
@@ -99,7 +105,17 @@ export default async function AdminPage({ searchParams }: PageProps) {
   const newThisMonth = newThisMonthResult.count ?? 0;
   const cancelledThisMonth = cancelledThisMonthResult.count ?? 0;
 
-  const users = userListResult.data ?? [];
+  // The conditional select string above defeats supabase's inference, so the
+  // row shape is asserted to what both select branches actually return.
+  const users = (userListResult.data ?? []) as unknown as Array<{
+    id: string;
+    email: string;
+    subscription_status: string;
+    subscription_source: string | null;
+    plan_interval: string | null;
+    created_at: string;
+    trial_ends_at?: string | null;
+  }>;
   const totalMatching = userListResult.count ?? 0;
   const totalPages = Math.max(1, Math.ceil(totalMatching / PAGE_SIZE));
 
@@ -272,6 +288,14 @@ export default async function AdminPage({ searchParams }: PageProps) {
                       {u.plan_interval && (
                         <span className="text-[10px] text-stone-400">{u.plan_interval}</span>
                       )}
+                      {(() => {
+                        const trialEnd = (u as { trial_ends_at?: string | null }).trial_ends_at;
+                        return trialEnd && new Date(trialEnd).getTime() > Date.now() ? (
+                          <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">
+                            trial → {new Date(trialEnd).toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+                          </span>
+                        ) : null;
+                      })()}
                       <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${STATUS_STYLE[u.subscription_status] ?? STATUS_STYLE.inactive}`}>
                         {u.subscription_status}
                       </span>

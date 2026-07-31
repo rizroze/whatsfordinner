@@ -94,7 +94,13 @@
         "bestValue": "월간 대비 연 $36 절약",
         "inviteFriends": "친구 3명에게 무료 한 달 선물하기",
         "prioritySupport": "우선 이메일 지원"
-      }
+      },
+      "subscribeMonthlyCta": "구독하기 — 월 $7.99",
+      "subscribeMonthlyCtaTrial": "{days}일 무료 체험 시작하기",
+      "subscribeYearlyCta": "구독하기 — 월 $5",
+      "subscribeYearlyCtaTrial": "{days}일 무료 체험 시작하기",
+      "billedMonthlyTrial": "{days}일 무료 체험, 이후 월 $7.99",
+      "billedYearlyTrial": "{days}일 무료 체험, 이후 연 $59.99"
     },
     "faq": {
       "title": "아직 고민 중이신가요?",
@@ -112,7 +118,8 @@
       "q6": "어떤 종류의 끼니가 포함되나요?",
       "a6": "진짜 해먹을 수 있는 음식이에요 — 15분 만에 되는 평일 저녁, 주말에 좀 공들이는 요리, 시리얼이 아닌 아침 식사. 동네 마트에서 다 살 수 있는 재료로요. 특수 식재료 사러 돌아다닐 필요 없어요.",
       "q7": "혼자 사는 사람 전용인가요?",
-      "a7": "1인부터 6인까지 다 돼요. 가구 규모를 설정하면 분량, 장보기 수량, 식단 전체가 맞춰져요. 혼자든, 커플이든, 가족이든 — 다 커버해요."
+      "a7": "1인부터 6인까지 다 돼요. 가구 규모를 설정하면 분량, 장보기 수량, 식단 전체가 맞춰져요. 혼자든, 커플이든, 가족이든 — 다 커버해요.",
+      "a2Trial": "{days}일 무료 체험으로 시작하세요 — 모든 기능을 쓸 수 있고, 체험이 끝나기 전에 취소하면 요금이 청구되지 않아요. 이후에는 월 $7.99 또는 연 $59.99(월 약 $5)로 완전한 레시피와 장보기 목록이 포함된 맞춤형 7일 플랜을 매주 받아볼 수 있어요."
     },
     "popularPlans": {
       "title": "인기 식단",
@@ -191,7 +198,8 @@
       "alreadyCreatedTitle": "이미 식단을 만드셨어요",
       "alreadyCreatedSubtitle": "식단이 대시보드에서 기다리고 있어요.",
       "viewPlan": "식단 보기",
-      "alreadyGenerated": "이미 식단을 생성하셨나요?"
+      "alreadyGenerated": "이미 식단을 생성하셨나요?",
+      "monthlyTrial": "{days}일 무료 체험 시작하기"
     },
     "household": {
       "title": "누가 식사하나요?",
@@ -345,7 +353,11 @@
       "friday": "금요일",
       "saturday": "토요일",
       "sunday": "일요일"
-    }
+    },
+    "heroSubtitleTrial": "월요일이 잠금 해제되었어요. 무료 체험을 시작하고 7일 전체 + 레시피 + 장보기 목록을 받아보세요.",
+    "unlockCtaTrial": "{days}일 무료 체험 시작하기",
+    "yearlyCtaTrial": "{days}일 무료, 이후 월 $7.99 — 연간 결제 시 월 $5",
+    "mobileCtaTrial": "{days}일 무료로 체험하기"
   },
   "dashboard": {
     "title": "대시보드",
@@ -441,7 +453,11 @@
     "pantrySaved": "저장됨",
     "weekPending": "이번 주 플랜이 아직 준비되지 않았습니다",
     "weekPendingDesc": "주간 플랜은 매주 일요일 이메일로 전송됩니다. 기다리지 않으시려면 지금 생성할 수 있습니다.",
-    "generateThisWeek": "이번 주 플랜 생성"
+    "generateThisWeek": "이번 주 플랜 생성",
+    "subscribeCtaTrial": "{days}일 무료 체험 시작하기",
+    "heroEveryWeekTrial": "매주 받아보세요 — {days}일 무료",
+    "trialBannerTitle": "무료 체험",
+    "trialBannerBody": "{date}에 종료 — 이후 {price}. 구독 관리에서 언제든 취소할 수 있어요."
   },
   "mealTypes": {
     "breakfast": "아침",
@@ -515,7 +531,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "무료 미리보기 보기 →",
     "reassurance": "신용카드 없이. 스팸 없이. 식단만 보내드려요.",
-    "dismiss": "괜찮아요, 저녁은 알아서 할게요"
+    "dismiss": "괜찮아요, 저녁은 알아서 할게요",
+    "reassuranceTrial": "{days}일 무료 체험. 이후 월 $7.99부터. 언제든 취소 가능."
   },
   "checkout": {
     "srTitle": "결제 – What's For Dinner",
@@ -571,6 +588,7 @@
       "asian": "아시안",
       "mediterranean": "지중해",
       "indian": "인도"
-    }
+    },
+    "upsellNoteTrial": "{days}일 무료 체험 · 이후 월 $7.99 · 언제든 취소 가능"
   }
 }

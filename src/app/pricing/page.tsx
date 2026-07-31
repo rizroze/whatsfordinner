@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { SocialProofLine } from "@/components/ui/SocialProofLine";
 import { createClient } from "@/lib/supabase/client";
+import { getTrialDays } from "@/lib/trial";
 
 function Check({ className = "text-green-500" }: { className?: string }) {
   return (
@@ -59,6 +60,7 @@ const faqs = [
 ];
 
 export default function PricingPage() {
+  const trialDays = getTrialDays();
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [isSignedIn, setIsSignedIn] = useState(false);
 
@@ -113,7 +115,9 @@ export default function PricingPage() {
           Simple pricing. No surprises.
         </h1>
         <p className="mt-4 text-base sm:text-lg text-stone-500 max-w-lg mx-auto leading-relaxed">
-          Your week of meals, planned in 30 seconds. Cancel anytime.
+          {trialDays
+            ? `Try it free for ${trialDays} days. Cancel anytime.`
+            : "Your week of meals, planned in 30 seconds. Cancel anytime."}
         </p>
         <SocialProofLine className="mt-5" />
       </section>
@@ -134,7 +138,7 @@ export default function PricingPage() {
               </span>
               <span className="text-stone-400 text-sm">/month</span>
             </div>
-            <p className="mt-1 text-xs text-stone-400">Billed monthly</p>
+            <p className="mt-1 text-xs text-stone-400">{trialDays ? `${trialDays}-day free trial, then $7.99/mo` : "Billed monthly"}</p>
 
             <ul className="mt-5 space-y-2.5 flex-1">
               {features.map((f) => (
@@ -152,7 +156,7 @@ export default function PricingPage() {
               href={checkoutHref("monthly")}
               className="mt-6 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
             >
-              Subscribe Now — $7.99/mo
+              {trialDays ? `Start my ${trialDays}-day free trial` : "Subscribe Now — $7.99/mo"}
             </Link>
             <Link
               href="/preview"
@@ -179,7 +183,7 @@ export default function PricingPage() {
               <span className="text-stone-400 text-sm">/month</span>
             </div>
             <p className="mt-1 text-xs text-stone-400">
-              $59.99 billed yearly
+              {trialDays ? `${trialDays}-day free trial, then $59.99/yr` : "$59.99 billed yearly"}
             </p>
 
             <ul className="mt-5 space-y-2.5 flex-1">
@@ -202,7 +206,7 @@ export default function PricingPage() {
               href={checkoutHref("yearly")}
               className="mt-6 w-full inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg shadow-orange-500/20 transition-all duration-200"
             >
-              Subscribe Now — $5/mo
+              {trialDays ? `Start my ${trialDays}-day free trial` : "Subscribe Now — $5/mo"}
             </Link>
             <Link
               href="/preview"
@@ -222,7 +226,16 @@ export default function PricingPage() {
           </h2>
 
           <div className="mt-10 space-y-2">
-            {faqs.map((faq, i) => (
+            {(trialDays
+              ? [
+                  {
+                    q: "How does the free trial work?",
+                    a: `You get the full product free for ${trialDays} days — real weekly plans, recipes, and grocery lists. Cancel before the trial ends and you pay nothing. If you keep it, your card is charged automatically when the trial ends.`,
+                  },
+                  ...faqs,
+                ]
+              : faqs
+            ).map((faq, i) => (
               <details
                 key={i}
                 className="group bg-white rounded-xl border border-stone-200 overflow-hidden"

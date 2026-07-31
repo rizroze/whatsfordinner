@@ -94,7 +94,13 @@
         "bestValue": "Spare $36/Jahr vs monatlich",
         "inviteFriends": "Schenke 3 Freunden einen kostenlosen Monat",
         "prioritySupport": "Bevorzugter E-Mail-Support"
-      }
+      },
+      "subscribeMonthlyCta": "Jetzt abonnieren — 7,99 $/Monat",
+      "subscribeMonthlyCtaTrial": "Meine {days}-tägige Testphase starten",
+      "subscribeYearlyCta": "Jetzt abonnieren — 5 $/Monat",
+      "subscribeYearlyCtaTrial": "Meine {days}-tägige Testphase starten",
+      "billedMonthlyTrial": "{days} Tage kostenlos, danach 7,99 $/Monat",
+      "billedYearlyTrial": "{days} Tage kostenlos, danach 59,99 $/Jahr"
     },
     "faq": {
       "title": "Noch am Überlegen?",
@@ -112,7 +118,8 @@
       "q6": "Welche Art von Mahlzeiten sind enthalten?",
       "a6": "Echtes Essen, das Du wirklich kochen würdest — 15-Minuten-Abendessen unter der Woche, Wochenend-Projekte, Frühstück das mehr ist als nur Müsli. Normale Zutaten aus jedem Supermarkt. Nichts, wofür Du in einen Spezialladen musst.",
       "q7": "Ist das nur für eine Person?",
-      "a7": "Funktioniert für eine Person, funktioniert für sechs. Du gibst Deine Haushaltsgröße an und wir passen alles an — Portionen, Einkaufsmengen, den ganzen Plan. Paare, Familien, Alleinkocher — alles abgedeckt."
+      "a7": "Funktioniert für eine Person, funktioniert für sechs. Du gibst Deine Haushaltsgröße an und wir passen alles an — Portionen, Einkaufsmengen, den ganzen Plan. Paare, Familien, Alleinkocher — alles abgedeckt.",
+      "a2Trial": "Starte mit einer {days}-tägigen kostenlosen Testphase — volles Produkt, kündige vor Ablauf und du zahlst nichts. Danach kostet es 7,99 $/Monat oder 59,99 $/Jahr (etwa 5 $/Monat) für einen persönlichen 7-Tage-Plan mit vollständigen Rezepten und Einkaufsliste jede Woche."
     },
     "popularPlans": {
       "title": "Beliebte Essenspläne",
@@ -191,7 +198,8 @@
       "alreadyCreatedTitle": "Du hast Deinen Essensplan bereits erstellt",
       "alreadyCreatedSubtitle": "Dein Essensplan wartet auf Deinem Dashboard auf Dich.",
       "viewPlan": "Deinen Essensplan ansehen",
-      "alreadyGenerated": "Bereits einen Plan erstellt?"
+      "alreadyGenerated": "Bereits einen Plan erstellt?",
+      "monthlyTrial": "Meine {days}-tägige Testphase starten"
     },
     "household": {
       "title": "Wer isst mit?",
@@ -345,7 +353,11 @@
       "friday": "Freitag",
       "saturday": "Samstag",
       "sunday": "Sonntag"
-    }
+    },
+    "heroSubtitleTrial": "Montag ist freigeschaltet. Starte deine kostenlose Testphase für alle 7 Tage + Rezepte + Einkaufsliste.",
+    "unlockCtaTrial": "Meine {days}-tägige Testphase starten",
+    "yearlyCtaTrial": "{days} Tage kostenlos, danach 7,99 $/Monat — oder 5 $/Monat bei jährlicher Zahlung",
+    "mobileCtaTrial": "{days} Tage kostenlos testen"
   },
   "dashboard": {
     "title": "Dashboard",
@@ -441,7 +453,11 @@
     "pantrySaved": "Gespeichert",
     "weekPending": "Der Plan für diese Woche ist noch nicht fertig",
     "weekPendingDesc": "Dein Wochenplan kommt jeden Sonntag per E-Mail. Du kannst ihn jetzt erstellen, wenn du nicht warten möchtest.",
-    "generateThisWeek": "Plan für diese Woche erstellen"
+    "generateThisWeek": "Plan für diese Woche erstellen",
+    "subscribeCtaTrial": "Meine {days}-tägige Testphase starten",
+    "heroEveryWeekTrial": "Bekomme das jede Woche — {days} Tage kostenlos",
+    "trialBannerTitle": "Kostenlose Testphase",
+    "trialBannerBody": "Endet am {date} — danach {price}. Jederzeit kündbar unter Abo verwalten."
   },
   "mealTypes": {
     "breakfast": "Frühstück",
@@ -515,7 +531,8 @@
     "emailPlaceholder": "you@example.com",
     "cta": "Meine Gratis-Vorschau Ansehen →",
     "reassurance": "Keine Kreditkarte. Kein Spam. Einfach ein Essensplan.",
-    "dismiss": "Nein danke, ich kümmere mich selbst ums Abendessen"
+    "dismiss": "Nein danke, ich kümmere mich selbst ums Abendessen",
+    "reassuranceTrial": "{days} Tage kostenlos testen. Danach ab 7,99 $/Monat. Jederzeit kündbar."
   },
   "checkout": {
     "srTitle": "Kasse – What's For Dinner",
@@ -571,6 +588,7 @@
       "asian": "Asiatisch",
       "mediterranean": "Mediterran",
       "indian": "Indisch"
-    }
+    },
+    "upsellNoteTrial": "{days} Tage kostenlos · danach 7,99 $/Monat · Jederzeit kündbar"
   }
 }

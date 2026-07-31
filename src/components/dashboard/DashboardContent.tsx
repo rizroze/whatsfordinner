@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useT } from "@/lib/i18n/context";
+import { getTrialDays } from "@/lib/trial";
 import { Card, CardContent, CardHeader } from "@/components/ui/Card";
 import { SubscribeButton } from "./SubscribeButton";
 
@@ -44,6 +45,7 @@ export function DashboardHomeLink() {
 
 export function UpgradeBanner() {
   const { t } = useT();
+  const trialDays = getTrialDays();
   return (
     <div className="mb-8 bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div>
@@ -54,7 +56,13 @@ export function UpgradeBanner() {
           {t("dashboard.upgradeDesc")}
         </p>
       </div>
-      <SubscribeButton label={t("dashboard.subscribeCta")} />
+      <SubscribeButton
+        label={
+          trialDays
+            ? t("dashboard.subscribeCtaTrial", { days: trialDays })
+            : t("dashboard.subscribeCta")
+        }
+      />
     </div>
   );
 }
@@ -101,6 +109,7 @@ interface SettingsCardProps {
 
 export function SettingsCard({ hasProfile, isSubscribed, freeUsed }: SettingsCardProps) {
   const { t } = useT();
+  const trialDays = getTrialDays();
 
   return (
     <Card>
@@ -125,7 +134,7 @@ export function SettingsCard({ hasProfile, isSubscribed, freeUsed }: SettingsCar
               {t("dashboard.prefsLockedDesc")}
             </p>
             <SubscribeButton
-              label={`${t("dashboard.subscribeCta")} →`}
+              label={`${trialDays ? t("dashboard.subscribeCtaTrial", { days: trialDays }) : t("dashboard.subscribeCta")} →`}
               variant="link"
             />
           </>
