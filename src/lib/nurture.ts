@@ -622,6 +622,75 @@ export async function sendPreviewLeadEmail(
   }
 }
 
+// ── Trial ending reminder: sent once, 14-36h before the card is charged ──
+//
+// A billing notice, not marketing: it goes out regardless of email_opted_out,
+// because the alternative is a surprise charge — worse for the user and for
+// chargeback rates than one unrequested email. The cancel path is stated
+// plainly for the same reason; a trial user who cancels informed is a future
+// prospect, one who feels tricked is a chargeback.
+
+export function buildTrialEndingEmail(
+  email: string,
+  trialEndsAt: string,
+  planInterval: "monthly" | "yearly" | null
+): { subject: string; html: string } {
+  const endDate = new Date(trialEndsAt).toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  });
+  const priceLine =
+    planInterval === "yearly" ? "$59.99/year" : "$7.99/month";
+
+  const html = wrapEmail(`
+    <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
+      <div style="text-align:center;margin:0 0 12px;">
+        <img src="${getAppUrl()}/characters/email/envelope.png" width="88" height="86" alt="" style="display:inline-block;width:88px;height:86px;">
+      </div>
+      <h1 style="margin:0 0 8px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
+        Your free trial ends tomorrow
+      </h1>
+      <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;text-align:center;">
+        On <strong style="color:#1C1917;">${escapeHtml(endDate)}</strong> your subscription starts at <strong style="color:#1C1917;">${priceLine}</strong>. Nothing to do &mdash; your meal plans, recipes, and grocery list keep arriving every Sunday.
+      </p>
+      <div style="text-align:center;">
+        <a href="${getAppUrl()}/dashboard" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+          Go to my dashboard
+        </a>
+      </div>
+      <p style="margin:14px 0 0;text-align:center;font-size:12px;color:#A8A29E;text-decoration:none;">
+        Not for you? Cancel from your dashboard before then and you won&#39;t be charged.
+      </p>
+    </div>
+    ${buildFooter(email)}`);
+
+  return { subject: "Your free trial ends tomorrow", html };
+}
+
+export async function sendTrialEndingEmail(
+  to: string,
+  trialEndsAt: string,
+  planInterval: "monthly" | "yearly" | null
+): Promise<void> {
+  const { subject, html } = buildTrialEndingEmail(to, trialEndsAt, planInterval);
+  const unsubUrl = generateEmailUnsubscribeUrl(to);
+
+  const { error } = await getResend().emails.send({
+    from: "What's For Dinner <plans@whatsfordinner.fit>",
+    to,
+    subject,
+    html,
+    headers: {
+      "List-Unsubscribe": `<${unsubUrl}>`,
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    },
+  });
+  if (error) {
+    throw new Error(`Resend send failed (trial ending email): ${JSON.stringify(error)}`);
+  }
+}
+
 // ── Email type definitions ──
 
 export type NurtureEmailType = "day3" | "day7" | "day14" | `weekly_${number}`;

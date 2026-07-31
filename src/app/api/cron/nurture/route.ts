@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { sendNurtureEmail, sendReferralReminderEmail } from "@/lib/nurture";
+import { sendNurtureEmail, sendReferralReminderEmail, sendTrialEndingEmail } from "@/lib/nurture";
 import type { NurtureEmailType, NurtureMealSummary } from "@/lib/nurture";
+import { getTrialDays } from "@/lib/trial";
 import crypto from "crypto";
 
 export const maxDuration = 60;
@@ -242,9 +243,56 @@ export async function GET(req: NextRequest) {
       }
     }
 
+    // ── Part 3: Trial ending reminders (14-36h before the charge) ──
+    //
+    // Gated on the trial env flag so this never queries the trial columns
+    // before migration 012 is applied — the whole trial funnel switches on
+    // as one unit. Window math at daily 14:00 UTC cadence: every trial gets
+    // exactly one reminder, 14-36h out, and trial_reminder_sent_at makes a
+    // re-run (or a manual cron invocation) unable to double-send.
+    let trialRemindersSent = 0;
+    if (getTrialDays() !== null) {
+      const windowEnd = new Date(now.getTime() + 36 * 60 * 60 * 1000);
+      const { data: endingTrials, error: trialQueryError } = await admin
+        .from("users")
+        .select("id, email, plan_interval, trial_ends_at")
+        .eq("subscription_status", "active")
+        .is("trial_reminder_sent_at", null)
+        .gt("trial_ends_at", now.toISOString())
+        .lte("trial_ends_at", windowEnd.toISOString());
+
+      if (trialQueryError) {
+        console.error("Trial reminder query failed (migration 012 applied?):", trialQueryError);
+        errors++;
+      } else {
+        for (const trialUser of endingTrials ?? []) {
+          if (isTestAlias(trialUser.email)) continue;
+          try {
+            await sendTrialEndingEmail(
+              trialUser.email,
+              trialUser.trial_ends_at as string,
+              (trialUser.plan_interval as "monthly" | "yearly" | null) ?? null
+            );
+            await admin
+              .from("users")
+              .update({ trial_reminder_sent_at: now.toISOString() })
+              .eq("id", trialUser.id);
+            trialRemindersSent++;
+          } catch (err) {
+            console.error(
+              `Trial ending email failed for ${trialUser.email.replace(/(.{2}).*@/, "$1***@")}:`,
+              err
+            );
+            errors++;
+          }
+        }
+      }
+    }
+
     const result = {
       sent,
       referralsSent,
+      trialRemindersSent,
       errors,
       checked: plans?.length ?? 0,
     };
