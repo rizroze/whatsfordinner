@@ -17,6 +17,8 @@ export interface Database {
           subscription_expires_at: string | null;
           plan_interval: "monthly" | "yearly" | null;
           free_plan_used: boolean;
+          trial_ends_at: string | null;
+          trial_reminder_sent_at: string | null;
           created_at: string;
           updated_at: string;
         };
@@ -32,6 +34,8 @@ export interface Database {
           subscription_expires_at?: string | null;
           plan_interval?: "monthly" | "yearly" | null;
           free_plan_used?: boolean;
+          trial_ends_at?: string | null;
+          trial_reminder_sent_at?: string | null;
         };
         Update: Partial<Database["public"]["Tables"]["users"]["Insert"]>;
       };

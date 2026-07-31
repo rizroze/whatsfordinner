@@ -41,6 +41,10 @@ interface WebhookEvent {
       customer_id: number;
       status: string;
       user_email: string;
+      /** ISO date the free trial ends; null for non-trial subscriptions. */
+      trial_ends_at?: string | null;
+      /** ISO date a cancelled subscription actually loses access. */
+      ends_at?: string | null;
       first_subscription_item?: {
         id: number;
       };
@@ -292,6 +296,20 @@ export async function POST(req: NextRequest) {
           }
         }
 
+        // Trial start date, when present. A separate best-effort update so the
+        // activation above never depends on the trial columns existing — if
+        // migration 012 hasn't been applied yet this logs and moves on, and
+        // the subscription is still fully active either way.
+        if (event.data.attributes.trial_ends_at) {
+          const { error: trialError } = await admin
+            .from("users")
+            .update({ trial_ends_at: event.data.attributes.trial_ends_at })
+            .eq("id", resolvedUserId);
+          if (trialError) {
+            console.error("Failed to record trial_ends_at (migration 012 applied?):", trialError);
+          }
+        }
+
         // After responding, generate the first meal plan and send welcome + plan emails
         after(() => triggerInitialPlanForNewSubscriber(
           resolvedUserId!,
@@ -315,8 +333,20 @@ export async function POST(req: NextRequest) {
         break;
       }
 
-      case "subscription_cancelled":
-      case "subscription_expired": {
+      case "subscription_cancelled": {
+        // A cancelled subscription keeps access until ends_at (the period or
+        // trial they already paid for / started); LS fires subscription_expired
+        // at that moment, which is when we actually flip them. Cutting access
+        // at cancel time was taking away days users were entitled to — worst
+        // during a trial, where cancelling day 2 of 10 lost the remaining 8.
+        const endsAt = event.data.attributes.ends_at;
+        if (endsAt && new Date(endsAt).getTime() > Date.now()) {
+          console.log(
+            `Subscription ${event.data.id} cancelled with grace until ${endsAt} — keeping active until expiry event`,
+          );
+          break;
+        }
+
         const { error } = await admin
           .from("users")
           .update({ subscription_status: "cancelled" })
@@ -324,6 +354,18 @@ export async function POST(req: NextRequest) {
 
         if (error) {
           console.error("Failed to cancel subscription:", error);
+        }
+        break;
+      }
+
+      case "subscription_expired": {
+        const { error } = await admin
+          .from("users")
+          .update({ subscription_status: "cancelled" })
+          .eq("lemon_subscription_id", event.data.id);
+
+        if (error) {
+          console.error("Failed to expire subscription:", error);
         }
         break;
       }
