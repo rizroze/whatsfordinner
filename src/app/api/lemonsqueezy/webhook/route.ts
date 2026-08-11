@@ -45,8 +45,12 @@ interface WebhookEvent {
       trial_ends_at?: string | null;
       /** ISO date a cancelled subscription actually loses access. */
       ends_at?: string | null;
+      /** The purchased variant — this is what LEMONSQUEEZY_VARIANT_* hold. */
+      variant_id?: number;
       first_subscription_item?: {
         id: number;
+        /** Subscription-item id, NOT the variant id. Never compare to a variant. */
+        variant_id?: number;
       };
       urls?: {
         customer_portal?: string;
@@ -255,13 +259,17 @@ export async function POST(req: NextRequest) {
           break;
         }
 
-        // Detect monthly vs yearly from variant
-        const variantMonthly = process.env.LEMONSQUEEZY_VARIANT_MONTHLY;
-        const variantYearly = process.env.LEMONSQUEEZY_VARIANT_YEARLY;
-        const itemId = event.data.attributes.first_subscription_item?.id;
-        let planInterval: "monthly" | "yearly" | null = null;
-        if (itemId && variantMonthly && String(itemId) === variantMonthly) planInterval = "monthly";
-        if (itemId && variantYearly && String(itemId) === variantYearly) planInterval = "yearly";
+        // Detect monthly vs yearly from the purchased variant.
+        // This used to read first_subscription_item.id — that's the subscription
+        // *item* id (e.g. 8182596), never a variant id (1368543/1368545), so it
+        // matched nothing and every subscriber was written with a null interval.
+        // Null interval silently disabled the whole yearly referral perk.
+        const planInterval = resolvePlanInterval(event.data.attributes);
+        if (!planInterval) {
+          console.warn("subscription_created: unrecognized variant, plan_interval left null.", {
+            variant_id: event.data.attributes.variant_id,
+          });
+        }
 
         const subscriptionData = {
           lemon_customer_id: String(event.data.attributes.customer_id),
@@ -322,9 +330,18 @@ export async function POST(req: NextRequest) {
       case "subscription_updated": {
         const status = mapStatus(event.data.attributes.status);
 
+        // Keep the interval fresh — a monthly→yearly upgrade arrives as an
+        // update, and the interval is what gates the yearly referral perk.
+        // Only written when the variant is recognized, so an unknown variant
+        // can't wipe a correct value.
+        const updatedInterval = resolvePlanInterval(event.data.attributes);
+
         const { error } = await admin
           .from("users")
-          .update({ subscription_status: status })
+          .update({
+            subscription_status: status,
+            ...(updatedInterval ? { plan_interval: updatedInterval } : {}),
+          })
           .eq("lemon_subscription_id", event.data.id);
 
         if (error) {
@@ -403,6 +420,24 @@ export async function POST(req: NextRequest) {
       { status: 500 },
     );
   }
+}
+
+/**
+ * Maps a LemonSqueezy variant to our billing interval. Reads `variant_id` from
+ * the subscription attributes — the id that LEMONSQUEEZY_VARIANT_MONTHLY and
+ * LEMONSQUEEZY_VARIANT_YEARLY actually hold. Returns null when the variant is
+ * unset or unrecognized so callers can decide whether to overwrite.
+ */
+function resolvePlanInterval(attributes: {
+  variant_id?: number;
+  first_subscription_item?: { variant_id?: number };
+}): "monthly" | "yearly" | null {
+  const variantId = attributes.variant_id ?? attributes.first_subscription_item?.variant_id;
+  if (!variantId) return null;
+  const id = String(variantId);
+  if (id === process.env.LEMONSQUEEZY_VARIANT_MONTHLY?.trim()) return "monthly";
+  if (id === process.env.LEMONSQUEEZY_VARIANT_YEARLY?.trim()) return "yearly";
+  return null;
 }
 
 function mapStatus(
