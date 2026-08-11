@@ -29,6 +29,13 @@ const STATUS_STYLE: Record<string, string> = {
   cancelled: "bg-red-50 text-red-600",
 };
 
+// nurture_sent stores cron keys ("day3", "weekly_2") — make them readable.
+function formatNurtureStage(key: string) {
+  const weekly = key.match(/^weekly_(\d+)$/);
+  if (weekly) return `wk ${Number(weekly[1]) + 1}`;
+  return key.replace(/^day/, "day ");
+}
+
 interface PageProps {
   searchParams: Promise<{ q?: string; status?: string; page?: string }>;
 }
@@ -73,6 +80,7 @@ export default async function AdminPage({ searchParams }: PageProps) {
     cancelledThisMonthResult,
     userListResult,
     leadsResult,
+    allUserEmailsResult,
   ] = await Promise.all([
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "active"),
     admin.from("users").select("*", { count: "exact", head: true }).eq("subscription_status", "active").eq("plan_interval", "monthly"),
@@ -94,6 +102,10 @@ export default async function AdminPage({ searchParams }: PageProps) {
       .eq("plan_data->>source", "preview_lead")
       .order("created_at", { ascending: false })
       .limit(1000),
+    // Every account email, so a lead can be marked as "also has an account".
+    // Most leads never sign up, so the two lists barely overlap — but when they
+    // do, that's the interesting row.
+    admin.from("users").select("email, subscription_status").limit(1000),
   ]);
 
   const active = activeResult.count ?? 0;
@@ -119,10 +131,30 @@ export default async function AdminPage({ searchParams }: PageProps) {
   const totalMatching = userListResult.count ?? 0;
   const totalPages = Math.max(1, Math.ceil(totalMatching / PAGE_SIZE));
 
-  const leads = (leadsResult.data ?? []).map((r) => ({
-    email: (r.plan_data as Record<string, unknown>)?.nurture_email as string | undefined,
-    created_at: r.created_at as string,
-  })).filter((l) => l.email);
+  // email -> subscription_status for every account, used to tell an anonymous
+  // lead (onboarded, never signed up) apart from one who later made an account.
+  const accountStatusByEmail = new Map<string, string>(
+    (allUserEmailsResult.data ?? []).map((u) => [
+      (u.email as string).toLowerCase(),
+      u.subscription_status as string,
+    ])
+  );
+
+  const leads = (leadsResult.data ?? []).map((r) => {
+    const planData = (r.plan_data ?? {}) as Record<string, unknown>;
+    const email = planData.nurture_email as string | undefined;
+    const sent = Array.isArray(planData.nurture_sent)
+      ? (planData.nurture_sent as string[])
+      : [];
+    return {
+      email,
+      created_at: r.created_at as string,
+      // day 1 goes out inline from /api/leads, so every lead row has had one
+      // email; nurture_sent only tracks what the daily cron added after that.
+      stage: ["day 1", ...sent.map(formatNurtureStage)].join(", "),
+      accountStatus: email ? accountStatusByEmail.get(email.toLowerCase()) : undefined,
+    };
+  }).filter((l) => l.email);
 
   const mrr = (monthly * MONTHLY_PRICE) + (yearly * (YEARLY_PRICE / 12));
   const arr = mrr * 12;
@@ -331,7 +363,9 @@ export default async function AdminPage({ searchParams }: PageProps) {
         <div className="bg-white rounded-2xl border border-stone-100 p-5">
           <h2 className="text-sm font-semibold text-stone-700 mb-4">
             Onboarded, didn&apos;t pay
-            <span className="ml-2 text-xs font-normal text-stone-400">{leads.length} leads · covered by nurture emails</span>
+            <span className="ml-2 text-xs font-normal text-stone-400">
+              {leads.length} leads · {leads.filter((l) => !l.accountStatus).length} never signed up · covered by nurture emails
+            </span>
           </h2>
           {leads.length === 0 ? (
             <p className="text-sm text-stone-400">No leads yet.</p>
@@ -340,9 +374,20 @@ export default async function AdminPage({ searchParams }: PageProps) {
               {leads.map((l) => {
                 const date = new Date(l.created_at).toLocaleDateString("en-US", { month: "short", day: "numeric" });
                 return (
-                  <div key={l.email} className="flex items-center justify-between py-1.5 border-b border-stone-50 last:border-0">
-                    <p className="text-xs font-medium text-stone-700 truncate max-w-[220px]">{l.email}</p>
-                    <p className="text-[10px] text-stone-400">{date}</p>
+                  <div key={l.email} className="flex items-center justify-between gap-2 py-1.5 border-b border-stone-50 last:border-0">
+                    <div className="min-w-0">
+                      <p className="text-xs font-medium text-stone-700 truncate">{l.email}</p>
+                      <p className="text-[10px] text-stone-400">{date} · emailed {l.stage}</p>
+                    </div>
+                    <span
+                      className={`shrink-0 text-[10px] font-semibold px-2 py-0.5 rounded-full ${
+                        l.accountStatus
+                          ? STATUS_STYLE[l.accountStatus] ?? STATUS_STYLE.inactive
+                          : "bg-stone-50 text-stone-400"
+                      }`}
+                    >
+                      {l.accountStatus ? `account · ${l.accountStatus}` : "no account"}
+                    </span>
                   </div>
                 );
               })}
