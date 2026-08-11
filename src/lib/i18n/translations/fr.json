@@ -433,7 +433,7 @@
     "resubscribe": "Se réabonner — $7.99/mois",
     "updatePayment": "Mettre à jour le paiement",
     "inviteFriends": "Inviter des amis",
-    "inviteDesc": "Partagez ces codes avec vos amis. {count}/3 codes générés.",
+    "inviteDesc": "Chaque code offre à un ami son premier mois gratuit. Vous en avez {count}.",
     "monthFree": "1 mois gratuit",
     "used": "Utilisé",
     "copyLink": "Copier le lien",

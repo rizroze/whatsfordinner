@@ -209,11 +209,14 @@ export async function GET(req: NextRequest) {
           // Only send if first plan was 7-8 days ago (one-day window)
           if (daysSinceFirst < 7 || daysSinceFirst > 8) continue;
 
-          // Check if user has unused referral codes
+          // Check if user has unused referral codes. Keyed on referrer_user_id:
+          // that's the column generateReferralCodes has always written, and it
+          // excludes admin-issued codes, which have no referrer.
           const { data: codes } = await admin
             .from("promo_codes")
             .select("code")
-            .eq("created_by", userId)
+            .eq("referrer_user_id", userId)
+            .eq("type", "referral")
             .lt("current_uses", 1);
 
           if (!codes || codes.length === 0) continue;

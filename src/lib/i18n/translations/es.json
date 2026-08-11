@@ -433,7 +433,7 @@
     "resubscribe": "Volver a suscribirse — $7.99/mes",
     "updatePayment": "Actualizar Pago",
     "inviteFriends": "Invitar Amigos",
-    "inviteDesc": "Comparte estos códigos con tus amigos. {count}/3 códigos generados.",
+    "inviteDesc": "Cada código le da a un amigo su primer mes gratis. Tienes {count}.",
     "monthFree": "1 mes gratis",
     "used": "Usado",
     "copyLink": "Copiar enlace",

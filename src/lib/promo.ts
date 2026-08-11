@@ -193,12 +193,29 @@ export async function redeemPromoCode(
   return { success: true, expiresAt: expiresAt ?? undefined };
 }
 
-// --- Referral: Generate Codes for Yearly Subscriber ---
+// --- Referral: Generate Codes for Subscribers ---
+
+export interface ReferralCode {
+  code: string;
+  id: string;
+  used: boolean;
+  current_uses: number;
+  max_uses: number;
+}
+
+/**
+ * How many invites an active subscriber gets. Yearly keeps the full 3 — it's
+ * the perk that makes the annual plan the better deal. Everyone else active
+ * (monthly, promo) gets 1, so the referral loop isn't dead for them.
+ */
+export function referralCodeCount(planInterval: string | null | undefined): number {
+  return planInterval === "yearly" ? 3 : 1;
+}
 
 export async function generateReferralCodes(
   userId: string,
   count = 3
-): Promise<{ code: string; id: string; used: boolean }[]> {
+): Promise<ReferralCode[]> {
   const db = createAdminClient();
 
   // Check existing referral codes
@@ -213,12 +230,14 @@ export async function generateReferralCodes(
       code: c.code,
       id: c.id,
       used: c.current_uses >= c.max_uses,
+      current_uses: c.current_uses,
+      max_uses: c.max_uses,
     }));
   }
 
   // Generate missing codes
   const toCreate = count - (existing?.length ?? 0);
-  const newCodes: { code: string; id: string; used: boolean }[] = [];
+  const newCodes: ReferralCode[] = [];
 
   for (let i = 0; i < toCreate; i++) {
     const code = randomCode();
@@ -229,13 +248,16 @@ export async function generateReferralCodes(
         type: "referral",
         duration_months: 1,
         max_uses: 1,
+        // created_by is what the day-7 referral reminder cron looks codes up
+        // by; without it that reminder finds nothing and never sends.
+        created_by: userId,
         referrer_user_id: userId,
       })
       .select("id, code")
       .single();
 
     if (!error && data) {
-      newCodes.push({ code: data.code, id: data.id, used: false });
+      newCodes.push({ code: data.code, id: data.id, used: false, current_uses: 0, max_uses: 1 });
     }
   }
 
@@ -244,6 +266,8 @@ export async function generateReferralCodes(
       code: c.code,
       id: c.id,
       used: c.current_uses >= c.max_uses,
+      current_uses: c.current_uses,
+      max_uses: c.max_uses,
     })) ?? []),
     ...newCodes,
   ];

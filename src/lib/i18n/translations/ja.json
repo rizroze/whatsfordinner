@@ -433,7 +433,7 @@
     "resubscribe": "再購読 — $7.99/月",
     "updatePayment": "お支払い情報を更新",
     "inviteFriends": "友達を招待",
-    "inviteDesc": "これらのコードを友達と共有してください。{count}/3 コード生成済み。",
+    "inviteDesc": "各コードで友達の初月が無料になります。あなたは{count}個お持ちです。",
     "monthFree": "1ヶ月無料",
     "used": "使用済み",
     "copyLink": "リンクをコピー",

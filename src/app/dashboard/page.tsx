@@ -159,10 +159,8 @@ export default async function DashboardPage() {
               <FastingToggle initialFast={profile.active_fast ?? null} />
             )}
 
-            {/* Referral codes for yearly subscribers */}
-            {isSubscribed && userRecord?.plan_interval === "yearly" && (
-              <ReferralCodes />
-            )}
+            {/* Referral codes — 3 for yearly, 1 for everyone else active */}
+            {isSubscribed && <ReferralCodes />}
 
             {/* Promo code input for non-subscribers */}
             {!isSubscribed && <PromoCodeInput />}

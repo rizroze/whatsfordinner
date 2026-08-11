@@ -433,7 +433,7 @@
     "resubscribe": "重新订阅——$7.99/月",
     "updatePayment": "更新支付信息",
     "inviteFriends": "邀请朋友",
-    "inviteDesc": "与朋友分享这些代码。已生成 {count}/3 个代码。",
+    "inviteDesc": "每个代码可让好友首月免费。你有 {count} 个。",
     "monthFree": "1个月免费",
     "used": "已使用",
     "copyLink": "复制链接",

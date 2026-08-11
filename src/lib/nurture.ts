@@ -490,52 +490,82 @@ function buildWeeklyInspirationEmail(
   return { subject: theme.subject, html };
 }
 
-// ── Referral reminder email (for subscribers, 2 weeks after first plan) ──
+// ── Referral reminder email (for subscribers, a week after first plan) ──
 
 export function buildReferralReminderEmail(
   email: string,
   referralCodes: string[]
 ): { subject: string; html: string } {
   const appUrl = getAppUrl();
+  const count = referralCodes.length;
+  const isSingle = count === 1;
 
   const codeRows = referralCodes
     .map(
-      (code) => `
+      (code, i) => `
         <tr>
-          <td style="padding:8px 12px;background:#FFF7ED;border-radius:8px;margin-bottom:4px;">
-            <table width="100%" cellpadding="0" cellspacing="0">
+          <td style="${i < count - 1 ? "padding:0 0 8px;" : "padding:0;"}">
+            <table width="100%" cellpadding="0" cellspacing="0" style="background:#FFFBF5;border:1px solid #F5F5F4;border-radius:16px;">
               <tr>
-                <td style="font-size:15px;font-weight:700;color:#C2410C;font-family:monospace;text-decoration:none;">${escapeHtml(code)}</td>
-                <td style="text-align:right;">
-                  <a href="${appUrl}/redeem?code=${encodeURIComponent(code)}" style="font-size:12px;color:#F97316;text-decoration:none;font-weight:600;">Share link</a>
+                <td style="padding:12px;width:44px;vertical-align:middle;">
+                  ${emojiCircle("&#127873;")}
+                </td>
+                <td style="padding:12px 12px 12px 0;vertical-align:middle;">
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="vertical-align:middle;">
+                        <p style="margin:0 0 3px;font-size:15px;font-weight:700;color:#1C1917;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;text-decoration:none;">${escapeHtml(code)}</p>
+                        <p style="margin:0;font-size:12px;color:#A8A29E;text-decoration:none;">1 month free &middot; one friend</p>
+                      </td>
+                      <td style="vertical-align:middle;text-align:right;width:1px;white-space:nowrap;">
+                        <a href="${appUrl}/redeem?code=${encodeURIComponent(code)}" style="display:inline-block;background:#FFF7ED;color:#C2410C;font-size:11px;font-weight:700;padding:5px 12px;border-radius:9999px;text-decoration:none;">Share link</a>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
               </tr>
             </table>
           </td>
-        </tr>
-        <tr><td style="height:6px;"></td></tr>`
+        </tr>`
     )
     .join("");
 
   const html = wrapEmail(`
     <div style="background:#FFFFFF;border-radius:16px;padding:28px 24px;border:1px solid #E7E5E4;">
-      <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;">
-        Give your friends free meal plans
+      <div style="text-align:center;margin:0 0 12px;">
+        <img src="${appUrl}/characters/email/envelope.png" width="88" height="86" alt="" style="display:inline-block;width:88px;height:86px;">
+      </div>
+      <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
+        ${isSingle ? "You have an invite to give away" : `You have ${count} invites to give away`}
       </h1>
-      <p style="margin:0 0 16px;font-size:14px;color:#57534E;line-height:1.6;">
-        You just got your second weekly plan. If it's been saving you time, share the love &mdash; you have <strong style="color:#1C1917;">${referralCodes.length} referral code${referralCodes.length === 1 ? "" : "s"}</strong> to give away.
+      <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;text-align:center;">
+        Thanks for cooking with us. ${isSingle ? "Here's a code for someone" : `Here are ${count} codes for the people`} who'd rather stop asking &ldquo;what's for dinner?&rdquo; too.
       </p>
-      <p style="margin:0 0 12px;font-size:13px;font-weight:600;color:#1C1917;text-decoration:none;">Your codes:</p>
+
       <table width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 20px;">
         ${codeRows}
       </table>
+
       <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
-        Each code gives a friend a <strong style="color:#1C1917;">free year</strong> of weekly meal plans with recipes and a grocery list. Just send them the share link.
+        ${isSingle ? "Your code gives a friend" : "Each code gives a friend"} a <strong style="color:#1C1917;">free month</strong> of weekly meal plans &mdash; with recipes and a grocery list, personalized to how they actually eat. Send them the share link and they're set.
       </p>
+      <div style="text-align:center;">
+        <a href="${appUrl}/dashboard" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
+          ${isSingle ? "Grab my invite link" : "Grab my invite links"}
+        </a>
+        <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">
+          ${isSingle ? "Your code lives on your dashboard too." : "Your codes live on your dashboard too."}
+        </p>
+      </div>
     </div>
     ${buildFooter(email)}`);
 
-  return { subject: "You have referral codes to share", html };
+  return {
+    subject: isSingle
+      ? "You have a free month to give away"
+      : `You have ${count} free months to give away`,
+    html,
+  };
 }
 
 // ── Welcome: sent immediately when anyone finishes onboarding ──

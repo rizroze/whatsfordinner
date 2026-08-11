@@ -433,7 +433,7 @@
     "resubscribe": "Reassinar — $7.99/mês",
     "updatePayment": "Atualizar Pagamento",
     "inviteFriends": "Convidar Amigos",
-    "inviteDesc": "Compartilhe esses códigos com seus amigos. {count}/3 códigos gerados.",
+    "inviteDesc": "Cada código dá a um amigo o primeiro mês grátis. Você tem {count}.",
     "monthFree": "1 mês grátis",
     "used": "Usado",
     "copyLink": "Copiar link",

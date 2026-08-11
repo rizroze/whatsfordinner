@@ -433,7 +433,7 @@
     "resubscribe": "Yeniden Abone Ol — $7.99/ay",
     "updatePayment": "Ödemeyi Güncelle",
     "inviteFriends": "Arkadaşlarını Davet Et",
-    "inviteDesc": "Bu kodları arkadaşlarınızla paylaşın. {count}/3 kod oluşturuldu.",
+    "inviteDesc": "Her kod bir arkadaşına ilk ayı ücretsiz verir. {count} kodun var.",
     "monthFree": "1 ay ücretsiz",
     "used": "Kullanıldı",
     "copyLink": "Bağlantıyı kopyala",

@@ -446,7 +446,7 @@
     "resubscribe": "Resubscribe for $7.99/mo",
     "updatePayment": "Update Payment",
     "inviteFriends": "Invite Friends",
-    "inviteDesc": "Share these codes with friends. {count}/3 codes generated.",
+    "inviteDesc": "Each code gives a friend their first month free. You have {count}.",
     "monthFree": "1 month free",
     "used": "Used",
     "copyLink": "Copy link",

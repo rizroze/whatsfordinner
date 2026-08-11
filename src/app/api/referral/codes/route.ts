@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { generateReferralCodes } from "@/lib/promo";
+import { generateReferralCodes, referralCodeCount } from "@/lib/promo";
 import { rateLimit } from "@/lib/rate-limit";
 
-// GET /api/referral/codes — get or generate referral codes for yearly subscribers
+// GET /api/referral/codes — get or generate referral codes for active
+// subscribers. Yearly gets 3 invites, monthly and promo get 1.
 export async function GET(req: NextRequest) {
   try {
     const limited = rateLimit(req, "referral", 20, 60_000);
@@ -29,11 +30,11 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ error: "Active subscription required" }, { status: 403 });
     }
 
-    if (dbUser.plan_interval !== "yearly") {
-      return NextResponse.json({ error: "Referral codes are available for yearly subscribers" }, { status: 403 });
-    }
-
-    const codes = await generateReferralCodes(user.id, 3);
+    // Any active subscriber gets invites — yearly gets 3, everyone else 1.
+    const codes = await generateReferralCodes(
+      user.id,
+      referralCodeCount(dbUser.plan_interval)
+    );
     return NextResponse.json({ codes });
   } catch (error) {
     console.error("Referral codes error:", error);
