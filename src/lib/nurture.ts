@@ -66,6 +66,14 @@ function upgradeCtaLabel(fallback: string): string {
   return days ? `Start my ${days}-day free trial` : fallback;
 }
 
+// Same switch, for the copy *around* the button. The first trial sweep only
+// reached CTA labels, which left subjects and headlines still selling a price
+// (or an expiry that no longer happens) above a button offering a free trial.
+function trialCopy(withTrial: (days: number) => string, fallback: string): string {
+  const days = getTrialDays();
+  return days ? withTrial(days) : fallback;
+}
+
 // ── Meal type badge colors ──
 
 function mealBadge(type: string): string {
@@ -207,22 +215,28 @@ export function buildNurtureDay7Email(
         <img src="${getAppUrl()}/characters/email/pasta.png" width="88" height="66" alt="" style="display:inline-block;width:88px;height:66px;">
       </div>
       <h1 style="margin:0 0 16px;font-size:22px;font-weight:700;color:#1C1917;line-height:1.3;text-decoration:none;text-align:center;">
-        Your plan has expired
+        ${trialCopy((d) => `Take the full week for ${d} days, free`, "Your plan has expired")}
       </h1>
       ${mealSection}
       <p style="margin:0 0 20px;font-size:14px;color:#57534E;line-height:1.6;">
-        That was <strong style="color:#1C1917;">one day</strong>. Breakfast, lunch, and dinner &mdash; decided for you. Subscribers get this <strong style="color:#1C1917;">every day, every week</strong>. Fresh plan every Sunday, recipes included, grocery list ready.
+        That was <strong style="color:#1C1917;">one day</strong>. Breakfast, lunch, and dinner &mdash; decided for you. The full thing is <strong style="color:#1C1917;">every day, every week</strong>: fresh plan every Sunday, recipes included, grocery list ready.${trialCopy((d) => ` Try all of it free for ${d} days.`, "")}
       </p>
       <div style="text-align:center;">
         <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           ${upgradeCtaLabel("Go weekly &mdash; $5/mo ($59.99/yr)")}
         </a>
-        <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">That's less than a single takeout coffee.</p>
+        <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">${trialCopy((d) => `${d} days free. Cancel before it ends and you're not charged.`, "That's less than a single takeout coffee.")}</p>
       </div>
     </div>
     ${buildFooter(email)}`);
 
-  return { subject: "Your meal plan has expired", html };
+  return {
+    subject: trialCopy(
+      (d) => `A full week of dinners, free for ${d} days`,
+      "Your meal plan has expired"
+    ),
+    html,
+  };
 }
 
 // ── Day 14: Show their plan + blurred 4th day + feature highlights ──
@@ -334,7 +348,7 @@ export function buildNurtureDay14Email(
         <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           ${upgradeCtaLabel("Get your weekly plan &mdash; $5/mo")}
         </a>
-        <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">Save 37% with yearly ($59.99/yr)</p>
+        <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">${trialCopy((d) => `${d} days free, then $7.99/mo. Cancel anytime.`, "Save 37% with yearly ($59.99/yr)")}</p>
       </div>
     </div>
     <!-- Punchline outside card -->
@@ -482,7 +496,7 @@ function buildWeeklyInspirationEmail(
         <a href="${upgradeUrl("yearly", hasAccount)}" style="display:inline-block;background:#F97316;color:#FFFFFF;text-decoration:none;padding:12px 32px;border-radius:9999px;font-weight:700;font-size:15px;">
           ${upgradeCtaLabel("Get your weekly plan &mdash; $5/mo")}
         </a>
-        <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">Cancel anytime. Plans start instantly.</p>
+        <p style="margin:10px 0 0;font-size:12px;color:#A8A29E;text-decoration:none;">${trialCopy((d) => `${d} days free. Cancel anytime, plans start instantly.`, "Cancel anytime. Plans start instantly.")}</p>
       </div>
     </div>
     ${buildFooter(email)}`);
@@ -620,7 +634,7 @@ export function buildPreviewLeadEmail(
         </a>
       </div>
       <p style="margin:14px 0 0;text-align:center;font-size:12px;color:#A8A29E;text-decoration:none;">
-        Cancel anytime &middot; New plan every Sunday &middot; Grocery list included
+        ${trialCopy((d) => `${d} days free &middot; Cancel anytime &middot; New plan every Sunday`, "Cancel anytime &middot; New plan every Sunday &middot; Grocery list included")}
       </p>
     </div>
     ${buildFooter(email)}`);
